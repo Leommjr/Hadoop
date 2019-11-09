@@ -1,0 +1,2306 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Rafael Nornberg)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0040650753426121" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4559483Y9&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4559483Y9"><div class="infpessoa">
+<h2 class="nome">Rafael Nornberg<br>
+<br>
+<span align="center" style="font-weight: bold" class="texto">Bolsista de Doutorado do CNPq</span>
+</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0040650753426121</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 26/02/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Engenheiro Agrônomo formado no curso de Agronomia da Faculdade de Agronomia Eliseu Maciel (FAEM) Universidade Federal de Pelotas (UFPel). Mestre em Melhoramento Genético Vegetal do Programa de Pós-graduação em Agronomia PPGA-FITOMELHORAMENTO. O mestrado foi realizado com germinação na pré colheita do trigo.  Atualmente, bolsista CNPq de doutorado do Programa de Pós-graduação em Agronomia PPGA-FITOMELHORAMENTO. Realizando trabalhos principalmente nas seguintes culturas: trigo, aveia branca, aveia preta e arroz.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Rafael Nornberg</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">NORNBERG;Rafael;NORNBERG, R.;NORNBERG, Rafael;NÖRNBERG, RAFAEL</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FACULDADE  DE AGRONÔMIA ELISEU MACIEL, UNIVERSIDADE FEDERAL DE PELOTAS. <br class="clear" />Campus Universitário, Departamento Fitotecnia<br class="clear" />96010-900 - Pelotas, RS - Brasil - Caixa-postal: 354<br class="clear" />Telefone: (53) 32757263<br class="clear" />Fax: (53) 32759023<br class="clear" />URL da Homepage: <a target="blank" href="http://www.ufpel.edu.br/">http://www.ufpel.edu.br/</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Agronomia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2717555680999191'><img src='images/curriculo/logolattes.gif' /></a>Antonio Costa de Oliveira. <br class="clear" />Co-orientador: Luciano Carlos da Maia. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Agronomia<span class="ajaxCAPES" data-param="&codigoCurso=42003016010P7&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	<br class="clear" />Título: CARACTERIZAÇÃO E PREDIÇÃO DE GENITORES VISANDO À TOLERÂNCIA A GERMINAÇÃO NA PRÉ-COLHEITA EM TRIGO (Triticum aestivum L.),Ano de Obtenção: 2012.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2717555680999191'><img src='images/curriculo/logolattes.gif' /></a>Antonio Costa de Oliveira.<br class="clear" />Co-orientador: José Antonio Gonzalez da Silva. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. <br class="clear" />Palavras-chave: alfa-amilase; capacidade específica de combinação; capacidade geral de combinação; ambiente; dissimilaridade.<br class="clear" />Grande área: Ciências Agrárias / Área: Agronomia / Subárea: Fitotecnia - Fitomelhoramento. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Agronomia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	<br class="clear" />Título: Melhoramento Genético de Trigo (Triticum aestivum L.). <br class="clear" />Orientador: FERNANDO IRAJÁ FELIX DE CARVALHO. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Conjunto Agrotécnico Visconde da Graça.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Faculdade de Agronomia Eliseu Maciel.  (Carga horária: 3500h). <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Doutorado - CNPq, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Mestrado - CNPq, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio/Fitomelhoramento, Enquadramento Funcional: Bolsista de Iniciação Científica - PIBIC/CNPq, Carga horária: 16</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista de Iniciação Científica-FAPERGS, Carga horária: 16</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2005 - 03/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Departamento de solos, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Atuação em fertilidade do solo'>Atuação em fertilidade do solo</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2005 - 10/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Faculdade de Agronomia Eliseu Maciel, Departamento de Fitotecnia. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Melhoramento de plantas. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Plantécnica Soluções Agrícolas Ltda, PLANTÉCNICA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio curricular, Enquadramento Funcional: Comer de Prod. Agrop. e Prestação de Serviços, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio curricular obrigatório de final de curso realizado pelo CAVG</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2004 - 07/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , PLANTÉCNICA, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />ESTAGIO REALIZADO PELO CAVG. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Atua&ccedil;&atilde;o em fertilidade do solo'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atuação em fertilidade do solo</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Agronomia / Subárea: Fitotecnia/Especialidade: Melhoramento Vegetal. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LUCHE, HENRIQUE DE SOUZA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/s0100-204x2013000200006" target="_blank"></a>LUCHE, HENRIQUE DE SOUZA ; SILVA, JOSÉ ANTONIO GONZALEZ DA ; <b>NÖRNBERG, RAFAEL</b> ; SILVEIRA, SOLANGE FERREIRA SILVEIRA DA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; GROLI, EDER LICIERI ; MAIA, LUCIANO CARLOS DA ; OLIVEIRA, ANTÔNIO COSTA DE . Desempenho per se e parâmetros genéticos de linhagens de trigo com expressão do caráter 'stay&#8209;green'. Pesquisa Agropecuária Brasileira (1977. Impressa)<sup><img id='0100204X_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100204X' /></sup>, v. 48, p. 167-173, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/s0100-204x2013000200006&issn=0100204X&volume=48&issue=&paginaInicial=167&titulo=Desempenho per se e parâmetros genéticos de linhagens de trigo com expressão do caráter 'stay&#8209;green'&sequencial=1&nomePeriodico=Pesquisa Agropecuária Brasileira (1977. Impressa)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VALÉRIO, IGOR PIREZ</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/s0103-90162013000300006" target="_blank"></a>VALÉRIO, IGOR PIREZ ; CARVALHO, FERNANDO IRAJÁ FÉLIX DE ; BENIN, Giovani ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; SILVA, JOSÉ ANTONIO GONZALEZ DA ; <b>NORNBERG, Rafael</b> ; HAGEMANN, THAIS ; LUCHE, HENRIQUE DE SOUZA ; OLIVEIRA, ANTÔNIO COSTA DE . Seeding density in wheat: the more, the merrier?. Scientia Agrícola (USP. Impresso)<sup><img id='01039016_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01039016' /></sup>, v. 70, p. 176-184, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/s0103-90162013000300006&issn=01039016&volume=70&issue=&paginaInicial=176&titulo=Seeding density in wheat: the more, the merrier?&sequencial=2&nomePeriodico=Scientia Agrícola (USP. Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, ANTÔNIO COSTA DE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S1984-70332012000200010" target="_blank"></a>OLIVEIRA, ANTÔNIO COSTA DE ; CARVALHO, FERNANDO IRAJÁ FÉLIX DE ; MAIA, LUCIANO CARLOS DA ; SILVA, JOSÉ ANTÔNIO GONZALEZ DA ; CRESTANI, Maraisa ; <b>NORNBERG, Rafael</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; BENIN, Giovani . FAEM Carlasul: new white oat cultivar with high grain yield. Crop Breeding and Applied Biotechnology (Online)<sup><img id='19847033_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19847033' /></sup>, v. 12, p. 156-159, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S1984-70332012000200010&issn=19847033&volume=12&issue=&paginaInicial=156&titulo=FAEM Carlasul: new white oat cultivar with high grain yield&sequencial=3&nomePeriodico=Crop Breeding and Applied Biotechnology (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, Antonio Costa de</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; CARVALHO, Fernando Irajá Felix de ; MAIA, Luciano C. da ; SILVA, José Antônio Gonzales da ; CRESTANI, Maraisa ; <b>NORNBERG, Rafael</b> ; SCHMIDT, Douglas A M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; BENIN, Giovani . FAEM Chiarasul: new white oat cultivar with high yield and grainprocessing. Crop Breeding and Applied Biotechnology (Online)<sup><img id='19847033_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19847033' /></sup>, v. 12, p. 289-292, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19847033&volume=12&issue=&paginaInicial=289&titulo=FAEM Chiarasul: new white oat cultivar with high yield and grainprocessing&sequencial=4&nomePeriodico=Crop Breeding and Applied Biotechnology (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RIBEIRO, Guilherme</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S1984-70332011000200004" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; CRESTANI, Maraisa ; <b>NORNBERG, Rafael</b> ; LUCHE, HENRIQUE DE SOUZA ; MEZZALIRA, Itamara ; CARVALHO, FERNANDO IRAJÁ FÉLIX DE ; OLIVEIRA, ANTÔNIO COSTA DE . Diallel analysis in white oat cultivars subjected to water stress. Crop Breeding and Applied Biotechnology (Online)<sup><img id='19847033_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19847033' /></sup>, v. 11, p. 125-132, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S1984-70332011000200004&issn=19847033&volume=11&issue=&paginaInicial=125&titulo=Diallel analysis in white oat cultivars subjected to water stress&sequencial=5&nomePeriodico=Crop Breeding and Applied Biotechnology (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CRESTANI, Maraisa</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>CRESTANI, Maraisa ; SILVA, José Antônio Gonzales da ; TESSMANN, Elisane W. ; SILVEIRA, Solange F. da S. ; <b>NORNBERG, Rafael</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . PROTOCOLOS PARA SELEÇÃO QUANTO À TOLERÂNCIA AO ALUMÍNIO EM AVEIA SOB CULTIVO HIDROPÔNICO. Revista Brasileira de Agrociencia (UFPEL)<sup><img id='01048996_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01048996' /></sup>, v. 17, p. 311-320, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01048996&volume=17&issue=&paginaInicial=311&titulo=PROTOCOLOS PARA SELEÇÃO QUANTO À TOLERÂNCIA AO ALUMÍNIO EM AVEIA SOB CULTIVO HIDROPÔNICO&sequencial=6&nomePeriodico=Revista Brasileira de Agrociencia (UFPEL)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SILVEIRA, Gustavo da</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S0006-87052010000400007" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; MOLITERNO, ENRIQUE ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; CARVALHO, FERNANDO IRAJÁ FÉLIX DE ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; <b>NORNBERG, Rafael</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; MEZZALIRA, Itamara . Variabilidade genética para características agronômicas superiores em cruzamentos biparentais de aveia preta. Bragantia (São Paulo, SP. Impresso)<sup><img id='00068705_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00068705' /></sup>, v. 69, p. 823-832, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S0006-87052010000400007&issn=00068705&volume=69&issue=&paginaInicial=823&titulo=Variabilidade genética para características agronômicas superiores em cruzamentos biparentais de aveia preta&sequencial=7&nomePeriodico=Bragantia (São Paulo, SP. Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VALÉRIO, Igor P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		VALÉRIO, Igor P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; CARVALHO, Fernando Irajá Felix de ; SOUZA, Velci Q. de ; BENIN, Giovani ; SCHMIDT, Douglas A M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <b>NORNBERG, Rafael</b> ; LUCHE, Henrique de S. . Combining ability of wheat genotypes in two models of diallel analyses. Crop Breeding and Applied Biotechnology (Online)<sup><img id='19847033_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19847033' /></sup>, v. 9, p. 100-107, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19847033&volume=9&issue=&paginaInicial=100&titulo=Combining ability of wheat genotypes in two models of diallel analyses&sequencial=8&nomePeriodico=Crop Breeding and Applied Biotechnology (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG, Rafael</b> ; LUCHE, Henrique de S. ; TESSMANN, Elisane W. ; KAVALCO, Sydney A. F. ; ZIMMER, Cristiano M. ; GROLI, Eder L. ; FIGUEIREDO, Ricardo ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Variabilidade quanto à tolerância a germinação na pré-colheita em populações de trigo. In: 7º Congresso Brasileiro de Melhoramento de Plantas, 2013, Uberlandia. 7º Congresso Brasileiro de Melhoramento de Plantas, 2013. p. 2739-2742. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique de S. ; <b>NORNBERG, Rafael</b> ; SANTOS, Rodrigo Lisbôa ; OLIVEIRA, Victoria F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; HAWERROT, Maraisa C. ; SILVA, José Antônio Gonzales da ; MAIA, Luciano C. da ; OLIVEIRA, Antonio C de . Resposta a Seleção em Gerações Precoces de Aveia Branca. In: 7º Congresso Brasileiro de Melhoramento de Plantas, 2013, Uberlandia. 7º Congresso Brasileiro de Melhoramento de Plantas, 2013. p. 2755-2758. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG, Rafael</b> ; LUCHE, Henrique de S. ; KAVALCO, Sydney A. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; GIRARDON, Luis F. C. ; SILVEIRA, Solange F. da S. ; TESSMANN, Elisane W. ; ZIMMER, Cristiano M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Avaliação de adaptabilidade e estabilidade em genótipos de aveia branca conduzidos em três anos na região de Pelotas. In: XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2011, PASSO FUNDO. XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA - RESULTADOS EXPERIMENTAIS. PASSO FUNDO: UNIVERSIDADE DE PASSO FUNDO, 2011. p. 61-65. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KAVALCO, Sydney A. F. ; LUCHE, Henrique de S. ; <b>NORNBERG, Rafael</b> ; ZIMMER, Cristiano M. ; SILVEIRA, Solange F. da S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; WOYANN, Leomar G. ; FREO, Fernando ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Correlações entre caracteres fenotípicos do ensaio Brasileiro de cultivares de aveia branca para três anos de avaliação na região de Pelotas. In: XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2011, PASSO FUNDO. XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA - RESULTADOS EXPERIMENTAIS. PASSO FUNDO: UNIVERSIDADE DE PASSO FUNDO, 2011. p. 75-79. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GROLI, Eder L. ; ZIMMER, Cristiano M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; WOYANN, Leomar G. ; FREO, Fernando ; SOUZA, Ederson L. ; <b>NORNBERG, Rafael</b> ; KAVALCO, Sydney A. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Desempenho de cultivares de aveia branca em relação a emissão de afilhos totais durante seu ciclo de desenvolvimento. In: XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2011, PASSO FUNDO. XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA - RESULTADOS EXPERIMENTAIS. PASSO FUNDO: UNIVERSIDADE DE PASSO FUNDO, 2011. p. 80-84. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; LUCHE, Henrique de S. ; WOYANN, Leomar G. ; GIRARDON, Luis F. C. ; GROLI, Eder L. ; SILVA, Patricia S. ; FREO, Fernando ; SILVEIRA, Solange F. da S. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Estimativa da distância genética baseada em caracteres morfológicos de genótipos de aveia branca na região de Pelotas. In: XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2011, PASSO FUNDO. XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA - RESULTADOS EXPERIMENTAIS. PASSO FUNDO: UNIVERSIDADE DE PASSO FUNDO, 2011. p. 267-271. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WOYANN, Leomar G. ; FREO, Fernando ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; GROLI, Eder L. ; PAIVA, Rodrigo P. ; GIRARDON, Luis F. C. ; ZIMMER, Cristiano M. ; <b>Rafael</b> ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Ensaio preliminar interno de linhagens de aveia branca - EPILA, Pelotas/ RS - 2010. In: XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2011, PASSO FUNDO. XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA - RESULTADOS EXPERIMENTAIS. PASSO FUNDO: UNIVERSIDADE DE PASSO FUNDO, 2011. p. 485-487. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; SILVEIRA, Solange F. da S. ; CIMA, Franciele F. ; LUCHE, Henrique de S. ; <b>NORNBERG</b> ; HAWERROTH, Fernando J. ; GUTKOSKI, Luis C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Relação do comportamento de variáveis climáticas com o desempenho de caracteres relacionados ao rendimento industrial e à qualidade química de grãos de aveia branca. In: XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2011, PASSO FUNDO. XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA - RESULTADOS EXPERIMENTAIS. PASSO FUNDO: UNIVERSIDADE DE PASSO FUNDO, 2011. p. 542-546. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KAVALCO, Sydney A. F. ; LUCHE, Henrique de S. ; <b>NORNBERG</b> ; SILVEIRA, Solange F. da S. ; FREO, Fernando ; WOYANN, Leomar G. ; GROLI, Eder L. ; SOUZA, Ederson L. ; TESSMANN, Elisane W. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Caracterização e Estudo do Efeito do Estresse por Encharcamento Sobre Genótipos de Trigo Visando à Tolerância. In: 6º CONGRESSO BRASILEIRO DE MELHORAMENTO DE PLANTAS, 2011, BÚZIOS. 6º CONGRESSO BRASILEIRO DE MELHORAMENTO DE PLANTAS, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMMER, Cristiano M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; TESSMANN, Elisane W. ; LUCHE, Henrique de S. ; CERIOLI, Murilo F. ; SILVEIRA, Solange F. da S. ; WOYANN, Leomar G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; MEZZALIRA, Itamara ; <b>NORNBERG</b> ; PAIVA, Rodrigo P. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Correlação entre caracteres de interesse agronômico em aveia branca (Avena sativa L.) e a predição de cruzamentos superiores. In: XXX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2010, SÃO CARLOS. XXX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA - RESULTADOS EXPERIMENTAIS. SÃO CARLOS: EMBRAPA, 2010. p. 38-42. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVEIRA, Solange F. da S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <b>NORNBERG</b> ; PAIVA, Rodrigo P. ; ZIMMER, Cristiano M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; TESSMANN, Elisane W. ; SILVA, Patricia S. ; SILVA, Juliana P. da ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Correlações entre caracteres avaliados em genótipos de aveia branca submetidos ao estresse por Al+3 sob diferentes doses e protocolos. In: XXX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2010, SÃO CARLOS. XXX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA - RESULTADOS EXPERIMENTAIS. SÃO CARLOS: EMBRAPA, 2010. p. 54-58. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; HAWERROTH, Fernando J. ; <b>NORNBERG</b> ; HAGEMANN, Thaís R. ; SILVEIRA, Solange F. da S. ; MEZZALIRA, Itamara ; WOYANN, Leomar G. ; CERIOLI, Murilo F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Influencia do ambiente sobre caracteres de interesse agronômico em cultivares de aveia branca conduzidas  em Capão do Leão- RS, nos anos de 2007, 2008 e 2009. In: XXX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2010, SÃO CARLOS. XXX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA - RESULTADOS EXPERIMENTAIS. SÃO CARLOS: EMBRAPA, 2010. p. 140-143. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; HAGEMANN, Thaís R. ; PAIVA, Rodrigo P. ; CERIOLI, Murilo F. ; LUCHE, Henrique de S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . AÇÃO DO AGENTE MUTAGÊNICO QUÍMICO METIL METANO SULFONADO (MMS) NA GERAÇÃO M2 DE AVEIA PRETA (Avena strigosa Schreb.). In: XVIII Congresso de Iniciação Científica (CIC) - Pelotas - RS, 2009, PELOTAS. XVIII Congresso de Iniciação Científica (CIC) XI ENPOS e I MOSTRA CIENTÌFICA - Pelotas - RS. Pelotas: UFPel, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEZZALIRA, Itamara ; SCHMIDT, Douglas A M ; <b>NORNBERG</b> ; CERIOLI, Murilo F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; SILVEIRA, Solange F. da S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> . Comportamento de genótipos de trigo conduzidos em distintos ambientes e submetidos a doses crescentes de nitrogênio. In: III REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE, 2009, VERANÓPOLIS. III REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE - ATA E RESUMOS, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; SOUZA, Moacil A. ; <b>NORNBERG</b> ; WOYANN, Leomar G. ; TESSMANN, Elisane W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Predição de Ganhos Genéticos Utilizando o Índice Clássico de Seleção em Famílias de Trigo (Triticum aestivum L.). In: 5º CONGRESSO BRASILEIRO DE MELHORAMENTO DE PLANTAS, 2009, GUARAPARI. 5º CONGRESSO BRASILEIRO DE MELHORAMENTO DE PLANTAS, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9286376532850552" target="_blank">VALERIO, Igor P</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; SCHMIDT, Douglas A M ; QUEIROZ, Velci. ; FONSECA, Daniel Andrei Robe ; <b>NORNBERG</b> . Comportamento do Número de Afilhos Durante os Estádios de Crescimento em Diferentes Densidades. In: IV Congresso Brasileiro de Melhoramento de Plantas, 2007, São Lourenço - MG. IV Congresso Brasileiro de Melhoramento de Plantas, 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; KAVALCO, Sydney A. F. ; ZIMMER, Cristiano M. ; TESSMANN, Elisane W. ; BUSANELLO, Carlos ; <b>NORNBERG, Rafael</b> ; MOLITERNO, Enrique. ; SILVA, José Antônio Gonzales da ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . AVALIAÇÃO DA INTERAÇÃO GENÓTIPO AMBIENTE DE CULTIVARES ELITES DE AVEIA BRANCA PARA CARACTERES AGRONOMICOS. In: XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013, Pelotas. XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GROLI, Eder L. ; <b>NORNBERG, Rafael</b> ; LUCHE, Henrique de S. ; ALMEIDA, Helaine C. F. ; OLIVEIRA, Victoria F. ; OLIVO, Mateus ; SILVA, José Antônio Gonzales da ; MAIA, Luciano C. da ; OLIVEIRA, Antonio C de . AVALIAÇÃO DA INTERAÇÃO GENÓTIPO AMBIENTE DE CULTIVARES ELITES DE AVEIA BRANCA PARA CARACTERES AGRONOMICOS. In: XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013, Pelotas. XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique de S. ; <b>NORNBERG, Rafael</b> ; WOYANN, Leomar G. ; SANTOS, Rodrigo Lisbôa ; ARGE, Luis W. P. ; KAVALCO, Sydney A. F. ; SILVA, José Antônio Gonzales da ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . DESEMPENHO DE CULTIVARES BRASILEIRAS DE AVEIA BRANCA LANÇADAS ENTRE 1981 E 2011. In: XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013, Pelotas. XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG, Rafael</b> ; LUCHE, Henrique de S. ; ZIMMER, Cristiano M. ; SANTOS, Rodrigo Lisbôa ; POLESELLO, Michel Z. ; SILVA, José Antônio Gonzales da ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . DISSIMILARIDADE GENÉTICA E DESEMPENHO DE GENÓTIPOS DE AVEIA BRANCA. In: XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013, Pelotas. XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KAVALCO, Sydney A. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; GROLI, Eder L. ; DANIELOWSKI, Rodrigo ; THUROW, Liamara B. ; <b>NORNBERG, Rafael</b> ; MOLITERNO, Enrique. ; SILVA, José Antônio Gonzales da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . VARIÁVEIS CANÔNICAS EM GENÓTIPOS DE AVEIA PRETA. In: XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013, Pelotas. XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, Rodrigo Lisbôa ; FIGUEIREDO, Ricardo ; POLESELLO, Michel Z. ; OLIVEIRA, Victoria F. ; KELLING, Pagiel M. ; LUCHE, Henrique de S. ; <b>NORNBERG, Rafael</b> ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ENSAIO BRASILEIRO DE CULTIVARES DE AVEIA BRANCA   EBCA, PELOTAS/RS   2012. In: XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013, Pelotas. XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POLESELLO, Michel Z. ; <b>NÖRNBERG, RAFAEL</b> ; SANTOS, Rodrigo Lisbôa ; FIGUEIREDO, Ricardo G. ; SILVA, Raíssa M. ; CARBONARI, Henrique ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ENSAIO BRASILEIRO E REGIONAL DE LINHAGENS DE AVEIA BRANCA   EBRLA, PELOTAS/RS - 2012. In: XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013, Pelotas. XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FIGUEIREDO, Ricardo G. ; LUCHE, Henrique de S. ; <b>NÖRNBERG, RAFAEL</b> ; SANTOS, Rodrigo Lisbôa ; POLESELLO, Michel Z. ; KELLING, Pagiel ; ARRIEN, Leonardo ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ENSAIO PRELIMINAR INTERNO DE LINHAGENS DE AVEIA BRANCA   EPILA, PELOTAS/RS   2012. In: XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013, Pelotas. XXXIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; ZIMMER, Cristiano M. ; KAVALCO, Sydney A. F. ; <b>NORNBERG, Rafael</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; MAIA, Luciano C. da . DESEMPENHO AGRONÔMICOS E DISTÂNCIA GENÉTICA ENTRE CULTIVARES DE TRIGO NO MUNICÍPIO DE PELOTAS - RS. In: 7ª Reunião da Comissão Brasileira de Pesquisa de Trigo e Triticale (RCBPTT), 2013, Londrina. 7ª Reunião da Comissão Brasileira de Pesquisa de Trigo e Triticale (RCBPTT), 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique de S. ; SANTOS, Rodrigo Lisbôa ; <b>NORNBERG, Rafael</b> ; MAIA, Luciano C. da ; SILVA, José Antônio Gonzales da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . EFEITO DE SELEÇÃO PRECOCE EM POPULAÇÕES SEGREGANTES DE AVEIA BRANCA. In: XIV ENCONTRO DE PÓS-GRADUAÇÃO, 2012, Pelotas. XIV ENCONTRO DE PÓS-GRADUAÇÃO, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMMER, Cristiano M. ; TESSMANN, Elisane W. ; GROLI, Eder L. ; DANIELOWSKI, Rodrigo ; OLIVO, Mateus ; <b>NORNBERG, Rafael</b> ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . RESPOSTA DE CULTIVARES DE AVEIA BRANCA PARA O CARÁTER COMPRIMENTO RADICULAR SOB ESTRESSE POR Mn2+ EM CULTIVO HIDROPÔNICO. In: XXXII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2012, Passo Fundo. XXXII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMMER, Cristiano M. ; FIGUEIREDO, Ricardo ; SANTOS, Rodrigo Lisbôa ; WOYANN, Leomar G. ; WOLTER, Daiana D. ; <b>NORNBERG, Rafael</b> ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ENSAIO BRASILEIRO DE LINHAGENS DE AVEIA BRANCA - EBLA, PELOTAS/RS - 2011. In: XXXII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2012, Passo Fundo. XXXII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GROLI, Eder L. ; ZIMMER, Cristiano M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; SANTOS, Rodrigo Lisbôa ; WOYANN, Leomar G. ; ALMEIDA, Helaine C. F. ; TESSMANN, Elisane W. ; <b>NORNBERG, Rafael</b> ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ENSAIO REGIONAL DE LINHAGENS DE AVEIA BRANCA   ERLA, PELOTAS/RS   2011. In: XXXII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2012, Passo Fundo. XXXII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique de S. ; GROLI, Eder L. ; FIGUEIREDO, Ricardo ; <b>NORNBERG, Rafael</b> ; KAVALCO, Sydney A. F. ; VOELZ, Jackeline E. ; CRESTANI, Maraisa ; SOUZA, Clóvis A. ; SILVA, José A Gonzalez ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . IMPLICAÇÕES DO USO DE REGULADOR DE CRESCIMENTO SOBRE CARACTERES MORFOLÓGICO EM AVEIA BRANCA. In: XXXII Reunião da Comissão Brasileira de Aveia, 2012, Passo Fundo. XXXII Reunião da Comissão Brasileira de Aveia, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CRESTANI, Maraisa ; TESSMANN, Elisane W. ; SILVEIRA, Solange F. da S. ; LUCHE, Henrique de S. ; <b>NORNBERG, Rafael</b> ; CERIOLI, Murilo F. ; KAVALCO, Sydney A. F. ; SILVA, José Antônio Gonzales da ; GUTKOSKI, Luiz C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> . RELAÇÃO ENTRE O DESEMPENHO DE GERAÇÕES F1 E F2 DE AVEIA BRANCA PARA A QUALIDADE QUÍMICA DE GRÃOS. In: XXXII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2012, Passo Fundo. XXXII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, Rodrigo Lisbôa ; LUCHE, Henrique de S. ; TESSMANN, Elisane W. ; <b>NORNBERG, Rafael</b> ; SILVEIRA, Solange F. da S. ; CARDOSO, Alexandro. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . DESEMPENHO PRODUTIVO DE LINHAGENS DE AVEIA BRANCA EM DIFERENTES ANOS DE CULTIVO NO AMBIENTE PELOTAS/RS. In: XXXII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2012, Passo Fundo. XXXII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG, Rafael</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; SANTOS, Railson S. ; LUCHE, Henrique de S. ; CRESTANI, Maraisa ; SOUZA, Clóvis A. ; SILVA, José Antônio Gonzales da ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ESTUDO DA CAUSA E EFEITO ENTRE CARACTERES AGRONÔMICOS NA CULTIVAR DE AVEIA BRANCA BARBARASUL. In: XXXII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2012, Passo Fundo. XXXII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMMER, Cristiano M. ; GROLI, Eder L. ; <b>NORNBERG, Rafael</b> ; DANIELOWSKI, Rodrigo ; WOLTER, Daiana D. ; MAIA, Luciano C. da . ESTABILIDADE DE CARACTERES DE INTERESSE AGRONÔMICO E RELACIONADOS À GERMINAÇÃO NA PRÉ-COLHEITA EM TRIGO. In: VI Reunião da comissão Brasileira de Pesquisa de Trigo e Triticale, 2012, Lodrina - PR. VI Reunião da comissão Brasileira de Pesquisa de Trigo e Triticale, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; KAVALCO, Sydney A. F. ; FIGUEIREDO, Ricardo ; GROLI, Eder L. ; <b>NORNBERG, Rafael</b> ; MAIA, Luciano C. da . ESTIMATIVAS DE CORRELAÇÃO ENTRE CARACTERES DE INTERESSE AGRONÔMICO EM PROGÊNIES DE TRIGO (Triticum aestivum L.). In: VI Reunião da Comissão Brasileira de Pesquisa de Trigo e Triticale, 2012, Londrina. VI Reunião da Comissão Brasileira de Pesquisa de Trigo e Triticale, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG, Rafael</b> ; ZIMMER, Cristiano M. ; TESSMANN, Elisane W. ; LUCHE, Henrique de S. ; SANTOS, Rodrigo Lisbôa ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . CARACTERES DE PRÉ-COLHEITA E AGRONOMICOS EM TRIGO NO DIRECIONAMENTO DE HIBRIDAÇÕES. In: VI Reunião da Comissão Brasileira de Pesquisa de Trigo e Triticale, 2012, Londrina - PR. VI Reunião da Comissão Brasileira de Pesquisa de Trigo e Triticale, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GROLI, Eder L. ; ZIMMER, Cristiano M. ; <b>NORNBERG, Rafael</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . DESEMPENHO DE CARACTERES DE INTERESSE AGRONÔMICOS E DE GERMINAÇÃO NA PRÉ-COLHEITA EM TRIGO. In: VI Reunião da Comissão Brasileira de Pesquisa de Trigo e Triticale, 2012, Londrina - PR. VI Reunião da Comissão Brasileira de Pesquisa de Trigo e Triticale, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMMER, Cristiano M. ; POLESELLO, Michel Z. ; <b>NORNBERG, Rafael</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . DESEMPENHO AGRONÔMICO DE LINHAGENS E CULTIVARES DE TRIGO (Triticum aestivum L.) NO MUNICÍPIO DE CAPÃO DO LEÃO-RS. In: 21º Congresso de Iniciação Científica e 4º Mostra Científica, 2012, Pelotas. 21º Congresso de Iniciação Científica e 4º Mostra Científica, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GROLI, Eder L. ; SANTOS, Rodrigo Lisbôa ; <b>NORNBERG, Rafael</b> ; TESSMANN, Elisane W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ANÁLISE FATORIAL DE COMBINAÇÕES DE TRIGO BASEADAS EM DIFERENTES FORMAS DE SELEÇÃO. In: 21º Congresso de Iniciação Científica e 4º Mostra Científica, 2012, Pelotas. 21º Congresso de Iniciação Científica e 4º Mostra Científica, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; GROLI, Eder L. ; HAGEMANN, Thaís R. ; SILVA, Cristiano L. da ; <b>NORNBERG</b> ; FREO, Fernando ; BUSANELLO, Carlos ; MAIA, Luciano C. da ; BENIN, Giovani ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Dissimilaridade Genética de Oito Genitores de Trigo Estimados em dois Ambientes. In: V REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE, 2011, DOURADOS. V REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; LUCHE, Henrique de S. ; KAVALCO, Sydney A. F. ; WOYANN, Leomar G. ; FREO, Fernando ; GROLI, Eder L. ; ROSA, André C. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Estudo da Expressão do Caráter Germinação na Espiga em Genótipos de Trigo (Triticum aestivum L.) Brasileiros. In: V REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE, 2011, DOURADOS. V REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMMER, Cristiano M. ; <b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Tolerância à Germinação na Espiga e Predição de Genitores de Trigo (Triticum aestivum L.) com Base na Dissimilaridade Genética. In: XX CONGRESSO DE INICIAÇÃO CIENTÍFICA E  III MOSTRA CIENTÍFICA UFPel, 2011, PELOTAS. XX CONGRESSO DE INICIAÇÃO CIENTÍFICA E  III MOSTRA CIENTÍFICA UFPel, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KAVALCO, Sydney A. F. ; <b>NORNBERG</b> ; LUCHE, Henrique de S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; ZIMMER, Cristiano M. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Efeito do Estresse por Encharcamento no Ciclo Reprodutivo, no Número de Afilhos e no Rendimento de Grãos em Trigo. In: V REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE, 2011, DOURADOS. V REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; <b>NORNBERG, Rafael</b> ; GROLI, Eder L. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Avaliação de combinações de trigo baseada em diferentes seleções para o caráter número de afilhos. In: XX CONGRESSO DE INICIAÇÃO CIENTÍFICA E  III MOSTRA CIENTÍFICA UFPel, 2011, Pelotas. XX CONGRESSO DE INICIAÇÃO CIENTÍFICA E  III MOSTRA CIENTÍFICA UFPel, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WACHHOLZ, Michel ; <b>NORNBERG</b> ; HAGEMANN, Thaís R. ; ZIMMER, Cristiano M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Eficiência no emprego do carater afilhamento no melhoramento de trigo(Triticum aestivum L.). In: XIX Congresso de Iniciação Científica, 2011, Pelotas. XIX Congresso de Iniciação Científica, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMMER, Cristiano M. ; LUCHE, Henrique de S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <b>NORNBERG, Rafael</b> ; HAGEMANN, Thaís R. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Avaliação e caracterização de genótipos de trigo (Triticum aestivum L.) na região de Pelotas-RS. In: IV REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE, 2011, CASCAVEL. IV REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WACHHOLZ, Michel ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; CERIOLI, Murilo F. ; GIRARDON, Luis F. C. ; MEZZALIRA, Itamara ; <b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; HAGEMANN, Thaís R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Emprego de caracteres morfológicos na estimativa da distância genética de genótipos de trigo (Triticum sp.). In: IV REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE, 2010, CASCAVEL. IV REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; WACHHOLZ, Michel ; ZIMMER, Cristiano M. ; PAIVA, Rodrigo P. ; TESSMANN, Elisane W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; HAGEMANN, Thaís R. ; <b>NORNBERG</b> ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Correlação entre caracteres de interesse agronômico em linhagens de trigo (Triticum aestivum L.). In: IV REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE, 2010, CASCAVEL. IV REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WACHHOLZ, Michel ; <b>NORNBERG, Rafael</b> ; HAGEMANN, Thaís R. ; ZIMMER, Cristiano M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Eficiência no emprego do carater afilhamento no melhoramento de trigo (Triticum aestivum L.). In: XIX Congresso de Iniciação Científica, 2010, Pelotas. XIX Congresso de Iniciação Científica, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <b>NORNBERG</b> ; LUCHE, Henrique de S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; SILVA, José Antônio Gonzales da ; GUTKOSKI, Luis C. ; SARTORI, João F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . QUALIDADE QUÍMICA DE GRÃOS DE GENÓTIPOS DE AVEIA BRANCA CONDUZIDOS  EM DIFERENTES AMBIENTES DE CULTIVO. In: XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2009, PORTO ALEGRE. XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. PORTO ALEGRE: UNIVBERSIDADE FEDERAL DO RIO GRANDE DO SUL, 2008. p. 2-5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; CERIOLI, Murilo F. ; TESSMANN, Elisane W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; SOUZA, Tatiane M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . RESPOSTA DE GENITORES DE AVEIA BRANCA (Avena sativa) AO MANGANÊS EM CULTIVO HIDROPÔNICO. In: XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2009, PORTO ALEGRE. XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. PORTO ALEGRE: UNIVERSIDADE FEDERALDO RIO GRANDE DO SUL, 2009. p. 36-39. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WOYANN, Leomar G. ; MAIA, Luciano C. da ; SILVA, Juliana P. da ; MEZZALIRA, Itamara ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; LUCHE, Henrique de S. ; <b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . OCORRÊNCIA DE TRANSPOSONS E RETROTRANSPOSONS EM BANCO DE DADOS DE SEQUENCIAS EST (EXPRESSED SEQUENCE TAG) DE AVEIA. In: XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2009, PORTO ALEGRE. XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. PORTO ALEGRE: UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL, 2009. p. 186-189. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVEIRA, Solange F. da S. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; SILVA, Juliana P. da ; TESSMANN, Elisane W. ; <b>NORNBERG</b> ; LUCHE, Henrique de S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ESTUDO IN SILICO DA CONSERVAÇÃO DE GENES ENTRE OS GENOMAS DE AVEIA E ARROZ. In: XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2009, PORTO ALEGRE. XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. PORTO ALEGRE: UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL, 2009. p. 190-192. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; LUCHE, Henrique de S. ; <b>NORNBERG</b> ; TESSMANN, Elisane W. ; SILVEIRA, Solange F. da S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . CORRELAÇÃO FENOTÍPICA EM CARACTERES RELACIONADOS AO RENDIMENTO DE GRÃOS EM GENÓTIPOS DE AVEIA BRANCA CONDUZIDOS EM DIFERENTES SISTEMAS DE SEMEADURA. In: XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2009, PORTO ALEGRE. XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. PORTO ALEGRE: UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL, 2009. p. 222-225. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique de S. ; WOYANN, Leomar G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; <b>NORNBERG</b> ; MEZZALIRA, Itamara ; SILVEIRA, Solange F. da S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> . CORRELAÇÃO FENOTÍPICA ENTRE CARACTERES COMPONENTES DO RENDIMENTO DE GRÃOS E CARACTERES FORRAGEIROS EM GENÓTIPOS MUTANTES DE AVEIA PRETA. In: XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2009, PORTO ALEGRE. XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. PORTO ALEGRE: UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL, 2009. p. 412-414. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; WOYANN, Leomar G. ; LUCHE, Henrique. ; <b>NORNBERG</b> ; STUMPF, Marcelo T. ; CERIOLI, Murilo F. ; SILVEIRA, Gustavo ; KOPP, Mauricio Marini. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Eficiência da Técnica de Hibridação Artificial e Determinação em Dias do Intervalo entre a Emasculação e a Polinização para Obtenção de Sementes F1 de Aveia Branca. In: XXVIII Reunião da Comissão Brasileira de Pesquisa de Aveia Branca, 2008, Pelotas. XXVIII Reunião da Comissão Brasileira de Pesquisa de Aveia Branca. Pelotas - RS: Universidade Federal de Pelotas - UFPel, 2008. p. 73-75. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <b>NORNBERG</b> ; LUCHE, Henrique. ; WOYANN, Leomar G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; STUMPF, Marcelo T. ; SILVEIRA, Gustavo ; SCHMIDT, Douglas A M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Estimativa da Distância Genética entre 33 Genótipos Nacionais e Estrangeiros da Aveia Branca Estimada através de Caracteres Morfológicos. In: XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas - RS, 2008, pelotas. XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas - RS. Pelotas: Universidade Federal de Pelotas - UFPel, 2008. p. 76-79. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique. ; WOYANN, Leomar ; <b>NORNBERG</b> ; STUMPF, Marcelo T. ; CERIOLI, Murilo F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; SILVEIRA, Gustavo ; SCHMIDT, Douglas A M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Eficiência do Emprego de Caracteres Morfológicos na Estimativa da Distância Genética de Genótipos de Aveia Branca. In: XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS, 2008, Pelotas. XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS. Pelotas: Universidade Federal de Pelotas - UFPel, 2008. p. 87-90. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; HAWERROTH, Fernando J. ; SILVA, José Antônio Gonzales da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; SCHMIDT, Douglas A M ; WOYANN, Leomar G. ; <b>NORNBERG</b> ; STUMPF, Marcelo T. ; TESSMANN, Elisane W. . Correlação entre Variàveis Climáticas e Caracteres Agronômicos em Genótipos de Aveia Branca Conduzidos em Pelotas-RS. In: XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS, 2008, Pelotas. XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS. Pelotas: Universidade Federal de Pelotas - UFPel, 2008. p. 120-123. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STUMPF, Marcelo T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; VALÉRIO, Igor P. ; MAIA, Luciano C. da ; SCHMIDT, Douglas A M ; <b>NORNBERG</b> ; LUCHE, Henrique. . Análise de Estimativa e Adaptabilidade em Genótipos de Aveia no Munícipio De Pelotas/RS. In: XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS, 2008, Pelotas. XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS. Pelotas: Universidade Federal de Pelotas - UFPel, 2008. p. 136-138. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; WOYANN, Leomar G. ; STUMPF, Marcelo T. ; LUCHE, Henrique. ; CERIOLI, Murilo F. . Ensaio Brasileiro de Cultivares de Aveia Branca, Pelotas/RS - 2007. In: XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS, 2008, Pelotas. XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS. Pelotas: Universidade Federal de Pelotas - UFPel, 2008. p. 159-161. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; SILVEIRA, Gustavo ; SCHMIDT, Douglas A M ; ZANATTA, Oscar. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; LUCHE, Henrique. . Efeito da Correlação e Análise de Trilha na Identificação de Caracteres Associados sobre dois Sistemas de Condução. In: XXVIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2008, Pelotas. XXVIII Reunião da Comissão Brasileira de Pesquisa de Aveia. Pelotas: Universidade Federal de Pelotas - UFPel, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WOYANN, Leomar G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <b>NORNBERG</b> ; ZANATTA, Oscar. ; STUMPF, Marcelo T. ; CERIOLI, Murilo F. ; SILVEIRA, Gustavo ; VALÉRIO, Igor P. . Correlações Fenotípicas, Genotípicas e de Ambiente entre Nove Caracteres de Aveia Branca e suas Implicações para o Melhoramento Genético. In: XXVIII Reunião da Comissão Brasileira de Pesquisa de Aveia, 2008, Pelotas. XXVIII Reunião da Comissão Brasileira de Pesquisa de Aveia. Pelotas: Universidade Federal de Pelotas, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; STUMPF, Marcelo T. ; <b>NORNBERG</b> ; LUCHE, Henrique de S. ; SCHMIDT, Douglas A M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ADAPTABILIDADE E ESTABILIDADE EM TRIGO CULTIVADO EM TRÊS DISTINTOS AMBIENTES. In: XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008, Pelotas-RS. XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CERIOLI, Murilo F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; STUMPF, Marcelo T. ; <b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; BERTAN, Ivandro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ESTIMATIVA DOS COEFICIENTES DE CORRELAÇÕES FENOTÍPICAS EM GERAÇÃO SEGREGANTE DE TRIGO HEXAPLÓIDE. In: XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008, Pelotas-RS. XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; LUCHE, Henrique de S. ; WOYANN, Leomar G. ; MEZZALIRA, Itamara ; SCHMIDT, Douglas A M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Capacidade combinatória em análise dialélica de genótipos de trigo. In: XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008, Pelotas-RS. XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique. ; REIS, Cecília e Sacramento ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; SILVA, José A Gonzalez ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; BERTAN, Ivandro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; MOLITERNO, Henrique ; COLARES, Denise. ; <b>NORNBERG</b> ; FONSECA, Daniel ; BISOGNIN, Maicon. . Reação de genótipos de Aveia na Absorção de Macronutrientes Quando em Estresse Por Alumínio Sob Condições de  Hidroponia. In: XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia, 2007, Passo Fundo - RS. XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia. Passo Fundo - RS: Universi dade de Passo Fundo, 2007. p. 53-56. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, José A Gonzalez ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; REIS, Cecília e S dos ; BERTAN, Ivandro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; MAIA, Luciano ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; MARINI, NACIELE. ; FONSECA, Daniel Andrei Robe ; <b>NORNBERG</b> ; LUCHE, Henrique. ; MOLITERNO, Henrique . Reação de Cultivares de Aveia (Avena sativa L.) ao Estresse por Alumínio em Condições de Hidroponia. In: XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia, 2007, Passo Fundo - RS. XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia. Passo Fundo - RS: Universidade de Passo Fundo, 2007. p. 57-60. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9286376532850552" target="_blank">VALERIO, Igor P</a> ; QUEIROZ, Velci. ; BERTAN, Ivandro ; SILVA, José A Gonzalez ; MAIA, Luciano ; <b>NORNBERG</b> ; OLIVEIRA, Antonio C ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> . Desenpenho de Populações Segregantes de Aveia Branca (Avena sativa L.) Selecionadas para o Caráter Massa da Panícula em Dois Sistemas de Condução. In: XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia, 2007, Passo Fundo - RS. XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia. Passo Fundo - RS: Universidade de Passo Fundo, 2007. p. 229-234. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; FONSECA, Daniel Andrei Robe ; SILVEIRA, Gustavo ; LUCHE, Henrique. ; BISOGNIN, Maicon. ; BERTAN, Ivandro ; MAIA, Luciano ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; OLIVEIRA, Antonio C . Efeito Ambiente no Estudo da Correlação Entre Caractéres de Importância Agronômica da Aveia Branca. In: XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia, 2007, Passo Fundo - RS. XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia. Passo Fundo - RS: Universidade Federal de Pelotas, 2007. p. 238-240. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, Daniel Andrei Robe ; <b>NORNBERG</b> ; BISOGNIN, Maicon. ; LUCHE, Henrique. ; SILVEIRA, Gustavo ; BERTAN, Ivandro ; SCHMIDT, Douglas A M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9286376532850552" target="_blank">VALERIO, Igor P</a> ; OLIVEIRA, Antonio C de ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> . Ensaio de Genótipos Estrangeiros de Aveia Branca (Avena sativa L.) Introduzidos no Municipio de Pelotas. In: XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia, 2007, Passo Fundo - RS. XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia. Passo Fundo - RS: Universidade de Passo Fundo, 2007. p. 241-243. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>56. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; COLARES, Denise. ; MARINI, NACIELE. ; MAIA, Luciano ; AHLERT, Renata ; BISOGNIN, Maicon. ; <b>NORNBERG</b> ; FONSECA, Daniel Andrei Robe ; SILVA, José A Gonzalez ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> . Efeito do Tratamento com Ácido Giberélico em Sementes de Aveia (Avena sativa L.) Destinadas à Experimento em Hidroponia. In: XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia, 2007, Passo Fundo - RS. XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia. Passo Fundo - RS: Universidade de Passo Fundo, 2007. p. 77-80. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>57. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VALÉRIO, Igor P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; SCHMIDT, Douglas A M ; OLIVEIRA, Antonio C ; BERTAN, Ivandro ; BUSATO, Cyrano C ; <b>NORNBERG</b> ; BISOGNIN, Maicon. . Análise de Herança Quantitativa em diferentes Populações de Aveia (Avena sativa L.). In: XXVII Reunião da Comissão de pesquisa da Aveia, 2007, Passo Fundo - RS. XXVII Reunião da Comissão de pesquisa da Aveia. Passo Fundo - RS: Universidade de Passo Fundo, 2007. p. 247-252. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>58. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; <b>NORNBERG</b> ; FONSECA, Daniel Andrei Robe ; LUCHE, Henrique. ; BISOGNIN, Maicon. ; COMPAGNONI, Luciano. ; Bervald Clauber M. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; OLIVEIRA, Antonio C de . VARIABILIDADE GENÉTICA PARA TOLERÂNCIA AO ALUMÍNIO EM POPULAÇÕES SEGREGANTES DE AVEIA BRANCA (Avena sativa L.). In: XVI Congresso de Iniciação Científica (CIC), 2007, Pelotas - RS. XVI Congresso de Iniciação Científica (CIC), 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>59. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZANATTA, Oscar. ; COMPAGNONI, Luciano. ; <b>NORNBERG</b> ; LUCHE, Henrique. ; SILVEIRA, Gustavo ; QUEIROZ, Velci. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> . COMPORTAMENTO DE POPULAÇÕES SEGREGANTES EM AVEIA BRANCA (Avena sativa L.) CONDUZIDAS EM PLANTA ESPAÇADA E LINHA CHEIA. In: XVI Congresso de Iniciação Científica (CIC), 2007, Pelotas - RS. XVI Congresso de Iniciação Científica (CIC), 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>60. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; BERTAN, Ivandro ; SCHMIDT, Douglas A M ; FONSECA, Daniel Andrei Robe ; SILVEIRA, Gustavo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; ZANATTA, Oscar. . EFICIÊNCIA DE TRÊS TÉCNICAS DE ESTIMATIVA DE DISTÂNCIAS GENÉTICAS PARA INDICAÇÃO DE GENITORES ATRAVÉS DA ANÁLISE DO DESEMPENHO DE PROGÊNIES. In: XVI Congresso de Iniciação Científica (CIC), 2007, Pelotas. XVI Congresso de Iniciação Científica (CIC), 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>61. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bervald Clauber M. P. ; SCHMIDT, Douglas A M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; VALÉRIO, Igor P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; LUCHE, Henrique. ; <b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . CARACTERES DE INTERESSE AGRONÔMICO EM GENÓTIPOS DE TRIGO EM FUNÇÃO DE DIFERENTES DOSES DE NITROGÊNIO. In: XVI Congresso de Iniciaçãõ Científica (CIC), 2007, Pelotas. XVI Congresso de Iniciaçãõ Científica (CIC), 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>62. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; SILVA, José Antônio Gonzales da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; LUCHE, Henrique de S. ; <b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; COMPAGNONI, Luciano. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> . CORRELAÇÃO ENTRE CARACTERES PARA A DISCRIMINAÇÃO DA TOLERÂNCIA AO FERRO EM GENÓTIPOS DE ARROZ IRRIGADOS AVALIADOS EM HIDROPONIA. In: V Congresso de Brasileira de Arroz Irrigado e XXVII Reunião da Cultura do Arroz Irrigado, 2007, Pelotas. V Congresso de Brasileira de Arroz Irrigado e XXVII Reunião da Cultura do Arroz Irrigado. Pelotas: Embrapa Clima Temperado, 2007. p. 227-230. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>63. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GAZOLLA NETO, A. ; WESTENDORFF, N. ; WESZ, J. ; NEY, V. G. ; RADUNZ, A. L. ; BISOGNIN, Maicon. ; <b>NORNBERG</b> ; REIS, A. V. . AVALIAÇÃO DE PERDAS E IMPUREZAS NA COLHEITA DO AZEVÉM (Lolium multiflorum L.) EM FUNÇÃO DA VARIAÇÃO DE VELOCIDADE E ABERTURA DAS PENEIRAS DA COLHEDORA. In: XVI CONGRESSO DE INICIAÇÃO CIENTÍFICA, 2007, PELOTAS. XVI CONGRESSO DE INICIAÇÃO CIENTÍFICA, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>64. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; SILVA, José Antônio Gonzales da ; QUEIROZ, Velci. ; BERTAN, Ivandro ; FONSECA, Daniel Andrei Robe ; SILVEIRA, Gustavo . Variabilidade para Tolerância ao Alumínio em Populações Segregantes F3 de Aveia Branca (Avena sativa L.) Avaliadas em Cultivo Hidropônico. In: XV Congresso de Iniciação Científica/UFPEL, 2006, Pelotas - RS. XV Congresso de Iniciação Científica/UFPEL. Pelotas - RS: Universidade Federal de Pelotas, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>65. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BISOGNIN, Maicon. ; SILVA, José Antônio Gonzales da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; BERTAN, Ivandro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; <b>NORNBERG</b> ; MARINI, NACIELE. ; FONSECA, Daniel Andrei Robe ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; LUCHE, Henrique. . Distância Morfológica Entre genótipos de Trigo (Triticum aestivum L.) com Ausência e Presença do Caráter   STAY-GREEN . In: XV Congresso de Iniciação Científica/UFPEL, 2006, Pelotas - RS. XV Congresso de Iniciação Científica/UFPEL. Pelotas- RS: Universidade Federal de Pelotas, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>66. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, Daniel Andrei Robe ; BERTAN, Ivandro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; SILVA, José Antônio Gonzales da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; SILVEIRA, Gustavo ; <b>NORNBERG</b> ; LUCHE, Henrique. ; BISOGNIN, Maicon. ; BUSATO, Cyrano Cardoso ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> . Capacidade Combinatória Entre Genótipos de Trigo Estimada em diferentes Gerações de  Autofecundação. In: XV Congresso de Iniciação Científica/UFPEL, 2006, Pelotas - RS. XV Congresso de Iniciação Científica/UFPEL. Pelotas - RS: Universidade Federal de Pelotas, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>67. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; MAGALHAES, Ariano Martins Junior. ; SILVA, José Antônio Gonzales da ; LUCHE, Henrique. ; FONSECA, Daniel Andrei Robe ; <b>NORNBERG</b> ; BISOGNIN, Maicon. ; TERRES, Laerte R ; LUZ, Viviane Kopp da. . Avaliação de Protocolo Para Determinação de Tolerância ao Ferro em Arroz Sob Condições de Hidroponia. In: XV Congresso de Iniciação Científica/UFPEL, 2006, Pelotas - RS. XV Congresso de Iniciação Científica/UFPEL. Pelotas - RS: Universidade Federal de Pelotas, 2006. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMMER, Cristiano M. ; KAVALCO, Sydney A. F. ; <b>NORNBERG, Rafael</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; POLESELLO, Michel Z. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . FERRUGEM DA FOLHA E GIBERELA: CARACTERIZAÇÃO DE GENÓTIPOS DE TRIGO (Triticum aestivum L.). In: Salão Universitário 2013 - UCPel, 2013, Pelotas. Salão Universitário 2013 - 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TESSMANN, Elisane W. ; <b>NORNBERG, Rafael</b> ; LUCHE, Henrique de S. ; KAVALCO, Sydney A. F. ; ZIMMER, Cristiano M. ; GROLI, Eder L. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . GENETIC DISTANCE AMONG WHITE OAT CULTIVARS (AVENA SATIVA L.) IN RESPONSE TO. In: 6th ICSC International Crop Science Congress, 2012, Bento Gonçalves. 6th ICSC International Crop Science Congress - 2856 - Crop Breeding & Genetics, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique de S. ; OLIVO, Mateus ; <b>NORNBERG, Rafael</b> ; KAVALCO, Sydney A. F. ; TESSMANN, Elisane W. ; SANTOS, Rodrigo Lisbôa ; SILVA, José Antônio Gonzales da ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ADAPTIVE TRAITS IN OAT BREEDING IN BRAZIL. In: 6th ICSC International Crop Science Congress, 2012, Bento Gonçalves. 6th ICSC International Crop Science Congress - 2869 - Crop Breeding & Genetics, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG, Rafael</b> ; LUCHE, Henrique de S. ; TESSMANN, Elisane W. ; OLIVO, Mateus ; ZIMMER, Cristiano M. ; FIGUEIREDO, Ricardo ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ESTIMATE OF HETEROSIS AND INBREEDING DEPRESSION FOR CHARACTER FALLING. In: 6th ICSC International Crop Science Congress, 2012, Bento Gonçalves. 6th ICSC International Crop Science Congress - 2869 - Crop Breeding & Genetics, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DANIELOWSKI, Rodrigo ; PETERS, Jose A. ; KAVALCO, Sydney A. F. ; <b>NORNBERG, Rafael</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; MAIA, Luciano C. da . INDIRECT SELECTION OF OAT GENOTYPES (AVENA SATIVA L.) IN RESPONSE TO IRON. In: 6th ICSC International Crop Science Congress, 2012, Bento Gonçalves. 6th ICSC International Crop Science Congress - 2869 - Crop Breeding & Genetics, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KAVALCO, Sydney A. F. ; TESSMANN, Elisane W. ; FIGUEIREDO, Ricardo ; GROLI, Eder L. ; ZIMMER, Cristiano M. ; SANTOS, Rodrigo Lisbôa ; <b>NORNBERG, Rafael</b> ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . DIALLEL ANALYSIS IN WHEAT GENOTYPES SUBJECTED TO FLOODING STRESS. In: 6th ICSC International Crop Science Congress, 2012, Bento Gonçalves. 6th ICSC International Crop Science Congress - 2869 - Crop Breeding & Genetics, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WOYANN, Leomar ; GROLI, Eder L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; <b>NORNBERG</b> ; LUCHE, Henrique de S. ; KAVALCO, Sydney A. F. ; GIRARDON, Luis F. C. ; ZIMMER, Cristiano M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Desempenho das linhagens de aveia branca do Centro de Genômica e Fitomelhoramento quanto ao índice de grãos maiores que dois milímetros. In: XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2011, PASSO FUNDO. XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA - RESULTADOS EXPERIMENTAIS. PASSO FUNDO: UNIVERSIDADE DE PASSO FUNDO, 2011. p. 529-531. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PAIVA, Rodrigo P. ; ZIMMER, Cristiano M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; TESSMANN, Elisane W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; MEZZALIRA, Itamara ; LUCHE, Henrique de S. ; CERIOLI, Murilo F. ; <b>NORNBERG</b> ; SILVEIRA, Solange F. da S. ; WOYANN, Leomar G. ; FINATTO, Taciane ; SOUZA, Laíse de R. ; GIRARDON, Luis F. C. ; KAVALCO, Sydney A. F. ; HAGEMANN, Thaís R. ; MENEGUSSI, Bruno E. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Ensaio Brasileiro de Linhagens de Aveia Branca em Pelotas - RS, 2009. In: XXX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2010, SÃO CARLOS. XXX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA - RESULTADOS EXPERIMENTAIS. SÃO CARLOS: EMBRAPA, 2010. p. 301-303. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TESSMANN, Elisane W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <b>NORNBERG</b> ; MEZZALIRA, Itamara ; LUCHE, Henrique de S. ; ZIMMER, Cristiano M. ; PAIVA, Rodrigo P. ; SILVEIRA, Solange F. da S. ; WOYANN, Leomar G. ; SOUZA, Laíse de R. ; GIRARDON, Luis F. C. ; KAVALCO, Sydney A. F. ; HAGEMANN, Thaís R. ; SILVA, Patricia S. ; CIMA, Franciele F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Ensaio Brasileiro de Cultivares de Aveia Branca, em Pelotas, 2009. In: XXX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2010, SÃO CARLOS. XXX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA - RESULTADOS EXPERIMENTAIS. SÃO CARLOS: EMBRAPA, 2010. p. 372-375. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; MEZZALIRA, Itamara ; WOYANN, Leomar G. ; <b>NORNBERG</b> ; CERIOLI, Murilo F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ENSAIO PRELIMINAR INTERNO DE LINHAGENS DE AVEIA BRANCA, PELOTAS/RS - 2008. In: XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2009, PORTO ALEGRE. XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. PORTO ALEGRE: UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL, 2009. p. 254-256. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WOYANN, Leomar G. ; CERIOLI, Murilo F. ; TESSMANN, Elisane W. ; <b>NORNBERG</b> ; PAIVA, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ENSAIO BRASILEIRO DE LINHAGENS DE AVEIA BRANCA - EBLA, PELOTAS/RS - 2008. In: XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2009, PORTO ALEGRE. XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. PORTO ALEGRE: UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL, 2009. p. 315-317. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; LUCHE, Henrique de S. ; MEZZALIRA, Itamara ; WOYANN, Leomar G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; SILVEIRA, Solange F. da S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ENSAIO DE CULTIVARES DE AVEIA BRANCA EBCA, PELOTAS/RS - 2008. In: XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2009, PORTO ALEGRE. XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. PORTO ALEGRE: UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL, 2009. p. 358-360. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique de S. ; SCHMIDT, Douglas A M ; <b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; TESSMANN, Elisane W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> . Estudo da heterose em cruzamento dialélico de trigo. In: III REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE, 2009, VERANÓPOLIS. III REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE - ATA E RESUMOS, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; VALÉRIO, Igor P. ; <b>NORNBERG</b> ; STUMPF, Marcelo T. ; ZANATTA, Oscar. ; WOYANN, Leomar G. . Ensaio Brasileiro de Linhagens de Aveia Branca, Pelotas/RS - 2007. In: XVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS, 2008, Pelotas. XVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS. Pelotas: Universidade Federal de Pelotas - UFPel, 2008. p. 212-213. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STUMPF, Marcelo T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; SCHMIDT, Douglas A M ; <b>NORNBERG</b> ; LUCHE, Henrique. ; ZANATTA, Oscar. ; WOYANN, Leomar G. . Ensaio Regional de Linhagens de Aveia Branca, Pelotas/RS - 2007. In: XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS, 2008, Pelotas. XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS. Pelotas: Universidade Federal de Pelotas - UFPel, 2008. p. 247-248. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WOYANN, Leomar G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; SILVEIRA, Gustavo ; <b>NORNBERG</b> ; STUMPF, Marcelo T. ; LUCHE, Henrique. ; ZANATTA, Oscar. . Ensaio Preliminar Interno de Linhagens de Aveia Branca Pelotas/RS - 2007. In: XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS, 2008, Pelotas. XXVIII Reunião da Comissão Brasileira de Pesquisa da Aveia   Pelotas   RS. Pelotas: Universidade Federal de Pelotas - UFPel, 2008. p. 265-266. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; MOLITERNO, Enrique. ; LUCHE, Henrique de S. ; <b>NORNBERG</b> ; WOYANN, Leomar G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . COMPARAÇÃO ENTRE AGENTE MUTAGÊNICO FÍSICO E QUÍMICO NA CRIAÇÃO DE VARIABILIDADE GENÉTICA PARA O CARÁTER MASSA SECA EM AVEIA PRETA. In: XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008, Pelotas-RS. XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique de S. ; MOLITERNO, Enrique. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; <b>NORNBERG</b> ; SILVA, José Antônio Gonzales da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> . VARIABILIDADE PARA OS CARACTERES QUE DETERMINAM VIGOR DE PLÂNTULA EM AVEIA PRETA. In: XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008, Pelotas-RS. XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CERIOLI, Murilo F. ; <b>NORNBERG</b> ; STUMPF, Marcelo T. ; TESSMANN, Elisane W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Estimativas de heterose em cruzamentos dialélicos em trigo hexaplóide. In: XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008, Pelotas-RS. XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; CERIOLI, Murilo F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; WOYANN, Leomar G. ; MOLITERNO, Enrique. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . DESEMPENHO DE GENÓTIPOS DE AVEIA PRETA (Avena strigosa Schreb.) PARA O CARÁTER PRODUÇÃO DE MATÉRIA SECA QUANDO SUBMETIDOS A DIFERENTES DOSES DE AGENTE MUTAGÊNICO FÍSICO. In: XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008, Pelotas-RS. XVII Congresso de Iniciação Científica e X Encontro de Pós   graduação da UFPel   2008., 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; SCHMIDT, Douglas A M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9286376532850552" target="_blank">VALERIO, Igor P</a> ; FONSECA, Daniel Andrei Robe ; BISOGNIN, Maicon. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; OLIVEIRA, Antonio C . Ensaio Preliminar Interno de Linhagens de Aveia Branca (Avena sativa L.) Pelotas, 2006. In: XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia, 2007, Passo Fundo - RS. XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia. Passo Fundo- RS: Universidade de Passo Fundo, 2007. p. 282-283. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; OLIVEIRA, Antonio C ; SCHMIDT, Douglas A M ; BERTAN, Ivandro ; <b>NORNBERG</b> ; BISOGNIN, Maicon. ; ZANATTA, Oscar. . Ensaio Brasileiro/Regional de Linhagens de Aveia Branca (Avena sativa L.), Pelotas - 2006. In: XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia, 2007, Passo Fundo- RS. XXVII Reunião da Comissão Brasileira de Pesquisa da Aveia. Passo Fundo - RS: Universidade de Passo Fundo, 2007. p. 307-308. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; MOLITERNO, Henrique ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; SCHMIDT, Douglas A M ; <b>NORNBERG</b> ; FONSECA, Daniel Andrei Robe ; SILVEIRA, Gustavo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; SILVEIRA, Solange F. da S. . CARACTERIZAÇÃO DE ESPÉCIES DO GENERO AVENA PARA A TOLERÂNCIA AO Al3+ TÓXICO.. In: Congresso de Iniciação Científica (CIC) - Pelotas - RS, 2007, Pelotas. Congresso de Iniciação Científica (CIC) - Pelotas - RS, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STUMPF, Marcelo T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; VALÉRIO, Igor P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <b>NORNBERG</b> ; ZANATTA, Oscar. ; LUCHE, Henrique. ; COMPAGNONI, Luciano. ; WOYANN, Leomar . Associação de Diferentes Medidas de Distância Genética em Trigo. In: Congresso de Iniciação Científica (CIC) - Pelotas - RS, 2007, Pelotas. Congresso de Iniciação Científica (CIC) - Pelotas - RS, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; SILVA, José Antônio Gonzales da ; VALÉRIO, Igor P. ; STUMPF, Marcelo T. ; LUCHE, Henrique. ; BISOGNIN, Maicon. ; DEMICHELI, Cleimar . CORRELAÇÕES ENTRE CARACTERES INDICADORES DE TOLERÂNCIA AO ALUMÍNIO EM POPULAÇÕES SEGREGANTES DE AVEIA BRANCA (Avena sativa L.). In: Congresso de Iniciação Científica (CIC) - Pelotas - RS, 2007, Pelotas. Congresso de Iniciação Científica (CIC) - Pelotas - RS, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WOYANN, Leomar ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; VALÉRIO, Igor P. ; SILVEIRA, Gustavo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <b>NORNBERG</b> ; ZANATTA, Oscar. ; LUCHE, Henrique. ; STUMPF, Marcelo T. . Estimativas de Correlação Fenotípica e Genotípica em Trigo. In: Congresso de Iniciação Científica (CIC) - Pelotas - RS, 2007, Pelotas. Congresso de Iniciação Científica (CIC) - Pelotas - RS, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVEIRA, Gustavo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9286376532850552" target="_blank">VALERIO, Igor P</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; OLIVEIRA, Antonio C ; BERTAN, Ivandro ; BUSATO, Cyrano C ; FONSECA, Daniel ; <b>NORNBERG</b> . Ensaio Preliminar Interno de Linhagens de Aveia Branca III - Pelotas - RS - 2005. In: XXVI Reunião da Comissão Brasileira de Persquisa da Aveia, 2006, Guarapuava - PR. XXVI Reunião da Comissão Brasileira de Persquisa da Aveia. Guarapuava - PR: Fundação Agrária de Pesquisa Agropecuária, 2006. p. 284-285. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; FINATTO, Taciane ; REIS, Cecília e S dos ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; BUSATO, Cyrano C ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; OLIVEIRA, Antonio C de . Ensaio Preliminar Interno de Linhagens de Linhagens de Aveia Branca II - Pelotas/RS 2005. In: XXVI Reunião da Comissão Brasileira de Persquisa da Aveia, 2006, Guarapuava - PR. XXVI Reunião da Comissão Brasileira de Persquisa da Aveia. Guarapuava - PR: Fundação Agrária de Pesquisa Agropecuária, 2006. p. 261-263. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9286376532850552" target="_blank">VALERIO, Igor P</a> ; BERTAN, Ivandro ; SCHMIDT, Douglas A M ; FONSECA, Daniel ; FONSECA, Daniel Andrei Robe ; MARINI, NACIELE. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; BISOGNIN, Maicon. . Estimativa de Tamanho de População Segregante de Trigo (Triticum aestivum L.) Conduzidas em Plantas Espaçadas. In: XV Congresso de Iniciação Científica/UFPEL, 2006, Pelotas - RS. XV Congresso de Iniciação Científica/UFPEL. Pelotas - RS: Universidade Federal de Pelotas, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BISOGNIN, Maicon. ; BERTAN, Ivandro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; SILVA, José Antônio Gonzales da ; OLIVO, Franciéle. ; FONSECA, Daniel Andrei Robe ; SILVEIRA, Gustavo ; <b>NORNBERG</b> ; LUCHE, Henrique. . Heterose e Efeitos da Endogamia em Caracteres de Importância Agronômica em Trigo (Triticum aestivum L.). In: XV Congresso de Iniciação Científica/UFPEL, 2006, Pelotas - RS. XV Congresso de Iniciação Científica/UFPEL. Pelotas - RS: Universidade Federal de Pelotas, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCHE, Henrique. ; MOLITERNO, Henrique ; SILVA, José Antônio Gonzales da ; MAIA, Manoel de  Souza. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; BUSATO, Cyrano C ; SILVEIRA, Gustavo ; <b>NORNBERG</b> . Importância da Primeira Contagem do Teste de Germinação na Determinação do Poder Germinativo de  Avena  strigosa Schreber. In: XV Congresso de Iniciação Científica/UFPEL, 2006, Pelotas - RS. XV Congresso de Iniciação Científica/UFPEL. Pelotas - RS: Universidade Federal de Pelotas, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARINI, NACIELE. ; SILVA, José A Gonzalez ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; FARIAS, Daniel da  Rosa. ; <b>NORNBERG</b> ; BISOGNIN, Maicon. ; FONSECA, Daniel Andrei Robe ; SILVEIRA, Gustavo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; COMPAGNONI, Luciano. ; ZANATTA, Oscar. . Permanência Verde como Critério de Mensuração da Tolerância ao Encharcamento em Aveia (Avena sativa L.). In: XV Congresso de Iniciação Científica/UFPEL, 2006, Pelotas - RS. XV Congresso de Iniciação Científica/UFPEL. Pelotas - RS: Universidade Federal de Pelotas, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, Daniel Andrei Robe ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; BERTAN, Ivandro ; SILVA, José Antônio Gonzales da ; LUCHE, Henrique. ; <b>NORNBERG</b> ; BISOGNIN, Maicon. ; BUSATO, Cyrano Cardoso ; SILVEIRA, Gustavo . Avaliação do Tamanho da População e Efeitos Genéticos do Caráter Número de Afilhos Férteis em População Segregantes de Trigo Hexaplóide (Triticum aestivun L.). In: XV Congresso de Iniciação Científica/UFPEL, 2006, PELOTAS - RS. XV Congresso de Iniciação Científica/UFPEL. Pelotas - RS: Universidade Federal de Pelotas, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, José Antônio Gonzales da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; BERTAN, Ivandro ; COLARES, Denise. ; FONSECA, Daniel Andrei Robe ; <b>NORNBERG</b> ; LUCHE, Henrique. ; BISOGNIN, Maicon. ; COMPAGNONI, Luciano. ; SACCARO, Evandro. . Caráter  STAY-GREEN  e Técnica de Duplo-haplóides no Melhoramento Genético de Trigo. In: XV Congresso de Iniciação Científica/UFPEL, 2006, Pelotas - RS. XV Congresso de Iniciação Científica/UFPEL. Pelotas- RS: Universidade Federal de Pelotas, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Vanessa Neumann. ; LUZ, Viviane Kopp da. ; KOPP, Mauricio Marini. ; COMPAGNONI, Luciano. ; ZANATTA, Oscar. ; BISOGNIN, Maicon. ; <b>NORNBERG</b> ; SACCARO, Evandro. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; OLIVEIRA, Rogério. . Avaliação do Efeito Fitotóxico do Ácido Propiônico na Germinação de Sementes de Arroz. In: XV Congresso de Iniciação Científica/UFPEL, 2006, Pelotas- RS. XV Congresso de Iniciação Científica/UFPEL. Pelotas - RS: Universidade Federal de Pelotas, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; SILVA, José A Gonzalez ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; OLIVEIRA, Antonio C ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9286376532850552" target="_blank">VALERIO, Igor P</a> ; SCHMIDT, Douglas A M ; BERTAN, Ivandro ; FINATTO, Taciane ; REIS, Cecília e Sacramento ; SILVEIRA, Gustavo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; BUSATO, Cyrano C ; TERRES, Laerte R . Avaliação de Caracteres de Interesse Agronômico de Cultivares de Trigo Obsoletas e Modernas Cultivadas no Sul do Brasil. In: XIV Congresso de Iniciação Científica/UFPel, 2005, Pelotas - RS. XIV Congresso de Iniciação Científica/UFPel. Pelotas - RS: Universidade Federal de Pelotas, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; MOLITERNO, Henrique ; SILVA, José Antônio Gonzales da ; BUSATO, Cyrano Cardoso ; FINATTO, Taciane ; SILVEIRA, Gustavo ; REIS, Cecilia Estima Sacramento dos ; FONSECA, Daniel Andrei Robe ; TERRES, Laerte ; BERTAN, Ivandro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5320889502292689" target="_blank">HARTWIG, Irineu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; <b>NORNBERG, Rafael</b> . Manifestações Fisiológicas em Plantulas de Aveia Preta (Avena strigosa Schreb.) com Utilizaçãode Agentes Mutagênicos Químicos. In: XIV Congresso de Iniciação Científica/UFPel, 2005, PELOTAS - RS. XIV Congresso de Iniciação Científica/UFPel. Pelotas - RS: Universidade Federal de Pelotas, 2005. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG, Rafael</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; SANTOS, Railson S. ; LUCHE, Henrique de S. ; CRESTANI, Maraisa ; SOUZA, Clóvis A. ; SILVA, José Antônio Gonzales da ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . ESTUDO DA CAUSA E EFEITO ENTRE CARACTERES AGRONÔMICOS NA CULTIVAR DE AVEIA BRANCA BARBARASUL. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG, Rafael</b> ; ZIMMER, Cristiano M. ; TESSMANN, Elisane W. ; LUCHE, Henrique de S. ; SANTOS, Rodrigo Lisbôa ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . CARACTERES DE PRÉ-COLHEITA E AGRONOMICOS EM TRIGO NO DIRECIONAMENTO DE HIBRIDAÇÕES. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; GROLI, Eder L. ; HAGEMANN, Thaís R. ; SILVA, Cristiano L. da ; <b>NORNBERG</b> ; FREO, Fernando ; MAIA, Luciano C. da ; BENIN, Giovani ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Dissimilaridade Genética de Oito Genitores de Trigo Estimados em dois Ambientes. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NORNBERG</b> ; LUCHE, Henrique de S. ; KAVALCO, Sydney A. F. ; WOYANN, Leomar ; FREO, Fernando ; GROLI, Eder L. ; ROSA, André C. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Estudo da Expressão do Caráter Germinação na Espiga em Genótipos de Trigo (Triticum aestivum L.) Brasileiros. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7254759087661595" target="_blank">BARETTA, Diego</a> ; CERIOLI, Murilo F. ; TESSMANN, Elisane W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; SOUZA, Tatiane M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Resposta de genitores de aveia branca (Avena sativa) ao manganês em cultivo hidropônico. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>NORNBERG</b> ; LUCHE, Henrique de S. ; WOYANN, Leomar G. ; MEZZALIRA, Itamara ; SCHMIDT, Douglas A M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> . Capacidade combinatória em análise dialélica de genótipos de trigo. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; SCHMIDT, Douglas A M ; ZANATTA, Oscar. ; MAIA, Luciano C. da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; LUCHE, Henrique de S. . EFEITO DA CORRELAÇÃO E ANÁLISE DE TRILHA NA IDENTIFICAÇÃO DE CARACTERES ASSOCIADOS SOBRE DOIS SISTEMAS DE CONDUÇÃO. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>NORNBERG</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; BERTAN, Ivandro ; SCHMIDT, Douglas A M ; FONSECA, Daniel Andrei Robe ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1450629575665230" target="_blank">SILVEIRA, Gustavo da</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7621160458823722" target="_blank">RIBEIRO, Guilherme</a> ; ZANATTA, Oscar. . EFICIÊNCIA DE TRÊS TÉCNICAS DE ESTIMATIVA DE DISTÂNCIAS GENÉTICAS PARA INDICAÇÃO DE GENITORES ATRAVÉS DA ANÁLISE DO DESEMPENHO DE PROGÊNIES. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXII Reunião da Comissão Brasileira de Pesquisa da Aveia. ESTUDO DA CAUSA E EFEITO ENTRE CARACTERES AGRONÔMICOS NA CULTIVAR DE AVEIA BRANCA BARBARASUL. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Reunião da Comissão Brasileira de Pesquisa de Trigo e Triticale. CARACTERES DE PRÉ-COLHEITA E AGRONOMICOS EM TRIGO NO DIRECIONAMENTO DE HIBRIDAÇÕES. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">6th ICSC International Crop Science Congress. ESTIMATE OF HETEROSIS AND INBREEDING DEPRESSION FOR CHARACTER FALLING. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. Estimativa da distância genética baseada em caracteres morfológicos de genótipos de aveia branca na região de Pelotas. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE TRIGO E TRITICALE. Estudo da Expressão do Caráter Germinação na Espiga em Genótipos de Trigo (Triticum aestivum L.) Brasileiros. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. Correlação entre caracteres de interesse agronômico em aveia branca (Avena sativa L.) e a predição de cruzamentos superiores. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIX REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. RESPOSTA DE GENITORES DE AVEIA BRANCA (Avena sativa) AO MANGANÊS EM CULTIVO HIDROPÔNICO. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVIII REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. Efeito da Correlação e Análise de Trilha na Identificação de Caracteres Associados sobre dois Sistemas de Condução. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXIX SEMANA ACADEMICA DA AGRONOMIA. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVII REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DA AVEIA. Efeito Ambiente no Estudo da Correlação Entre Caracteres de Importância Agronômica da Aveia Branca. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V CONGRESSO BRASILEIRO DE ARROZ IRRIGADO E DA XXVII REUNIÃO DA CULTURA DO ARROZ IRRIGADO. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI CONGRESSO DE INICIAÇÃO CIENTÍFICA IX ENCONTRO DE POS GRADUAÇÃO. EFICIÊNCIA DE TRÊS TÉCNICAS DE ESTIMATIVA DE DISTÂNCIAS GENÉTICAS PARA INDICAÇÃO DE GENITORES ATRAVÉS DA ANÁLISE DO DESEMPENHO DE PROGÊNIES. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V REUNIÃO DE PRODUÇÃO INTREGADA DE PÊSSEGO E DIA DE CAMPO SOBRE FRUTÍFERAS DIVERSAS.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. Ensaio Preliminar Interno de Linhagens de Linhagens de Aveia Branca II - Pelotas/RS 2005. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV CONGRESSO DE INICIAÇÃO CIENTÍFICA VIII ENCONTRO DE PÓS - GRADUAÇÃO. Estimativa de Tamanho de População Segregante de Trigo (Triticum aestivum L.) Conduzidas em Plantas Espaçadas. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXVII SEAGRO - O Engenheiro Agrônomo Frente ao Desenvolvimento Econômico, Social e Ambiental. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Semana do Meio Ambiente da Agronomia. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV REUNIÃO DA PRODUÇÃO INTEGRADA DE PÊSSEGO.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV CONGRESSO DE INICIAÇÃO CIENTÍFICA E VII ENCONTRO DE PÓS - GRADUAÇÃO. Avaliação de Caracteres de Interesse Agronômico de Cultivares de Trigo Obsoletas e Modernas Cultivadas no Sul do Brasil. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Simpósio Sul-Brasileiro de qualidade de arroz.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Fórum da Metade Sul. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4259802666999757" target="_blank">CARVALHO, Fernando I F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2717555680999191" target="_blank">OLIVEIRA, Antonio Costa de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9286376532850552" target="_blank">VALERIO, Igor P</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593358281403719" target="_blank">CRESTANI, Maraísa.</a> ; Bervald Clauber M. P. ; SCHMIDT, Douglas A M ; BRANCO, Juliana C. ; MAIA, Luciano C. da ; QUEIROZ, Velci. ; KOPP, Mauricio Marini. ; BARBIERI, R. L. ; MARINI, NACIELE. ; MAGALHAES, Ariano Martins Junior. ; MISTURA, C. ; BRESOLIN, Adriana S. B. ; OLIVEIRA, Rogério. ; <b>NORNBERG</b> . XXVIII REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Ensino Médio e Curso Técnico em Agropecuária concluído no Conjunto Agrotécnico Visconde da Graça (CAVG).</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 23/05/2014 &agrave;s 17:28:06</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0040650753426121" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

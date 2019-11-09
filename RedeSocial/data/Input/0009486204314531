@@ -1,0 +1,2559 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Marcos Tello)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0009486204314531" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4790872J6&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4790872J6"><div class="infpessoa">
+<h2 class="nome">Marcos Tello</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0009486204314531</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 30/11/2010</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui mestrado em Engenharia Elétrica pela Universidade Federal de Santa Catarina (1991) e doutorado em Engenharia Mecânica - Departamento de Energia Nuclear (DENUC), pela Universidade Federal do Rio Grande do Sul (2000). Atualmente é professor titular - Departamento de Engenharia Elétrica da PUCRS. Tem experiência na área de campos eletromagnéticos, com ênfase em Engenharias, atuando principalmente nos seguintes temas: efeitos biológicos dos campos eletromagnéticos e compatibilidade eletromagnética e eletromagnetismo aplicado.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Marcos Tello</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">TELLO, M.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pontifícia Universidade Católica do Rio Grande do Sul, Escola Politécnica, Departamento de Engenharia Elétrica. <br class="clear" />Av. Ipiranga, 6681<br class="clear" />Partenon<br class="clear" />90619900 - Porto Alegre, RS - Brasil<br class="clear" />Telefone: () 33203500<br class="clear" />Ramal: 4051<br class="clear" />Fax: () 33203540<br class="clear" />URL da Homepage: <a target="blank" href="http://www.ee.pucrs.br/~gcem">www.ee.pucrs.br/~gcem</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Engenharia Mecânica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Avaliação da aplicação de corrente contínua em seres humanos, Ano de obtenção: 2000. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9362686215096702'><img src='images/curriculo/logolattes.gif' /></a>Marco tulio menna barreto de vilhena. <br class="clear" />Palavras-chave: denuc.<br class="clear" />Grande área: Engenharias / Área: Engenharia Mecânica / Subárea: Fenômenos de Transporte. <br class="clear" />Setores de atividade: Outros Setores. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1989 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Engenharia Elétrica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Título: Analise de Sistemas de Aterramento usando o Metodo de Elementos Finitos em tres dimensoes MEF - 3D, em baixas frequencias,Ano de Obtenção: 1991.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9859703662630141'><img src='images/curriculo/logolattes.gif' /></a>Joao Pedro Assumpcao Bastos.<br class="clear" />Palavras-chave: MEF.<br class="clear" />Grande área: Engenharias</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Practical and Theoretical Course in Radiotherapy<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Royal Marsden Trust And Institute Of Cancer Research.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Departamento de Engenharia Elétrica, PUC-RS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1984 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Professor titular, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1987 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Escola Politécnica, Departamento de Engenharia Elétrica. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_utilização de campos eletromagneticos para o tratamento de doenças'>utilização de campos eletromagneticos para o tratamento de doenças</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1984 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Elétrica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />maquinas eletricas<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_utiliza&ccedil;&atilde;o de campos eletromagneticos para o tratamento de doen&ccedil;as'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">utilização de campos eletromagneticos para o tratamento de doenças</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: CAMPOS ELETROMAGNÉTICOS, ESPECIFICAMENTE CORRENTE CONTÍNUA, PULSOS ELÉTRICOS E ONDAS ELETROMAGNÉTICAS EM ALTA FREQÜÊNCIA, SÃO UTILIZADAS PARA O TRATAMENTO DE NEOPLASIAS. ATUALMENTE, CORRENTE/TENSÃO CONTÍNUAS ESTÃO SENDO UTILIZADAS PARA O TRATAMENTO DE NEOPLASIAS EMANIMAIS.. <br class="clear" />Grande área: Engenharias / Área: Engenharia Biomédica. <br class="clear" />Grande Área: Engenharias / Área: Engenharia Elétrica. <br class="clear" />Setores de atividade: Fabricação de Equipamentos de Instrumentação Médico-Hospitalares, Instrumentos de Precisão e Ópticos, Equipamentos Para Automação Industrial, Cronômetros e Relógios. <br class="clear" />Palavras-chave: Campos eletromagnéticos; Cancer.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: IEEE Transactions on Magnetics</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Circuitos Elétricos, Magnéticos e Eletrônicos/Especialidade: Circuitos Magnéticos , Magnetismos e Eletromagnetismos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Biomédica / Subárea: Bioengenharia/Especialidade: Modelagem de Fenômenos Biológicos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Biomédica / Subárea: Bioengenharia/Especialidade: Modelagem de Sistemas Biológicos. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DIAS, Guilherme Alfredo Dentzien</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; OSTERMANN, R. ; LAYHER, M. R. ; GEWHER, O. P. ; CORREA, S. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0578947103267243" target="_blank">GAZZANA, D. S.</a> ; <b>TELLO, M.</b> ; HASLER, C. F. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9863489023483818" target="_blank">SANTANA, B.</a> . Transformer Monitoring and Management. WSEAS Transactions on Systems<sup><img id='11092777_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='11092777' /></sup>, Korfu, v. 4, n.9, p. 1538-1545, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=11092777&volume=4&issue=&paginaInicial=1538&titulo=Transformer Monitoring and Management&sequencial=1&nomePeriodico=WSEAS Transactions on Systems" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guido de Camargo Potier ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0578947103267243" target="_blank">GAZZANA, D. S.</a> ; SILVA, L. C. F. ; <b>TELLO, M.</b> . A Física dos raios & Engenharia de Proteção. 1. ed. Porto Alegre: EDIPUCRS, 2010. 296p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>TELLO, M.</b> ; DIAS, Guilherme A. D. ; RAIZER, Adroaldo ; ALMAGUER, H. D. ; MUSTAFA, Thair ; Coelho, Vilson L. (Vilson L. Coelho) . Aterramento Elétrico Impulsivo, em Baixa e Alta Freqüências Com Apresentação de Casos. 0. ed. Porto Alegre: ediPUCRS, 2007. v. 1000. 328p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>TELLO, M.</b> (Org.) ; RAIZER, Adroaldo (Org.) ; BUZAID, A. C. (Org.) ; DOMENGE, C. (Org.) ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> (Org.) ; ALMAGUER, H. D. (Org.) ; OLIVEIRA, Luciana Oliveira de (Org.) ; FARBER, P. L. (Org.) ; OLIVEIRA, Rosemari Teresinha de (Org.) ; SILVA, V. D. (Org.) . O Uso da Corrente Elétrica no Tratamento do Câncer. 1. ed. Porto Alegre: EDIPUCRS, 2004. v. 1. 229p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		OLIVEIRA, Luciana Oliveira de ; OLIVEIRA, R. T. ; GOMES, C. ; <b>TELLO, M.</b> . Eletroterapia no Tratamento do Câncer. In: Carlos Roberto Daleck; Andrigo Barboza de Mardi; Suely Rodaski. (Org.). Oncologia em Cães e Gatos. 1ed.São Paulo: ROCA, 2009, v. , p. 599-606. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIAS, G. A. D. ; ARINO, R. I. ; <b>TELLO, M.</b> . Uso do Telhado Metálico como Captor e do aço do Concreto para as Descidas e o Aterramento. Eletricidade Moderna, Brasil, p. 60 - 62, 01 jul.  2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . DIAGNÓSTICO DE COMPATIBILIDADE ELETROMAGNÉTICA EM SUBESTAÇÕES DE ALTA TENSÃO. Eletricidade Moderna, São Paulo, , v. 314, p. 154 - 165, 04 maio  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . DIAGNÓSTICO DE COMPATIBILIDADE ELETROMAGNÉTICA EM SUBESTAÇÕES DE ALTA TENSÃO. Eletricidade Moderna, São Paulo, , v. 314, p. 154 - 165, 04 maio  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . LINHA DE TRANSMISSÃO COM 131 M DE ALTURA: UM DESAFIO PARA A COMPATIBILIDADE ELETROMAGNÉTICA. Eletricidade Moderna, São Paulo, , v. 296, p. 64 - 72, 04 nov.  1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . LINHA DE TRANSMISSÃO COM 131 M DE ALTURA: UM DESAFIO PARA A COMPATIBILIDADE ELETROMAGNÉTICA. Eletricidade Moderna, São Paulo, , v. 296, p. 64 - 72, 04 nov.  1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . AVALIAÇÃO DA BLINDAGEM DE SE'S MT ATRAVÉS DE METODOLOGIA PROBABILÍSTICA. Eletricidade Moderna, São Paulo, , v. 236, p. 36 - 38, 04 nov.  1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . AVALIAÇÃO DA BLINDAGEM DE SE'S MT ATRAVÉS DE METODOLOGIA PROBABILÍSTICA. Eletricidade Moderna, São Paulo, , v. 236, p. 36 - 38, 04 nov.  1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . BLINDAGEM CONTRA DESCARGAS DIRETAS EM PRÉDIOS E INSTALAÇÕES DE ALTA TENSÃO. Eletricidade Moderna, São Paulo, , v. 223, p. 30 - 35, 04 out.  1992. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . BLINDAGEM CONTRA DESCARGAS DIRETAS EM PRÉDIOS E INSTALAÇÕES DE ALTA TENSÃO. Eletricidade Moderna, São Paulo, , v. 223, p. 30 - 35, 04 out.  1992. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . TUMOR COMPRESSION DUE APPLICATION OF DC CURRENT. IEEE Transactions on Magnetics (revista indexada ISSN 0018-9464), September 2001, volume 37, number 5, páginas 3753-3756, indexador S 0018-9464 (01) 0, 30 dez.  1900. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . TUMOR COMPRESSION DUE APPLICATION OF DC CURRENT. IEEE Transactions on Magnetics (revista indexada ISSN 0018-9464), September 2001, volume 37, number 5, páginas 3753-3756, indexador S 0018-9464 (01) 0. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0578947103267243" target="_blank">GAZZANA, D. S.</a> ; Arturo S. Bretas ; DIAS, G. A. D. ; <b>TELLO, M.</b> . Comparative Analysis  of EMC Methodologies Applied on transients Studies of Impulsive Grounding Systems. In: IEEE ICIT 2010 - International Conference on Industrial Technology, 2010, Viña del mar. Comparative Analysis  of EMC Methodologies Applied on transients Studies of Impulsive Grounding Systems, 2010. v. 1. p. 672-678. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MUSTAFA, Thair ; ALMAGUER, H. D. ; Nabi M. Almeida ; Luiz H. Meyer ; <b>TELLO, M.</b> . An analysis of the overvoltage in the secondary network, considering a transient grounding resistance. In: 2010 Asia-Pacific International Symposium on Electromagnetic Compatibility, 2010, Bijing - China. An analysis of the overvoltage in the secondary network, considering a transient grounding resistance, 2010. p. 1540-1543. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, Luciana Oliveira de ; HOLANDINO, C. ; <b>TELLO, M.</b> ; OLIVEIRA, R. T. ; Araujo G. G. . NANOPARTÍCULAS DE L-tIROSINA ASSOCIADAS AO TRATAMENTO ELETROQUÍMICO DE CÃES E GATOS COM CÂNCER. In: VI ONCOVET - III SIMPÓSIO DE ONCOLOGIA VETERINÁRIA, 2010, águas de lindóia. VI ONCOVET - III SIMPÓSIO DE ONCOLOGIA VETERINÁRIA, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0578947103267243" target="_blank">GAZZANA, D. S.</a> ; Arturo S. Bretas ; DIAS, Guilherme A. D. ; <b>TELLO, M.</b> . TRANSIENT RESOE OF GROUNDING ELECTRODE WITH EMPHASIS ON THE TRANSMISSION LINE MODELING METHOD (TLM). In: 30th International Conference on Lightning Protection - ICLP 2010, 2010, Cagliari. 30th International Conference on Lightning Protection - ICLP 2010, 2010. p. 1131-1-1131-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MUSTAFA, Thair ; ALMAGUER, H. D. ; Nabi M. Almeida ; Luiz H. Meyer ; <b>TELLO, M.</b> . Analysis of the overvoltage in the power distribution networks using two models of the grounding resistance: the traditional model with constant resistance and considering a transient resistance. In: 30th International Conference on Lightning Protection - ICLP 2010, 2010, Cagliari. 30th International Conference on Lightning Protection - ICLP 2010, 2010. p. 1054-1-1045-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MUSTAFA, Thair ; ALMAGUER, H. D. ; Luiz H. Meyer ; Nabi M. Almeida ; <b>TELLO, M.</b> . A comparison of the overvoltage levels in the distribution network, considering differents values of grounding resistance using TLM Method. In: International Conference on Grounding and Earthing & 4th International Conference on Lightning Physics and Effects, 2010, Salvador. International Conference on Grounding and Earthing & 4th International Conference on Lightning Physics and Effects, 2010. p. 202-205. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>TELLO, M.</b> ; OLIVEIRA, Luciana Oliveira de ; OLIVEIRA, Rosemari Teresinha de ; PARISE JUNIOR, O. ; BUZAID, A. C. ; ZANELLA, R. ; CARDONA, A. V. ; SILVA, I. N. ; HOLANDINO, C. . Comparative Study Applying Constant Current Source and Constant Volatge Source to Treat Cancer Using the Electrochemical Therapy. In: 17th Conference on the Computation of Electromagnetic Fields - COMPUMAG 2009, 2009, Florianopolis. Comparative Study Applying Constant Current Source and Constant Volatge Source to Treat Cancer Using the Electrochemical Therapy, 2009. p. PA2.1 51-PA2.1 52. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, Luciana Oliveira de ; <b>TELLO, M.</b> ; OLIVEIRA, Rosemari Teresinha de ; CARDOSO, C. S. ; ZANELLA, R. ; BITTENCOURT, H. R. ; CARDONA, Augusto Vieira ; PARISE JUNIOR, O. ; BUZAID, A. C. . 34th WORLD SMALL VETERINARY ASSOCIATION CONGRESS - 34TH WSAVA. In: 34th WORLD SMALL VETERINARY ASSOCIATION CONGRESS - 34TH WSAVA, 2009, SÃO PAULO. ELECTROCHEMICAL TREATMENT OF CANCER IN DOGS AND CATS, 2009. p. 158-160. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; Oliveira, L. O ; PARISE JUNIOR, O. ; BUZAID, A. C. ; OLIVEIRA, Rosemari Teresinha de ; ZANELLA, R. . Overview of Electrochemical Therapy to Treat Cancer. In: MOMAg 2008, 2008, Florianópolis. Overview of Electrochemical Therapy to Treat Cancer, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dias, G. A. D. ; Virgilio, T. D. Branco Fo. ; <b>TELLO, M.</b> ; SALGADO, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0578947103267243" target="_blank">GAZZANA, D. S.</a> . Grounding System of Emergency Generation of São José do Norte due to the Erection of Rio Grande Shipyard. In: International Conference on Grounding and Earthing, 2008, Florianópolis. GROUND´2008, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Souza, R. R. N. ; Coutinho, D. F. ; Tonkoski, R. ; Silva, S. L. C. ; <b>TELLO, M.</b> ; Dias, G. A. D. ; LIMA, J. C. ; CANALLI, Vicente M. ; Sarmanho, U. A. S. ; Adegas, F. D. ; Ceccon, G. B. ; Dos Reis, F. S. ; Ribeiro, P. . Non Linear loads Parameters Estimation and Modelling. In: International Symposium on Industrial Electronics, 2007, Vigo. ISIE 2007, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dias, G. A. D. ; HAFFNER, S. L. ; <b>TELLO, M.</b> ; SILVA, L. C. F. ; Neves, C. H. M. ; FILIPPON, Daniel . Evolution of the Grounding Potential Produced in a Three Level Substation Grounding System through Analytical Methods. In: International Conference on Grounding Earthing, 2006, Maceio. GROUND´2006, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; OSTERMANN, R. ; LAYHER, M. R. ; GEWHER, O. P. ; CORREA, S. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0578947103267243" target="_blank">GAZZANA, D. S.</a> ; <b>TELLO, M.</b> ; HASLER, C. F. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9863489023483818" target="_blank">SANTANA, B.</a> . Transformer Management System. In: 5th International WSEAS Conference on Power Systems and Electromagnetic Compatibility, 2005, Korfu. 5th International WSEAS Conference on Power Systems and Electromagnetic Compatibility, 2005. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; SONALIO, F. V. ; <b>TELLO, M.</b> ; BEHLE, F. K. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9863489023483818" target="_blank">SANTANA, B.</a> ; CASA, D. . INTERAÇÃO ENTRE FORNO DE INDUÇÃO E BANCO DE CAPACITORES - ESTUDO DE CASO. In: VI SBQEE - Seminário Brasileiro sobre Qualidade da Energia, 2005, Belém - Pará. VI SBQEE - Seminário Brasileiro sobre Qualidade da Energia, 2005. v. 1. p. 127-130. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; SILVA, L. C. F. ; <b>TELLO, M.</b> ; DIENSTMANN, V. ; WICKERT, H. M. . Lightning detection systems through electric field measurements. In: VIII International Symposium on Lightning Protection, 2005, São Paulo - SP. VIII International Symposium on Lightning Protection. São Paulo: Alphagraphics Pinheiros, 2005. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; OLIVEIRA, Luciana Oliveira de ; OLIVEIRA, Rosemari Teresinha de ; ZANELLA, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; CARDONA, A. V. ; SILVA, C. C. F. . Electrochemical Therapy Applied to Treat Dog´s Cancerous Mammary Glands an Model For Lymphicytes-Tumor Cells Population under Electrochemical Therapy. In: 3rd European Medical and Biological Engineering Conference, 2005, Praga - República Tcheca. 3rd European Medical and Biological Engineering Conference, 2005. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; SONALIO, F. V. ; Oliveira, L. O ; Oliveira, R. T. . Dogs Cancerous Mammary Glands Treated by DC Current: Part I Mathematic Model. In: URSI - International Symposium on Electromagnetic Theory, 2004, Pisa. URSI - International Symposium on Electromagnetic Theory, 2004. p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, Luciana Oliveira de ; <b>TELLO, M.</b> ; Oliveira, R. T. ; SILVA, C. C. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> . Corrente Elétrica Contínua para o Tratamento de Tumor de Mama em Cães. In: XXV CONGRESSO BRASILEIRO DE CLÍNICOS VETERINÁRIOS DE PEQUENOS ANIMAIS, 2004, Gramado - RS. XXV CONGRESSO BRASILEIRO DE CLÍNICOS VETERINÁRIOS DE PEQUENOS ANIMAIS, 2004. p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; <b>TELLO, M.</b> ; SONALIO, F. V. ; BEHLE, F. K. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9863489023483818" target="_blank">SANTANA, B.</a> ; CASA, D. . Harmonic Filtering and Power Factor Improvement on Illumination Systems with. In: International Conference on Harmonics and Quality of PowerInternational Conference on Harmonics and Quality of Power, 2004, Lake Placid. International Conference on Harmonics and Quality of PowerInternational Conference on Harmonics and Quality of Power, 2004. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; OLIVEIRA, Luciana Oliveira de ; OLIVEIRA, Rosemari Teresinha de ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; SILVA, V. D. ; RAIZER, Adroaldo ; DOMINGUEZ, H. A. . Effectiveness Evaluation of Direct Current Electrotherapy Applied in Dog´s Cancerous Mammary Glands. In: Biological Effects os EMF´s - 3rd International Workshop, 4 - 8 October, 2004, Kos. Biological Effects os EMF´s - 3rd International Workshop, 4 - 8 October, 2004. p. 429-436. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DOMINGUEZ, H. A. ; RAIZER, Adroaldo ; <b>TELLO, M.</b> . Geometrical - Electromagnetic Resonance in Human Models - A TLM Aproach. In: Biological Effects os EMF´s - 3rd International Workshop, 4 - 8 October, 2004, Kos. Biological Effects os EMF´s - 3rd International Workshop, 4 - 8 October, 2004. v. 1. p. 1020-1027. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; FILIPPON, Daniel . CEM para Prédios Especiais. In: CBMag 2002-V Congresso Brasileiro de Eletromagnetismo, 2002, Gramado, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; Oliveira, L. O ; Oliveira, R. T. ; Dias, G. A. D. ; Silva, V. D. ; Raizer, A . Utilização de Corrente Contínua para o Tratamento do Câncer (POSTER) . In: II Congresso Franco Brasileiro de Oncologia, 2002, Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; CARDONA, Augusto Vieira ; CANALLI, Vicente M. ; VALENTINI, Giovani ; RAIZER, Adroaldo ; MUSTAFA, Thair ; DIAS, Guilherme A. D. ; PEREIRA, Luis A. . Electric Device Applied to Excite a Dog's Vertebral Spine and its Numerical Evaluations. In: CEFC 2002-Conference on Electromagnetic Fields Computation, 2002, Perugia, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; SILVEIRA, Jony L. ; RAIZER, Adroaldo ; DIAS, Guilherme A. D. ; FERREIRA, Golberi S. . Transmission Line Modelling Applied In A Grounding System Installed Simultaneously In Soil And Water. In: EMC EUROPE 2002, 2002, Sorrento, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; OLIVEIRA, Luciana Oliveira de ; OLIVEIRA, Rosemari Teresinha de ; DIAS, Guilherme ; RAIZER, Adroaldo ; CARDONA, Augusto Vieira . Evaluation of DC Current Therapy in Mammary Cancer Tumor. In: Biological Effectsof Electromagnetic Fields, 2nd International Workshop, 2002, Rhodes, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; GARCIA JÚNIOR, Ervaldo ; <b>TELLO, M.</b> . Ensaios e Certificação de Instalações Elétricas em Automação de Prédios Inteligentes. In: I COBRAPI - Congresso Brasileiro de Automação e Prédios Inteligentes, 2002, Curitiba. I COBRAPI - Congresso Brasileiro de Automação e Prédios Inteligentes, 2002. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; OLIVEIRA, Luciana Oliveira de ; OLIVEIRA, Rosemari Teresinha de ; DIAS, Guilherme ; RAIZER, Adroaldo ; CARDONA, Augusto Vieira . DC Current Application In Dog s Cancerous Mammary Glands And It S Response Evalution. In: EMBEC'02-2nd Europian Medical & Biological Engineering Conference, 2002, Vienna, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. G. A. ; CARDONA, A. V. . ASSESSMENT OF ELECTRICAL FORCE DUE APPLICATION OF DC CURRENT IN TUMORS. In: CLAIB'2001, II Latin American Congress on Biomedical Engineering, 2001, avana. CLAIB'2001, II Latin American Congress on Biomedical Engineering, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; RAIZER, A. ; D, D. A. D. . PROTECTION AGAINST DIRECT LIGHTNING STRIKES OF BUILDINGS IN THE METROPOLITAN TRAIN IN THE AREA OF PORTO ALEGRE. In: VI Simpósio Internacional de Proteção contra Descargas Atmosféricas (VI SIPDA), 2001, antos. VI Simpósio Internacional de Proteção contra Descargas Atmosféricas (VI SIPDA), 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; RAIZER, A. ; CARDONA, A. V. . CELLULAR MODEL TO REPRESENT TUMOR CELL USING THE BCEC THEORY. In: 7th. International Symposium for Biologically Closed Electric Circuits in Biomedicine, 2001, Helsing r. 7th. International Symposium for Biologically Closed Electric Circuits in Biomedicine, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. G. A. ; RAIZER, A. ; CARDONA, A. V. ; ALMAGUER, H. D. . CAPACITIVE EFFECT TO TREAT TUMORS - FIRST STUDIES. In: CLAIB'2001, II Latin American Congress on Biomedical Engineering, 2001, Havana. CLAIB'2001, II Latin American Congress on Biomedical Engineering, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; CARDONA, A. V. ; D, D. G. A. . ASSESSMENT OF TRANSMEMBRANE POTENTIAL WHEN A DC CURRENT IS APPLIED IN THE TUMOR REGION. In: CLAIB'2001, II Latin American Congress on Biomedical Engineering, 2001, Havana. CLAIB'2001, II Latin American Congress on Biomedical Engineering, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; CARDONA, A. V. ; RAIZER, A. . EVALUATION OF SAR DISTRIBUTION IN HYPERTHERMIA TREATMENT USING THE TLM METHOD. In: European Society of Hyperthermia Oncology - ESHO 2001, 2001, European Society of Hypertherm. European Society of Hyperthermia Oncology - ESHO 2001, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; TAMAGNA, A. . PROBLEMAS DE QUALIDADE DE ENERGIA ENTRE ACIARIA E SISTEMA DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA - ESTUDO DE CASO. In: SICEL'2001 International Symposium on Power Quality, 2001, ogota, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; RAIZER, A. ; D, D. G. A. . COMPATIBILIDADE ELETROMAGNÉTICA EM PCH'S REPOTENCIADAS (SCQ/026), STE I SESSÃO TÉCNICA ESPECIAL DE INTERFERÊNCIAS, COMPATIBILIDADE ELETROMAGNÉTICA E QUALIDADE DE ENERGIA. In: XVI SNPTEE (XVI Seminário Nacional de Produção e Transmissão de Energia Elétrica), 2001, ampinas, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. G. A. ; CARDONA, A. V. ; RAIZER, A. . TUMOR COMPRESSION DUE APPLICATION OF DC CURRENT. In: CEFC'2000 - Conference of Electromagnetic Field Computation, 2000, Winsconsin, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; RAIZER, A. ; D, D. A. D. ; CARDONA, A. V. . CELLULAR MODEL TO REPRESENT TRANSMEMBRANE POTENTIAL WHEN A DC CURRENT IS APPLIED IN THE TUMOR REGION. In: CEFC'2000 - Conference of Electromagnetic Field Computation, 2000, Winsconsin, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; RAIZER, A. . COMPATIBILIDAD ELECTROMAGNÉTICA/INTERACCION DEL CEM COM LOS MEDIOS BIOLÓGICOS (SER HUMANO). In: II International Workshop on Bioelectromagnetism, 2000, Santiago de Cuba, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; RAIZER, A. ; D, D. A. D. . DC CURRENT EQUIPMENT USED TO HEAL CANCER. In: do II International Workshop on Bioelectromagnetism, 2000, Santiago de Cuba, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; RAIZER, A. ; D, D. A. D. . SIMULACIÓN NUMÉRICA PARA PROBLEMAS EM BIOELECTROMAGNETISMO. In: II International Workshop on Bioelectromagnetism, 2000, Santiago de Cuba, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; RAIZER, A. ; GOLBERI ; JONY . THE USE OF TLM - TRANSMISSION LINE MODELING IN GROUNDING SYSTEMS. In: GROUNDING'2000, 2000, Belo Horizonte, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. . HARMONICS PRODUCED BY TRANSFORMER SATURATION. In: POWER QUALITY 2000 - THE INTERNATIONAL POWER QUALITY CONFERENCE & EXHIBIT, 2000,  Boston, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. . EFICIÊNCIA ENERGÉTICA EM SUBESTAÇÕES. In: III CIERTEC - Seminário Internacional de Construção e Manutenção de Sistemas de Distribuição e Subtransmissão de Energia Elétrica, 2000, fllorianópolis, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; CARDONA, A. V. ; RAIZER, A. ; LIMA, J. C. ; PEREIRA, L. F. . EQUIPAMENTO APLICADO NA TERAPIA ANTI TUMORAL. In: XVII CBEB - Congresso Brasileiro de Engenharia Biomédica, 2000, florianópolis, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; RAIZER, A. ; D, D. A. D. ; JONY ; GOLBERI . ANÁLISE DE MALHAS DE ATERRAMENTO COM O MÉTODO TLM (TRANSMISSION LINE MODELING METHOD). In: Cbmag'2000, 2000, Natal, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. . CURRENT TRANSFORMER ERROS DUE TO BUSBAR CONFIGURATION. In: IV INDUSCOM - IV CONFERENCE OF INDUSTRY APPLICATION, 2000, orto Alegre, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, G. A. ; RAIZER, A. . DETERMINATION OF FORCES ON A CANCEROUS REGION WHEN THE DC CURRENT IS APPLIED IN TUMOR AREA. In: ECT99 3rd Congress on ElectroCancer Treatment  4th Congress on Biologically Closed Electric Circuits, 1999, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. G. A. ; ROSA, M. . Interferencia e Corrosao em Dutovias. In: IX Simposio De Ingenieria Electrica. SIEE99, 1999, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIAS, G. A. D. ; <b>TELLO, M.</b> . RUIDO AUDIVEL PRODUZIDO POR TRANSFORMADORES - ESTUDO DE CASO. In: IX Simposio De Ingenieria Electrica. SIEE99, 1999, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIAS, G. A. D. ; <b>TELLO, M.</b> ; ROSA, M. . AQUECIMENTO DE MOTORES DE INDUCAO PRODUZIDO POR HARMONICAS ESTUDO TEORICO - PRATICO. In: III SBQEE - Seminario Brasileiro sobre Qualidade da Energia Eletrica, 1999, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; DIAS, G. A. D. ; CARDONA, A. V. ; RAIZER, A. . Forces that appear in a Cancerous Region when DC current is applied. In: ESHO 99 - 18TH Annual Meeting of the European Society for Hyperthermic Oncology, 1999, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIAS, G. A. D. ; <b>TELLO, M.</b> . CAPACITACAO ACADEMICA PARA A QUALIDADE DA ENERGIA E. In: XV SNPTEE - Seminario Nacional de Producao e Transmissao de Energia Eletrica, 1999, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; DIAS, G. A. D. . COMPATIBILIDADE ELETROMAGNETICA EM SUBESTACOES DE ALTA TENSAO. In: XV SNPTEE - Seminario Nacional de Producao e Transmissao de Energia Eletrica, 1999, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; DIAS, G. A. D. ; RAIZER, A. . Safe Design Of Grounding System Formed By Sky Way And Transmission Lines. In: Congresso Brasileiro de Eletromagnetismo - CBMag98, 1998, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>56. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; DIAS, G. A. D. ; RAIZER, A. . Hyperthermia Applied to Heal Cancer. In: International Congress in Hypertermia in Clinical Oncology, 1998, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>57. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; DIAS, G. A. D. ; RAIZER, A. . ELECTROMAGNETIC INTERFERENCE IN PIPE RACK SYSTEM SUBJECT TO EXPLOSION HAZARD DUE TRANSMISSION LINE PROXIMITY. In: do CEFC98-Conference on Electromagnetic Field Computation, 1998, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>58. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; DIAS, G. A. D. ; RAIZER, A. . EMC RELATED WITH SAFE DESIGN OF GROUNDING SYSTEM TO BE FORMED BY PEDESTRIAN METALIC SKY WAY AND TRANSMISSION LINES. In: EMC98 ROMA International Symposium on Electromagnetic Compatibility, 1998, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>59. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; CARDONA, A. V. . Spectral Method Applied To Electromagnetic Problems. In: Congresso Brasileiro de Eletromagnetismo - CBMag98, 1998, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>60. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. G. A. . Linha de Transmissao com 131 m de altura: Um desafio para a Compatibilidade Eletromagnetica. In:  IV SIPDA - Seminario Internacional de Protecao contra Descargas Atmosfericas, 1997, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>61. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; DIAS, G. A. D. . O EMPREGO DO MEF - METODO DOS ELEMENTOS FINITOS, COM REPRESENTACAO DO INFINITO, NA AVALIACAO DE SISTEMA DE ATERRAMENTO EM SOLO DESCONTINUO. In: Congresso Ibero Latino - Americano de Metodos Computacionais em Engenharia - XVIII CILAMCE, 1997, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>62. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; DIAS, G. A. D. . EXPERIMENTOS COM AVALIACAO DE ENSINO APRENDIZAGEM NA ENGENHARIA ELETRICA - ENFASE ELETROTECNICA DA PUCRS. In: XXV Congresso Brasileiro de Ensino de Engenharia - COBENGE97, 1997, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>63. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; RAIZER, A. . THE CONCEPTS OF BECM APPLIED TO HEAL CANCER. In: Conference on the Computation of Electromagnetic Fields - COMPUMAG97, 1997, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>64. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; DIAS, G. A. D. . HARMONICAS PRODUZIDAS PELA SATURACAO DE TRANSFORMADORES - RELATO DE CASO. In: 2o Seminario Brasileiro da Qualidade de Energia Eletrica - SBQEE97, 1997, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>65. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; DIAS, G. A. D. . AVALIACAO DE SISTEMA DE ATERRAMENTO EM SOLO DESCONTINUO, EMPREGANDO O MEF - METODO DOS ELEMENTOS FINITOS, COM REPRESENTACAO DO INFINITO. In: Congresso Latino Americano de Geracao e Transmissao de Energia Eletrica - CLAGTEE97, 1997, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>66. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; CARDONA, A. V. . SOLUÇÃO ANALÍTICA PARA A APROXIMAÇÃO SN DA EQUAÇÃO TRIDIMENSIONAL DE BOLTZMANN. In: XX Congresso Nacional de Matemática Aplicada e Computacional, 1997, Gramado, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>67. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; NATORFF, M. . ENSAIO DE VEÍCULO DE LAVAGEM DE EQUIPAMENTOS ENERGIZADOS. In: III Jornadas Latinoamericanas en Alta Tensión y Aislamiento Eléctrico - ALTAE'97, 1997, Caracas, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>68. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; VILHENA, M. T. . MODELO NUMÉRICO PARA DETECÇÃO DE TUMORES. In: III Fórum Nacional de Ciência e Tecnologia em Saúde - FNCTS, 1996, Campos do Jordão, 1996. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>69. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; VILHENA, M. T. . CÁLCULO ANALÍTICO DE DOSE - VISÃO ATUAL. In: III Fórum Nacional de Ciência e Tecnologia em Saúde - FNCTS, 1996, Campos do Jordão, 1996. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>70. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. . AVALIAÇÃO DA COMPATIBILIDADE ELETROMAGNÉTICA EM INSTALAÇÕES DE ALTA TENSÃO, PARTE I - CRITÉRIOS BÁSICOS. In: II CBMag - Congresso Brasileiro de Eletromagnetismo, 1996, Ouro Preto, 1996. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>71. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. . AVALIAÇÃO DE COMPATIBILIDADE ELETROMAGNÉTICA DE INSTALAÇÕES DE ALTA TENSÃO, PARTE II - AVALIAÇÕES REALIZADAS. In: II CBMag - Congresso Brasileiro de Eletromagnetismo, 1996, Ouro Preto, 1996. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>72. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. . COMPATIBILIDADE ELETROMAGNÉTICA EM SUBESTAÇÕES DE ALTA TENSÃO. In: II Congresso Latinoamericano de Distibuición de Energia Eléctrica, 1996, Vi a del Mar, 1996. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>73. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . NUMERICAL METHOD TO DETECT TUMOR IN HUMAN BODY APPLYING TWO-ELECTRODE TECHNIQUE ASSOCIATED WITH A FINITE ELEMENT AND PROBABILISTIC MODEL. In: COMPUMAG 95 Conference on the Computation of Electromagnetic Fields, 1995, Berlim, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>74. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . CAMPO ELÉTRICO PRODUZIDO POR CONDUTORES ENERGIZADOS. In: Congresso Brasileiro de Eletromagnetismo CBmag 95, 1995, Florianópolis, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>75. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . ATERRAMENTO E EQUIPOTENCIALIZAÇÃO PARA CONTROLE DAS DESCARGAS ELETROSTÁTICAS. In: Congresso Brasileiro de Eletromagnetismo CBmag 95, 1995, Florianópolis, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>76. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . NUMERICAL METHOD TO DETECT TUMOR IN HUMAN BODY. In: Congresso Brasileiro de Eletromagnetismo CBmag 95, 1995, lorianópolis, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>77. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . ANALYSIS OF SOIL RESISTIVITY IN MULTI-LAYER EARTH . In: COMPUMAG 95 Conference on the Computation of Electromagnetic Fields, 1995, Berlim, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>78. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . MODELAGEM DA ESTRUTURA DO SOLO EM VÁRIAS CAMADAS VERTICAIS E/OU HORIZONTAIS, USANDO O MÉTODO DOS ELEMENTOS FINITOS ASSOCIADO AO MÉTODO INVERSO. In: XXII Seminário Nacional da Produção e Transmissão de Energia Elétrica - SNPTEE 95, 1995, Camboriu, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>79. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . NORMALIZAÇÃO BRASILEIRA SOBRE ATERRAMENTO PARA CONTROLE DAS DESCARGAS ELETROSTÁTICAS. In: XI Congreso Chileno de Ingenieria Eléctrica (ELECTRO'95),, 1995, Punta Arenas, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>80. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . ANÁLISE DO COMPORTAMENTO DE SISTEMAS DE ATERRAMENTO EM SOLOS ESTRATIFICADOS EM DUAS CAMADAS. In: XI Congreso Chileno de Ingenieria Eléctrica - ELECTRO'95, 1995, Punta Arenas, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>81. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . GROUNDING SYSTEMS ANALYSIS BY DECOUPLED METHOD. In: VI International Symposium on Advanced Computational and Design Techniques in Applied Electromagnetic Systems (ISEM), 1994, Seul, 1994. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>82. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; LOUREIRO, L. T. R. ; HAFFNER, S. L. . LOW FREQUENCY FIELDS: COMPUTATION OF CURRENTS DENSITIES IN HUMAN BODY. In: VI International Symposium on Advanced Computational and Design Techniques in Applied Electromagnetic Systems (ISEM), 1994, Seul, 1994. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>83. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . COMPUTATION OF CURRENTS DENSITIES IN HUMAN BODY DUE TO EXPOSURE OF LOW FREQUENCY FIELDS. In: IEEE Conference on Electromagnetic Field Computation (CEFC'94), 1994, Aix-les-Bains, 1994. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>84. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . SOFTWARE PARA ESTRATIFICAÇÃO DO SOLO. In: IV Seminario de Ingenieria de Potencia IEEE Institute of Electric and Electronic Engineers Chile, 1994, Santiago, 1994. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>85. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . BLINDAGEM DE INSTALAÇÕES ELÉTRICAS CONTRA DESCARGAS ATMOSFÉRICAS DIRETAS EMPREGANDO MÉTODOS PROBABILÍSTICOS. In: III SIPDA - International Seminar on Lightning Protection, 1994, São Paulo, 1994. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>86. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; HAFFNER, S. L. ; D, D. A. D. . TENDÊNCIAS E PROPOSTAS PARA MODERNIZAÇÃO DO CURSOS DE ENGENHARIA ELÉTRICA - ÊNFASE ELETROTÉCNICA. In: XXI Congresso Brasileiro de Ensino de Engenharia (COBENGE 93), 1993, elo Horizonte, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>87. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . DETERMINAÇÃO DO CAMPO ELÉTRICO E DA DENSIDADE DE CORRENTE NO SER HUMANO UTILIZANDO O MEF-3D. In: XII Seminário Nacional da Produção e Transmissão de Energia Elétrica (SNPTEE), 1993, Recife, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>88. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . NOVOS MÉTODOS APLICADOS AO ESTUDO DE SISTEMAS DE ATERRAMENTO. In: XII Seminário Nacional da Produção e Transmissão de Energia Elétrica (SNPTEE), 1993, Recife, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>89. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; BASTOS, J. P. A. . INFINITE ELEMENTS APPLIED TO ANALYSIS OF SUBSTATION GROUNDING SYSTEMS. In: 9th COMPUMAG Conference on the Computation of Electromagnetic Fields, 1993, Miami, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>90. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . ESTRATIFICAÇÃO DO SOLO EM CAMADAS CONSIDERANDO A DISPERSÃO DAS MEDIDAS. In: XIV Congresso Ibero Latino Americano de Métodos Computacionais em Engenharia (CILAMCE), 1993, São Paulo, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>91. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . MÉTODO COMPUTACIONAL PARA PROJETO DE GRANDES SISTEMAS DE ATERRAMENTO EMPREGANDO MATRIZES ESPARSAS. In: XIV Congresso Ibero Latino Americano de Métodos Computacionais em Engenharia (CILAMCE), 1993, São Paulo, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>92. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . O MÉTODO DOS ELEMENTOS FINITOS COM REPRESENTAÇÃO DO INFINITO ATRAVÉS DE ELEMENTOS INFINITOS. In: XIV Congresso Ibero Latino Americano de Métodos Computacionais em Engenharia (CILAMCE), 1993, São Paulo, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>93. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. G. A. ; LOUREIRO, L. T. R. . APLICAÇÃO DO MÉTODO DE ELEMENTOS FINITOS EM ENGENHARIA ELÉTRICA. In: VI SUMEE - Seminário sobre o uso de microcomputador no ensino de engenharia, 1993, Porto Alegre, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>94. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; LOUREIRO, L. T. R. . PROJETO DE TRANSFORMADORES UTILIZANDO COMPUTADORES PESSOAIS. In: VI SUMEE - Seminário sobre o uso de microcomputador no ensino de engenharia, 1993, Porto Alegre, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>95. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . PROCEDIMENTO PARA DIMENSIONAR SISTEMAS DE ATERRAMENTO USANDO O MÉTODO DE ELEMENTOS FINITOS 3D. In: do CBEA - Congresso Brasileiro de Eletromagnetismo Aplicado, 1992, elo Horizonte, 1992. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>96. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; HAFFNER, S. L. ; D, D. A. D. . AVALIAÇÃO DA BLINDAGEM CONTRA DESCARGAS ATMOSFÉRICAS DIRETAS EM PRÉDIOS E INSTALAÇÕES DE ALTA TENSÃO. In: II International Seminar on Protection Against Atmospheric Discharges, 1992, uaratinguetá, 1992. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>97. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; HAFFNER, S. L. ; D, D. A. D. . AVALIAÇÃO DO DESEMPENHO DE SISTEMAS DE ATERRAMENTO QUE UTILIZAM HASTES PROFUNDAS ATRAVÉS DO MEF-3D. In: CBEA - Congresso Brasileiro de Eletromagnetismo Aplicado, 1992, Belo Horizonte, 1992. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>98. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. A. D. ; HAFFNER, S. L. . AVALIAÇÃO DA BLINDAGEM DE ESTAÇÕES TRANSFORMADORAS DE DISTRIBUIÇÃO CONTRA DESCARGAS ATMOSFÉRICAS DIRETAS. In: XI SENDI - Seminário Nacional de Distribuição de Energia Elétrica, 1992, Blumenau, 1992. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>99. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. G. A. ; HAFFNER, S. L. . ATERRAMENTO DE CERCAS METÁLICAS DE SUBESTAÇÕES SITUADAS EM REGIÕES URBANAS. In: no XI Seminário Nacional da Produção e Transmissão de Energia Elétrica - SNPTEE, 1991, rio de janeiro, 1991. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; OLIVEIRA, Luciana Oliveira de ; OLIVEIRA, Rosemari Teresinha de ; BUZAID, A. C. ; PARISE JUNIOR, O. ; SILVA, C. C. F. ; ZANELLA, R. ; CARDONA, A. . DC Current apply to treat cancer (in vivo treatment). In: The 16th International Conference on the Computation of Eletromagnetic Fields, 2007, Aachen. DC Current apply to treat cancer (in vivo treatment), 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; CARDONA, Augusto Vieira ; RAIZER, Adroaldo . Tumor Compression Due Application of DC Current. In: IEEE Transactions on MAGNETICS, 2001. IEEE Transactions on Magnetics, 2001. v. 37. p. 3753-3756. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> ; RAIZER, Adroaldo . The BECM Concepts Applied to Heal Cancer. In: IEEE Transactions on MAGNETICS, 1998. IEEE Transactions on MAGNETICS, 1998. v. 34. p. 2811-2813. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Resumos publicados em anais de congressos (artigos)</b>
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, Luciana Oliveira de</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span>OLIVEIRA, Luciana Oliveira de ; <b>TELLO, M.</b> ; OLIVEIRA, Rosemari Teresinha de ; SILVA, C. C. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a> . Corrente Elétrica Contínua para o Tratamento de Tumor de Mama em Cães. ANCLIVEPA Brasil<sup><img id='18064582_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18064582' /></sup>, Gramado - RS, v. 1, p. 74-75, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18064582&volume=1&issue=&paginaInicial=74&titulo=Corrente Elétrica Contínua para o Tratamento de Tumor de Mama em Cães&sequencial=1&nomePeriodico=ANCLIVEPA Brasil" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, Luciana Oliveira de ; HOLANDINO, C. ; <b>TELLO, M.</b> ; OLIVEIRA, R. T. ; Araujo G. G. . Nanopartículas de L-Tirosina associadas ao Tratamento Eletroquímico de Cães e Gatos com Câncer. 2010. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REVIEWER, E. ; <b>TELLO, M.</b> . Mathematical Modeling of Tumor Growth in Mice Following Low-Level Direct Eletric Current. Senior,
+							 2006 (Mathematics and Computers in Simulation). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. G. A. ; RAIZER, A. . The BECM Concepts Applied to Heal Cancer 1998 (eletromagnetismo). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> ; D, D. G. A. ; RAIZER, A. . The BECM Concepts Applied to Heal Cancer 1998 (eletromagnetismo). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ProdutosTecnologicos"></a>Produtos tecnológicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . Equipamento que utiliza corrente continua como terapia anti tumoral. 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . Equipamento que utiliza corrente continua como terapia anti tumoral. 2000. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b> . Tratamento Alternativo para Câncer de mama em Cães no HCV-UFRGS. 2005 (Prestação de Serviço) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dos Reis, F. S.; LEMOS, F. A. B.; <b>TELLO, M.</b>.  Participação em banca de Edson de Araujo. Identificação de Causas de Falhas em Sistemas de Distribuição usando o Processo Analítico Hierárquico - AHP. 2010. Dissertação (Mestrado em Engenharia Elétrica) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>; Marcia Alves Marques capella; PYRRHO, A. S..  Participação em banca de Marina das Neves Gomes. Atividade Antitumoral de Correntes Elétricas Contínuas: Avaliação do Potencial Mutagênico e Genotóxico. 2010. Dissertação (Mestrado em Farmacia Hospitalar) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ály Ferreira Flores Filho; <b>TELLO, M.</b>; Lúcio Almeida Hecktheuer.  Participação em banca de Rogério Coelho Guimarães. Modelo Elétrico da Impedãncia do Transformador Baseado em Células RLC Passivas. 2010. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thiago Clé de Oliveira; <b>TELLO, M.</b>; Arturo S. Bretas.  Participação em banca de Roberto José Cabral. Análise Numérica de Curto Circuito utilizando Componentes Simétricas e Componentes de fases para obter índices de Afundamentos. 2010. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>; LEBORGNE, R. C.; roberto petry homrich; HAFFNER, S. L..  Participação em banca de José Ubirajara Nuñes de Nunes. Localização de faltas em Alimentadores Primários de Distribuição de Energia com a Presença de Geração Distribuída. 2010. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WENDHAUSEN, P. A. P.; DIAS, M. M.; <b>TELLO, M.</b>.  Participação em banca de Juliano Soares Barboza. Caracterização de Compósitos Magnéticos Macios Desenvolvidos Através da Metalurgia do Pó Aplicados a Núcleos de máquinas Elétrticas. 2009 - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>; ZANCAN, P.; NIMRICHTER, L..  Participação em banca de Luciana Macedo Brito. Alterações Celulares e Bioquímicas Induzidas por uma Corrente Elétrica Contínua de baixa Intensidade em Células Humanas Leucêmicas. 2009 - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>; SCHUCH, G. B.; LEBORGNE, R. C..  Participação em banca de Oswaldo Hideo Ando Júnior. Desenvolvimento de uma Metodologia para Gerenciar Indicadores de Qualidade de Energia Elétrica. 2009 - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de Vânia Emerich Bucco de campos. Estudo da Potencialidade de Ácidos Aminados Encapsulados em Nanopartículas de Poli-e-Caprolactona para Uso na Eletroterapia do Câncer. 2008. Dissertação (Mestrado em Farmacia Hospitalar) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>; Márcio Lourenço Rodrigues; Mauro Sola Penna.  Participação em banca de Vânia Emerich Bucco de campos. Estudo da Potencialidade de Ácidos Aminados Encapsulados em Nanopartículas de Poli-e-Caprolactona para Uso na Eletroterapia do Câncer. 2008. Dissertação (Mestrado em Farmacia Hospitalar) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEYER, F.; <b>TELLO, M.</b>; DAVILA, A. V..  Participação em banca de Débora Rios Garcia. Validação da Termografia no Diagnóstico de LER/DORT. 2004. Dissertação (Mestrado em Ciências do Movimento Humano) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de Daniel Galberto Filippon. CÁLCULO DE POTENCIAIS EM MALHAS DE ATERRAMENTO UTILIZANDO O AutoCAD. 2003. Dissertação (Mestrado em Engenharia Elétrica) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de aluno Valdoir da Silva Moreira. EFICIENTIZAÇÃO DE ENERGIA ELÉTRICA NO BANRISUL - ESTUDO DE CASO. 2003. Dissertação (Mestrado em Engenharia Elétrica) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de aluno Rubens Alessandro Selinke. AVALIAÇÃO DOS NÍVEIS DE TENSÃO INDUZIDA EM SISTEMAS ELÉTRICOS DEVIDO À DESCARGAS ATMOSFÉRICAS. 2003. Dissertação (Mestrado em Engenharia Elétrica) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de Daniel Galberto Filippon. CÁLCULO DE POTENCIAIS EM MALHAS DE ATERRAMENTO UTILIZANDO O AutoCAD. 2003. Dissertação (Mestrado em Engenharia Elétrica) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de aluno Valdoir da Silva Moreira. EFICIENTIZAÇÃO DE ENERGIA ELÉTRICA NO BANRISUL - ESTUDO DE CASO. 2003. Dissertação (Mestrado em Engenharia Elétrica) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de aluno Rubens Alessandro Selinke. AVALIAÇÃO DOS NÍVEIS DE TENSÃO INDUZIDA EM SISTEMAS ELÉTRICOS DEVIDO À DESCARGAS ATMOSFÉRICAS. 2003. Dissertação (Mestrado em Engenharia Elétrica) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de Édison Pereira Dachi. DETERMINAÇÃO DOS CAMPOS DE TEMPERATURA EM UM ALTO-FALANTE. 2002. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de aluno Otávio Alves Rolim. EFICIENTIZAÇÃO DE ESTAÇÕES FERROVIÁRIAS - ESTUDO DE CASO. 2002. Dissertação (Mestrado em Engenharia Elétrica) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de Édison Pereira Dachi. DETERMINAÇÃO DOS CAMPOS DE TEMPERATURA EM UM ALTO-FALANTE. 2002. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de aluno Otávio Alves Rolim. EFICIENTIZAÇÃO DE ESTAÇÕES FERROVIÁRIAS - ESTUDO DE CASO. 2002. Dissertação (Mestrado em Engenharia Elétrica) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de Luiz Rosa Vieira. Estratégias para Minimizar o Consumo de Energia Elétrica no Apoio à Sistemas Solares de Aquecimento de Água. 2001. Dissertação (Mestrado em Engenharia Mecânica) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de Luiz Rosa Vieira. Estratégias para Minimizar o Consumo de Energia Elétrica no Apoio à Sistemas Solares de Aquecimento de Água. 2001. Dissertação (Mestrado em Engenharia Mecânica) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silverio Visacro Filho; Antônio Roberto Panicali; <b>TELLO, M.</b>; Hugo Armando Dominguez Almaguer; ZURN, H. H.; COELHO, J..  Participação em banca de Vilson Luiz Coelho. Análise do Desempenho de Redes Aéreas de Distribuição de Média Tensão frente à Ação das Descargas Atmosféricas. 2010. Tese (Doutorado em Engenharia Elétrica)  - Universidade Federal de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REGULY, A.; AVILA, A. O. V.; <b>TELLO, M.</b>; ZARO, M. A..  Participação em banca de Luiz Rosa Vieira. Uso da Termografia para Avaliação da Temperatura em Cirurgias Lazer ERK. 2006. Tese (Doutorado em Engenharia Elétrica)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>; STROHAECKER, T. R.; ZARO, M. A.; REGULY, A..  Participação em banca de Luiz Rosa Vieira. Uso da Termografia para a Medição da Temperatura da Córnea do Olho Humano Durante Cirurgia a Laser. 2005. Tese (Doutorado em Engenharia de Minas, Metalúrgica e de Materiais)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de Erico Bruchmann Spier. COORDENAÇÃO DA OPERAÇÃO DE GERAÇÃO DISTRIBUÍDA CONECTADA EM SISTEMA DE DISTRIBUIÇÃO UTILIZANDO PROGRAMAÇÃO DINÂMICA. 2003. Tese (Doutorado em Engenharia Elétrica)  - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>.  Participação em banca de Erico Bruchmann Spier. COORDENAÇÃO DA OPERAÇÃO DE GERAÇÃO DISTRIBUÍDA CONECTADA EM SISTEMA DE DISTRIBUIÇÃO UTILIZANDO PROGRAMAÇÃO DINÂMICA. 2003. Tese (Doutorado em Engenharia Elétrica)  - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>; MARQUES, Jefferson Luiz; RAIZER, Adroaldo; BASSANI, José Wilson Magalhães; TEIXEIRA, Gilberto Vaz; SCHNEIDER, Fernando Cherem.  Participação em banca de Airton Ramos. Desenvolvimento e Aplicação de Métodos Numéricos para a Análise de Tecidos Biológicos Excitados por Potenciais Elétricos. 2001. Exame de qualificação (Doutorando em Engenharia Elétrica)  - Universidade Federal de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>; MARQUES, Jefferson Luiz; RAIZER, Adroaldo; BASSANI, José Wilson Magalhães; TEIXEIRA, Gilberto Vaz; SCHNEIDER, Fernando Cherem.  Participação em banca de Airton Ramos. Desenvolvimento e Aplicação de Métodos Numéricos para a Análise de Tecidos Biológicos Excitados por Potenciais Elétricos. 2001. Exame de qualificação (Doutorando em Engenharia Elétrica)  - Universidade Federal de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>; TEIXEIRA, Gilberto Vaz; RAIZER, Adroaldo; CARPES JÚNIOR, Walter Pereira; MARQUES, Jefferson Luiz Brum; FERREIRA, Golberi de Salvador.  Participação em banca de Hugo Armando Domíngues Almaguer. CONTRIBUIÇÃO AO MÉTODO DA MODELAGEM POR LINHAS DE TRANSMISSÃO (TLM) E SUA APLICAÇÃO AOS ESTUDOS EM BIOELETROMAGNETISMO. 2000. Exame de qualificação (Doutorando em Engenharia Elétrica)  - Universidade Federal de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>; TEIXEIRA, Gilberto Vaz; RAIZER, Adroaldo; CARPES JÚNIOR, Walter Pereira; MARQUES, Jefferson Luiz Brum; FERREIRA, Golberi de Salvador.  Participação em banca de Hugo Armando Domíngues Almaguer. CONTRIBUIÇÃO AO MÉTODO DA MODELAGEM POR LINHAS DE TRANSMISSÃO (TLM) E SUA APLICAÇÃO AOS ESTUDOS EM BIOELETROMAGNETISMO. 2000. Exame de qualificação (Doutorando em Engenharia Elétrica)  - Universidade Federal de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8416153890714779" target="_blank">DIAS, Guilherme Alfredo Dentzien</a>; <b>TELLO, M.</b>.  Participação em banca de Fabicio Seyboth.Utilização de Recursos de Proteção da Transmissão em Sistema de Distribuição.
+							2004. Trabalho de Conclusão de Curso (Graduação em Engenharia Elétrica)  - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>; MATZEMBACHER, S. R..  Participação em banca de Henrique Peters Rech.Ferro-Resonância.
+							2004. Trabalho de Conclusão de Curso (Graduação em Engenharia Elétrica)  - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>TELLO, M.</b>; MATZEMBACHER, S. R.. Sistemas de Aterramento.
+							2005.
+							Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">21  Congresso Brasileiro de Engenharia Biomédica. Modelagem, Simulação e Controle de Sinais Fisiológicos. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Conference of the IEEE Engineering in Medicine and Biology Society. Automatic screening of Obstructive Sleep Apnea from the ECG based on Empirical Mode Decomposition and Wavelet Analysis. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IEEE Transactions on Magnetics.Multi-tooth flux- switching PM Brushless AC machines for high torque-drive applications. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Multidisciplinary Head and Neck Cancer Symposium (ASTRO, ASCO, AHNS). Treatment of Spontaneous Head and Neck Tumors of Cats and Dogs with Electrolysis and Electrochemotherapy. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">29th Annual International Conferende of the IEEE Engineering in Medicine and Biology Society. Electrochemical Therapy to Treat Cancer (In Vivo Treatment). 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mathematics and computers in simulation.Mathematical modelling of tumor growth in mice following low-level direct current. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7º CBMAG - Congresso Brasileiro de Eletromagnetismo. Comite Técnico. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">12º Simpósio Brasileiro de Microondas e Optoeletrônica.Comite Técnico.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bioengenharia e Odontologia: Tecnologia e Aplicação Clínica com Enfoque Multiprofissional.Aplicações de Campos Eletromagnéticos na Área da Saúde.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro de Bioengenharia e Odontologia: Tecnologia e Aplicação Clínca com Enfoque Multiprofissional.Aplicações de campos eletromagnéticos na área de saúde.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV. Congresso Brasileiro de Automática - CBA. Análise de Parâmetros Elétricos de Linhas de Transmissão no Domínio da Freqüência no Ambiente Matemático. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Exposição de Projetos Revolucionários da Área Tecnológica.O Uso da Corrente Elétrica para o Tratamento do Câncer. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">EMBEC 2003, 25th Annual International Conference of the IEEE Engineering in Medicine and Biology Society. Development and Validation of an Electrically Controlled Rotatory Chair to be Used as a Simulator for Spatial Disorientation and Motion Sickness. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Brasileiro sobre a qualidade da energia elétrica.Participação como chair man. 2001. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rubens Alessandro Selinke. Avaliação dos Níveis de Tensão Induzida em Sistemas Elétricos Devido à Descargas Atmosféricas.
+						Início: 2001.
+						Dissertação (Mestrado em Engenharia Elétrica)  - Pontifícia Universidade Católica do Rio Grande do Sul, Aes Sul. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rubens Alessandro Selinke. Avaliação dos Níveis de Tensão Induzida em Sistemas Elétricos Devido à Descargas Atmosféricas.
+						Início: 2001.
+						Dissertação (Mestrado em Engenharia Elétrica)  - Pontifícia Universidade Católica do Rio Grande do Sul, Aes Sul. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daniel da Silva Gazzana. Contribuiçãoao estudo de Análise de Aterramento Impulsivo e em Altas Freqüências Associado à avaliação da Suportabilidade dos Seres Humanos com base no Método da modelagem por Linhas de transmissão.
+						Início: 2010. Tese (Doutorado em Engenharia Elétrica)  - Universidade Federal do Rio Grande do Sul. (Co-orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Airton Ramos.
+						Desenvolvimento e Aplicação de Métodos Numéricos para a Análise de Tecidos Biológicos Excitados por Potenciais Elétricos.
+							2001. 0 f. Tese
+					 (Doutorado em Engenharia Elétrica)  - Universidade Federal de Santa Catarina, . Orientador: Marcos Tello. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Airton Ramos.
+						Desenvolvimento e Aplicação de Métodos Numéricos para a Análise de Tecidos Biológicos Excitados por Potenciais Elétricos.
+							2001. 0 f. Tese
+					 (Doutorado em Engenharia Elétrica)  - Universidade Federal de Santa Catarina, . Orientador: Marcos Tello. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Hugo D. Almaguer.
+						Contribuição ao Método da Modelagem por Linhas de Transmissão (TLM) e sua Aplicação aos Estudos em Bioeletromagnetismo.
+							2000. 0 f. Tese
+					 (Doutorado em Engenharia Elétrica)  - Universidade Federal de Santa Catarina, . Orientador: Marcos Tello. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Hugo D. Almaguer.
+						Contribuição ao Método da Modelagem por Linhas de Transmissão (TLM) e sua Aplicação aos Estudos em Bioeletromagnetismo.
+							2000. 0 f. Tese
+					 (Doutorado em Engenharia Elétrica)  - Universidade Federal de Santa Catarina, . Orientador: Marcos Tello. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FAPESC.
+							Pesquisa Universal CT&I FAPESC.
+							2006.
+							Orientação de outra natureza - Fundação de Apoio a Pesquisa Científica e Tecnológica do Estado de SC. Orientador: Marcos Tello.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:03:07</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0009486204314531" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

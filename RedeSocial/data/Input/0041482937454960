@@ -1,0 +1,2484 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Roger Domenech Colacios)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0041482937454960" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4759120U4&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4759120U4"><div class="infpessoa">
+<h2 class="nome">Roger Domenech Colacios</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0041482937454960</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 06/05/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Doutorando em História Social pela Universidade de São Paulo. Mestre em História Social pela Universidade de São Paulo/USP (2009). Graduação em História pela Universidade Estadual de Londrina (2006). Tem experiência na área de História, com ênfase em História das Ciências e Meio Ambiente, atuando principalmente nos seguintes temas: História da Ciência, História Ambiental, História do Brasil, História Contemporânea e História do Tempo Presente.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Roger Domenech Colacios<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">COLACIOS, R. D.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em História Social<span class="ajaxCAPES" data-param="&codigoCurso=33002010032P9&nivelCurso=D"></span>. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />Título: "Um Clima de Incertezas: as controvérsias científicas sobre mudanças climáticas nas revistas Science e Nature - 1970 a 2005, Ano de obtenção: 2014. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2799884618533478'><img src='images/curriculo/logolattes.gif' /></a>Maria Amelia Mascarenhas Dantes. <br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em História Social<span class="ajaxCAPES" data-param="&codigoCurso=33002010032P9&nivelCurso=M"></span>. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />Título: A produção científica em energias alternativas no Estado de São Paulo - o caso PIPGE/USP (1992-2002),Ano de Obtenção: 2009.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2799884618533478'><img src='images/curriculo/logolattes.gif' /></a>Maria Amelia Mascarenhas Dantes.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em História<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual de Londrina.
+		
+	<br class="clear" />Título: Mito do progresso: estudo de História Ambiental em livros didáticos de História (1992 - 2002). <br class="clear" />Orientador: Jozimar Paes de Almeida. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desigualdade e Violência Social.  (Carga horária: 16h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tópicos Especiais: História Ambiental.  (Carga horária: 120h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tópico Especial: História e Ciências Sociais.  (Carga horária: 120h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Desenvolvimento Rural, Agroecologia e Sociedade.  (Carga horária: 32h). <br class="clear" />Universidade Estadual de Londrina.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Educação para o desenvolvimento sustentável.  (Carga horária: 32h). <br class="clear" />Centro Universitário Filadélfia.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Professor Colaborador, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplina: História do Brasil e História Administrativa do Brasil</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Fac. de Filosofia, Letras e Ciências Humanas - USP, FFLCH - USP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista, Carga horária: 20, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2007 - 09/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Departamento de Pós-graduaçao em História, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_História das Ciências e História Ambiental'>História das Ciências e História Ambiental</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Cursinho Pré-vestibular Atitude, CPVA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Professor, Carga horária: 4</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2006 - 02/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />História Geral<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista IC/UEL, Carga horária: 20, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Hist&oacute;ria das Ci&ecirc;ncias e Hist&oacute;ria Ambiental'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">História das Ciências e História Ambiental</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_As controv&eacute;rsias cient&iacute;ficas sobre mudan&ccedil;as clim&aacute;ticas em publica&ccedil;&otilde;es de divulga&ccedil;&atilde;o cient&iacute;fica: suas modifica&ccedil;&otilde;es e enfoques ao longo dos anos que v&atilde;o de 1970 a 2005'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">As controvérsias científicas sobre mudanças climáticas em publicações de divulgação científica: suas modificações e enfoques ao longo dos anos que vão de 1970 a 2005<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Pesquisa de Doutorado
+
+Entre os anos de 1971 e 2005 ocorreram debates científicos em revistas especializadas à respeito das mudanças climáticas globais. Estes debates se pautaram sobre a existência ou não deste fenômeno, e principalmente, se seria causado pela interferência do ser humano nos ciclos naturais do planeta. Ao longo destes anos, as discussões foram centradas em três enunciados científicos, o  inverno nuclear , o  efeito estufa  e o  aquecimento global . Cada um destes enunciados foi proeminente nos debates em períodos determinados em todo o recorte temporal, caracterizando as rupturas, permanências e ênfases, dadas pelos cientistas nas discussões sobre o tema nos periódicos científicos. Este projeto de pesquisa pretende mapear e analisar as controvérsias científicas em relação as mudanças climáticas, nestes periódicos, procurando compreender os processos iniciais e finais dos debates nas ciências e o papel das revistas enquanto divulgadoras e mediadoras dessas discussões.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Roger Domenech Colacios - Coordenador.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Bolsa.</div>
+</div><a name='PP_A produ&ccedil;&atilde;o cient&iacute;fica em energias alternativas no estado de S&atilde;o Paulo - o caso PIPGE/USP (1992 - 2002)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A produção científica em energias alternativas no estado de São Paulo - o caso PIPGE/USP (1992 - 2002)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Pesquisa de Mestrado
+
+O trabalho tem como mote a compreensão do contexto histórico de estabelecimento de grupos científico para a pesquisa e desenvolvimento de energias alternativas no estado de São Paulo, entre os anos de 1992 a 2002. Especificamente, a análise será feita sobre o Programa Interunidades de Pós-graduação em Energia (PIPGE) da Universidade de São Paulo, que desenvolveu estudos sobre a energia solar e a biomassa da cana-de-açúcar, além da criação do Laboratório de Sistemas Fotovoltaicos (LSF/IEE) e o Centro Nacional de Referência em Biomassa (CENBIO) No período recortado para análise, ocorreu em 1992 a Conferência das Nações Unidas (ECO-92) no Rio de Janeiro com a formulação da Agenda 21; a assinatura do Protocolo de Kioto em 1998, cujo Mecanismo de Desenvolvimento Limpo (MDL) ampliou as possibilidades de utilização das fontes energéticas alternativas e, por fim, no ano de 2002, aconteceu a Cúpula Mundial sobre o Desenvolvimento Sustentável, que representou o debate das ações tomadas desde a reunião do Rio de Janeiro e o estabelecimento de novas metas e propostas para o futuro.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Roger Domenech Colacios - Coordenador.<br class="clear" />Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa.</div>
+</div><a name='PP_Ca&ccedil;a e Ca&ccedil;ador: A diferen&ccedil;a moral e legislativa entre meninos e meninas violentadas sexualmente em Londrina (1930 a 1970)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Caça e Caçador: A diferença moral e legislativa entre meninos e meninas violentadas sexualmente em Londrina (1930 a 1970)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Pesquisa de Iniciação Cientifica
+
+Realizar uma discussão a  partir de processos-criminais relacionados a violência sexual, quais eram as concepções do Judiciário e da sociedade em torno da violência com crianças e qual era o conceito de inocência e da própria infância. Procuramos empreender uma investigação cientifica para ao problematizar a história da cidade de Londrina entender como a idéia de violência era interpretada pela justiça. Dessa forma teremos como pano de fundo, o desenrolar da formação da sociedade em questão, seus valores e simbolismos contidos no contexto abordado (1930-1970).. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Roger Domenech Colacios - Coordenador.<br class="clear" />Financiador(es): Universidade Estadual de Londrina - Bolsa.</div>
+</div><a name='PP_Sem Coment&aacute;rios: Leituras sobre a viol&ecirc;ncia sexual na inf&acirc;ncia em Londrina (1930 a 1970)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sem Comentários: Leituras sobre a violência sexual na infância em Londrina (1930 a 1970)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Pesquisa de Iniciação Científica
+
+Análise a violência sexual contra crianças na cidade de Londrina, durante as decadas de formação de sua sociedade, ou seja, de 1930 até meados de 1970. Estabelecendo assim uma relação entre a jurisprudência e a moralidade, meio no qual estarão representados a violência e a própria vítima. O procedimento metodologico empregado é o estudo de autos criminais constantes na 1a. e 2a. varas criminais da Comarca de Londrina. Casos estes que abarcam o periodo proposto de 1930 até 1970. 
+. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0) . <br class="clear" /><br class="clear" />Integrantes: Roger Domenech Colacios - Coordenador.<br class="clear" />Financiador(es): Universidade Estadual de Londrina - Bolsa.</div>
+</div><a name='PP_Mito do Progresso: O meio ambiente nos livros didaticos de Hist&oacute;ria de 5a. a 8a. series'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mito do Progresso: O meio ambiente nos livros didaticos de História de 5a. a 8a. series<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Pesquisa de Iniciação Científica
+
+Ao analisar os livros didáticos de História, pretendemos compreender como o conceito de meio-ambiente é difundido entre os alunos de 5ª. à 8ª. series do ensino médio, mais especificamente relacionando a questão ao ideal de progresso concebido no período do Iluminismo europeu que constam desses livros didáticos de História.
+. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3) . <br class="clear" /><br class="clear" />Integrantes: Roger Domenech Colacios - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: História / Subárea: História da Ciência. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: História / Subárea: História Ambiental. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: História / Subárea: História do Brasil. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: História / Subárea: História do Tempo Presente. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: História / Subárea: História Moderna e Contemporânea. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Menção Honrosa pela Dissertação de Mestrado no Prêmio SBHC de Tese e Dissertação 2012, Sociedade Brasileira de História da Ciência (SBHC). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsa FAPESP de Doutorado (2010), Fundação de Amparo à Pesquisa do Estado de São Paulo. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aprovação da Dissertação de Mestrado com louvor, ressaltando a fundamentação da pesquisa e a qualidade do texto, recomendando sua publicação, Universidade de São Paulo. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsa CAPES do Mestrado (2007-2009), Comissão de Aperfeiçoamento de Pessoal de Ensino Superior. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>COLACIOS, R. D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><b>COLACIOS, R. D.</b> . Os usos e abusos das ciências naturais pela história ambiental: interdisciplinaridade, diagnósticos e reflexões. HALAC (Revista de la SOLCHA)<sup><img id='22372717_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='22372717' /></sup>, v. 3, p. 180-207, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=22372717&volume=3&issue=&paginaInicial=180&titulo=Os usos e abusos das ciências naturais pela história ambiental: interdisciplinaridade, diagnósticos e reflexões&sequencial=1&nomePeriodico=HALAC (Revista de la SOLCHA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>COLACIOS, R. D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>COLACIOS, R. D.</b> . Latour Para Historiadores: premissas, conceitos e metodologia. Boletim tempo presente (UFRJ)<sup><img id='19813384_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19813384' /></sup>, v. 4, p. 1-9, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19813384&volume=4&issue=&paginaInicial=1&titulo=Latour Para Historiadores: premissas, conceitos e metodologia&sequencial=2&nomePeriodico=Boletim tempo presente (UFRJ)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>COLACIOS, R. D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>COLACIOS, R. D.</b> . Matriz Energética Brasileira: consolidação, expansão, políticas e meio ambiente. (1971-1979). Territórios e Fronteiras (Online)<sup><img id='19849036_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19849036' /></sup>, v. 2, p. 284-305, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19849036&volume=2&issue=&paginaInicial=284&titulo=Matriz Energética Brasileira: consolidação, expansão, políticas e meio ambiente. (1971-1979)&sequencial=3&nomePeriodico=Territórios e Fronteiras (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHURSTER, K. (Org.) ; SPINDOLA, P. (Org.) ; <b>COLACIOS, R. D.</b> (Org.) . Leitor de.... 1. ed. Recife: EDUPE, 2013. v. 1. 308p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		ALMEIDA, Jozimar Paes de (Org.) ; <b>COLACIOS, R. D.</b> (Org.) . Ambiente e Sociedade: Trajetos de História, Ecologia Política e Educação Ambiental. Porto Alegre: Escritos Editora, 2011. 194p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Bruno Latour leitor de Thomas Kuhn. In: Schurster, Karl; Spíndola, Pablo; Colacios, Roger. (Org.). Leitor de.... 1ed.Recife: EDUPE, 2013, v. 1, p. 257-278. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>COLACIOS, R. D.</b> . O Mito do Progresso: Estudo de História Ambiental em Livros Didáticos de História (1995 a 2002). In: ALMEIDA, Jozimar Paes de; COLACIOS, Roger D.. (Org.). Ambiente e Sociedade: Trajetos de História, Ecologia Política e Educação Ambiental. Porto Alegre: Escritos Editora, 2011, v. , p. 49-70. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>COLACIOS, R. D.</b> . Energias Alternativas e Educação Ambiental: Uma Proposta de Transformação Social e de Cidadania. In: ALMEIDA, Jozimar Paes de; COLACIOS, Roger D.. (Org.). Ambiente e Sociedade: Trajetos de História, Ecologia Política e Educação Ambiental. Porto Alegre: Escritos Editora, 2011, v. , p. 71-88. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . A Dengue e o Aquecimento Global. Folha de Londrina, Londrina, p. 4 - 4, 16 mar.  2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . A Morte de um Bosque. Folha de Londrina, Espaço Aberto, p. 2 - 2, 30 nov.  2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Do Álcool ao Etanol: Nenhuma Mudança?. Folha de Londrina, Londrina, p. 2 - 2, 24 abr.  2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Perigo Nuclear. Folha de Londrina, Londrina, p. 2 - 2, 03 abr.  2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Ao Final das Eleições. Folha de Londrina, Londrina, p. 2 - 2, 17 nov.  2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Na Contramão Ambiental. Folha de Londrina, Londrina, p. 2 - 2, 08 ago.  2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Uma Eleição Bipolar?. Folha de Londrina, Londrina, p. 2 - 2, 20 jun.  2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . A Herança Energética do Governo Lula. Folha de Londrina, Londrina, p. 2 - 2, 02 maio  2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . A Arte de Culpar o Passado. Folha de Londrina, Londrina, p. 2 - 2, 31 mar.  2010. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . O Inverno Nuclear: ciência, medo e guerra fria nos anos 1980. In: V Congresso Internacional de História, 2011, Maringá. Anais do Congresso Internacional de História (CD-Rom), 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Aquecimento Global: a institucionalização de um consenso científico (1997-2005). In: XXVI Simpósio Nacional de História - ANPUH: 50 Anos, 2011, São Paulo. Anais do XXVI simpósio nacional da ANPUH - Associação Nacional de História. São Paulo: ANPUH-SP, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . As controvérsias científicas sobre mudanças climáticas em publicações de divulgação científica: suas modificações e enfoques ao longo dos anos que vão de 1970 a 2005. In: Simpósio Internacional de História Ambiental e Migrações, 2010, Florianópolis. Simposio Internacional de Historia Ambiental e Migrações - Florianópolis - SC   Brasil, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Ciências em ação: pesquisa e desenvolvimento de energias alternativas no Estado de São Paulo (1992 a 2002). In: VII ESOCITE -  Jornadas Latino-Americanas de Estudos Sociais das Ciências e das Tecnologias, 2008, Rio de Janeiro. Anais do VII ESOCITE -  Jornadas Latino-Americanas de Estudos Sociais das Ciências e das Tecnologias, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Construindo as ciências: Bruno Latour e as estratégias da literatura científica. In: XI Encontro Regional da Associação Nacional de História   ANPUH/PR, 2008, Jataizinho. Anais do XI Encontro Regional da Associação Nacional de História   ANPUH/PR, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Políticas Públicas para pesquisa e desenvolvimento de energias alternativas no Estado de São Paulo: ciência, meio ambiente e política. (1992 a 2002). In: XIX Encontro Regional de HIstória: Poder, exclusão e violência. Anpuh-SP, 2008, São Paulo. Anais do XIX Encontro Regional de HIstória: Poder, exclusão e violência. Anpuh-SP, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Energias Alternativas e Educação Ambiental: uma proposta de transformação social e de cidadania. In: X Encontro Paranaense de Educação Ambiental, 2007, Maringá. Anais X Encontro Paranaense de Educação Ambiental, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Sociedade, jurisprudência: leituras sobre a violência sexual na infância em Londrina (1930 a 1970). In: XV Encontro Anual de Iniciação Científica e VI EPUEPG, 2006, Ponta Grossa. Encontro Anual de Iniciação Científica ... Encontro de Pesquisa da UEPG (CD-Rom), 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Mito do Progresso: Estudo de História Ambiental em Livros Didáticos de História (5a a 8a). In: IX EPEA - Encontro Paranaense de Educação Ambiental - Diversidade, Sustentabilidade e Cooperação em Redes, 2006, Guarapuava. IX EPEA - Encontro Paranaense de Educação Ambiental - Diversidade, Sustentabilidade e Cooperação em Redes, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Sem Comentários: Violência Contra Meninos Em Londrina. In: IX Encontro Regional de História, 2004, Ponta Grossa. IX Encontro Regional de História: Indentidades e Representações, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Mito do Progresso: Suas Implicações Ambientais Dentro do Conceito de Iluminismo em Livros Didáticos de História (5ª. a 8ª.). In: IX Encontro Regional de História, 2004, Ponta Grossa. IX Encontro Regional de História: Identidades e Representações, 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> .  Profetas do Desastre : meio ambiente e a guerra fria no discurso científico sobre o inverno nuclear na década de 1980. In: XXVII SIMPÓSIO NACIONAL DE HISTÓRIA, 2013, Natal. Caderno de Resumos, 2013. p. 436. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . "Mudanças Climáticas": conceitos, temporalidades e enfoques nas discussões científicas (1970-2005). In: VI Simposio de la Sociedad Latinoamericana y Caribeña de Historia Ambiental, 2012, Villa de Leyva. Resúmenes del VI Simposio de la SOLCHA, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . 'Ciências e Meio Ambiente no Tempo Presente: um estudo de caso sobre as mudanças climáticas na Eco-92'. In: IX Encontro Estadual de História: História e Diversidade: Novas Narrativas, 2012, Caruaru. Caderno de Resumos e Programação, 2012. p. 102-102. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> ; ANDRIONI, Fabio S. . CIências, História e Futuro. In: Escola Paranaense de História e Filosofia da Ciência, 2011, Curitiba. Caderno de Resumos. Curitiba: Imprensa da UFPR, 2011. p. 45-46. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . O Inverno Nuclear: ciência, medo e guerra fria nos anos 1980. In: V Congresso Internacional de História, 2011, Maringá. V CONGRESSO INTERNACIONAL DE HISTÓRIA. Maringá: Clichetec, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . As controvérsias científicas sobre mudanças climáticas em publicações de divulgação científica: suas modificações e enfoques ao longo dos anos que vão de 1970 a 2005. In: XX Encontro Regional de História - Anpuh/SP, 2010, Franca. Anais XX Encontro Regional de História - Anpuh/SP, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . As Incertezas Científicas: aquecimento global entre hipóteses e controvérsias (1998-2005). In: 12o. Seminário Nacional de História da Ciência e da Tecnologia e 7o. Congresso Latino-Americano de História da Ciência e da Tecnolgia, 2010, Salvador. Caderno de Resumos do 12o Seminário Nacional de História da Ciência e Tecnologia e 7o. Congresso Latino-Americano de História da Ciência e da Tecnologia, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Construindo as ciências: Bruno Latour e as estratégias da literatura científica. In: XI Encontro Regional da Associação Nacional de História - Seção Paraná, 2008, Jacarezinho. Caderno de Resumos e Programação, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Ciências em Ação: pesquisa e desenvolvimento de energias alternativas no Estado de São Paulo (1992 a 2002). In: VII ESOCITE - Jornadas Latino-Americanas de Estudos Sociais em Ciências e Tecnologias, 2008, Rio de Janeiro. Anais do VII ESOCITE - Jornadas Latino-Americanas de Estudos Sociais em Ciências e Tecnologias, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Políticas Públicas para pesquisa e desenvolvimento de energias alternativas no Estado de São Paulo: ciência, meio ambiente e política (1992 a 2002). In: XIX Encontro Regional de HIstória: Poder, exclusão e violência. Anpuh-SP, 2008, São Paulo. Caderno de Resumos do XIX Encontro Regional de HIstória: Poder, exclusão e violência. Anpuh-SP, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Entre a Ciência e a Política: a pesquisa e desenvolvimento de energias alternativas no Estado de São Paulo - o caso PIPGE (1992 a 2002). In: I Simpósio Perspectivas em História Social - II Seminário de Pesquisa do Programa de História Social/UEL, 2008, Londrina. I Simpósio Perspectivas em História Social - II Seminário de Pesquisa do Programa de História Social: programas e resumos, 2008. p. 46-46. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Fundo de Vale em Londrina/Pr: Apropriação e usos de um patrimônio ambiental urbano (2000-2008). In: XXV Semana de História: autoritarismo e democracia - UNESP/Assis, 2008, Assis. Caderno de resumos da XXV Semana de História: autoritarismo e democracia - UNESP/Assis, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Cïências em ação: pesquisa e desenvolvimento de energias alternativas no Estado de São Paulo (1992-2002). In: XXIV Semana de História: Assis/SP, 2007, Assis. XXIV Semana de História:. Assis, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Mito do Progresso nos Livros Didáticos de História: o Iluminismo e a Natureza.. In: V SEPECH - Semana de Pesquisa em Ciências Humanas, 2006, Londrina. V Sepech - Vidas Severinas e Veredas do Sertão: Leituras Interdisciplinares - 50 Anos. Curso de Letras, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Mito do Progresso: Estudo de História Ambiental em Livros Didáticos de História (5a a 8a). In: IX EPEA - Encontro Paranaense de Educação Ambiental - Diversidade, Sustentabilidade e Cooperação em Redes, 2006, Guarapuava. IX EPEA - Encontro Paranaense de Educação Ambiental - Diversidade, Sustentabilidade e Cooperação em Redes, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Caça e Caçador: A diferença moral e legislativa entre meninos e meninas violentadas sexualmente em Londrina (1930 a 1970). In: XIV Encontro Anual de Iniciação Cientifica, 2005, Guarapuava. Encontro Anual de Iniciação Científica ... Encontro de Pesquisa da UEPG (CD-Rom), 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Sem Comentários: violência contra crianças em Londrina (Décadas de 30 a 60). In: XXIII Simposio Nacional de História : Guerra e Paz, 2005, Londrina. XXIII Simposio Nacional de História : Guerra e Paz. Londrina: Editorial Midia, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Mito do Progresso: Suas implicações ambientais dentro do conceito de iluminismo em livros didaticos de História (5a. a 8a.). In: XIV Encontro Anual de Iniciação Cientifica, 2005, Guarapuava. Encontro Anual de Iniciação Científica ... Encontro de Pesquisa da UEPG (CD-Rom), 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Mito do Progresso: Suas Implicações Ambientais Dentro do Conceito de Iluminismo em Livros Didáticos de História (5ª. a 8ª.). In: IX Encontro Regional de História, 2004, Ponta Grossa. IX Encontro Regional de História: Identidades e Representações, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Sem Comentários: Violência Contra Meninos Em Londrina. In: IX Encontro Regional de História: Identidades e Representações, 2004, Ponta Grossa. IX Encontro Regional de História: Identidades e Representações, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Sociedade, Jurisprudência: Leituras Sobre a Violência Sexual na Infância em Londrina (1930 a 1970). In: XIII Encontro Anual de Iniciação Cientifica, 2004, Londrina. XIII Encontro Anual de Iniciação Cientifica. Londrina: NextWay, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Sem Comentários: Análises sobre a violência sexul contra a infância em Londrina-Pr (1930 a 1970). In: XII SIICUSP, 2004, São Paulo. XII SIICUSP, 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . 'Profetas do Desastre: meio ambiente e a Guerra Fria no discurso científico sobre o Inverno Nuclear na década de 1980'. 2013. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> .  Fogo ou Gelo? Ciência, meio ambiente e a disputa nas mudanças climáticas dos anos 1970. . 2013. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . "Mudanças Climáticas": conceitos, temporalidades e enfoques nas discussões científicas (1970-2005). 2012. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . 'Ciências e Meio Ambiente no Tempo Presente: um estudo de caso sobre as mudanças climáticas na Eco-92'. 2012. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Estabelecendo enunciados: a ciência e a tecnologia desvendando a camada de ozônio (1970-1989). 2012. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Tapando o Sol com Peneira: a camada de ozônio no foco de cientistas e políticos (1970-1989). 2012. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Moderno, Pós-moderno ou Não-moderno? Seguindo Latour: redes, controvérsias e simetrias. 2011. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Moderno, Pós-moderno ou Não-moderno? Latour e as estratégias literárias das ciências. 2011. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Ciência: objetividade e verdade?. 2011. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Aquecimento Global: a institucionalização de um consenso científico (1997-2005). 2011. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . O Inverno Nuclear: ciência, medo e guerra fria nos anos 1980. 2011. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Usos e Abusos das Ciências Naturais pela História Ambiental. 2011. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . As controvérsias científicas sobre mudanças climáticas em publicações de divulgação científica: suas modificações e enfoques ao longo dos anos que vão de 1970 a 2005. 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . As controvérsias científicas sobre mudanças climáticas em publicações de divulgação científica: suas modificações e enfoques ao longo dos anos que vão de 1970 a 2005. 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . "Aprendiz de Feiticeiro': as ciências e as mudanças climáticas (1970-2005). 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . As Incertezas Científicas: aquecimento global entre hipóteses e controvérsias (1998-2005). 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Patrimônio ambiental de Londrina: os vários caminhos do bosque municipal (2001-2008). 2009. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Construindo as ciências: Bruno Latour e as estratégias da literatura científica. 2008. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Políticas Públicas para pesquisa e desenvolvimento de energias alternativas no Estado de São Paulo: ciência, meio ambiente e política (1992 a 2002). 2008. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Ciências em ação: pesquisa e desenvolvimento de energias alternativas no Estado de São Paulo (1992 a 2002). 2008. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Entre a Ciência e a Política: a pesquisa e desenvolvimento de energias alternativas no Estado de São Paulo (1992 a 2002). 2008. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Fundos de Vale em Londrina/Pr: Apropriação e usos de um patrimônio ambiental urbano (2000-2008). 2008. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Política e Pesquisa em Energias Alternativas. 2008. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Políticas Públicas para pesquisa e desenvolvimento de energias alternativas no Estado de São Paulo: ciência, meio ambiente e política (1992 a 2002). 2008. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Ciências em ação: pesquisa e desenvolvimento de energias alternativas no Estado de São Paulo (1992 - 2002). 2007. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Energias Alternativas e Educação Ambiental: uma proposta de transformação social e de cidadania. 2007. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Sociedade, jurisprudência: Leituras sobre a violência sexual na infância em Londrina (1930 a 1970). 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Mito do Progresso: Estudo de História Ambiental em Livros Didáticos de História (5a a 8a). 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> ; SILVA, Lucia Helena Oliveira . Caça e Caçador: A diferença moral e legislativa ente meninos e meninas violentadas sexualmente em Londrina (1930 a 1970). 2005. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Sociedade e Jurisprudência: leituras sobre a violência sexual na infância em Londrina - PR (1930-1970). 2005. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Sem Comentários: Violência Contra Crianças em Londrina (Décadas de 30 a 60). 2005. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> ; ALMEIDA, Jozimar Paes de . Mito do Progresso: suas implicações ambientais dentro do conceito de iluminismo em livros didáticos de História (5a a 8a). 2005. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, Jozimar Paes de ; <b>COLACIOS, R. D.</b> ; MINORELLI, Caroline Torres ; PIZUTTI, Thiago . Sessão Temática Coordenada - Horizonte Transversal: A difusão do conhecimento cientifico sobre meio ambiente nos livros didáticos de História. 2004. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Análise Sobre a Violência Sexual em Crianças na Cidade de Londrina. 1934 - 1970. 2004. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Lucia Helena Oliveira ; <b>COLACIOS, R. D.</b> ; OLIVEIRA, Júlia Glaciela de ; SILVA, Cinthia G. . Sessão Temática Coordenada - Multiplos Olhares sobre uma Cidade: Londrina (1930-1960). 2004. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Mito do Progresso: História ambiental e iluminismo nos livros didáticos de história. 2004. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Sociedade, Jurisprudência: Leituras sobre a violência sexual na infância em Londrina (1930 a 1970). 2004. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> ; SILVA, Lucia Helena Oliveira . Sem Comentários: Análises sobre a Violência Sexual Contra a Infância em Londrina-Pr (1930 a 1970). 2004. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . CORRÊA, Dora Shellard. Paisagens sobrepostas: índios, posseiros e fazendeiros nas matas de Itapeva (1723-1930).
+							Franca 2013 (Resenha). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . MENARIN, Carlos Alberto. À Sombra dos Jequitibás: o Parque Estadual de  Vassununga entre os interesses públicos e privados (1969-2005). São Paulo:  Annablume; Fapesp, 2011..
+							São Paulo 2012 (Resenha). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . SAFIER, Neil. Measuring the New World: Enlightenment Science and South America. Chicago: University of Chicago Press, 2008, 387p.. Varia Historia, vol.27, n.46, pp. 753-756..
+							Belo Horizonte 2011 (Resenha). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . GRANDIN, Greg. Fordlândia: ascensão e queda da cidade esquecida de Henry Ford  na selva. Trad. Nivaldo Montingelli Jr. Rio de Janeiro: Rocco, 2010. Antíteses, v. 4, n. 8. pp. 995-999.
+							Londrina 2011 (Resenha). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . "Aprendiz de Feiticeiro": ciências e as mudanças climáticas (1970-2005).
+							Rio Claro:
+									Holos Environment - Revista do Centro de Estudos Ambientais /UNESP, Rio Claro,  2010 (Resumo Expandido). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Revista de la Sociedad Latinoamericana y Caribeña de Historia Ambiental (SOLCHA). 2013. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Relatório Científico FAPESP Doutorado. 2013. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> ; ALMEIDA, Jozimar Paes de . Ciências e Meio Ambiente no Neoliberalismo. 2012. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Relatório Científico FAPESP Doutorado. 2012. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> ; ANDRIONI, Fabio S. . Ciências, História e Futuro. 2011. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Relatório Científico FAPESP Doutorado. 2011. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Um Historiador entre os Annales e o Marxismo. 2009. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . VI Encontro Intenacional de Estudos Medievais - EIEM - (Monitoria). 2005 (Monitoria) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . XXIII Simpósio Nacional de História - História: Guerra e Paz - (Monitoria). 2005 (Monitoria) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>COLACIOS, R. D.</b> . Semana de História e Arquivologia - (Monitoria). 2004 (Monitoria) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, Jozimar Paes de; ARRUDA, Gilmar; <b>COLACIOS, R. D.</b>.  Participação em banca de Felipe Nunes Pastorello.Aproximações entre o Pensamento Ecossocialista e os Bloguesites do Brasil no Século XXI.
+							2012. Trabalho de Conclusão de Curso (Graduação em História)  - Universidade Estadual de Londrina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, Jozimar Paes de; GIANNATASIO, G.; <b>COLACIOS, R. D.</b>.  Participação em banca de Pedro Henrique Bazela Desidério."A Construção de Herbet Marcuse sobre o Conceito de Progresso na História Ambiental".
+							2011. Trabalho de Conclusão de Curso (Graduação em História)  - Universidade Estadual de Londrina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, Jozimar Paes de; ARRUDA, Gilmar; <b>COLACIOS, R. D.</b>.  Participação em banca de Lilian Falcão de Araújo.Os Agro-Combustíveis em Foco: risco para a "mesa brasileira".
+							2010. Trabalho de Conclusão de Curso (Graduação em História)  - Universidade Estadual de Londrina. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Congresso Internacional de História - UEM.  Fogo ou Gelo? Ciência, meio ambiente e a disputa nas mudanças climáticas dos anos 1970. . 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVII Simpósio Nacional de História - Conhecimento histórico e diálogo social."Profetas do Desastre: meio ambiente e a Guerra Fria no discurso científico sobre o Inverno Nuclear na década de 1980".
+							2013. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Simposio de la Sociedad Latinoamericana y Caribeña de Historia Ambiental."Mudanças Climáticas": conceitos, temporalidades e enfoques nas discussões científicas (1970-2005).
+							2012. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Encontro Estadual de História: História e Diversidade: Novas as Narrativas."Ciências e Meio Ambiente no Tempo Presente: um estudo de caso sobre as mudanças climáticas na Eco-92".
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII Encontro Estadual de História: A Escrita da História.Tapando o Sol com Peneira: a camada de ozônio no foco de cientistas e políticos (1970-1989).
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIX Semana de História da UNESP/Assis.Estabelecendo enunciados: a ciência e a tecnologia desvendando a camada de ozônio (1970-1989). 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Congresso Internacional de História. O Inverno Nuclear: ciência, medo e guerra fria nos anos 1980. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVIII Semana de História "Modalidades da Cultura Histórica".Usos e Abusos das Ciências Naturais pela História Ambiental. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI Simpósio Nacional de História - ANPUH: 50 Anos.Aquecimento Global: a institucionalização de um consenso científico (1997-2005).
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Escola Paranaense de História e Filosofia da Ciência.CIências, História e Futuro. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">12o. Seminário Nacional de História da Ciência e da Tecnologia e 7o. Congresso Latino-Americano de História da Ciência e da Tecnolgia.As Incertezas Científicas: aquecimento global entre hipóteses e controvérsias (1998-2005). 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Internacional de História Ambiental e Migrações.As controvérsias científicas sobre mudanças climáticas em publicações de divulgação científica: suas modificações e enfoques ao longo dos anos que vão de 1970 a 2005.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Simpósio História, Energia e Meio Ambiente."Aprendiz de Feiticeiro": as ciências e as mudanças climáticas (1970 - 2005).
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XX Encontro Regional de História - Anpuh/SP.As controvérsias científicas sobre mudanças climáticas em publicações de divulgação científica: suas modificações e enfoques ao longo dos anos que vão de 1970 a 2005.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário  "Museus e Políticas Públicas". 2009. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI Semana de História - Historiografia, 1929 - 2009: os Annales e nós.Patrimônio Ambiental de Londrina: os vários caminhos do bosque municipal (2001-2008).
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Seminário de Pós-Graduação em História Social/USP.X Seminário de Pós-Graduação em História Social/USP. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Simpósio da Sociedade Latino-americana e Caribenha de História Ambiental - História Ambiental e Cultura da Natureza.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio Perspectivas em História Social - II Seminário de Pesquisa do Programa de História Social/UEL.Entre a Ciência e a Política: a pesquisa e desenvolvimento de energias alternativas no Estado de São Paulo - o caso PIPGE (1992 a 2002).
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Encontro Regional da Associação Nacional de História - Seção Paraná.XI Encontro Regional da Associação Nacional de História - Seção Paraná.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIX Encontro Regional de HIstória: Poder, exclusão e violência. Anpuh-SP.Políticas Públicas para Pesquisa e Desenvolvimento de Energias Alternativas no Estado de São Paulo: ciência, meio ambiente e política (1992 a 2002).
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXV Semana de História: autoritarismo e democracia - UNESP/Assis.Fundos de Vale em Londrina/Pr: apropriação e usos de um patrimônio ambiental urbano (2000-2008).
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII ESOCITE -  Jornadas Latino-Americanas de Estudos Sociais das Ciências e das Tecnologias.VII ESOCITE -  Jornadas Latino-Americanas de Estudos Sociais das Ciências e das Tecnologias. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIV Semana de História: Assis/SP.XXIV Semana de História: Assis/SP.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Encontro Paranaense de Educação Ambiental.Energias Alternativas e Educação Ambiental: uma proposta de transformação social e de cidadania.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V SEPECH - Vidas Severinas e Veredas do Sertão: Leituras Interdisciplinares - 50 anos. Curso de Letras.V SEPECH - Vidas Severinas e Veredas do Sertão: Leituras Interdisciplinares - 50 anos. Curso de Letras. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV Encontro Anual de Iniciação Científica.XV Encontro Anual de Iniciação Científica.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Semana de História e Arquivologia e I Encontro do Gt de Genêro e História.III Semana de História e Arquivologia e I Encontro do Gt de Genêro e História.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX EPEA - Encontro Paranaense de Educação Ambiental - Diversidade, Sustentabilidade e Cooperação em Redes.IX EPEA - Encontro Paranaense de Educação Ambiental - Diversidade, Sustentabilidade e Cooperação em Redes.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">4o. Seminario de Pesquisa Memória e Contemporaneidade.4o. Seminario de Pesquisa Memória e Contemporaneidade. 2005. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIII Simposio Nacional de História : Guerra e Paz.XXIII Simposio Nacional de História : Guerra e Paz.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV Encontro Anual de Iniciação Cientifica.XIV Encontro Anual de Iniciação Cientifica.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Encontro Internacional de Estudos Medievais Medievalismo: Leituras Contemporâneas.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII SImposio Internacional de Iniciação Cientifica da USP.XII Simposio Internacional de Iniciação Cientifica da USP.
+							2004. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">40 anos do golpe militar: Continuidades e Rupturas.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">O Negro na Universidade: O Direito a Inclusão.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Encontro Regional de História.IX Encontro Regional de História.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII Encontro Anual de Iniciação Cientifica.XIII Encontro Anual de Iniciação Cientifica.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Semana de História e Arquivologia.II Semana de História e Arquivologia.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Jornada de Estudos Antigos e Medievais: Transformação Social e Educação.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Participação no Projeto RONDON 2006 Operação Amazônia do Ministério da Defesa, que desenvolveu ações de Desenvolvimento Regional Sustentável e Gestão Pública na cidade de Candeias do Jamari/RO, no periodo de 03 de fevereiro a 16 de fevereiro de 2006.</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 02/06/2014 &agrave;s 11:24:37</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0041482937454960" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

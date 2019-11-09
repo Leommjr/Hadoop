@@ -1,0 +1,1739 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Gl&oacute;ria Lopez Cid)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0066553755382953" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4702914E4&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4702914E4"><div class="infpessoa">
+<h2 class="nome">Gl&oacute;ria Lopez Cid</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0066553755382953</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 27/06/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Graduada em Licenciatura em Educação Física e Desportos - Faculdades Integradas Maria Theresa (1996). Experiência na área de Saúde Coletiva, com ênfase em Saúde Pública, atuando principalmente nos seguintes temas: ergonomia, antropometria, antropometria 3D, biomecânica ocupacional, metodologia ergonômica gestão e coordenação de pessoal nestas áreas.  Mestre em Ensino em Ciências da Saúde e do Ambiente com tema voltado para a saude do trabalhador, métodos e técnicas de avaliação de risco para prevenção de DORTs e conscientização do trabalhador.
+<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Glória Lopez Cid</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CID, G. L.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Instituto Nacional de Tecnologia, Ministério da Ciência e Tecnologia, Divisão de Desenho Industrial. <br class="clear" />Av. Venezuela, 82, Anexo 4<br class="clear" />Praça Maúa<br class="clear" />20081310 - Rio de Janeiro, RJ - Brasil<br class="clear" />Telefone: (21) 21231005<br class="clear" />Ramal: 1004<br class="clear" />Fax: (21) 21231004<br class="clear" />URL da Homepage: <a target="blank" href="http://www.INT.gov.br">http://www.INT.gov.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado profissionalizante em Ensino em Ciências da Saúde e do Ambiente<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=F"></span>. <br class="clear" />Centro Universitário Plínio Leite, UNIPLI, Brasil.
+		
+	<br class="clear" />Título: Banco de Dados Referencial da Atividade Humana para Laboratórios Quimicos   uma Ferramenta para Diálogo Multiusuário, Ano de Obtenção: 2011. <br class="clear" />Orientador: Carla Patrícia Guimarães.
+			
+			<br class="clear" />Palavras-chave: ergonomia; Biomecânica ocupacional; Metodologia Ergonômica; Saúde do trabalhador; Sistema informatizado.<br class="clear" />Grande área: Engenharias / Área: Engenharia de Produção / Subárea: Engenharia do Produto / Especialidade: Ergonomia. <br class="clear" />Grande Área: Ciências da Saúde / Área: Saúde Coletiva. <br class="clear" />Grande Área: Engenharias / Área: Engenharia de Produção. <br class="clear" />Setores de atividade: Educação; Indústrias Extrativas; Saúde e Serviços Sociais. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Curso de Especialização Em Biomecânica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 360h). <br class="clear" />Escola Superior de Ensino Helena Antipoff.
+		
+	<br class="clear" />Título: Lombalgia em Atividades de Elevação de Carga. <br class="clear" />Orientador: Edson Daher. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Licenciatura Em Educação Física e Desportos<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Faculdades Integradas Maria Theresa.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensaio e Calibração segundo a Norma ISO 17025:2005.  (Carga horária: 16h). <br class="clear" />Rede de Tecnologia e Inovação do Rio de Janeiro.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Personal Trainer.  (Carga horária: 20h). <br class="clear" />Universidade do Estado do Rio de Janeiro.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Fundação de Ciências Aplicadas e Tecnologia Espaciais, FUNCATE/SP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Pesquisador, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Configuração de Telas de Operação e representação de alarmes para SDCDs em refinarias de petróleo para aumento da Confiabilidade Humana Descrição: O projeto visa estudar o desenvolvimento de pesquisas em configuração de telas de operação e representação de alarmes para SDCDs em refinarias de petróleo para aumento da Confiabilidade Humana. Os resultados esperados visam desenvolver uma metodologia embasada em conceitos de cognição, ergonomia e confiabilidade humana; a ser consolidada pela geração de um padrão para configuração de telas de operação e desenvolver um processo para o contínuo aperfeiçoamento e gestão das telas de operação configuradas.. Situação: Concluído; Natureza: Pesquisa. Integrantes: Gloria Lopez Cid - Integrante/ Denise Silva Batista - Integrante / Venétia Correa Santos - Integrante / Roberta Nastari Cury - Integrante / Maria Cristina Palmer Zamberlan - Coordenador. Financiador(es): Petróleo Brasileiro - Rio de Janeiro - Matriz - Cooperação.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Pesquisador, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisadora do "Projeto ergonômico de ambientes de trabalho no Centro de Pesquisas e Desenvolvimento Leopoldo Américo Miguez de Mello - CENPES", sob a coordenação da Dra Maria Cristina Zamberlan</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Prefeitura Municipal de Rio das Ostras, PMRO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor, Carga horária: 16</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Em período de atuação me encontro de Licença não remunerada, na Prefeitura municipal de Rio das Ostras.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2004 - 05/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Oficina de Volleyball<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Instituto Nacional de Tecnologia, INT, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: DTI-G, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sistema Computacional integrado aplicado à análise biomecânica e antropométrica</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro - Bolsista DTI, Enquadramento Funcional: Bolsista DTI, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsista DTI do Projeto "Expansão e Consolidação da Infra-Estrutura da Divisão de Desenho Industrial do INT para Atendimento a Pequenas e Médias Empresas"</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: pesquisador, Carga horária: 6</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento de projetos na área de antropometria e biomecânica ocupacional realizados no Laboratório de Ergonomia da Divisão de Desenho Industrial do Instituto Nacional de Tecnologia. Consultoria em Análise Cinesiológica e Biomecânica para desenvolvimento de projetos de produtos, de ergonomia e de análise de uso de produtos.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2004 - 7/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Ministério da Ciência e Tecnologia, Divisão de Desenho Industrial. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Ergonomia'>Ergonomia</a><br class="clear" /><a href='#LP_Avaliação Biomecânica e Antropométrica'>Avaliação Biomecânica e Antropométrica</a><br class="clear" /><a href='#LP_Engenharia de Produto'>Engenharia de Produto</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Oceânica Academia, OCEÂNICA ACADEMI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: professor, Carga horária: 15</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor e Coordenador de Musculação</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/1999 - 12/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Professor e Coordenador de Musculação. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Academia Thrash, ACADEMIA THRASH, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Outro, Carga horária: 15</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor e Coordenador de Musculação</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5/1996 - 11/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Professor e Coordenador de Musculação. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Ergonomia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ergonomia</div>
+</div><a name='LP_Avalia&ccedil;&atilde;o Biomec&acirc;nica e Antropom&eacute;trica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação Biomecânica e Antropométrica</div>
+</div><a name='LP_Engenharia de Produto'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Engenharia de Produto</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Projeto ergon&ocirc;mico de ambientes de trabalho no Centro de Pesquisas e Desenvolvimento Leopoldo Am&eacute;rico Miguez de Mello - CENPES'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto ergonômico de ambientes de trabalho no Centro de Pesquisas e Desenvolvimento Leopoldo Américo Miguez de Mello - CENPES<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Analise ergonomica e simulação 3D em laboratórios químicos na industria de petróleo gás e biocombustíveis. Gestão de pessoal e coordenação na equipe de campo deste projeto.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Glória Lopez Cid - Integrante / Flávia Cristine Hoffsteter Pastura - Integrante / Carla Patricia Guimarães - Integrante / Maria cristina palmer Lima Zamberlan - Coordenador / Venétia Santos - Integrante.<br class="clear" />Financiador(es): Centro de Pesquisa e Desenvolvimento Leopoldo Américo Miguêz de Mello - Cooperação / Financiadora de Estudos e Projetos - Auxílio
+										financeiro.</div>
+</div><a name='PP_Projeto de adequa&ccedil;&atilde;o ergon&ocirc;mica dos postos de trabalho de montagem dos pain&eacute;is CORSA 4300 e Celta Blue Macaw - SIEMENS VDO'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto de adequação ergonômica dos postos de trabalho de montagem dos painéis CORSA 4300 e Celta Blue Macaw - SIEMENS VDO<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto objetivou análise ergonômica dos postos de trabalho de montagem dos paineis do Corsa 4300 e Celta. A na´lise incluiu a aplicação da metodologia da AET (Análise Ergonômica do Trabalho) e Análise Biomecânica cinemática e da força máxima de apreessão e pinçamento assim como análise da flexilbilidade.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (1)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (3) . </div>
+</div><a name='PP_Pesquisa Antropom&eacute;trica dos Empregados Ocupados nos Setores da Produ&ccedil;&atilde;o e Montagem da Embraer'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa Antropométrica dos Empregados Ocupados nos Setores da Produção e Montagem da Embraer<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto de pesquisa teve como objetivo medir parâmetros antropométricos de postos de trabalho com objetivo de gerar base de dados para implementação de reprojetos nos postos de trabalho na empresa EMBRAER. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (1)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Projeto_CTPetro - Sistemas de simula&ccedil;&atilde;o de cen&aacute;rios virtuais a partir de modelagem humana virtual 3D para mapeamento de riscos e incremento da Confiabilidade Humana - SSV3D'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto_CTPetro - Sistemas de simulação de cenários virtuais a partir de modelagem humana virtual 3D para mapeamento de riscos e incremento da Confiabilidade Humana - SSV3D<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Elaborar sistemas de simulação de cenários virtuais a partir da modelagem humana 3D para mapeamento de riscos e incremento da Confiabilidade Humana. Construção de modelos humanos virtuais 3D a partir de pesquisa antropométrica 3D da população petroleira, utilizando tecnologia de scanner a laser;  Facilitar a interação dos indivíduos envolvidos no planejamento e que apresentam poucos conhecimentos ergonômicos.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" /><br class="clear" />Integrantes: Glória Lopez Cid - Integrante / Flávia Cristine Hoffsteter Pastura - Integrante / Carla Patricia Guimarães - Integrante / Maria cristina palmer Lima Zamberlan - Coordenador / BATISTA, Denise Silva - Integrante / Venétia Santos - Integrante.<br class="clear" /></div>
+</div><a name='PP_Projeto de Diagn&oacute;stico Ergon&ocirc;mico e Implanta&ccedil;&atilde;o do Programa de Ergonomia para a Unidade de Neg&oacute;cios do Esp&iacute;rito Santo da PETROBRAS.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto de Diagnóstico Ergonômico e Implantação do Programa de Ergonomia para a Unidade de Negócios do Espírito Santo da PETROBRAS.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto objetiva realizar diagnóstico ergonomico na unidade de negócios da empresa PETROBRÁS com vista a melhoria dos postos de trabalho da área administrativa e nas bases operacionais.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (1)  / Mestrado acadêmico: (1)  / Mestrado profissionalizante: (0)  / Doutorado: (4) . </div>
+</div><a name='PP_Design Ergon&ocirc;mico do produto "Saca-Garrafas" - Dispositivo para movimenta&ccedil;&atilde;o de vasilhames'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Design Ergonômico do produto "Saca-Garrafas" - Dispositivo para movimentação de vasilhames<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: No âmbito deste projeto, um modelo funcional preliminar do saca-garrafas foi desenvolvido pelo cliente, sendo analisado sob o enfoque do design e da ergonomia pela equipe de pesquisadores do laboratório de ergonomia do Instituto Nacional de Tecnologia.
+ O modelo funcional a luz da análise realizada, foi modificado, de forma a torná-lo um produto comercializável em um segmento sem inovações, a partir de um diferencial quanto à sua forma e eficiência de utilização, evitando desgastes físicos desnecessários e proporcionando maior conforto ao trabalhador.
+
+O modelo atual proposto, sob a forma de protótipo preliminar, além de atingir apenas a atividade de movimentação de vasilhames, não se apresenta como um produto já concluído para o mercado, de modo a atender requisitos de competitividade e de adequação sob o ponto de vista de comercialização. 
+
+Desta forma, o desenvolvimento deste produto teve como objetivo, a racionalização de sua forma física, construção de um novo protótipo,  teste para comprovação de sua maior eficiência em relação ao preliminar, com elaboração de desenhos técnicos e relatório a serem  repassados ao cliente.
+
+. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (2)  / Mestrado acadêmico: (1)  / Mestrado profissionalizante: (0)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Glória Lopez Cid - Integrante / Carla Patrícia Guimarães - Integrante / Márcio R Rodrigues de Oliveira - Integrante / Alvaro Guimarães de Almeida - Coordenador.<br class="clear" />Financiador(es): Instituto Nacional de Tecnologia - Cooperação.</div>
+</div><a name='PP_Design do cabo antat&ocirc;mico Multifuncional "Ergonomick Life" para tarefas de limpeza, jardinagem e pintura'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Design do cabo antatômico Multifuncional "Ergonomick Life" para tarefas de limpeza, jardinagem e pintura<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto de análise de produto  do produto cabo de vassoura com objetivo de analisar o protótipo do cliente e reprojeta-lo com objetivo de adequá-lo ergonomicamente.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (2)  / Mestrado acadêmico: (2)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . </div>
+</div><a name='PP_Grupo de Pesquisa em Ergonomia e Confiabilidade Humana para o setor de Petr&oacute;leo, G&aacute;s e Energia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grupo de Pesquisa em Ergonomia e Confiabilidade Humana para o setor de Petróleo, Gás e Energia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O Grupo vem desde 1992 atuando em pesquisa e desenvolvimento em Ergonomia e Confiabilidade Humana para o  setor de petóleo, gás e energia objetivando modificar o processo de trabalho (instrumentos, postos, ambiente e organização) para adquar as atividades de trabalho às carcaterísticas, habilidades e limitações das pessoas com vistas ao seu desmpenho eficiente, seguro e confortável.. <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" /><br class="clear" />Integrantes: Glória Lopez Cid - Integrante / Flávia Cristine Hoffsteter Pastura - Integrante / Maria cristina palmer Lima Zamberlan - Coordenador / Carla Patrícia Guimarães - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Saúde Coletiva / Subárea: Saúde Pública. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia de Produção / Subárea: Engenharia do Produto/Especialidade: Ergonomia. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia de Produção / Subárea: Gerência de Produção/Especialidade: Higiene e Segurança do Trabalho. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Educação Física / Subárea: Biomecânica. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GUIMARÃES, C. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; SANTOS, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2484258910457885" target="_blank">ZAMBERLAN, M. C. P. L.</a> ; PASTURA, F. C. ; Gabriel ; Carlos ; BATISTA, D. ; Mariana . Human Acitivity reference database. Work (Reading, MA)<sup><img id='10519815_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 613-616, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=613&titulo=Human Acitivity reference database&sequencial=1&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>SANTOS, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2484258910457885" target="_blank">ZAMBERLAN, M. C. P. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0609342398082653" target="_blank">STREIT, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5982167067314003" target="_blank">OLIVEIRA, J. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; PASTURA, F. C. ; <b>CID, G. L.</b> . DHM and serious games: a case-study oil and gas laboratories. Work (Reading, MA)<sup><img id='10519815_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2279-2283, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2279&titulo=DHM and serious games: a case-study oil and gas laboratories&sequencial=2&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>SANTOS, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; PARANHOS, A. G. . DHM in Human-Centered Product Design: A Case-study on Public Transport Vehicle. Work (Reading, MA)<sup><img id='10519815_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2238-2242, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2238&titulo=DHM in Human-Centered Product Design: A Case-study on Public Transport Vehicle&sequencial=3&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZAMBERLAN, M. C. P. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2484258910457885" target="_blank">ZAMBERLAN, M. C. P. L.</a> ; SANTOS, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0609342398082653" target="_blank">STREIT, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5982167067314003" target="_blank">OLIVEIRA, J. L.</a> ; CURY, R. ; NEGRI, T. ; PASTURA, F. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> . DHM simulation in virtual environments: a case-study on control room design. Work (Reading, MA)<sup><img id='10519815_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2243-2247, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2243&titulo=DHM simulation in virtual environments: a case-study on control room design&sequencial=4&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>SANTOS, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2484258910457885" target="_blank">ZAMBERLAN, M. C. P. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0609342398082653" target="_blank">STREIT, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5982167067314003" target="_blank">OLIVEIRA, J. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; PASTURA, F. C. ; <b>CID, G. L.</b> . DHM and serious games: a case-study oil and gas laboratories. Work (Reading, MA)<sup><img id='10519815_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2279-2283, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2279&titulo=DHM and serious games: a case-study oil and gas laboratories&sequencial=5&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>SANTOS, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; PARANHOS, A. G. . DHM in Human-Centered Product Design: A Case-study on Public Transport Vehicle. Work (Reading, MA)<sup><img id='10519815_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2238-2242, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2238&titulo=DHM in Human-Centered Product Design: A Case-study on Public Transport Vehicle&sequencial=6&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZAMBERLAN, M. C. P. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2484258910457885" target="_blank">ZAMBERLAN, M. C. P. L.</a> ; SANTOS, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0609342398082653" target="_blank">STREIT, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5982167067314003" target="_blank">OLIVEIRA, J. L.</a> ; CURY, R. ; NEGRI, T. ; PASTURA, F. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> . DHM simulation in virtual environments: a case-study on control room design. Work (Reading, MA)<sup><img id='10519815_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2243-2247, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2243&titulo=DHM simulation in virtual environments: a case-study on control room design&sequencial=7&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GUIMARÃES, C. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; SANTOS, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2484258910457885" target="_blank">ZAMBERLAN, M. C. P. L.</a> ; PASTURA, F. C. ; Gabriel ; Carlos ; BATISTA, D. ; Mariana . Human Acitivity reference database. Work (Reading, MA)<sup><img id='10519815_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 613-616, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=613&titulo=Human Acitivity reference database&sequencial=8&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>SANTOS, V. ; ZAMBERLAN, M. C. P. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0609342398082653" target="_blank">STREIT, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5982167067314003" target="_blank">OLIVEIRA, J. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; PASTURA, F. C. ; <b>CID, G. L.</b> . DHM and serious games: a case-study oil and gas laboratories. Work (Reading, MA)<sup><img id='10519815_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2279-2283, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2279&titulo=DHM and serious games: a case-study oil and gas laboratories&sequencial=9&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>SANTOS, V. ; ZAMBERLAN, M. C. P. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0609342398082653" target="_blank">STREIT, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5982167067314003" target="_blank">OLIVEIRA, J. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; PASTURA, F. C. ; <b>CID, G. L.</b> . DHM and serious games: a case-study oil and gas laboratories. Work (Reading, MA)<sup><img id='10519815_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2279-2283, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2279&titulo=DHM and serious games: a case-study oil and gas laboratories&sequencial=10&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>SANTOS, V. ; ZAMBERLAN, M. C. P. L. ; Streit, P. ; de Oliveira, J.L.A.C ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARAES, C. P.</a> ; PASTURA, F. ; <b>CID, G. L.</b> . DHM and serious games: a case-study oil and gas laboratories.. Work (Reading, MA)<sup><img id='10519815_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2279-2283, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2279&titulo=DHM and serious games: a case-study oil and gas laboratories.&sequencial=11&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZAMBERLAN, M. C. P. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>ZAMBERLAN, M. C. P. L. ; SANTOS, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0609342398082653" target="_blank">STREIT, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5982167067314003" target="_blank">OLIVEIRA, J. L.</a> ; CURY, R. ; NEGRI, T. ; PASTURA, F. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> . DHM simulation in virtual environments: a case-study on control room design. Work (Reading, MA)<sup><img id='10519815_12' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2243-2247, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2243&titulo=DHM simulation in virtual environments: a case-study on control room design&sequencial=12&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZAMBERLAN, M. C. P. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>ZAMBERLAN, M. C. P. L. ; SANTOS, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0609342398082653" target="_blank">STREIT, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5982167067314003" target="_blank">OLIVEIRA, J. L.</a> ; CURY, R. ; NEGRI, T. ; PASTURA, F. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> . DHM simulation in virtual environments: a case-study on control room design. Work (Reading, MA)<sup><img id='10519815_13' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2243-2247, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2243&titulo=DHM simulation in virtual environments: a case-study on control room design&sequencial=13&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZAMBERLAN, M. C. P. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>ZAMBERLAN, M. C. P. L. ; SANTOS, V. ; Streit, P. ; de Oliveira, J.L.A.C ; CURY, R. ; NEGRI, T. M. Y. ; PASTURA, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARAES, C. P.</a> ; <b>CID, G. L.</b> . DHM simulation in virtual environments: a case-study on control room design.. Work (Reading, MA)<sup><img id='10519815_14' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2243-2247, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2243&titulo=DHM simulation in virtual environments: a case-study on control room design.&sequencial=14&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GUIMARÃES, C. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; SANTOS, V. ; ZAMBERLAN, M. C. P. L. ; PASTURA, F. C. ; Gabriel ; Carlos ; BATISTA, D. ; Mariana . Human Acitivity reference database. Work (Reading, MA)<sup><img id='10519815_15' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 613-616, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=613&titulo=Human Acitivity reference database&sequencial=15&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GUIMARÃES, C. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; SANTOS, V. ; ZAMBERLAN, M. C. P. L. ; PASTURA, F. C. ; Gabriel ; Carlos ; BATISTA, D. ; Mariana . Human Acitivity reference database. Work (Reading, MA)<sup><img id='10519815_16' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 613-616, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=613&titulo=Human Acitivity reference database&sequencial=16&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GUIMARÃES, C. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; SANTOS, V. ; ZAMBERLAN, M. C. P. L. ; PASTURA, F. C. ; Gabriel ; Carlos ; BATISTA, D. ; Mariana . Human Acitivity reference database. Work (Reading, MA)<sup><img id='10519815_17' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 613-616, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=613&titulo=Human Acitivity reference database&sequencial=17&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>SANTOS, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2484258910457885" target="_blank">ZAMBERLAN, M. C. P. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0609342398082653" target="_blank">STREIT, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5982167067314003" target="_blank">OLIVEIRA, J. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARAES, C. P.</a> ; PASTURA, F. C. ; <b>CID, G. L.</b> . DHM and serious games: a case-study oil and gas laboratories. Work (Reading, MA)<sup><img id='10519815_18' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2279-2283, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2279&titulo=DHM and serious games: a case-study oil and gas laboratories&sequencial=18&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZAMBERLAN, M. C. P. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2484258910457885" target="_blank">ZAMBERLAN, M. C. P. L.</a> ; SANTOS, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0609342398082653" target="_blank">STREIT, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5982167067314003" target="_blank">OLIVEIRA, J. L.</a> ; CURY, R. ; NEGRI, T. ; PASTURA, F. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARAES, C. P.</a> ; <b>CID, G. L.</b> . DHM simulation in virtual environments: a case-study on control room design. Work (Reading, MA)<sup><img id='10519815_19' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10519815' /></sup>, v. 41, p. 2243-2247, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10519815&volume=41&issue=&paginaInicial=2243&titulo=DHM simulation in virtual environments: a case-study on control room design&sequencial=19&nomePeriodico=Work (Reading, MA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; PARANHOS, A. G. ; PASTURA, F. C. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0943845439314825" target="_blank">FRANCA, G. A. N.</a> ; SANTOS, V. ; ZAMBERLAN, M. C. P. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0609342398082653" target="_blank">STREIT, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5982167067314003" target="_blank">OLIVEIRA, J. L.</a> ; CORREA, T. G. V. . Ergonomic Work Analysis Applied to Chemical Laboratories on an Oil and Gas Research Center. In: Vincent G . Duffy. (Org.). Advances in Applied Human Modeling and Simulation. 1ed.Boca Raton: CRC Press, 2012, v. 1, p. 471-477. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, Venétia ; ZAMBERLAN, M. C. P. L. ; Bernard Pavard ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; PASTURA, F. C. H. ; <b>CID, G. L.</b> . A Modelagem 3D:Modelos Humanos Virtuais 3D, Simulação, Treinamento Virtual e o Projeto de Novas Situações de Trabalho. In: Instituto Brasileiro de Petróleo, gas e Biocombustíveis; Instituto Nacional de Tecnologia. (Org.). Confiabilidade Humana e Projeto Ergonômico de Centros de Controle de Processos de Alto Risco. 1ed.Rio de Janeiro: Synergia Editora, 2009, v. 1, p. 233-258. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; PASTURA, F. C. H. ; ZAMBERLAN, M. C. P. L. ; <b>CID, G. L.</b> ; Reis, M.S. . Brazilian Oil and Gas Industry 3D Anthropometric Survey. In: 17th World Congress on Ergonomics, 2009, Pequim. Proceedings 17th World Congress on Ergonomics. Pequim: IEA, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; PASTURA, F. C. H. ; <b>CID, G. L.</b> . Modelagem Humana 3D e Sistemas de Simulação Virtual. In: Seminário Internacional de Confiabilidade Humana, 2007, Rio de Janeiro. Seminário Internacional de Confiabilidade Humana, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; ZAMBERLAN, M. C. P. L. ; PASTURA, F. C. H. . A methodological approach to manual assembly process analysis. In: 16th World Congress on Ergonomics, 2006, Maastrichit. 16th World Congress on Ergonomics, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		PASTURA, F. C. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, Carla Patrícia</a> ; <b>CID, G. L.</b> ; ZAMBERLAN, M. C. P. L. ; PEREIRA, José Eduardo Alves . ARARIBOIA A 2D/3D biomechanical and anthropometric analysis system. In: iea 2006, 2006, Maastricht. 16th World Congress on Ergonomics, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; PASTURA, F. C. H. ; <b>CID, G. L.</b> ; ZAMBERLAN, M. C. P. L. ; PEREIRA, José Eduardo Alves . ARARIBOIA 2D/3D biomechanical and anthropometric analysis system that uses brazilian population anthropometric database. In: WEAR meeting 2005 - Göteng South Afrika, 2005, Göteng. Wear Proceedings - Göteng, 2005. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>CID, G. L.</b> . Métodos de Avaliação do Trabalho/Banco de Dados Referencial das Atividades Humanas. In: XIII Congresso Brasileiro de Ergonomia, II Fórum Brasileiro de Ergonomia, I Congresso Brasileiro de iniciação Científica em Ergonomia   Abergo Jovem, 2004, Fortaleza. XIII Congresso Brasileiro de Ergonomia. Fortaleza, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CID, G. L.</b> . Modelização das atividades. In: XIII Congresso Brasileiro de Ergonomia, 2004, Fortaleza. Congresso Brasileiro de Ergonomia. Fortaleza, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; PASTURA, F. C. H. ; ZAMBERLAN, M. C. P. L. ; <b>CID, G. L.</b> ; PEREIRA, José Eduardo Alves . A PROPOSAL FOR INTEGRATING BRAZILIAN ANTHROPOMETRIC DATABASE (ERGOKIT) WITHIN A BIOMECHANICAL SYSTEM BASED ON VIDEOCINEMATOGRAPHY (BIOMEC). In: World Engineering Anthropometry Resource (WEAR) working group meeting, 2004, Dayton. Proceedings of WEAR Meeting 2004, 2004. v. 1. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; PASTURA, F. C. H. ; ZAMBERLAN, M. C. P. L. ; SANTOS, Venétia ; <b>CID, G. L.</b> . 3D Laser Scanning Technology Applied to Ergonomic Design. 2010. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="AssessoriaConsultoria"></a>Assessoria e consultoria</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; PASTURA, F. C. H. ; ZAMBERLAN, M. C. P. L. ; SETTI, Maria Egle Cordeiro ; SANTOS, Venétia . Diagnóstico Ergonômico na Unidade de Negócios da Petrobrás Espírito Santo. 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; PASTURA, F. C. H. ; ZAMBERLAN, M. C. P. L. . Análise Ergonômica e Biomecânica dos Postos de Trabalho de Montagem de Paíneis de Carro da SIEMENS VDO. 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; SANTOS, Venétia ; SETTI, Maria Egle Cordeiro ; PASTURA, F. C. H. ; ZAMBERLAN, M. C. P. L. . Diagnóstico Ergonômico na Unidade de Negócios da Petrobrás Espírito Santo. 2003. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; PASTURA, F. C. H. ; <b>CID, G. L.</b> ; BATISTA, Denise Silva . Projeto de Avaliação Ergonômica dos Postos de Trabalho da Linha de Montagem do Cokpit do Celta - Unidade Gravataí/Siemens. 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; PASTURA, F. C. H. ; <b>CID, G. L.</b> ; ZAMBERLAN, M. C. P. L. . Análise Ergonômica e Biomecânica dos Postos de Trabalho de Montagem de Paíneis de Carro da SIEMENS VDO. 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>CID, G. L.</b> ; PASTURA, F. C. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; ZAMBERLAN, M. C. P. L. . Pesquisa antropométrica dos empregados ocupados nos setores de produção e montagem da EMBRAER. 2001. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZAMBERLAN, M. C. P. L. ; SANTOS, Venétia ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, Carla Patrícia</a> ; PASTURA, F. C. H. ; <b>CID, G. L.</b> ; BATISTA, Denise Silva . ERGONOMIA: MÉTODOS E TÉCNICAS - ANÁLISE DO TRABALHO. 2007. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZAMBERLAN, M. C. P. L. ; SANTOS, Venétia ; PASTURA, F. C. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> . Curso de Ergonomia de Concepção. 2007. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZAMBERLAN, M. C. P. L. ; SANTOS, Venétia ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, Carla Patrícia</a> ; PASTURA, F. C. H. ; <b>CID, G. L.</b> . Curso básico de Ergonomia. 2006. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZAMBERLAN, M. C. P. L. ; SANTOS, Venétia ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, Carla Patrícia</a> ; PASTURA, F. C. H. ; <b>CID, G. L.</b> . Curso Básico de Ergonomia. 2005. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZAMBERLAN, M. C. P. L. ; SANTOS, Venétia ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, Carla Patrícia</a> ; PASTURA, F. C. H. ; <b>CID, G. L.</b> . Curso Básico de Ergonomia. 2004. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Seminário Rio Metrologia 2011. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3tr AHFE International Conference, 2010, MIAMI. 3rd International Conference on Human Factors and Ergonomics. Ergonomic Design Tools Based on Human Work Activities, 3D Human Models and Social Interaction Simulation. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WEAR MEETING VALENCIA.3D Laser Scanning Technology Applied to Ergonomic Design. 2010. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZAMBERLAN, M. C. P. L. ; PASTURA, F. C. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> . VI Simpósio Internacional do Grupo WEAR - World Engineering Anthropometry Resource. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="LivrosCapitulosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Livros e capítulos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0505874479604126" target="_blank">GUIMARÃES, C. P.</a> ; <b>CID, G. L.</b> ; PARANHOS, A. G. ; PASTURA, F. C. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0943845439314825" target="_blank">FRANCA, G. A. N.</a> ; SANTOS, V. ; ZAMBERLAN, M. C. P. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0609342398082653" target="_blank">STREIT, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5982167067314003" target="_blank">OLIVEIRA, J. L.</a> ; CORREA, T. G. V. . Ergonomic Work Analysis Applied to Chemical Laboratories on an Oil and Gas Research Center. In: Vincent G . Duffy. (Org.). Advances in Applied Human Modeling and Simulation. 1ed.Boca Raton: CRC Press, 2012, v. 1, p. 471-477. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:47:02</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0066553755382953" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

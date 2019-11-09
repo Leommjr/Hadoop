@@ -1,0 +1,2128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Swen Eric M&uuml;ller)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0037384367302439" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4765025E8&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4765025E8"><div class="infpessoa">
+<h2 class="nome">Swen Eric M&uuml;ller<br>
+<br>
+<span align="center" style="font-weight: bold" class="texto">Bolsista de Desenvolvimento Cientifico da Metrologia Nacional do CNPq - N&iacute;vel 1D</span>
+</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0037384367302439</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 04/06/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui doutorado em Engenharia el&eacute;trica pela Rheinisch-Westfalische Technische Hochschule Aachen(1999). Atualmente &eacute; Especialista Visitante do Instituto Nacional de Metrologia, Qualidade e Tecnologia. Tem experi&ecirc;ncia na &aacute;rea de F&iacute;sica, com &ecirc;nfase em &Aacute;reas Cl&aacute;ssicas de Fenomenologia e suas Aplica&ccedil;&otilde;es. <span style="font-weight: bold" class="texto"> (Texto gerado automaticamente pela aplica&ccedil;&atilde;o CVLattes)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Swen Eric Müller</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MÜLLER, S.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Instituto Nacional de Metrologia, Qualidade e Tecnologia. <br class="clear" />Av. Nossa Senhora das Graças, 50<br class="clear" />Xerém<br class="clear" />25250-020 - Duque de Caxias, RJ - Brasil<br class="clear" />Telefone: (21) 26799112<br class="clear" />URL da Homepage: <a target="blank" href="http://www.inmetro.gov.br">www.inmetro.gov.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Engenharia elétrica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Rheinisch-Westfalische Technische Hochschule Aachen, RWTH, Alemanha.
+		
+	<br class="clear" />Título: Digitale Signalverarbeitung für Lautsprecher, Ano de obtenção: 1999. <br class="clear" />Orientador: Michael Vorländer. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Instituto Nacional de Metrologia, Qualidade e Tecnologia, INMETRO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Especialista Visitante, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Pesquisador Visitante, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Institut für Technische Akustik der RWTH-Aachen, ITA, Alemanha.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: assistente do instituto, Enquadramento Funcional: empregado em tempo integral, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Physikalische Technische Bundesanstalt, PTB, Alemanha.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1993</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: contratado, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Respostas Impulsivas Aplicadas &agrave; Calibra&ccedil;&atilde;o Ac&uacute;stica de Microfones e Salas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Respostas Impulsivas Aplicadas à Calibração Acústica de Microfones e Salas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O alto ruído de fundo nas salas de aula dos aproximadamente 500 CIEPs no estado de Rio de Janeiro constitui um problema muito sério que afeta a aprendizagem dos alunos e a saúde dos professores.
+As condições acústicas nessas escolas foram avaliadas mediante testes elaborados de inteligibilidade com monossílabas, empregando um orador e um ouvidor artificial, ferramentas recém-adquiridas pelo laboratório para tornar os testes reproduzíveis e objetivos.
+Também foram avaliados vários parâmetros acústicos a partir das respostas impulsivas, tais como o ruído de fundo em banda larga e em oitavas, os tempos de reverberação e os índices de inteligibilidade STI.
+O conjunto de testes e medições corroborou de forma taxativa que o problema principal nos CIEPs é o fato de as paredes laterais terem somente uma altura de 1.70 m, deixando um amplo vão até o teto, que permite a transmissão livre do ruído oriundo das demais turmas.
+Aperfeiçoamento de medições de respostas impulsivas:
+A medição da resposta impulsiva e da associada função de transferência de qualquer dispositivo ou ambiente acústico é uma das tarefas mais comuns executados pelos profissionais do ramo. Ela sempre envolve o fornecimento de um sinal de banda larga, contendo porções suficientes de energia em todas as freqüências de interesse. A avaliação da função de transferência pode então ser realizada analisando-se a resposta na saída do DUT e comparando o resultado com o da entrada.
+Durante a primeira temporada do pesquisador foi iniciada a criação de um método que permite a obtenção mais rápida e precisa de respostas impulsivas e que é menos vulnerável a adversidades comuns, especificamente distorções harmônicas e variância no tempo.
+Além disso, em medições acústicas, é proveitoso adaptar o conteúdo espectral do sinal de excitação ao do ruído de fundo que prevalece no lugar da avaliação, e ainda equalizar a resposta do alto-falante, introduzindo na pré-ênfase o inverso do espectro da resposta acústica emitida.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Swen Eric Müller - Coordenador / Paulo Medeiros Massarani - Integrante / Marco Antônio Nabuco - Integrante / Zemar Soares - Integrante / Fabio Arruda - Integrante / Rosana Ribeiro Pontes - Integrante / Ludimila de Oliveira Medrado - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 18</div>
+</div><a name='PP_Metrologia aplicada &agrave; qualidade ac&uacute;stica:  Avalia&ccedil;&atilde;o de salas de aula, cinemas e teatros'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Metrologia aplicada à qualidade acústica:  Avaliação de salas de aula, cinemas e teatros<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo desse projeto era identificar e quantificar a qualidade acústica em salas de aula. Os problemas acústicos das salas de aula podem ser classificados em dois grupos: Ruído ambiental e caraterísticas acústicas inadequadas, particularmente altos tempos de reverberação.
+Enquanto o ruído de fundo pode ser determinado com um simples medidor do nível sonoro, a avaliação dos parâmetros acústicos (tempos de reverberação, claridade, definição e tempo central da energia, etc.) envolve o uso de um microcomputador e alto-falantes para emitir um sinal de teste.
+A partir dos resultados dessas avaliações, foi pretendido estabelecer limites para as condições acústicas das salas de aula que não deveriam ser ultrapassados. Esses limites poderiam entrar numa norma nacional dedicada às salas de aula. Para encontrar os limites aceitáveis de cada parâmetro acústico, as medições são acompanhadas de testes de inteligibilidade.
+Nesses testes, uma reforma importante do projeto foi substituir o locutor natural por uma fonte com propriedades o mais similar possível a de uma pessoa física, adquirido pelo laboratório de ensaios acústicos do INMETRO.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (2) Doutorado: (3) . <br class="clear" /><br class="clear" />Integrantes: Swen Eric Müller - Integrante / Paulo Medeiros Massarani - Integrante / Marco Antônio Nabuco - Coordenador / Renata Guedes - Integrante / Paulo Brandão - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 1</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Extens&atilde;o dos servi&ccedil;os de calibra&ccedil;&otilde;es prim&aacute;rias e secund&aacute;rias de microfones'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão dos serviços de calibrações primárias e secundárias de microfones<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esta projeto visa proporcionar uma extensão dos serviços de calibrações primárias e secundárias de microfones executadas pelo LAETA (Laboratório de Eletroacústica) da DIAVI (Divisão de Acústica e Vibrações) do INMETRO, atendendo a uma demanda existente de clientes no Brasil e completando a rastreabilidade de calibrações secundárias. A meta é capacitar o LAETA para a execução de calibrações nas seguintes duas áreas:
+1) Extensão da calibração da resposta em campo livre para freqüências muita baixas (1 a 25 Hz).
+2) Calibração primária e secundária da resposta em campo difuso em freqüências médias e altas (500 Hz a 40 kHz).
+Um terceiro foco do projeto consiste em pesquisas num campo cientificamente ainda pouco explorado e normalmente não abordado por laboratórios de calibração, porém de importância considerável para a exatidão e validade de qualquer medição acústica:
+Medicação da distorção harmônica dos microfones em dependência do nível de pressão sonora.
+O projeto abrange tanto a construção de novos dispositivos, tais como uma &#8220;panela de pressão&#8221; para a medição simultânea de dois microfones em baixas freqüências e uma pequena câmara reverberante para estabelecer um campo difuso, quanto o desenvolvimento e aperfeiçoamento de algoritmos do processamento digital para a síntese de sinais de excitação adequados e a análise das respostas oriundas dos microfones sob teste.. <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Swen Eric Müller - Coordenador / Zemar Soares - Integrante / Mauro Segara Matins - Integrante.<br class="clear" /></div>
+</div><a name='PP_Desenvolvimento de um sistema integral de identifica&ccedil;&atilde;o de fun&ccedil;&otilde;es de transfer&ecirc;ncia de sistemas ac&uacute;sticos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de um sistema integral de identificação de funções de transferência de sistemas acústicos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto tratou do desenvolvimento de um aparelho que serve para boa parte das tarefas comumente executadas em laboratórios de acústica e vibrações. O dispositivo desenvolvido basicamente reúne as funções de três aparelhos diferentes tipicamente requeridos em ensaios da área:
+1) Pré-amplificador e condicionador de sinais para microfones de laboratório ou acelerômetros.
+2) Amplificador de potência para fornecer sinais de excitação a alto-falantes ou shakers.
+3) Placa com conversores AD/DA para tornar analógico o sinal de excitação gerado pelo computador, e digitalizar os sinais oriundos dos transdutores para captação simultânea no computador.
+Assim, em conjunto com um PC ou laptop, o aparelho desenvolvido assume o papel de um mini-laboratório, precisando meramente dos transdutores e dos cabos para completar arranjos típicos de medição. 
+No entanto, toda a geração dos sinais de excitação, a anâlise dos sinais captados e o controle remote dos ganhos e roteamento dos sinais analógicos é feito por um software dedicado cujo desenvolvimento constitui a segunda parte deste projeto. O software, escrito na linguagem Delphi, se comunica com o frontend via o protocolo MIDI e troca os dados de áudio digitalizado através de um driver ASIO. Os algorítmos de processamento de sinais têm ênfase na área de obtenção de funções de transferência em tempo real e na análise de distorção harmonica em função da freqüência e/ou do nível do sinal de excitção. Além disso, o programa vai servir para a análise de acústica de salas, calculando as métricas mais importantes, tais como tempos de reverberação, STI (speech transmission index), e niveis de pressão sonora em fraçoes de oitavas.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (4) . <br class="clear" /><br class="clear" />Integrantes: Swen Eric Müller - Coordenador / Nelson Melo do Espirito Santo - Integrante / Christian - Integrante / Alejandro Osses Becchi - Integrante / Gabriel Rios - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 15 / Número de orientações: 1</div>
+</div><a name='PP_Processamento digital para alto-falantes'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Processamento digital para alto-falantes<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto abrangeu o desenvolvimento de hardware e software para o processamento digital de sinais para a melhora da reprodução de fala e música através de alto-falantes, com ênfase em sistemas de sonorização de grande porte (PA). O desenvolvimento incluiu a construção de aparelhos completos com bancos de processadores de sinais (DSP) para a filtragem digital mediante filtros do tipo FIR e IIR, encarregados a efetuar a separação das vias (crossover) cam alta seletividade e a equalização da resposta em frequência com alta acurácia, valendo-se de vias com frequência de amostragem reduzida para as bandas dos graves e médios (multirate processing).
+O processamento inclui limitadores RMS e de pico para a proteção contra distorções e danos mecâncios dos alto-falantes. Em paralelo ao desenvolvimento dos algoritmos digitais de processamento, um software para o levantamento das respostas em frequência em alta resolução foi aperfeiçoado a fim de fornecer os coeficientes dos filtros FIR e os parâmetros para os limitadores.
+Em ensaios extensos, a audibilidade da equalização quase perfeita possível com filtros FIR foi analisada com o intuito de detectar até que ponto vale a pena retificar pequenas imperfeições na resposta da amplitude e do atraso de grupo dos alto-falantes.
+O projeto redundou em uma linha de produtos comerciais (gerenciadores digitais), e, mais tarde, na fundação de uma empresa (Four Audio).. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (5) Doutorado: (3) . <br class="clear" /><br class="clear" />Integrantes: Swen Eric Müller - Coordenador / Jochen Kleber - Integrante / Rainer Thaden - Integrante / Anselm Goertz - Integrante / Gottfried Kurt Behler - Integrante / Petra Niggemann - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 11 / Número de orientações: 3</div>
+</div><a name='PP_Conversores AD/DA para &aacute;udio com alta faixa din&aacute;mica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conversores AD/DA para áudio com alta faixa dinámica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de conversores AD/DA de alta resolução e alta faixa dinámica, com sincronização entre os conversores AD e DA, para uso em medições de funções de transferência, gravações/reproduções a partir do disco rídgido (hard disk recording) e testes de desempenho dos conversores, visando a integração deles em gerenciadores digitais para alto-falantes e sistemas de medição.
+O desenvolvimento incluiu a instauração da tecnolgia vantajosa de conversão AD em duas faixas de ganhos diferentes (dual range conversion) para a extensão da faixa dinâmica em mais de 18 dB. A reconstrução do sinal monaural convertido com dois ganhos diferentes é executadao através de um DSP, que cuida da determinação dinâmica da diferença dos dois ganhos e dos offsets. 
+No lado da conversão DA, os estágios de elevação da taxa de amostragem (oversampling), incluindo filtros anti-aliasing do tipo FIR e aplicando dither e noise-shapers para a redução de distorção, foram ingualmente implementados em DSPs.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (3) . <br class="clear" /><br class="clear" />Integrantes: Swen Eric Müller - Coordenador / Carsten Wegener - Integrante / Rolf Schiebelhut - Integrante / Christian Schallenberg - Integrante / Thomas Kähler - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 4 / Número de orientações: 4</div>
+</div><a name='PP_Tecnologia binaural'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tecnologia binaural<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto teve como conteudo o desenvolvimento de tecnologia para a medição de HRTFs (head related transfer functions), incluindo hardware embutido nas cabeças artificiais para a pré-amplificação e digitalização dos sinais vindos dos microfones capacitivos embutidos nas orelhas e o processamento digital de sinais para a compatibilização dos sinais para a reprodução através de alto-falantes mediante DSP (digital signal processor) incluido na placa. 
+Outra vertente do projeto era o uso das HRTFs em um "simulador de direção" virtual de quatro canais para a projeção de quaisquer sinais monorais à esfera em redor da cabeça do ouvinte mediante convolução das HRTFs para determinda direção com os sinais de entrada.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Swen Eric Müller - Coordenador / Markus Sapp - Integrante / Gottfried Kurt Behler - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 1 / Número de orientações: 1</div>
+</div><a name='PP_Transformadas r&aacute;pidas de Fourier e Hadamard para sinais compridos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1993</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Transformadas rápidas de Fourier e Hadamard para sinais compridos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de software para a transformação rápida de sinais muito compridos (acima de 1 Mega-samples) adquiridos em calibrações primárias em campo difuso como excitação por sequências de comprimento máximo (MLS). <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" /><br class="clear" />Integrantes: Swen Eric Müller - Coordenador / Michael Vorländer - Integrante / Heinrich Bietz - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Áreas Clássicas de Fenomenologia e suas Aplicações/Especialidade: Acústica. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Telecomunicações/Especialidade: Sistemas de Telecomunicações. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Elétro-acústica. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação/Especialidade: Processamento digital de sinais. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Circuitos Elétricos, Magnéticos e Eletrônicos/Especialidade: Circuitos Eletrônicos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Medidas Elétricas, Magnéticas e Eletrônicas; Instrumentação/Especialidade: Instrumentação Eletrônica. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Alemão</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Soares, Z.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1735347348503104" target="_blank">Soares, Z.</a> ; <b>MÜLLER, S.</b> ; HOFFMANN, W. E. . Secondary Microphone Calibration: Advantageous use of sweeps to obtain impulse response. The Journal of the Acoustical Society of America<sup><img id='00014966_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00014966' /></sup>, v. 112, p. 2234, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00014966&volume=112&issue=&paginaInicial=2234&titulo=Secondary Microphone Calibration: Advantageous use of sweeps to obtain impulse response&sequencial=1&nomePeriodico=The Journal of the Acoustical Society of America" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MÜLLER, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><b>MÜLLER, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8561106308956307" target="_blank">MASSARANI, P. M.</a> . Transfer-function measurements with sweeps. J.AES, New York, v. 49, p. 443-471, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=49&issue=&paginaInicial=443&titulo=Transfer-function measurements with sweeps&sequencial=2&nomePeriodico=J.AES" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOMMERTZ, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1995</span>MOMMERTZ, E. ; <b>MÜLLER, S.</b> . Measuring Impulse Responses with Preemphasized Pseudo Random Noise derived from Maximum Length Sequences. Applied Acoustics, v. 44, p. 195-198, 1995. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=44&issue=&paginaInicial=195&titulo=Measuring Impulse Responses with Preemphasized Pseudo Random Noise derived from Maximum Length Sequences&sequencial=3&nomePeriodico=Applied Acoustics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Measuring Transfer functions and impulse responses. In: David Havelock, Michael Vorländer, Sonoko Kuwano,. (Org.). Handbook of Signal Processing in Acoustics. New York: Springer, 2008, v. 1, p. 65-85. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Messtechnik. In: Stefan Weinzierl. (Org.). Handbuch der Audiotechnik. 1ed.Berlim: Springer Verlag, 2008, v. 1, p. 1087-1168. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Messmikrofine: Peavey PVR-2. Production Partner, Ulm, p. 77 - 77, 09 jul.  2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Noch mehr Messmikrofone. Production Partner, Ulm, p. ? - ?, 09 abr.  2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Messmikrofone - warum auch sie klirren. Production Partner, Colônia, , v. 12-09, 14 dez.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Serie Messmikrofone: Schlussfazit und Ergebnisse auf einen Blick. Production Partner, Colônia, p. 86, 14 set.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Gro e Messmikrofonserie Teil 4. Production Partner, Colônia, , v. 8, p. 66, 14 ago.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Serie Messmikrofone (Teil 3): Ergebnisse von ACO Pacific 224, DPA 4007, Earthworks M30, t.bone MM-1 und Sound First SF101. Production Partner, Colônia, , v. 4, p. 102, 14 abr.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . HD recording - mit PCM oder DSD?. Sound & Recording, Colônia, p. 34, 15 mar.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Serie Messmikrofone (Teil 2): Erste Ergebnisse von Brüel & Kj r 4190, Beyerdynamic MM 1, Behringer ECM 8000 und Audix TR-40A. Production Partner, Colônia, p. 82, 14 mar.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Gro e Mikrofonserie Teil 1: Funktionsprinzip und Technik von Messmikrofonen. Production Partner, Colônia, , v. 2, p. 95, 14 fev.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Interview mit Simon Harrison, Research and Development Directo für Midas und Klark Teknik, über digitale Audio-Konzepte im Live-Bereich. Production Partner, Colônia, , v. 08-02, 15 out.  2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Zu Besuch in der Chassis-Schmiede Selenium. Production Partner, Colônia, , v. 2, p. 120, 15 fev.  2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Avaliação da inteligibilidade com o STI. Acústica e Vibrações, p. 25 - 38, 15 maio  2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; Goertz, A. . TC electronic EQ Station. Production Partner, Colônia, , v. 04-10, p. 90, 15 out.  2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Turbosound-Firmengründer Tony Andrews im Interview über seinen Weg zu Funktion One. Production Partner, Colônia, , v. 02-12, p. 36, 15 dez.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Stanley Lipshitz über Digital Audio. Production Partner, Colônia, 15 maio  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Trios Elétricos &#8211; Mobile Hochleistungs-Beschallung in Brasilien. Production Partner, Colônia, , v. 02-02, p. 48, 15 fev.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; Goertz, A. . Line-Array EAW KF760 und KF761 im Test. Production Partner, Colônia, , v. 01-10, p. 108, 15 out.  2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Meyer Sound M3D auf den Wiener Festwochen. Production Partner, Colônia, , v. 01-08, p. 24, 15 ago.  2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Digitales drahtloses Konferenzsystem MCW digital von beyerdynamic. Professional System, Colônia, , v. 01-06, p. 66, 15 jun.  2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Test vierkanaliger Raumsimulator Yamaha SREV1. Production Partner, Colônia, , v. 05-01, p. 148, 15 maio  2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Ruf- und Alarmierungssystem im Flughafen Düsseldorf. Professional System, Colônia, , v. 05/01, p. 34, 15 maio  2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MÜLLER, S.</b> . DSD statt PCM: Fort- oder Rückschritt?. Production Partner, Colônia, , v. 3, p. 16 - 40, 15 mar.  2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Goertz, A. ; <b>MÜLLER, S.</b> . Vergleichstest Deckeneinbau-Lautsprecher. Professional System, Colônia, p. 82, 15 jan.  2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Bodenmonitor d&b M2. Production Partner, Colônia, , v. 00-12, p. 106, 15 dez.  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; Goertz, A. . Im Vergleich: Controller BSS FDS 366 und Klark Teknik DN 9848. Production Partner, Colônia, , v. 00-10, p. 90, 15 out.  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Goertz, A. ; <b>MÜLLER, S.</b> . Test Sony SRP-F300: preisgünstiger Digital-Controller. Production Partner, Colônia, , v. 00-08, p. 134, 15 jun.  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Goertz, A. ; <b>MÜLLER, S.</b> . Test Gro beschallungssystem APG 9000. Production Partner, Colônia, , v. 98-08, p. 104, 15 ago.  1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Goertz, A. ; <b>MÜLLER, S.</b> . JBL HLA. Production Partner, Colônia, , v. 97-08, p. 18, 15 ago.  1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; Goertz, A. . Access by Kling & Freitag. Production Partner, Colônia, 15 jan.  1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . 96 kHz - Was bringt's?. Production Partner. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; Goertz, A. . BSS Omnidrive FDS-355. Production Partner. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Goertz, A. ; <b>MÜLLER, S.</b> . C2 Line Array von d&b. Production Partner. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; Goertz, A. . EAW KF940. Production Partner. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; Goertz, A. . Subwoofer  EAW SB750. Production Partner. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Goertz, A. ; <b>MÜLLER, S.</b> . Klark Teknik DN8000. Production Partner. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . d&b im Ernst-Happel-Stadion in Wien. Production Partner, Colônia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Goertz, A. ; <b>MÜLLER, S.</b> . SEK D 2496 S und 2496 DSP. Production Partner. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; Sapp, M. . Soundkarten Gina & Darla. Keyboards. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Goertz, A. ; <b>MÜLLER, S.</b> . MayDay 1998 Live-Reportage. Production Partner, Colônia. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8561106308956307" target="_blank">MASSARANI, P. M.</a> . Distortion Immunity in Impulse Response Measurements with Sweeps. In: The 18th International Congress on Sound and Vibration (ICSV18), 2011, Rio de Janeiro. Proceedings of the ICSV18, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2511893281535249" target="_blank">DIAS, R. S.</a> ; SANTOS, I. D. S. . MEMS Accelorometer Performance. In: The 18th International Congress on Sound and Vibration (ICSV18), 2011, Rio de Janeiro. Proceedings of the ICSV18, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Novidades do STI. In: XXIII Encontro SOBRAC, 2010, Salvador. XXIII Encontro SOBRAC, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1735347348503104" target="_blank">Soares, Z.</a> ; <b>MÜLLER, S.</b> ; MILHOMEM, T.B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8561106308956307" target="_blank">MASSARANI, P. M.</a> . Primary Microphone Calibration in Free Field using a Time-selective Technique. In: Inter-Noise 2008, 2008, Shanghai. Anais of Inter-Noise 2008, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; BUDDE,C.W. . Medições rápidas de distorção em função do nível e da freqüência. In: XXII Encontro da Sociedade Brasileira de Acústica, 2008, Belo Horizonte. Anais do XXII Encontro da Sociedade Brasileira de Acústica, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1161317972489632" target="_blank">TENENBAUM, R. A.</a> ; VASCONCELLOS, L. ; <b>MÜLLER, S.</b> . Acoustical Analysis of a variable roof configuration concert hall: The São Paulo hall. In: ASA-EAA joint conference Acoustics 08, 2008, Paris. Anais of Acoustics'08, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Gerenciador Digital com Alta Faixa Dinâmica. In: 11a Convenção Nacional da AES Brasil, 2007, São Paulo. Anais da11a Convenção Nacional da AES Brasil, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8286592186084379" target="_blank">SANTO, N. M. E.</a> . Fast Distortion vs. Level Measurements with smoothly Increasing Signal Amplitudes. In: 11a Convenção Nacional da AES Brasil, 2007, São Paulo. Anais da 11a Convenção Nacional da AES Brasil, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">THADEN, R. ; <b>MÜLLER, S.</b> ; BEHLER, G. K. ; Goertz, A. ; MAKARSKY, M. ; Kleber, J. . A Loudspeaker Management System with FIR/IIR Filtering. In: 32nd International Conference: DSP For Loudspeakers, 2007, Hillerod. AES E-Library, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8286592186084379" target="_blank">SANTO, N. M. E.</a> . FFT-based distortion  measurements using continuously varied excitation signal amplitudes. In: IMEKO world congress, 2006, Rio de Janeiro. Anais, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8561106308956307" target="_blank">MASSARANI, P. M.</a> ; <b>MÜLLER, S.</b> . Multi-Channel Reverberation time measurements with sweeps. In: The 13th internation congress on sound and vibration, 2006, Vienna. Anais of the 13th internation congress on sound and vibration, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Integrated system for measurements in acoustics. In: Internoise, 2005, Rio de Janeiro. Rio 2005 Internoise - Environmental Noise Control, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Medir o STI. In: 2. Seminário de Música, Sciência e Tecnologia, 2005, Campinas. Anais, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Novo sistema para Medições Acústicas. In: 1. Seminário de Música, Sciência e Tecnologia, 2004, São Paulo. Anais do 1. Seminário de Música, Sciência e Tecnologia, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8561106308956307" target="_blank">MASSARANI, P. M.</a> . Medições da resposta em freqência de sistemas de sonorização. In: Primeiro Seminário de Engenharia de Áudio, 2002, Belo Horizonte. Anais do Primeiro Seminário de Engenharia de Áudio, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8561106308956307" target="_blank">MASSARANI, P. M.</a> . Criação de varreduras com ênfase arbitária. In: Primeiro Seminário de Engenharia de Áudio, 2002, Belo Horizonte. Anais do primeiro Seminário de Engenharia de Áudio, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8561106308956307" target="_blank">MASSARANI, P. M.</a> ; Nabuco, M. . Medição de Inteligibilidade da Palavra em Duas escolas estaduais do Rio de Janeiro. In: II Simpósio Brasileiro de Metrologia em Acústica e Vibrações SIBRAMA e XX Encontro da SOBRAC, 2002, Rio de Janeiro. Anais, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1735347348503104" target="_blank">Soares, Z.</a> ; HOFFMANN, W. E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8561106308956307" target="_blank">MASSARANI, P. M.</a> ; Nabuco, M. ; <b>MÜLLER, S.</b> . Validação de Método Secundário de Calibração de Microfones de 1/2 polegada em Campo Difuso Usando Resposta Impulsiva. In: II Simpósio Brasileiro de Metrologia em Acústica e Vibrações SIBRAMA e XX Encontro da Sociedade Brasileira de Acústica SOBRAC, 2002, Rio de Janeiro. Anais do II Simpósio Brasileiro de Metrologia em Acústica e Vibrações SIBRAMA e XX Encontro da Sociedade Brasileira de Acústica SOBRAC, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PONTES, R. R. ; <b>MÜLLER, S.</b> . Subwoofer Compacto para uso com Dodecaedros. In: XX Encontro da SOBRAC, 2002, Rio de Janeiro. Anais, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Medições da função de transferência  de sistemas lineares. In: SOBRAC, 2002, Rio de Janeiro. Anais, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1735347348503104" target="_blank">Soares, Z.</a> ; HOFFMANN, W. E. ; <b>MÜLLER, S.</b> . Calibração secundária de microfones de 1/2. In: XX Encontro da Sociedade Brasileira de Acústica, 2002, Rio de Janeiro. Anais do XX Encontro da Sociedade Brasileira de Acústica, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PENNA, L. ; SILVA, E. ; <b>MÜLLER, S.</b> . Interferência do ruído elétrico em setups de medição. In: XX Encontro da Sociedade Brasileria de Acústica, 2002, Rio de Janeiro. Anais do XX Encontro da Sociedade Brasileria de Acústica, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8561106308956307" target="_blank">MASSARANI, P. M.</a> . Creation and Properties of Constant Envelope Sweeps for Transfer Function Measurements. In: 17th International Congress on Acoustics, 2001, Roma. 17th International Congress on Acoustics, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARRUDA, F. ; BRANDAO, P. ; GUEDES, R. ; Nabuco, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8563112446681030" target="_blank">ZINDELUK, M.</a> ; ROCHA, R. ; <b>MÜLLER, S.</b> . A influência da direcionalidade de fontes sonoras na avaliação experimental da qualidade acústica de salas. In: XIX Encontro da Sociedade Brasileira de Acústica, 2000, Belo Horizonte. Anais, 2000. p. 22-26. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BEHLER, G. K. ; <b>MÜLLER, S.</b> . Technique for the Derivation of Wide Band Room Impulse Response. In: EAA Symposium on architectural acoustics, 2000, Madri. Tecniacústica 2000, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Konzept und Ausführung von Limiterfunktionen in digitalen Controllern. In: DAGA, 1997, Kiel. Fortschritte der Akustik - DAGA, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Goertz, A. ; <b>MÜLLER, S.</b> ; Kleber, J. . Entwicklungsgeschichte der digitalen Controller für Lautsprechersysteme. In: DAGA 1997, 1997. Fortschritte der Akustik - DAGA 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Goertz, A. ; Kleber, J. ; <b>MÜLLER, S.</b> ; Sapp, M. ; BORMAN, R. . Entwicklung und Aufbau eines digitalen 4-Wege Controllers. In: 19. Tonmeistertagung, 1996, Karlsruhe. Tagungsband 19. Tonmeistertagung Karlsruhe, 1996. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOMMERTZ, E. ; <b>MÜLLER, S.</b> . Applying the Inverse Fast Hadamard Transform to Improve MLS Measurements. In: 15th International Congress on Acoustics, 1995, Trondheim. Proceedings of the 15th International Congress on Acoustics, 1995. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Goertz, A. ; <b>MÜLLER, S.</b> . Einsatz digitaler Limiter in Beschallungsanlagen. In: DAGA - Fortschritte der Akustik, 1995, Saarbrücken. Tagungsband der DAGA 1995, 1995. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; GOMES, M. H. A. ; GINER, J. C. . Medições e análises eletroacústicas em diversas plataformas de medição. In: 9. Convenção nacional da AES Brasil, 2005, São Paulo. Anais, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Medições de respostas acústicas. In: Encontro regional da AES Brasil, 2004, Rio de Janeiro. Encontro regional da AES Brasil, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8561106308956307" target="_blank">MASSARANI, P. M.</a> ; <b>MÜLLER, S.</b> . Normal incidence sound absorption measurement of individual patches in a reverberation room. In: FIRST PAN-AMERICAN/IBERIAN MEETING ON ACOUSTICS, 2002, Cancun. The Journal of the Acoustical Society of America, 2002. v. 112. p. 2397-2398. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; Nabuco, M. . Akustische Bedingungen in brasilianischen Schulen. In: DAGA, 2002, Aachen. Fortschritte der Akustik - DAGA, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1735347348503104" target="_blank">Soares, Z.</a> ; <b>MÜLLER, S.</b> ; HOFFMANN, W. E. . Secondary microphone calibration: Advantages on the use of the constant envelope sweeps. In: First Pan American/Iberian Meeting on Acoustics, 2002, Cancum. The Journal of the Acoustical Society of America, 2002. v. 112. p. 2234-2234. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; Nabuco, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8561106308956307" target="_blank">MASSARANI, P. M.</a> . Medições e testes de inteligibilidade em duas escolas estaduias do Rio de Janeiro. In: XX Encontro da Sociedade Brasileira de Acústica, 2002, Rio de Janeiro. Anais do XX Encontro da Sociedade Brasileira de Acústica, 2002. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1735347348503104" target="_blank">Soares, Z.</a> . Caracterização de Microfones de Medição. 2013. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Microfones de medição. 2009. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Medindo distorção e intermodulação. 2007. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Medições da função de transferência  de sistemas lineares. 2002. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Medições da função de transferência com varreduras. 2002. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . RISU. 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . OVHUGO. 1996. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . DM42. 1994. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . LAY. 1987. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MÜLLER, S.</b> . Monkey Forest. 1986. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ProdutosTecnologicos"></a>Produtos tecnológicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MÜLLER, S.</b> ; Kleber, J. ; Sapp, M. ; Thaden, R. . Digital Loudspeaker Controller Hugo. 1996. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . LISA - 4 Channel DSP-based AES/EBU ISA board. 1994. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MÜLLER, S.</b> . 19" High Resolution 20 Bit AD/DA Frontend. 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . ISA AES/EBU board. 1992. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . 320 MIPS FIR equalizer & crossover. 1991. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Medições e equalização do sistema de sonorização com SLA1P na Arena Multiuso no complexo esportivo do autódromo - Rio de Janeiro. 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> . Testes de inteligibilidade e medições binaurais em escolas públicas. 2002. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1161317972489632" target="_blank">TENENBAUM, R. A.</a>; MUSAFIR, R.; FUKS, L.; <b>MÜLLER, S.</b>.  Participação em banca de Lenine Vasconcellos de Oliveira. Estudo da acústica ajustável da Sala São Paulo e sua relação com aspectos musicais. 2005. Dissertação (Mestrado em Engenharia Mecânica) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1161317972489632" target="_blank">TENENBAUM, R. A.</a>; MUSAFIR, R.; SOUZA, M. N.; <b>MÜLLER, S.</b>.  Participação em banca de Ludimila de Oliveira Medrado. Avaliação de inteligibilidade em salas de aula de graduação na universidade federal do Rio de Janeiro. 2004. Dissertação (Mestrado em Engenharia Mecânica) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, M. N.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1161317972489632" target="_blank">TENENBAUM, R. A.</a>; <b>MÜLLER, S.</b>; SEIXAS, J. M..  Participação em banca de Nelson Melo do Espirito Santo. Calibração de audiômetros utilizando instrumetação baseada em conversores A/D e D/A. 2003. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PETRAGLIA, M. R.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1161317972489632" target="_blank">TENENBAUM, R. A.</a>; SOUZA, M. N.; RIBEIRO, C. E. P.; SZCZUPAK, J.; <b>MÜLLER, S.</b>.  Participação em banca de Júlio César Bocher Torres. Sistema de auralização eficiente utilizando transformadas wavelets. 2004. Tese (Doutorado em Engenharia Elétrica)  - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GERGES, S. N. Y.; VORLANDER, M.; JORDAN, R.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1161317972489632" target="_blank">TENENBAUM, R. A.</a>; <b>MÜLLER, S.</b>.  Participação em banca de Márcio Henrique Avelar Gomes. Investigação sobre métodos experimentais e numéricos para a determinação do coeficiente de espalhamento. 2002. Tese (Doutorado em Engenharia Mecânica)  - Universidade Federal de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8563112446681030" target="_blank">ZINDELUK, M.</a>; ?; <b>MÜLLER, S.</b>.  Participação em banca de Paulo Medeiros Masarani. Análise tempo-freqüência de ensaios in situ de reflexão sonora. 2001. Tese (Doutorado em Engenharia Mecânica)  - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Christian Wilhelm Budde. Simultaneous measurement of linear and non-linear system parameters.
+							2008.
+						
+					Dissertação  (Mestrado em Ac=ustica)  - Institut für Technische Akustik der RWTH-Aachen, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Swen Eric Müller. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Petra Niggemann. Untersuchungen zur digitalen Lautsprecherentzerrung  mit Hilfe binauraler Messtechnik.
+							1997.
+						
+					Dissertação  (Mestrado em Engenharia elétrica)  - Rheinisch-Westfalische Technische Hochschule Aachen, . Orientador: Swen Eric Müller. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rainer Thaden. Entwicklung und Erprobung einer digitalen parametrischen Filterbank.
+							1997.
+						
+					Dissertação  (Mestrado em Engenharia elétrica)  - Rheinisch-Westfalische Technische Hochschule Aachen, . Orientador: Swen Eric Müller. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thomas Kähler. Entwicklung einer Audio DSP-Karte für den PCI-Bus.
+							1996.
+						
+					Dissertação  (Mestrado em Engenharia elétrica)  - Rheinisch-Westfalische Technische Hochschule Aachen, . Orientador: Swen Eric Müller. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jochen Kleber. Aufbau eines erweiterten, digitalen Controllers für Lautsprecher.
+							1996.
+						
+					Dissertação  (Mestrado em Engenharia elétrica)  - Rheinisch-Westfalische Technische Hochschule Aachen, . Co-Orientador: Swen Eric Müller. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Markus Sapp. Aufbau eines digitalen Richtungssimulators.
+							1995.
+						
+					Dissertação  (Mestrado em Engenharia elétrica)  - Rheinisch-Westfalische Technische Hochschule Aachen, . Orientador: Swen Eric Müller. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Christian Schallenberg. Erstellung einer Software zur mehrkanaligen Aufzeichnung von Audiosignalen auf Festplatte.
+							1995.
+						
+					Dissertação  (Mestrado em Engenharia elétrica)  - Rheinisch-Westfalische Technische Hochschule Aachen, . Orientador: Swen Eric Müller. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carsten Wegner. Entwicklung und Aufbau eines Audio-AD-Wandlers mit hoher Dynamik.
+							1994.
+						
+					Dissertação  (Mestrado em Engenharia elétrica)  - Rheinisch-Westfalische Technische Hochschule Aachen, . Orientador: Swen Eric Müller. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rolf Schiebelhut.
+							Entwicklung und Layout einer 20bit Analog/Digital Wandlerplatine.
+							1993.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia elétrica)  - Rheinisch-Westfalische Technische Hochschule Aachen. Orientador: Swen Eric Müller.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MÜLLER, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1735347348503104" target="_blank">Soares, Z.</a> . Caracterização de Microfones de Medição. 2013. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:24:26</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0037384367302439" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

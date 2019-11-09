@@ -1,0 +1,1421 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Patr&iacute;cia Cubo)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0003763956065123" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4206860H0&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4206860H0"><div class="infpessoa">
+<h2 class="nome">Patr&iacute;cia Cubo</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0003763956065123</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 03/09/2012</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Atua principalmente nos seguintes temas:  ecotoxicologia aquática e avaliação de impacto ambiental .<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Patrícia Cubo</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CUBO, P.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Estadual Paulista Júlio de Mesquita Filho, Faculdade de Ciências Agrárias e Veterinárias de Jaboticabal. <br class="clear" />Via de Acesso Paulo Donato Castelanne<br class="clear" />Rural<br class="clear" />14884-900 - Jaboticabal, SP - Brasil<br class="clear" />Telefone: (16) 32092600<br class="clear" />Ramal: 2906</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em andamento em Bacharelado em Ciências Biológicas<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Licenciatura em Ciências Biológicas<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Noções práticas de AutoCad para elaboração de plan.  (Carga horária: 8h). <br class="clear" />Pró-Ambiente Assessoria Ambiental.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sistemas de Gestão Ambiental: Interpretação, Imple.  (Carga horária: 40h). <br class="clear" />Serviço Nacional de Aprendizagem Comercial.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação de Impacto Ambiental.  (Carga horária: 40h). <br class="clear" />Companhia de Tecnologia de Saneamento Ambiental.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Arborização Urbana na Bacia Hidrográfica - Jabotic.  (Carga horária: 50h). <br class="clear" />Prefeitura Municipal de Jaboticabal.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">O uso da Avaliação Ambiental Estratégica no proces.  (Carga horária: 12h). <br class="clear" />Universidade de São Paulo.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Elaboração de projetos sustentáveis em aquicultura.  (Carga horária: 4h). <br class="clear" />Conselho Regional de Biologia 1ª Região.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Indicadores biológicos na avaliação da qualidade d.  (Carga horária: 4h). <br class="clear" />Conselho Regional de Biologia 1ª Região.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conservação Ambiental.  (Carga horária: 8h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Biomarcadores para a avaliação ambiental.  (Carga horária: 10h). <br class="clear" />Sociedade Brasileira de Ecotoxicologia.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Parasitas de peixes como indicadores ambientais.  (Carga horária: 6h). <br class="clear" />Associação Brasileira de Patologistas de Organismos Aquáticos.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Higiene e qualidade de pescados.  (Carga horária: 16h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação e Atualização em Recuperação de Áreas.  (Carga horária: 20h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aplicações da Genética e Biologia Molecular.  (Carga horária: 8h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Impactos Ambientais e Elaboração de Estudo e Relat.  (Carga horária: 33h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Processos biotecnológicos: bioconversão e bior.  (Carga horária: 9h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Visita ao Centro de Medicina Legal (CEMEL).  (Carga horária: 4h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Perícia Ambiental.  (Carga horária: 8h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Produção de fármacos através do uso da biotecnolog.  (Carga horária: 30h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Livre, Enquadramento Funcional: Estágio, Carga horária: 20</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_AVALIACAO DA TOXICIDADE AGUDA E CRONICA DO GLIFOSATO EM DIFERENTES FORMULACOES PARA OS PEIXES GUARU (Phallocerus caudimaculatus) E MATO GROSSO (Hyphessobrycon eques)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AVALIACAO DA TOXICIDADE AGUDA E CRONICA DO GLIFOSATO EM DIFERENTES FORMULACOES PARA OS PEIXES GUARU (Phallocerus caudimaculatus) E MATO GROSSO (Hyphessobrycon eques)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Ecotoxicologia aquática de alguns herbicidas com composição à base de glifosato para dois peixes neotropicais: guaru e mato grosso.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (9) . <br class="clear" /><br class="clear" />Integrantes: Patrícia Cubo - Coordenador / Robinson Antonio Pitelli - Integrante / Bárbara Lopes Schiavetti - Integrante / Luís Augusto Visani de Luna - Integrante / Claudinei da Cruz - Integrante / Alexandre Fernandes de Carvalho - Integrante / Antonio Nader Neto - Integrante / Milena Lilian Pancelli - Integrante / Ana Cristina Fausto Girio - Integrante / Naiara Fernanda Ignácio - Integrante / Silvia Patrícia Carraschi - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Bolsa.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Ecologia / Subárea: Ecologia Aplicada. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Ecologia / Subárea: Ecotoxicologia. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SHIOGIRI, N.S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.4025/actascibiolsci.v32i3.6795" target="_blank"></a>SHIOGIRI, N.S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; <b>CUBO, P.</b> ; SCHIAVETTI, B.L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Ecotoxicity of glyphosate and aterbane br surfactant on guaru (Phalloceros caudimaculatus). Acta Scientiarum. Biological Sciences (Online)<sup><img id='1807863X_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1807863X' /></sup>, v. 32, p. 285-289, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.4025/actascibiolsci.v32i3.6795&issn=1807863X&volume=32&issue=&paginaInicial=285&titulo=Ecotoxicity of glyphosate and aterbane br surfactant on guaru (Phalloceros caudimaculatus)&sequencial=1&nomePeriodico=Acta Scientiarum. Biological Sciences (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CRUZ, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <b>CUBO, P.</b> ; GOMES, G.R. ; VENTURINI, F.P. ; GUILHERME, P.E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Sensibilidade de peixes neotropicais ao dicromato de potássio. Journal of the Brazilian Society of Ecotoxicology<sup><img id='18098401_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18098401' /></sup>, v. 3, p. 53-55, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18098401&volume=3&issue=&paginaInicial=53&titulo=Sensibilidade de peixes neotropicais ao dicromato de potássio&sequencial=2&nomePeriodico=Journal of the Brazilian Society of Ecotoxicology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; <b>CUBO, P.</b> ; NADER NETO, A. ; SCHIAVETTI, B.L. ; PANCELLI, M.L. ; GIRIO, A.C.F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Efeitos da aplicação de glifosato para controle de macrófitas sobre a qualidade da água e a comunidade perifítica em condições de mesocosmos. In: XXVII Congresso Brasileiro da Ciência das Plantas Daninhas, 2010, Ribeirão Preto. XXII Congresso Brasileiro da Ciência das Plantas Daninhas. Ribeirão Preto: SBCPD, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; SHIOGIRI, N.S. ; GOMES, G.R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; SCHIAVETTI, B.L. ; <b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Toxicidade aguda do glyphosate na formulação Rodeo e do surfactante Aterbane para peixes neotropicais. In: I Simpósio internacional sobre glyphosate, 2007, Botucatu. I Simpósio internacional sobre glyphosate, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SHIOGIRI, N.S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; <b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; SCHIAVETTI, B.L. ; VIEIRA, N.V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Efeito do glyphosate nas variáveis de qualidade de água durante o teste de toxicidade aguda para peixes. In: I Simpósio internacional sobre Glyphosate, 2007, Botucatu. I Simpósio internacional sobre Glyphosate, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> ; SCHIAVETTI, B.L. ; <b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> . Avaliação da toxicidade aguda do surfactante Ag-bem para o peixe mato grosso (Hyphessobrycon eques). In: XIX Congresso de Iniciação Científica da UNESP, 2007, Botucatu. XIX Congresso de Iniciação Científica. São Paulo: UNESP, 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IGNACIO, N.F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; <b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> . Risco ambiental do Trichlorfon para peixes neotropicais. In: XI Congresso Brasileiro de Ecotoxicologia, 2010, Bombinhas. XI Congresso Brasileiro de Ecotoxicologia. Rio Grande: Setac Brasil, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; IGNACIO, N.F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Efeito da lixiviação do glifosato para peixes neotropicais na presença e ausência de macrófita em condição de mesocosmos. In: XI Congresso Brasileiro de Ecotoxicologia, 2010, Bombinhas. XI Congresso Brasileiro de Ecotoxicologia. Rio Grande: Setac Brasil, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUENO, B.F. ; GONZAGA, M.R. ; SOUZA E SILVA, T.D. ; <b>CUBO, P.</b> ; ALVES, M.F.R. ; MISSURA, A.L. ; CANEPARI, B.B. ; SILVA, J.N.S. ; COSTA, R.C.A. ; SCHIAVETTI, B.L. ; RONCON, K. ; BRAGA, J.E.B.G. ; PINA, G.F. ; SOUZA, J.N. ; MORAES, M.C.P. ; SAITO, N.C.P. ; PARRAS, R. ; SILVA, C.C. ; COSTA, A.G. ; CARMO, D.M. ; GALBIATTI, J.A. . Sensibilização por meio de oficinas de Educação Ambiental para a distribuição de canecas do Projeto JabUNESP Recicla na UNESP, Campus de Jaboticabal. In: IV Colóquio sobre Educação da Biologia, 2010, Jaboticabal. IV CEBIO, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; IGNACIO, N.F. ; NADER NETO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; SCHIAVETTI, B.L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Acute toxicity of glyphosate to neotropical fishes. In: 1st Ibero-American Meeting on Toxicology and Environmental Health, 2009, Ribeirão Preto. IBAMTOX. Ribeirão Preto: Oxford Eventos, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <b>CUBO, P.</b> ; VENTURINI, F.P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; SHIOGIRI, N.S. ; NOCITI, L.A.S. . Efficacy of trichlorfon in the masoten formulation in control ectoparasites in pacu Piaractus mesopotamicus. In: 2da Conferencia Latinoamericana sobre Cultivo de Peces Nativos, 2009, Chascosmús. 2da Conferencia Latinoamericana sobre Cultivo de Peces Nativos. Chascosmús: Comisíon Investigaciones Científicas, 2009. p. 119-119. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <b>CUBO, P.</b> ; VENTURINI, F.P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; SHIOGIRI, N.S. ; NOCITI, L.A.S. . Efficacy of trichlorfon in the masoten formulation in control Trichodina sp. and Ichthyophthirius multifiliis in pau Piaractus mesopotamicus. In: 2da Conferencia Latinoamericana sobre Cultivo de Peces Nativos, 2009, Chascosmús. 2da Conferencia Latinoamericana sobre Cultivo de Peces Nativos. Chascosmús: Comisión de Investigaciones Científicas, 2009. p. 120-120. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; NOCITI, L.A.S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; NADER NETO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> . Environmental risk of trichlorfon for pacu (Piaractus mesopotamicus), tilápia (Oreochromis niloticus) and mato grosso (Hyphessobrycon eques). In: 2da Conferencia Latinoamericana sobre Cultivo de Peces Nativos, 2009, Cháscosmus. 2da Conferencia Latinoamericana sobre Cultivo de Peces Nativos. Cháscosmus: Comisión de Investigaciones Científicas, 2009. p. 120-120. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUENO, B.F. ; CANEPARI, B.B. ; <b>CUBO, P.</b> ; ALVES, M.F.R. ; SOUZA E SILVA, T.D. ; MISSURA, A.L. ; GALBIATTI, J.A. ; SILVA, C.C. ; SILVA, J.N.S. ; GONZAGA, M.R. . Implantação do Projeto Canecas na Faculdade de Ciências Agrárias e Veterinárias, UNESP, Campus de Jaboticabal. In: 5º Congresso de Extensão Universitária da Unesp, 2009, Águas de Lindóia. 5º Congresso de Extensão Universitária da Unesp, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; <b>CUBO, P.</b> ; CARVALHO, A.F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Toxicidade aguda dos surfactantes Aterbane BR e Gotafix para o mato grosso (Hyphessobrycon eques). In: III WORKSHOP DE ECOTOXICOLOGIA, 2008, Rio Claro. Hollos Environment, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SHIOGIRI, N.S. ; NADER NETO, A. ; <b>CUBO, P.</b> ; SCHIAVETTI, B.L. ; CARVALHO, A.F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Avaliação da sensibilidade ao cloreto de potássio (KCl) das macrófitas subersas (Egeria densa e Egeria najas). In: III WORKSHOP DE ECOTOXICOLOGIA, 2008, Rio Claro. Hollos Environment, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIAS NETO, J. ; <b>CUBO, P.</b> ; PILARSKI, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> . Toxicidade aguda do herbicida Hexaron WG, Hexazinona+Diuron, para a tilápia do Nilo (Oreochromis niloticus). In: X Congresso Brasileiro de Ecotoxicologia, 2008, Bento Gonçalves. X Congresso Brasileiro de Ecotoxicologia, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; <b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; SCHIAVETTI, B.L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Toxicidade aguda de seis surfactantes usados com produtos fitossanitários para o mato grosso (Hyphessobrycon eques). In: X Congresso Brasileiro de Ecotoxicologia, 2008, Bento Gonçalves. X Congresso Brasileiro de Ecotoxicologia. Bento Gonçalves: Setac Brasil, 2008. p. 104-104. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; GOMES, G.R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; NADER NETO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Toxicidade aguda do glifosato em diferentes formulações para o peixe mato grosso (Hyphessobrycon eques). In: X Congresso Brasileiro de Ecotoxicologia, 2008, Bento Gonçalves. X Congresso Brasileiro de Ecotoxicologia. Bento Gonçalves: Setac Brasil, 2008. p. 108-108. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHIAVETTI, B.L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; VENTURINI, F.P. ; <b>CUBO, P.</b> ; NADER NETO, A. ; PANCELLI, M.L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Toxicidade aguda do dicromato de potássio para o caramujo (Pomacea canaliculata). In: X Congresso Brasileiro de Ecotoxicologia, 2008, Bento Gonçalves. X Congresso Brasileiro de Ecotoxicologia. Bento Gonçalves: Setac Brasil, 2008. p. 130-130. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SHIOGIRI, N.S. ; REZENDE, F.R.L. ; GIRIO, A.C.F. ; <b>CUBO, P.</b> ; SCHIAVETTI, B.L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; NADER NETO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Efeito do glifosato e da sua mistura com surfactante no crescimento da alga Pithophora sp.. In: X Congresso Brasileiro de Ecotoxicologia, 2008, Bento Gonçalves. X Congresso Brasileiro de Ecotoxicologia. Bento Gonçalves: Setac Brasil, 2008. p. 132-132. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; <b>CUBO, P.</b> ; NADER NETO, A. ; SCHIAVETTI, B.L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Sensibilidade de larvas rã-touro (Rana catesbiana) ao dicromato de potássio utilizado como substância referência. In: X Congresso Brasileiro de Ecotoxicologia, 2008, Bento Gonçalves. X Congresso Brasileiro de Ecotoxicologia. Bento Gonçalves: Setac Brasil, 2008. p. 284-284. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> . Toxicidade aguda e risco ambiental do trichlorfon na formulação Masoten  para os peixes guaru (Phalloceros caudimaculatus), mato grosso (Hyphessobrycon eques) e paulistinha (Brachydanio rerio). In: X Encontro Brasileiro de Patologistas de Organismos Aquáticos, 2008, Búzios. X Encontro Brasileiro de Patologistas de Organismos Aquáticos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> . Eficácia do triclhorfon na formulação Masoten no controle de Trichodina sp. e de Ichthyophthirius multifiliis em pacu (Piaractus mesopotamicus) em condição de laboratório. In: X Encontro Brasileiro de Patologistas de Organismos Aquáticos, 2008, Búzios. X Encontro Brasileiro de Patologistas de Organismos Aquáticos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> . Toxicidade aguda e risco ambiental do trichlorfon na formulação Masoten para pacu (Piaractus mesopotamicus) e tilápia (Oreochromis niloticus). In: X Encontro Brasileiro de Patologistas de Organismos Aquáticos, 2008, Búzios. X Encontro Brasileiro de Patologistas de Organismos Aquáticos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <b>CUBO, P.</b> . Eficácia do trichlorfon na formulação Masoten no controle de monogenéticos de tilápia (Orechromis niloticus) em condição de labaratório. In: X Encontro Brasileiro de Patologistas de Organismos Aquáticos, 2008, Búzios. X Encontro Brasileiro de Patologistas de Organismos Aquático, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <b>CUBO, P.</b> . Eficácia do trichlorfon na formulação Masoten no controle de Trichodina sp. e de Ichthyophthirius multifillis de tilápia (Oreochromis niloticus) em condição de laboratório. In: X Encontro Brasileiro de Patologistas de Organismos Aquáticos, 2008, Búzios. X Encontro Brasileiro de Patologistas de Organismos Aquáticos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; SHIOGIRI, N.S. ; <b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; SCHIAVETTI, B.L. ; NADER NETO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Utilização do cloreto de potássio como substância referência para peixes neotropicais. In: X Congresso Brasileiro de Ecotoxicologia, 2008, Bento Gonçalves. X Congresso Brasileiro de Ecotoxicologia. Bento Gonçalves: Setac Brasil, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; <b>CUBO, P.</b> ; NADER NETO, A. ; DUÓ, D.A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Toxicidade aguda de seis surfactantes usados na agricultura para o guaru (Phallocerus caudimaculatus). In: X Congresso Brasileiro de Ecotoxicologia, 2008, Bento Gonçalves. X Congresso Brasileiro de Ecotoxicologia. Bento Gonçalves: Setac Brasil, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CLAUDIANO, G.S. ; SALVADOR, R ; LIMA, R.O. ; DIAS NETO, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <b>CUBO, P.</b> ; PILARSKI, F. . Avaliação da concentração letal CL (I)50-96h do extrato aquoso de Terminalia capatta para Phallocerus caudimaculatus. In: Aquaciência 2008, 2008, Maringá. Aquaciência 2008. Maringá: Aquaciência, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <b>CUBO, P.</b> . Eficácia do trichlorfon na formulação Masoten no controle de monogenéticos de tilápia (Oreochromis niloticus) em condição de campo. In: X Encontro Brasileiro de Patologistas de Organismos Aquáticos, 2008, Búzios. X Encontro Brasileiro de Patologistas de Organismos Aquáticos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> ; SHIOGIRI, N.S. ; SCHIAVETTI, B.L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; <b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> . Toxicidade aguda do surfactante nonil fenoxipoli etanol para o peixe mato grosso. In: IV Jornada de Iniciação Científica da FCAV, 2007, Jaboticabal. Anais da IV Jornada de Iniciação Científica da FCAV, 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ArtigosAceitos"></a>Artigos  aceitos para publicação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7822148466800079" target="_blank">CARRASCHI, S.P.</a> ; <b>CUBO, P.</b> ; SCHIAVETTI, B.L. ; SHIOGIRI, N.S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Efeitos tóxicos de surfactantes fitossanitários para o mato grosso (Hyphessobrycon eques). Acta Scientiarum. Biological Sciences (Online)<sup><img id='1807863X_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1807863X' /></sup>, 2010. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; IGNACIO, N.F. ; NADER NETO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; SCHIAVETTI, B.L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Acute toxicity of glyphosate to neotropical fishes. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> . Toxicidade aguda e risco ambiental do trichlorfon na formulação Masoten para pacu (Piaractus mesopotamicus) e tilápia (Oreochromis niloticus). 2008. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> . Eficácia do trichlorfon na formulação Masoten no controle de Trichodina sp. e de Ichthyophthirius multifiliis em pacu (Piaractus mesopotamicus) em condição de laboratório. 2008. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> . Toxicidade aguda e risco ambiental do trichlorfon na formulação Masoten para os peixes guaru (Phalloceros caudimaculatus), mato grosso (Hyphessonbrycon eques) e paulistinha (Brachydanio rerio. 2008. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; GOMES, G.R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8908038935737585" target="_blank">LUNA, L.A.V.</a> ; NADER NETO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9110409423559918" target="_blank">PITELLI, R.A.</a> . Toxicidade aguda do glifosato em diferentes formulações para o peixe mato grosso (Hyphessobrycon eques). 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIAS NETO, J. ; <b>CUBO, P.</b> ; PILARSKI, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1023527914463601" target="_blank">CRUZ, C.</a> . Toxicidade aguda do herbicida Hexaron WG, hexazinona + diuron, para tilápia do Nilo (Oreochromis niloticus). 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Semana do Meio Ambiente: Reflexo das mudanças climáticas. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">19º Congresso de Biólogos do CRBio-01. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1st Ibero-American Meeting on Toxicology and Environmental Health. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Jornada Anual Biológica da UNESP. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Colóquio sobre Educação do Curso de Ciências Biológicas. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Congresso Brasileiro de Ecotoxicologia. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Seminário sobre Aquicultura Sustentável. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio de Direito Ambiental e II Curso: Gestão Ambiental - Legislação e Licenciamento Ambiental.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Encontro Brasileiro de Patologistas de Organismos Aquáticos.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Encontro de Empresas Juniores da UNESP.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Workshop de Ecotoxicologia. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop Internacional sobre produção de tilápias e outros ciclídeos. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Jornada Anual Biológica da UNESP. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Colóquio sobre Educação do Curso de Ciências Biológicas. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Jornada Anual Biológica da UNESP - JABU. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Jornada Anual Biológica da UNESP - JABU. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CUBO, P.</b> ; SCHIAVETTI, B.L. ; PINA, G.F. . III Curso de Inverno de Fisiologia Animal. 2009. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GONZAGA, M.R. ; BUENO, B.F. ; BRAGA, J.E.B.G. ; <b>CUBO, P.</b> ; ALVES, M.F.R. ; RONCON, K. ; SILVA, J.N.S. ; SOUZA E SILVA, T.D. ; CANEPARI, B.B. ; MISSURA, A.L. ; SCHIAVETTI, B.L. ; PINA, G.F. ; COSTA, A.G. ; COSTA, R.C.A. ; CARMO, D.M. ; SILVA, C.C. . I Semana do Meio Ambiente. 2009. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA E SILVA, T.D. ; CANEPARI, B.B. ; <b>CUBO, P.</b> . II Curso de Inverno de Fisiologia Animal. 2008. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Foi Diretora de Projetos da Biologia na gestão 2008/2009 da empresa júnior CAPJr da FCAV/UNESP, Jaboticabal.
+Participou do Projeto JabUNESP Recicla durante agosto de 2007 a julho de 2009, atuando também como coordenadora durante o período de agosto a dezembro de 2008.</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 11:59:01</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0003763956065123" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

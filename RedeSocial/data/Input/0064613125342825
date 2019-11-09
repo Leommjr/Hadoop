@@ -1,0 +1,931 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Marco Antonio Santos de Abreu)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0064613125342825" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4208514J8&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4208514J8"><div class="infpessoa">
+<h2 class="nome">Marco Antonio Santos de Abreu</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0064613125342825</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 21/02/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Mestre em Engenharia de Materiais e de Processos Químicos e Metalúrgicos na Pontifícia Universidade Católica do Rio de Janeiro, PUC/RJ (2010). Possui graduação em Química pela Faculdade de Humanidades Pedro II (1994). Atualmente é Químico de Petróleo Pleno do Centro de Pesquisa e Desenvolvimento Leopoldo Américo Miguêz de Mello. Tem experiência na área de Química, com ênfase em Química Inorgânica.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Marco Antonio Santos de Abreu</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ABREU, M. A. S.;DE ABREU, MARCO A.S.;ABREU, MARCO ANTONIO DE;ABREU, MARCO A. S.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Centro de Pesquisa e Desenvolvimento Leopoldo Américo Miguêz de Mello, GERENCIA DE PESQUISA & DESENVOLVIMENTO DE ABASTECIMENTO. <br class="clear" />Av. Horácio de Macedo, 950 - Cidade Universitária<br class="clear" />Ilha do Fundão<br class="clear" />21941598 - Rio de Janeiro, RJ - Brasil<br class="clear" />Telefone: (021) 21624361<br class="clear" />Fax: (021) 21627039<br class="clear" />URL da Homepage: <a target="blank" href="http://www.petrobras.com.br">www.petrobras.com.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Engenharia Materiais e de Processos Químicos e Metalúrgicos<span class="ajaxCAPES" data-param="&codigoCurso=31005012013P8&nivelCurso=M"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	<br class="clear" />Título: Síntese de Nanomateriais à base de TiO2 e seu uso no abatimento fotocatalítico de NOx,Ano de Obtenção: 2010.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6678412027279043'><img src='images/curriculo/logolattes.gif' /></a>Bojan Marinkovic.<br class="clear" />Co-orientador: Edisson Morgado Junior. <br class="clear" />Palavras-chave: Nanomaterias; Síntese hidrotérmica; TiO2; Fotocatálise de NOx.<br class="clear" />Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica. <br class="clear" />Setores de atividade: Pesquisa e desenvolvimento científico; Fabricação de produtos químicos; Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Química<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Faculdade de Humanidades Pedro II, FAHUPE, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Centro de Pesquisa e Desenvolvimento Leopoldo Américo Miguêz de Mello, CENPES, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Químico de Petróleo Pleno, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2002 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , GERENCIA DE PESQUISA & DESENVOLVIMENTO DE ABASTECIMENTO, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Desenvolvimento de Catalisadores Industriais'>Desenvolvimento de Catalisadores Industriais</a><br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Desenvolvimento de Catalisadores Industriais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de Catalisadores Industriais</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Inorgânica. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Inorgânica/Especialidade: Catálise. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Química Inorgânica/Especialidade: Síntese de compostos e materiais inorgânicos. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ABREU, MARCO A. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.2478/s11532-012-0040-3" target="_blank"></a><b>ABREU, MARCO A. S.</b> ; JARDIM, PAULA M. ; MARINKOVIC, BOJAN A. ; MORGADO, EDISSON . The effect of anatase crystal morphology on the photocatalytic conversion of NO by TiO2-based nanomaterials. Central European Journal of Chemistry<sup><img id='16443624_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16443624' /></sup>, v. 10, p. 1183-1198, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.2478/s11532-012-0040-3&issn=16443624&volume=10&issue=&paginaInicial=1183&titulo=The effect of anatase crystal morphology on the photocatalytic conversion of NO by TiO2-based nanomaterials&sequencial=1&nomePeriodico=Central European Journal of Chemistry" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GILBERT, WILLIAM R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.fuproc.2011.07.006" target="_blank"></a>GILBERT, WILLIAM R. ; MORGADO, EDISSON ; <b>DE ABREU, MARCO A.S.</b> ; DE LA PUENTE, GABRIELA ; PASSAMONTI, FRANCISCO ; SEDRAN, ULISES . A novel fluid catalytic cracking approach for producing low aromatic LCO. Fuel Processing Technology<sup><img id='03783820_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03783820' /></sup>, v. 92, p. 2235-2240, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.fuproc.2011.07.006&issn=03783820&volume=92&issue=&paginaInicial=2235&titulo=A novel fluid catalytic cracking approach for producing low aromatic LCO&sequencial=2&nomePeriodico=Fuel Processing Technology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MORGADO, EDISSON</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.matchemphys.2010.11.054" target="_blank"></a>MORGADO, EDISSON ; MORGADO JR, EDISSON ; JARDIM, P M ; <b>ABREU, MARCO ANTONIO DE</b> ; ROCHA, MARIA DA GRAÃ A C. ; BARGIELA, PASCAL ; JARDIM, PAULA M. ; <b>DE ABREU, MARCO A.S.</b> ; MARINKOVIC, BOJAN A. . Studies on Fe-modified nanostructured trititanates. Materials Chemistry and Physics<sup><img id='02540584_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02540584' /></sup>, v. 126, p. 118-127, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.matchemphys.2010.11.054&issn=02540584&volume=126&issue=&paginaInicial=118&titulo=Studies on Fe-modified nanostructured trititanates&sequencial=3&nomePeriodico=Materials Chemistry and Physics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MORGADO JUNIOR, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9603645163141609" target="_blank">JARDIM, P. M.</a> ; <b>ABREU, M. A. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0564899246574184" target="_blank">RIZZO, F.</a> . Characterization and thermal stability of cobalt-modified 1-D nanostructured trititanates. Journal of Solid State Chemistry (Print)<sup><img id='00224596_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00224596' /></sup>, v. 182, p. 172-181, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00224596&volume=182&issue=&paginaInicial=172&titulo=Characterization and thermal stability of cobalt-modified 1-D nanostructured trititanates&sequencial=4&nomePeriodico=Journal of Solid State Chemistry (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MORGADO JUNIOR, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> ; ZOTIN, ; ROSAS, D. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9603645163141609" target="_blank">JARDIM, P. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> . Characterization and hydrotreating performance of NiMo catalysts supported on nanostructured titanate. Applied Catalysis. A, General<sup><img id='0926860X_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0926860X' /></sup>, v. 357, p. 142-149, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0926860X&volume=357&issue=&paginaInicial=142&titulo=Characterization and hydrotreating performance of NiMo catalysts supported on nanostructured titanate&sequencial=5&nomePeriodico=Applied Catalysis. A, General" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MARINKOVIC, B. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9603645163141609" target="_blank">JARDIM, P. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> ; MOURE, G. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0564899246574184" target="_blank">RIZZO, F.</a> . Hydrothermal synthesis, crystal structure and thermal stability of Ba-titanate nanotubes with layered crystal structure. Materials Research Bulletin<sup><img id='00255408_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00255408' /></sup>, v. 43, p. 1562-1572, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00255408&volume=43&issue=&paginaInicial=1562&titulo=Hydrothermal synthesis, crystal structure and thermal stability of Ba-titanate nanotubes with layered crystal structure&sequencial=6&nomePeriodico=Materials Research Bulletin" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MORGADO JUNIOR, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> ; MOURE, G. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9603645163141609" target="_blank">JARDIM, P. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9770622597949866" target="_blank">ARAUJO, A. S.</a> . Effects of thermal treatment of nonostructured trititanates on their crystallographic and textural properties. Materials Research Bulletin<sup><img id='00255408_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00255408' /></sup>, v. 42, p. 1748-1760, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00255408&volume=42&issue=&paginaInicial=1748&titulo=Effects of thermal treatment of nonostructured trititanates on their crystallographic and textural properties&sequencial=7&nomePeriodico=Materials Research Bulletin" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MORGADO JUNIOR, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9603645163141609" target="_blank">JARDIM, P. M.</a> ; MOURE, G. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9770622597949866" target="_blank">ARAUJO, A. S.</a> . Caracterization of Nanostructured Titanates Obtained by Alkali Treatment of TiO2-Anatases with Distinct Crystal Sizes. Chemistry of Materials<sup><img id='08974756_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='08974756' /></sup>, v. 19, p. 665-676, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=08974756&volume=19&issue=&paginaInicial=665&titulo=Caracterization of Nanostructured Titanates Obtained by Alkali Treatment of TiO2-Anatases with Distinct Crystal Sizes&sequencial=8&nomePeriodico=Chemistry of Materials" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MORGADO JUNIOR, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9603645163141609" target="_blank">JARDIM, P. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0564899246574184" target="_blank">RIZZO, F.</a> ; <b>ABREU, M. A. S.</b> ; ZOTIN, ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9770622597949866" target="_blank">ARAUJO, A. S.</a> . Multistep structural transition of hydrogen trititanate nanotubes into TiO2-B nanotubes: a comparison study between nanostructured and bulk materials. Nanotechnology (Bristol)<sup><img id='09574484_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09574484' /></sup>, v. 18, p. 495710, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=09574484&volume=18&issue=&paginaInicial=495710&titulo=Multistep structural transition of hydrogen trititanate nanotubes into TiO2-B nanotubes: a comparison study between nanostructured and bulk materials&sequencial=9&nomePeriodico=Nanotechnology (Bristol)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MORGADO JUNIOR, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9603645163141609" target="_blank">JARDIM, P. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9770622597949866" target="_blank">ARAUJO, A. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0564899246574184" target="_blank">RIZZO, F.</a> . A study on the structure and thermal stability of titanate nanotubes as a function of sodium content. Solid State Sciences<sup><img id='12932558_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='12932558' /></sup>, v. 8, p. 888-900, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=12932558&volume=8&issue=&paginaInicial=888&titulo=A study on the structure and thermal stability of titanate nanotubes as a function of sodium content&sequencial=10&nomePeriodico=Solid State Sciences" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GILBERT, W. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> . A New Catalytic Process Approach for Low Aromatic LCO. In: Mario L. Occeli. (Org.). Advances in Fluid Catalytic Cracking: Testing, Characterization and Environmental Regulations. 1ed.Boca Raton: CRC Press, 2010, v. , p. 23-35. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; GILBERT, WILLIAM R. ; <b>ABREU, M. A. S.</b> ; DE LA PUENTE, GABRIELA ; SEDRAN, ULISES ; PASSAMONTI, FRANCISCO . Nuevos catalizadores de FCC para producir LCO con menor carácter aromático. In: VI Congresso Argentino de Ingeniería Química, 2010, Mar del Plata. Nuevos catalizadores de FCC para producir LCO con menor carácter aromático, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GILBERT, W. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> . A new FCC catalyst for low aromatic LCO. In: ACS National Meeting, 2009, Washington, DC. 238th ACS National Meeting Book of Abstracts, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GILBERT, W. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> . Um novo catalisador de FCC para LCO de alto Cetano. In: 7 Encuentro SudAmericano de Craqueo Catalítico, 2008, Salvador. 7 Encuentro SudAmericano de Craqueo Catalítico, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> ; VIOL, J. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9770622597949866" target="_blank">ARAUJO, A. S.</a> . Degradação fotocatalítica de corante com titânia e titanato nanoestruturados. In: 14 Congresso Congresso Brasileiro de Catálise, 2007, Porto de Galinhas. Anais do 14 CBCat, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> ; MOURE, G. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9603645163141609" target="_blank">JARDIM, P. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9770622597949866" target="_blank">ARAUJO, A. S.</a> . Preparo e caracterização de titanatos nanotubulares de alta área específica. In: 14 Congresso Brasileiro de Catálise, 2007, Porto de Galinhas. Anais do 14 CBCat, 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FARIAS, A. M. D. ; <b>ABREU, M. A. S.</b> ; FRAGA, M. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> . Reforma da glicerina o uso de catalisadores suportados em titanato nanotubular. In: 16º Congresso Brasileiro de Catálise, 2011, Campos do Jordão. 16º Congresso Brasileiro de Catálise, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FARIAS, A. M. D. ; FRANCHINI, C. A. ; <b>ABREU, M. A. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; FRAGA, M. A. . Supporting platinum on nanotubular titanate for catalytic applications. In: 22nd North American Catalysis Society Meeting - NAM 2011, 2011, Detroit. Proceedings of the 22nd North American Catalysis Society Meeting, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FARIAS, A. M. D. ; FRAGA, M. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> . Nanotubos de titanato como suporte de catalisadores para produção de hidrgênio a partir da glicerina. In: 15º Congresso Brasileiro de Catálise, 2009, Búzios. 15º Congresso Brasileiro de Catálise, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9770622597949866" target="_blank">ARAUJO, A. S.</a> . Estudo da composição de nanotubos de titanato de sódio por termogravimetria. In: V Congresso Brasileiro de Análise Térmica e Calorimetrica - V CBRATEC, 2006, Poço de Caldas. V CBRATEC, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> ; MOURE, G. T. ; CASSELA, A. R. . Caracterização de boehmitas de diferente cristalinidade por termogravimetria. In: V congresso brasileiro de Análise Térmica e calorimétrica - V CBRATEC, 2006, Poços de Caldas. V CBRATEC, 2006. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FARIAS, A. M. D. ; FRANCHINI, C. A. ; <b>ABREU, M. A. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; FRAGA, M. A. . Glycerol aqueous-phase reforming over platinum supported on 1D titanate nanotubes. In: EUROPACAT X Congress, 2011, Glasgow. Proceedings of the EUROPACAT X Congress, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ABREU, M. A. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; JARDIM, P M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> . Photocatalytic conversion of NOx by TiO2-based nanomaterials and the effect of Anatase crystal morphology. In: X BRAZILIAN MRS MEETING, 2011, Gramado. X Encontro da Sociedade Brasileira de Pesquisa de Materiais, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JARDIM, P M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0564899246574184" target="_blank">RIZZO, F.</a> ; <b>ABREU, M. A. S.</b> ; MORGADO JR, EDISSON . The effect of chemical modifications of 1-D alkali titanate nanomaterials on their stability in acidic aqueous suspension. In: 11th International Conference on Advanced Materials, 2009, Rio de Janeiro. The effect of chemical modifications of 1-D alkali titanate nanomaterials on their stability in acidic aqueous suspension, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> ; MOURE, G. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9603645163141609" target="_blank">JARDIM, P. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9770622597949866" target="_blank">ARAUJO, A. S.</a> . Nanostructured Titanates obtained via hydrothermal alkali route. In: NANO-2008, 9th International Conference on Nanostructured Materials, 2008, Rio de Janeiro. Book of Abstracts - 9th International Conference on Nanostructured Materials, 2008. p. 268. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9603645163141609" target="_blank">JARDIM, P. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> ; <b>ABREU, M. A. S.</b> ; PRAVIA, O. R. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0564899246574184" target="_blank">RIZZO, F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9770622597949866" target="_blank">ARAUJO, A. S.</a> . Structure and Thermal Stability of Titanate Nanotubes as a Fuction of Sodium Content. In: 5th Brazilian MRS Meeting 2006, 2006, Florianópolis. Final Program, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6678412027279043" target="_blank">MARINKOVIC, B. A.</a> ; MOURE, G. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9603645163141609" target="_blank">JARDIM, P. M.</a> ; <b>ABREU, M. A. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0564899246574184" target="_blank">RIZZO, F.</a> . The effect of TiO2 precursors on morphological properties of trititanate nanotubes obtained by hydrothermal alkali treatment. In: 5th International Conference on Inorganic Materials, 2006, Ljubljana. Delegate Manual, 2006. p. 152-153. </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ProdutosTecnologicos"></a>Produtos tecnológicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> ; PORTILHO, M. F. . BRA PI-0705895-0 - Processo para produção de Biodisel. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> ; MOURE, G. T. . BRA PI-0700849-0 - Processo contínuo para preparar nanotubos de titanato de sódio. 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5377053368826137" target="_blank">MORGADO JUNIOR, E.</a> ; <b>ABREU, M. A. S.</b> . WO2005/051845 A2 - Hydrothermal process for the preparation of quase-crystalline boehmite.. 2005. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:45:44</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0064613125342825" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

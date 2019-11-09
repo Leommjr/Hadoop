@@ -1,0 +1,29 @@
+@author Leonardo Marinho de Melo Junior
+
+Ler ratings.csv
+map1(movieID)-> (movieID, (userID, rating))
+reducer1(movieID,(userID,rating)):
+    soma <- 0
+    total <- 0
+    MAX <- 0
+    lista = []
+reduce:
+    para cada valor em [(userID, rating)]:
+        se rating >= 4
+            soma += 1
+	    total++
+    se total % 2 == 0:
+        MAX = 2
+    senao:
+        MAX = 3
+    lista.add(movieID)
+    se tamanho da lista == MAX:
+        palavras = String.join(" ", lista)
+        write(palavras, soma)
+        lista.clear
+        soma = 0
+        
+
+
+    
+           

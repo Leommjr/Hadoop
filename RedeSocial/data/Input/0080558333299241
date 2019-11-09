@@ -1,0 +1,2784 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Sergio Ricardo Christofoletti)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0080558333299241" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorProjetoFomento">Revisor de projeto de fomento</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4703762J1&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4703762J1"><div class="infpessoa">
+<h2 class="nome">Sergio Ricardo Christofoletti</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0080558333299241</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 25/02/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Graduado em Geologia pela Universidade Estadual Paulista, Campus de Rio Claro no ano de 1996, Mestre e Doutor em Geociência pelo Instituto de Geociências e Ciências Exatas, Unesp-Rio Claro. Atua como Pesquisador Científico junto a Secretaria do Meio Ambiente desde o ano de 2004 (2004-2010 Instituto Geológico). Atualmente pelo Instituto Florestal desenvolve pesquisas relacionadas aos recursos minerais do Estado de São Paulo e sua relação com o meio ambiente. Linhas de Pesquisas Atuais: matérias primas cerâmicas, caracterização mineralógica, química e cerâmica, gestão minerária, monumentos geológicos.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sergio Ricardo Christofoletti</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Instituto Florestal do Estado de São Paulo, Divisao de Florestas e Estacoes Experimentais. <br class="clear" />Rua do Horto<br class="clear" />Horto Florestal<br class="clear" />02367-000 - Sao Paulo, SP - Brasil<br class="clear" />Telefone: (11) 22318555<br class="clear" />URL da Homepage: <a target="blank" href="http://iflorestal.sp.gov.br">http://iflorestal.sp.gov.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Geologia Regional<span class="ajaxCAPES" data-param="&codigoCurso=33004137035P2&nivelCurso=D"></span>. <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	<br class="clear" />Título: Um Modelo de Classificação Geológica-Tecnológica das argilas da Formação Corumbataí utilizadas nas industrias do Pólo Cerâmico de Santa Gertrudes., Ano de obtenção: 2003. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5429929936266082'><img src='images/curriculo/logolattes.gif' /></a>Maria Margarita Torres Moreno. <br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. <br class="clear" />Palavras-chave: cerâmica, Formação Corumbataí, litofácies.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Geociências. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Geociências / Subárea: Geologia / Especialidade: Recurso Minerais. <br class="clear" />Setores de atividade: Fabricação de Produtos Cerâmicos; Fabricação de Produtos de Minerais Não-Metálicos; Recursos Minerais. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Geologia Regional<span class="ajaxCAPES" data-param="&codigoCurso=33004137035P2&nivelCurso=M"></span>. <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	<br class="clear" />Título: Estudo Mineralógico, Químico e Textural das Rochas da Formação Corumbataí,Ano de Obtenção: 1998.<br class="clear" />Orientador: José Vicente Valarelli.<br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. <br class="clear" />Palavras-chave: ceramica, Formação Corumbataí, matéria-prima.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Geociências / Subárea: Geologia / Especialidade: Geologia Regional. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Geociências. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Geociências / Subárea: Geologia. <br class="clear" />Setores de atividade: Fabricação de Produtos Cerâmicos; Recursos Minerais; Fabricação de Produtos de Minerais Não-Metálicos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1990 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Geologia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	<br class="clear" />Título: Levantamento geológico-geotécnico para subsidiar os planos diretores dos municípios de Mogi-Guaçu, Mogi-Mirim e Itapira em escala 1:25.000 (Projeto Mogi-Itapira). <br class="clear" />Orientador: José Roberto Cottas. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Introdução a Tecnologia Vidreira.  (Carga horária: 16h). <br class="clear" />Associação Brasileira de Cerâmica.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Uso de Geotecnologia para a Gestão de Recursos Nat.  (Carga horária: 4h). <br class="clear" />Instituto Florestal do Estado de São Paulo, IF, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aplicação de tecnologia em GPS no monitoramento de.  (Carga horária: 12h). <br class="clear" />Instituto Florestal.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Moagem  eConformação na Fabricação de Pisos e Azul.  (Carga horária: 24h). <br class="clear" />Instituto Italiano Para o Comércio Exterior.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Curso de Esmaltação e Decoração de Pisos e Azulejo.  (Carga horária: 24h). <br class="clear" />Instituto Italiano Para o Comércio Exterior.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Como Se Faz Um Trabalho Cientifico.  (Carga horária: 56h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Curso de Minerais Industriais.  (Carga horária: 20h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Defeitos Em Revestimentos Ceramicos Suas Causas e.  (Carga horária: 24h). <br class="clear" />Departamento de engenharia de materiais.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Qualidade em cerâmica vermelha.  (Carga horária: 40h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inglês-Wizard.  (Carga horária: 120h). <br class="clear" />Wizard Idiomas.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária. <br class="clear" />Departamento de engenharia de materiais.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Corel Draw 5 0.  (Carga horária: 20h). <br class="clear" />Curso de Corew Draw.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Cartografia Geotécnica.  (Carga horária: 24h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Instituto Florestal do Estado de São Paulo, IF, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Pesquisador Científico IV, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Instituto Geológico do Estado de São Paulo, IG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Pesquisador Científico, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: pos-graduando, Enquadramento Funcional: Pesquisador-Pós graduando, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1998 - 2/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Padct III, Unesp Rio Claro. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Partiicpação no Projeto : Otimização de matéria-prima para Ceramica Vermelha. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/1996 - 6/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Instituto de Geociências e Ciências Exatas de Rio Claro, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Colaboração no projeto Qualidade em cerâmica Vermelha. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Caracteriza&ccedil;&atilde;o Mineral&oacute;gica, Qu&iacute;mica e Cer&acirc;mica da Forma&ccedil;&atilde;o Corumbata&iacute; nos munic&iacute;pios de Tamba&uacute;, Porto Ferreira e Santa Rosa do Viterbo- S&atilde;o Paulo, visando aplica&ccedil;&atilde;o e diversifica&ccedil;&atilde;o de produtos no P&oacute;lo Cer&acirc;mico de Santa Gertrudes.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Caracterização Mineralógica, Química e Cerâmica da Formação Corumbataí nos municípios de Tambaú, Porto Ferreira e Santa Rosa do Viterbo- São Paulo, visando aplicação e diversificação de produtos no Pólo Cerâmico de Santa Gertrudes.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A atividade minerária na região do Pólo Cerâmico de Santa Gertrudes cresceu muito nestes últimos anos e proporcionalmente a demanda pela matéria-prima tornou-se cada vez maior. Embora o potencial volumétrico de argila seja grande, as reservas tornam-se cada vez menores por conta de fatores, tais como; planejamento inadequado da explotação mineral e das reservas existentes, aumento das áreas com restrições do ponto de vista ambiental, crescimento das cidades e competição com outras formas de uso do solo. Para garantir o crescimento e a sustentabilidade comercial e mineral do Pólo Cerâmico de Santa Gertrudes será necessário buscar novas reservas e diversificar a gama dos produtos fabricados. Esta é uma tarefa que necessita de aprofundamento dos conhecimentos científicos e tecnológicos da matéria-prima e dos processos cerâmicos envolvidos. Neste sentido, os resultados esperados do projeto visam conhecer as matérias-primas dos municípios de Tambaú, Porto Ferreira e Santa Rosa do Viterbo do ponto de vista geológico, químico, mineralógico e cerâmico com o intuito de ampliar as reservas existentes da Formação Corumbataí como fonte de matéria-prima, melhorar a qualidade da massa e buscar a diversificação de produtos produzidos no Pólo Cerâmico de Santa Gertrudes.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Sergio Ricardo Christofoletti - Coordenador / Maria Margarita Torres Moreno - Integrante / Antenor Zanardo - Integrante / Alessandro Batezelli - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_Estratigr&aacute;fica e Paleogeografia do Cret&aacute;ceo Superior nas Bacias Bauru, Sanfranciscana e dos Parecis'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estratigráfica e Paleogeografia do Cretáceo Superior nas Bacias Bauru, Sanfranciscana e dos Parecis<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Depósitos aluviais construídos e/ou retrabalhados por rios entrelaçados foramcaracterizados em ambientes com as mais variadas condições climáticas ao longo da história geológica. O potencial de preservação dos depósitos continentais depende sobremaneira de elevada taxa de subsidência da bacia, associada à grande aportesedimentar. As rochas neocretáceas que constituem os grupos Bauru (Bacia Bauru), Parecis (Bacia dos Parecis), Mata da Corda e Urucuia (Bacia Sanfranciscana) apresentam características que indicam deposição em sistemas aluviais dominados por rios sob condições de clima árido a semi-árido. A análise de fácies e de elementos
+arquitetônicos desses depósitos, apoiada em estudos petrográficos, geoquímicos e paleopedogenéticos, permitirão avaliar com maior precisão os processos relacionados à sedimentação, tectônica e clima durante sua evolução. Os resultados esperados como produto dessas análises serão modelos deposicionais que contemplem as bacias Bauru, Sanfranciscana e Parecis, base para se estabelecer correlações e a paleogeografia neocretácea da porção central e sudeste do Brasil. Entre as contribuições científicas esperadas destaca-se o melhor conhecimento das arquiteturas estratigráficas das bacias Bauru, Sanfranciscana e Parecis, bem como, identificação de fenômenos geológicosresponsáveis pela origem e evolução das sequências das três bacias.
+. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Sergio Ricardo Christofoletti - Integrante / Alessandro Batezelli - Coordenador / Mario Luis Assine - Integrante / Francisco Sergio Bernardes - Integrante.<br class="clear" /></div>
+</div><a name='PP_Diagn&oacute;stico ambiental e caracteriza&ccedil;&atilde;o das &aacute;guas do C&oacute;rrego Ibitinga e Santo Ant&ocirc;nio na Floresta Estadual Edmundo Navarro de Andrade e na sua zona de amortecimento'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Diagnóstico ambiental e caracterização das águas do Córrego Ibitinga e Santo Antônio na Floresta Estadual Edmundo Navarro de Andrade e na sua zona de amortecimento<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto tem por objetivo avaliar a qualidade da água e o transporte de sedimentos na micro-bacia do Córrego Ibitinga com o objetivo de indicar possíveis danos ambientais na área da Floresta Estadual Edmundo Navarro de Andrade e na sua Zona de Amortecimento. Aliado a este projeto será feito um diagnóstico ambiental simplificado da área incluindo reconstituição histórica da cobertura vegetal nas drenagens. Com os resultados obtidos, sucede-se uma etapa importante que é a  Conscientização ambiental  visando a inserção dos proprietários rurais destas áreas junto ao Programa estratégico  Mata Ciliar  da Secretaria do Meio Ambiente do Estado de São Paulo.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Sergio Ricardo Christofoletti - Coordenador / Fabiano Tomazini da Conceição - Integrante / Rodrigo Braga Moruzzi - Integrante / Cenira M.L.Cunha - Integrante / Vinícius Veloso - Integrante.<br class="clear" /></div>
+</div><a name='PP_An&aacute;lise microclim&aacute;tica comparativa entre a Floresta Estadual Edmundo Navarro de Andrade e a &aacute;rea   urbana do munic&iacute;pio de Rio Claro-SP'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise microclimática comparativa entre a Floresta Estadual Edmundo Navarro de Andrade e a área   urbana do município de Rio Claro-SP<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Quantificar e qualificar atributos climatológicos temperatura do ar e umidade relativa no período  de agosto de 2010 ate julho de 2011 com leituras regulares afim de comparar  os microclimas urbanos com o da Floresta Estadual Edmundo Navarro de Andrade.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Sergio Ricardo Christofoletti - Integrante / Rafael José Camarinho - Integrante / Gustavo Armani - Coordenador / José Luiz Timoni - Integrante.<br class="clear" />Financiador(es): Instituto Geológico do Estado de São Paulo - Outra.</div>
+</div><a name='PP_Pesquisa, explora&ccedil;&atilde;o e aplica&ccedil;&atilde;o de mat&eacute;rias-primas cer&acirc;micas no APL de Santa Gertrudes: Base para o Desenvolvimento Tecnol&oacute;gico e Diversifica&ccedil;&atilde;o de Produtos.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa, exploração e aplicação de matérias-primas cerâmicas no APL de Santa Gertrudes: Base para o Desenvolvimento Tecnológico e Diversificação de Produtos.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto fundamenta-se no fato de o Pólo de Santa Gertrudes   SP ser atualmente o maior produtor de pisos e revestimentos cerâmicos da América Latina e se utilizar basicamente da matéria-prima encontrada na região, sem conhecê-la integralmente. Os trabalhos a serem executados, nesse projeto, objetivam qualificar e entender a influência da composição mineralógica, litoquímica e da textura/estrutura, no processamento tecnológico da matéria-prima proveniente da Formação Corumbataí, bem como na qualidade do revestimento produzido no Pólo Cerâmico de Santa Gertrudes. Este conhecimento técnico-científico não é de domínio do meio produtivo, que utiliza basicamente o método experimental sem fundamentação científica (tentativa erro ou acerto) e também não está disponível na literatura científica. Portanto, o projeto fornecerá dados essenciais para o avanço tecnológico do Pólo Cerâmico de Santa Gertrudes, possibilitando um melhor planejamento de lavra, com separação ideal das matérias-primas, aspecto que aliado ao conhecimento científico das mesmas, possibilitará ou fomentará inovações metodológicas no processo produtivo no sentido de diminuição dos custos de produção ao mesmo tempo em que melhora a qualidade dos mesmos e, principalmente, fabricar produtos mais nobres de maior valor agregado.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Sergio Ricardo Christofoletti - Integrante / Wendel Mijolaro - Integrante / Antenor Zanardo - Coordenador / Jairo Roberto Jiménez Rueda - Integrante / Antonio Carlos Arthur - Integrante / Carolina Del Roveri - Integrante / Rogers Raphael da Rocha - Integrante / Tamar Milca Bortolozzo - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_Diversifica&ccedil;&atilde;o de Produtos Cer&acirc;micos com base no conhecimento de mat&eacute;ria-primas: P&oacute;lo Cer&acirc;mico de Santa Gertrudes'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Diversificação de Produtos Cerâmicos com base no conhecimento de matéria-primas: Pólo Cerâmico de Santa Gertrudes<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto tem por objetivo buscar a diversificação dos produtos obtidos no Pólo Cerâmico de Santa Gertrudes. Isso será feito através de estudos minuciosos sobre as características geológicas, químicas, mineralógicas e cerâmicas da matéria-prima encontrada no Pólo Cerâmico de Santa Gertrudes. A diversificação de produtos bem como a melhora na classificação dos produtos acabados só é possível através de conhecimentos científicos sobre as características geológicas da matéria-prima e entendimento das reações que ocorrem quando esta matéria-prima entra no processo de fabricação. A busca de novos produtos bem como melhora na classificação dos produtos existentes garantem redução de custos de produção e consequentemente melhores condições de exportação e crescimento do Pólo.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Sergio Ricardo Christofoletti - Integrante / Maria Margarita Torres Moreno - Coordenador / Antenor Zanardo - Integrante / Denise Zanchetta - Integrante / GALEMBECK, Tamar Mica - Integrante / Antonio Carlos Arthur - Integrante / Carolina Del Roveri - Integrante / Rogers Raphael da Rocha - Integrante / Gustavo Henrique Ferreira - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_Monumentos Geol&oacute;gicos da Regi&atilde;o de Rio Claro'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monumentos Geológicos da Região de Rio Claro<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto  Monumentos Geológicos da Região de Rio Claro  compõe uma parte de um Projeto maior e estratégico da Secretaria do Meio Ambiente-IG denominado  Monumentos Geológicos do Estado de São Paulo  que tem como objetivo principal realizar o Inventário dos Monumentos Geológicos do Estado de São Paulo subsidiando a implantação de programas de proteção e educação ambiental que objetivem conservar, valorizar e transmitir, às gerações futuras, o patrimônio cultural e natural existente no Estado de São Paulo. Já o Projeto  Monumentos Geológicos da Região de Rio Claro , é composto por três fases: Fase 1: Identificação e Descrição técnica dos pontos levantados (Etapa Conhecimento), Fase 2:  Ações de Conservação dos Monumentos Geológicos da Região de Rio Claro  (Etapa: Proteção) e Fase 3:  Ações para a Divulgação dos Monumentos Geológicos da Região de Rio Claro  (Etapa Geoturismo). <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Sergio Ricardo Christofoletti - Integrante / Fernando Ciliento Fittipaldi - Integrante / Alessandro Batezelli - Integrante / Denise Zanchetta - Integrante / Rogério Rodrigues Ribeiro - Coordenador.<br class="clear" /></div>
+</div><a name='PP_ Caracteriza&ccedil;&atilde;o dos terrenos c&aacute;rsticos das bacias dos rios Ribeira e Paranapanema e sua vulnerabilidade frente a processos erosivos e atividades minerarias'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Caracterização dos terrenos cársticos das bacias dos rios Ribeira e Paranapanema e sua vulnerabilidade frente a processos erosivos e atividades minerarias<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Necessidades de estudos geológicos e geomorfológicos mais aprofundados para a caracterização dos terrenos cársticos dos rios Ribeira e Paranapanema, indispensáveis para a promoção do desenvolvimento sustentável em uma paisagem suscetível a problemas ambientais peculiares.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Sergio Ricardo Christofoletti - Integrante / Hélio Shimada - Integrante / Willian Sallun - Integrante / José Antonio Ferrari - Coordenador / Silviio Takashi Hiruma - Integrante / Sonia Aparecida Abissi Nogueira - Integrante.<br class="clear" /></div>
+</div><a name='PP_Aprimoramento de Produ&ccedil;&atilde;o de Mat&eacute;rias-Primas com Vistas  Melhoria de Competitividade do Arranjo Produtivo do Setor M&iacute;nero-Cer&acirc;mico no P&oacute;lo de  Santa Gertrudes'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aprimoramento de Produção de Matérias-Primas com Vistas  Melhoria de Competitividade do Arranjo Produtivo do Setor Mínero-Cerâmico no Pólo de  Santa Gertrudes<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Caracterizar e analisar a cadeia produtiva mínero-cerâmicada região do Pólo Cerâmico de Santa Gertrudese a indicação de diretrizes técnicas para a melhoria competitiva desse arranjo Produtivo local. Dois enfoques principais foram abordados, um ligado à Ssustentabilidade da atividade mineral frente ao potencial do impacto ambientale outro voltado ao aprimoramento da qualidade do produto, sobretudo da massa cerâmicas com qualidade constante.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Sergio Ricardo Christofoletti - Integrante / Maria Margarita Torres Moreno - Integrante / Antenor Zanardo - Integrante / José Francisco Marciano Motta - Coordenador / Carolina Del Roveri - Integrante.<br class="clear" /></div>
+</div><a name='PP_Caracteriza&ccedil;&atilde;o Qu&iacute;mica, F&iacute;sica e Mineral&oacute;gica de Sedimentos Argilosos da Bacia do Paran&aacute;'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Caracterização Química, Física e Mineralógica de Sedimentos Argilosos da Bacia do Paraná<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Estudos de Caracterização em materias argilosos e outros materiais, com o intuito de obter subsídios para planejamento de lavra, classiifcação geológica e tecnológica, confecção de mapa, formulação de massas cerâmicas, aditivação de massas cerâmicas com rejeitos e uso de novos materias na composição de vidrados. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Sergio Ricardo Christofoletti - Integrante / Marcos Robero Masson - Integrante / Maria Margarita Torres Moreno - Coordenador / Marcos Henrique de Oliveira e Souza - Integrante / Lineu Gaspar Junior - Integrante / Cosin, Shirley - Integrante / Renato Romano - Integrante.<br class="clear" /></div>
+</div><a name='PP_Qualidade em Cer&acirc;mica Vermelha'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Qualidade em Cerâmica Vermelha<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Caracterização das matérias-primas e sua melhoria. Adequação para os processos cerâmicos e melhoria dos produtos de cerâmica vermelha da regão de Rio Claro e Santa Gertrudes. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Sergio Ricardo Christofoletti - Integrante / Helber Roberto Thomazella - Integrante / Marcos Robero Masson - Integrante / Maria Margarita Torres Moreno - Integrante / José Vicente Valarelli - Coordenador / Antenor Zanardo - Integrante / Paulo Eduardo Campos e Souza - Integrante / Sebastião Gomes de Carvalho - Integrante / Marcos Henrique de Oliveira e Souza - Integrante / Lineu Gaspar Junior - Integrante / Erasto Boretti de Almeida - Integrante / Jairo Roberto Jiménez Rueda - Integrante / Ana Cândida de Almeida Prado - Integrante / Joel Carneiro de Castro - Integrante / José de Alexandre de Jesus Perinotto - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Geociências (UNESP. Impresso)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Cerâmica (São Paulo. Impresso)</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorProjetoFomento">
+<h1>Revisor de projeto de fomento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto: Fundação de Apoio à Pesquisa e à Inovação Tecnológica do Estado de Sergipe</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Geociências / Subárea: Geologia/Especialidade: Geologia Regional. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Geociências. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Geociências / Subárea: Geologia/Especialidade: Geoquímica. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Geociências / Subárea: Geologia/Especialidade: Recurso Minerais. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Geociências / Subárea: Geologia/Especialidade: Prospecção Mineral. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio Francisco Salles Vicente de Azevedo (melhor trabalho do 45  Congresso Brasileiro de Cerâmica), Associação Brasileira de Ceramica. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Análise Quantitativa de Albita e sua Distribuição em Perfís de Argilas da Formação Corumbataí na região do Pólo Cerâmicod e Snta Gertrudes, São Paulo-Brasil. Cerâmica Industrial (Impresso)<sup><img id='14134608_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134608' /></sup>, v. 18/2, p. 17-22, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134608&volume=18/2&issue=&paginaInicial=17&titulo=Análise Quantitativa de Albita e sua Distribuição em Perfís de Argilas da Formação Corumbataí na região do Pólo Cerâmicod e Snta Gertrudes, São Paulo-Brasil&sequencial=1&nomePeriodico=Cerâmica Industrial (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RIBEIRO, ROGÉRIO RODRIGUES</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5935/0100-929x.20130001" target="_blank"></a>RIBEIRO, ROGÉRIO RODRIGUES ; <b>CHRISTOFOLETTI, SÉRGIO RICARDO</b> ; BATEZELLI, ALESSANDRO ; FITTIPALDI, FERNANDO CILENTO ; ZANCHETTA, DENISE . Inventário e avaliação do patrimônio natural geológico da região de Rio Claro (SP). Revista do Instituto Geológico<sup><img id='0100929X_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100929X' /></sup>, v. 34, p. 1-21, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.5935/0100-929x.20130001&issn=0100929X&volume=34&issue=&paginaInicial=1&titulo=Inventário e avaliação do patrimônio natural geológico da região de Rio Claro (SP)&sequencial=2&nomePeriodico=Revista do Instituto Geológico" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Sallun, A.E.M</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>Sallun, A.E.M ; Sallun, W. ; Suguio, K ; Babinsk, M. ; Gióia, S.M.C.L ; Harlow, A.B. ; Duleba, V. ; Oliveira, P. ; Garcia, M.J. ; Weber, C.E. ; <b>CHRISTOFOLETTI, S. R.</b> ; Santos, C.S. ; Medeiros, W.B. ; Silva, J.B. ; Husseis, M.C.S. ; Fernandes,R.F. . Geochemical evidence of the 8.2 ka event and other Holocene environmental changes recorded in paleolagoon sediments, southeastern Brazil. Quaternary Research (Print)<sup><img id='00335894_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00335894' /></sup>, v. 77, p. 31-43, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00335894&volume=77&issue=&paginaInicial=31&titulo=Geochemical evidence of the 8.2 ka event and other Holocene environmental changes recorded in paleolagoon sediments, southeastern Brazil&sequencial=3&nomePeriodico=Quaternary Research (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>CHRISTOFOLETTI, S. R.</b> ; AZEVEDO SOBRINHO, J. M. ; SOUZA, Marcos Henrique de Oliveira e ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Impactos Positivos e Negativos da Atividade Minerária no APL de Santa Gertrudes-SP. Cerâmica Industrial (Impresso)<sup><img id='14134608_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134608' /></sup>, v. 17, p. 33-38, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134608&volume=17&issue=&paginaInicial=33&titulo=Impactos Positivos e Negativos da Atividade Minerária no APL de Santa Gertrudes-SP&sequencial=4&nomePeriodico=Cerâmica Industrial (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>CHRISTOFOLETTI, S. R.</b> ; AZEVEDO SOBRINHO, J. M. ; SOUZA, M. H. DE O. ; MORENO, M. M. T. . Impactos positivos e negativos da atividade minerária no 'APL' de Santa Gertrudes - SP. Cerâmica Industrial (Impresso)<sup><img id='14134608_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134608' /></sup>, v. 17, p. 33-38, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134608&volume=17&issue=&paginaInicial=33&titulo=Impactos positivos e negativos da atividade minerária no 'APL' de Santa Gertrudes - SP&sequencial=5&nomePeriodico=Cerâmica Industrial (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Sustentabilidade da Mineração no Pólo Cerâmico de Santa Gertrudes, São Paulo-Brasil. Cerâmica Industrial (Impresso)<sup><img id='14134608_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134608' /></sup>, v. 16(3), p. 35-42, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134608&volume=16(3)&issue=&paginaInicial=35&titulo=Sustentabilidade da Mineração no Pólo Cerâmico de Santa Gertrudes, São Paulo-Brasil&sequencial=6&nomePeriodico=Cerâmica Industrial (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Sallun, A.E.M</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>Sallun, A.E.M ; Saito de Paula, M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5940522674271363" target="_blank">AZEVEDO SOBRINHO, J.,M</a> ; Sallun, W. ; YEE, M. ; Tatumi, S.H. ; Ramos, A. ; <b>CHRISTOFOLETTI, S. R.</b> ; Amaral, R. ; Xavier, B.C. . Seções de referência de subsuperfície da Aloformação Paranavaí. Geologia USP. Série Científica<sup><img id='1519874X_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1519874X' /></sup>, v. 11, p. 101-111, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1519874X&volume=11&issue=&paginaInicial=101&titulo=Seções de referência de subsuperfície da Aloformação Paranavaí&sequencial=7&nomePeriodico=Geologia USP. Série Científica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SOUZA, Paulo Eduardo Campos e</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>SOUZA, Paulo Eduardo Campos e ; <b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; CORREA, V.F. . "A Formação Corumbataí nos municípios de Tambaú e Limeira: Fonte de Matéria - prima para Porcelanato e Semi -grês". Cerâmica Industrial (Impresso)<sup><img id='14134608_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134608' /></sup>, v. 15, p. 30/jul-ago 2010-34, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134608&volume=15&issue=&paginaInicial=30/jul-ago 2010&titulo="A Formação Corumbataí nos municípios de Tambaú e Limeira: Fonte de Matéria - prima para Porcelanato e Semi -grês"&sequencial=8&nomePeriodico=Cerâmica Industrial (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Sallun, A.E.M</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>Sallun, A.E.M ; <b>CHRISTOFOLETTI, S. R.</b> ; Sallun, W. ; Amaral, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5940522674271363" target="_blank">AZEVEDO SOBRINHO, J.,M</a> . " Argilominerais da Aloformaçao Paranavaí (SP, PR E MS). Geociências (UNESP. Impresso)<sup><img id='01019082_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01019082' /></sup>, v. 29, p. 311-319, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01019082&volume=29&issue=&paginaInicial=311&titulo=" Argilominerais da Aloformaçao Paranavaí (SP, PR E MS)&sequencial=9&nomePeriodico=Geociências (UNESP. Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Armani,  G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>Armani,  G. ; Magalhães, R.B.S ; <b>CHRISTOFOLETTI, S. R.</b> ; Timoni, J.L. ; Rovielo, A.L. . Análise microclimática comparativa entre a Floresta Estadual  Edmundo Navarro de Andrade  e a área urbana do município de Rio Claro.. HOLOS Environment (Online)<sup><img id='15198634_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15198634' /></sup>, v. 10/2, p. 30-50, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15198634&volume=10/2&issue=&paginaInicial=30&titulo=Análise microclimática comparativa entre a Floresta Estadual  Edmundo Navarro de Andrade  e a área urbana do município de Rio Claro.&sequencial=10&nomePeriodico=HOLOS Environment (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><b>CHRISTOFOLETTI, S. R.</b> ; SAMPAIO, F. H. . Evolução das Pesquisas Científicas ao longo dos 100 Anos da Criação do Horto Florestal de Rio Claro.. HOLOS Environment (Online)<sup><img id='15198634_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15198634' /></sup>, v. 10(2), p. 30-51, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15198634&volume=10(2)&issue=&paginaInicial=30&titulo=Evolução das Pesquisas Científicas ao longo dos 100 Anos da Criação do Horto Florestal de Rio Claro.&sequencial=11&nomePeriodico=HOLOS Environment (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5787188407298606" target="_blank">MOTTA, José Francisco Marciano</a> . "La Formación Corumbataí y su importancia en la industria cerámica del estado de São Paulo   Brasil". Matéria (UFRJ)<sup><img id='15177076_12' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15177076' /></sup>, v. 14, p. 705/10910-715, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15177076&volume=14&issue=&paginaInicial=705/10910&titulo="La Formación Corumbataí y su importancia en la industria cerámica del estado de São Paulo   Brasil"&sequencial=12&nomePeriodico=Matéria (UFRJ)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><b>CHRISTOFOLETTI, S. R.</b> ; MASSON, Marcos Robero . Aplicação de  rejeito argiloso de uma mineração de areia industrial como matéria- prima na indústria cerâmica. Revista do Instituto Geológico<sup><img id='0100929X_13' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100929X' /></sup>, v. 30, p. 35-43, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0100929X&volume=30&issue=&paginaInicial=35&titulo=Aplicação de  rejeito argiloso de uma mineração de areia industrial como matéria- prima na indústria cerâmica&sequencial=13&nomePeriodico=Revista do Instituto Geológico" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6617038190471269" target="_blank">Batezelli, A</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . "Análise de fácies da Formação Corumbataí (Grupo Passa Dois-Bacia do Paraná, Neopermiano), com vista ao emprego na indústria de revestimento cerâmico". Revista Brasileira de Geociências<sup><img id='03757536_14' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03757536' /></sup>, v. 36, p. 115-126, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03757536&volume=36&issue=&paginaInicial=115&titulo="Análise de fácies da Formação Corumbataí (Grupo Passa Dois-Bacia do Paraná, Neopermiano), com vista ao emprego na indústria de revestimento cerâmico"&sequencial=14&nomePeriodico=Revista Brasileira de Geociências" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOTTA, José Francisco Marciano</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5787188407298606" target="_blank">MOTTA, José Francisco Marciano</a> ; <b>CHRISTOFOLETTI, S. R.</b> ; GARCEZ, Leonardo ; FLORENCIO, Raquel Valério ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3259846931278607" target="_blank">BOSCHI, Anselmo Ortega</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> . Raw materials for Ceramic Tiles in the Santa Gertrudes Pole, Brazil. Interceram<sup><img id='00205214_15' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00205214' /></sup>, v. 54, p. 190-194, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00205214&volume=54&issue=&paginaInicial=190&titulo=Raw materials for Ceramic Tiles in the Santa Gertrudes Pole, Brazil&sequencial=15&nomePeriodico=Interceram" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2435052510742228" target="_blank">MASSON, M. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . "Análise Estatística Multivariada: Uma Ferramenta no tratamento de dados aplicados a caracterização cerâmica". Revista do Instituto Geológico<sup><img id='0100929X_16' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100929X' /></sup>, v. 26, p. 19-29, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0100929X&volume=26&issue=&paginaInicial=19&titulo="Análise Estatística Multivariada: Uma Ferramenta no tratamento de dados aplicados a caracterização cerâmica"&sequencial=16&nomePeriodico=Revista do Instituto Geológico" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Características da Rochas da Formação Corumbataí utilizadas na Indústria de Revestimento Cerâmico. Geociências (São Paulo)<sup><img id='01019082_17' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01019082' /></sup>, v. prelo, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01019082&volume=prelo&issue=&paginaInicial=&titulo=Características da Rochas da Formação Corumbataí utilizadas na Indústria de Revestimento Cerâmico&sequencial=17&nomePeriodico=Geociências (São Paulo)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOTTA, José Francisco Marciano</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5787188407298606" target="_blank">MOTTA, José Francisco Marciano</a> ; <b>CHRISTOFOLETTI, S. R.</b> ; GARCEZ, Leonardo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; CHUCIERATO, Glaúcia ; FLORENCIO, Raquel Valério ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> . Características do Pólo de Revestimentos Cerâmicos de Santa Gertrudes-SP, com ênfase a produção de argilas. Cerâmica Industrial<sup><img id='14134608_18' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134608' /></sup>, v. 9, n.1, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134608&volume=9&issue=&paginaInicial=&titulo=Características do Pólo de Revestimentos Cerâmicos de Santa Gertrudes-SP, com ênfase a produção de argilas&sequencial=18&nomePeriodico=Cerâmica Industrial" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><b>CHRISTOFOLETTI, S. R.</b> ; MASSON, Marcos Robero ; MIJOLARO, Wendel ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; VALARELLI, José Vicente . Os Principais Contaminantes Minerais das Rochas Sedimentares da Formação Corumbataí e sua Influência na Matéria-Prima Cerâmica. Cerâmica Industrial<sup><img id='14134608_19' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134608' /></sup>, Associação Brasileira de Ceram, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134608&volume=&issue=&paginaInicial=&titulo=Os Principais Contaminantes Minerais das Rochas Sedimentares da Formação Corumbataí e sua Influência na Matéria-Prima Cerâmica&sequencial=19&nomePeriodico=Cerâmica Industrial" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><b>CHRISTOFOLETTI, S. R.</b> ; MASSON, Marcos Robero ; THOMAZELLA, Helber Roberto ; FUGIE, Adilson ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; VALARELLI, José Vicente . Mapeamento e caracterização Geológico/Tecnológico da Formação Corumbataí com vistas a seu emprego na Indústria de Revestimentos Cerâmicos. Parte I (Geologia e correlação entre as jazidas estudadas). Cerâmica Industrial<sup><img id='14134608_20' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134608' /></sup>, Associação Barsileira de Ceram, v. 6, p. 24-31, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134608&volume=6&issue=&paginaInicial=24&titulo=Mapeamento e caracterização Geológico/Tecnológico da Formação Corumbataí com vistas a seu emprego na Indústria de Revestimentos Cerâmicos. Parte I (Geologia e correlação entre as jazidas estudadas)&sequencial=20&nomePeriodico=Cerâmica Industrial" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><b>CHRISTOFOLETTI, S. R.</b> . Mapeamento e caracterização Geológico/Tecnológico da Formação Corumbataí com vistas a seu emprego na Indústria de Revestimentos. Parte II (Geologia e Caracterização Tecnológica. Cerâmica Industrial<sup><img id='14134608_21' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134608' /></sup>, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134608&volume=&issue=&paginaInicial=&titulo=Mapeamento e caracterização Geológico/Tecnológico da Formação Corumbataí com vistas a seu emprego na Indústria de Revestimentos. Parte II (Geologia e Caracterização Tecnológica&sequencial=21&nomePeriodico=Cerâmica Industrial" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MORENO, Maria Margarita Torres</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; <b>CHRISTOFOLETTI, S. R.</b> ; VALARELLI, José Vicente . Composição química dos elementos maiores em rochas sedimentares da Formação Corumbataí e sua influência na produção de revestimentos cerâmicos. Cerâmica Industrial<sup><img id='14134608_22' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134608' /></sup>, Associação Brasileira de Ceram, v. 5, n.4, p. 47-50, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134608&volume=5&issue=&paginaInicial=47&titulo=Composição química dos elementos maiores em rochas sedimentares da Formação Corumbataí e sua influência na produção de revestimentos cerâmicos&sequencial=22&nomePeriodico=Cerâmica Industrial" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SOUZA, Paulo Eduardo Campos e</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span>SOUZA, Paulo Eduardo Campos e ; <b>CHRISTOFOLETTI, S. R.</b> ; SOUZA, Marcos Henrique de Oliveira e ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6120595528507100" target="_blank">CARVALHO, Sebastião Gomes de</a> . Proposta de Controle da Matéria-Prima utilizada na Indústria de Revestimento Cerâmico.. Cerâmica Industrial<sup><img id='14134608_23' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134608' /></sup>, Associação Brasileira de Ceram, v. 5, n.1, p. 51-54, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134608&volume=5&issue=&paginaInicial=51&titulo=Proposta de Controle da Matéria-Prima utilizada na Indústria de Revestimento Cerâmico.&sequencial=23&nomePeriodico=Cerâmica Industrial" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> . Desastres naturais. Jornal cidade de Rio Claro, 24 nov.  2011. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; Campos, E.M. . Legislações incidentes sobre a atividade minerária em áreas protegidas no estado de São Paulo. O caso da Floresta Estadual Edmundo Navarro de Andrade - Rio Claro, São Paulo.. In: Congresso Brasileiro de Cerâmica e 5º Congresso Ibero Americano de Cerâmica, 2013, Natal- RN. Congresso Brasileiro de Cerâmica e 5º Congresso Ibero Americano de Cerâmica, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . ANÁLISE QUANTITATIVA DA ALBITA E SUA DISTRIBUIÇÃO EM PERFÍS DE ARGILA DA FORMAÇÃO CORUMBATAÍ NA REGIÃO DO PÓLO CERÂMICO DE SANTA GERTRUDES, SÃO APULO-BRASIL.. In: 56º Congresso Brasileiro de Cerâmica, 2012, Curitiba-Paraná. 56º Congresso Brasileiro de Cerâmica, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, Paulo Eduardo Campos e ; <b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; FRANCISCO, A. C. . ADIÇÃO DE UMA FÁCIES ARGILOSA EXPANSIVA DA FORMAÇÃO CORUMBATAÍ DA CIDADE DE PORTO FERREIRA A UMA MASSA BÁSICA UTILIZADA NO PÓLO CERÂMICO DE SANTA GERTRUDES PELO PROCESSO VIA-SECA.. In: 55º Congresso Brasileiro de Cerâmica, 2011, Recife-Porto de Galinhas. 55º Congresso Brasileiro de Cerâmica. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; Del Roveri. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> . QUALIDADE EM CERÂMICA: 14 ANOS DE PESQUISA EM MATÉRIA PRIMA CERÂMICA. In: 53 Congresso Brasileiro de Cerâmica, 2010, Foz  do Iguaçu-Paraná. 53 Congresso Brasileiro de Cerâmica, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; ROCHA, R. R. ; <b>CHRISTOFOLETTI, S. R.</b> ; GODOY, L. H. ; Del Roveri. C. . USO DO APARELHO DE VICAT PARA CLASSIFICAR ARGILAS DE ACORDO COM A GRANULOMETRIA DE MOAGEM. In: 54 Congresso Brasileiro de Cerâmica, 2010, Foz do Iguaçu-Paraná. Anais do 54 Congresso Brasileiro de Cerâmica, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, Paulo Eduardo Campos e ; <b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . A Formação Corumbataí  no município de Tambaú e Limeira  SP: Fonte de matéria-prima para o segmento de porcelanato e semi-grés.. In: 53 Congresso Brasileiro de Cerâmica, 2009, Guarujá. 53 Congresso Brasileiro de Cerâmica, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAMPAIO, F. H. ; <b>CHRISTOFOLETTI, S. R.</b> ; Zanchetta, D. . Espacialização das Pesquisas Científicas realizadas na Floresta Estadual Edmundo Navarro de Andrade, Rio Claro - SP. In: VI Congresso de Meio Ambiente da AUGM, 2009, São Carlos. VI Congresso de Meio Ambiente da AUGM, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2435052510742228" target="_blank">MASSON, M. R.</a> . CARACTERIZAÇÃO DE REJEITO ARGILOSO DE UMA MINERAÇÃO DE AREIA INDUSTRIAL VISANDO REAPROVEITAMENTO COMO MATÉRIA-PRIMA PARA A INDÚSTRIA CERÂMICA. In: 52 Congresso Brasileiro de Cerâmica, 2008, Florianópolis. 52 Congresso Brasileiro de Cerâmica, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5940522674271363" target="_blank">AZEVEDO SOBRINHO, J.,M</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; SOUZA, Marcos Henrique de Oliveira e . PANORAMA ATUAL DOS IMPACTOS POSITIVOS E NEGATIVOS DA ATIVIDADE MINERÁRIA NO  APL  DE SANTA GERTRUDES-SP. In: 53 Congresso Brasileiro de Cerâmica, 2008, Florianópolis. 53 Congresso Brasileiro de Cerâmica, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; THOMAZELLA, Helber Roberto ; MASSON, Marcos Robero ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Análise Estatística Multivariada: Uma Ferramenta no Tratamento de Dados de CaracterizaçãoCerâmica Aplicada às Matérias-Primas para Revestimentos Cerâmicos. In: Congresso Brasileiro de Cerãmica, 2003, Florianópolis. Anais do 45º Congresso Brasileiro de Cerâmica, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; MASSON, Marcos Robero ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Correlação geológica entre jazidas situadas no vale do Rio Corumbataí utilizadas como matéria-prima na indústria cerâmica. In: Congresso Brasileiro de Cerãmica, 2002, São Paulo. Anais do 46o Congresso Brasileiro de Cerâmica, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Características Geoquímicas dos Sedimentos Argilosos da Formação Corumbataí Utilizados como Matéria-Prima na Indústria de Revestimentos Cerâmicos. In: Congresso de Geoquímica dos Países da Língua Portuguesa e XII Semana de Geoquímica, Universidade de Algarve, 2001, Faro. Congresso Brasileiro dos paises de lingua portuguesa, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; <b>CHRISTOFOLETTI, S. R.</b> ; VALARELLI, José Vicente . Composição Química dos Elementos Maiores em Rochas Sedimentares da Formação Corumbataí e sua Influencia na Produção de Pisos e Revestimentos Cerâmicos. In: Congresso Brasileiro de Cerãmica, 2000, São Pedro. in: CD dos Anais do 44º Congresso Brasileiro de Cerâmica, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; MASSON, Marcos Robero ; VALARELLI, José Vicente ; MIJOLARO, Wendel . Os Principais Contaminantes Minerais das Rochas Sedimentares da Formação Corumbataí e sua Influência na Matéria-Prima Cerâmica. In: Congresso Brasileiro de Ceramica, 2000, São Pedro. Anais do 44º Congresso Brasileiro de Cerâmica, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">THOMAZELLA, Helber Roberto ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> ; MASSON, Marcos Robero ; <b>CHRISTOFOLETTI, S. R.</b> ; BC, Berbet . Análise Estatística Aplicada à Caracterização de Jazidas de matérias-primas para Revestimento Cerâmico. In: Congresso Brasileiro de Ceramica, 2000, São Pedro. Anais do 44º Congresso Brasileiro de Cerâmica, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		MASSON, Marcos Robero ; <b>CHRISTOFOLETTI, S. R.</b> ; THOMAZELLA, Helber Roberto ; FUGIE, Adilson ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> . Mapeamento e Caracterização Geológica /Tecnológica da Formação Corumbataí com vistas ao seu emprego na Indústria de Revestimentos Cerâmicos. Parte I (Geologia e correlação entre as jazidas estudadas. In: Congresso Brasileiro de Ceramica, 2000, São Pedro. Anais do 44º Congresso Brasileiro de Cerâmica. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>CHRISTOFOLETTI, S. R.</b> ; MASSON, Marcos Robero ; THOMAZELLA, Helber Roberto ; FUGIE, Adilson ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> ; ALEGRI, Waldomiro . Mapeamento e Caracterização Geológica /Tecnológica da Formação Corumbataí com vistas ao seu emprego na Indústria de Revestimentos Cerâmicos. Parte II (Caracterização tecnológica e sua correlação com a geologia). In: Congresso Brasileiro de Ceramica, 2000, São Pedro. Anais do 44º Congresso Brasileiro de Cerâmica,, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">THOMAZELLA, Helber Roberto ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> ; MASSON, Marcos Robero ; <b>CHRISTOFOLETTI, S. R.</b> ; BC, Berbet . Utilização da Formação Corumabataíem Processo de Fabricação Via Umida. In: 44 Congresso Brasileiro de Cerâmica, 2000, São Pedro. Anais do 44 Congresso Brasileiro de Cerâmica, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; VALARELLI, José Vicente ; SOUZA, Paulo Eduardo Campos e . A Variação da Capacidade de Troca Catiônica (CTC) em Função da Mineralogia das Argilas. In: Congresso Brasileiro de Ceramica, 1999, Florianópolis. Anais do 43º Congresso Brasileiro de Cerâmica, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		SOUZA, Paulo Eduardo Campos e ; <b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5787188407298606" target="_blank">MOTTA, José Francisco Marciano</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6120595528507100" target="_blank">CARVALHO, Sebastião Gomes de</a> . Proposta de Controle da matéria-prima Mineral Utilizada na Indústria de Revestimento Cerâmico. In: Congresso Brasileiro de Ceramica, 1999, Florianópolis. Anais do 43º Congresso Brasileiro de Cerâmica, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; MALAGUTTI, Mirtes ; SOUZA, Paulo Eduardo Campos e ; <b>CHRISTOFOLETTI, S. R.</b> . Terras raras em sedimentos argilosos da Formação Corumbataí na região de Rio Claro-SP. In: Congresso de Geoquímica dos Países da Língua Portuguesa e XII Semana de Geoquímica, Universidade de Algarve, 1999, Porto Seguro. Anais do V Congresso de Geoquímica dos países de língua Portuguesa, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; SOUZA, Paulo Eduardo Campos e ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Relação entre as características das argilas da Formação Corumbataí (Jazida Cruzeiro), a ação do intemperismo e a qualidade de produtos cerâmicos. In: Congresso Brasileiro de Ceramica, 1998, Poços de Caldas. Anais do 42º Congresso Brasileiro de Cerâmica, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GASPAR JUNIOR, Lineu ; <b>CHRISTOFOLETTI, S. R.</b> ; SOUZA, Marcos Henrique de Oliveira e ; VALARELLI, José Vicente ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Panorama Atual do Pólo Cerâmico de Santa Gertrudes em função de novos estudos mineralógicos e texturais da matéria-prima utilizada na indústria de revestimentos. In: Congresso Brasileiro de Ceramica, 1997, São Paulo. Congresso Brasileiro de Cerâmica, 41, 1997. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; Shimada, H. ; Nogueira, S.A.A. . Caracterização química e mineralógica das rochas da Formação Pariquera-Açu e Pré-cambrianas alteradas como fontes para a indústria cerâmica no baixo Ribeira-São Paulo. In: 43  Congresso Brasileiro de Geologia, 2006, Aracajú-Sergipe. Anais do 43  Congresso Brasileiro de Geologia, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> ; <b>CHRISTOFOLETTI, S. R.</b> . Mineralogia da matéria-prima para revestimento cerâmico coletada de uma bancada da mina Cruzeiro   Limeira (SP). In: 43  Congresso Brasileiro de Geologia, 2006, Aracajú. Anais do 43  Congresso Brasileiro de Geologia, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Correlação estratigráfica de jazidas versus propriedades tecnológicas das argilas da Formação Corumbataí utilizada como matéria-prima cerâmica. In: XLI Congresso Brasileiro de Geologia, 2002, Joao Pessoa. Anais do XLI Congresso Brasileiro de Geologia, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; SOUZA, Marcos Henrique de Oliveira e ; GASPAR JUNIOR, Lineu ; AMARANTES JUNIOR, Armando ; FERNANDES, Antonio Carlos ; VALARELLI, José Vicente ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Caracterização geológica e tecnológica das matérias-primas para cerâmica vermelha do pólo de Santa Gertrudes (SP).. In: V Simpósio de Geologia do Sudeste, 1997, Penedo. Anais do V Simpósio de Geologia do Sudeste, 1997. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Um modelo de classificação Geológico-Tecnológica das argilas da Formação Corumbataí utilizadas nas indústrias do Pólo Cerâmico de Santa Gertrudes. In: 43  Congresso Brasileiro de Geologia, 2006, Aracajú. Anais do 43  Congresso Brasileiro de Geologia, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5787188407298606" target="_blank">MOTTA, José Francisco Marciano</a> ; <b>CHRISTOFOLETTI, S. R.</b> ; GARCEZ, Leonardo ; FLORENCIO, Raquel Valério ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> . Raw materials for ceramic tiles in the Santa Gertrudes Pole, Brazil. In: Qualicer 2004 - VIII World Congress on Cermic Tile Quality, 2004, Castellón - Espanha. General conferences; papers; posters; panel debate - of Qualicer 2004 - VIII World Congress on Cermic Tile Quality. Castellón: Official Chamber or Commerce, Industry and Navigation, 2004, 2004. v. III. p. 125-127. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BERNARDES, Eduardo ; <b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> . Seção da Mina Partezani porção intermediária da Formação Corumbataí (Permiano), em Rio Claro, SP. In: Simpósio de Geologia do Sudeste, 2003, São Pedro. Simpósio de geologia do Sudeste, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5787188407298606" target="_blank">MOTTA, José Francisco Marciano</a> ; <b>CHRISTOFOLETTI, S. R.</b> ; GARCEZ, Leonardo ; FLORENCIO, Raquel Valério ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> . As matérias-primas básicas e as características técnicas do sistema produtivo de placas cerâmicas no Pólo de Santa Gertrudes, SP. In: Simpósio de Geologia do Sudeste, 2003, São Pedro. Anais do VIII Simpósio de Geologia do Sudeste, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">THOMAZELLA, Helber Roberto ; MASSON, Marcos Robero ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> ; <b>CHRISTOFOLETTI, S. R.</b> ; BC, Berbet . Aplication Results of Corumbataí Formation (Perminian) on Ceramic Tiles by wet process. In: 31 Congresso Internacional de Geologia, 2000, Rio de Janeiro. International Geological Congress, 31, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; MASSON, Marcos Robero ; THOMAZELLA, Helber Roberto ; VALARELLI, José Vicente . A technological and Geological classification of clays from Corumbataí Formation used in floor tile Ceramic Industry. In: 31 Congresso Internacional de Geologia, 2000, Rio de Janeiro. International Geological Congress, 31. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; SOUZA, Marcos Henrique de Oliveira e ; GASPAR JUNIOR, Lineu ; <b>CHRISTOFOLETTI, S. R.</b> . Mineralogical Variation in clay sediments from Corumbataí Formation in Rio Claro (SP), Brazil. In: 31 Congresso Internacional de Geologia, 2000, Rio de Janeiro. In: International Geological Congress, 31, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">THOMAZELLA, Helber Roberto ; BC, Berbet ; <b>CHRISTOFOLETTI, S. R.</b> ; FUGIE, Adilson ; MASSON, Marcos Robero ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> . O desempenho dos pelitos da Formação Corumbataí para cerâmica via-úmida. In: VI Simpósio de Geologia do Sudeste, 1999, São Pedro. Anais do VI Simpósio de Geologia do Sudeste, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, Erasto Boretti de ; <b>CHRISTOFOLETTI, S. R.</b> ; ALEGRI, Waldomiro . Fatores restritivos ao aproveitamento cerâmico da Formação Corumbataí, região de Rio Claro, SP. In: VI Simpósio de Geologia do Sudeste, 1999, São Pedro. Anais do VI Simpósio de Geologia do Sudeste, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, Paulo Eduardo Campos e ; <b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5787188407298606" target="_blank">MOTTA, José Francisco Marciano</a> . Características Cerâmicas das Argilas das Argilas das Formações Corumbataí e Aquidauna/Subgrupo Itararé, e sua utilização nos Pólos de Mogi Guaçu e Santa Gertrudes (SP. In: XL Congresso Brasileiro de Geologia, 1998, Belo Horizonte. Anais do XL Congresso Brasileiro de Geologia, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> . Estudo mineralógico, químico e textural das Rochas Sedimetares da Formação Corumbataí Jazida Cruzeiro, e suas implicações nos processos e produtos cerâmicos. In: I Seminário de Pós-Graduação em Geociências, 1997, Rio Claro, 1997. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; PEREIRA, M. F. . A FLORESTA ESTADUAL EDMUNDO NAVARRO DE ANDRADE E SUA IMPORTÂNCIA AMBIENTAL. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Sustentabilidade da Mineração no Pólo Cerâmico de Santa Gertrudes, São Paulo-Brasil. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SAMPAIO, F. H. ; <b>CHRISTOFOLETTI, S. R.</b> . Horto Florestal de Rio Claro: a evolução das pesquisas científicas até a criação de um programa de educação ambiental. 2010. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; SAMPAIO, F. H. . Evolução da pesquisas científicas ao longo dos 100 anos da criação do Horto Florestal de Rio Claro. 2010. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Magalhães, R.B.S ; <b>CHRISTOFOLETTI, S. R.</b> ; Armani,  G. ; Timoni, J.L. ; Rovielo, A.L. ; Haegely, M. E. ; Camarinho, R.J. . Análise microclimática comparativa entre a Floresta Estadual Edmundo Navarro de Andrade e a área urbana do Município de Rio Claro. 2010. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2435052510742228" target="_blank">MASSON, M. R.</a> . Caracterização de rejeito argiloso de uma mineração de areia industrial visando reaproveitamento como matéria-prima para a industria cerâmica. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5940522674271363" target="_blank">AZEVEDO SOBRINHO, J.,M</a> ; SOUZA, Marcos Henrique de Oliveira e ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Panorama Atual dos Impactos positivos e negativos da atividade minerária no "APL" de Santa Gertrudes- SP. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6617038190471269" target="_blank">Batezelli, A</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Relação Entre Os Aspectos Geológicos, Mineralógicos E Químicos Da Mina. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Um modelo de classificação Geológico-Tecnológica das argilas da Formação Corumbataí utilizadas nas indústrias do Pólo Cerâmico de Santa Gertrudes. 2006. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; Shimada, H. ; Nogueira, S.A.A. . Caracterização química e mineralógica das rochas da Formação Pariquera-Açu e Pré-cambrianas alteradas como fontes para a indústria cerâmica no baixo Ribeira-São Paulo.. 2006. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; THOMAZELLA, Helber Roberto ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2435052510742228" target="_blank">MASSON, M. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Análise Estatística Multivariada: Uma Ferramenta no Tratamento de Dados de Caracterização Cerâmica Aplicada às Matérias-Primas para Revestimentos Cerâmicos.. 2003. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2435052510742228" target="_blank">MASSON, M. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Correlação geológica entre jazidas situadas no Vale do Rio Corumbataí utilizadas como matéria-prima na indústria cerâmica.. 2002. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Características Geoquímicas dos Sedimentos Argilosos da Formação Corumbataí Utilizados como Matéria-Prima na Indústria de Revestimentos Cerâmicos.. 2001. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2435052510742228" target="_blank">MASSON, M. R.</a> ; MIJOLARO, Wendel ; THOMAZELLA, Helber Roberto . Os Principais Contaminantes Minerais das Rochas Sedimentares da Formação Corumbataí e sua Influência na Matéria-Prima Cerâmica. 2000. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2435052510742228" target="_blank">MASSON, M. R.</a> ; THOMAZELLA, Helber Roberto ; FUGIE, Adilson ; ALEGRI, Waldomiro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a> . Mapeamento e Caracterização Geológica /Tecnológica da Formação Corumbataí com vistas ao seu emprego na Indústria de Revestimentos Cerâmicos. Parte II (Caracterização tecnológica e sua correlação com a geologia). 2000. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2435052510742228" target="_blank">MASSON, M. R.</a> ; THOMAZELLA, Helber Roberto ; VALARELLI, José Vicente . . A technological and Geological classification of clays from Corumbataí Formation used in floor tile Ceramic Industry. . A technological and Geological classification of clays from Corumbataí Formation used in floor tile Ceramic Industry.. 2000. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; VALARELLI, José Vicente . A Variação da Capacidade de Troca Catiônica (CTC) em Função da Mineralogia das Argilas. A Variação da Capacidade de Troca Catiônica (CTC) em Função da Mineralogia das Argilas.. 1999. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; SOUZA, Paulo Eduardo Campos e ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> ; VALARELLI, José Vicente . Relação entre as características das argilas da Formação Corumbataí (Jazida Cruzeiro), a ação do intemperismo e a qualidade de produtos cerâmicos. 1998. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; SOUZA, Marcos Henrique de Oliveira e ; GASPAR JUNIOR, Lineu ; FERNANDES, Antonio Carlos ; AMARANTES JUNIOR, Armando ; VALARELLI, José Vicente ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Caracterização geológica e tecnológica das matérias-primas para cerâmica vermelha do pólo de Santa Gertrudes (SP). 1997. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="AssessoriaConsultoria"></a>Assessoria e consultoria</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; Sallun, W. ; Fittipaldi, F.C. . Grupo de trabalho para avaliar, organizar, reduzir o acervo de publicações do Instituto Geológico. 2005. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nalon, M.A. ; Zanchetta, D. ; <b>CHRISTOFOLETTI, S. R.</b> . Plano de Manejo da Estação Ecológica de Ribeirão Preto. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; Ferreira, J.C ; Shimada, H. . Avaliação do Termo de Compromisso de Ajustamento Ambiental que trata da regularização de empreendimentode mineração de saibro situado no bairro Ipiranguinha, Ubatuba, SP. 2005. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; Nogueira, S.A.A. ; Sallun, W. . II Curso-Fundamentos de Geociências para o Programa Complementar de Ensino da Polícia Ambiental do Estado de São Paulo. 2006. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; Nogueira, S.A.A. ; Hiruma, S.T ; Teixera, A.L . Organização do Curso Fundamentos de Geociências para o Comando da Polícia Ambiental-SP. 2005 (cientifica) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; MASSON, Marcos Robero ; THOMAZELLA, Helber Roberto . Organização do Workshop -Qualidade em Ceramica Vermelha. 1998 (cientifica) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARNEIRO, G. F.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a>; <b>CHRISTOFOLETTI, S. R.</b>.  Participação em banca de Roberta Ribeiro Dalfre. Gerenciamento de Resíduos Sólidos em Indústria  de Cerâmica-Estudo de Caso. 2012. Dissertação (Mestrado em Pós Graduação em Geociências e Meio Ambiente) - Universidade Estadual Paulista Júlio de Mesquita Filho. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a>; <b>CHRISTOFOLETTI, S. R.</b>.  Participação em banca de Leticia Hirata Godoy. " Estudo de Matérias- Primas Cerâmicas do Grupo Itararé/Formação Aquidauna (PC da Bacia do Paraná), na Faixa aflorante entre os Estados de São Paulo e Sul de Minas Gerais". 2010. Dissertação (Mestrado em Pós - Graduação em Geologia Regional) - Instituto de Geociências e Ciências Extas de Rio Claro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b>; REZENDE FILHO, C.B; COCCO, M. D. A..  Participação em banca de Roberto Aparecido Garcia Rubio. Ferrovia: de Horto Florestal à Floresta Estadual-Unidade de Conservação de Uso Sustentável e a Evolução Efetiva do Plano de Manejo. 2009. Dissertação (Mestrado em Ciencias Ambientais) - Universidade de Taubaté. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6120595528507100" target="_blank">CARVALHO, Sebastião Gomes de</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a>; QUINTEIRO, E.; FERRARI, K. R.; <b>CHRISTOFOLETTI, S. R.</b>.  Participação em banca de Tercilio de Almeida Coutinho Junior. Estudo de Defeitos associados a pisos e revestimentos cerâmicos por via seca fabricados no Pólo Cerâmico de Santa Gertrudes. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a>; Ferrari, V.C.; Mexias, A.S.; <b>CHRISTOFOLETTI, S. R.</b>.  Participação em banca de Liliane Ibrahim. Argilominerais da porção basal da Formação Corumbataí (Bacia do Paraná). 2008. Tese (Doutorado em Pós Graduação em Geologia Regional)  - Insituto de Geociências. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a>; Galembeck, T.M.; Carvalho, F.M.S.; <b>CHRISTOFOLETTI, S. R.</b>.  Participação em banca de Gislaine Aparecida Barana Delbianco. Estudo dos Rejeitos de Galvanoplastia e a sua aplicação na Fabricação de Peças Cerâmicas Rústicas para fins decorativos. 2008. Tese (Doutorado em Pós Graduação em Geologia Regional)  - IGCE, Unesp, Rio Claro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a>; Rueda, J.R.J; Cosin, S.; <b>CHRISTOFOLETTI, S. R.</b>.  Participação em banca de Sergio Delbianco Filho. Estudo da Aplicação de Métodos Extrativos para Separação de Metais Pesados Contido em Resíduo Galvânico e seu Uso Como Componentes de Esmaltes Cerâmicos. 2008. Tese (Doutorado em Pós Graduação em Geologia Regional)  - IGCE, Unesp, Rio Claro. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a>; <b>CHRISTOFOLETTI, S. R.</b>.  Participação em banca de Tercilio de Almeida Coutinho Junior. Estudos dos Defeitos Associados a Carbonatos em Pisos e Revestimentos Cerâmicos por via Seca Fabricados no Póo Cerâmiico de Santa Gertrudes. 2009. Exame de qualificação (Doutorando em Pós Graduação em Geologia Regional)  - IGCE, Unesp, Rio Claro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a>; <b>CHRISTOFOLETTI, S. R.</b>.  Participação em banca de Gislaine Aparecida Barana Delbianco. Estudos dos Rejeitos de Galvanostegia e a sua aplicação na Fabricação de Peças Cerâmicas Rústicas para fins decorativos. 2007. Exame de qualificação (Doutorando em Pós Graduação em Geologia Regional)  - IGCE, Unesp, Rio Claro. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PICANCO, J. L.; <b>CHRISTOFOLETTI, S. R.</b>.  Participação em banca de Jéssica Katley Miranda Ferreira.Mineralogia em regolitos em áreas com históricos de escorregamento em Santos -SP.
+							2013 - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAMPOS, A. B.; <b>CHRISTOFOLETTI, S. R.</b>.  Participação em banca de Danel Seabra  Nogueira Alves Albarelli.Ambiente deposicional e caracterização cerâmica das argilas da Formação Araçatuba(Bacia Bauru) no Vale do Rio Santo Anastácio-SP.
+							2013. Trabalho de Conclusão de Curso (Graduação em Geologia)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6893272900174059" target="_blank">ZANARDO, Antenor</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a>.  Participação em banca de Renato Romano.Estudo de caracterização e Melhoramento das Argilas de duas Jazidas da Formação Corumbataí usadas em conjuntos para Produção de Pisos e Revestimentos Cerâmicos na Região de Rio Claro.
+							2003. Trabalho de Conclusão de Curso (Graduação em Geologia)  - Universidade Estadual Paulista Júlio de Mesquita Filho. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Borba, R.P.; Carmona, A; Azevedo, A.C.; Toledo, M.C.M.; <b>CHRISTOFOLETTI, S. R.</b>. CONCURSO PÚBLICO PARA PROFESSOR ADJUNTO DA UNIVERSIDADE FEDERAL DE SÃO PAULO-UNIFESP-CAMPUS DE DIADEMA.
+							2010. Universidade Federal de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Conceição, F.T.; ABREU, G.C.; BITTENCOURT, A. M. L. V.; JULIANI, C.; <b>CHRISTOFOLETTI, S. R.</b>. CONCURSO PÚBLICO PARA PROFESSOR ADJUNTO DA UNIVERSIDADE FEDERAL DE  SÃO PAULO - UNIFESP-CAMPUS DE DIADEMA.
+							2010. Universidade Federal de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b>; FERREIRA, L.M.; Azevedo, A.B.. Participação de banca examinadora do processo seletivo para fins de promoção por Merecimento para os integrantes da classe de Oficial de Apoio a Pesquisa Cientifica e Tecnológica do Instituto Geológico..
+							2006.
+							Instituto Geológico do Estado de São Paulo. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">57  Congresso Brasileiro de Cerâmica e VCongresso Ibero Americano de Cerâmica. LEGISLAÇÕES INCIDENTES SOBRE A ATIVIDADE MINERÁRIA EM ÁREAS. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Congresso da Industria Cerãmica de Revestimento. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Simpósio de Historia, Energia e Meio Ambiente.Horto Florestal de Rio Claro: da evolução das pesquisas científicas até a criação de um programa de Educação Ambiental.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de captação de Recursos do FEHIDRO e Cobranças PCJ.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro de Co-Formação - Criança Ecológica.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">53 Congresso Brasileiro de Cerâmica. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">52 Congresso Brasileiro de Cerâmica. PANORAMA ATUAL DOS IMPACTOS POSITIVOS E NEGATIVOS DA ATIVIDADE MINERÁRIA NO  APL  DE SANTA GERTRUDES-SP. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio de Divulgação Científica da FEENA.I Simpósio de Divulgação Científica da FEENA.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso da Indústria Cerâmica de Revestimento. Variações da matéria-prima da Formação Corumbataí e sua influência no processo cerâmico. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso da Indústria Cerâmica de Revestimento. Caracteristicas geológicas e tecnológicas da matéria-prima utilizada na industria cerâmica de revestimento. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">43  Congresso Brasileiro de Geologia. Um modelo de classificação Geológico-Tecnológica das argilas da Formação Corumbataí utilizadas nas indústrias do Pólo Cerâmico de Santa Gertrudes. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Interno do Instituto Geológico. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mesa Redonda de Comemoração do dia do Geólogo.Mercado de Trabalho x Perfil do Geólogo.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Simpósio de Geologia do Sudeste.VIII Simpósio de Geologia do Sudeste.
+							2003. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Congresso de Geoquímica dos Países de Língua Portuguesa. VI Congresso de Geoquímica dos Países de Língua Portuguesa. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">46   Congresso Brasileiro de Cerâmica. São Paulo (SP),. 46  Congresso Brasileiro de Cerâmica. São Paulo (SP),. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">41º Congresso Brasileiro de Geologia. João Pessoa (PB).. 41º Congresso Brasileiro de Geologia. João Pessoa (PB).. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">44   Congresso Brasileiro de Cerâmica. 44  Congresso Brasileiro de Cerâmica. 2000. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">31 st International Geological Congress. 31 st International Geological Congress. 2000. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">43   Congresso Brasileiro de Cerâmica e 4  Congresso de Cerâmica do Mercosul. A variação da capacidade de Troca Catiônica (CTC) em função da mineralogia das argilas. Proposta de Controle da matéria-prima mineral utilizada na indústria de revestimento cerâmico.. 1999. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2º Seminário de Pós-Graduação em Geociências.2º Seminário de Pós-Graduação em Geociências. 1999. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Simpósio de Geologia do Sudeste.VII Simpósio de Geologia do Sudeste.
+							1999. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">42º  Congresso Brasileiro de Cerâmica e 2º  Ibero-Americano de Cerámica, Vidirios y Refractarios. Relação entre as características das argilas da Formação Corumbataí (Jazida Cruzeiro), a ação do intemperismo e a qualidade de produtos cerâmicos.. 1998. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XL Congresso Brasileiro de Geologia. Belo Horizonte (MG),. Características Cerâmicas das Argilas das Argilas das Formações Corumbataí e Aquidauna/Subgrupo Itararé, e sua utilização nos Pólos de Mogi Guaçu e Santa Gertrudes. 1998. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Workshop " Qualidade em Cerâmica Vermelha".
+							1998. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">41   Congresso Brasileiro de Cerâmica e 2   Congresso de minerais industriais do Mercosul.. Panorama Atual do Pólo Cerâmico de Santa Gertrudes em função de novos estudos mineralógicos e texturais da matéria-prima utilizada na indústria de revestimentos. 1997. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Simpósio de Geologia do Sudeste.V Simpósio de Geologia do Sudeste.
+							1997. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1  Seminário de Pós-graduação em Geociências.Estudo mineralógico, químico e textural das Rochas da Formação Corumbataí  Jazida Cruzeiro  e suas implicações nos processos e produtos cerâmicos.. 1996. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXV Semana de Estudos Geológicos (SEGESP). 1995. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; Zanchetta, D. . Centenário da Criação do Horto Florestal de Rio Claro. 2009. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tornisiello, S.T. ; <b>CHRISTOFOLETTI, S. R.</b> . Dia Mundial da Água. 2009. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; MONTEIRO, R. ; Zanchetta, D. ; Diniz, F.V. . I Simpósio de Divulgação Científica da FEENA-Floresta Estadual Edmundo Navarro de Andrade. 2008. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruna Surian da Silva. Atividades do Programa de Pesquisa Científica e de Uso Público da FEENA.
+						Início: 2011.
+							Orientação de outra natureza. Universidade Federal de São Carlos. FUNDAP-Fundação do Desenvolvimento Administrativo. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vanessa Ferraz de Campo Bortolotti. Programa de Pesquisa Científica e Uso Público da FEENA.
+						Início: 2011.
+							Orientação de outra natureza. Centro Universitário Herminio Ometto de Araras. FUNDAP- Fundação do Desenvolvimento Administrativo. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcos Roberto Lopes. Atividades do Programa de Pesquisa Científica e Uso Público da FEENA.
+						Início: 2011.
+							Orientação de outra natureza. Universidade Federal de São Carlos. FUNDAP-Fundação do Desenvolvimento Administrativo. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fábio Henrique Sampaio.
+							Iventário das Pesquisas Científicas realizada na Floresta Estadual Edmundo Navarro de Andrade do período de 1990-2009.
+							2009.
+							Orientação de outra natureza. (Ciências Biológicas)  - Centro Universitário Herminio Ometto de Araras. Orientador: Sergio Ricardo Christofoletti.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ArtigosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Artigos</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHRISTOFOLETTI, S. R.;CHRISTOFOLETTI, SÉRGIO RICARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>CHRISTOFOLETTI, S. R.</b> ; AZEVEDO SOBRINHO, J. M. ; SOUZA, Marcos Henrique de Oliveira e ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5429929936266082" target="_blank">MORENO, Maria Margarita Torres</a> . Impactos Positivos e Negativos da Atividade Minerária no APL de Santa Gertrudes-SP. Cerâmica Industrial (Impresso)<sup><img id='14134608_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134608' /></sup>, v. 17, p. 33-38, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134608&volume=17&issue=&paginaInicial=33&titulo=Impactos Positivos e Negativos da Atividade Minerária no APL de Santa Gertrudes-SP&sequencial=1&nomePeriodico=Cerâmica Industrial (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RIBEIRO, ROGÉRIO RODRIGUES</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5935/0100-929x.20130001" target="_blank"></a>RIBEIRO, ROGÉRIO RODRIGUES ; <b>CHRISTOFOLETTI, SÉRGIO RICARDO</b> ; BATEZELLI, ALESSANDRO ; FITTIPALDI, FERNANDO CILENTO ; ZANCHETTA, DENISE . Inventário e avaliação do patrimônio natural geológico da região de Rio Claro (SP). Revista do Instituto Geológico<sup><img id='0100929X_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100929X' /></sup>, v. 34, p. 1-21, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.5935/0100-929x.20130001&issn=0100929X&volume=34&issue=&paginaInicial=1&titulo=Inventário e avaliação do patrimônio natural geológico da região de Rio Claro (SP)&sequencial=2&nomePeriodico=Revista do Instituto Geológico" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CHRISTOFOLETTI, S. R.</b> ; PEREIRA, M. F. . A FLORESTA ESTADUAL EDMUNDO NAVARRO DE ANDRADE E SUA IMPORTÂNCIA AMBIENTAL. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Consultor AD HOC  FAPITEC-SERGIPE - FUNDAÇAÕ DE APOIO A PESQUISA E A INOVAÇÃO TECNOLÓGICA DO ESTADO DE SERGIPE
+
+Participação no Projeto MASBAS (Caracterização de matérias-primas e Massas Básicas para Cerâmica e outros materiais). Coordenação Luiz Renato Grigoleto, RHAE Programa de Capacitação de Recursos Humanos para Atividades Estratégicas (Ministério da Ciência e Tecnologia-MCT) Processo 610037/98-6 
+
+Participação no Projeto Plataforma para a Indústria Brasileira de Revestimento Cerâmico. Coordenador Geral: José A. Armani Paschoal. Área de participação no Grupo Mineração e matérias-primas, coordenado pelo Prof. Dr. Giorgio de Tome. 
+
+Participação no Projeto CT Mineral. Coordenador Geral: Prof. Dr. José Francisco Marciano Motta. Convênio FINEP/MCT (Financiadora de Estudos e Projetos/Ministério da Ciência e Tecnologia). Processo. 23.01.0633.00
+
+Membro do Conselho Consultivo da Floresta Estadual Edmundo Navarro de Andrade , desde março de 2010</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:56:23</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0080558333299241" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

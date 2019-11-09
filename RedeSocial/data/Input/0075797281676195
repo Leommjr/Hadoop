@@ -1,0 +1,2303 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Pedro Braga Arcuri)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0075797281676195" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4783760A7&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4783760A7"><div class="infpessoa">
+<h2 class="nome">Pedro Braga Arcuri</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0075797281676195</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 20/02/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">PhD Cornell University (1999), Animal Science; Mestrado em Microbiologia Agrícola pela Universidade Federal de Viçosa (1985), Graduado em Agronomia pela Universidade Federal de Viçosa (1981). MBA Negócios e Empreendimentos UFJF 2007. Pesquisador A, Empresa Brasileira de Pesquisa Agropecuária. Chefe Adjunto de Pesquisa e Desenvolvimento da Embrapa Gado de Leite de março de 2004 a agosto de 2008. Professor-Orientador, credenciado junto aos Departamentos de Zootecnia da Faculdade de Ciências Agrárias e Veterinárias da Universidade do Estado de São Paulo, FCAV-UNESP Campus de Jaboticabal. Coordenador do Programa EMBRAPA LABEX Europa a partir de fevereiro de 2009. Articulador da Embrapa junto a entidades multilaterais, regionais e nacionais na Europa, baseado na FAO, Roma, a partir de julho de 2013.  Pesquisador na área de Microbiologia aplicada à Zootecnia, com ênfase em Ecologia Microbiana Ruminal; Dinâmica de populações de bactérias, fungos e protozoários de animais alimentados com forragens tropicais; Filogenia Molecular de Populações Microbianas; Avaliação dos Compostos Secundários (taninos, ácidos fenólicos) de forragens tropicais e seu efeito na microbiota ruminal. Os conhecimentos gerados por estudos in vitro visam especialmente, a utilização de subprodutos industriais na alimentação de ruminantes e no desenvolvimento de produtos de valor agregado para o aumento da eficiência da degradação de forragens tropicais (probióticos). Manejo de Dejetos visando redução do impacto ambiental na geração de gases causadores do efeito estufa, via produção de biogás.  Experiência anterior em Biotecnologia vegetal (clonagem de Genotipos Superiores de culturas ornamentais, café e Eucalyptus);.
+<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pedro Braga Arcuri</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ARCURI, P. B.;Arcuri, P.B.;Arcuri, Pedro Braga</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Empresa Brasileira de Pesquisa Agropecuária, Centro Nacional de Pesquisa de Gado de Leite, Laboratório de Microbiologia do Rúmen. <br class="clear" />Rua Eugênio do Nascimento No. 610<br class="clear" />Dom Bosco<br class="clear" />36038-330 - Juiz de Fora, MG - Brasil<br class="clear" />Telefone: (32) 33117402<br class="clear" />URL da Homepage: <a target="blank" href="http://www.cnpgl.embrapa.br">http://www.cnpgl.embrapa.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Animal Science<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Cornell University, CORNELL, Estados Unidos.
+		
+	<br class="clear" />Título: RNA extraction and estimation of ruminal cellulolytic populations in the presence of condensed tannins, Ano de obtenção: 1999. <br class="clear" />Orientador: Alice Nelson Pell. <br class="clear" />Bolsista do(a): Empresa Brasileira de Pesquisa Agropecuária, EMBRAPA, Brasil. <br class="clear" />Palavras-chave: Biologia molecular; Microbiologia do rúmen; taninos; silvopastoril; pastagens tropicais; bactérias celulolíticas. <br class="clear" />Grande área: Ciências Agrárias / Área: Zootecnia / Subárea: Nutrição e Alimentação Animal / Especialidade: Avaliação de Alimentos para Animais. <br class="clear" />Grande Área: Ciências Agrárias / Área: Zootecnia / Subárea: Nutrição e Alimentação Animal / Especialidade: Biologia Molecular. <br class="clear" />Grande Área: Ciências Agrárias / Área: Zootecnia / Subárea: Nutrição e Alimentação Animal / Especialidade: Microbiologia do Rúmen. <br class="clear" />Setores de atividade: Produção Animal, Inclusive Serviços Veterinários; Produtos e Processos Biotecnológicos; Nutrição e Alimentação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1982 - 1985</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Microbiologia Agrícola<span class="ajaxCAPES" data-param="&codigoCurso=32002017003P6&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Viçosa, UFV, Brasil.
+		
+	<br class="clear" />Título: EFEITO DA TEMPERATURA AMBIENTAL NA PRODUCAO E NA QUALIDADE DO BIOGAS EM  BIODIGESTOR (MODELO INDIANO NA ZONA DA MATA DE MINAS GERAIS).,Ano de Obtenção: 1986.<br class="clear" />Orientador: JOSE DE ALENCAR.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Grande área: Ciências Biológicas / Área: Microbiologia / Subárea: Microbiologia Aplicada / Especialidade: Ecologia Microbiana. <br class="clear" />Grande Área: Ciências Agrárias / Área: Zootecnia / Subárea: Nutrição e Alimentação Animal / Especialidade: Microbiologia do Rúmen. <br class="clear" />Grande Área: Ciências Agrárias / Área: Zootecnia / Subárea: Nutrição e Alimentação Animal. <br class="clear" />Setores de atividade: Produtos e Serviços Voltados Para A Defesa e Proteção do Meio Ambiente, Incluindo O Desenvolvimento Sustentado; Captação, Tratamento e Distribuição de Água, Limpeza Urbana, Esgoto e Atividades Conexas; Produtos e Processos Biotecnológicos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 1992</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Rumen Microbiology<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 1440h). <br class="clear" />Animal Farm Research Centre.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1977 - 1981</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Agronomia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Viçosa, UFV, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MBA em Curso de Especialização em MBA em Negócios e Empre.  (Carga Horária: 380h). <br class="clear" />Universidade Federal de Juiz de Fora, UFJF, Brasil.
+		
+	<br class="clear" />Título: Plano de Negócios para uma Embalagem de Queijo Minas Frescal "Cachiblema". <br class="clear" />Orientador: José Humberto Viana Lima Junior. <br class="clear" />Palavras-chave: Comércio de lácteos; consumo; Planejamento estratégico; Subprodutos de indústrias; Empreendedorismo.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de Desenvolvimento de Gestores da Embrapa. <br class="clear" />Fundação Dom Cabral.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1989 - 1989</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em PROTAP - Progr Treinamento Administração de P&D.  (Carga horária: 160h). <br class="clear" />Universidade de São Paulo.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Empresa Brasileira de Pesquisa Agropecuária, EMBRAPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor público ou celetista, Enquadramento Funcional: PESQUISADOR III, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1990 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor público ou celetista, Enquadramento Funcional: PESQUISADOR II, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/1999 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro Nacional de Pesquisa de Gado de Leite, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro de conselho  Gestão Estratégica da Embrapa Gado de Leite.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/1999 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro Nacional de Pesquisa de Gado de Leite, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Nutrição de ruminantes'>Nutrição de ruminantes</a><br class="clear" /><a href='#LP_Microbiologia do rúmen'>Microbiologia do rúmen</a><br class="clear" /><a href='#LP_Biologia molecular'>Biologia molecular</a><br class="clear" /><a href='#LP_Taninos de plantas forrageiras'>Taninos de plantas forrageiras</a><br class="clear" /><a href='#LP_Ecologia microbiana'>Ecologia microbiana</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/1990 - 2/1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro Nacional de Pesquisa de Gado de Leite, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Nutrição de ruminantes'>Nutrição de ruminantes</a><br class="clear" /><a href='#LP_Microbiologia do rúmen'>Microbiologia do rúmen</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1989 - 3/1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro Nacional de Pesquisa de Gado de Leite, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />COORDENADOR DO GRUPO DE PLANEJAMENTO ESTRATEGICO DO CNPGL..</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/1986 - 2/1990</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro Nacional de Pesquisa de Gado de Leite, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_PESQUISA E DESENVOLVIMENTO PRODUCAO DE BIOGAS RURAL.'>PESQUISA E DESENVOLVIMENTO PRODUCAO DE BIOGAS RURAL.</a><br class="clear" /><a href='#LP_microbiologia de anaeróbios'>microbiologia de anaeróbios</a><br class="clear" /><a href='#LP_ecologia de protozoários do rúmen'>ecologia de protozoários do rúmen</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Empresa de Pesquisa Agropecuária de Minas Gerais, EPAMIG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1990</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor público ou celetista, Enquadramento Funcional: Pesquisador II, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/1986 - 2/1990</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Sede, à Disposição da Embrapa Gado de Leite. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_nutrição de ruminantes'>nutrição de ruminantes</a><br class="clear" /><a href='#LP_produção de biogás'>produção de biogás</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Agroceres Sementes S A, BIOMATRIX/AGROCE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor público ou celetista, Enquadramento Funcional: ASSISTENTE TECNICO I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/1986 - 06/1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_PESQ.DESEN. PROC.PROD.MUDAS; ESPECIES COM.ATRAVES;CULT.TECIDOS VEGETAIS.'>PESQ.DESEN. PROC.PROD.MUDAS; ESPECIES COM.ATRAVES;CULT.TECIDOS VEGETAIS.</a><br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Nutri&ccedil;&atilde;o de ruminantes'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Nutrição de ruminantes</div>
+</div><a name='LP_Microbiologia do r&uacute;men'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Microbiologia do rúmen</div>
+</div><a name='LP_PESQUISA E DESENVOLVIMENTO PRODUCAO DE BIOGAS RURAL.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PESQUISA E DESENVOLVIMENTO PRODUCAO DE BIOGAS RURAL.</div>
+</div><a name='LP_microbiologia de anaer&oacute;bios'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">microbiologia de anaeróbios</div>
+</div><a name='LP_ecologia de protozo&aacute;rios do r&uacute;men'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ecologia de protozoários do rúmen</div>
+</div><a name='LP_Nutri&ccedil;&atilde;o de ruminantes'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Nutrição de ruminantes</div>
+</div><a name='LP_Microbiologia do r&uacute;men'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Microbiologia do rúmen</div>
+</div><a name='LP_Biologia molecular'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Biologia molecular</div>
+</div><a name='LP_Taninos de plantas forrageiras'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Taninos de plantas forrageiras</div>
+</div><a name='LP_Ecologia microbiana'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ecologia microbiana</div>
+</div><a name='LP_PESQ.DESEN. PROC.PROD.MUDAS; ESPECIES COM.ATRAVES;CULT.TECIDOS VEGETAIS.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PESQ.DESEN. PROC.PROD.MUDAS; ESPECIES COM.ATRAVES;CULT.TECIDOS VEGETAIS.</div>
+</div><a name='LP_nutri&ccedil;&atilde;o de ruminantes'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">nutrição de ruminantes</div>
+</div><a name='LP_produ&ccedil;&atilde;o de biog&aacute;s'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">produção de biogás</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Zootecnia / Subárea: Nutrição e Alimentação Animal/Especialidade: Microbiologia do Rúmen. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Microbiologia / Subárea: Microbiologia Aplicada/Especialidade: Microbiologia Industrial e de Fermentação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Sociais Aplicadas / Área: Administração / Subárea: Administração Pública/Especialidade: Planejamento em Ciência e Tecnologia. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Sanitária / Subárea: Saneamento Ambiental/Especialidade: Microbiologia Aplicada e Engenharia Sanitária. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Messana, Juliana Duarte</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/s1516-35982013000300008" target="_blank"></a>Messana, Juliana Duarte ; BERCHIELLI, T. T. ; <b>ARCURI, P. B.</b> ; REIS, Ricardo Andrade ; CANESIN, Roberta Carrilho ; Ribeiro, Andressa Ferreira ; Fiorentini, Giovani ; FERNANDES, Juliano José de Resende . Rumen fermentation and rumen microbes in Nellore steers receiving diets with different lipid contents. Revista Brasileira de Zootecnia (Online)<sup><img id='18069290_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18069290' /></sup>, v. 42, p. 204-212, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/s1516-35982013000300008&issn=18069290&volume=42&issue=&paginaInicial=204&titulo=Rumen fermentation and rumen microbes in Nellore steers receiving diets with different lipid contents&sequencial=1&nomePeriodico=Revista Brasileira de Zootecnia (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AGUIAR, SÍLVIA CRISTINA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s11274-013-1361-x" target="_blank"></a>AGUIAR, SÍLVIA CRISTINA ; ZEOULA, LÚCIA MARIA ; Franco, Selma Lucy ; PERES, LUCIMAR PONTARA ; <b>Arcuri, Pedro Braga</b> ; FORANO, EVELYNE . Antimicrobial activity of Brazilian propolis extracts against rumen bacteria in vitro. World Journal of Microbiology & Biotechnology<sup><img id='09593993_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09593993' /></sup>, v. 29, p. 1951-1959, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s11274-013-1361-x&issn=09593993&volume=29&issue=&paginaInicial=1951&titulo=Antimicrobial activity of Brazilian propolis extracts against rumen bacteria in vitro&sequencial=2&nomePeriodico=World Journal of Microbiology & Biotechnology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ARCURI, P. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><b>ARCURI, P. B.</b> ; ODENIO, A.A. ; ARCURI, E. F. ; RIBEIRO, M. T. ; GUIMARAES, M.F.M. ; CARNEIRO, J. C. . Tanin-tolerant bacteria from crossbred Holstein x Zebu cows. Pesquisa Agropecuária Brasileira (1977. Impressa)<sup><img id='0100204X_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100204X' /></sup>, v. 46, p. 272-279, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0100204X&volume=46&issue=&paginaInicial=272&titulo=Tanin-tolerant bacteria from crossbred Holstein x Zebu cows&sequencial=3&nomePeriodico=Pesquisa Agropecuária Brasileira (1977. Impressa)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MESSANA, J.D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.livsci.2010.02.001" target="_blank"></a>MESSANA, J.D. ; Berchielli, T.T. ; <b>ARCURI, P. B.</b> ; REIS, R.A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4726596193949022" target="_blank">MALHEIROS, E.B.</a> ; Rivera, A.R. ; Queiroz, M.F.S. . Effects of dry sugar cane yeast on the diet intake, digestibility and bovine rumen microbial populations. Livestock Science (Print)<sup><img id='18711413_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18711413' /></sup>, v. 129, p. 208-212, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.livsci.2010.02.001&issn=18711413&volume=129&issue=&paginaInicial=208&titulo=Effects of dry sugar cane yeast on the diet intake, digestibility and bovine rumen microbial populations&sequencial=4&nomePeriodico=Livestock Science (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Prado, Odimári Pricila Pires do</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S1516-35982010000900025" target="_blank"></a>Prado, Odimári Pricila Pires do ; Zeoula, Lucia Maria ; Moura, Lucimar Pontara Peres de ; Franco, Selma Lucy ; Paiva, Sara Barbosa de ; <b>Arcuri, Pedro Braga</b> . Isolation and expeditious morphological, biochemical and kinetic characterization of propolis-tolerant ruminal bacteria. Revista brasileira de zootecnia (Online)<sup><img id='18069290_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18069290' /></sup>, v. 39, p. 2048-2054, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S1516-35982010000900025&issn=18069290&volume=39&issue=&paginaInicial=2048&titulo=Isolation and expeditious morphological, biochemical and kinetic characterization of propolis-tolerant ruminal bacteria&sequencial=5&nomePeriodico=Revista brasileira de zootecnia (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Lopes, F.C.F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S0102-09352010000500020" target="_blank"></a>Lopes, F.C.F. ; Dornelas, R.A.C. ; Portugal, J.A.B. ; Carneiro, J.C. ; Verneque, R.S. ; Oliveira, J. Silva e ; <b>Arcuri, P.B.</b> ; Duque, A.C.A. . Digestibilidade da matéria seca de silagens de milho e de suplementos concentrados determinada por procedimentos in vitro. Arquivo Brasileiro de Medicina Veterinária e Zootecnia<sup><img id='01020935_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01020935' /></sup>, v. 62, p. 1167-1173, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S0102-09352010000500020&issn=01020935&volume=62&issue=&paginaInicial=1167&titulo=Digestibilidade da matéria seca de silagens de milho e de suplementos concentrados determinada por procedimentos in vitro&sequencial=6&nomePeriodico=Arquivo Brasileiro de Medicina Veterinária e Zootecnia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SOARES, J. P. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>SOARES, J. P. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4316322192042443" target="_blank">DERESZ, F.</a> ; <b>ARCURI, P. B.</b> ; SALMAN, A. ; OLIVEIRA, A. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8483490239401597" target="_blank">VERNEQUE, R. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5317385915649516" target="_blank">BERCHIELLI, T. T.</a> . Degradabilidade ruminal e digestibilidade intestinal da proteína de capim-elefante com três idades de corte. Arquivo Brasileiro de Medicina Veterinária e Zootecnia<sup><img id='01020935_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01020935' /></sup>, v. 61, p. 438-444, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01020935&volume=61&issue=&paginaInicial=438&titulo=Degradabilidade ruminal e digestibilidade intestinal da proteína de capim-elefante com três idades de corte&sequencial=7&nomePeriodico=Arquivo Brasileiro de Medicina Veterinária e Zootecnia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Elyas, Ana Cristina Wyllie</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S1516-35982009000600018" target="_blank"></a>Elyas, Ana Cristina Wyllie ; Paiva, Paulo César de Aguiar ; Lopes, Fernando César Ferraz ; Vilela, Duarte ; <b>Arcuri, Pedro Braga</b> ; Morenz, Mirton José Frota . Avaliação do modelo CNCPS na predição do consumo de matéria seca em vacas da raça Holandesa em pastejo. Revista brasileira de zootecnia (Online)<sup><img id='18069290_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18069290' /></sup>, v. 38, p. 1096-1103, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S1516-35982009000600018&issn=18069290&volume=38&issue=&paginaInicial=1096&titulo=Avaliação do modelo CNCPS na predição do consumo de matéria seca em vacas da raça Holandesa em pastejo&sequencial=8&nomePeriodico=Revista brasileira de zootecnia (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Messana, Juliana Duarte</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S1516-35982009001000025" target="_blank"></a>Messana, Juliana Duarte ; Berchielli, Telma Teresinha ; <b>Arcuri, Pedro Braga</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8605438226392855" target="_blank">Reis, Ricardo Andrade</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7900381645698082" target="_blank">Pires, Alexandre Vaz</a> ; Malheiros, Euclides Braga . Valor nutritivo do resíduo do processamento do caroço de algodão suplementado com levedura e avaliado em bovinos. Revista brasileira de zootecnia (Online)<sup><img id='18069290_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18069290' /></sup>, v. 38, p. 2031-2037, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S1516-35982009001000025&issn=18069290&volume=38&issue=&paginaInicial=2031&titulo=Valor nutritivo do resíduo do processamento do caroço de algodão suplementado com levedura e avaliado em bovinos&sequencial=9&nomePeriodico=Revista brasileira de zootecnia (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RISPOLI, T.B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>RISPOLI, T.B. ; RODRIGUES, I.L. ; MARTINS NETO, R.G. ; KAZAMA, R. ; PRADO, O.P.P. ; ZEOULA, L.M. ; <b>ARCURI, P. B.</b> . Protozoários ciliados do rúmen de bovinos e bubalinos alimentados com dietas suplementadas com monensina ou própolis. Pesquisa Agropecuária Brasileira (1977. Impressa)<sup><img id='0100204X_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100204X' /></sup>, v. 44, p. 92-97, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0100204X&volume=44&issue=&paginaInicial=92&titulo=Protozoários ciliados do rúmen de bovinos e bubalinos alimentados com dietas suplementadas com monensina ou própolis&sequencial=10&nomePeriodico=Pesquisa Agropecuária Brasileira (1977. Impressa)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MARTINELE, I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6662702248524077" target="_blank">MARTINELE, I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4114396917531479" target="_blank">LANA, R. P.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3613543137874919" target="_blank">D'AGOSTO, Marta Tavares</a> . Efeito da monensina e do óleo de soja sobre os protozoários ciliados do rúmen e correlação dos protozoários com parâmetros da fermentação ruminal e digestivos. Revista da Sociedade Brasileira de Zootecnia<sup><img id='01004859_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01004859' /></sup>, v. 37, p. 1129-1136, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01004859&volume=37&issue=&paginaInicial=1129&titulo=Efeito da monensina e do óleo de soja sobre os protozoários ciliados do rúmen e correlação dos protozoários com parâmetros da fermentação ruminal e digestivos&sequencial=11&nomePeriodico=Revista da Sociedade Brasileira de Zootecnia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VIDAL, J. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>VIDAL, J. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1925468904259349" target="_blank">PAIVA, P. C. A.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C.  F.</a> ; ZAQUINI, L. . Efeito de diferentes doses de enxofre no consumo voluntário e nas populações de protozoários do rúmen de novilhas mestiças alimentadas com capim-elefante de baixa qualidade. Ciência e Agrotecnologia<sup><img id='14137054_12' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14137054' /></sup>, v. 31, p. 218-222, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14137054&volume=31&issue=&paginaInicial=218&titulo=Efeito de diferentes doses de enxofre no consumo voluntário e nas populações de protozoários do rúmen de novilhas mestiças alimentadas com capim-elefante de baixa qualidade&sequencial=12&nomePeriodico=Ciência e Agrotecnologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LEOPOLDINO, W. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2884690221486165" target="_blank">LEOPOLDINO, W. M.</a> ; LANA, R. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3777978371784927" target="_blank">MANTOVANI, H. C.</a> ; MARTINS, R G . Avaliação de ionóforos pela técnica da perda do potássio celular e produção de gases in vitro. Arquivo Brasileiro de Medicina Veterinária e Zootecnia<sup><img id='01020935_13' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01020935' /></sup>, v. 59, p. 1516-1522, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01020935&volume=59&issue=&paginaInicial=1516&titulo=Avaliação de ionóforos pela técnica da perda do potássio celular e produção de gases in vitro&sequencial=13&nomePeriodico=Arquivo Brasileiro de Medicina Veterinária e Zootecnia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>EIFERT, E. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; LANA, R. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7180011272164516" target="_blank">LANNA, D. P. D.</a> ; Teixeira, R.M.A. ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1367907052743581" target="_blank">LEÃO, M. I.</a> ; Oliveira, M.V.M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3532765293459410" target="_blank">VALADARES FILHO, S. C.</a> . Perfil de Ácidos Graxos e Conteúdo de CLA no Leite de Vacas Alimentadas com a Combinação de Óleo de Soja e Fontes de Carboidratos na Dieta. Revista Brasileira de Zootecnia / Brazilian Journal of Animal Science<sup><img id='15163598_14' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15163598' /></sup>, v. 35, p. 1829-1837, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15163598&volume=35&issue=&paginaInicial=1829&titulo=Perfil de Ácidos Graxos e Conteúdo de CLA no Leite de Vacas Alimentadas com a Combinação de Óleo de Soja e Fontes de Carboidratos na Dieta&sequencial=14&nomePeriodico=Revista Brasileira de Zootecnia / Brazilian Journal of Animal Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>EIFERT, E. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4114396917531479" target="_blank">LANA, R. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7180011272164516" target="_blank">LANNA, D. P. D.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2884690221486165" target="_blank">LEOPOLDINO, W. M.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1367907052743581" target="_blank">LEÃO, M. I.</a> ; Cota, M.R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3532765293459410" target="_blank">VALADARES FILHO, S. C.</a> . Perfil de Ácidos Graxos do Leite de Vacas Alimentadas com Óleo de Soja e Monensina no Início da Lactação. Revista Brasileira de Zootecnia / Brazilian Journal of Animal Science<sup><img id='15163598_15' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15163598' /></sup>, v. 35, p. 219-228, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15163598&volume=35&issue=&paginaInicial=219&titulo=Perfil de Ácidos Graxos do Leite de Vacas Alimentadas com Óleo de Soja e Monensina no Início da Lactação&sequencial=15&nomePeriodico=Revista Brasileira de Zootecnia / Brazilian Journal of Animal Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>EIFERT, E. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; LANA, R. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7180011272164516" target="_blank">LANNA, D. P. D.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2884690221486165" target="_blank">LEOPOLDINO, W. M.</a> ; Oliveira, M.V.M. ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8348604414422828" target="_blank">CAMPOS, J. M. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1367907052743581" target="_blank">LEÃO, M. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3532765293459410" target="_blank">VALADARES FILHO, S. C.</a> . Consumo, Produção e Composição do Leite de Vacas Alimentadas com Óleo de Soja e diferentes Fontes de Carboidratos. Revista Brasileira de Zootecnia / Brazilian Journal of Animal Science<sup><img id='15163598_16' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15163598' /></sup>, v. 35, p. 211-218, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15163598&volume=35&issue=&paginaInicial=211&titulo=Consumo, Produção e Composição do Leite de Vacas Alimentadas com Óleo de Soja e diferentes Fontes de Carboidratos&sequencial=16&nomePeriodico=Revista Brasileira de Zootecnia / Brazilian Journal of Animal Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>COLLAO-SAENZ, E. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6136194482996787" target="_blank">COLLAO-SAENZ, E. A.</a> ; DIJKSTRA, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1925468904259349" target="_blank">PAIVA, P. C. A.</a> ; <b>ARCURI, P. B.</b> ; TEIXEIRA, J. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3683841585212260" target="_blank">PEREZ, J. R. O.</a> . Simulation model for particle dynamics in rumen of cattle fed sugarcane diet. Scientia Agricola, Piracicaba, v. 62, n.2, p. 102-110, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=62&issue=&paginaInicial=102&titulo=Simulation model for particle dynamics in rumen of cattle fed sugarcane diet&sequencial=17&nomePeriodico=Scientia Agricola" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>EIFERT, E. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4114396917531479" target="_blank">LANA, R. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1367907052743581" target="_blank">LEÃO, M. I.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3532765293459410" target="_blank">VALADARES FILHO, S. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2884690221486165" target="_blank">LEOPOLDINO, W. M.</a> ; OLIVEIRA, J. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8073679408720180" target="_blank">SAMPAIO, C. B.</a> . Efeito da combinação de óleo de soja e monensina na dieta sobre o consumo e digestão em vacas lactentes. Revista Brasileira de Zootecnia, Viçosa, v. 34, n.1, p. 293-308, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=34&issue=&paginaInicial=293&titulo=Efeito da combinação de óleo de soja e monensina na dieta sobre o consumo e digestão em vacas lactentes&sequencial=18&nomePeriodico=Revista Brasileira de Zootecnia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>EIFERT, E. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4114396917531479" target="_blank">LANA, R. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7180011272164516" target="_blank">LANNA, D. P. D.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1367907052743581" target="_blank">LEÃO, M. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3532765293459410" target="_blank">VALADARES FILHO, S. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2884690221486165" target="_blank">LEOPOLDINO, W. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9107885158463694" target="_blank">SILVA, J. H. S.</a> . Efeito do fornecimento de monensina e óleo de soja sobre o desempenho de vacas leiteiras em fase inicial de lactação. Revista da Sociedade Brasileira de Zootecnia<sup><img id='01004859_19' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01004859' /></sup>, Viçosa, MG, v. 34, n.6, p. 2123-2132, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01004859&volume=34&issue=&paginaInicial=2123&titulo=Efeito do fornecimento de monensina e óleo de soja sobre o desempenho de vacas leiteiras em fase inicial de lactação&sequencial=19&nomePeriodico=Revista da Sociedade Brasileira de Zootecnia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ARCURI, P. B.;Arcuri, P.B.;Arcuri, Pedro Braga</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>ARCURI, P. B.</b> ; THONNEY, M. L. ; SCHOFIELD, P. ; PELL, A. N. . Polyethylene glycol and polyvinylpirrolidone effect on bacterial rRNA extraction and hybridization from cells exposed to tannins. Pesquisa Agropecuária Brasileira<sup><img id='0100204X_20' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100204X' /></sup>, Brasília, v. 38, n.9, p. 1073-1081, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0100204X&volume=38&issue=&paginaInicial=1073&titulo=Polyethylene glycol and polyvinylpirrolidone effect on bacterial rRNA extraction and hybridization from cells exposed to tannins&sequencial=20&nomePeriodico=Pesquisa Agropecuária Brasileira" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LOPES, F. C. F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> ; <b>ARCURI, P. B.</b> ; DAYRELL, M. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2260220498736944" target="_blank">VITTORI, A.</a> . Efeitos da defaunação em ovinos alimentados com cana-de-açúcar (Saccharum officinarum, L.) adicionada de uréia. Arquivo Brasileiro de Medicina Veterinária e Zootecnia<sup><img id='01020935_21' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01020935' /></sup>, Belo Horizonte, v. 54, n.2, p. 180-188, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01020935&volume=54&issue=&paginaInicial=180&titulo=Efeitos da defaunação em ovinos alimentados com cana-de-açúcar (Saccharum officinarum, L.) adicionada de uréia&sequencial=21&nomePeriodico=Arquivo Brasileiro de Medicina Veterinária e Zootecnia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AROEIRA, L. J. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> ; SOARES, J. P. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4316322192042443" target="_blank">DERESZ, F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8483490239401597" target="_blank">VERNEQUE, R. S.</a> ; <b>ARCURI, P. B.</b> ; Matos, L. L. . Daily intake of lactating crossbred cows grazing elephant grass rotationally. Pesquisa Agropecuária Brasileira<sup><img id='0100204X_22' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100204X' /></sup>, Brasília, D.F., v. 36, n.6, p. 911-917, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0100204X&volume=36&issue=&paginaInicial=911&titulo=Daily intake of lactating crossbred cows grazing elephant grass rotationally&sequencial=22&nomePeriodico=Pesquisa Agropecuária Brasileira" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>D'AGOSTO, Marta Tavares</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1996</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3613543137874919" target="_blank">D'AGOSTO, Marta Tavares</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6741823067089250" target="_blank">CARNEIRO, Maria Elisa</a> ; M NETTO, ; <b>ARCURI, P. B.</b> . Avaliação dos ciliados do rúmen de bovinos mantidos com duas dietas . Arquivo Brasileiro de Medicina Veterinária e Zootecnia<sup><img id='01020935_23' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01020935' /></sup>, Belo Horizonte, MG, v. 48, n.3, p. 353-361, 1996. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01020935&volume=48&issue=&paginaInicial=353&titulo=Avaliação dos ciliados do rúmen de bovinos mantidos com duas dietas &sequencial=23&nomePeriodico=Arquivo Brasileiro de Medicina Veterinária e Zootecnia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ARCURI, P. B.;Arcuri, P.B.;Arcuri, Pedro Braga</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span><b>ARCURI, P. B.</b> ; MATOS, L. L. . Microbiologia do Rúmen. Informe Agropecuário<sup><img id='0100445X_24' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100445X' /></sup>, Belo Horizonte, MG, v. 16, n.175, p. 5-8, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0100445X&volume=16&issue=&paginaInicial=5&titulo=Microbiologia do Rúmen&sequencial=24&nomePeriodico=Informe Agropecuário" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERNANDES, E. N. ; MARTINS, P. C. ; MOREIRA, M. S. P. ; <b>ARCURI, P. B.</b> . Novos Desafios para o Leite no Brasil. Juiz de Fora, MG: Embrapa Gado de Leite, 2007. v. 1. 210p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERNANDES, E. N. ; PACIULLO, D. S. C. ; CASTRO, C. R. T. ; MULLER, M.D. ; <b>ARCURI, P. B.</b> ; CARNEIRO, J. C. ; PIRES, M. F. A. . Sistemas Agrossilvipastoris na América do Sul: Desafios e Potencialidades. Juiz de Fora, MG: Embrapa Gado de Leite, 2007. v. 1 CD. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, C. E. ; FERNANDES, E. N. ; MARTINS, P. C. ; MOREIRA, M. S. P. ; <b>ARCURI, P. B.</b> . VII Congresso Internacional do Leite; Trabalhos Técnico-científicos. Juiz de Fora, MG: Embrapa Gado de Leite, 2007. v. 1 CD. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARVALHO, L. A. (Org.) ; ZOCCAL, R. (Org.) ; MARTINS, P. C. (Org.) ; <b>ARCURI, P. B.</b> (Org.) ; MOREIRA, M. S. P. (Org.) . Tecnologia e Gestão na Atividade Leiteira. Juiz de Fora, MG: Embrapa Gado de Leite, 2005. 323p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZOCCAL, R. (Org.) ; CARVALHO, L. A. (Org.) ; MARTINS, P. C. (Org.) ; <b>ARCURI, P. B.</b> (Org.) ; MOREIRA, M. S. P. (Org.) . A Inserção do Brasil no Mercado internacional de Lácteos. Juiz de Fora: Embrapa Gado de Leite, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZOCCAL, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> ; MARTINS, P. C. ; MOREIRA, M. S. P. ; <b>ARCURI, P. B.</b> . Leite: Uma Cadeia Produtiva em Transformação. 1. ed. Juiz de Fora: Embrapa gado de leite, 2004. 268p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; CARNEIRO, J. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> . Microbiologia do Rumen. In: Telma Terezinha Berchielli; Simone Gisele de Oliveira; Alexandre Vaz Pires. (Org.). Nutrição de Ruminantes. 2ed.Jaboticabal: FUNEP, 2011, v. , p. -. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; PASSOS, L. P. ; PACIULLO, D. S. C. . Novos Temas para a Pecuária Leiteira. In: FERNANDES, E.N.; MARTINS, P. C.; MOREIRA, M.S.P.; ARCURI, P.B.;. (Org.). Novos Desafios para a Leite no Brasil. 1ed.Juiz de Fora, MG: Embrapa Gado de Leite, 2007, v. 1, p. 51-68. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; CARNEIRO, J. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C.  F.</a> . Microbiologia do Rumen. In: Telma Terezinha Berchielli; Simone Gisele de Oliveira; Alexandre Vaz Pires. (Org.). Nutrição de Ruminantes. 1ed.Jaboticabal: FUNEP, 2006, v. , p. -. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C.  F.</a> ; <b>ARCURI, P. B.</b> ; CARNEIRO, J. C. . Mandioca na Alimentação de Bovinos. In: SOUZA, L. S.; Farias, Alba R. N.; Mattos, P.L.P.; Fukuda, W.M.G.. (Org.). Processamento e Utilização da Mandioca. Brasília, D.F.: Embrapa Informação Tecnológica, 2005, v. , p. 444-514. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, P. C. ; YAMAGUCHI, Luiz Carlos T. ; <b>ARCURI, P. B.</b> ; ARCURI, E. F. . Pagamento do leite por qualidade no Brasil: motivações e obstáculos. In: João Walter Durr; Marcelo Pereira de Carvalho; Marcos Veiga dos Santos. (Org.). O compromisso com a qualidade do leite no Brasil. 1ªed.Passo Fundo: , 2004, v. , p. 87-104. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> . Aditivos alternativos para ruminantes - probióticos e enzimas. In: Sérgio Raposo Medeiros; Cacilda Borges do Valle; Ivo Martins Cézar; Tênisson Waldow de Souza. (Org.). Manejo Nutricional em Bovinos de Corte - Adoção de boas práticas na produção animal. 1ed.Campo Grande: Embrapa gado de leite, 2004, v. , p. 65-74. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; CARNEIRO, J. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> . Microrganismos indesejáveis em forragens conservadas: efeito sobre o metabolismo de ruminantes. In: Reis, R.A.; Bernardes, T.F.; Siqueira, G.R. et al.. (Org.). Volumosos na produção de ruminantes: valor alimentício de forragens. 1ªed.Jaboticabal: , 2003, v. , p. 51-69. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NEIVA, R. ; <b>ARCURI, P. B.</b> . Embrapa gado de Leite faz 25 anos de trabalho voltados para a pesquisa em bovinocultura de leite. Revista Raça Girolando, Uberaba, MG, , v. 11, p. 25 - 25, 20 jan.  2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; ARCURI, E. F. . Biotecnologia e microrganismos aplicados à agroindústria. Informe Agropecuário, Belo Horizonte, MG, , v. 204, p. 53 - 64, 23 jun.  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> . A dieta das Vacas. Panorama Rural, São Paulo, SP, p. 82 - 84. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9597699617595982" target="_blank">ELYAS, A. C. W.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1925468904259349" target="_blank">PAIVA, P. C. A.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C.  F.</a> ; VILELA, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3683841585212260" target="_blank">PEREZ, J. R. O.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8377813112549146" target="_blank">MORENZ, M.</a> ; MOTA, M. . Avaliação do modelo Cornell Net Carbohydrate and Protein System (CNCPS) na predição da produção de Leite e do consumo de matéria seca de vacas Holandês. In: XVII ZOOTEC, 2007, Londrina, PR. Anais da XVII ZOOTEC. Londrina, PR: Universidade Estadual de Londrina, 2007. v. 1 CD. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9597699617595982" target="_blank">ELYAS, A. C. W.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1925468904259349" target="_blank">PAIVA, P. C. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C.  F.</a> ; <b>ARCURI, P. B.</b> ; VILELA, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3683841585212260" target="_blank">PEREZ, J. R. O.</a> ; ALVES, N. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8377813112549146" target="_blank">MORENZ, M.</a> ; MOTA, M. . Cinética de passagem de partículas no trato gastrintestinal de vacas da raça holandês manejadas em sistemas de pastejo alimentadas com concentrado e silagem de milho. In: XVII ZOOTEC, 2007. Anais da XVII ZOOTEC. Londrina, PR: Universidade Estadual de Londrina. v. 1 CD. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9597699617595982" target="_blank">ELYAS, A. C. W.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1925468904259349" target="_blank">PAIVA, P. C. A.</a> ; VILELA, D. ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C.  F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8377813112549146" target="_blank">MORENZ, M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3683841585212260" target="_blank">PEREZ, J. R. O.</a> ; MOTA, M. . Avaliação do modelo Cornell Net Carbohydrate and Protein System (CNCPS) na predição da ingestão de matéria seca por vacas  Holandês. In: XVII ZOOTEC, 2007, Londrina, PR. Anais da XVII ZOOTEC. Londrina, PR: Universidade Estadual de Londrina, PR, 2007. v. 1 CD. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; CARNEIRO, J. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> . Microrganismos indesejáveis em forragens conservadas; efeito sobre o metabolismo de ruminantes. In: Simpósio Volumosos na Produção de Ruminantes; Valor nutritivo de forragens, 2003, Jaboticabal, SP. Anais do Simpósio "Volumosos na Produção de Ruminantes; valor nutritivo de forragens". Jaboticabal, SP: Editora FUNEP, Campus de Jaboticabal, 2003. p. 51-70. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> . Recentes Avanços em microbiologia ruminal e intestinal. In: II Simpósio Internacional de Bovinocultura de Leite: novos conceitos em nutrição, 2001, Lavras, MG. Anais do II SINLEITE. Lavras, MG: Universidade Federal de Lavras, 2001. p. 1-24. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> . A microbiota ruminal como fundamento para uma pecuária sustentável. In: XVI Semana de Ciências Agrárias e tecnológicas de Lavras, 2000, Lavras, MG. Anais da XVI Semana de ciências Agrárias e Tecnológicas de lavras. Lavras, MG: Universidade Federal de Lavras, 2000. p. 3-21. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> . Efeito da Temperatura Ambiental Na Producao e Qualidade do Biogas Em  Biodigestor Mod. Indiano Na Zona da Mata de Mg. In: XIV CONGRESSO BRASILEIRO DE MICROBIOLOGIA, 1987. VICOSA, MG, BRASIL. p. 0-0. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AGUIAR, S. C. ; ZEOULA, L.M. ; FORANO, E. ; <b>ARCURI, P. B.</b> ; FRANCO, S. L. ; PRADO, O.P.P. . Atividade antimicrobiana de diferentes extratos de própolis sobre bactérias ruminais. In: XLIX Reunião Anual da Sociedade Brasileira de Zootecnia, 2012, Brasilia. Anais da XLIX Reunião Anual da Sociedade Brasileira de Zootecnia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PRADO, O.P.P. ; Zeoula, Lucia Maria ; Paiva, Sara Barbosa de ; RESENDE, J.A. ; RISPOLI, T.B. ; <b>ARCURI, P. B.</b> ; PONTARA, L.P.M. . Caracterização expedita bioquimica de bactérias ruminais isoladas tolerantes a propolis. In: 46  Reunião Anual da Sociedade Brasileira de Zootecnia, 2009, Maringa. Anais da 46  Reunião Anual da Sociedade Brasileira de Zootecnia, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Messana, Juliana Duarte ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5317385915649516" target="_blank">BERCHIELLI, T. T.</a> ; <b>ARCURI, P. B.</b> ; RIBEIRO, A.F. ; CANESIN, R.C. ; FIORENTI, G. . Parâmetros ruminais de bovinos alimentados com diferentes teores de lipideos na dieta. In: 45a Reunião Anual da Sociedade Brasileira de Zootecnia, 2008, Lavras-MG. nais da 45a Reunião Anual da Sociedade Brasileira de Zootecnia, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Messana, Juliana Duarte ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5317385915649516" target="_blank">BERCHIELLI, T. T.</a> ; <b>Arcuri, Pedro Braga</b> ; RIBEIRO, A.F. ; CANESIN, R.C. ; DIAN, P.H.M. . Desempenho e caracteristicas de carcaça de bovinos de corte alimentados com diferentes teores de lipideos na dieta. In: 45a Reunião Anual da Sociedade Brasileira de Zootecnia, 2008, Lavras-MG. 45a Reunião Anual da Sociedade Brasileira de Zootecnia, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUES, I.L. ; SOUZA, R.C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3613543137874919" target="_blank">D'AGOSTO, Marta Tavares</a> ; REIS, R.B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C.  F.</a> ; Verneque, R.S. ; <b>Arcuri, Pedro Braga</b> . Protozoarios ciliados (Protista, Ciliophora) do rumen de vacas Holandês x Zebu em lactação alimentadas com dietas à base de cana-de-açucar, suplementadas com niveis crescentes da mistura uréia:sulfato de amônio. In: 45a Reunião Anual da Sociedade Brasileira de Zootecnia, 2008, Lavras-MG. 45a Reunião Anual da Sociedade Brasileira de Zootecnia, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RESENDE, J.A. ; Paiva, Sara Barbosa de ; RISPOLI, T.B. ; RIBEIRO, M. T. ; Carneiro, J.C. ; <b>ARCURI, P. B.</b> . Cultivo de fungos anaerobios do rumen de vacas Holandês x Zebu, sob condição de pastejo em Brachiaria spp., utilizando meio de cultura GSM. In: 45a Reunião Anual da Sociedade Brasileira de Zootecnia, 2008, Lavras-MG. 45a Reunião Anual da Sociedade Brasileira de Zootecnia, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RESENDE, J.A. ; Paiva, Sara Barbosa de ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C.  F.</a> ; RIBEIRO, M. T. ; CARNEIRO, J. C. ; <b>ARCURI, P. B.</b> . Teste de eficiência de Penicilina, Sulfato de Estreptomicina e Cloranfenicol para cultivo de fungos ruminais de vacas Holandês x Zebu sob condição de pastejo em Brachiaria spp.. In: 45a Reunião Anual da Sociedade Brasileira de Zootecnia, 2008. 45a Reunião Anual da Sociedade Brasileira de Zootecnia, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C.  F.</a> ; DUQUE, A. ; RODRIGUES, G. S. ; ELYAS, A. ; MONTEIRO, J. . Avaliação do modelo Cornell Net Carbohydrate and Protein System (CNCPS) na predição da produção de Leite e do consumo de matéria seca de vacas Holandês x Zebu. In: XXXVI Reunião Anual da Sociedade Brasileira de Zootecnia, 2007, Jaboticabal, SP. Anais da XXXVI Reunião da SBZ. Viçosa, MG: Sociedade Brasileira de Zootecnia, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DORNELAS, R. A. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C.  F.</a> ; PORTUGAL, J. A. B. ; CARNEIRO, J. C. ; <b>ARCURI, P. B.</b> ; OLIVEIRA, J. S. . Digestibilidade da matéria seca de silagens de milho e de suplementos concentrados determinada por diferentes procedimentos in vitro. In: XXXVI Reunião Anual da Sociedade Brasileira de Zootecnia, 2007, Jaboticabal, SP. Anais da XXXVI Reunião da SBZ. Viçosa, MG: Sociedade Brasileira de Zootecnia, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C.  F.</a> ; DUQUE, A. ; MOTA, A. C. S. ; <b>ARCURI, P. B.</b> ; DORNELAS, R. A. C. ; CARVALHO, A. C. . Avaliação do modelo CNCPS na predição da produção de leite e do consumo de matéria seca de vacas holandês recebendo dieta baseada em silagem de milho suplementada com concentrado. In: XXXVI Reunião Anual da Sociedade Brasileira de Zootecnia, 2007, Jaboticabal, SP. Anais da XXXVI Reunião da SBZ. Viçosa, MG: Sociedade Brasileira de Zootecnia, 2007. v. 1 CD. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4316322192042443" target="_blank">DERESZ, F.</a> ; OLIVEIRA, J. S. ; CARNEIRO, J. C. ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8377813112549146" target="_blank">MORENZ, M.</a> ; DUQUE, A. ; ELYAS, A. . Modelagem comparativa da cinética da fase sólida do capim-elefante picado, suplementado ou não com concentrados, e fornecido a vacas Holandês x Zebu em lactação. In: XLII Reunião Anual da Sociedade Brasileira de Zootecnia, 2005, goiânia. Sociedade Brasileira de Zootecnia, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4114396917531479" target="_blank">LANA, R. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7180011272164516" target="_blank">LANNA, D. P. D.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1367907052743581" target="_blank">LEÃO, M. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2884690221486165" target="_blank">LEOPOLDINO, W. M.</a> . Perfil de ácidos graxos do leite de vacas alimentadas com óleo de soja e monensina na 5ª e 15ª semanas da lactação. In: Reunião Anual da SBZ, 2005, Goiania. 42ª Reunião Anual da SBZ, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; VIDAL, J. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1925468904259349" target="_blank">PAIVA, P. C. A.</a> . Efeito de doses de enxofre na população de fungos do rúmen de bovinos alimentados com capim-elefante maduro mais uréia. In: XLI Reunião Anual da Sociedade Brasileira de Zootecnia, 2004, Campo Grande. Anais XLI Reunião Anual da Sociedade Brasileira de Zootecnia, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1925468904259349" target="_blank">PAIVA, P. C. A.</a> ; ELYAS, A. ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> ; VILELA, D. ; MOTA, M. ; SALES, E. C. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8377813112549146" target="_blank">MORENZ, M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6136194482996787" target="_blank">COLLAO-SAENZ, E. A.</a> . Aplicação do modelo CNCPS para vacas da raça holandesa a pasto. In: XLI Reunião Anual da Sociedade Brasileira de Zootecnia, 2004, Campo Grande. nias da XLI Reunião Anual da Sociedade Brasileira de Zootecnia, 2004. v. 41. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOTA, M. ; SANTOS, G. T. ; VILELA, D. ; ELYAS, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1925468904259349" target="_blank">PAIVA, P. C. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8483490239401597" target="_blank">VERNEQUE, R. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8377813112549146" target="_blank">MORENZ, M.</a> . Desempenho de vacas da raça holandesa a pasto. In: XLI Reunião Anual da Sociedade Brasileira de Zootecnia, 2004, Campo Grande. XLI Reunião Anual da Sociedade Brasileira de Zootecnia, 2004. v. 41. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOTA, M. ; SANTOS, G. T. ; VILELA, D. ; ELYAS, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1925468904259349" target="_blank">PAIVA, P. C. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8483490239401597" target="_blank">VERNEQUE, R. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8377813112549146" target="_blank">MORENZ, M.</a> . Parâmetros da fermentação ruminal em vacas da raça holandesa suplementadas a pasto. In: XLI Reunião Anual da Sociedade Brasileira de Zootecnia, 2004, Campo Grande. Anias da XLI Reunião Anual da Sociedade Brasileira de Zootecnia, 2004. v. 41. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; VIDAL, J. M. ; Isolamento de bactérias celulolíticas anaeróbias de conteúdo ; BASTOS, L. Z. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> . Efeito de doses de enxofre na população de protozoários e bactérias do rímen de bovinos alimentados com capim-elefante maduro mais uréia. In: XLI Reunião Anual da Sociedade Brasileira de Zootecnia, 2004, Campo Grande. anais da XLI Reunião Anual da Sociedade Brasileira de Zootecnia, 2004. v. 41. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6136194482996787" target="_blank">COLLAO-SAENZ, E. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1925468904259349" target="_blank">PAIVA, P. C. A.</a> ; DIJKSTRA, J. ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3683841585212260" target="_blank">PEREZ, J. R. O.</a> ; TEIXEIRA, J. C. ; ASSIS, A. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> . Validação de um modelo de simulação da digestão ruminal e disponibilidade de nutrientes em vacas em lactação alimentadas com cana-de-açucar. In: XLI Reunião Anual da Sociedade Brasileira de Zootecnia, 2004, Campo Grande. Anais da XLI Reunião Anual da Sociedade Brasileira de Zootecnia, 2004. v. 41. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> ; Aplicação da espectrofotometria para a quantificação de fenr . Total Phenolics from species belonging to an agroforestry system. In: 2nd International Symposium of Silvopastoral System, 2004, Merida. 2nd International Symposium of Silvopastoral System, 2004. v. 2. p. 282-285. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; LANA, R. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1367907052743581" target="_blank">LEÃO, M. I.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7180011272164516" target="_blank">LANNA, D. P. D.</a> ; VALADARES FILHO, S.C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2884690221486165" target="_blank">LEOPOLDINO, W. M.</a> . Isômeros trans-C18:1 e CLA na gordura do leite influenciados por óleo de soja e monensina na dieta de vacas lactantes. In: XLI Reunião Anual da SBZ, 2004, Campo Grande. Anais da XLI Reunião Anual da SBZ, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOARES, J. P. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5317385915649516" target="_blank">BERCHIELLI, T. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4316322192042443" target="_blank">DERESZ, F.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8483490239401597" target="_blank">VERNEQUE, R. S.</a> . Avaliação da digestibilidade intestinal pelos métodos in situ e in vitro da proteína do capim-elefante, em três idades de corte. In: Reunião Anual da SBZ, 2004, Campo grande. Anais da 41ª Reunião Anual da SBZ, 2004. v. 41. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; LANA, R. P. ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1367907052743581" target="_blank">LEÃO, M. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3532765293459410" target="_blank">VALADARES FILHO, S. C.</a> ; BOMFIM, M.A.B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2884690221486165" target="_blank">LEOPOLDINO, W. M.</a> . Efeitos da dieta com alto nível de óleo de soja em associação com monensina para vacas em diferentes fases da lactação. In: 40a. Reunião Anual da Sociedade Brasileira de Zootecnia, 2003, Santa Maria, RS. Anais da 40a. Reunião Anual da SBZ, Santa Maria, RS, 2003. v. CD_ROM. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4114396917531479" target="_blank">LANA, R. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1367907052743581" target="_blank">LEÃO, M. I.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2884690221486165" target="_blank">LEOPOLDINO, W. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3532765293459410" target="_blank">VALADARES FILHO, S. C.</a> ; BOMFIM, M.A.B. . Dieta com alto nível de óleo de soja em associação com monensina para vacas em lactação. In: 40a. Reunião Anual da Sociedade Brasileira de Zootecnia, 2003, Santa Maria, RS. Anais da 40a. Reunião Anual da sociedade Brasileira de Zootecnia, 2003. v. CD_ROM. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2884690221486165" target="_blank">LEOPOLDINO, W. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4114396917531479" target="_blank">LANA, R. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; <b>ARCURI, P. B.</b> ; JARENTCHUK, A. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3777978371784927" target="_blank">MANTOVANI, H. C.</a> ; BORGES, A. C. . Resistência de bactérias à perda de potássio intracelular de líquido ruminal proveniente de vacas lactantes recebendo dietas contendo óleo de soja e/ou monensina. In: 40a. Reunião Anual da sociedade Brasileira de Zootecnia, 2003, Santa Maria, RS. Anais da 40a. Reunião anual da sociedade Brasileira de Zootecnia, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, C.E.C.B. ; CARNEIRO, H. ; <b>ARCURI, P. B.</b> ; SCHWAN, R. F. . Isolation and identification of microrganisms involved in the fermentative process of sugar cane preserved as silage. In: World conference and animal production, 2003, Porto Alegre. World conference and animal production. Porto Alegre, 2003. v. 9. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRUM, S.S. ; CARNEIRO, H. ; <b>ARCURI, P. B.</b> . Aplicação da espectrofotometria para quantificação de tanino condensado em silagem de sorgo (Shorhum bicolor L.). In: Sociedade Brasileira de Química, 2003, Juiz de Fora. Anais da Sociedade Brasileira de Química, 2003. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AGUIAR, S. C. ; ZEOULA, L.M. ; <b>ARCURI, P. B.</b> ; PRADO, O.P.P. ; PONTARA, L.P. ; FRANCO, S. L. ; ANDANT, G ; FORANO, E. . Antimicrobial activity of Brazilian propolis against ruminal bacteria and identification of some resistant strains isolated from the rumen of dairy cows. In: 8th INRA-Rowett Symposium on Gut Microbiology - Gut Microbiota: Friend or Foe?, 2012, Clermont-Ferrand. 8th INRA-Rowett Symposium on Gut Microbiology - Gut Microbiota: Friend or Foe?, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, M. J. F. ; CORRÊA, T. A. ; <b>ARCURI, P. B.</b> ; CARNEIRO, J. C. ; RIBEIRO, M. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C.  F.</a> ; COSTA, F. J. N. . Extração e quantificação de taninos condensados a partir de diferentes métodos de secagem da amostra. In: XX Encontro Regional da Sociedade Brasileira de Química, 2007, São João del Rei. Anais do XX Encontro Regional da Sociedade Brasileira de Química. São João del Rei: Universidade Federal de São João del Rei, 2007. v. 1 CD. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; LANA, R. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7180011272164516" target="_blank">LANNA, D. P. D.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1367907052743581" target="_blank">LEÃO, M. I.</a> ; <b>ARCURI, P. B.</b> . Monensin and oil can have additive and synergistic effects on performance and milk fatty acid profiles. In: Annual Meeting of ADSA, 2005. Journal of Dairy Science, 2005. v. 88. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARNEIRO, H. ; <b>ARCURI, P. B.</b> ; RODRIGUES, José Avelino Santos ; SANTOS SOBRINHO, Fauto ; Aplicação da espectrofotometria para a quantificação de fenr ; VILLAQUIRAN, Mario . Evaluation of ensiled sorghums with and without condensed tannin as feed for ruminants. In: Annual Meeting of ADSA, 2004, Missouri. Journal of Dairy Science. Missouri, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRUM, S.S. ; CARNEIRO, H. ; <b>ARCURI, P. B.</b> ; SILVA, M. C. H. . Quantificação de tanino condensado de espécies forrageiras extraídos por diferentes solventes. In: XXVI Congresso Latinoamericano de Química, 2004, Salvador. Livro de Resumos: Congresso Latinoamericano de Química e 27ª Reunião Anual da sociedade brasileira de química, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1970715916178343" target="_blank">EIFERT, E. C.</a> ; LANA, R. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7180011272164516" target="_blank">LANNA, D. P. D.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8348604414422828" target="_blank">CAMPOS, J. M. S.</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1367907052743581" target="_blank">LEÃO, M. I.</a> ; VALADARES, R. D. . Milk production and fatty acid profile of cows fed different carbohydrare source and soybean oil. In: Annual Meeting of ADSA, 2004, Sant Louis. Journal of Dairy Science, 2004. v. 87. p. 334. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3613543137874919" target="_blank">D'AGOSTO, Marta Tavares</a> ; CORREA, I. M. ; <b>ARCURI, P. B.</b> . Efeito da adição de monensina e do óleo de soja a dietas de vacas leiteiras sobre os protozoários ciliados do rúmen. In: XVIII Congresso Brasileiro de Parasitologia, 2003, Rio de Janeiro. Anais do XVIII congresso Brasileiro de Parasitologia, 2003. p. 251-251. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aplicação da espectrofotometria para a quantificação de fenr ; CARNEIRO, H. ; <b>ARCURI, P. B.</b> . Aplicação da espectrofotometria para quantificação de taninos de sorgo (sorghum bicolor). In: IV congresso da Seção Regional da Sociedade Brasileira de Química, 2003, Juiz de Fora, MG. Anais do IV Congresso da Seção Regional da sociedade Brasileira de Química, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Isolamento de fungos do conteúdo ruminal de bovinos leiteiro ; CARNEIRO, H. ; <b>ARCURI, P. B.</b> ; SCHWAN, R. F. . Effect of stage of maturity on the nutritive value, isolation and identification of microorganisms involved in the fermentative process of sugarcane preserved as silage. In: Congresso Mundial de Produção Animal, 2003, Porto Alegre, RS. Anais do Congresso Mundial de Produção Animal, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; Isolamento de fungos do conteúdo ruminal de bovinos leiteiro ; Isolamento de fungos do conteúdo ruminal de bovinos leiteiro . Isolamento de fungos do conteúdo ruminal de bovinos leiteiros. In: XXXIX Reunião Anual da Sociedade Brasileira de Zootecnia, 2002, Recife PE. XXXIX Reunião Anual da Sociedade Brasileira de Zootecnia, 2002. p. 68. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; Isolamento de bactérias celulolíticas anaeróbias de conteúdo . Isolamento de bactérias celulolíticas anaeróbias de conteúdo ruminal de bovinos leiteiros. In: 4º Encontro Nacional de Biólogos, 2002, Ouro Preto MG. 4º Encontro Nacional de Biológos, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; Aplicação da espectrofotometria para a quantificação de fenr . Aplicação da espectrofotometria para a quantificação de fenóis totais em espécies forrageiras. In: XVI Encontro Regional da Sociedade Brasileira de Química, 2002, Viçosa. XVI Encontro Regional da Sociedade Brasileira de Química, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERNANDES, E. N. ; COUTO, L. ; ZOCCAL, R. ; <b>ARCURI, P. B.</b> . Avaliação de Impacto Ambiental (AIA) em bacias hidrográficas: aplicação dométodo Overlay mapping. In: FOREST'2000, 2000, Porto Seguro, BA. Anais do FOREST '2000. Viçosa, MG: Sociedade Brasileira de Investigações Florestais, 2000. p. 227-227. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERNANDES, E. N. ; COUTO, L. ; ZOCCAL, R. ; <b>ARCURI, P. B.</b> . Expert System: alternativa para o planejamento de sistemas agrosilvipastoris em bacias hidrográficas. In: FOREST'2000, 2000, Porto seguro, BA. Anais do FOREST'2000. Viçosa, MG: Sociedade Brasileira de Investigações Florestais, 2000. p. 303. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; THONNEY, M. L. ; SCHOFIELD, P. ; PELL, A. N. . Detecção de 16S rRNA de uma cocultura de Ruminococcus albus e Fibrobacter succinogenes na presença de níveis diferentes de taninos condensados. In: XXXVII Reunião Anual da Sociedade Brasileira de Zootecnia, 2000, Viçosa, MG. Anais da XXXVII Reunião da SBZ. Viçosa, MG: Sociedade Brasileira de Zootecnia, 2000. p. 624-624. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; THONNEY, M. L. ; SCHOFIELD, P. ; PELL, A. N. . Metodologia para a extração de RNA bacteriano na presença de taninos para o estudo da ecologia microbiano do rúmen. In: XXXVI Reunião Anual da Sociedade Brasileira de Zootecnia, 1999, Porto Alegre, RS. Resumo dos trabalhos apresentados na XXXVI Reunião da Sociedade Brasileira de Zootecnia. Porto alegre, RS: Sociedade Brasileira de Zootecnia, 1999. v. 36. p. 260. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; PELL, A. N. ; THONNEY, M. L. . Total RNA extraction from rumen bacteria exposed to tannins. In: XXIV Biennial Conference on Rumen Function, 1997, Chicago, Illinois, EUA. Abstracts, conference on Rumen Function. Urbana-Chaplain, IL, EUA: Illinois State University, Urbana-Chaplain, 1997. v. 24. p. 27. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> ; DAYRELL, M. S. ; OLIVEIRA, J. S. ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> ; ALMEIDA, C. R. . Avaliação do valor nutritivo de forragens tropicais: variação da população de bacérias ruminais em bovinos submetidos a diferentes tipos de dietas. In: XVIII Semana de Biologia e I Mostra de Produção Científica de Ciências Biológicas, 1994, Juiz de Fora. XVIII Semana de Biologia e I Mostra de Produção Científica de Ciências Biológicas, 1994. v. 18. p. 12. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> ; DAYRELL, M. S. ; OLIVEIRA, J. S. ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> ; GALVAO, G. G. ; ALMEIDA, C. R. . Utilização sob pastejo de forrageiras de alto valor nutritivo: efeito da defaunação na eficiência de siíntese de proteína microbiana no rúmen de carneiros alimentados à base de cana-de-açucar (Saccharum officinarum, L.) e uréia. In: XVIII Semana de Biologia e I Mostra de Produção Científica de Ciências Biológicas, 1994. XVIII Semana de Biologia e I Mostra de Produção Científica de Ciências Biológicas, 1994. v. 18. p. 13. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> ; DAYRELL, M. S. ; OLIVEIRA, J. S. ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> ; GALVAO, G. G. ; ALMEIDA, C. R. . Avaliação do valor nutritivo de forrageiras tropicais: determinação da eficiência de síntese de proteína bacteriana. In: XVIII Semana de Biologia e I Mostra de Produção Científica de Ciências Biológicas, 1994. XVIII Semana de Biologia e I Mostra de Produção Científica de Ciências Biológicas, 1994. v. 18. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> ; DAYRELL, M. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3613543137874919" target="_blank">D'AGOSTO, Marta Tavares</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6741823067089250" target="_blank">CARNEIRO, Maria Elisa</a> . Efeito do farelo de algodão na população de protozoários do rúmen de bovinos alimentados com cana mais 1% de uréia. In: XXVIII Reunião Anual da Sociedade Brasileira de Zootecnia, 1991, João Pessoa. Resumo dos trabalhos apresentados na XXVIII Reunião da Sociedade Brasileira de Zootecnia. Viçosa, MG: Sociedade Brasileira de Zootecnia, 1991. v. 28. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3613543137874919" target="_blank">D'AGOSTO, Marta Tavares</a> ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6741823067089250" target="_blank">CARNEIRO, Maria Elisa</a> . Ciliates in the rumen of steers fed sugar cane based diets. In: Congresso Brasileiro de Protozoologia, 1990, Caxambu, MG. Memórias do Instituto Oswaldo Cruz. Rio de janeiro, RJ: Fundação Oswaldo Cruz, 1990. v. 85. p. 132. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; ALENCAR, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8483490239401597" target="_blank">VERNEQUE, R. S.</a> . Efeito da Temperatura Ambiental Na Producao e Qualidade do Biogas Em Biodigestor Modelo Indiano Na Zona da Mata de Minas Gerais.. In: XIV Congresso Brasileiro de Microbiologia, 1987, Viçosa. Anais do XIV Congresso Brasileiro de Microbiologia. Viçosa, MG, Brasil: Universidade Federal de Viçosa, 1987. p. 0-0. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Resumos publicados em anais de congressos (artigos)</b>
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DAYRELL, M. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span>DAYRELL, M. S. ; <b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> . Toxidez de cobre em carneiros sem protozoários no rúmen. Arquivo Brasileiro de Medicina Veterinária e Zootecnia, Belo Horizonte MG, v. 45, p. 505-509, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=45&issue=&paginaInicial=505&titulo=Toxidez de cobre em carneiros sem protozoários no rúmen&sequencial=1&nomePeriodico=Arquivo Brasileiro de Medicina Veterinária e Zootecnia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> ; CARNEIRO, H. ; CARNEIRO, J. C. ; CARVALHO, L. A. ; CAMPOS, O. F. ; <b>ARCURI, P. B.</b> . Sistema de carboidratos e proteínas líquidos para avaliação da nutrição de rebanhos e excreção de nutrientes (CNCPS Versão 5.0): documentação do Modelo CNCPS. Juiz de Fora: Templo Gráfica e Editora, 2003. (Tradução/Livro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> . I Plano diretor do CNPGL.
+							Juiz de Fora, MG:
+									Embrapa Gado de leite,  1993 (Série Documentos da EMBRAPA). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; SANTOS, R. A. . Qualificação de aluna de doutoramento. 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3613543137874919" target="_blank">D'AGOSTO, Marta Tavares</a> . Efeito de polifenóis e de taninos condensados de forrageiras tropicais de um sistema silvipastoril na microbiota ruminal de bovinos leiteiros. 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> ; ASSIS, A. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5715466588092330" target="_blank">AROEIRA, L. J. M.</a> ; CARVALHO, L. A. ; CARNEIRO, H. . Predição do desempenho bovino leiteiro através de modelo matemático adaptado às condições brasileiras. 2000. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, C. A. ; CARVALHO, L. A. ; CAMPOS, O. F. ; <b>ARCURI, P. B.</b> . Embrapa Gado de Leite; 30 Anos de Pesquisa e Conquistas para o Brasil. 2006. (Editoração/Livro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARVALHO, L. A. ; ZOCCAL, R. ; MARTINS, P. C. ; <b>ARCURI, P. B.</b> ; MOREIRA, M. S. P. . Tecnologia e Gestão na Atividade Pecuária Leiteira. 2005. (Editoração/Livro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ASSIS, A. G. ; CARVALHO, L. A. ; <b>ARCURI, P. B.</b> ; CAMPOS, O. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2091963698845796" target="_blank">LOPES, F. C. F.</a> . Workshop sobre adaptação dp modelo Cornell Net Carbohydrate and Protein System - CNCPS ás condições tropicais. 2004. (Editoração/Anais). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINEZ, M. L. ; COSER, A. C. ; PEREIRA, A. V. ; <b>ARCURI, P. B.</b> . Embrapa Gado de Leite: 25 Anos Desenvolvendo a Pecuária de Leite Nacional. 2001. (Editoração/Livro). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> . Maximização do Sistema Ruminal. 2001 (Palestra) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> . Produtos trasngênicos e seus impactos na alimentação humana. 2000 (Palestra) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> . Nutrição e alimentação de caprinos. 2000 (Palestra) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> . ëtica na Pesquisa biológica. 2000 (Mesa redonda) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> . Técnicas de Biologia Molecular para o Estudo de Ecologia Microbiana. 1999 (Palestra) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ARCURI, P. B.</b> . Biodigestores rurais. 1999 (Palestra) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3683841585212260" target="_blank">PEREZ, J. R. O.</a>; <b>ARCURI, P. B.</b>; ABREU, L. R.; MUNIZ, J. A.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1925468904259349" target="_blank">PAIVA, P. C. A.</a>; TEIXEIRA, J. C..  Participação em banca de Flávia Maria David. Diferentes Quantidades de Soro de Leite na Alimentação de Vacas Secas. 2006. Tese (Doutorado em Programa de Pós-graduação em Zootecnia)  - Universidade Federal de Lavras. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIJKSTRA, J.; <b>ARCURI, P. B.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3683841585212260" target="_blank">PEREZ, J. R. O.</a>; TEIXEIRA, J. C.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1925468904259349" target="_blank">PAIVA, P. C. A.</a>.  Participação em banca de Edgar Alain Collao-Saenz. Modeling of Rumen Particle Dynamics in Dairy Cows Fed Sugarcane. 2004. Tese (Doutorado em Programa de Pós-graduação em Zootecnia)  - Universidade Federal de Lavras. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3777978371784927" target="_blank">MANTOVANI, H. C.</a>; BORGES, A. C.; <b>ARCURI, P. B.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1367907052743581" target="_blank">LEÃO, M. I.</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4114396917531479" target="_blank">LANA, R. P.</a>.  Participação em banca de Webel Machado Leopoldino. Efeito da Monensina, Lasalocida, Própolis, Acidez e Lipídeos sobre a Perda de Potássio e Fermentação de Populações de Bactérias do Rúmen. 2004. Tese (Doutorado em Programa de Pós-Graduação em Zootecnia)  - Universidade Federal de Viçosa. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">5o. Congresso Internacional do Leite. Moderador do Painel Estratégias de Gestão na Propriedade de Leite. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, P. C. ; <b>ARCURI, P. B.</b> ; MOREIRA, M. S. P. ; FERNANDES, E. N. . 6o. workshop "Políticas Públicas para o Agronegócio do Leite". 2007. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Isabella Lopes Rodrigues. Cultivo in vitro de protozoários ciliados (PROTISTA, CILIOPHORA).
+						Início: 2008.
+						Dissertação (Mestrado em Programa de Pós-Graduação em Ecologia - PGECOL)  - Universidade Federal de Juiz de Fora, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Co-orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Isabel Martinele Corrêa. Estudo biotecnológico do processo de degradação de ligno-celulose por microorganismos ruminais.
+						Início: 2008. Tese (Doutorado em Programa de Pós-graduação em Zootecnia)  - Universidade Federal de Lavras. (Co-orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7854920714936667'><img src='images/curriculo/logolattes.gif' /></a>Juliana Duarte. Valor nutritivo do resíduo do processamento do caroço de algodão suplementado com levedura e o efeito na microbiota ruminal. .
+							2006. 0 f.
+						
+					Dissertação  (Mestrado em Zootecnia)  - Universidade Estadual Paulista Júlio de Mesquita Filho, Fundação de Amparo à Pesquisa do Estado de São Paulo. Orientador: Pedro Braga Arcuri. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliana Miacci Vidal. Efeito de doses Diferentes de Enxofre no Consumo Voluntário de Capim-Elefante de Baixa Qualidade e nas Estimativas de Populações de Microrganismos e Parâmetros Ruminais em Novilhas Mestiças.
+							2005.
+						
+					Dissertação  (Mestrado em Programa de Pós-graduação em Zootecnia)  - Universidade Federal de Lavras, . Co-Orientador: Pedro Braga Arcuri. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7854920714936667'><img src='images/curriculo/logolattes.gif' /></a>Juliana Duarte Messana.
+						TEORES DE LIPÍDEOS EM DIETAS DE NOVILHOS NELORES SOBRE PARÂMETROS RUMINAIS, DESEMPENHO E CARACTERÍSTICAS DE CARCAÇA.
+							2009. Tese
+					 (Doutorado em Zootecnia (Nutricao e Producao Animal))  - Universidade Estadual Paulista Júlio de Mesquita Filho, Fundação de Amparo à Pesquisa do Estado de São Paulo. Orientador: Pedro Braga Arcuri. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduardo da Costa Eifert.
+						Fontes de carboidratos , óleo de soja e monensina para vacas lactantes: desempenho, digestibilidade, parâmetros ruminais e perfil de ácidos graxos doleite.
+							2004. Tese
+					 (Doutorado em Zootecnia)  - Universidade Federal de Viçosa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Co-Orientador: Pedro Braga Arcuri. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:53:11</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0075797281676195" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,1542 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Patr&iacute;cia Backes)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0078662705922479" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4509726D1&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4509726D1"><div class="infpessoa">
+<h2 class="nome">Patr&iacute;cia Backes</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0078662705922479</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 23/12/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Mestre em Ciências Farmacêuticas pela Universidade Federal de Santa Catarina. Dissertação defendida em 22 de fevereiro de 2013, com foco na área de Interações Medicamentosas e sistemas complexos.
+Graduação em Farmácia (2007) e Habilitação Bioquímica ênfase em Análises Clínicas concluída em agosto de 2010.
+<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Patrícia Backes</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">BACKES, P.;Backes, P.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Farmácia<span class="ajaxCAPES" data-param="&codigoCurso=41001010044P7&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Título: Identificação e Avaliação de Potenciais Interações Medicamentosas em Prescrições de Pacientes Internados no Hospital Universitário da UFSC,Ano de Obtenção: 2013.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3883761048741701'><img src='images/curriculo/logolattes.gif' /></a>Miriam de Barcellos Falkenberg.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Palavras-chave: Interações Medicamentosas; Hospital Universitário UFSC; polimedicação; papel do farmacêutico; análise sistêmica.<br class="clear" />Setores de atividade: Atividades de atenção à saúde humana. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aperfeiçoamento em Habilitação Bioquímica/Análises Clínicas<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 1800h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Título: Diagnóstico Laboratorial do Cryptococcus no Líquor: necessidade de um consenso?. Ano de finalização: 2010. <br class="clear" />Orientador: Jairo Ivo dos Santos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Farmácia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Título: Contraceptivos Orais Combinados: aspectos gerais e suas interações medicamentosas. <br class="clear" />Orientador: Januária Ramos Pereira. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio - análise de dados de tese de doutorado.  (Carga horária: 120h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Membro da área de Vendas-Intercâmbios Corporativos.  (Carga horária: 60h). <br class="clear" />AIESEC em Florianópolis.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Capacitação em Logística Farmacêutica.  (Carga horária: 16h). <br class="clear" />Conselho Regional de Farmácia de Santa Catarina.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Membro da área Gestão de Talentos.  (Carga horária: 100h). <br class="clear" />AIESEC em Florianópolis.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Curso de extensão Gestão de Qualidade no Laboratór.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Comparabilidade de Métodos Laboratoriais.  (Carga horária: 2h). <br class="clear" />Sociedade Brasileira de Patologia Clinica/Medicina Laboritorial.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Coordenadora de Seleção-área de Gestão de Talentos.  (Carga horária: 240h). <br class="clear" />AIESEC em Florianópolis.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Extensão universitária em Procedimentos Básicos em.  (Carga horária: 16h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Monitoria em Farmacologia VII - FMC 5221.  (Carga horária: 292h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Monitoria em Micologia Clínica - ACL 5104.  (Carga horária: 360h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de Capacitação Empresarial.  (Carga horária: 80h). <br class="clear" />Serviço Brasileiro de Apoio às Micro e Pequenas Empresas.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">C.F&Tna rede de serviços de saúde.  (Carga horária: 8h). <br class="clear" />Agência Nacional de Vigilância Sanitária.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio CIT - Centro de Informações Toxicológicas.  (Carga horária: 180h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Monitoria de Química Básica I - QMC 5104.  (Carga horária: 740h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Pharmaceutical Consultoria, PHARMA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Consultor e coordenador farmacêutico, Carga horária: 44, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Cia Latino Americana de Medicamentos - Rede de Farmácia Preço Popular, PREÇO POPULAR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Responsável Técnico (RT), Enquadramento Funcional: Farmacêutico RT, Carga horária: 44</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Dimed - Distribuidora de Medicamentos - Rede de Farmácias Panvel, DIMED S/A, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Responsável Técnico (RT), Enquadramento Funcional: Farmacêutico RT, Carga horária: 44</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Mestranda, Enquadramento Funcional: Mestrado, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Bolsista CNPq, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Laboratório de Ecofisiologia Respiratória - sob orientação do professo Dr. Danilo Wilhelm Filho</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Identifica&ccedil;&atilde;o e avalia&ccedil;&atilde;o das intera&ccedil;&otilde;es medicamentosas potenciais em prescri&ccedil;&otilde;es de  pacientes internados no Hospital Universit&aacute;rio da UFSC'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Identificação e avaliação das interações medicamentosas potenciais em prescrições de  pacientes internados no Hospital Universitário da UFSC<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Identificar o panorama e estado atual das prescrições do Hospital Universitário quanto a possíveis interações medicamentosas. Avalia-las quanto à severidade, inicio de ação e documentação, também proporcionar dados que possam ser destinados a investigações mais profundas e multidisciplinares quanto aos riscos e relevância clínica das interações encontradas.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Patrícia Backes - Coordenador / Miriam de Barcellos Falkenberg - Integrante / Kaedlyn Wachholz - Integrante.<br class="clear" /></div>
+</div><a name='PP_Avalia&ccedil;&atilde;o do potencial de interfer&ecirc;ncia anal&iacute;tica de f&aacute;rmacos no exame qu&iacute;mico de urina estudos in vitro e in vivo.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação do potencial de interferência analítica de fármacos no exame químico de urina estudos in vitro e in vivo.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Pesquisar sobre as principais interferências das interações medicamentosas em exames químicos de urina em uma parcela de pacientes do Hospital Universitário - HU-UFSC. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Patrícia Backes - Integrante / Miriam de Barcellos Falkenberg - Coordenador / Adriana Scotti da Silva - Integrante.<br class="clear" /></div>
+</div><a name='PP_Avalia&ccedil;&atilde;o do estresse oxidativo e dano celular em indiv&iacute;duos expostos direta e indiretamente &agrave; minera&ccedil;&atilde;o de carv&atilde;o e a seus afluentes'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação do estresse oxidativo e dano celular em indivíduos expostos direta e indiretamente à mineração de carvão e a seus afluentes<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto procurou avaliar os níveis de estresse oxidativo em trabalhadores mineiros antes e após suplementação com vitamina C e E, uma vez que a contaminação gerada por estas atividades aumentam o risco de desenvolvimento de patologias associadas às espécies reativas de oxigênio... <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Patrícia Backes - Integrante / Danilo Wilhelm Filho - Coordenador / Silvio Avila Junior - Integrante / Parisotto, E. B. - Integrante.<br class="clear" /></div>
+</div><a name='PP_An&aacute;lise do estresse oxidativo em trabalhadores expostos &agrave; emiss&atilde;o de poluentes atmosf&eacute;ricos de incinerador de res&iacute;duos s&oacute;lidos de servi&ccedil;so de sa&uacute;de'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise do estresse oxidativo em trabalhadores expostos à emissão de poluentes atmosféricos de incinerador de resíduos sólidos de serviçso de saúde<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo da pesquisa foi avaliar os níveis de estresse oxidativo em trabalhadores de equipamento de incineração expostos aos poluentes atmosféricos provenientes da queima dos resíduos sólidos de serviços de saúde (RSSS), comparativamente a trabalhadores indiretamente expostos e indivíduos não expostos ao processo.. 
+. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Patrícia Backes - Integrante / Danilo Wilhelm Filho - Coordenador / Eduardo Benedetti Parisoto - Integrante / Farbicio Pagani Possamai - Integrante.<br class="clear" /></div>
+</div><a name='PP_Monitoramento e status antioxidante e efeito da suplementa&ccedil;&atilde;o antioxidante em pacientes com cardiomiopatia chag&aacute;sica ap&oacute;s tratamento com benzonidazol'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitoramento e status antioxidante e efeito da suplementação antioxidante em pacientes com cardiomiopatia chagásica após tratamento com benzonidazol<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esse projeto visou avaliar as conseqüências do tratamento com benzonidazol e as possíveis influências da suplementação com vitaminas antioxidantes na progressão da doença e melhora na qualidade de vida desses pacientes, bem como o monitoramento do seu status antioxidante durante um período de cinco anos. 
+. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Patrícia Backes - Integrante / Danilo Wilhelm Filho - Coordenador / Patricia Budni - Integrante / Carine Muniz Ribeiro - Integrante.<br class="clear" /></div>
+</div><a name='PP_Avalia&ccedil;&atilde;o do estresse oxidativo na cardiopatia chag&aacute;sica cr&ocirc;nica ap&oacute;s terap&ecirc;utica antioxidant'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação do estresse oxidativo na cardiopatia chagásica crônica após terapêutica antioxidant<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Avaliar o quanto a suplementação antioxidante poderia diminuir o estresse oxidativo de uma doença crônica como a "doença de chagas". Amostrar dos pacientes, oriundos do RJ, foram coletadas antes e depois da suplementação vitamínica. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Patrícia Backes - Integrante / Danilo Wilhelm Filho - Coordenador / L.B. Maçao - Integrante / Aline Pereira - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Farmácia. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Farmácia / Subárea: Assistencia Farmaceutica. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Backes, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><b>Backes, P.</b> ; WACHHOLZ, K. ; FALKENBERG, M. B. . Potential drug interactions at a University Hospital (Florianopolis, Brazil) and the  Swiss cheese  approach to the role of pharmacists.. Acta Farmacéutica Bonaerense<sup><img id='03262383_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03262383' /></sup>, v. 32, p. 817-824, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03262383&volume=32&issue=&paginaInicial=817&titulo=Potential drug interactions at a University Hospital (Florianopolis, Brazil) and the  Swiss cheese  approach to the role of pharmacists.&sequencial=1&nomePeriodico=Acta Farmacéutica Bonaerense" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>POSSAMAI, F. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10646-009-0387-1" target="_blank"></a>POSSAMAI, F. P. ; Ávila, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9857729512767814" target="_blank">BUDNI, P.</a> ; <b>BACKES, P.</b> ; Parisotto, E. B. ; Rizelio, V. M. ; Torres, M. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9346462712672265" target="_blank">Colepicolo, P.</a> ; Wilhelm Filho, D. . Occupational airborne contamination in South Brazil: 2. Oxidative stress detected in the blood of workers of incineration of hospital residues. Ecotoxicology (London)<sup><img id='09639292_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09639292' /></sup>, v. 18, p. 1158-1164, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10646-009-0387-1&issn=09639292&volume=18&issue=&paginaInicial=1158&titulo=Occupational airborne contamination in South Brazil: 2. Oxidative stress detected in the blood of workers of incineration of hospital residues&sequencial=2&nomePeriodico=Ecotoxicology (London)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Ávila Júnior, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10646-009-0364-8" target="_blank"></a>Ávila Júnior, S. ; POSSAMAI, F. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9857729512767814" target="_blank">BUDNI, P.</a> ; <b>Backes, P.</b> ; Parisotto, E. B. ; Rizelio, V. M. ; Torres, M. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9346462712672265" target="_blank">Colepicolo, P.</a> ; Wilhelm Filho, D. . Occupational airborne contamination in south Brazil: 1. Oxidative stress detected in the blood of coal miners. Ecotoxicology (London)<sup><img id='09639292_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09639292' /></sup>, v. 18, p. 1150-1157, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10646-009-0364-8&issn=09639292&volume=18&issue=&paginaInicial=1150&titulo=Occupational airborne contamination in south Brazil: 1. Oxidative stress detected in the blood of coal miners&sequencial=3&nomePeriodico=Ecotoxicology (London)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'></span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10646-009-0364-8" target="_blank"></a><b>BACKES, P.</b> . OCCUPATIONAL AIRBORNE CONTAMINATION IN SOUTH BRAZIL: 1. OXIDATIVE STRESS DETECTED IN THE BLOOD OF COAL MINERS. Ecotoxicology (London)<sup><img id='09639292_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09639292' /></sup>, v. 18, p. 1150-1157, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10646-009-0364-8&issn=09639292&volume=18&issue=&paginaInicial=1150&titulo=OCCUPATIONAL AIRBORNE CONTAMINATION IN SOUTH BRAZIL: 1. OXIDATIVE STRESS DETECTED IN THE BLOOD OF COAL MINERS&sequencial=4&nomePeriodico=Ecotoxicology (London)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MAÇAO, L.b.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.ijcard.2006.11.118" target="_blank"></a>MAÇAO, L.b. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1011137270746048" target="_blank">PEDROSA, Roberto Coury</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5102309837920416" target="_blank">PEREIRA, Aline</a> ; <b>BACKES, P.</b> ; TORRES, Moacir Aloisio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9139920675607318" target="_blank">FRODE, Tânia Silvia</a> . Antioxidant therapy attenuates oxidative stress in chronic cardiopathy associated with Chagas' disease. International Journal of Cardiology<sup><img id='01675273_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01675273' /></sup>, v. 123, p. 43-49, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.ijcard.2006.11.118&issn=01675273&volume=123&issue=&paginaInicial=43&titulo=Antioxidant therapy attenuates oxidative stress in chronic cardiopathy associated with Chagas' disease&sequencial=5&nomePeriodico=International Journal of Cardiology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Backes, P.</b> ; WACHHOLZ, K. ; SOUZA, B. E. ; CANABARRO, I. M. ; COSTA, S. V. ; FALKENBERG, M. B. . Interações medicamentosas e URM - Dados da análise de prescrições no hospital universitário de Florianópolis-SC. In: IV Congresso Brasileiro sobre o Uso Racional de Medicamentos, 2012, Salvador- BA. Anais do IV Congresso  Brasileiro sobre o Uso Racional de Medicamentos. Brasilia-DF: Editora Ministério da Saúde, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BACKES, P.</b> ; COSTA, G. ; NEPOMUCENO, M.C. ; FALKENBERG, M. B. . Drug Interactions related to dipyrone according to Micromedex: analysis of bias.. In: 8th International Congress of Pharmaceutical Sciences, 2011, Ribeirão Preto. Open Abstract Media, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. S. ; SILVA, A.S. ; BALESTRINI, M.B. ; <b>BACKES, P.</b> ; FALKENBERG, M. B. . Uso de medicamentos por pacientes do hospital universitário/UFSC que apresentaram reação falso-positiva para proteína urinária em tiras reagentes. In: 15o Farmapolis, 2010, Florianopolis. Anais Farmapolis 2010, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PARISOTO, E. B. ; POSSAMAI, F. P. ; AVILA JUNIOR, S. ; <b>BACKES, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9857729512767814" target="_blank">BUDNI, P.</a> ; RIZELO, V. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> ; PEDROSA, Rozangela Curi . Oxidative Stress in the Blood of workers from a thermoeletric industry from south Brazil. In: XXXVII Annual Meeting of SBBq and Congress of the PABMB, 2008, Águas de Lindóia. Annual Meeting of SBBq and Congress of the PABMB, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FARIA, P. E. ; PARISOTO, E. B. ; PILATTI, K. ; <b>BACKES, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9857729512767814" target="_blank">BUDNI, P.</a> ; POSSAMAI, F. P. ; AVILA JUNIOR, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Enhanced  Oxidative Stress in the digestive gland of the clm anamolocardia brasiliana exposed to domestic sewage. In: 7th Iberian and 4th beroamerican congress of enviromental contamination and toxicology, 2008, Lisboa - Portugal. 7th Iberian and 4th beroamerican congress of enviromental contamination and toxicology, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POSSAMAI, F. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9857729512767814" target="_blank">BUDNI, P.</a> ; <b>BACKES, P.</b> ; BORTOLOTTO, T. ; PARISOTO, E. B. ; PILATTI, K. ; FARIA, P. E. ; RIZELO, V. M. ; AVILA JUNIOR, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Oxidative stress detected in the blood of workers of hospital residues incineration from South. In: 7th Iberian and 4th Iberoamerican congress of enviromental contamination toxicology, 2008, Lisboa - Portugal. 7th Iberian and 4th Iberoamerican congress of enviromental contamination toxicology, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AVILA JUNIOR, S. ; FARIA, P. E. ; PILATTI, K. ; <b>BACKES, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9857729512767814" target="_blank">BUDNI, P.</a> ; POSSAMAI, F. P. ; BORTOLOTTO, T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> ; FICAGNA, L. . Oxidative Stress detected in the blood of coal mining workers from South Brazil. In: 7th Iberian and 4th Iberoamerican congress of enviromental contamination toxicology, 2008, Lisboa - Portugal. 7th Iberian and 4th Iberoamerican congress of enviromental contamination toxicology, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>BACKES, P.</b> ; FACHINI, J. M. ; RIBEIRO, C. M. ; PEDROSA, Rozangela Curi ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Benznidazol treatment enhanced oxidative stress in chronic cardiopaty associated with Chagas' disease. In: Free Radicals In  - V Meeting of SFRBM - South American Group - V International Conference on Peroxynitrite and Reactive Nitrogen Species, 2007, Montevideo. Free Radicals in Montevideo 2007 - Book of Abstracts, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AVILA JUNIOR, S. ; FARIA, P. E. ; PARISOTO, E. B. ; PILATTI, K. ; <b>BACKES, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9857729512767814" target="_blank">BUDNI, P.</a> ; POSSAMAI, F. P. ; BORTOLOTTO, T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> ; FICAGNA, L. . Oxidative stress in the blood of coal mining workers from South Brazil. In: Free Radicals In  - V Meeting of SFRBM - South American Group - V International Conference on Peroxynitrite and Reactive Nitrogen Species, 2007, Montevideo. Free Radicals in Montevideo 2007 - Book of Abstracts, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FARIA, P. E. ; PARISOTO, E. B. ; PILATTI, K. ; <b>BACKES, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9857729512767814" target="_blank">BUDNI, P.</a> ; POSSAMAI, F. P. ; AVILA JUNIOR, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Enhanced  oxidative stress in the digestive gland of the Clam Anamolocardia brasiliana exposed to domestic sewage. In: Free Radicals In  - V Meeting of SFRBM - South American Group - V International Conference on Peroxynitrite and Reactive Nitrogen Species, 2007, Montevideo. Free Radicals in Montevideo 2007 - Book of Abstracts, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POSSAMAI, F. P. ; AVILA JUNIOR, S. ; <b>BACKES, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9857729512767814" target="_blank">BUDNI, P.</a> ; RIZELO, V. M. ; FARIA, P. E. ; PARISOTO, E. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Oxidative stress detected in the blood of workers of hospital residues incineration from South Brazi. In: Free Radicals In  - V Meeting of SFRBM - South American Group - V International Conference on Peroxynitrite and Reactive Nitrogen Species, 2007, Montevideo. Free Radicals in Montevideo 2007 - Book of Abstracts, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BACKES, P.</b> ; RIZELO, V. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5102309837920416" target="_blank">PEREIRA, Aline</a> ; PARISOTO, E. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9857729512767814" target="_blank">BUDNI, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1011137270746048" target="_blank">PEDROSA, Roberto Coury</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Efeito do tratamento com benzonidazol e da terapia antioxidante na cardiopatia chagásica crônica. In: XVII Seminário de Iniciação Científica da UFSC, 2007, Fpolis. Anais do Seminário de Iniciação Científica da UFSC, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIZELO, V. M. ; <b>BACKES, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5102309837920416" target="_blank">PEREIRA, Aline</a> ; PARISOTO, E. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9857729512767814" target="_blank">BUDNI, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1011137270746048" target="_blank">PEDROSA, Roberto Coury</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Avaliação do Estresse Oxidativo em Pacientes Chagásicos Crônicos após tratamento com benzonidazol e terapia antioxidante. In: XVII Seminário de Iniciação Científica da UFSC, 2007, Fpolis. Anais do XVII Seminário de Iniciação Científica da UFSC, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MAÇAO, L.b. ; <b>BACKES, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5102309837920416" target="_blank">PEREIRA, Aline</a> ; BEDIN, Mara ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1011137270746048" target="_blank">PEDROSA, Roberto Coury</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . The effect of antioxidant therapy on Chagasic patients with chronic cardiopathy. In: 13th Biennial Congress Society for Free radical Research, 2006, Davos. BCS for Free Radical Research, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		FACHINI, J. M. ; AVILA, T.v. ; <b>BACKES, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5102309837920416" target="_blank">PEREIRA, Aline</a> ; OLIVEIRA, J V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1011137270746048" target="_blank">PEDROSA, Roberto Coury</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> ; PEDROSA, Rozangela Curi . Oxidative stress in chronic chagasic patients treated with benznidazole (BZN). In: 13th Biennial Congress Society for Free radical Research, 2006, Davos. BCS for Free Radical Research, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5102309837920416" target="_blank">PEREIRA, Aline</a> ; <b>BACKES, P.</b> ; BOVERIS, Alberto ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Seasonal and ontogenetic changes in the antioxidant defenses of the marine fish Trichiurus lepturus. In: 13th Biennial Congress Society for Free radical Research, 2006, Davos. BCS for Free Radical Research, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MAÇAO, L.b. ; <b>BACKES, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5102309837920416" target="_blank">PEREIRA, Aline</a> ; BEDIN, Mara ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1011137270746048" target="_blank">PEDROSA, Roberto Coury</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9139920675607318" target="_blank">FRODE, Tânia Silvia</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Avaliação do Estresse Oxidativo na cardiopatia chagásica crônica após suplementação antioxidante. In: XVI SIC - Seminário de Iniciação Científica da UFSC, 2006, Florianópolis. XVI SIC - Seminário de Iniciação Científica da UFSC, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5102309837920416" target="_blank">PEREIRA, Aline</a> ; <b>BACKES, P.</b> ; BEDIN, Mara ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Avaliação Toxicológica in situ de efluentes da indústria de papel e celuloseno Rio Canoas-SC, usando biomarcadores de estresse oxidativo de tilápia. In: XVI Seminário de Iniciação Científica, 2006, Florianópolis. XVI Seminário de Iniciação Científica, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FACHINI, J. M. ; AVILA, T.v. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5102309837920416" target="_blank">PEREIRA, Aline</a> ; <b>BACKES, P.</b> ; PEDROSA, Rozangela Curi . Reduced Glutathione and Lipoperoxidation plasma of Chronic Chagasic Patients treated with Benzonidazole. In: XXXV Reunião Anual da SBBq, 2006, Águad de Lindóia. Revista da Sociedade Brasileira de Bioquímica e Biologia Molecular, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5102309837920416" target="_blank">PEREIRA, Aline</a> ; <b>BACKES, P.</b> ; MAÇAO, L.b. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Blood Atioxidant Defenses of the hammerhead shark Sphyrna lewini. In: 58ª Reunião Anual da SBPC, 2006, Florianópolis. Revista da Sociedade Brasileira para o Progresso da Ciência, 2006. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Backes, P.</b> ; WACHHOLZ, K. ; SOUZA, B. E. ; CANABARRO, I. M. ; COSTA, S. V. ; FALKENBERG, M. B. . Interações Medicamentosas e URM - dados da análise de prescrições no Hospital Universitário de Florianópolis-SC. 2012. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Backes, P.</b> . Uso Racional de Medicamentos. 2011. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BACKES, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9857729512767814" target="_blank">BUDNI, P.</a> ; RIBEIRO, C. M. ; PARISOTO, E. B. ; RIZELO, V. M. ; PEDROSA, Rozangela Curi ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Benznidazol treatment enhanced oxidative stress in chronic cardiopaty associated with Chagas' disease. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> ; MAÇAO, L.b. ; <b>BACKES, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5102309837920416" target="_blank">PEREIRA, Aline</a> ; BEDIN, Mara ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1011137270746048" target="_blank">PEDROSA, Roberto Coury</a> . The effect of Antioxidant Therapy on Chagasic Patients with Chronic cardiopaty. 2006. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MAÇAO, L.b. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5102309837920416" target="_blank">PEREIRA, Aline</a> ; <b>Backes, P.</b> ; TORRES, Moacir Aloisio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1011137270746048" target="_blank">PEDROSA, Roberto Coury</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4565173010472935" target="_blank">WILHELM FILHO, Danilo</a> . Avaliação do Estresse Oxidativo na Cardiopatia Chagásica Crônica após suplementação antioxidante. 2006. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Congresso Brasileiro sobre o Uso Racional de Medicamentos. Interações Medicamentosas e URM - Dados da Análise de Prescrições no Hospital Universitário da UFSC.. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Segurança do  Paciente na Administração de Medicamentos - Oficina Pré-Seminário.Interações Medicamentosas e Segurança do Paciente. 2012. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Workshop on Pharmaceutical R&D - INCT-if. 2012. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8th International Congress of Pharmaceutical Sciences. Drug Interactions related to dipyrone according to Micromedex: analysis of bias.. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Uso Racional de Antibióticos na Comunidade. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso Internacional sobre Uso Racional de Medicamentos.Oficina sobre URM. 2011. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aprimoramento em Diabetes para Farmacêuticos no Brasil. 2011. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Regional de Farmacêuticos preparatório para a 14a Conferência Nacional de Saúde.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FAD - Faça a Diferença. 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Nacional de Desenvolvimento Estratégico.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop do Projeto de Monitorização de Propaganda de Produtos Sujeitos à Vigilância Sanitária. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Nacional de Estudantes de Farmácia.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Free Radicals In  - V Meeting of SFRBM - South American Group - V International Conference on Peroxynitrite and Reactive Nitrogen Species. Benznidazol treatment enhanced oxidative stress in chronic cardiopaty associated with Chagas' disease. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2º Congresso Brasileiro sobre o Uso Racional de Medicamentos - Curso : Comissão de Farmácia e Terapêutica na rede de Serviços de Saúde. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXV Reunião Anual da SBBq. XXXV Reunião Anual da SBBq (Sociedade Brasileira de Bioquímica e Biologia Molecular). 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Toxicologia Clínica : Aspectos Emergenciais (CIT-SC). 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI Seminário de Iniciação Científica.Avaliação do Estresse Oxidativo na cardiopatia Chagásica crônica após suplementação antioxidante. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Curso de Formação de Facilitadores sobre o Ensino para o Uso Racional de Medicamentos no Estado de Santa Catarina. 2006. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">58ª Reunião Anual da SBPC.58ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Curso de Atualização - Atletas de Alta Performance: da Fisiologia à Nutrição. 2005. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Treinamento em Internet (Informações sobre medicamentos). 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BACKES, P.</b> . 8ª Jornada Acadêmica de Farmácia. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BACKES, P.</b> . 7a Jornada Acadêmica de Farmácia. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BACKES, P.</b> . 6a Jornada Acadêmica de Farmácia. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BACKES, P.</b> . 5a Jornada Acadêmica de Farmácia. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">**** Participação no Programa Work Experience WEUSA 2007/2008 - Experiência de Trabalho no exterior >> MAINE, EUA (dezembro de 2008 a março de 2009).
+
+**** Participação no Programa Work Experience WEUSA 2007/2008 - Experiência de Trabalho no exterior >> MAINE, EUA (dezembro de 2007 a março de 2008).
+</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:54:55</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0078662705922479" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

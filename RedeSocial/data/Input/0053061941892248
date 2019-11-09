@@ -1,0 +1,1282 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Olga Balachova)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0053061941892248" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4126157T9&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4126157T9"><div class="infpessoa">
+<h2 class="nome">Olga Balachova<br>
+<br>
+<span align="center" style="font-weight: bold" class="texto">Bolsista de Programa de Capacita&ccedil;&atilde;o Institucional do CNPq - N&iacute;vel DA</span>
+</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0053061941892248</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 20/01/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Física pela Universidade Estatal de Moscou "M. V. Lomonossov" (1982), mestrado em Engenharia Elétrica pela Universidade Estadual de Campinas (1998) e doutorado em Engenharia Elétrica pela Universidade Estadual de Campinas (2001). Atualmente é pesquisadora do Centro de Tecnologia da Informação Renato Archer e pesquisadora integrante do Instituto Nacional de Ciência e Tecnologia NAMITEC. Tem experiência na área de Física, com ênfase em Microfluídica, atuando principalmente nos seguintes temas: nanotubos de carbono, dispositivos de SAW, manipulação e atomização de líquidos usando dispositivos de SAW.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Olga Balachova</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">O. V. Balachova, Olga Balachova, O. V. Balashova</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Centro de Tecnologia da Informação Renato Archer, Divisão de Microssistemas. <br class="clear" />Rodovia Dom Pedro I (SP-65), km 143,6<br class="clear" />Amarais<br class="clear" />13069901 - Campinas, SP - Brasil<br class="clear" />Telefone: (19) 37466169<br class="clear" />Fax: (19) 37466169</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Engenharia Elétrica<span class="ajaxCAPES" data-param="&codigoCurso=33003017021P3&nivelCurso=D"></span>. <br class="clear" />Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	<br class="clear" />Título: Contribuição ao estudo das propriedades dielétricas e mecânicas dos filmes finos de a-C:H, obtidos por PECVD, Ano de obtenção: 2001. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2116015069218871'><img src='images/curriculo/logolattes.gif' /></a>Edmundo da Silva Braga. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada / Especialidade: Estruturas Eletrônicas e Propriedades Elétricas de Superfícies; Interf. e Partículas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Engenharia Elétrica<span class="ajaxCAPES" data-param="&codigoCurso=33003017021P3&nivelCurso=M"></span>. <br class="clear" />Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	<br class="clear" />Título: Caracterização da deposição e corrosão dos filmes finos de carbono amorfo hidrogenado (a-C:H) por plasma de RF,Ano de Obtenção: 1998.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2116015069218871'><img src='images/curriculo/logolattes.gif' /></a>Edmundo da Silva Braga.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada / Especialidade: Estruturas Eletrônicas e Propriedades Elétricas de Superfícies; Interf. e Partículas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1976 - 1982</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Física<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estatal de Moscou "M. V. Lomonossov".
+		
+	<br class="clear" />Bolsista do(a): Ministério da educação. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Microscopia Eletrônica de Transmissão.  (Carga horária: 80h). <br class="clear" />Centro Nacional de Pesquisa em Energia e Materiais.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Formação de projetistas de circuitos integrados.  (Carga horária: 413h). <br class="clear" />Centro de Tecnologia da Informação Renato Archer, CTI, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Centro de Tecnologia da Informação Renato Archer, CTI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista de PCI/MCT/CTI, Enquadramento Funcional: pesquisadora, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Divisão de Microssistemas, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Microfluídica, dispositivos de SAW'>Microfluídica, dispositivos de SAW</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Instituto Nacional de Ciência e Tecnologia de Sistemas Micro e Nanoeletrôni, INCT NAMITEC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro (especifique), Enquadramento Funcional: Pesquisadora integrante</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>SAWDES Projetos e Implementação de Tecnologia, SAWDES, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Sócia, Enquadramento Funcional: pesquisadora/administradora</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2003 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Sócia-gerente.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2003 - 02/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , SAWDES, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Microfluídica'>Microfluídica</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Centro de pesquisas espaciais "Energia", ENERGIA, Rússia.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1982 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: engenheira-pesquisadora, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/1982 - 05/1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Departamento 072, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Estudo de ligas de metais em condições de alto vácuo e temperaturas elevadas'>Estudo de ligas de metais em condições de alto vácuo e temperaturas elevadas</a><br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Microflu&iacute;dica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Microfluídica</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Desenvolvimento dos dispositivos (microbombas, sensores, atomizadores) baseados nas ondas acústicas superficiais. <br class="clear" />Palavras-chave: ondas acústicas superficiais.</div>
+</div><a name='LP_Estudo de ligas de metais em condi&ccedil;&otilde;es de alto v&aacute;cuo e temperaturas elevadas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo de ligas de metais em condições de alto vácuo e temperaturas elevadas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: elaboração de projetos, fabricação e calibração de equipamento experimental para o estudo de  diferentes  ligas em condições de alto vácuo, de altas temperaturas e de meio gasoso controlável. Elaboração  de normas  para  fabricação de novos materiais compostos na  área de pesquisas espaciais.
+. </div>
+</div><a name='LP_Microflu&iacute;dica, dispositivos de SAW'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Microfluídica, dispositivos de SAW</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Estudo de atomiza&ccedil;&atilde;o de mistura de nanotubos em l&iacute;quidos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo de atomização de mistura de nanotubos em líquidos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: neste projeto está sendo desenvolvido e estudado um método de deposição dos filmes finos de nanotubos de carbono (carbon nanotubes   CNTs) através de atomização, por um dispositivo atomizador, de uma gotícula de suspensão de CNTs em um solvente orgânico. O funcionamento do dispositivo atomizador é baseado na propagação e focalização de ondas acústicas superficiais (surface acoustic waves   SAW) na superfície de um substrato piezo-elétrico (LiNbO3). O jato de mistura atomizada é depositado na superfície de substratos mais usados em microeletrônica (Si, quartzo, LiNbO3). Os filmes obtidos estão sendo analisados e caracterizados por microscopia (óptica, SEM, AFM) e espectroscopia. Durante a execução do projeto é previsto obter um filme sensível para um sensor de gases baseado em tecnologia de SAW. Para garantir a qualidade dos filmes depositados, o processo será controlado através de monitoramento da distribuição de partículas em aerossol. Os filmes obtidos serão testados como sensores de H2 e etanol.
+O projeto prevê obtenção de alguns outros filmes sensíveis (óxido de grafeno, PVA) pelo método proposto para serem usados em outros tipos de sensores.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Olga Balachova - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Desenvolvimento de  sensores de ondas ac&uacute;sticas superficiais (SAW   Surface Acoustic Waves) recobertos com nanotubos de carbono'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de  sensores de ondas acústicas superficiais (SAW   Surface Acoustic Waves) recobertos com nanotubos de carbono<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: neste projeto, sensores de ondas acústicas superficiais (SAW   Surface Acoustic Waves) recobertos com nanotubos de carbono serão desenvolvidos para detecção química de compostos orgânicos voláteis. Nanotubos de carbono quando depositados sobre estes sensores podem aumentar sua sensibilidade a determinados gases. Alguns compostos como álcool etílico, etilacetato, tolueno e nitrogênio são normalmente detectados por este tipo de sensor, abrindo assim novas oportunidades para a determinação de compostos que podem ser de interesse para a agro-indústria. <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" /><br class="clear" />Integrantes: Olga Balachova - Integrante / Aristides - Integrante / Graça - Integrante / Serguei Balachov - Coordenador / Stanislav - Integrante / Sebastião Gomes - Integrante / Márcio Biasoli - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física dos Fluídos, Física de Plasmas e Descargas Elétricas/Especialidade: Microfluídica. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Física da Matéria Condensada/Especialidade: Materiais Dielétricos e Propriedades Dielétricas. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Aeroespacial / Subárea: Materiais e Processos para Engenharia Aeronáutica e Aeroespacial. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Russo</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">SCOPUS</div><div class="trab">Total de trabalhos:9</div><div class="cita">Total de citações:23</div><div class="detalhes">Balachova&nbsp;&nbsp;Data:&nbsp;14/05/2013</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BALASHOV, S. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0107663107513303" target="_blank">BALASHOV, S. M.</a> ; <b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; A. Pavani Filho ; BAZETTO, M. C. Q. ; M. G. de Almeida . Surface acoustic wave humidity sensors based on graphene oxide thin films deposited with the surface acoustic wave atomizer. ECS Transactions<sup><img id='19385862_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19385862' /></sup>, v. 49, p. 445-450, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19385862&volume=49&issue=&paginaInicial=445&titulo=Surface acoustic wave humidity sensors based on graphene oxide thin films deposited with the surface acoustic wave atomizer&sequencial=1&nomePeriodico=ECS Transactions" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>O. V. Balachova, Olga Balachova, O. V. Balashova</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0107663107513303" target="_blank">BALASHOV, S. M.</a> ; A. Pavani Filho . Deposition of thin films of nanomaterials by the surface acoustic wave atomizer. Smart Nanocomposites<sup><img id='19494823_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19494823' /></sup>, v. 3, p. 87-92, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19494823&volume=3&issue=&paginaInicial=87&titulo=Deposition of thin films of nanomaterials by the surface acoustic wave atomizer&sequencial=2&nomePeriodico=Smart Nanocomposites" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BALASHOV, S. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1149/1.3615203" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0107663107513303" target="_blank">BALASHOV, S. M.</a> ; <b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; A. Pavani Filho ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0432617620213212" target="_blank">Swart, J. W.</a> . SAW sensors and RF ID tags without a reference channel. ECS transactions<sup><img id='19385862_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19385862' /></sup>, v. 39 (1), p. 275-281, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1149/1.3615203&issn=19385862&volume=39 (1)&issue=&paginaInicial=275&titulo=SAW sensors and RF ID tags without a reference channel&sequencial=3&nomePeriodico=ECS transactions" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>O. V. Balachova, Olga Balachova, O. V. Balashova</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1149/1.3474169" target="_blank"></a><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0107663107513303" target="_blank">S. M. Balashov</a> ; A. Pavani Filho ; M. G. de Almeida . Multiwall carbon nanotubes thin film deposition with the help of symmetric focused surface acoustic wave atomizers. ECS transactions<sup><img id='19385862_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19385862' /></sup>, v. 31 (1), p. 267-272, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1149/1.3474169&issn=19385862&volume=31 (1)&issue=&paginaInicial=267&titulo=Multiwall carbon nanotubes thin film deposition with the help of symmetric focused surface acoustic wave atomizers&sequencial=4&nomePeriodico=ECS transactions" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>S. M. Balashov</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1149/1.3183731" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0107663107513303" target="_blank">S. M. Balashov</a> ; A. Pavani Filho ; <b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; M. G. de Almeida . Development of optimal symmetric focused SAW atomizers for nanoliter single droplet atomization. ECS Transactions<sup><img id='19385862_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19385862' /></sup>, v. 23 (1), p. 287-293, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1149/1.3183731&issn=19385862&volume=23 (1)&issue=&paginaInicial=287&titulo=Development of optimal symmetric focused SAW atomizers for nanoliter single droplet atomization&sequencial=5&nomePeriodico=ECS Transactions" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>O. V. Balachova, Olga Balachova, O. V. Balashova</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/S0026-2692(03)00008-9" target="_blank"></a><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2116015069218871" target="_blank">Braga, E. S.</a> . The protective effect of thin amorphous hydrogenated carbon a-C:H films during metallisation of metal-carbon-oxide-silicon (MCOS) diodes. Microelectronics (Luton) (Cessou em 1978. Cont. ISSN 0959-8324 Microelectronics Journal)<sup><img id='00262692_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00262692' /></sup>, v. 34, p. 877-880, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/S0026-2692(03)00008-9&issn=00262692&volume=34&issue=&paginaInicial=877&titulo=The protective effect of thin amorphous hydrogenated carbon a-C:H films during metallisation of metal-carbon-oxide-silicon (MCOS) diodes&sequencial=6&nomePeriodico=Microelectronics (Luton) (Cessou em 1978. Cont. ISSN 0959-8324 Microelectronics Journal)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>O. V. Balachova, Olga Balachova, O. V. Balashova</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/S0026-2692(01)00030-1" target="_blank"></a><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0432617620213212" target="_blank">Swart, J. W.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2116015069218871" target="_blank">Braga, E. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4099395953126191" target="_blank">Cescato, L.</a> . Permittivity of amorphous hydrogenated carbon (a-C:H) films as a function of thermal annealing. Microelectronics (Luton) (Cessou em 1978. Cont. ISSN 0959-8324 Microelectronics Journal)<sup><img id='00262692_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00262692' /></sup>, v. 32, p. 673-678, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/S0026-2692(01)00030-1&issn=00262692&volume=32&issue=&paginaInicial=673&titulo=Permittivity of amorphous hydrogenated carbon (a-C:H) films as a function of thermal annealing&sequencial=7&nomePeriodico=Microelectronics (Luton) (Cessou em 1978. Cont. ISSN 0959-8324 Microelectronics Journal)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Alves, M. A. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/S0026-2692(01)00046-5" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7892008707503451" target="_blank">Alves, M. A. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1537242800892614" target="_blank">Rossetto, J. F.</a> ; <b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2116015069218871" target="_blank">Braga, E. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4099395953126191" target="_blank">Cescato, L.</a> . Some optical properties of amorphous hydrogenated carbon films prepared by rf plasma deposition using methane. Microelectronics (Luton) (Cessou em 1978. Cont. ISSN 0959-8324 Microelectronics Journal)<sup><img id='00262692_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00262692' /></sup>, v. 32, p. 783-786, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/S0026-2692(01)00046-5&issn=00262692&volume=32&issue=&paginaInicial=783&titulo=Some optical properties of amorphous hydrogenated carbon films prepared by rf plasma deposition using methane&sequencial=8&nomePeriodico=Microelectronics (Luton) (Cessou em 1978. Cont. ISSN 0959-8324 Microelectronics Journal)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>O. V. Balachova, Olga Balachova, O. V. Balashova</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/S0026-2692(99)00140-8" target="_blank"></a><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7892008707503451" target="_blank">Alves, M. A. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0432617620213212" target="_blank">Swart, J. W.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2116015069218871" target="_blank">Braga, E. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4099395953126191" target="_blank">Cescato, L.</a> . CF4 plasma etching of materials used in microelectronics manufacturing. Microelectronics (Luton) (Cessou em 1978. Cont. ISSN 0959-8324 Microelectronics Journal)<sup><img id='00262692_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00262692' /></sup>, v. 31, p. 213-215, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/S0026-2692(99)00140-8&issn=00262692&volume=31&issue=&paginaInicial=213&titulo=CF4 plasma etching of materials used in microelectronics manufacturing&sequencial=9&nomePeriodico=Microelectronics (Luton) (Cessou em 1978. Cont. ISSN 0959-8324 Microelectronics Journal)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>O. V. Balachova, Olga Balachova, O. V. Balashova</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1063/1.369681" target="_blank"></a><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7892008707503451" target="_blank">Alves, M. A. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0432617620213212" target="_blank">Swart, J. W.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2116015069218871" target="_blank">Braga, E. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4099395953126191" target="_blank">Cescato, L.</a> . Influence of the substrate thickness and radio frequency on the deposition rate of amorphous hydrogenated carbon a-C:H films. Journal of Applied Physics<sup><img id='00218979_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00218979' /></sup>, v. 85, p. 3345-3347, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1063/1.369681&issn=00218979&volume=85&issue=&paginaInicial=3345&titulo=Influence of the substrate thickness and radio frequency on the deposition rate of amorphous hydrogenated carbon a-C:H films&sequencial=10&nomePeriodico=Journal of Applied Physics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Alves, M. A. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/S0042-207X(98)00305-4" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7892008707503451" target="_blank">Alves, M. A. R.</a> ; <b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2116015069218871" target="_blank">Braga, E. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4099395953126191" target="_blank">Cescato, L.</a> . Selective deposition of amorphous hydrogenated carbon films used as masks for reactive ion etching of Si using CF4. Vacuum<sup><img id='0042207X_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0042207X' /></sup>, v. 52, p. 313-314, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/S0042-207X(98)00305-4&issn=0042207X&volume=52&issue=&paginaInicial=313&titulo=Selective deposition of amorphous hydrogenated carbon films used as masks for reactive ion etching of Si using CF4&sequencial=11&nomePeriodico=Vacuum" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0107663107513303" target="_blank">S. M. Balashov</a> ; A. Pavani Filho . Deposition of Thin Films of Nanomaterials by the Surface Acoustic Wave Atomizer. Smart Nanoobjects. 1ed.St. Petersburg: Nova Publishers, 2013, v. , p. 42-48. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRAGA, A. V. U. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0107663107513303" target="_blank">S. M. Balashov</a> ; <b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; A. Pavani Filho ; CABRERA, H. A. P. . Characterization of a water activity SAW sensor with nanostructured sensitive film deposited by the SAW atomizer. In: IBERCHIP XIX Workshop, 2013, Cusco. IBERCHIP XIX Workshop Proceedings, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0107663107513303" target="_blank">S. M. Balashov</a> ; <b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; BRAGA, A. V. U. ; BAZETTO, M. C. Q. ; A. Pavani Filho ; S. Moshkalev . Kinetic characteristics of the SAW humidity sensor partially coated with graphene oxide thin film. In: 2013 Symposium on Microelectronics Technology and Devices (SBMicro), 2013, Curitiba-PR, Brasil. Proceedings of the 2013 Symposium on Microelectronics Technology and Devices (SBMicro), 2013. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0107663107513303" target="_blank">S. M. Balashov</a> ; <b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; BRAGA, A. V. U. ; BAZETTO, M. C. Q. ; A. Pavani Filho . The optimized SAW humidity sensor with nanofilms of graphene oxide. In: IEEE Sensors 2013 Conference, 2013, Baltimore-MD. IEEE Sensors 2013 Conference Proceedings, 2013. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0107663107513303" target="_blank">BALASHOV, S. M.</a> ; A. Pavani Filho ; M. G. de Almeida . Microaerossóis gerados por atomizadores de ondas acústicas superficiais. In: III Workshop em Microfluídica, 2013, Campinas-SP. Livro de Resumos, III Workshop em Microfluídica, 2013. p. 47-48. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> . Relatório parcial de atividades 01/03/2010-28/02/2011. 2013. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> . Relatório parcial de atividades 01/05/2011-30/04/2012. 2012. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> . Relatório final de atividades 01/03/2010-28/02/2011. 2011. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> . Relatório final de atividades 01/04/2011-30/04/2011. 2011. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> . Relatório final de atividades 01/03/2009-28/02/2010. 2010. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>O. V. Balachova, Olga Balachova, O. V. Balashova</b> . Study of atomization of a suspension of carbon nanotubes in solvents. 2010. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Workshop em Microfluídica.Microaerossóis gerados por atomizadores de SAW. 2013. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IEEE Sensors 2013 Conference.The optimized SAW humidity sensor with nanofilm of graphene oxide. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Workshop em Microfluídica.Obtenção de filmes finos usando um atomizador de SAW. 2012. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Encontro sobre Diamante, Carbono Amorfo, Nanotubos e Materiais Relacionados.Deposition of multi-walled CNT thin films by SAW atomization.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3-o Seminário em Tecnologia do CTI.Estudo de atomização de mistura de CNTs em líquidos. 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2010 Symposium on Microelectronics Technology and Devices (SBMicro).Multiwall carbon nanotubes thin film deposition with the help of symmetric  focused surface acoustic wave atomizers.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2-o Seminário em Tecnologia do CTI.Estudo de atomização de mistura de CNTs em líquidos. 2009. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 09/05/2014 &agrave;s 14:15:10</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0053061941892248" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

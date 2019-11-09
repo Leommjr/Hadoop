@@ -1,0 +1,3079 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Stefano Florissi)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0079301614008667" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4723700H0&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4723700H0"><div class="infpessoa">
+<h2 class="nome">Stefano Florissi</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0079301614008667</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 07/05/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">possui graduação em Economia pela Universidade Federal de Pernambuco (1991), mestrado em Economia - University of Illinois at Urbana Champaign (1993) e doutorado em Economia - University of Illinois at Urbana Champaign (1996). Atualmente é  da Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul e professor adjunto i da Universidade Federal do Rio Grande do Sul. Tem experiência na área de Economia, com ênfase em Crescimento e Desenvolvimento Econômico, atuando principalmente nos seguintes temas: regulação, desenvolvimento econômico, participação popular, orçamento público e telefonia móvel. 
+Atualmente é Coordenador do Curso de Especialização em Economia da Cultura no Programa de Pós-Graduação em Economia (PPGE) da Universidade Federal do Rio Grande do Sul (UFRGS).<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Stefano Florissi</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FLORISSI, S.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande do Sul, Faculdade de Ciências Econômicas. <br class="clear" />Av. João Pessoa, 52 - Sala 33B<br class="clear" />Centro<br class="clear" />90040-000 - Porto Alegre, RS - Brasil<br class="clear" />Telefone: (51) 33163440<br class="clear" />Fax: (51) 33163507</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />University of Illinois at Urbana Champaign.
+		
+	<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Grande área: Ciências Sociais Aplicadas / Área: Economia. <br class="clear" />Grande Área: Ciências Sociais Aplicadas / Área: Economia / Subárea: Economia do Bem-Estar Social. <br class="clear" />Grande Área: Ciências Sociais Aplicadas / Área: Economia / Subárea: Economia do Bem-Estar Social / Especialidade: Economia dos Programas de Bem-Estar Social. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Economia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />University of Illinois at Urbana Champaign.
+		
+	<br class="clear" />Título: PUBLIC CAPITAL, INFRASTRUCTURE AND PRODUCTIVITY IN THE BRAZILIAN ECONOMY, Ano de obtenção: 1996. <br class="clear" />Orientador: WERNER BAER. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Capital Publico; Crescimento; Infraestrutura.<br class="clear" />Grande área: Ciências Sociais Aplicadas / Área: Economia / Subárea: Crescimento, Flutuações e Planejamento Econômico / Especialidade: Crescimento e Desenvolvimento Econômico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1993</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Economia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />University of Illinois at Urbana Champaign.
+		
+	<br class="clear" />Título: FINDING A RATIONALE FOR PRIVATIZATION,Ano de Obtenção: 1993.<br class="clear" />Orientador: WERNER BAER.<br class="clear" />Palavras-chave: America Latina; Eficiencia; Privatizacao.<br class="clear" />Grande área: Ciências Sociais Aplicadas / Área: Economia / Subárea: Crescimento, Flutuações e Planejamento Econômico / Especialidade: Crescimento e Desenvolvimento Econômico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1987 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Economia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Pernambuco, UFPE, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aperfeiçoamento Pedagógico Paap. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul, FAPERGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: , Carga horária: 0</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Comitê Assessor de Economia e Administração - Área 7.
+				
+				</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto I, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">I love my job!</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Professor Visitante</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/1998 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Faculdade de Ciências Econômicas, Departamento de Ciências Econômicas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Regulação'>Regulação</a><br class="clear" /><a href='#LP_Economia da Cultura'>Economia da Cultura</a><br class="clear" /><a href='#LP_Gestão de Bem-estar'>Gestão de Bem-estar</a><br class="clear" /><a href='#LP_Finanças Públicas e Desenvolvimento Econômico'>Finanças Públicas e Desenvolvimento Econômico</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/1998 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Economia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Microeconomia I<br class="clear" />Microeconomia II<br class="clear" />Desenvolvimento Econômico<br class="clear" />Economia do Setor Público<br class="clear" />Economia da Regulação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1997 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Economia, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Microeconomia II<br class="clear" />Economia do Setor Público<br class="clear" />Elaboração e Análise de Projeto de Dissertação<br class="clear" />Estado e Economia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2005 - 7/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Faculdade de Ciências Econômicas, Departamento de Ciências Econômicas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro da Comissão de Seleção de Professor Substituto 2005/1.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2001 - 12/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-Reitoria de Pesquisa e Pós-Graduação, Curso de Pós-Graduação em Economia. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro de comissão de Pós-graduação.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/1998 - 4/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Faculdade de Ciências Econômicas, Departamento de Ciências Econômicas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro de colegiado superior.
+				
+				</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Roraima, UFRR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Professor Adjunto, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1996 - 03/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro de Ciências Adminsitrativas e Jurídicas, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Economia do Setor Público'>Economia do Setor Público</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1996 - 12/1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Economia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Economia I<br class="clear" />Economia do Setor Público<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>University of Illinois - System, UILLINOIS, Estados Unidos.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Assistente de Pesquisa</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/1991 - 01/1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_REGULATION'>REGULATION</a><br class="clear" /><a href='#LP_Economia do Setor Público'>Economia do Setor Público</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/1994 - 05/1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Economia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Advanced Microeconomics<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Pernambuco, UFPE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1990 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Iniciação Científica</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/1990 - 08/1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Microeconomia'>Microeconomia</a><br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Regula&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Regulação</div>
+</div><a name='LP_Economia da Cultura'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Economia da Cultura</div>
+</div><a name='LP_Gest&atilde;o de Bem-estar'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gestão de Bem-estar</div>
+</div><a name='LP_Finan&ccedil;as P&uacute;blicas e Desenvolvimento Econ&ocirc;mico'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Finanças Públicas e Desenvolvimento Econômico</div>
+</div><a name='LP_REGULATION'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">REGULATION</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Regulation in electricity markets. <br class="clear" />Grande área: Ciências Sociais Aplicadas / Área: Economia. </div>
+</div><a name='LP_Economia do Setor P&uacute;blico'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Economia do Setor Público</div>
+</div><a name='LP_Microeconomia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Microeconomia</div>
+</div><a name='LP_Economia do Setor P&uacute;blico'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Economia do Setor Público</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Economia da Cultura: Evid&ecirc;ncias Te&oacute;ricas e Emp&iacute;ricas para a Elabora&ccedil;&atilde;o de Pol&iacute;ticas P&uacute;blicas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Economia da Cultura: Evidências Teóricas e Empíricas para a Elaboração de Políticas Públicas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Objetivo
+Desenvolver, a partir de uma análise crítica da literatura teórica e empírica nacional e internacional, uma série de parâmetros que possibilitem gestores de políticas públicas a decidirem como melhor alocar recursos econômicos escassos no fomento às diversas áreas da cultura, tanto em função de seu mérito em si, como em função do fomento ao desenvolvimento social e econômico, e a conseqüente melhora na qualidade de vida, que estas podem propiciar.
+
+Justificativa
+Não existe ainda, no Brasil, nenhum trabalho científico organizado, que seja voltado para a
+construção de Parâmetros que possibilitem uma certa racionalidade nas discussões e decisões, de caráter público e privado, sob a ótica econômica, no sentido de alocar recursos escassos para investimentos em Cultura.
+
+Metodologia
+O trabalho consistirá, fundamentalmente, de exaustiva pesquisa bibliográfica, nacional e internacional, empírica e teórica, na economia e disciplinas afins. Além disso, entrevistas, pesquisas de campo e, eventualmente, trabalhos de cunho estatístico também serão usados.
+
+Referências Bibliográficas
+THROSBY, David. Economics and Culture. Cambridge University Press. 2001
+HEILBRUN, James; GRAY, Charles M.. The Economics of Art and Culture. Cambridge University Press. 2nd edition. 2001
+TOMOVA, Bilyana. Market Mechanisms of Financing Culture in Accession Countries: Scope, Trends, and Challenges in the Process of EU Enlargement. The case of Bulgaria, Hungary and Lithuania.
+
+. <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Stefano Florissi - Coordenador / Felipe Starosta de Waldemar - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Sociais Aplicadas / Área: Economia / Subárea: Crescimento, Flutuações e Planejamento Econômico/Especialidade: Crescimento e Desenvolvimento Econômico. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Sociais Aplicadas / Área: Economia / Subárea: Economia Monetária e Fiscal/Especialidade: Finanças Públicas Internas. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Italiano</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outros</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outros</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Paraninfo da Turma de Formandos de Economia, Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Paraninfo da Turma de Formandos em Cências Econômicas/UFRGS, UFRGS - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Artigo 3º Lugar no Prêmio Caixa RS de Economia da Cultura, Caixa RS. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, E. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>OLIVEIRA, E. R. ; <b>FLORISSI, S.</b> . CIDADE CRIATIVA: PERSPECTIVA DE DESENVOLVIMENTO SOCIOECONÔMICO PARA BOA VISTA (RR). RDE. Revista de Desenvolvimento Econômico<sup><img id='15161684_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15161684' /></sup>, v. 13, p. 121-134, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15161684&volume=13&issue=&paginaInicial=121&titulo=CIDADE CRIATIVA: PERSPECTIVA DE DESENVOLVIMENTO SOCIOECONÔMICO PARA BOA VISTA (RR)&sequencial=1&nomePeriodico=RDE. Revista de Desenvolvimento Econômico" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FLORISSI, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><b>FLORISSI, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6060665274028514" target="_blank">SOUZA, N. J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1027011694846632" target="_blank">SOUZA, R. B. L.</a> . A indústria petrolífera na visão da Nova Economia Institucional: o caso da Petróleos de Venezuela (PDVSA). Revista de Economia (Curitiba)<sup><img id='05565782_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='05565782' /></sup>, v. 34, p. 101-117, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=05565782&volume=34&issue=&paginaInicial=101&titulo=A indústria petrolífera na visão da Nova Economia Institucional: o caso da Petróleos de Venezuela (PDVSA)&sequencial=2&nomePeriodico=Revista de Economia (Curitiba)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SOUZA, Romina B.L</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1027011694846632" target="_blank">SOUZA, Romina B.L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6060665274028514" target="_blank">SOUZA, Nali</a> ; <b>FLORISSI, S.</b> . Aindústria petrolífera na visão da Nova EconomiaInstitucional: o caso da Petróleos de Venezuela PDVSA. Revista de Economía<sup><img id='07975546_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='07975546' /></sup>, v. 34, p. 101-117, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=07975546&volume=34&issue=&paginaInicial=101&titulo=Aindústria petrolífera na visão da Nova EconomiaInstitucional: o caso da Petróleos de Venezuela PDVSA&sequencial=3&nomePeriodico=Revista de Economía" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RIBEIRO, E. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8025102145074887" target="_blank">RIBEIRO, E. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2582856404619477" target="_blank">CAMPOS, Paulo Tiago Cardoso</a> ; <b>FLORISSI, S.</b> . INVESTIMENTOS EM CAPITAL HUMANO NO BRASIL: UM ESTUDO SOBRE RETORNOS FINANCEIROS PRIVADOS DE CURSO DE GRADUAÇÃO. Análise Econômica (UFRGS)<sup><img id='01029924_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01029924' /></sup>, v. 1, p. 23-46, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01029924&volume=1&issue=&paginaInicial=23&titulo=INVESTIMENTOS EM CAPITAL HUMANO NO BRASIL: UM ESTUDO SOBRE RETORNOS FINANCEIROS PRIVADOS DE CURSO DE GRADUAÇÃO&sequencial=4&nomePeriodico=Análise Econômica (UFRGS)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MARQUES JUNIOR, Liderau dos Santos</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4164084783422087" target="_blank">MARQUES JUNIOR, Liderau dos Santos</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8216384776554680" target="_blank">PORTO JÚNIOR, Sabino</a> ; <b>FLORISSI, S.</b> . Processo Orçamentário no Estado do Rio Grande do Sul: Uma proposta alternativa de participação popular na elaboração e fiscalização do orçamento público estadual. Revista de Economia Contemporânea<sup><img id='14159848_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14159848' /></sup>, Rio de Janeiro/RJ, v. 8, p. 317-349, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14159848&volume=8&issue=&paginaInicial=317&titulo=Processo Orçamentário no Estado do Rio Grande do Sul: Uma proposta alternativa de participação popular na elaboração e fiscalização do orçamento público estadual&sequencial=5&nomePeriodico=Revista de Economia Contemporânea" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FLORISSI, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><b>FLORISSI, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3474000900336232" target="_blank">FREITAS, T. A.</a> . Gastos Públicos e IDH: Um Estudo de Caso. Estudos do CEPE (UNISC)<sup><img id='14134128_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134128' /></sup>, Santa Cruz do Sul-RS, v. 17, p. 35-50, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134128&volume=17&issue=&paginaInicial=35&titulo=Gastos Públicos e IDH: Um Estudo de Caso&sequencial=6&nomePeriodico=Estudos do CEPE (UNISC)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FLORISSI, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b>FLORISSI, S.</b> ; NOSVITZ, J. . O Desafio da Desregulamentação do Mercado Elétrico Americano. Revista Indicadores Econômicos FEE, Porto Alegre, v. 30, n.1, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=30&issue=&paginaInicial=&titulo=O Desafio da Desregulamentação do Mercado Elétrico Americano&sequencial=7&nomePeriodico=Revista Indicadores Econômicos FEE" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FLORISSI, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b>FLORISSI, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8025102145074887" target="_blank">RIBEIRO, E. P.</a> . Tributação com Sacrifício Equitativo: o Caso do Imposto de Renda Pessoa Física. Análise Econômica (UFRGS)<sup><img id='01029924_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01029924' /></sup>, Porto Alegre, n.Março 2002, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01029924&volume=&issue=&paginaInicial=&titulo=Tributação com Sacrifício Equitativo: o Caso do Imposto de Renda Pessoa Física&sequencial=8&nomePeriodico=Análise Econômica (UFRGS)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FLORISSI, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><b>FLORISSI, S.</b> . Regulação: Uma Consolidação de Idéias. Cadernos Regionais do ITV, Brasília, v. 01, p. 49-67, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=01&issue=&paginaInicial=49&titulo=Regulação: Uma Consolidação de Idéias&sequencial=9&nomePeriodico=Cadernos Regionais do ITV" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FLORISSI, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>FLORISSI, S.</b> . Infrastructure, Public Capital And Growth In The Brazilian Economy. Análise Econômica (UFRGS)<sup><img id='01029924_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01029924' /></sup>, Porto Alegre, v. 15, n.27, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01029924&volume=15&issue=&paginaInicial=&titulo=Infrastructure, Public Capital And Growth In The Brazilian Economy&sequencial=10&nomePeriodico=Análise Econômica (UFRGS)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> (Org.) ; VALIATI, Leandro (Org.) . Economia da Cultura: Bem-estar econômico e evolução cultural. EDITORA UFRGS, 2007. v. 1. 118p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . Regulação: Teorias e Práticas das Experiências Nacional e Internacional Recentes. Porto Alegre/RS: UFRGS, 2005. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FIORETTI, E. C. ; <b>FLORISSI, S.</b> . RORAIMA NA REDE: CAMINHOS ALTERNATIVOS TECIDOS POR PRODUTORES E AGRICULTORES CULTURAIS. In: João de Jesus Paes Loureiro; Reginaldo Gomes de Oliveira; Rosangela Duarte. (Org.). ARTE E CULTURA NA AMAZÔNIA- OS NOVOS CAMINHOS. 1ed.Boa Vista: Editora da Universidade Federal de Roraima, 2012, v. , p. 131-146. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> ; REIS, A. B. . A tempestade perfeita. A CULTURA NA CRISE. Recife: Editora Massangana, 2010, v. , p. 23-35. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> ; VALIATI, Leandro . Construção de lugares de consumo e práticas culturais. In: Isabela Cribari. (Org.). Economia da Cultura. 1ed.Recife: Massangana, 2009, v. 1, p. 65-77. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . Os desafios da ciência econômica aplicada em um mundo multidisciplinar: valor, Estado, mercado e globalização. In: Fernando Schuler e Marília Barcellos. (Org.). Fronteiras: Arte e pensamento na época do multiculturalismo. : , 2007, v. , p. -. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> ; WALDEMAR, Felipe Starosta de . Economia da cultura: uma revisão da literatura. In: Leandro Valiati; Stefano Florissi. (Org.). Economia da Cultura: Bem-estar econômico e evolução cultural. : UFRGS, 2007, v. , p. 11-28. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VALIATI, Leandro ; <b>FLORISSI, S.</b> . A problemática da captação: relação entre os incentivos fiscais e a gestão dos recursos públicos na decisão privada da inversão cultural. In: Lenadro Valiati; Stefano Florissi. (Org.). Economia da Cultura: Bem-estar econômico e evolução cultural. : UFRGS, 2007, v. , p. 89-115. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4164084783422087" target="_blank">MARQUES JUNIOR, Liderau dos Santos</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8216384776554680" target="_blank">PORTO JÚNIOR, Sabino</a> ; <b>FLORISSI, S.</b> . Processo Orçamentário no Estado do Rio Grande do Sul: Uma proposta alternativa de participação popular na elaboração e fiscalização do orçamento público estadual. In: Sabino Porto Junior. (Org.). Uma nova relacao entre Estado, Sociedade e Economia no Brasil.. Santa Cruz do Sul: Edunisc, Santa Cruz do Sul, 2004, v. , p. -. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . Os Grandes Desafios e as Oportunidades do Mercado de Eletricidade nos Estados Unidos. In: Corazza, G.. (Org.). A Energia Eletrica em debate, a experiência brasileira e internacional de regulaçao. Porto Alegre: Editora da UFRGS, 2003, v. , p. -. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1027011694846632" target="_blank">SOUZA, R. B. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6060665274028514" target="_blank">SOUZA, N. J.</a> . Análise de Indicadores Econômicos e Sociais daVenezuela, 1999/2008. Revista de Desenvolvimento Econômico, Salvador/BA, p. 30 - 40, 20 jul.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . Eleições nos Estados Unidos. Jornal do Comércio, Porto Alegre, 24 set.  2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . Reforma Tributária: Subsídios para uma Discussão. Jornal do Comércio, 09 jul.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . Reforma Tributária: Subsídios para uma Discussão. Jornal do CORECON/RS, 01 abr.  2002. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FANTINEL, V. D. ; WINK JUNIOR, M. V. ; <b>FLORISSI, S.</b> . Impactos da Criação da Ancine e das Leis de Incentivo à Cultura sobre o Cinema Brasileiro. In: 41º Encontro Nacional de Economia, 2013, Foz do Iguaçu/PR. Anais do 41º Encontro Nacional de Economia - ANPEC, 2013., 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AMARO, G. ; ARCO-VERDE, M. F. ; <b>FLORISSI, S.</b> . Simulação da Adoção de Sistemas Agroflorestais na Amazônia Brasileira Utilizando Modelos de Dinâmica de Sistemas. In: VIII Congresso Brasileiro de Agroinformatica, 2011, Bento Gonçalves. Anais do VIII Congresso Brasileiro de Agroinformatica, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AMARO, G. ; ARCO-VERDE, M. F. ; <b>FLORISSI, S.</b> . Simulação da Adoção de Sistemas Agroflorestais na Amazônia Brasileira  Utilizando Modelos de Dinâmica de Sistemas. In: II Congresso Brasileiro de Dinâmica de Sistemas, 2011, Brasilia. Anais do II Congresso Brasileiro de Dinâmica de Sistemas, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FIORETTI, E. C. ; <b>FLORISSI, S.</b> . Políticas culturais e desenvolvimento  socioeconômico: alternativas de  produtores e articuladores culturais em  Boa Vista, no estado de Roraima. In: II Seminário Internacional de Políticas Culturais, 2011, Rio de Janeiro. II Seminário Internacional de Políticas Culturais, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VALIATI, Leandro ; <b>FLORISSI, S.</b> . A problemática da captação: relação entre os incentivos fiscais e a gestão dos recursos públicos na decisão privada da inversão cultural. In: VI EELP " Encontro de Economistas de Língua Portuguesa", 2006, Luanda. Anais do VI EELP, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VALIATI, Leandro ; <b>FLORISSI, S.</b> . Incentivo público à cultura por renúncia fiscal sob a ótica das interações entre utilidade privada e benefício social. In: III Encontro de Economia Gaúcha, 2006, Porto Alegre. Encontro de Economia Gaúcha, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VALIATI, Leandro ; <b>FLORISSI, S.</b> . A problemática da captação: relação entre os incentivos fiscais e a gestão dos recursos públicos na decisão privada da inversão cultural. In: ANPEC-SUL, 2005. Anais do ANPEC-SUL 2005, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3474000900336232" target="_blank">FREITAS, T. A.</a> . IDH e Gastos Públicos: Um Estudo de Caso. In: Segundo Encontro Brasileiro de Estudos Regionais e Urbanos, 2002, São Paulo. Segundo Encontro Brasileiro de Estudos Regionais e Urbanos, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>FLORISSI, S.</b> ; FOLLMANN, C. A. S. . Evasão Fiscal: Evidências Teóricas e Empíricas. In: II Encontro de Economia da Região Sul, 1999, Curitiba. Anais do II Encontro de Economia da Região Sul (ANPEC Sul), 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>FLORISSI, S.</b> . Um Estudo Comparativo de Experiências Internacionais em Regulação de Mercados de Energia Elétrica. In: I Workshop Aneel/Universidades, 1999, Brasilia. Anais do I Workshop Aneel/Universidades, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>FLORISSI, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8025102145074887" target="_blank">RIBEIRO, E. P.</a> . Tributação com Sacrifício Equitativo: o Caso do Imposto de Renda Pessoa Física. In: XXVI Encontro Brasileiro de Economia (ANPEC), 1998, Vitória. Anais da XXVI ANPEC, 1998. v. 1. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> ; REIS, A. B. . economia não é bicho-papão!.
+							são paulo:
+									sesc são paulo,  2010 (Texto para discussão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PONTUAL, Eduardo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2582856404619477" target="_blank">CAMPOS, Paulo Tiago Cardoso</a> ; <b>FLORISSI, S.</b> . Investimentos em Capital Humano no Brasil: um estudo sobre retornos financeiros privados de cursos de graduação relativos ao ano de 1995.
+							Caxias do Sul:
+									Universidade de Caxias do Sul,  2005 (Texto para discussão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4164084783422087" target="_blank">MARQUES JUNIOR, Liderau dos Santos</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8216384776554680" target="_blank">PORTO JÚNIOR, Sabino</a> ; <b>FLORISSI, S.</b> . Processo Orçamentário no Estado do Rio Grande do Sul: Uma proposta alternativa da participação popular na elaboração e fiscalização do orçamento público estadual.
+							Porto Alegre:
+									UFRGS,  2003 (Texto para discussão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>FLORISSI, S.</b> . Regulação: Uma Consolidação de Idéias. PUCRS,
+							 2001 (Texto para discussão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . O Desafio da Desregulamentação do Mercado Elétrico Norte-Americano 2001 (Texto para discussão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> ; FOLLMANN, C. A. S. . Evasão Fiscal: Evidências Teóricas e Empíricas.
+							Porto Alegre:
+									CPGE-UFRGS,  1999 (Texto para discussão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8025102145074887" target="_blank">RIBEIRO, E. P.</a> . Tributação com Sacrifício Equitativo: o Caso do Imposto de Renda de Pessoa Física.
+							Porto Alegre:
+									CPGE-UFRGS,  1998 (Texto para discussão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . Infrastructure, Public Capital and Growth in the Brazilian Economy.
+							Porto Alegre:
+									CPGE-UFRGS,  1996 (Texto para discussão). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="AssessoriaConsultoria"></a>Assessoria e consultoria</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . Consultor Ad-hoc CNPq. 1999. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . Desenvolvimento Regional Sustentável e Políticas Públicas - Cadeira de Políticas Públicas. 2005. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . Curso de Especialização em Agronegócios - Cadeira de Teoria Econômica. 2005. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . VIII Encontro de Economia da Região Sul. 2005.
+							(Coordenador de Mesa).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . Curso de Atualização em Teoria Econômica. 2004. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . Desenvolvimento Regional Sustentável e Políticas Públicas - Cadeira da Teoria Econômica. 2004. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . XXIX Encontro Nacional de Economia - ANPEC. 2001.
+							(Presidente de mesa).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . XXIX Encontro Nacional de Economia - ANPEC. 2001.
+							(Membro de comissão científica).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b> . XXVII Encontro Nacional de Economia - ANPEC. 1999.
+							(Membro de comissão científica).
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de MARIA LORENA ALLENDE GARCIA. Reforma do Estado e Privatizações na Argentina dos anos 1990: O caso do setor de Telecomunicações.. 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de ALEX KNAPP BAKOF. Crescimento Pró-Pobre: Conceitos, experiências, políticas e uma análise empírica do Rio Grande do Sul na década de 1990. 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de JOSÉ ARNALDO RIBEIRO SOARES. A Análise de Risco Segundo o Método de Monte Carlo - Aplicada à Modelagem Financeira das Empresas. 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de MARCOS RODOLFO KESSLER. A Regulação Econômica no Setor Elétrico Brasileiro: teoria e evidências. 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Cristiano Geraldo Mohr. Desenvolvimento financeiro e crescimento econômico nos países da América Latina e da Ásia, no período 1987 - 2000. 2006 - Pontificia Univercidade Catolica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de CRISTINA MABEL SCHERRER. A Indústria Siderúrgica Brasileira: Um estudo econométrico. 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de JACQUELINE MORAIS DINIZ. Assimetria de preferências no contexto de metas de inflação: uma análise do caso brasileiro. 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de JAIME JOAQUIM PEDRO FORTUNATO. Hipótese das expectativas na estrutura a termo da taxa de juros no Brasil: uma abordagem sob o contexto de metas para inflação. 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de RAFAEL SANTOS CASTRO. Efeitos da Desigualdade de Renda sobre o Crescimento Econômico no Brasil: Uma análise não-linear. 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de ANA MARIA MARTINS GRYZER. A Evolução da Dívida Pública Federal Brasileira 1994 a 2004. 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de PEDRO EDMUNDO TOFFOLI. A Política Cambial Brasileira taxas de juros de câmbio na vigência do Plano Real.. 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Ricardo de Souza Leão. Caracterização da Pobreza na Região Centro-sul do Rio Grande do Sul, no período de 1991 a 2000, sob o enfoque das capacitações. 2005. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KRETZER, Jucélio; <b>FLORISSI, S.</b>.  Participação em banca de Paulino Varela Tavares. A capacitação tecnológica e dinâmica da economia brasileira nos anos 90. 2005. Dissertação (Mestrado em Economia) - Universidade Estadual de Maringá. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de ALEXANDRE SOARES DE MOURA GIRARD. Um Guia de Política Monetária no Brasil durante o regime de metas de inflação. 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de JOÃO FRÓIS CALDEIRA. Teoremas de Envelope de Milgron e Segal: Uma Aplicação a Desenho de Mecanismo. 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de CRISTIANE OLIVEIRA ZANDONAI. A Pobreza na Região Metropolitana de Porto Alegre. 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de ROGÉRIO TURCK STEIGLEDER. Contratos de Financiamento de Longo Prazo - Uma Abordagem ao Sistema de Renegociação da Inadimplência. 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Clarissa Schuler Pereira. Competição Estratégica no Setor de Telefonia Móvel Celular no Estado do Rio Grande do Sul no Período de 1999 a 2001. 2004. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Livio Luiz Albrecht Anversa. Economia dos Recursos Naturais, Desenvolvimento Sustentável e Teoria do Crescimento Econômico: uma aplicação para o Brasil. 2004. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Gerson Luís Albrecht Anversa. A Defesa da Concorrência no Brasil: Experiência histórica, fundamentos teóricos e ação do Ministério Público Federal. 2004. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Ciro Weber. Cooperativismo de Crédito e Valor Econômico e Social - Ênfase Sostema Sicredi. 2004. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Armando Andreazza. Avaliação e Desempenho do Modelo de Fator de Retorno Esperado no Brasil. 2003. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Ricardo Pacheco Popien. A Influência da Liberdade Econômica sobre a Coordenação e a Renda da Economia. 2003. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Claúdio Cézar Vogt. As Origens da Indústria Gaúcha e o Setor Têxtil no Período do Processo de Substituição de Importações. 2003. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Telmo Batista dos Santos. A Utilização de Agências de Vendas (Broker): o Caso Füller. 2003. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Cristiano Roberto Tatsch. Privatização do Setor de Telecomunicações no Brasil: Uma Análise sob a Ótica do Consumidor. 2003. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de César Augusto Roth. Planos de Previdência Privados: Uma Análise Comparativa com Outros Investimentos de Longo Prazo. 2003. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Márcio da Silva Mendonça Pereira. O Papel dos Fundos de Pensão no Contexto de Reformas Previdenciárias: Teoria e Evidência. 2003. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Luis Carlos de Rezende Bonamigo. Cooperação Condicional em um Experimento em Jogos de Bens Públicos. 2003. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Adilson Christovam. Capital Social e Desenvolvimento. 2003. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Paulo Tiago Cardoso Campos. Investimentos em Capital Humano no Brasil: Um Estudo sobre Retornos Financeiros Privados de Cursos de Graduação. 2003. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Patrícia de Bom Freitas Moreira. Sistema Financeiro Nacional Rumo à Concentração. 2003. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Patrícia Souza Rocha. Análise dos Efeitos do Processo de Integração Regional do Mercosul Sob a Ótica de Criação e Desvio do Comércio. 2002. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de André Stein da Silveira. Seis Sigma: Implantação em uma Indústria Gráfica. 2002. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Venâncio edgar Zulian. O Banco do Brasil S.A. no Pós-Real: Um Estudo de Caso. 2002. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Celso Filikoski. Loteamento em Porto Alegre: Uma Análise da Viabilidade Econômica. 2002. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Simone Souza Thomazi Costa. Economia do Meio Ambiente: Produção Versus Poluição. 2002. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Paulo Feilstrecker. O Sistema Finaceiro Brasileiro e o Fianciamento ao Setor Produtivo da Empresa de Capital Fechado. 2002. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Jací Natal Tasca. Viabilidade Econômica da Venda de Veículos Leves Movidos a Álcool Hidratado. 2002. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Adriane Maria Silocchi. Déficit Público: Uma Avaliação do Estado do Rio Grande do Sul e do Município de Caxias do Sul - 1995/2000. 2002. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Sandro Rogério dos Santos. A Soja na Área de Livre Comércio das Américas (ALCA): Caracterização do Mercado e da Percepção dos Agentes Envolvidos. 2002. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Delmar Nunes Friedrich. Os Efeitos da Tributação Sobre o Consumo e a Política Fiscal do Governo do Estado do Rio Grande do Sul em Relação ao. 2002. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Rosane Menna Barreto Peluso. Economia Ambiental e Políticas Públicas: Uma Análise Situacional de Erechim no RS a partir dos Anos.. 2002. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Miguel Antônio da Câmara Canto. Mensuração e Análise da Eficiência Técnica de Produção do Setor Metal-Mecânico da Indústria de Caxias do Sul. 2002. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Crintiane Jaeger. A Economia Polítca e a Integração Regional: A Viabilidade Político-comercial no Mercosul. 2001. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Milton André Stella. Instituições Fiscais e Desempenho Fiscal: Uma Resenha. 2001. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Cláudio Roberto D'Ávila Filho. Geração de Emprego: Um Estudo do Caso da Instalação da Empresa LZ Comunicação Visual no Município de Eldorado do Sul. 2001. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Carlos Leonardo Klein Barcelos. Uma Avaliação da Lei de Responsabilidade Fiscal. 2001. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Claúdia Rosângela Mattos de Lima. Índice de Desenvolvimento Humano no Rio Grande do Sul/Índice Social Municipal Ampliado-Bloco Segurança: Índice. 2001. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>; PICCHETI, Paulo; UEDA, Eurico Hideki.  Participação em banca de César Artur Staudt Follmann. Evasão do Imposto de Renda Pessoa Física: Estimativa
+para o Caso Brasileiro. 2001. Dissertação (Mestrado em Economia) - Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Suzana Menna Barreto Coccaro. A Arrecadação do ICM: Um Enfoque Econométrico. 2000. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Guilherme Hamdam de Araújo Gontijo. Previsão e Composição de Portfolio em Mercados Financeiros: Uma Análise Comparativa Entre Redes Neurais Artificiais. 1999. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Silvane Battaglin Schuwengber. O Impacto do Fundo de Participação (FPE) no Esforço Tributário dos Estados: Uma Estimativa do Potencial de Arrecadação. 1999. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Márcia Eckert Miranda. Rio Grande do Sul: Tributação e Economia (1699-1945). 1998. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Ana Elisa Estrela Ferreira. Os Salários de Eficiência: Teoria e Evidências. 1997. Dissertação (Mestrado em Economia) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Mara Sirlei Lemos Peres. A Educação Profissional e a Integração Educativa: estudo comparado entre o CEFERT-RS, Brasil e a Escola Técnica Riviera, Uruguai. 2004. Tese (Doutorado em Integração Regional)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>.  Participação em banca de Geraldo Brenner. A Racionalidade Econômica do Comportamento Criminoso Perante a Ação de Incentivos. 2001. Tese (Doutorado em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8216384776554680" target="_blank">PORTO JÚNIOR, Sabino</a>; <b>FLORISSI, S.</b>; SOUZA, Maria Aparecida G de.  Participação em banca de Diogo Coelho.A Regulação e o Setor Elétrico Brasileiro.
+							2003. Trabalho de Conclusão de Curso (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8025102145074887" target="_blank">RIBEIRO, E. P.</a>; <b>FLORISSI, S.</b>; MARTINS, Marcilene Aparecida.  Participação em banca de Nilson da Silva Lopes.Estratégias para Acomodar a Entrada no Mercado da Telefonia Móvel no Estado do Rio, no Período de Monopólio Privado.
+							2003. Trabalho de Conclusão de Curso (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HILLBRECHT, Ronald Otto; <b>FLORISSI, S.</b>; ZIMMERMANN, Ário.  Participação em banca de Cristina Mabel Scherrer.Tamanho e Crescimento dos Gastos do Governo.
+							2003. Trabalho de Conclusão de Curso (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>; LAGEMANN, Eugênio; ZIMMERMANN, Ário.  Participação em banca de Fernando Gomes Niederauer.Os Impactos da Constituição de 1988 e da Emenda Constitucional nº 20 na Previdência Social do Brasil.
+							2003. Trabalho de Conclusão de Curso (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LAGEMANN, Eugênio; <b>FLORISSI, S.</b>; ZIMMERMANN, Ário.  Participação em banca de Lucilene Comnello Alexandretti.Fundo de Participação dos Municípios: Descrição e Análise sob a Ótica dos Municípios.
+							2002. Trabalho de Conclusão de Curso (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8216384776554680" target="_blank">PORTO JÚNIOR, Sabino</a>; ARAÚJO, Jorge Paulo de; <b>FLORISSI, S.</b>.  Participação em banca de Alexandre da Silva Medeiros.A Decomposição do Índice de Theil: Um Estudo sobre a Região Sul do Brasil (1970-1991).
+							2001. Trabalho de Conclusão de Curso (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMMERMANN, Ário; <b>FLORISSI, S.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8025102145074887" target="_blank">RIBEIRO, E. P.</a>.  Participação em banca de Fernando da Costa Duschitz.Análise da Evolução da Telefonia e o Problema da Tributação no Mercado de Telefonia Móvel Celular no Rio Grande do Sul.
+							2001. Trabalho de Conclusão de Curso (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8216384776554680" target="_blank">PORTO JÚNIOR, Sabino</a>; HILLBRECHT, Ronald Otto; <b>FLORISSI, S.</b>.  Participação em banca de Cristiano Machado da Costa.Pobreza e Curva de Phillips no Brasil: Uma análise do Período Pós-Plano Real.
+							2001. Trabalho de Conclusão de Curso (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HILLBRECHT, Ronald Otto; PINTO, Nuno Renan L Figueiredo; <b>FLORISSI, S.</b>.  Participação em banca de Jeanine Maria da Silva Duarte.As Recentes Decisões Judiciárias de Reintegração de Posse no Rio Grande do Sul: A Questão da Propriedade Privada Reexaminada.
+							2001. Trabalho de Conclusão de Curso (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WAQUIL, Paulo; DABDAB, Paulo; <b>FLORISSI, S.</b>; MARCHETTI, Valmor.  Participação em banca de Osmar Soares Júnior.Dez Anos de Mercosul e as Mudanças na Agricultura.
+							2001. Trabalho de Conclusão de Curso (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BALBINOTTO NETTO, Giácomo; <b>FLORISSI, S.</b>; LETIZIA, Ricardo.  Participação em banca de Rosane Sulzbach.Corrupção e Crescimento Econômico: Teoria e Evidências.
+							2001. Trabalho de Conclusão de Curso (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LAGEMANN, Eugênio; <b>FLORISSI, S.</b>; ZIMMERMANN, Ário.  Participação em banca de Thiago Bratkonski Coutinho.Sistema Tributário Brasileiro: Da República aos Dias de Hoje.
+							2001. Trabalho de Conclusão de Curso (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>. Concurso Público para Provimento do Cargo de Professor do Magistério Superior.
+							2004. Universidade Federal de Roraima. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>. Concurso Público para Provimento de Cargo de Professor Assistente do Departamento de Economia, UFRR.
+							1996. Universidade Federal de Roraima. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FLORISSI, S.</b>; BUENAFUENTE, Sandra Maria Franco; SILVA, Genival Ferreira da; STAEVIE, Pedro Marcelo; PEDRO, Raimundo Nonato Araújo. Concurso Público para Provimento do Cargo de Professor Magistério Superior.
+							2005.
+							Universidade Federal de Roraima. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">41º Encontro Nacional de Economia.Impactos da Criação da Ancine e das Leis de Incentivo à Cultura sobre o Cinema Brasileiro.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Congresso Brasileiro de Agroinformática. VIII Congresso Brasileiro de Agroinformática. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Seminário Internacional de Políticas Culturais.Políticas culturais e desenvolvimento socioeconômico: alternativas de produtores e articuladores culturais em Boa Vista, no estado de Roraima. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII ENECULT Encontro de Estudos Multidisciplinares em Cultura.CULTURA, DESENVOLVIMENTO SOCIOECONÔMICO E POLÍTICAS  PÚBLICAS: UMA ANÁLISE DA SITUAÇÃO NO ESTADO DE RORAIMA.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra.A Crise na Cultura e a Cultura na Crise. 2009. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra na 54ª Feira do Livro de Porto Alegre.A Economia da Cultura. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra no Seminário de Pesquisa do Programa de Pós-Graduação em Economia, UFRGS.Economia da Cultura: considerações teóricas e evidências empíricas. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Encontro de Economia Região Sul.Precificação e análise do risco de contratação de energia elétrica entre submercados no setor elétrico brasileiro.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Prêmio Economista do Ano.Membro da comissão de seleção. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro de Economia da Região Sul - ANPEC SUL.VIII Encontro de Economia da Região Sul - ANPEC SUL.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Consultoria Pessoal, Gestão de Qualidade de Vida e Capacitação Individual.Evento sobre Consultoria Pessoal, Gestão de Qualidade de Vida e Capacitação Individual. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Consultoria Pessoal, Gestão de Qualidade de Vida e Capacitação Individual.Evento sobre Consultoria Pessoal, Gestão de Qualidade de Vida e Capacitação Individual. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro Brasileiro de Estudos Regionais e Urbanos.II Encontro Brasileiro de Estudos Regionais e Urbanos.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIX Encontro Nacional de Economia.XXIX Encontro Nacional de Economia.
+							2001. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">.XXVII Encontro Nacional de Economia.
+							1999. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VALIATI, Leandro ; <b>FLORISSI, S.</b> . Congresso ECONOMIA, CULTURA E SOCIEDADE. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Affonso Baptista Reis. Economia da Cultura: Evidências Teóricas e Empíricas para a Elaboração de Políticas Públicas. Início: 2009. Iniciação científica (Graduando em Economia)  - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mônica Beatriz Mattia. Desenvolvimento Econômico Local: Uma Proposta para o Brasil.
+							2004. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, Universidade de Caxias do Sul. Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7830972347775168'><img src='images/curriculo/logolattes.gif' /></a>José Nosvitz Pereira de Souza. Aspectos do Modelo Brasileiro de Regulação: Políticos, Econômicos e Jurídicos.
+							2004. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, . Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sonia Correa da Silva. Sonegação Fiscal e a Concorrência Desleal no Segmento de Rações Balanceadas.
+							2004. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, . Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodolfo Henrique Maggi. Fundamentos da Tributaçã; Importância e Características do Imposto sobre a Propriedade; e um Estudo de Caso da Eqüidade Administrativa do IPTU no Município de Caxias do Sul.
+							2003. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, . Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6335696208914925'><img src='images/curriculo/logolattes.gif' /></a>Dary Pretto Neto. Um Histórico das Recentes Políticas Econômicas de Combate à Inflação no Brasil.
+							2003. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, . Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Enio Gehlen. Indicador de Solvência para a Indústria Moveleira.
+							2003. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, Universidade de Caxias do Sul. Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vlamir Almeida Ramos. Aspectos Conceituais e Metodológicos do Atual Regime Tarifário e o Equilíbrio Econômico e Financeiro das Distribuidoras de Energia Elétrica.
+							2003. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, . Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2600903277683205'><img src='images/curriculo/logolattes.gif' /></a>Gildo Rogério dos Santos Martins. Mercado de Trabalho, Economia Informal e Políticas Públicas: Brasil - Anos 90 - Um Estudo de Caso.
+							2003. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, Banco do Brasil. Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Geraldo Fedrizzi. O Recente Crescimento Econômico da República da Irlanda: Um Estudo de Caso.
+							2002. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, Universidade de Caxias do Sul. Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Valério Pompermaver. A Reestruturação da Indústria Moveleira Nacional Frente aos Desafios de um Mundo Globalizado: Um Estudo de Caso.
+							2002. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, Universidade de Caxias do Sul. Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2788849569702377'><img src='images/curriculo/logolattes.gif' /></a>Bruno Francisco Bitencourt. A Questão da Água como um Fenômeno Econômico e usa Possível Exploração Racional: Uma Consolidação de Idéias.
+							2002. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, Universidade de Caxias do Sul. Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6403272242829892'><img src='images/curriculo/logolattes.gif' /></a>Clenildo Francisco de Lima Mercês. O Gasto Público na Àrea de Educação no Estado de Roraima.
+							2001. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2288437000172565'><img src='images/curriculo/logolattes.gif' /></a>Ronaldo da Costa Cunha. Gastos Públicos e a Lei de Wagner no Estado de Roraima.
+							2001. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Giovani Zaffari. O Estado Moderno e o Desenvolvimento Econômico: Uma Visão Consolidada.
+							2001. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, . Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4036708418054112'><img src='images/curriculo/logolattes.gif' /></a>Carlos Eduardo da Gama Torres. Infra-estrutura e Desenvolvimento Econômico: Uma Comparação entre Minas Gerais e o Rio Grande do Sul.
+							1999. 0 f.
+						
+					Dissertação  (Mestrado em Economia)  - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Stefano Florissi. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Cardoso dos Santos.
+							A Guerra Fiscal e o Impacto Sobre os Orçamentos dos Estados e da União: O Caso da Indústria Automobilística.
+							2003. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Viegas Angst.
+							A Legislação Brasileira na Década de 90: Uma Análise Descritiva.
+							2003. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">André Anderson Lenz.
+							A Reestruturação do Setor de Telecomunicações no Brasil.
+							2002. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Augusto Vargas.
+							Um Estudo Sobre a Estrutura de Mercado e Formação de Preços do Mercado Brasileiro de Bebidas.
+							2002. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jarbas Newton Pinto Júnior.
+							O Papel do Estado e Regulação: Uma Consolidação de Idéias.
+							2002. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Melissa Betina Bohns Michael.
+							Déficit Público: Um Estudo de Caso do Rio Grande do Sul.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Patrícia Wander.
+							Regulamentação em Telecomunicações.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diego Proença Baisch.
+							A Experiência Reguladora do Brasil Ontem e Hoje: Uma Visão Crítica.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliana Frantz.
+							Economia Ambiental, Economia Ecológica e Espaçonave Terra de Kenneth Boulging.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Régis Luis Lassen.
+							Regulamentação e Telecomunicações no Brasil.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">José Nosvitz Pereira de Souza.
+							O Futuro do Estado.
+							1999. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tiago Alves Pinto de Lemos.
+							Apresentação do PRODER - Programa de Desenvolvimento de Emprego e Renda do SEBRAE/RS Frente ao Novo Panorama de Desenvolvimento Mundial.
+							1999. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Flávio Augusto Guedes.
+							Capital Humano: Uma Apresentação da Teoria e Algumas Críticas.
+							1998. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cesar Arthur Staudt Follmann.
+							Evasão do Imposto de Renda sob o Enfoque dos Estímulos: da Teoria à Análise Empírica.
+							1998. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduardo Lamas da Costa.
+							Jogos Não Cooperativos: Teoria e Instrumental de Análise.
+							1997. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Economia)  - Universidade Federal do Rio Grande do Sul. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipe Starosta de Waldemar.
+							Economia da Cultura: Evidências Teóricas e Empíricas para a Elaboração de Políticas Públicas.
+							2004. 0 f.
+							Iniciação Científica. (Graduando em Economia)  - Universidade Federal do Rio Grande do Sul,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Stefano Florissi.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:55:20</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0079301614008667" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

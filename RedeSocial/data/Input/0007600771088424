@@ -1,0 +1,2781 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Alan Soares Machado)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0007600771088424" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorProjetoFomento">Revisor de projeto de fomento</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4504288Y3&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4504288Y3"><div class="infpessoa">
+<h2 class="nome">Alan Soares Machado</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0007600771088424</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 02/04/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Doutorando em Ciência Animal pela UFG. Técnico em Agropecuária, pela Escola Agrotécnica Federal de Ceres (EAFCe), Graduado em Zootecnia pela (UCG), Especialista em Produção Animal pela (UFLA) e Mestre em Tecnologia em Aquicultura Continental pela (PUC-GO). Atualmente é Prof. Titular do Instituto Federal Goiano-Câmpus Ceres, na área de Zootecnia e tem experiência na área de Zootecnia, com ênfase em Bovinocultura de Leite e Piscicultura, atuando principalmente nos seguintes temas: Produção e Nutrição Animal. Espécies de interesse: Pacu (Piaractus mesopotamicus), Tambaqui (Colossoma macropomum), Tilápia (Oreochromis niloticus) e as raças BOVINAS: Jersey, Holandesa, Gir e seus cruzamentos.
+<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Alan Soares Machado</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MACHADO, A. S.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Instituto Federal Goiano, Campus Ceres. <br class="clear" />RODOVIA GO 154 KM 3         SALA PROFESSORES<br class="clear" />ZONA RURAL<br class="clear" />76300-000 - Ceres, GO - Brasil - Caixa-postal: 51<br class="clear" />Telefone: (62) 33077100<br class="clear" />Ramal: 7116<br class="clear" />Fax: (62) 33077100</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Ciência Animal<span class="ajaxCAPES" data-param="&codigoCurso=52001016014P8&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	<br class="clear" />Título: Suplementação de vacas lactantes com gérmen de milho, <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7949776443064259'><img src='images/curriculo/logolattes.gif' /></a>Marcos Barcellos Café. <br class="clear" />Co-orientador: MARCELO MARCONDES DE GODOY. <br class="clear" />Palavras-chave: CSDN; fermentação; leite; subprodutos; rúmen.<br class="clear" />Grande área: Ciências Agrárias / Área: Zootecnia / Subárea: Nutrição e Alimentação Animal. <br class="clear" />Setores de atividade: Agricultura, Pecuária, Produção Florestal, Pesca e Aqüicultura. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado profissionalizante em Tecnologia em Aqüicultura Continental<span class="ajaxCAPES" data-param="&codigoCurso=52002012012P1&nivelCurso=F"></span>. <br class="clear" />Pontifícia Universidade Católica de Goiás, PUC GOIÁS, Brasil.
+		
+	<br class="clear" />Título: Diferentes biomassas no acondicionamento de tilápias após transporte sobre o retorno a homeostase, Ano de Obtenção: 2009. <br class="clear" />Orientador: Delma Machado Cantissani Padua.
+			
+			<br class="clear" />Palavras-chave: cortisol; estresse; glicemia; hematologia; Oreochromis niloticus.<br class="clear" />Grande área: Ciências Agrárias / Área: Zootecnia / Subárea: Produção Animal / Especialidade: Manejo de Animais. <br class="clear" />Grande Área: Ciências Agrárias / Área: Zootecnia / Subárea: Produção Animal / Especialidade: Aquicultura. <br class="clear" />Setores de atividade: Pesca, Aqüicultura e Atividades dos Serviços Relacionados Com Estas Atividades; Transporte Terrestre. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em PRODUÇÃO ANIMAL<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 660h). <br class="clear" />Universidade Federal de Lavras, UFLA, Brasil.
+		
+	<br class="clear" />Título: Manejo de vacas leiteiras em pré e pós parto. <br class="clear" />Orientador: José Camisão de Souza. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em zootecnia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Pontifícia Universidade Católica de Goiás, PUC GOIÁS, Brasil.
+		
+	<br class="clear" />Título: Sistema semi-intensivo em produção de leite. <br class="clear" />Orientador: Itamar Pereira de Oliveira. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />ESCOLA AGROTÉCNICA FEDERAL DE CERES.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamento de Gestao da qualidade do leite atravé.  (Carga horária: 6h). <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ETICA E LEGISLAÇÃO NO USO DE ANIMAIS E BEM ESTAR B.  (Carga horária: 8h). <br class="clear" />Instituto Federal Goiano.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">BOAS PRÁTICAS LABORATORIAIS.  (Carga horária: 2011h). <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MODELOS MISTOS.  (Carga horária: 16h). <br class="clear" />ZOOTEC.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A PRATICA DO CURRICULO INTEGRADO.  (Carga horária: 120h). <br class="clear" />Instituto Federal Goiano.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Uso do NRC 2001 na formulação de rações para bovin.  (Carga horária: 12h). <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Uso do NRC 2001 na formulação de rações para bovin.  (Carga horária: 12h). <br class="clear" />Universidade Federal de Goiás, UFG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">XV REUNIAO NACIONAL DE ENSINO ZOOTECNIA. <br class="clear" />Conselho Federal de Medicina Veterinária.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GERENCIAMENTO ESTRATÉGICO DA PROPRIEDADE LEITEIRA.  (Carga horária: 40h). <br class="clear" />EMBRAPA GADO DE LEITE.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">COMO PRODUZIR LEITE COM QUALIDADE.  (Carga horária: 2007h). <br class="clear" />EMBRAPA GADO DE LEITE.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Goiás, UFG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Aluno doutorado, Enquadramento Funcional: aluno de pós graduação, Carga horária: 4</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Pontifícia Universidade Católica de Goiás, PUC GOIÁS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Aluno de Mestrado, Enquadramento Funcional: Aluno Mestrado, Carga horária: 20</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>ESCOLA AGROTÉCNICA FEDERAL DE CERES, EAFCE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: PROFESSOR DE BOVINOCULTURA, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: PROFESSOR DE BOVINOCULTURA, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: PROFESSOR DE BOVINOCULTURA, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: PROFESSOR DE BOVINOCULTURA, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: PROFESSOR DE BOVINOCULTURA, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: PROFESSOR DE BOVINOCULTURA, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: PROFESSOR DE SUINOCULTURA/CAPRINO OVINO, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: PROFESSOR DE BOVINOCULTURA E SUINOCULTURA, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: PROFESSOR DE SUINOCULTURA E PISCICULTURA, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>INSTITUTO FEDERAL GOIANO CAMPUS CERES, IFET, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor de Bovinocultura e Bromatologia, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor de Bovinocultura, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor de Bovinocultura, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor de Bovinocultura, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor de Bovinocultura, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor de Bovinocultura, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor de Bovinocultura, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de Pesquisa e Desenvolvimento</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor de Bovinocultura, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Instituto Federal Goiano, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Nutricao e Alimentacao Animal'>Nutricao e Alimentacao Animal</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Instituto Federal Goiano, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Pastagem e Forragicultura'>Pastagem e Forragicultura</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2004 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, ZOOTECNIA, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />AVICULTURA<br class="clear" />BOVINOCULTURA<br class="clear" />CONSTRUÇÕES E iNSTALAÇÕES<br class="clear" />SUINOCULTURA<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Nutricao e Alimentacao Animal'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Nutricao e Alimentacao Animal</div>
+</div><a name='LP_Pastagem e Forragicultura'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pastagem e Forragicultura</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Composi&ccedil;&atilde;o da pastagem e disponibiliza&ccedil;&atilde;o das placas fecais de novilhas nelore, sob o pastejo de Brachiaria brizanth cv Marand&uacute;.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Composição da pastagem e disponibilização das placas fecais de novilhas nelore, sob o pastejo de Brachiaria brizanth cv Marandú.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto será realizado na Fazenda Nova Granada em Rialma-GO com o objetivo de avaliar a produção e degradação das placas de fezes depositadas por bovinos, em pastagem de Brachiaria brizantha, em condições representativas do cerrado goiano. Será demarcado cinco piquetes em pastagem de Brachiária Brizantha, onde será colocada 100 vacas nelore paridas, que farão rodízio nestes piquetes, perfazendo um período total de 30 dias/ciclo. O período experimental se dará por dois ciclos completos. Durante os ciclos, em intervalos de sete dias, o número de placas de fezes excretadas serão contadas e marcadas com cal virgem de modo que cada placa seja contada uma única vez. Dez placas de fezes serão selecionadas aleatoriamente na parte central do piquete. Todo volume das placas serão transferidos para um saco plástico para posteriormente pesagem. Após a pesagem, será retirado uma alíquota levada a estufa a 55ºC por 72h, posteriormente serão moídas em moinho tipo Willey e levadas para estufa a 105ºC para determinação de matéria seca (MS) e posteriormente a mufla para determinação de cinzas. Será realizado três cortes na pastagem em áreas representativas do piquete (início, meio e fim) afim de caracterizar a qualidade da pastagem, assim também serão retiradas amostras de solo 0-20cm nestas mesmas áreas, para determinação fertilidade do solo. As amostras de capim serão coletadas em uma área de 0,25 m , com o auxílio de um quadrado de madeira e tesoura para poda. Será coletado em torno de 500g de material e acondicionados em sacos de papel, levadas a estufa a 55ºC por 72h, posteriormente serão moídas em moinho tipo Willey e levadas para estufa a 105ºC para determinação de matéria seca (MS) e posteriormente a mufla para determinação de cinzas. O solo será coletado com a ajuda de um trado e acondicionadas em sacos de plástico devidamente identificadas e levadas ao laboratório de solos do IFGoiano-Campus Ceres para determinação química e física.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Alan Soares Machado - Coordenador / Marcelo Marcondes de Godoy - Integrante / Jorge Fernando Feliciano da Silva - Integrante.<br class="clear" /></div>
+</div><a name='PP_Comportamento de borregos e borregas confinados com duas cultivares de cana-de-a&ccedil;&uacute;car'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Comportamento de borregos e borregas confinados com duas cultivares de cana-de-açúcar<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Serão conduzidos três experimentos com duas cultivares de cana-de-açúcar (IAC 86-2480 e SP 80-0155), testando comportamento ingestivo, digestibilidade e tamanho de partículas. No primeiro experimento será avaliado o comportamento ingestivo dos animais perante as cultivares de cana, avaliando a ingestão, ruminação e ócio dos animais. No segundo experimento, será avaliado a digestibilidade dos ovinos, perante as duas cultivares testadas.Também será analisado o tamanho das partículas das dietas oferecidas e recusadas pelos animais para mensurar o tamanho da partícula e sua interferência no consumo animal. A cana tem se mostrado um alimento altamente compensatório do ponto de vista produtivo e financeiro, entretanto variações bromatológicas das cultivares de cana-de-açúcar interferem no desempenho de animais, para isso é necessário empregar uma cultivar que possa garantir maior eficiência no processo produtivo. Espera-se com este experimento conhecer o comportamento ingestivo de ovinos bem como o seu desempenho produtivo.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Alan Soares Machado - Coordenador / Oscar Lopes de Faria Júnior - Integrante / Marcelo Marcondes de Godoy - Integrante / Fagner Machado Ribeiro - Integrante / Fábio Alves Zanata - Integrante / EMIZAEL MENEZES DE ALMEIDA - Integrante.<br class="clear" /></div>
+</div><a name='PP_Avalia&ccedil;&atilde;o de forrageiras tropicais submetidas a diferentes doses de &aacute;guas residuais de bovinos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação de forrageiras tropicais submetidas a diferentes doses de águas residuais de bovinos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este trabalho será realizado com o objetivo de verificar a resposta de pastagem Panicum maximum cv. Mombaça e Panicum maximum cv. Tanzânia a quatro diferentes doses: 0, 20, 40 e 80 m /ha de chorume de bovinos provenientes da limpeza do curral de ordenha e de espera da Fazenda do Instituto Federal Goiano - Campus Ceres, aplicadas depois de cada corte, sendo o intervalo entre elas de trinta dias a serem realizados no período de novembro de 2010 a fevereiro de 2011. Deseja-se mensurar as variações da produção de massa seca (MS) com as doses de chorume e suas implicações no valor nutritivo da forrageira, além da variação da concentração de nutrientes no solo: N, K; P; Ca; Mg e matéria orgânica, após as aplicações, e a definição de um valor de referência para as pastagens de Panicum maximum cv. Mombaça e Panicum maximum cv. Tanzânia, na região de Ceres-GO.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Alan Soares Machado - Coordenador / Oscar Lopes de Faria Júnior - Integrante / Marco Aurélio Rodrigues Pereira - Integrante / Wilian Henrique Diniz Buso - Integrante.<br class="clear" /></div>
+</div><a name='PP_Uso do Germ&eacute;n de milho na dieta de vacas leiteiras'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Uso do Germén de milho na dieta de vacas leiteiras<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Com o objetivo de avaliar o efeito da inclusão de níveis de gérmen de milho, na dieta de vacas leiteiras, sobre as variáveis:  consumo, produção e composição do leite de vacas leiteiras, cinco vacas com aproximadamente 100 dias em lactação, peso, idade e número de lactações semelhantes, foram distribuídas em um delineamento em quadrado latino 5 x 5. Onde, cada período experimental foi constituído de 21 dias sendo, 13 dias para adaptação e oito dias para coleta de amostras. Os tratamentos constituíram em porcentagem crescente de gérmen de milho na matéria seca do concentrado (0, 16.3, 32.89, 48.86, 65.38). Concluindo com isso, que o aumento de gérmen de milho na dieta de vacas leiteiras, não alterou a eficiência das variáveis analisadas.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3) . <br class="clear" /><br class="clear" />Integrantes: Alan Soares Machado - Coordenador / Oscar Lopes de Faria Júnior - Integrante / Marcelo Marcondes de Godoy - Integrante / Lidiane de Oliveira Silva - Integrante / Diego machado pereira - Integrante.<br class="clear" /></div>
+</div><a name='PP_Parametros produtivos, digestao total e ruminal de vacas leiteiras suplementadas com liidios do g&eacute;rmen integral de milho'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Parametros produtivos, digestao total e ruminal de vacas leiteiras suplementadas com liidios do gérmen integral de milho<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Com o objetivo de avaliar o efeito da inclusão de lipídios, provenientes do gérmen integral de ,milho , na dieta de vacas leiteiras, sobre as variáveis: parâmetros ruminais, digestibilidade, degradação, consumo, produção e composição do leite, de vacas leiteiras. Para isso cinco vacas com aproximadamente 100 dias em lactação, peso, idade e número de lactações semelhantes, foram distribuídas em um delineamento em quadrado latino 5 x 5. Onde, cada período experimental foi constituído de 21 dias sendo, 13 dias para adaptação e oito dias para coleta de amostras. Os tratamentos foram preconizados para conter níveis crescentes de lipídios na composição das dietas (LIP 3,2; LIP 3,7; LIP 4,2; LIP 4,7 e LIP 5,2%). Sendo coletados por 48h consecutivas, dados referentes ao comportamento ingestivo, a digestibilidade foi mensurada através da produção fecal com o uso do indicador externo TiO2, o CMS, produção e composição do leite foram analisados ao longo do período de colheita de dados. Foram coletadas ainda, duas alíquotas de líquido ruminal para leitura de nitrogênio amoniacal e AGVs, em vários pontos do rumém, nos horários: 0, 2, 4, 6, 8 horas após as refeições. O pH foi lido imediatamente com o auxílio de um peagâmetro digital. Para a degradação foram incubados no rúmen sacolinhas contendo feno de tifton, nos horários, 0, 6, 24, 48 e 96 horas, e o tamanho de partículas, foi verificado nos tempos 0, 4 e 8horas após a primeira refeição a fim de verificar diferenças sobre a dieta oferecida e consumida pelos diferentes tratamentos. Concluiu-se que, o aumento de lipídios na dieta de vacas leiteiras, não alterou a eficiência das variáveis analisadas, sendo um substituto do milho em concentrados para vacas de leite. Contudo, níveis preconizados acima de T 4,2% de extrato etéreo na dieta, devem ser evitados, pois diminuem a porcentagem de gordura do leite, acarretando desvalorização do valor pago ao produtor.
+
+Palavras - chave: digestibilidade, extrato etéreo, fermentação, leite,. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Alan Soares Machado - Coordenador / Juliano Jose de Resende Fernandes - Integrante / Milton Luiz Moreira Lima - Integrante / Marcelo Marcondes de Godoy - Integrante / ERNANE PEIXOTO DE ARAÚJO - Integrante / Fagner Machado Ribeiro - Integrante / Douglas Dijkstra - Integrante / Lidiane de Oliveira Silva - Integrante.<br class="clear" /></div>
+</div><a name='PP_Compara&ccedil;&atilde;o no tratamento alop&aacute;tico e homeop&aacute;tico no controle da mastite sub cl&iacute;nica em vacas leiteiras.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Comparação no tratamento alopático e homeopático no controle da mastite sub clínica em vacas leiteiras.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A mastite é uma enfermidade recorrente na bovinocultura leiteira. A terapêutica convencional é onerosa e pode provocar problemas de saúde pública pela presença de resíduos de antimicrobianos no leite, além de causar prejuízos na indústria por interferir nos processos de fabricação de derivados lácteos. Tratando-se os casos de mastite com antimicrobianos e antiinflamatórios, todo o leite produzido pelo animal durante cinco dias, em média, fica comprometido, independentemente do número de tetos tratados. A homeopatia apresenta-se como alternativa de prevenção e tratamento, não oferece qualquer tipo de contra-indicação, desprezando-se apenas o leite alterado. Este trabalho procura avaliar a comparação do produto alopático com a terapêutica homeopática utilizando o produto comercial (Fator M & P ) para tratamento da mastite sub-clínica na produção de leite do rebanho leiteiro do Instituto Federal Goiano Campus Ceres (IFG/ Campus Ceres). Para tanto, será realizado inicialmente a coleta do leite de 18 animais, para verificação da CCS e composição química do leite. Os mesmos serão alocados de forma aleatória nos grupos tratados com produtos alopáticos e homeopáticos, de forma que a fase de lactação, idade, número de partos e a composição genética, seja igual a todos, com coletas de amostras do leite em intervalos de 15 dias para a realização das análises d CCS e composição. Cada animal do grupo tratado com o produto homeopático receberá três vírgula duas gramas do produto diariamente homogeneizado na ração e oferecidos nas refeições no período após a ordenha matutina e vespertina como tratamento preventivo a mastite. Caso algum animal apresente sintomas de mastite clínica, os mesmos serão tratados de acordo com os tratamentos curativos de seus grupos. Sendo o grupo homeopático, tratado com 45g do produto, em no mínimo duas vezes por dia durante 10 dias, depois restabelecerá o tratamento preventivo. O delineamento utilizado será de bloco ao acaso, utilizando o teste F a 5%. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Alan Soares Machado - Coordenador / Oscar Lopes de Faria Júnior - Integrante / Bruno Cézar - Integrante / Ivanir Antônio da Silva - Integrante.<br class="clear" />Financiador(es): Instituto Federal Goiano - Cooperação.</div>
+</div><a name='PP_Diferentes biomassas no acondicionamento de til&aacute;pias sp. ap&oacute;s transporte sobre o retorno a homeostase'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Diferentes biomassas no acondicionamento de tilápias sp. após transporte sobre o retorno a homeostase<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A biomassa é um dos fatores para o sucesso no povoamento de viveiros após o transporte de peixes. Este estudo teve como objetivo avaliar a biomassa de estocagem de juvenis de tilápia sobre o retorno à homeostase após o transporte em períodos determinados de tempo. Para isto, 490 juvenis de tilápia de   51,42g foram colocados em caixa de transporte apropriada e, realizado o transporte por cinco horas. Ao final deste manejo, os peixes foram acondicionados em 18 caixas de PVC de 500L, preenchidas com água e mantidas com volume de 100L, e com vazão média de 0,05L/s. Os juvenis de tilápia foram distribuídos aleatoriamente nas caixas compondo delineamento inteiramente casualizado em esquema fatorial 2 x 3, sendo duas biomassas 10,3 e 15,4 g/L e, três amostragens no tempo, 24, 68 e 168 horas após transporte, com três repetições. Os parâmetros físicos e químicos da água foram analisados na caixa de transporte antes e após o transporte, na água do reservatório de abastecimento, e nas caixas de PVC, durante todo o estudo. O sangue foi coletado por punção do vaso caudal, para determinação das seguintes variáveis fisiológicas: glicemia, hemoglobina, hematócrito, número total de eritrócitos, volume corpuscular médio, cortisol e íons, Na e K. O sangue foi centrifugado, e o soro armazenado a -20º C até a realização das análises. Os dados obtidos foram submetidos à análise de variância com Pr > 0,01 e  &#8804; 0,05 e as médias comparadas pelo teste de Tukey a 5%. Concluiu - se que a biomassa no acondicionamento após transporte teve influência na variável glicemia e cortisol. Esse estudo demonstrou que, as variáveis de importância para avaliação do estresse foram o cortisol e a glicemia.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Especialização: (1)  / Mestrado profissionalizante: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Alan Soares Machado - Coordenador / Delma Machado Cantissani Padua - Integrante / Ricardo de Matos Morais - Integrante / Elisabeth Criuscuolo Urbinati - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Desenvolvimento Interdisciplinar para a constru&ccedil;&atilde;o de conhecimento e aplica&ccedil;&atilde;o de tecnologia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento Interdisciplinar para a construção de conhecimento e aplicação de tecnologia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolver ações que busquem incentivar, orientar e auxiliar pequenos produtores rurais em melhorar os índices produtivos, preservando o ambiente e aumento de renda. Propõe instalação de uma Unidade de Produção Pedagógica (UPP) e realização de palestras.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (4) . <br class="clear" /><br class="clear" />Integrantes: Alan Soares Machado - Integrante / Wilian Henrique Diniz Buso - Coordenador / MARCO ANTONIO DE CARVALHO - Integrante / NATALIA SANTIAGO MENEZES - Integrante / HELOISA BALERONI R. GODOY - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorProjetoFomento">
+<h1>Revisor de projeto de fomento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto: Instituto Federal Goiano</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Zootecnia / Subárea: Nutrição e Alimentação Animal. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Zootecnia / Subárea: Nutrição e Alimentação Animal/Especialidade: Conservação de Alimentos para Animais. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Zootecnia / Subárea: Genética e Melhoramento dos Animais Domésticos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Zootecnia / Subárea: Produção Animal. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Zootecnia / Subárea: Pastagem e Forragicultura. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Zootecnia / Subárea: Produção Animal/Especialidade: Aquicultura. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1 Lugar na X Feira de Ciencias e Cultura da EAFCe, Escola Agrotécnica Federal de Ceres. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3 Lugar na X Feira de Ciência e Cultura da EAFCe, Escola Agrotécnica Federal de Ceres. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1 Lugar orientador na categoria de Zootecnia da XIII Feira de Ciência da EAFCe, Escola Agrotécnica Federal de Ceres. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACHADO, A. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MACHADO, A. S.</b> ; LIMA, M. L. M. ; Godoy, M.M ; SILVA, I. A. ; BUSO. W. H. D ; ARAÚJO, E, P . FATORES DETERMINANTES DO FLUXO SANGUÍNEO E NUTRIENTES PARA GLÂNDULA MAMÁRIA BOVINA. Pubvet (Londrina)<sup><img id='19821263_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19821263' /></sup>, v. 5, p. 1131, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19821263&volume=5&issue=&paginaInicial=1131&titulo=FATORES DETERMINANTES DO FLUXO SANGUÍNEO E NUTRIENTES PARA GLÂNDULA MAMÁRIA BOVINA&sequencial=1&nomePeriodico=Pubvet (Londrina)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACHADO, A. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><b>MACHADO, A. S.</b> ; Godoy, M.M ; LIMA, M. L. M. ; FARIA JUNIOR, O. L. ; MORGADO, H. S ; ARAÚJO, E, P . Utilização de óxido crômico e LIPE como indicadores externos na digestibilidade em ruminantes. Pubvet (Londrina)<sup><img id='19821263_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19821263' /></sup>, v. 5, p. 1124, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19821263&volume=5&issue=&paginaInicial=1124&titulo=Utilização de óxido crômico e LIPE como indicadores externos na digestibilidade em ruminantes&sequencial=2&nomePeriodico=Pubvet (Londrina)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BUSO. W. H. D</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>BUSO. W. H. D ; <b>MACHADO, A. S.</b> ; SILVA, L. B. ; FRANÇA, A. F. S. . Uso do milheto na alimentação animal. Pubvet (Londrina)<sup><img id='19821263_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19821263' /></sup>, v. 5, p. 1136, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19821263&volume=5&issue=&paginaInicial=1136&titulo=Uso do milheto na alimentação animal&sequencial=3&nomePeriodico=Pubvet (Londrina)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BUSO. W. H. D</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>BUSO. W. H. D ; MORGADO, H. S ; <b>MACHADO, A. S.</b> . Fitase na alimentação de frangos de corte. Pubvet (Londrina)<sup><img id='19821263_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19821263' /></sup>, v. 5, p. 1232-1240, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19821263&volume=5&issue=&paginaInicial=1232&titulo=Fitase na alimentação de frangos de corte&sequencial=4&nomePeriodico=Pubvet (Londrina)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> ; FERREIRA, A. D. ; BUSO. W. H. D ; RIBEIRO, F. M ; SOARES, R. S. ; SILVA, H. W. ; SILVA, L. O ; RIBEIRO, T. B. . REACAO DE ESPECIES FORRAGEIRAS AO NEMATÓIDE DAS LESOES RADICULARES. In: ZOOTEC 2013, 2013, FOZ IGUACU. ZOOTEC 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIBEIRO, T. B. ; SILVA, L. O ; BUSO. W. H. D ; <b>MACHADO, A. S.</b> ; DIJKSTRA, D. ; OLIVEIRA JUNIOR, A. R. ; RIBEIRO, F. M . PRODUCAO DE MATERIA VERDE E MATERIA SECA DE DIFERENTES CULTIVARES DE MILHO NO MUNICÍPIO DE CERES-GOIAS. In: ZOOTEC 2013, 2013, FOZ IGUACU. ZOOTEC 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIBEIRO, T. B. ; SILVA, L. O ; <b>MACHADO, A. S.</b> ; BUSO. W. H. D ; FERREIRA, A. D. ; FARIA JUNIOR, O. L. ; DIJKSTRA, D. ; SANTOS, M. P. . TEORES DE FDN, FDA E PB NA MATERIA SECA DE DIFERENTES CULTIVARES DE MILHO EM DUAS ALTURAS DE CORTE. In: ZOOTEC 2013, 2013, FOZ IGUACU. ZOOTEC 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. O ; BUSO. W. H. D ; RIBEIRO, T. B. ; <b>MACHADO, A. S.</b> ; REIS, D. S. ; FERREIRA, A. D. . TEORES DE MATERIA SECA E PH DA SILAGEM DE DIFERENTES CULTIVARES DE MILHO EM DUAS ALTURAS DE CORTE. In: ZOOTEC 2013, 2013, FOZ IGUACU. ZOOTEC 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. O ; CARDOSO NETO, S. R. ; FARIA JUNIOR, O. L. ; BUSO. W. H. D ; LIMA, M. L. M. ; ZANATA, F. A ; RIBEIRO, F. M ; <b>MACHADO, A. S.</b> . Produção de leite de vacas alimentadas com gérmen de milho. In: ZOOTEC, 2012. ZOOTEC 2012, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. O ; BRUNES, L. C. ; MARTINS, J.C ; Godoy, M.M ; LIMA, M. L. M. ; Costa, Y. G. ; DIJKSTRA, D. ; <b>MACHADO, A. S.</b> . Composição do leite de vacas alimentadas com gérmen de milho. In: ZOOTEC, 2012, CUIABÁ. ZOOTEC2012, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. O ; BRUNES, L. C. ; MARTINS, J.C ; Godoy, M.M ; DIJKSTRA, D. ; LIMA, M. L. M. ; <b>MACHADO, A. S.</b> . COMPOSIÇÃO DO LEITE DE VACAS LEITEIRAS ALIMENTADAS COM GERMEN DE MILHO. In: XXII CONGRESSO BRASILEIRO DE ZOOTECNIA, 2012, CUIABA. ZOOTEC 2012, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> ; Fernandes, J.J.R ; LIMA, M. L. M. ; Godoy, M.M ; SILVA, L. O ; DIJKSTRA, D. ; CARDOSO NETO, S. R. . COMPORTAMENTO INGESTIVO E RESPOSTA PRODUTIVA DE VACAS LEITEIRAS ALIMENTADAS COM DIFERENTES NIVEIS DE LIPIDIOS. In: CONPEEX, 2012, 2012, GOIANIA. ANAIS DO CONGRESSO DE PESQUISA, ENSINO E EXTENSAO, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIBEIRO, F. M ; <b>MACHADO, A. S.</b> ; Godoy, M.M ; Fernandes, J.J.R ; LIMA, M. L. M. ; SILVA, L. O . PARAMETROS RUMINAIS DE VACAS LEITEIRAS ALIMENTADAS COM GERMEN DE MILHO. In: SBZ 2012, 2012, BRASILIA. 49 REUNIAO DA SOCIEDADE BRASILEIRA DE ZOOTECNIA, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, E. M ; Godoy, M.M ; OLIVEIRA JUNIOR, A. R. ; <b>MACHADO, A. S.</b> ; CARDOSO NETO, S. R. ; SOUS, R. M. . PESO DE ABATE E BIOMETRIA DE CARCAÇA DE BORREGAS SANTA INES CONFINADAS COM USO DE GRAO INTEIRO E MOIDO. In: XXII CONGRESSO BRASILEIRO DE ZOOTECNIA, 2012, CUIABÁ. ZOOTEC 2012, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. O ; FARIA JUNIOR, O. L. ; CARDOSO NETO, S. R. ; BUSO. W. H. D ; LIMA, M. L. M. ; ZANATA, F. A ; RIBEIRO, F. M ; <b>MACHADO, A. S.</b> . PRODUÇÃO DE LEITE DE VACAS ALIMENTADAS COM GERMEN DE MILHO. In: XXII CONGRESSO BRASILEIRO DE ZOOTECNIA, 2012, CUIABA. ZOOTEC 2012, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, T. T. ; ALMEIDA, E. M ; BENFICA, P. A. C. ; <b>MACHADO, A. S.</b> ; Godoy, M.M . PARAMETROS HEMATOLOGICOS DE VACAS LEITEIRAS NA FASE INICIAL DE LACTAÇÃO SUPLEMENTADAS COM DIFERENTES NIVEIS DE GERMEN DE MILHO. In: VII CONGRESSO NORDESTINO DE PRODUÇÃO ANIMAL, 2012, MACEIO. CONGRESSO NORDESTINO, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIJKSTRA, D. ; <b>MACHADO, A. S.</b> ; Godoy, M.M ; OLIVEIRA JUNIOR, A. R. ; CARDOSO NETO, S. R. . COMPORTAMENTO INGESTIVO E TAMANHO DE PARTÍCULAS DA DIETA DE VACAS LEITEIRAS. In: I CONGRESSO DE INICIACAO CIENTIFICA DO IFGOIANO, 2012, URUTAI. I CONGRESSO DE INICIACAO CIENTIFICA DO IFGOIANO, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZANATA, F. A ; <b>MACHADO, A. S.</b> ; BUSO. W. H. D ; Pereira, M. A. R ; SOUS, R. M. ; SANTOS, E. O. . EFEITO DA APLICACAO DE ÁGUAS RESIDUAIS DE BOVINOS EM PASTAGENS DE PANICUM MAXIMUM CV TANZANIA. In: I CONGRESSO DE INICIACAO CIENTIFICA DO IFGOIANO, 2012. I CONGRESSO DE INICIACAO CIENTIFICA DO IFGOIANO, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> ; BUSO. W. H. D ; Arnhold, E. ; FRANÇA, A. F. S. . Produçao de fitomassa verde de milheto submetidos a doses crescentes de nitrogenio em duas epocas de semeadura. In: ZOOTEC 2011, 2011, MACEIO. ZOOTEC 2011, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> ; BUSO. W. H. D ; Arnhold, E. ; FRANÇA, A. F. S. . PRODUÇÃO DE FITOMASSA VERDE DE MILHETO SUBMETIDOS A DOSES CRESCENTES DE NITROGENIO EM DUAS EPOCAS DE SEMEADURA. In: ZOOTEC 2011, 2011, MACEIO. ZOOTEC 2011, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> ; SILVA, I. A. ; Gomes, B.M ; FARIA JUNIOR, O. L. ; CEZAR, B. . Efeito do tratamento homeopático sobre a mastite em vacas leiteiras. In: Congresso Brasileiro de Zootecnia, 2010, Palmas. zootec 2010, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> ; CEZAR, B. ; Gomes, B.M ; FARIA JUNIOR, O. L. . efeito do tratamento homeopático sobre a mastite em vacas leiteiras. In: XX CONGRESSO BRASILEIRO DE ZOOTECNIA, 2010, PALMAS. ZOOTEC 2010, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, A. D. ; ROCHA, M. R. ; Alves, T.G. ; Araújo, F.G. ; TEIXEIRA, R. A. ; <b>MACHADO, A. S.</b> . REAÇÃO DE VARIEDADES DE MILHO A Pratylenchus sp. EM ÁREA NATURALMENTE INFESTADA. In: Conpeex, 2009, Goiania. Copeex, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MACHADO, A. S.</b> ; PADUA, D. M. C. ; Morais, R.M. ; Urbinati, E. C. ; MENEZES, R. G. ; FERREIRA, A. D. . Diferentes biomassas no acondicionamento de tilápias sp. após transporte sobre o retorno a homeostase. In: Zootec 2009, 2009, Aguas de Lindóia SP. ZOOTEC 2009, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, M. R. ; FERREIRA, A. D. ; BARBOSA, K. A. G. ; ALVES, T. G. ; Araújo, F.G. ; <b>MACHADO, A. S.</b> . Reação de variedades de milho a Pratylenchus sp. em área naturalmente infestada. In: CONPEEX, 2009, GOIANIA. CONPEEX 2009, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> ; Morais, R.M. ; PADUA, D. M. C. ; Urbinati, E. C. ; MENEZES, R. G. ; FERREIRA, A. D. . DIFERENTES BIOMASSAS NO ACONDICIONAMENTO DE TILÁPIA sp. In: zootec 2009, 2009, águas de lindoia. zootec 2009, 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, A. D. ; ROCHA, M. R. ; ALVES, G. C. S. ; <b>MACHADO, A. S.</b> ; BUSO. W. H. D ; BARBOSA, K. A. G. ; Pereira, M. A. R . REAÇÃO DE GENÓTIPO DE MILHO A PRATYLENCHUS BRACHYURUS. In: CONGRESSO BRASILEIRO DE NEMATOLOGIA, 2012, UBERLANDIA. XXX CONGRESSO BRASILEIRO DE NEMATOLOGIA, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, L. O ; LIMA, M. L. M. ; Godoy, M.M ; Fernandes, J.J.R ; <b>MACHADO, A. S.</b> . PRODUÇÃO E COMPOSIÇÃO DO LEITE DE VACAS ALIMENTADAS COM GERMEN DE MILHO. In: II FMEPT, 2012, FLORIANOPOLIS. FORUM MUNDIAL DE EDUCAÇÃO PROFISSIONAL E TECNOLOGICA, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">UMAKI, T. ; <b>MACHADO, A. S.</b> ; Godoy, M.M ; FARIA JUNIOR, O. L. ; BUSO. W. H. D . COMPOSICAO DA PASTAGEM E DISTRIBUIÇAO DE PLACAS FECAIS DE BOVINOS NELORE SOB O PASTEJO DE BRACHIARIA BRIZANTHA CV MARANDU. In: I CONGRESSO ESTADUAL DE INICIACAO CIENTIFICA DO IFGOIANO, 2012, URUTAÍ. I CONGRESSO ESTADUAL DE INICIACAO CIENTIFICA DO IFGOIANO, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, A. D. ; ROCHA, M. R. ; BARBOSA, K. A. G. ; Alves, T.G. ; Santos, L.C. ; Araújo, F.G. ; Teixeira, R.A. ; <b>MACHADO, A. S.</b> . Reação de variedades de milho a pratylenchus sp. em área naturalmente infestada. In: 2 Congresso Internacional de Nematologia Tropical (ONTA-SBN), 2009, Maceió. 2 Congresso Internacional de Nematologia Tropical, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . Armadilha Ecológica para Controle da Mosca do Chifre. In: VIII Feira de Ciências da EAFCe, 2006, Ceres. Livro de resumos/ EAFCe. Ceres: EAFCe, 2006. v. 1. p. 2-71. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> ; FERREIRA, A. D. ; BUSO. W. H. D ; RIBEIRO, F. M ; SOARES, R. S. ; SILVA, H. W. ; SILVA, L. O ; RIBEIRO, T. B. . Reação de espécies forrageiras ao nematóide das lesoes radiculares. 2013. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> ; BUSO. W. H. D ; Arnhold, E. ; FRANÇA, A. F. S. . Produção de fitomassa verde de milheto submetidos a doses crescentes de nitrogênio em duas épocas de semeadura. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> ; Gomes, B.M ; FARIA JUNIOR, O. L. ; CEZAR, B. . Efeito do tratamento homeopático sobre a mastite em vacas leiteiras. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, M. P. ; MARTINS, L. R. ; <b>MACHADO, A. S.</b> . XI Feira de Ciências e Tecnologia do Instituto Federal Goiano - Campus Ceres. 2009. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> ; PADUA, D. M. C. ; Urbinati, E. C. ; MENEZES, R. G. ; FERREIRA, A. D. ; Morais, R.M. . Diferentes biomassas no acondicionamento de tilápias sp. após  transporte sobre o retorno a homeostase. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . Avaliação das condições higiênico - sanitárias na obtenção do leite no Assentamento Pontal do Araguaia no Município de Novo Planalto - Go. 2008. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . Diferentes biomassas no acondicionamento de tilápias sp. após transporte sobre o retorno a homeostase.
+							GOIANIA:
+									BIBLIOTECA DIGITAL DA UNIVERSIDADE CATÓLICA DE GOIÁS,  2009 (DISSERTAÇÃO). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="AssessoriaConsultoria"></a>Assessoria e consultoria</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		ERTHAL, V. J. T. ; <b>MACHADO, A. S.</b> ; BUSO. W. H. D ; CUNHA, A. K . PROJETO DE EXTENSÃO EM PRODUÇÃO DA PECUÁRIA LEITEIRA. 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MACHADO, A. S.</b> ; Sousa Costa, A..V. ; SOUZA, J. C. M. ; RIBEIRO, G. D. A. . Aperfeiçoamento do ensino-aprendizagem, através da modernizaçào dos setores de produçào e processamento do leite. 2006. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . Bovinocultura de Leite e Corte. 2008.
+							(Apostila).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MACHADO, A. S.</b> . Bovinocultura.
+							2007. (Desenvolvimento de material didático ou instrucional - Apostila). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . PRODUÇÀO DE SUÍNOS. 2006. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . Produçào de Suínos. 2006. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . Efeito da Aplicação de águas residuarias de bovinos em pastagens. 2010 (ORIENTADOR DE TRABALHO EM FEIRA DE CIÊNCIAS) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . Avaliação das condições higiênico - sanitárias na obtenção de leite no Assentamento Pontal do Araguaia no Município de Novo Planalto. 2008 (ORIENTADOR DE TRABALHO EM FEIRA DE CIÊNCIAS) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . CÂMARA ATOMIZADORA: baixo custo, eficiência e segurança. 2008 (ORIENTADOR DE TRABALHO EM FEIRA DE CIÊNCIAS) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . MASTITE, UM RISCO EM SEU REBANHO. 2007 (ORIENTADOR DE TRABALHO EM FEIRA DE CIÊNCIAS) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . ARMADILHA ECOLÓGICA PARA CONTROLE DA MOSCA DO CHIFRE (Haematobia irritans) em Bovinos. 2006 (ORIENTADOR DE TRABALHO EM FEIRA DE CIÊNCIAS) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . INFRA-ESTRUTURA PARA MELHORAR DESTINO DOS DEJETOS DE SUÍNOS E GALINHAS CDE POSTURA. 2005 (ORIENTADOR DE TRABALHO EM FEIRA DE CIÊNCIAS) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . MELHORAMENTO DA QUALIDADE DO COURO: ALTERNATIVA DE LUCRO PARA O PRODUTOR RURAL. 2005 (ORIENTADOR DE TRABALHO EM FEIRA DE CIÊNCIAS) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b>; FARIA JUNIOR, O. L.. Processo Seletivo Simplificado na area de Zootecnia Portaria n 139 de 3 de dezembro de 2008.
+							2008. Escola Agrotécnica Federal de Ceres. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b>. Processo Seletivo Simplificado na area de Zootecnia Portaria n 1 em 2 de janeiro de 2006.
+							2006. ESCOLA AGROTÉCNICA FEDERAL DE CERES. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b>. Processo Seletivo Simplificado na area de Zootecnia Portaria n 3 em 19 de janeiro de 2006.
+							2006. ESCOLA AGROTÉCNICA FEDERAL DE CERES. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZOOTEC 2013. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">cadeia produtiva de ruminantes.
+							2013. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WORKSHOP EQUIDEOCULTURA. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZOOTEC. Produção de leite de vacas alimentadas com gérmen de milho. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZOOTEC 2012. PESO DE ABATE E BIOMETRIA DE CARCAÇA DE BORREGAS SANTA INES CONFINADAS COM USO DE GRAO DE MILHO INTEIRO OU MOÍDO. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CONGRESSO NORDESTINO DE PRODUÇÃO ANIMAL. PARAMETROS HEMATOLÓGICOS DE VACAS LEITEIRAS NA FASE INICIAL DE LACTAÇÃO SUPLEMENTADAS COM DIFERENTES NÍVEIS DE GERMEN DE MILHO. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FORUM MUNDIAL DE EDUCAÇÃO E TECNOLOGIA.PRODUÇÃO E COMPOSIÇÃO DO LEITE DE VACAS ALIMENTADAS COM GÉRMEN DE MILHO. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">49 REUNIAO ANUAL DEA SOCIEDADE BRASILEIRA DE ZOOTECNIA.PARAMETROS RUMINAIS DE VACAS LEITEIRAS ALIMENTADDAS COM GERMEN DE MILHO. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COMPEX 2012.COMPORTAMENTO INGESTIVO DE VACAS LEITEIRAS ALIMENTADAS COM DIFERENTES NÍVEIS DE LIPÍDIOS. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII FEIRA DE CIÊNCIAS E TECNOLOGIA DO IFGOIANO CAMPUS CERES.COMPOSIÇÃO DE PASTAGEM E DISTRIBUIÇÃO DE PLACAS FECAIS DE BOVINOS NELORE, SOB PASTEJO DE BRACHIÁRIA BRIZANTHA CV. MARANDU. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII FEIRA DE CIÊNCIAS E TECNOLOGIA DO INSTITUTO FEDERAL GOIANO-CÂMPUS CERES.AVALIAÇÃO DE FORRAGEIRAS TROPICAIS SUBMETIDAS A DIFERENTES DOSES DE ÁGUAS RESIDUAIS DE BOVINOS. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII FEIRA DE CIÊNCIAS E TECNOLOGIA DO INSTITUTO FEDERAL GOIANO.EFEITO DA APLICAÇÃO DE ÁGUA RESIDUAL DE BOVINOS EM PASTAGENS DE PANICUM MAXIMUM CV TANZANIA. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII FEIRA DE CIENCIAS E CULTURA DO INSTITUTO FEDERAL GOIANO.USO DE GORDURA NA DIETA DE VACAS LEITEIRAS. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII  FEIRA DE CIÊNCIAS E CULTURA DO INSTITUTO FEDERAL GOIANO - CAMPUS CERES.PARAMETROS SÉRICOS DE VACAS LEITEIRAS NA FASE INICIAL DE LACTAÇÃO SUPLEMENTADAS COM DIFERENTES NÍVEIS DE GÉRMEN DE MILHO COMO FONTE DE GORDURA. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII FEIRA DE CIÊNCIAS E CULTURA DO IFGOIANO CAMPUS CERES.COMPORTAMENTO INGESTIVO E TAMANHO DE PARTÍCULAS DA DIETA DE VACAS LEITEIRAS. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZOOTEC 2011. MODELOS MISTOS. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Boas Práticas Laboratoriais. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">zootec 2010.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Uso de biotecnologia na piscicultura.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Integração lavoura-pecuária-floresta. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI Reunião Nacional de Ensino de Zootecnia. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZOOTEC 2009. Diferentes biomassas no acondicionamento de tilápias sp. após transporte sobre o retorno a homeostase. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Minicurso de Aquacultura. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV Reunião Nacional de Ensino de Zootecnia.www.cfmv.org.br. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CURSO USO DO NRC 2001 NA FORMULAÇAO DE RAÇOES PARA BOVINOS LEITEIROS. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Feira de Ciências e Cultura da Escola Agrotécnica Federal de Ceres.Camara Atomizadora: baixo custo, eficiência e segurança.. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8 Simpósio Internacional sobre Produçào Intensiva de Leite.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2 Curso como produzir leite com qualidade. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gerenciamento estratégico da propriedade leiteira. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Feira de Ciências e Cultura da Escola Agrotécnica Federal de Ceres.Orientador. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II CONGRESSO BRASILEIRO DE QUALIDADE DO LEITE. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PALESTRA SEMANA DO PLANEJAMENTO. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">palestra "O processo político-pedagógico na perspectiva interdisciplinar". 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">11 SEMINÁRIO NACIONAL DE DESENVOLVIMENTO DA SUINOCULTURA. 2005. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Seminário Estadual de Cooperativismo. 2004. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8 Rodadda Goiana de Tecnologia em Manejo de Suínos. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CERRADO CORAÇÃO DO BRASIL.
+							2001. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CURSO DE PISCICULTURA. 1997. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> . I CICLO DE CAPACITAÇÃO DA EAFCe. 2006. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIEGO MACHADO PEREIRA. PRODUÇÃO E COMPOSIÇÃO DO LEITE DE VACAS LEITEIRAS ALIMENTADAS COM CANA-DE-AÇUCAR E GÉRMEN DE MILHO. Início: 2012. Iniciação científica (Graduando em ZOOTECNIA)  - Instituto Federal Goiano. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARCO AURELIO RODRIGUES PEREIRA. Resposta de forrageiras tropicais à aplicação de diferentes doses de águas residuais de bovinos. Início: 2012. Iniciação científica (Graduando em ZOOTECNIA)  - Instituto Federal Goiano. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FAGNER MACHADO RIBEIRO. Comportamento de borregos e borregas confinados com duas cultivares de cana-de-açúcar. Início: 2012. Iniciação científica (Graduando em ZOOTECNIA)  - Instituto Federal Goiano. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FABIO ALVES ZANATA. Comportamento de borregos e borregas confinados com duas cultivares de cana-de-açúcar. Início: 2012. Iniciação científica (Graduando em ZOOTECNIA)  - Instituto Federal Goiano. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">EMIZAEL MENEZES DE ALMEIDA. Resposta de forrageiras tropicais a aplicação de diferentes doses de águas residuais de bovinos. Início: 2012. Iniciação científica (Graduando em ZOOTECNIA)  - Instituto Federal Goiano. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TASSIO KANAME DA SILVA UMAKI. COMPOSIÇÃO DA PASTAGEM E DISTRIBUIÇÃO DE PLACAS FECAIS DE BOVINOS NELORE SOB PASTEJO EM BRACHIARIA. Início: 2012. Iniciação científica (Graduando em TECNICO AGROPECUARIA INTEGRADO AO ENSINO MEDIO)  - Instituto Federal Goiano. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">douglas dijkstra. DIGESTIBILIDADE E CONSUMO DE VACAS LEITEIRAS ALIMENTADAS COM GÉRMEN DE MILHO. Início: 2011. Iniciação científica (Graduando em ZOOTECNIA)  - Instituto Federal Goiano. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lidiane de Oliveira Silva. Produção de leite de vacas alimentadas com gérmen de milho. Início: 2011. Iniciação científica (Graduando em ZOOTECNIA)  - Instituto Federal Goiano. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FAGNER MACHADO RIBEIRO. PARAMETROS RUMINAIS DE VACAS LEITEIRAS ALIMENTADAS COM GERMEN DE MILHO. Início: 2011. Iniciação científica (Graduando em ZOOTECNIA)  - Instituto Federal Goiano. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FABIO ALVES ZANATA. EFEITO DE APLICAÇÃO DE AGUAS RESIDUAIS DE BOVINOS EM PASTAGEM DE TANZANIA. Início: 2011. Iniciação científica (Graduando em ZOOTECNIA)  - Instituto Federal Goiano. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRUNO DE OLIVEIRA NERES.
+							ATIVIDADES AGROPECUÁRIAS.
+							2012.
+							Orientação de outra natureza - Instituto Federal Goiano. Orientador: Alan Soares Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Elias Barbosa Ferreira.
+							Elias Barbosa Ferreira.
+							2008.
+							Orientação de outra natureza. (técnico agropecuaria integrado ao ensino médio)  - Escola Agrotécnica Federal de Ceres. Orientador: Alan Soares Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Adriano Cardoso Bezerra.
+							Suinocultura.
+							2007.
+							Orientação de outra natureza. (tecnico agrícola integrado ao ensino médio)  - ESCOLA AGROTÉCNICA FEDERAL DE CERES. Orientador: Alan Soares Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCAS FABIANO JORGE ELIAS.
+							ZOOTECNIA.
+							2006.
+							Orientação de outra natureza - Escola Agrotécnica Federal de Ceres. Orientador: Alan Soares Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCAS MARQUES DE ASSUNÇÃO.
+							ZOOTECNIA.
+							2006.
+							Orientação de outra natureza - Escola Agrotécnica Federal de Ceres. Orientador: Alan Soares Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ELAINE NERES DA SILVA.
+							ZOOTECNIA.
+							2006.
+							Orientação de outra natureza - Escola Agrotécnica Federal de Ceres. Orientador: Alan Soares Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CLEDSON APARECIDO SOARES MARTINS.
+							ZOOTECNIA.
+							2006.
+							Orientação de outra natureza - Escola Agrotécnica Federal de Ceres. Orientador: Alan Soares Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TIAGO MENDONÇA DE SOUZA.
+							ZOOTECNIA.
+							2006.
+							Orientação de outra natureza - Escola Agrotécnica Federal de Ceres. Orientador: Alan Soares Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANÇÓIS GOMES DE SOUZA FILHO.
+							ZOOTECNIA.
+							2006.
+							Orientação de outra natureza - Escola Agrotécnica Federal de Ceres. Orientador: Alan Soares Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alan Grôver Viana.
+							Zootecnia.
+							2006.
+							Orientação de outra natureza. (técnico agropecuaria integrado ao ensino médio)  - Escola Agrotécnica Federal de Ceres. Orientador: Alan Soares Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">André Luiz de Freitas Nery.
+							Zootecnia.
+							2006.
+							Orientação de outra natureza. (técnico agropecuaria integrado ao ensino médio)  - Escola Agrotécnica Federal de Ceres. Orientador: Alan Soares Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Geovane de Moura Silva.
+							Geovane  de Moura Silva.
+							2006.
+							Orientação de outra natureza. (técnico agropecuaria integrado ao ensino médio)  - Escola Agrotécnica Federal de Ceres. Orientador: Alan Soares Machado.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, A. S.</b> ; FERREIRA, A. D. ; BUSO. W. H. D ; RIBEIRO, F. M ; SOARES, R. S. ; SILVA, H. W. ; SILVA, L. O ; RIBEIRO, T. B. . Reação de espécies forrageiras ao nematóide das lesoes radiculares. 2013. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Presidente da Comissão organizadora do I Ciclo de Capacitação do Vale de São Patrício, promovido pela EAFCe 2006.
+Participação na elaboração do Projeto Vitae contemplado em 2006 pela EAFCe, sob o título de Aperfeiçoamento dos alunos no ensino teórico-prático na Agroindústria e Bovinocultura de leite da EAFCe.
+</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 23/05/2014 &agrave;s 17:05:27</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0007600771088424" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,2615 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Wanderley Gazeta)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0041153228919108" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4790161J9&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4790161J9"><div class="infpessoa">
+<h2 class="nome">Wanderley Gazeta</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0041153228919108</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 10/06/2011</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Ciências Contábeis pela Universidade Ibirapuera (1985), especialização em Auditoria pela Universidade Ibirapuera (1987) e mestrado em Ciências da Computação e Matemática Computacional pela Universidade de São Paulo (1997).<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Wanderley Gazeta</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GAZETA, W.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Centro Universitário Adventista de São Paulo. <br class="clear" />Estrada Vicinal Pr. Valter Boger s/n<br class="clear" />Lagoa Bonita<br class="clear" />13165-000 - Engenheiro Coelho, SP - Brasil - Caixa-postal: 11<br class="clear" />Telefone: (19) 38589030<br class="clear" />Ramal: 9030<br class="clear" />Fax: (19) 38589025<br class="clear" />URL da Homepage: <a target="blank" href="http://www.unasp-ec.edu.br">www.unasp-ec.edu.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciências da Computação e Matemática Computacional<span class="ajaxCAPES" data-param="&codigoCurso=33002045004P1&nivelCurso=M"></span>. <br class="clear" />Universidade de São Paulo.
+		
+	<br class="clear" />Título: Estudo Sobre a Representação de Estruturas de Atributos Multivalorados em uma Base de Dados Orientada a Objetos,Ano de Obtenção: 1997.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5118629875846648'><img src='images/curriculo/logolattes.gif' /></a>Caetano Traina Júnior.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. <br class="clear" />Palavras-chave: Orientação a Objetos; Sistema de Banco de Dados; Estrutura de Dados; Atributos Multivalorados.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 interrompida</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização interrompida em 2005 em Especialização Metodologia da Educação a Distância<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 810h). <br class="clear" />Universidade do Sul de Santa Catarina, UNISUL, Brasil.
+		
+	<br class="clear" />Título: Não ocorreu. <br class="clear" />Orientador: Não ocorreu. <br class="clear" />Ano de interrupção: 2005</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Auditoria<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 360h). <br class="clear" />Universidade Ibirapuera, UNIB, Brasil.
+		
+	<br class="clear" />Título: Sem monografia. <br class="clear" />Orientador: Sem orientador. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1982 - 1985</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Ciências Contábeis<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Ibirapuera, UNIB, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação de Professores (EAD).  (Carga horária: 60h). <br class="clear" />Universidade do Estado do Rio de Janeiro.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelagem de Dados (Atualização).  (Carga horária: 15h). <br class="clear" />Universidade de São Paulo.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1987 - 1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">dBase III.  (Carga horária: 16h). <br class="clear" />Iguatemicro Computadores.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1984 - 1984</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Microcomputação.  (Carga horária: 40h). <br class="clear" />Centro Universitário Adventista de São Paulo, UNASP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1976 - 1976</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Suprimento de Promoção de Vendas.  (Carga horária: 30h). <br class="clear" />Serviço Nacional de Aprendizagem Comercial.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1976 - 1976</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Suprimento de Técnicas de Venda (Aperfeiçoamento).  (Carga horária: 30h). <br class="clear" />Serviço Nacional de Aprendizagem Comercial.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1975 - 1975</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Suprimento Chefia e Liderança (Aperfeiçoamento).  (Carga horária: 20h). <br class="clear" />Serviço Nacional de Aprendizagem Comercial.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1975 - 1975</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Qualificação Profissional I de Vendedor.  (Carga horária: 70h). <br class="clear" />Serviço Nacional de Aprendizagem Comercial.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1973 - 1973</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Socorrista Padioleiro.  (Carga horária: 60h). <br class="clear" />Centro Universitário Adventista de São Paulo, UNASP, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Centro Universitário Adventista de São Paulo, UNASP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: orientador, Enquadramento Funcional: Coordenador, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Centro Universitário Adventista de São Paulo (EC), UNASP-EC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Coordenação, Enquadramento Funcional: Coordenador do Processo Seletivo - Unasp, Carga horária: 6</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Bolsista/Pesquisador Sem Vínculo, SEM VINCULO, Brasil.
+		
+	</b>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Estudo dos principais benef&iacute;cios da implanta&ccedil;&atilde;o da contabilidade ambiental no UNASP-EC'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo dos principais benefícios da implantação da contabilidade ambiental no UNASP-EC<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Um estudo sobre os recursos naturais e ativo ambiental do campus de Engenheiro do Centro Universitário Adventista de São Paulo que pretende levantar um inventário desses recursos e propor um sistema de acompanhamento e controle.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Wanderley Gazeta - Coordenador / Simone Agostini - Integrante / Lilian Xavier - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende PoucoLê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende BemLê Bem, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		MARÇAL, Claudiane Inácia ; <b>GAZETA, W.</b> . Escolha e gestão de novas tecnologias da informação em empresas de pequeno porte: um estudo de caso.. 2007. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>GAZETA, W.</b> . Representação de Atributos Multivalorados em uma Base de Dados Orientada a Objetos. 1997. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>GAZETA, W.</b> ; TRAINA JR, Caetano . Representação de Estruturas para Atributos Multivalorados em Base de Dados Orientada a Objetos. 1996. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>GAZETA, W.</b> ; TRAINA JR, Caetano . Representacao de Estruturas para Atributos Multivalorados em uma Base de Dados Orientada a Objetos. 1996. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>GAZETA, W.</b> ; GAZETA, Jean Marcel Mastrocola . Escola no Ar. 2008. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> ; CANTORI, Wagner . Crédito ou Débito. 2008. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> ; CANTORI, Wagner . A Influência da Mídia no Consumismo. 2008. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> ; CANTORI, Wagner . Vou me Casar e Agora?. 2008. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Como_sair_do_vermelho. 2008. 
+						
+							(Programa de rádio ou TV/Outra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Cuidados que o Consumidor deve tomar. 2008. 
+						
+							(Programa de rádio ou TV/Outra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Deveres do Consumidor. 2008. 
+						
+							(Programa de rádio ou TV/Outra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Direitos Basicos do Consumidor. 2008. 
+						
+							(Programa de rádio ou TV/Outra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . CONTRATO DE LEASING ESCONDE VÁRIAS SURPRESAS. 2008. 
+						
+							(Programa de rádio ou TV/Outra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Cuidados com os documentos.. 2008. 
+						
+							(Programa de rádio ou TV/Outra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Economia no supermercado. 2008. 
+						
+							(Programa de rádio ou TV/Outra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Progama de Incentivo NF Paulista. 2008. 
+						
+							(Programa de rádio ou TV/Outra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Quanto custam os hábitos. 2008. 
+						
+							(Programa de rádio ou TV/Outra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Seguranca no Comercio Eletronico. 2008. 
+						
+							(Programa de rádio ou TV/Outra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Seguranca internet banking. 2008. 
+						
+							(Programa de rádio ou TV/Outra).
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GAZETA, S. M. M. ; <b>GAZETA, W.</b> . Filhas de Deus.
+							2009. (Desenvolvimento de material didático ou instrucional - Ambiente Virtual de Estudo). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Agostini, S. ; XAVIER, L. ; <b>GAZETA, W.</b> . Estudo dos principais benefícios da implantação da contabilidade ambiental no UNASP-EC. 2007. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Os impactos da Nanotecnologia na vida dos cidadãos comuns. 2005.
+							(Palestra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Projeto Educar. 2002. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Tecnologia Educacional. 2001. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Projeto Alfabetização Solidária. 2000. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Informática para Secretárias. 1999. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . A Informática como recurso de Evangelização. 1997.
+							(Palestra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Planejamento e Construção de um Site Pessoal. 1995. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . WordPerfect 6.0. 1995. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<a name="ProducaoArtisticaCultural"></a><br class="clear" /><div class="inst_back">
+<b>Produção artística/cultural</b>
+</div>
+<div class="cita-artigos">
+<b><a name="OutrasProducoesArtisticas"></a>Outras produções artísticas/culturais</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Seu Dinheiro. 2009. (Apresentação em rádio ou TV/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Seu Dinheiro. 2008. (Apresentação em rádio ou TV/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . Seu Dinheiro. 2007. (Apresentação em rádio ou TV/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Dênis Ferreira da Silveira. Análise de Líderes a partir da Perspectiva da Auto-Liderança: Uma sugestão de estudo e investigação arquetípica de líderes para o Terceiro Setor. 2010. Monografia (Aperfeiçoamento/Especialização em Gestão do Terceiro Setor)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de David Figueiredo Quinto Soares. Sarbanes-Oxley: Governança Corporativa e a Eficácia dos Controles Internos. 2009. Monografia (Aperfeiçoamento/Especialização em Auditoria e Controladoria)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Valter da Silva Araújo. Projeto: Recreação e Natureza em Cubatão. 2007. Monografia (Aperfeiçoamento/Especialização em Gestão do Terceiro Setor)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Maria Ângela Stencel Arrais. Projeto: Recreação e Natureza em Cubatão. 2007. Monografia (Aperfeiçoamento/Especialização em Gestão do Terceiro Setor)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Edilene Machado Araujo. Projeto: Recreação e Natureza em Cubatão. 2007. Monografia (Aperfeiçoamento/Especialização em Gestão do Terceiro Setor)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Paulo de Tarso Carvalho da Costa. Projeto: Recreação e Natureza em Cubatão. 2007. Monografia (Aperfeiçoamento/Especialização em Gestão do Terceiro Setor)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Marly Acosta Burema Lima.A importância da contabilidade gerencial para micro e pequenas empresas.
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Lilian Alberto Xavier e Simone Agostini.Análise do Patrimônio Florestal do UNASP-EC sob a perspectiva contábil e financeira.
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Luiz Henrique Moreira dos Santos e Alexandre de S. Carlstron.O controle de custos na prestação de serviços: um estudo de caso numa empresa de reparos automotivos.
+							2010. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Lucimar Welmer.Planejamento tributário: um estudo de caso no setor cítrico.
+							2010. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Luiz Gustavo de Oliveira.Iniciativa ao empreendedorismo: a importância da Contabilidade na estruturação de micro pequenas empresas.
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Daniel de Souza.Utilização da DRE como um instrumento para tomada de decisão nas filiais da Casa Publicadora Brasileira: um estudo de caso.
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Paula Machado.Ética Profissional: um estudo sobre a retrospectiva do Código de Ética do Contabilista.
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de José Francisco Dias.Simples Nacional: a nova forma de tributação das microempresas e empresas de pequeno porte.
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Danieli Regina de Freitas.Métodos de Custeio para Micro e Pequenas Empresas: um estudo dos artigos dos Congressos Brasileiros de Custos de 2004 e 2007.
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Edivania Gomes da Silva.Gestão de Custos: Pesquisa-ação em uma empresa madeireira..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Elói Miguel Matos de Souza.Lei da Arbitragem e a Participação do PeritoContábil na Solução de seus Litígios.
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Amós Silva do Cazal.O Planejamento Orçamentário como ferramenta de gestão no Residencial Lagoa Bonita.
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Deise Souza da Silva.A importância da apuração de custos na formação de preços: um estudo de caso em uma fábrica de instrumentos musicais.
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Anderson Jesus Veríssimo e Cristina Santos de Fara Banin.A importância da Contabilidade de Custos na Administração de um Salão de Beleza.
+							2008. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Márcio Pereira e Régis Antonio Torres.A Importância do Sistema de Informação no Comércio de Flores da Empresa Floranet.
+							2008. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Tiago Carvalho Martini.Definição de preço de venda.
+							2006. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Adriani Rodrigues e Hely Teixeira.Uma análise comparativa dos custos e produção e percepção de valor do cliente em uma empresa de publicidade e propaganda.
+							2006. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Aline franciele Scholl.A Importância da Análise de Custo em uma pequena Empresa de Hotelaria: Estudo de Caso.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Rosana Elizabeth Huarcaya Charca.Análise de Custos em uma Empresa de Transportes: Um Estudo de Caso.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Walnice da Conceição Silva.Auditoria Interna como Instrumento na Gestão de Negócio de uma Empresa Prestadora de Serviços.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Ana Paula de Souza Santos.Gestão de Custos: Um estudo de Caso em uma Empresa de Pequeno Porte.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Sérgio Arruda de Souza.Análise da formação de preços para tomada de decisão: Estudo de Caso numa Indústria cosmética.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Joabe Schmidt Menezes.Aplicação da ergonomia para as melhorias das condições de trabalho na produção industrial: um estudo de caso.
+							2005. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Roseli Gruber de Oliveira.A satisfação dos clientes no estreitamento e ampliação das relações comerciais: um estudo de caso em uma indústria gráfica.
+							2005. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Marcelo Pancirolli e Rafael Celestino Costa.Gestão da manutenção de equipamentos hospitalares.
+							2005. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Alessandra Barbosa.Balanço Orçamentário: Significado das Despesas e Receitas da Prefeitura Municipal de Cosmópolis.
+							2005. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Nelson de Oliveira.Listel, do Monopólio para livre concorrência no mercado de listas telefônicas.
+							2004. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Amós Silva do Cazal.Concepção de Empresários da Associação Comercial de Artur Nogueira- SP sobre Orçamento Empresarial.
+							2004. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Edgar Matheus.A demonstração do fluxo de caixa como ferreamenta para a tomada de decisão.
+							2004. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Claudio Mota da Costa.Uma Análise Teórico - orática sobre a Segurança do Trabalho: Um Estudo de Caso.
+							2004. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Ursula Habeck.O marketing como uma ferramenta estratégica para empresas varejistas: Um estudo de Caso.
+							2004. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Camila Pasini.Planejamento Financeiro e Controle de Resultados de um Fundo Mútuo de Garantia de Automóveis em uma Organização sem Fins Lucrativos.
+							2004. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Christian P. Richers.A Melhor Opção do Regime de Tributação para o Imposto de Renda: Um Estudo de Caso.
+							2004. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Gley Márcio F. de Araújo.A Importância do Planejamento, Aquisição e Gestão de Materiais.
+							2004. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Marcos Gomes Alves.Estilo de Liderança do Unasp-c2.
+							2003. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Wesley Oliveira Santiago.Sistema de Informação Como Determinante para a Eficácia Administrativa.
+							2003. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Valéria Santos Sena.Estudo e Análise Comparativo entra a Teoria e aa Prática das Políticas de Higiene, Segurança e Medicina no trabalha Aplicadas ao Unasp-c2.
+							2003. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Valfrides monteiro Junior.Motivação e Qualidade Organizacional na empresa Lark Máquinas e Equipamentos S/A.
+							2003. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Marcelo Francisco Xavier.Um Estudo da Sistemática de Cobrança e os seus Impactos na Saúde Financeira de uma Instituição.
+							2003. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b>.  Participação em banca de Adriana Garcia Leal.Gestão de Caixa: Uma análise Teórico - Prática no Unasp - c2.
+							2002. Trabalho de Conclusão de Curso (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">18º Educador - Congresso Internacional de Educação. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">9º Avaliar - Congresso Internacional sobre Avaliação na Educação. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II encontro de coordenadores e assessores da área acadêmica do UNASP. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7º Educador Management - Seminário de Gestão em Educação. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1º Educatec - Seminário Internacional de Tecnologia para a Educação. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">18ª Educar - Feira Internacional de Educação. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário sobre Previdência Rural. 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HETCHTECH-Soluções Tecnológicas Interativas. 2009. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Encontro de Ciências Contábeis.VI Encontro de Ciências Contábeis.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucro Real: Estimativa Mensal e Apuração Anual - Regras. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dia da Responsabilidade Social.Controle do Orçamento Familiar. 2008. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro nacional de Coordenadores do Curso de Ciências Contábeis.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Encontro Anual de Inciação Científica.Escolha e gestão de novas tecnologiasda informação em empresas de pequeno porte: um estudo de caso.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">20ª Convenção dos Contabilistas do Estado de São Paulo. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Congresso Interamericano de Professores da Área Contábil. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III SEMINÁRIO DE EDUCAÇÃO SUPERIOR. 2005. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Comportamentos que Prejudicam o Trabalho e como Substituí-los. 2005. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana Jurídica do UNASP.Direito Tributário.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">O Brasil Mostra a Sua Cara.Nanotecnologia. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Conquistar e Fidelizar Clientes para Manter o Negócio. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">O Coordenador de Curso e a Gestão do Projeto Pedagógico. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">17º Congresso Brasileiro de Contabilidade. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3º Congresso USP de Controladoria e Contabilidade. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Nacional de Ensino Superior - Atualidade e Perspectivas para instituições Educacionais Evangélicas. 2002. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário de Tendências e Tecnologias em Educação a Distância. 2001. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Sobre Gestão Universitária - Pensando o nosso futuro. 1998. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Simpósio de Teses e Dissertações dp Programa de Pós-Graduação da Área de Ciências de Computação e Matemática Computacional.Representação de Atributos Multivalorados em uma Base de Dados Orientada a Objetos.
+							1997. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">25ª Jornadas Argentinas de Informática e Investigación Operativa (JAIIO). Expositiva. 1996. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI SIMPÓSIO BRASILEIRO DE BANCO DE DADOS.
+							1996. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Programa de Extensão Cultural (Verão).Word Perfect (6.0). 1995. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVII Congresso Nacional de Informática e Telecomunicações - SUCESO'94. 1994. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> ; PEREZ, Ana M. Rien . Dia da Responsabilidade Social e Ação Comunitária 2011. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> ; PEREZ, Ana M. Rien . Dia da Responsabilidade Social e Ação Comunitária 2010. 2010. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . V ENCONT - Encontro de Ciências Contábeis do UNASP-EC. 2008. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . III Simpósio de Ciências Contábeis do UNASP-EC. 2008. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . IV ENCONT - Encontro de Ciências Contábeis do UNASP-EC. 2007. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . II Simpósio de Ciências Contábeis e IV Simpósio de Administração. 2007. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . III ENCONT - Encontro de Ciências Contábeis. 2006. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . I Simpósio do Curso de Ciências Con´tábeis do UNASP-EC. 2006. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . II ENCONT - Encontro de Ciências Contábeis do UNASP. 2005. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAZETA, W.</b> . I ENCONT - Encontro de Ciências Contábeis. 2004. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Cristina Newlands Custódio. Desenvolvimento Empresarial, Formação Profissional e Promoção Social em Timor Leste. Início: 2009. Monografia (Aperfeiçoamento/Especialização em Gestão do Terceiro Setor)  - Centro Universitário Adventista de São Paulo (EC). (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Schneider. Alfabetização Digital Funcional. Início: 2009. Monografia (Aperfeiçoamento/Especialização em Docência Universitária)  - Centro Universitário Adventista de São Paulo (EC). (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Veronica Terezinha Hergesell. O Papel Social no Relacionamento Interpessoal de Crianças de 06 a 12 anos: Um estudo de caso no Centro Social  no Bairro Rebouças em Maringá. Início: 2008. Monografia (Aperfeiçoamento/Especialização em Gestão do Terceiro Setor)  - Centro Universitário Adventista de São Paulo (EC). (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Emilio Cupua. A Intervenção da ADRA mp Ciclone Flávio em Moçambique. Início: 2008. Monografia (Aperfeiçoamento/Especialização em Gestão do Terceiro Setor)  - Centro Universitário Adventista de São Paulo (EC). (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silvana Telma de Lima Fritoli. ADRA Sul-Brasileira no Terceiro Setor: Contribuições do CADEC às Familias em Vunerabilidade Social. Início: 2008. Monografia (Aperfeiçoamento/Especialização em Gestão do Terceiro Setor)  - Centro Universitário Adventista de São Paulo (EC). (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciana da Silva Farias. A Importância da Cidadana na Comunidade de Santo Agostinho Manaus-AM. Início: 2008. Monografia (Aperfeiçoamento/Especialização em Gestão do Terceiro Setor)  - Centro Universitário Adventista de São Paulo (EC). (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gizeli Anadete Ramos Ribeiro. O Trabalho da ADRA Frente à Política Nacional de Assistencia Social: Atividades da ADRA na Região de Santa Catarina, Perspectivas e Mudanças. Início: 2008. Monografia (Aperfeiçoamento/Especialização em Gestão do Terceiro Setor)  - Centro Universitário Adventista de São Paulo (EC). (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">William J. Gonçalves. O Certificado P.Q.E.C..
+						Início: 2009. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">André Júnior de Oliveira.
+							Formação do contador: um estudo sobre os graduados Unasp-EC.
+							2008.
+							Monografia. (Aperfeiçoamento/Especialização em Gestão do 3º Setor)  - Centro Universitário Adventista de São Paulo. Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Roberto Pareja Filho.
+							Os Desafios da Gestão Escolar Frente à Inadimplência: Uma Análise Administrativa das Escolas Particulares da Cidade de Goioerê.
+							2008.
+							Monografia. (Aperfeiçoamento/Especialização em Gestão Financeira)  - Centro Universitário Adventista de São Paulo. Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Josadac Marques.
+							Transformando vidas com arte.
+							2008.
+							Monografia. (Aperfeiçoamento/Especialização em Gestão do Terceiro Setor)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dirceu Izeti Ferraz de Campos.
+							Análise da Viabilidade da Educação Tecnológica a Distância.
+							2007.
+							Monografia. (Aperfeiçoamento/Especialização em Docência Universitária)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cibele do Carmo Alves Ribeiro.
+							Os principais fatores que influenciam a qualidade do Ensino/Aprendizagem no curso de Ciências Contábeis no UNASP-EC.
+							2006.
+							Monografia. (Aperfeiçoamento/Especialização em Docência Universitária)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lilian Alberto Xavier e Simone Agostini.
+							Análise do Patrimônio Florestal do UNASP-EC sob a Perspectiva Contábil e Financeira.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucimar Welmer.
+							Planejamento Tributário: um estudo de caso no setor cítrico.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Deise Souza Silva.
+							A IMPORTÂNCIA DA APURAÇÃO DOS CUSTOS NA FORMAÇÃO DE PREÇOS: UM ESTUDO DE CASO EM UMA FÁBRICA DE INSTRUMENTOS MUSICAIS.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo. Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oscar André Correa Figueiredo.
+							Análise dos Demonstrativos Contábeis no setor público.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Everton Silva Santos.
+							"Os Impactos na Contabilidade com a Implantação de um Sistema ERP".
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo. Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gustavo Henrique Magossi.
+							"Contabilidade em Empresas do Terceiro Setor".
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo. Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ari Augusto Soares.
+							O Projeto AUDESP nos municípios de Artur Nogueira, Cosmópolis, Holambra e Jaguariúna: Um estudo dos impactos de sua implantação e sobre as expectativas futuras.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Josias Gonçalves.
+							A impotância da Contabilidade na perspectiva de pequenos empresários do município de Engenheiro Coelho.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Wellington Manoel Penafiel.
+							Contribuição dos sistemas de informações contábeis para a eficácia dos serviços or]ferecidos pelos escritórios de contabilidade do município de Artur Nogueira.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Claudiane Marçal.
+							Escolha e Gestão de Novas Tecnologias de Informação em Empresas de Pequeno Porte: um estudo de caso.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sheila Mandaio.
+							Dívida Fundada da Prefeitura Municipal de Artur Nogueira: um estudo sobre seus impactos na Gestão Pública Municiapal.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oscar André Correa Figueiredo.
+							Análise de Demonstrativos Contábeis no Setor Público: um estudo sobre a influência do conhecimento contábil a serviço da administração pública.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonardo Dangel.
+							Análise de Custos Aplicada em Empresas de Plano de Saúde: um estudo de casona empresa Clinesp - Planos de Saúde - Artur Nogueira - SP.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ricarlos de Sousa.
+							População Volante de Engenheiro Coelho: impacto na adminstração pública.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ismael Batista Ferreira.
+							Orçamento Participativo na atual gestão do Município de Artur Nogueira - SP: um estudo de caso.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vânia de Sousa.
+							O Impacto dos Custos em uma Fábrica de Bolsa.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Joyce Helena Cruz.
+							Gestão de Custos na Área Rural: um estudo de caso numa pequena propriedade agrícola de laranjas.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Edgar Lemes Junior.
+							Custeamento em Sistema de Produção por Encomenda: particularidades e impactos no resultado.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Alberto Peternella.
+							A Apuração dos Custos em uma Estufa de Violetas dentro de seu Contexto Negocial: um estudo de caso.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Wendel Fernandes de Almeida.
+							Implicações Éticas do uso do marketing por escritórios e profissionais contábeis.
+							2005.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cleydson Ohnesoege e Jeremias Leite Ramos.
+							O uso da tecnologia da informação na elaboração do planejamento estratégico do UNASP-EC.
+							2005.
+							Trabalho de Conclusão de Curso. (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Paulo Rafael Moreira Mischiatti.
+							Uma análise da rotina do Almoxarifado do UNASP-EC sob a perspectiva da Curva ABC e "Just-in-Time".
+							2005.
+							Trabalho de Conclusão de Curso. (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Heloisa Helena Pinto Rodrigues e Elisângela Segatto.
+							Educação à Distância: Telecurso 2000 como estímulo à continuidade dos estudos.
+							2004.
+							Trabalho de Conclusão de Curso. (Graduação em Pedagogia)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Francisco Xavier.
+							Um estudo da sistemática de cobrança e os seus impactos na saúde financeira de uma instituição de ensino.
+							2003.
+							Trabalho de Conclusão de Curso. (Graduação em Administração)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Claudiane Inácia Marçal.
+							Escolha e gestão de novas tecnologias da informação em empresas de pequeno porte: um estudo de caso.
+							2007.
+							Iniciação Científica. (Graduando em Administração)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Patrícia Helen Muniz da Silva.
+							Custos e Rentabilidade da Doces Brasil Caipira: um Estudo de Caso.
+							2005.
+							Orientação de outra natureza. (Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Wilton Pereira da Silva.
+							Interferências no Processo de Comunicação entre a Contabilidade e seus Usuários.
+							2005.
+							Orientação de outra natureza. (Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Walnice da Conceição Silva.
+							A Importância da Auditoria Interna para o Controle de uma Empresa Prestadora de Serviços.
+							2005.
+							Orientação de outra natureza. (Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucilene C. de Souza.
+							um estudo sobre Estoques em uma Indústri Química.
+							2005.
+							Orientação de outra natureza. (Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dalila Cristina Ferreira.
+							Sistema de Informação Contábil como Ferramenta para Tomada de Decisão.
+							2005.
+							Orientação de outra natureza. (Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcos Paulo Zanetti.
+							A Utilização da Informática no Ensino da Contabilidade no Unasp-EC.
+							2005.
+							Orientação de outra natureza. (Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aline Franciele Scholl.
+							A Importância do Controle de Custom numa Empresa Hoteleira: Um Estudo de Caso.
+							2005.
+							Orientação de outra natureza. (Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rosana Huarcaya Huanca.
+							A Importância da Análise de Custos na Tomada de Decisão: Um Estudo de Caso da Empresa de Transportes de Agustin Huarcaya Huanca.
+							2005.
+							Orientação de outra natureza. (Ciências Contábeis)  - Centro Universitário Adventista de São Paulo (EC). Orientador: Wanderley Gazeta.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 07/05/2014 &agrave;s 10:37:56</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0041153228919108" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

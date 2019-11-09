@@ -1,0 +1,990 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Kleber Bergamaski)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0099854620277526" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4769474J0&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4769474J0"><div class="infpessoa">
+<h2 class="nome">Kleber Bergamaski</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0099854620277526</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 13/02/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">possui graduação em Química pela Universidade Estadual de Maringá (1999), mestrado em Química (Físico-Química) pela Universidade de São Paulo (2002), doutorado em Química (Físico-Química) pela Universidade de São Paulo (2005) e Pós-doutorado pela Universidade de São Paulo (2006- ). Tem experiência na área de Química, com ênfase em Eletroquímica, atuando principalmente nos seguintes temas: eletrocatálise de álcoois,  catalisadores a base de platina e espectroscopia vibracional por soma de freqüências.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Kleber Bergamaski</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">BERGAMASKI, K.;BERGAMASKI, KLEBER</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal de Sergipe, Centro de Ciências Exatas e Tecnologia, Departamento de Quimica. <br class="clear" />Av Marechal Rondon, s/n<br class="clear" />Rosa Else<br class="clear" />49100-000 - Sao Cristovao, SE - Brasil<br class="clear" />Telefone: (79) 21056899<br class="clear" />URL da Homepage: <a target="blank" href="http://www.ufs.br/">http://www.ufs.br/</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Instituto de Física de São Carlos / USP.
+		
+	<br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Físico-Química. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Química / Subárea: Físico-Química / Especialidade: Eletroquímica. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Química / Subárea: Físico-Química / Especialidade: Espectroscopia. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Química (Físico-Química)<span class="ajaxCAPES" data-param="&codigoCurso=33002010011P1&nivelCurso=D"></span>. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />Título: Dependência da seletividade da reação de eletro-oxidação de metanol e etanol sobre nanopartículas de Pt/C e PtRh/C, Ano de obtenção: 2006. <br class="clear" />Orientador: Prof. Dr. Francisco Carlos Nart. <br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo. <br class="clear" />Palavras-chave: Eletrocatálise; Eletro-oxidação de Metanol; Pt nanopartículas; Pt/C.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Química. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Química / Subárea: Físico-Química. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Química / Subárea: Físico-Química / Especialidade: Eletroquímica. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Química (Físico-Química)<span class="ajaxCAPES" data-param="&codigoCurso=33002010011P1&nivelCurso=M"></span>. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />Título: Estudo da oxidação eletroquímica de álcoois sobre eletrodo de platina utilizando a técnica de espectrometria de massas eletroquímica diferencial,Ano de Obtenção: 2002.<br class="clear" />Orientador: Prof. Dr.Francisco Carlos Nart.<br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo. <br class="clear" />Palavras-chave: Eletrocatálise; Metanol; Etanol.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Físico-Química / Especialidade: Eletroquímica. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Química<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Sergipe, UFS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: professor adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de São João Del-Rei, UFSJ, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: professor adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Química. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Físico-Química. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Química / Subárea: Físico-Química/Especialidade: Eletroquímica. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Trabalho premiado na 27º REUNIÃO ANUAL DA SOCIEDADE BRASILEIRA DE QUIMICA, SBQ., Sociedade Brasileira de Química. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOMES, JANAINA F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jcat.2013.02.024" target="_blank"></a>GOMES, JANAINA F. ; <b>BERGAMASKI, KLEBER</b> ; PINTO, MELISSA F.S. ; MIRANDA, PAULO B. . Reaction intermediates of ethanol electro-oxidation on platinum investigated by SFG spectroscopy. Journal of Catalysis (Print)<sup><img id='00219517_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00219517' /></sup>, v. 302, p. 67-82, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jcat.2013.02.024&issn=00219517&volume=302&issue=&paginaInicial=67&titulo=Reaction intermediates of ethanol electro-oxidation on platinum investigated by SFG spectroscopy&sequencial=1&nomePeriodico=Journal of Catalysis (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOMES, JANAINA F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s12678-013-0170-1" target="_blank"></a>GOMES, JANAINA F. ; <b>BERGAMASKI, KLEBER</b> ; MIRANDA, PAULO B. . How Reactive are Metal Surfaces in Solution? A Comparison of the Electrochemical Adsorption of Organic Molecules on Pt At Low Potentials. Electrocatalysis (Print)<sup><img id='18682529_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18682529' /></sup>, v. 5, p. 1-4, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s12678-013-0170-1&issn=18682529&volume=5&issue=&paginaInicial=1&titulo=How Reactive are Metal Surfaces in Solution? A Comparison of the Electrochemical Adsorption of Organic Molecules on Pt At Low Potentials&sequencial=2&nomePeriodico=Electrocatalysis (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SILVA, H. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1166/jnn.2008.125" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5041462317855049" target="_blank">SILVA, H. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2556582907100666" target="_blank">UEHARA, T. M.</a> ; <b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9837518557895318" target="_blank">MIRANDA, P. B.</a> . Molecular Ordering in Layer-by-Layer Polyelectrolyte Films Studied by Sum-Frequency Vibrational Spectroscopy: The Effects of Drying Procedures. Journal of Nanoscience and Nanotechnology<sup><img id='15334880_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15334880' /></sup>, v. 8, p. 3399-3405, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1166/jnn.2008.125&issn=15334880&volume=8&issue=&paginaInicial=3399&titulo=Molecular Ordering in Layer-by-Layer Polyelectrolyte Films Studied by Sum-Frequency Vibrational Spectroscopy: The Effects of Drying Procedures&sequencial=3&nomePeriodico=Journal of Nanoscience and Nanotechnology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BERGAMASKI, K.;BERGAMASKI, KLEBER</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.electacta.2008.01.060" target="_blank"></a><b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2467159617627119" target="_blank">Gonzalez ER</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . Ethanol oxidation on carbon supported platinum-rhodium bimetalic catalysts. Electrochimica Acta<sup><img id='00134686_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00134686' /></sup>, v. 53, p. 4396-4406, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.electacta.2008.01.060&issn=00134686&volume=53&issue=&paginaInicial=4396&titulo=Ethanol oxidation on carbon supported platinum-rhodium bimetalic catalysts&sequencial=4&nomePeriodico=Electrochimica Acta" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GIUSEPPE,</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jelechem.2008.02.005" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9514697542784546" target="_blank">GIUSEPPE,</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6718634914051168" target="_blank">Gomes JF</a> ; <b>BERGAMASKI, K.</b> ; TEIXERA NETO, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . CO Electrooxidation on Pt Nanoparticles in Acidic Solution: A FTIRS and DEMS Study. Journal of Electroanalytical Chemistry (Amsterdam)<sup><img id='15726657_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15726657' /></sup>, v. 617, p. 171-178, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jelechem.2008.02.005&issn=15726657&volume=617&issue=&paginaInicial=171&titulo=CO Electrooxidation on Pt Nanoparticles in Acidic Solution: A FTIRS and DEMS Study&sequencial=5&nomePeriodico=Journal of Electroanalytical Chemistry (Amsterdam)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BERGAMASKI, K.;BERGAMASKI, KLEBER</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1708009912372122" target="_blank">PINHEIRO, A. L. N.</a> ; TEIXERA NETO, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . Nanoparticle Size Effects on Methanol Electrochemical Oxidation on Carbon Supported Platinum Catalysts. Journal of Physical Chemistry. B<sup><img id='15206106_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15206106' /></sup>, v. 110, p. 19271-19279, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15206106&volume=110&issue=&paginaInicial=19271&titulo=Nanoparticle Size Effects on Methanol Electrochemical Oxidation on Carbon Supported Platinum Catalysts&sequencial=6&nomePeriodico=Journal of Physical Chemistry. B" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RODRIGUES, I. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3696115712661158" target="_blank">RODRIGUES, I. A.</a> ; <b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . Probing n-propanol electrochemical oxidation on bimetallic PtRh codeposited electrodes. Journal of the Electrochemical Society<sup><img id='00134651_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00134651' /></sup>, PENNINGTON, USA, v. 150, n.n 2, p. E89-E94, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00134651&volume=150&issue=&paginaInicial=E89&titulo=Probing n-propanol electrochemical oxidation on bimetallic PtRh codeposited electrodes&sequencial=7&nomePeriodico=Journal of the Electrochemical Society" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Vidotti M</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3722484930445197" target="_blank">Vidotti M</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0622474265250573" target="_blank">Dall'Antonia LH</a> ; Córdoba de Torresi SI ; <b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . "On line" mass spectrometric detection of ammonia oxidation products generated by polypyrrole based amperometric sensors. Analytica Chimica Acta<sup><img id='00032670_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00032670' /></sup>, AMSTERDAM, NETHERLANDS, v. 489, n.n 2, p. 207-214, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00032670&volume=489&issue=&paginaInicial=207&titulo="On line" mass spectrometric detection of ammonia oxidation products generated by polypyrrole based amperometric sensors&sequencial=8&nomePeriodico=Analytica Chimica Acta" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BERGAMASKI, K.;BERGAMASKI, KLEBER</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6718634914051168" target="_blank">Gomes JF</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2452347030723060" target="_blank">Goi BE</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . Effect of Alcohol Concentration and Electrode Composition on the Ethanol Electrochemical Oxidation. Eclética Química (Araraquara)<sup><img id='01004670_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01004670' /></sup>, São Paulo - Brasil, v. 28, n.n 2, p. 87-92, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01004670&volume=28&issue=&paginaInicial=87&titulo=Effect of Alcohol Concentration and Electrode Composition on the Ethanol Electrochemical Oxidation&sequencial=9&nomePeriodico=Eclética Química (Araraquara)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>de Souza JPI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1448978342555218" target="_blank">de Souza JPI</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7925870606416937" target="_blank">Queiroz SL</a> ; <b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2467159617627119" target="_blank">Gonzalez ER</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . Electro-oxidation of ethanol on Pt, Rh, and PtRh electrodes. A study using DEMS and in-situ FTIR techniques. Journal of Physical Chemistry B<sup><img id='10895647_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10895647' /></sup>, WASHINGTON, DC 20036 USA, v. 106, n.n 38, p. 9825-9830, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10895647&volume=106&issue=&paginaInicial=9825&titulo=Electro-oxidation of ethanol on Pt, Rh, and PtRh electrodes. A study using DEMS and in-situ FTIR techniques&sequencial=10&nomePeriodico=Journal of Physical Chemistry B" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BERGAMASKI, K.;BERGAMASKI, KLEBER</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0484426340349483" target="_blank">Menezes AJ</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6788007051901693" target="_blank">Yonehara FS</a> ; Pereira RV ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7542507931291205" target="_blank">Santin Filho O</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3509978194057735" target="_blank">Hioka N</a> . Pilhas de Cu/Mg Construídas com Material de Fácil Obtenção. Química Nova na Escola<sup><img id='01048899_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01048899' /></sup>, v. 11, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01048899&volume=11&issue=&paginaInicial=&titulo=Pilhas de Cu/Mg Construídas com Material de Fácil Obtenção&sequencial=11&nomePeriodico=Química Nova na Escola" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5041462317855049" target="_blank">SILVA, H. S.</a> ; <b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2556582907100666" target="_blank">UEHARA, T. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9837518557895318" target="_blank">MIRANDA, P. B.</a> . Sum-frequency vibrational spectroscopy of self- assembled polyelectrolyte films. In: V Encontro do projeto Instituto Multidisciplinar de Materiais Poliméricos - IMMP, 2006, Atibaia. V Encontro do projeto Instituto Multidisciplinar de Materiais Poliméricos, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AGUIAR, H. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2556582907100666" target="_blank">UEHARA, T. M.</a> ; <b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9837518557895318" target="_blank">MIRANDA, P. B.</a> . Characterization of an alkanethiol self-assembled monolayer via sum-frequency vibrational spectroscopy. In: 5th Brazilian MRS Meeting, 2006, Florianópolis. 5th Brazilian MRS Meeting, 2006. p. 158. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>BERGAMASKI, K.</b> ; TEIXERA NETO, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . Influência da morfologia sobre a atividade catalítica de eletrodos nanoparticulados de Pt depositados sobre diferentes suportes. In: XIV Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 2004, Teresópolis - RJ. A eletroquímica na interface da nanociência e nanotecnologia, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ANGELUCCI, C. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6718634914051168" target="_blank">Gomes JF</a> ; <b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . DEMS Study of Methanol electrooxidation on tungsten carbide. In: 54th Annual Meeting of the International Society of Electrochemistry, 2001, São Pedro. The Role of Electrochemistry in the Sustained Development of Modern Societies, 2001. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BERGAMASKI, K.</b> ; TEIXERA NETO, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . Eletro-oxidação de Metanol em Catalisadores Comerciais de Pt/C: Rendimento da Produção de CO2 vs. Tamanho de Partícula. In: 28º Reunião Anual do Sociedade Brasileira de Química, 2005, Poços de Caldas. Química para o Desenvolvimento Sustentável e Inclusão Social, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ANGELUCCI, C. A. ; <b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . Eletro-oxidação de Metanol em Eletrodos Binários Dispersos de PtRh. In: XXVI Congresso Latinoamericano de Química / 27ª Reunião Anual da Sociedade Brasileira de Química, 2004, Salvador. XXVI Congresso Latinoamericano de Química / 27ª Reunião Anual da Sociedade Brasileira de Química, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TEIXERA NETO, E. ; <b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . Nanopartículas Eletrodepositadas de Platina sobre HOPG: Influência do Substrato sobre a Distribuição Morfológica.. In: XXVI Congresso Latinoamericano / 27ª Reunião Anual da Sociedade Brasileira de Química, 2004, Salvador - Ba. XXVI Congresso Latinoamericano / 27ª Reunião Anual da Sociedade Brasileira de Química, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . Eletrooxidação de etanol sobre eletrodos de Pt e PtRh eletrodepositado. In: 26º Reunião Anual da SBQ, 2003, Poços de Caldas. 26º Reunião Anual da Sociedade Brasileira de Química   SBQ, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6718634914051168" target="_blank">Gomes JF</a> ; <b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> . Oxidação Eletroquímica de Etanol em Eletrodos de Platina: Estudo do Efeito da Rugosidade Superficial do Catalisador na Seletividade da Reação. In: XIII Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 2002, Araraquara - SP. XIII Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0622474265250573" target="_blank">Dall'Antonia LH</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3722484930445197" target="_blank">Vidotti M</a> ; CINTRA, E. P. ; <b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> ; Córdoba de Torresi SI . Sensores Amperométricos de Amônia. In: XIII Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 2002, Araraquara - SP. XIII Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3722484930445197" target="_blank">Vidotti M</a> ; <b>BERGAMASKI, K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0622474265250573" target="_blank">Dall'Antonia LH</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6105650574889790" target="_blank">NART, F. C.</a> ; Córdoba de Torresi SI . A Utilização da Técnica de DEMS na Elucidação do Mecanismo de Detecção de Amônia por Filmes de Polipirrol. In: 25ª Reunião Anual da Sociedade Brasileira de Química, 2002, Poços de Caldas. 25ª Reunião Anual da Sociedade Brasileira de Química, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BERGAMASKI, K.</b> ; RUBIRA, A. F. ; CASTRO, R. E. N. ; MUNIZ, E. C. . Cristalização e Miscibilidade de Blendas PEO/PVC. In: 23ª Reunião Anual da Sociedade Brasileira de Química, 2000, Poços de Caldas - MG. 23ª Reunião Anual da Sociedade Brasileira de Química, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BERGAMASKI, K.</b> ; CASTRO, R. E. N. ; RUBIRA, A. F. ; TOLEDO, E. A. ; MUNIZ, E. C. . A Influência do PVC sobre a Cristalização do PEO. In: VII Encontro de Química da Região Sul, 1999, Tubarão - SC. VII Encontro de Química da Região Sul, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BERGAMASKI, K.</b> ; TOLEDO, E. A. ; CASTRO, R. E. N. ; RUBIRA, A. F. ; MUNIZ, E. C. . Estudo de Cristalização e Miscibilidade em Blendas PEO/PVC. In: VII CIC - Congresso de Iniciação Científica da UFSCar, 1999, São Carlos - SP. VII CIC - Congresso de Iniciação Científica da UFSCar, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BERGAMASKI, K.</b> ; Pereira RV ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7542507931291205" target="_blank">Santin Filho O</a> . Laranja Mecânica. In: V Encontro de Química da Região Sul, 1997, Porto Alegre - RS. V Encontro de Química da Região Sul, 1997. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Hayasaka CO; ZUCOLLOTO, V.; <b>BERGAMASKI, K.</b>; Plepis AMG.  Participação em banca de Caio Oliveira Hayasaka.Fabricação e caracterização de filmes nanoestruturados automontados para aplicação em biosensores enzimáticos.
+							2006. Trabalho de Conclusão de Curso (Graduação em Bacharelado em Química)  - Instituto de Química de São Carlos. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Participação no Programa de Incentivo à Docência - Pós-Doutorando em Atividades Didáticas (PD-AD) junto ao Departamento de Física e Ciência dos Materiais do IFSC/USP.
+Disciplina de graduação FFI 180 Laboratório de Física Geral I, 1o. semestre de 2007.
+
+
+
+
+
+Aprovação no concurso público para o cargo de Professor do Grupo de Magistério Superior
+ na área de Química da Universidade Federal de Segipe, edital  N.120 de 30 de dezembro de 2008
+
+Aprovação no concurso público para o cargo de Professor do Grupo de Magistério Superior
+ na área de Química da Universidade Federal de São João Del-Rei, Campus Alto Paraopeba, edital  N.10 de 29 de janeiro de 2009</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 13:23:31</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0099854620277526" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

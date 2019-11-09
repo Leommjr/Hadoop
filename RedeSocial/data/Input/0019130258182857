@@ -1,0 +1,1561 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Silvia Scariotto)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0019130258182857" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4265303A0&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4265303A0"><div class="infpessoa">
+<h2 class="nome">Silvia Scariotto</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0019130258182857</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 24/02/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Graduação em Agronomia no ano de 2008 pela Universidade Tecnológica Federal do Paraná - UTFPR Campus Pato Branco. Mestrado em Agronomia na área de Produção Vegetal pela UTFPR Campus Pato Branco. Atualmente, desenvolvendo trabalhos na área de melhoramento e adaptação de Fruticultura de caroço.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Silvia Scariotto</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SCARIOTTO, S.;Scariotto, Silvia;Scariot, Silvia</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Tecnológica Federal do Paraná, Campus Pato Branco.. <br class="clear" />Via do Conhecimento, Km 01<br class="clear" />Fraron<br class="clear" />85503-390 - Pato Branco, PR - Brasil - Caixa-postal: 571<br class="clear" />Telefone: (46) 32202543</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Mestrado em agronomia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />Universidade Tecnológica Federal do Paraná.
+		
+	<br class="clear" />Título: FENOLOGIA E COMPONENTES DE RENDIMENTO DE PESSEGUEIRO EM CONDIÇÕES SUBTROPICAIS,Ano de Obtenção: 2011.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4503540110400432'><img src='images/curriculo/logolattes.gif' /></a>Idemir Citadin.<br class="clear" />Palavras-chave: Brotação; Frutificação efetiva; Necessidade de frio; qualidade de frutos.<br class="clear" />Grande área: Ciências Agrárias / Área: Agronomia. <br class="clear" />Grande Área: Ciências Agrárias / Área: Agronomia / Subárea: Fruticultura. <br class="clear" />Grande Área: Ciências Agrárias / Área: Agronomia / Subárea: Fruticultura / Especialidade: Fruticultura de Clima Temperado. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Agronomia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	<br class="clear" />Título: Disponibilidade de Nitrogênio em Pomar de Pessegueiro consorciado com trevo branco (Trifolium repens). <br class="clear" />Orientador: Prf. DR. Idemir Citadin. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise estatistica no aplicativo computacional R.  (Carga horária: 16h). <br class="clear" />Universidade Tecnológica Federal do Paraná, Campus Pato Branco..
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de análise estatística no programa Genes..  (Carga horária: 12h). <br class="clear" />Universidade Tecnológica Federal do Paraná, Campus Pato Branco..
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Manejo de Bovinos de Leite.  (Carga horária: 24h). <br class="clear" />Serviço Nacional de Aprendizagem Rual - AR/PB.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CURSO DE TECNOLOGIA DE PRODUTOS CARNEOS.  (Carga horária: 16h). <br class="clear" />CONSELHO REGIONAL DE MEDICINA VETERINÁRIA ESTADO DO DO PARANÁ.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cordenadores de grupo.  (Carga horária: 12h). <br class="clear" />FEDERAÇÃO DOS ESTUDANTES DE AGRONOMIA DO BRASIL.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FORNAÇÃO POLÍTICA. <br class="clear" />FEDERAÇÃO DOS ESTUDANTES DE AGRONOMIA DO BRASIL.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Agroecologia.  (Carga horária: 35h). <br class="clear" />Empresa de Pesquisa Agropecuaria e Extensão Rural de Santa Catarina- S.A..
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Agroindústria.  (Carga horária: 20h). <br class="clear" />Universidade Federal de Santa Catarina.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso em Inseminação Artificial em Bovinos.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Santa Catarina.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Univercidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: MESTRANDA, Enquadramento Funcional: ESTÁGIARIA, Carga horária: 40</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Fundação de Apoio a Pesquisa e Desenvolvimento Agropecuário Edmundo Gastal, FAPEG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: bolsista, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Clone Viveros e Fruticultura Ltda, CLONE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: ESTÁGIO CURRICULAR, Enquadramento Funcional: ESTÁGIARIA, Carga horária: 400, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio supervisionado na área de melhoramento génetico de frutíferas de clima temperado.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro (Estudante), Enquadramento Funcional: Estudante, Carga horária: 40</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</b>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Tecnológica Federal do Paraná, Campus Pato Branco., UTFPR, Brasil.
+		
+	</b>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Fenologia e componentes de rendimento do pessegueiro no Sudoeste do Paran&aacute;'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fenologia e componentes de rendimento do pessegueiro no Sudoeste do Paraná<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: No Sul e Sudeste do Brasil são importantes economicamente os cultivos de fruteiras de clima temperado, as quais exercem um preponderante fator de rentabilidade. Dentre as espécies de clima temperado o pessegueiro (Prunus persica) apresenta distribuição em regiões com clima temperado, subtropical e tropical, devido ao desenvolvimento de ampla gama de cultivares, com necessidade de horas de frio variando de 50 a 500 horas, para superação da endodormência. Devido aos programas de melhoramento existentes no Brasil, novos cultivares são continuamente lançados no mercado, o que exige pesquisa contínua do desempenho desses cultivares em microclimas específicos de cada região de cultivo. Esses estudos garantem a recomendação adequada de genótipos aos produtores. Nesse sentido, esse trabalho tem como objetivo estudar os aspectos produtivos e fisiológicos que caracterizem a adaptação dos genótipos de pessegueiro na região Sudoeste do Paraná. O trabalho será conduzido na área experimental da Universidade Tecnológica Federal do Paraná, Campus Pato Branco. Serão avaliadas características fonológicas como, necessidade de horas frio pra quebra da endodormência, época de floração e brotação e ciclo reprodutivo; características qualitativas dos frutos como pH, teor de antocianinas, acidez titulável, teor de sólidos solúveis totais; alem de características como produção dos genótipos, tamanho e diâmetro do frutos. Esses parâmetros permitirão avaliar o desempenho dos genótipos em resposta ao microclima local. Os dados coletados serão submetidos à análise dos pressupostos matemáticos. Sendo as pressuposições atendidas, os dados serão submetidos à análise de variância, seguido de comparação múltipla de médias pelo teste Scott e Knott (1974) a 5% de probabilidade de erro. Caso os dados não atendam as pressuposições do modelo matemático serão transformados a log 10, ou arcsen de acordo com o tipo de informação analisada. Os dados quantitativos coletados serão utilizados para efetuar a.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (4)  / Mestrado acadêmico: (1)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Silvia Scariotto - Integrante / Idemir Citadin - Coordenador / Marcos Robson Sachet - Integrante / Américo Wagner Junior - Integrante / Gener Augusto Penso - Integrante / Letícia Reis - Integrante / Moira Schmeng - Integrante.<br class="clear" />Financiador(es): Empresa Brasileira de Pesquisa Agropecuária - Cooperação.</div>
+</div><a name='PP_PROPAGA&Ccedil;&Atilde;O VEGETATIVA DE JABUTICABEIRA (Plinia sp.)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PROPAGAÇÃO VEGETATIVA DE JABUTICABEIRA (Plinia sp.)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Dentre as espécies de frutíferas nativas de importância do Bioma Floresta com Araucária destaca-se a jabuticabeira (Plinia sp.), cuja fruta pode ser utilizada tanto para consumo in natura como para fabricação de geléias, doces, sucos, sorvetes, vinhos, vinagres, licores caseiros. Serve também à indústria farmacêutica e alimentícia, por conter substâncias anti-oxidantes. Portanto, esta fruta apresenta grande potencial para exploração econômica. Atualmente, a propagação dessa espécie é feita por mudas produzidas a partir das sementes, o que implica em um prolongado período juvenil (de 8 a 15 anos). Neste sentido, o uso de técnicas de propagação assexuada, que antecipem a entrada em produção e que sejam de fácil execução, poderá contribuir para a exploração econômica dessa espécie. No entanto, poucos trabalhos foram realizados nesta área, com pouco ou nenhum sucesso, e até o momento não foi identificado um protocolo eficiente na propagação assexuada desta frutífera. Desse modo, partindo-se da hipótese de que a jabuticabeira pode ser propagada vegetativamente, objetiva-se investigar a eficiência de técnicas de propagação vegetativa, visando à obtenção de um protocolo eficiente, o qual poderá promover a implantação de pomares comerciais. Para isso, serão realizados experimentos utilizando as técnicas de estaquia, enxertia e micropropagação. Na estaquia serão testadas estacas lenhosas e miniestacas semi-lenhosas e herbáceas com várias concentrações de ácido indolbutírico e diferentes épocas do ano; para enxertia será testada a compatibilidade da espécie de jabuticabeira Plinia cauliflora sobre porta-enxertos de pitangueira (Eugenia uniflora L.), uvaieira (Eugenia pyriformis Cambess), cerejeira-do-mato (Eugenia involucrata DC.) e de três espécies de jabuticabeira (Plinia cauliflora, Plinia jaboticaba e Plinia trunciflora); na micropropagação pretende-se realizar experimentos para definir um protocolo eficiente de micropropagação, iniciando com testes de sobrevivência da es. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Silvia Scariotto - Integrante / Idemir Citadin - Integrante / Marcos Robson Sachet - Integrante / Simone Aparecida Zolet Sasso - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Disponibilidade de Nitrog&ecirc;nio em Pomar de Pessegueiro consorciado com trevo branco (Trifolium repens)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disponibilidade de Nitrogênio em Pomar de Pessegueiro consorciado com trevo branco (Trifolium repens)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A utilização de cobertura em pomares de pessegueiro, no Brasil, ainda é pouco difundida, apesar de ser uma boa alternativa de substituição da adubação nitrogenada, alem de diversas espécies de cobertura vegetal com potencial para tanto. Ainda são poucos os estudos sobre o potencial destas e sua utilização em cobertura em pomar. Um exemplo de espécies leguminosa capaz de fixar grandes quantidades de nitrogênio é o trevo branco (Trifolium repens), porém sua adaptação como cobertura em pomar ainda e pouco estudada. Com esse trabalho boscou-se verificar o potencial do mesmo como cobertura e sua capacidade de fornecer nitrogênio, nos períodos de maior absorção deste pela cultura. O presente trabalho partio da hipótese que a presença de uma fabácea -trevo branco (Trifolium repens), como cobertura de solo em pomares de pessegueiro possa contribuir com aporte de Nitrogênio, nas épocas de maior necessidade da cultura, dispensando parcial ou totalmente a adubação nitrogenada. Assim, pretendeu-se verificar o potencial do trevo branco como cobertura de solo, em pomares de pessegueiro, e sua capacidade de fornecer nitrogênio, nos períodos de maior demanda da cultura. O delineamento experimental foi em blocos casualizados, com três repetições. A unidade experimental foi constituída por 2 plantas de pessegueiro, sendo, no mínimo duas plantas como bordadura, entre as pacelas. Os tratamentos foram: T1 - cobertura verde com trevo branco (Trifolium repens. L.); T2 - adubação nitrogenada; e T3 - sem nitrogênio e sem cobertura. Foram avaliadas a quantidade de nitrogênio presente no solo, nas formas de amônia e nitrato e a produtividade das plantas. Foi determinada também a massa seca e teor de proteína do trevo. As coletas de solo foram realizadas nos messes de junho, julho, agosto.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Silvia Scariotto - Coordenador / Idemir Citadin - Integrante.<br class="clear" /></div>
+</div><a name='PP_Adapta&ccedil;&atilde;o de frut&iacute;feras de caro&ccedil;o &agrave;s condi&ccedil;&otilde;es de clima subtropical'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Adaptação de frutíferas de caroço às condições de clima subtropical<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O cultivo de fruteiras de clima temperado no sul do Brasil apresenta algumas dificuldades inerentes às condições desta região. Todas estas espécies necessitam determinado acúmulo de frio hibernal para que possam ter satisfeito seu período de dormência e, conseqüentemente, ter uma brotação e floração uniformes e normais. A região sul do Brasil tem invernos amenos e, no verão, altas temperaturas, umidade e incidência de ventos, que facilitam a ocorrência e proliferação de doenças. O principal objetivo desse projeto é seleção de genótipos adaptadas às condições da região subtropical, que apresentem floração e brotação satisfatória e produzam frutos de alta qualidade e sejam resistentes, ou menos suscetíveis, às principais doenças do que as cultivares atualmente plantadas. Visando atingir esses objetivos serão estudadas seleções avançadas de pessegueiro oriundas do Programa de Melhoramento Genético da Embrapa Clima Temperado. O projeto será desenvolvido em parceria com esta instituição. De forma sucinta, a metodologia constará de introdução de germoplasma, avaliação de cultivares e seleções quanto à necessidade de frio, incidência e severidade de Xanthomonas arboricola pv pruni (bacteriose), Tranchelia discolor (ferrugem-da-folha do pessegueiro). A necessidade em frio das seleções será determinda através da observação da floração e brotação de plantas a campo e/ou através do método de ramos destacados e plantas em vasos (Citadin et al. 2002). Com relação à resistência a doenças, serão observadas plantas desenvolvidas em condições de campo, quanto à incidência e severidade de sintomas da doença. Os resultados do projeto servirão para indicar cultivares, especialmente para a Região Sudoeste do Paraná, e também para regiões de clima subtropical, com acúmulo em frio inferior a 200 horas (abaixo de 7,5ºC), flutuação térmica durante o inverno e com problemas de perdas severas causadas por bacteriose e ferrugem da folha... <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (5)  / Mestrado acadêmico: (2)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Silvia Scariotto - Integrante / Moeses Andrigo Danner - Integrante / Maria do Carmo Bassols Raseira - Integrante / SANTOS, I dos. - Integrante / Idemir Citadim - coordenador - Coordenador / Marcos Robson Sachet - Integrante / Gener Augusto Penso - Integrante / Letícia Reis - Integrante / Moira Schmeng - Integrante / gustavo malagi - Integrante / SERGIO MIGUEL MAZARO - Integrante / Pedro Henrique Zideck - Integrante / Luis Gustavo Fumagalli - Integrante.<br class="clear" />Financiador(es): Fundação Araucária de Apoio ao Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro / Universidade Tecnológica Federal do Paraná, Campus Pato Branco. - Bolsa / Empresa Brasileira de Pesquisa Agropecuária - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Agronomia / Subárea: Fitotecnia/Especialidade: Melhoramento Genético de Frutíferas.. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Agronomia / Subárea: Fruticultura/Especialidade: Fruticultura de Clima Temperado. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">Web of Science</div><div class="trab">Total de trabalhos:4</div><div class="cita">Total de citações:0</div><div class="fator">Fator H:0</div><div class="detalhes">SCARIOT, S.&nbsp;&nbsp;Data:&nbsp;03/08/2011</div></div></div></div></div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">SCOPUS</div><div class="trab">Total de trabalhos:4</div><div class="cita">Total de citações:0</div><div class="detalhes">SCARIOT, S.&nbsp;&nbsp;Data:&nbsp;03/08/2011</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SACHET, M.R</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>SACHET, M.R ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; SANTOS, I dos. ; ZYDEK, P. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9814192218185209" target="_blank">RASEIRA, M. C. B.</a> . Reaction of Peach Genotypes to Bacterial Leaf Spot: Correlations with Environmental Conditions, Leaf Phenology, and Morphology. HortScience<sup><img id='00185345_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00185345' /></sup>, v. 28, p. 28-33, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00185345&volume=28&issue=&paginaInicial=28&titulo=Reaction of Peach Genotypes to Bacterial Leaf Spot: Correlations with Environmental Conditions, Leaf Phenology, and Morphology&sequencial=1&nomePeriodico=HortScience" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Scariotto, Silvia</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.scienta.2013.03.019" target="_blank"></a><b>Scariotto, Silvia</b> ; Citadin, Idemir ; Raseira, Maria do Carmo Bassols ; SACHET, MARCOS ROBSON ; PENSO, GENER AUGUSTO . Adaptability and stability of 34 peach genotypes for leafing under Brazilian subtropical conditions. Scientia Horticulturae<sup><img id='03044238_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03044238' /></sup>, v. 155, p. 111, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.scienta.2013.03.019&issn=03044238&volume=155&issue=&paginaInicial=111&titulo=Adaptability and stability of 34 peach genotypes for leafing under Brazilian subtropical conditions&sequencial=2&nomePeriodico=Scientia Horticulturae" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MALAGI, GUSTAVO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/s0103-84782012005000006" target="_blank"></a>MALAGI, GUSTAVO ; SACHET, MARCOS ROBSON ; Citadin, Idemir ; <b>Scariotto, Silvia</b> ; WAGNER JÚNIOR, AMÉRICO . Enxertia interespecífica de jabuticabeira: influência do tipo de garfo. Ciência Rural (UFSM. Impresso)<sup><img id='01038478_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01038478' /></sup>, v. 42, p. 221-224, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/s0103-84782012005000006&issn=01038478&volume=42&issue=&paginaInicial=221&titulo=Enxertia interespecífica de jabuticabeira: influência do tipo de garfo&sequencial=3&nomePeriodico=Ciência Rural (UFSM. Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>REIS, LETÍCIA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S0100-29452012000300002" target="_blank"></a>REIS, LETÍCIA ; Citadin, Idemir ; PENSO, GENER AUGUSTO ; <b>Scariotto, Silvia</b> ; WAGNER JÚNIOR, AMÉRICO . Estratificação in vitro de embriões zigóticos de pessegueiro em diferentes meios de cultura e concentrações de sacarose. Revista Brasileira de Fruticultura (Impresso)<sup><img id='01002945_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01002945' /></sup>, v. 34, p. 653-660, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S0100-29452012000300002&issn=01002945&volume=34&issue=&paginaInicial=653&titulo=Estratificação in vitro de embriões zigóticos de pessegueiro em diferentes meios de cultura e concentrações de sacarose&sequencial=4&nomePeriodico=Revista Brasileira de Fruticultura (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DANNER, M. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S0100-29452011005000078" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0430213942065076" target="_blank">DANNER, M. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7633364105595122" target="_blank">SASSO, S.A.Z</a> ; <b>SCARIOTTO, S.</b> ; BENIN, B. . Genetic dissimilarity among jabuticaba trees native to southwestern Paraná, Brazil. Revista Brasileira de Fruticultura (Impresso)<sup><img id='01002945_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01002945' /></sup>, v. 33, p. 517-527, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S0100-29452011005000078&issn=01002945&volume=33&issue=&paginaInicial=517&titulo=Genetic dissimilarity among jabuticaba trees native to southwestern Paraná, Brazil&sequencial=5&nomePeriodico=Revista Brasileira de Fruticultura (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DANNER, M. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/s0100-204x2010000800013" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0430213942065076" target="_blank">DANNER, M. A.</a> ; <b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9814192218185209" target="_blank">RASEIRA, M. C. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7633364105595122" target="_blank">SASSO, S.A.Z</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> . Repetibilidade de peso de fruto e de duração do ciclo em ameixeira e pessegueiro. Pesquisa Agropecuária Brasileira (1977. Impressa)<sup><img id='0100204X_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100204X' /></sup>, v. 45, p. 872-878, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/s0100-204x2010000800013&issn=0100204X&volume=45&issue=&paginaInicial=872&titulo=Repetibilidade de peso de fruto e de duração do ciclo em ameixeira e pessegueiro&sequencial=6&nomePeriodico=Pesquisa Agropecuária Brasileira (1977. Impressa)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Danner, Moeses Andrigo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S0103-84782010005000163" target="_blank"></a>Danner, Moeses Andrigo ; Raseira, Maria do Carmo Bassols ; Sasso, Simone Aparecida Zolet ; Citadin, Idemir ; <b>SCARIOTTO, S.</b> . Repetibilidade de caracteres de fruto em araçazeiro e pitangueira. Ciência Rural (UFSM. Impresso)<sup><img id='01038478_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01038478' /></sup>, p. 1-6, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S0103-84782010005000163&issn=01038478&volume=&issue=&paginaInicial=1&titulo=Repetibilidade de caracteres de fruto em araçazeiro e pitangueira&sequencial=7&nomePeriodico=Ciência Rural (UFSM. Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MALAGI, G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S0100-29452011005000005" target="_blank"></a>MALAGI, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; REIS, L. . Método não destrutivo para determinação da área foliar da videira, cultivar BRS-Violeta. Revista Brasileira de Fruticultura (Impresso)<sup><img id='01002945_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01002945' /></sup>, v. 32, p. 1-5, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S0100-29452011005000005&issn=01002945&volume=32&issue=&paginaInicial=1&titulo=Método não destrutivo para determinação da área foliar da videira, cultivar BRS-Violeta&sequencial=8&nomePeriodico=Revista Brasileira de Fruticultura (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ASSMANN, A.P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/s0100-29452008000400031" target="_blank"></a>ASSMANN, A.P. ; <b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; LOCATELLI, M.C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0430213942065076" target="_blank">DANNER, M. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9814192218185209" target="_blank">RASEIRA, M. C. B.</a> . Tolerância de frutos de pessegueiro a geadas. Revista Brasileira de Fruticultura (Impresso)<sup><img id='01002945_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01002945' /></sup>, v. 30, p. 1030-1035, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/s0100-29452008000400031&issn=01002945&volume=30&issue=&paginaInicial=1030&titulo=Tolerância de frutos de pessegueiro a geadas&sequencial=9&nomePeriodico=Revista Brasileira de Fruticultura (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; WAGNER JUNIOR, A. . Frutificação em Fruteiras de Clima Temperado. In: Thomas Newton Martin; Alessandro Jaquiel Waclawovcky; Fernando Kuss; Angélica Signor Mendes; Eleandro José Brun. (Org.). Sistemas de Produção Agropecuária (Ciências Agrárias, Animais e Florestais). 1ed.Santa Maria: Editora Pallotti, 2010, v. 1, p. 338-363. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		MALAGI, G ; SANTOS, I dos. ; <b>SCARIOTTO, S.</b> ; SILVA, R.R. ; MARTIN, T. N. . Salinidade como mecanismo de ação na redução do crescimento micelial de Sclerotinia sclerotiorum em ambiente controlado. In: III Seminário: Sistemas de Produção Agropecuária, 2009, Dois Vizinhos. Sistemas de Produção Agropecuária da UTFPR. Dois Vizinhos: UTFPR, 2009. v. 3. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SACHET, M.R ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; ZIDECK, P.H. ; ROSA, F.J. . RESISTÊNCIA E ESTABILIDADE DE PESSEGUEIROS À BACTERIOSE NAS FOLHAS. In: Seminário de iniciação cientifica  e tecnológica da UTFPR, 2011, PONTA GROSSA. Anais do seminário de iniciação cientifica  e tecnológica da UTFPR, 2011. v. XVI. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHMENG, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; VARAGO, A.L. ; PENSO, G.A . USO DE INSUMOS ALTERNATIVOS NO DESENVOLVIMENTO INICIAL DE AMEIXEIRA CULTIVAR IRATI. In: Seminário de iniciação cientifica e tecnológica da UTFPR, 2011, PONTA GROSSA. Anais do XVI seminário de iniciação cientifica e tecnológica da UTFPR, 2011. v. 16. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REIS, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; PENSO, G.A ; TODESCHINI, M.H. ; <b>SCARIOTTO, S.</b> . DIFERENTES COMBINAÇÕES ENTRE MEIOS DE CULTURA E CONCENTRAÇÕES DE SACAROSE PARA APRIMORAMENTO DA TÉCNICA DA EMBRIOCULTURA EM PESSEGUEIRO. In: Seminario de iniciação científica e tecnológica da UTFPR, 2011, PONTA GROSSA. Anais do XVI Seminario de iniciação científica e tecnológica da UTFPR, 2011. v. 16. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SACHET, M.R ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; ZIDECK, P.H. ; ROSA, F.J. . Resistência e estabilidade de pessegueiros à bacteriose nas folhas. In: XVI Seminário de Iniciação Científica e Tecnológica, 2011, Ponta Grossa. Anais CICITE, 2011. v. VVI. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHMENG, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; VARAGO, A.L. ; PENSO, G.A . Uso de insumos alternativos no desenvolvimento inicial de ameixeira cultivar Irati. In: XVI Seminário de Iniciação Científica e Tecnológica (SICITE), 2011, Ponta Grossa. ANAIS do XVI Seminário de Iniciação Científica e Tecnológica, 2011. v. XVI. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SACHET, M.R ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; ZYDEK, P. H. ; ROSA, F.J. . RESISTÊNCIA E ESTABILIDADE DE PESSEGUEIROS À BACTERIOSE NAS FOLHAS. In: XVI Seminário de Iniciação Científica e Tecnológica da UTFPR (XVI SICITE),, 2011, Ponta Grossa. Anais do XVI SICITE. Curitiva: UTFPR, 2011. v. XVI. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHMENG, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; SACHET, M.R ; PENSO, G.A . Avaliação de Genótipos de Pessegueiro no Sudoeste do Paraná. In: XV Seminário de Iniciação Científica e Tecnológica, 2010, Cornélio Procópio. XV Seminário de Iniciação Científica e Tecnológica (SICITE-2010). Cornélio Procópio: UTFPR, 2010. v. xv. p. 21-24. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REIS, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; PENSO, G.A ; MALAGI, G. . DIFERENTES MEIOS DE CULTURA E CONCENTRAÇÕES DE SACAROSE PARA A TÉCNICA DA EMBRIOCULTURA DE PESSEGUEIRO. In: XXI  Congresso Brasileiro de Fruticultura, 2010, Natal. Anais do XXI  Congresso Brasileiro de Fruticultura, 2010. v. 11. p. 01-02. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MALAGI, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; SILVEIRA, C. A. P. ; <b>SCARIOTTO, S.</b> ; PENSO, G.A ; SACHET, M.R . DIEFERENTES FONTES DE ADUBAÇÃO NA CULTURA DA VIDEIRA INFLUENCIAM A ATIVIDADE MICROBIANA DO SOLO. In: XXI Congresso Brasileiro de Fruticultura, 2010, Natal. Anais do XXI Congresso Brasileiro de Fruticultura. Anais do XXI Congresso Brasile, 2010. v. 11. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; AMBRÓSIO, R. ; CHICOCKI, A. ; MALAGI, G. ; <b>SCARIOTTO, S.</b> . EVOLUÇÃO DA MATURAÇÃO DE UVAS MERLOT E SANGIOVESE NO SUDOESTE DO PARANÁ. In: XXI Congresso Brasileiro de Fruticultura, 2010, Natal. Anais do XXI Congresso Brasileiro de Fruticultura, 2010. v. 11. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MALAGI, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; WAGNER JUNIOR, A. ; REIS, L. ; SCHMENG, M. . DIÂMETRO DO GARFO INFLUENCIA O PEGAMENTO DE ENXERTOS EM DUAS ESPÉCIES DE JABUTICABEIRA. In: XXI Congresso Brasileiro de Fruticultura, 2010, Natal. Anais do XXI Congresso Brasileiro de Fruticultura, 2010. v. 11. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; CUNHA, M. A. A. ; PENSO, G.A ; REIS, L. . Avaliação da aceitabilidade do fruto de pessegueiro pelo consumidor da região sudoeste do paraná. In: XXI Congresso Brasileiro de Fruticultura, 2010, Natal. Anais do XXI Congresso Brasileiro de Fruticultura, 2010. v. 11. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0430213942065076" target="_blank">DANNER, M. A.</a> ; MALAGI, G. ; SCHMENG, M. ; SACHET, M.R . VARIABILIDADE E DISSIMILARIDADE GENÉTICA ENTRE GENÓTIPOS DE PESSEGUEIRO AVALIADA PELAS CARACTERISTICAS DE FRUTOS. In: XXI Congresso Brasileiro de Fruticultura, 2010, Natal. Anais do XXI Congresso Brasileiro de Fruticultura, 2010. v. 11. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FABIANE, K.C. ; WAGNER JUNIOR, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; MAZARO, S.M . METODOLOGIAS PARA ANÁLISE DA REAÇÃO DE FLORES DE PESSEGUEIRO A PODRIDÃO. In: IV Seminário sistemas de produção agropecuária- ciências agrárias, animais e florestais, 2010, Dois Vizinhos. Anais Seminário sistemas de produção agropecuária- ciências agrárias, animais e florestais, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; ASSMANN, A.P. ; LOCATELLI, M.C. . Disponibilidade  de  Nitrogênio em Pomar de Pessegueiro Consorciado com Trevo Branco. In: Primeira Reunião Paranaense de Ciências do solo, 2009, Pato Branco. Anais da Primeira Reunião Paranaense de Ciências do solo, 2009. v. 4. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHMENG, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; MARCOS, R. S. ; GENER, A. P. . VALIAÇÕES DE GENÓTIPOS DE PESSEGUEIRO NO SUDOESTE DO PARANÁ, CICLO 2008/09. In: XIV Seminário de Iniciação Ciéntifica e Tecnológica da UTFPR, 2009, Pato Branco. SICITI 2009. Curitiba, 2009. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MAROLI, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; SACHET, M.R . Produção de mudas de videira pela enxertia de mesa com forçagem. In: Encontro Nacional Sobre Fruticultura de Clima Temperado, 2011, Fraiburgo. Anais do Encontro Nacional Sobre Fruticultura de Clima Temperado. Caçador: EPAGRI, 2011. v. 2. p. 113-113. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DENARDI, T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; SILVEIRA, C. A. P. . Efeitos da utilização da matriz de fertilizante MBR-33 na disponibilidade de fósforo na cultura da ameixeira, cultivar Irati. In: Encontro Nacional Sobre Fruticultura de Clima Temperado, 2011, Fraiburgo. Anais do Encontro Nacional Sobre Fruticultura de Clima Temperado. Caçador: Epagri, 2011. v. 2. p. 98-98. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REIS, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; PENSO, G.A ; TODESCHINI, M.H. ; <b>SCARIOTTO, S.</b> . Adaptabilidade e estabilidade da floração e componentes de rendimento do pessegueiro em condições subtropicais. In: Encontro Nacional Sobre Fruticultura de Clima Temperado, 2011, Fraiburgo. Anais do Encontro Nacional Sobre Fruticultura de Clima Temperado. Caçador: Epagri, 2011. v. 2. p. 96-96. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ASSMANN, A.P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; LOCATELLI, M.C. ; <b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0430213942065076" target="_blank">DANNER, M. A.</a> . TOLERÂNCIA À GEADAS EM FRUTOS DE PESSEGUEIRO. In: X ENFRUTE, 2007, FRAIBURGO, SC. ENCONTRO NACIONAL SOBRE FRUTICULTURA DE CLIMA TEMPERADO, 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ArtigosAceitos"></a>Artigos  aceitos para publicação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CITADIN, IDEMIR ; <b>Scariotto, Silvia</b> ; SACHET, MARCOS ROBSON ; ROSA, F.J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9814192218185209" target="_blank">RASEIRA, M. C. B.</a> ; WAGNER JUNIOR, A. . Adaptability and Stability of Fruit Set and Production of Peach Trees under Subtropical Climate. Scientia Agricola (USP. Impresso)<sup><img id='01039016_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01039016' /></sup>, 2014. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DENARDI, T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; SILVEIRA, C. A. P. . Efeitos da utilização da matriz de fertilizante MBR-33 na disponibilidade de fósforo na cultura da ameixeira, cultiar Irati. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MAROLI, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; SACHET, M.R ; <b>SCARIOTTO, S.</b> . Produção de mudas de videira pela enxertia de mesa com forçagem. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCARIOT, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; SACHET, M.R ; PENSO, G.A . Adaptabilidade e estabilidade da floração e componentes de rendimento do pessegueiro em condições subtropicais. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; ASSMANN, A.P. ; LOCATELLI, M.C. . DISPONIBILIDADE DE NITROGÊNIO EM POMAR DE PESSEGUEIRO. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0430213942065076" target="_blank">DANNER, M. A.</a> ; MALAGI, G. ; SCHMENG, M. ; SACHET, M.R . Variabilidade e dissimilaridade genética entre genótipos de pessegueiro avaliada pelas caracteristicas de fruto. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; CUNHA, M. A. A. ; PENSO, G.A ; REIS, L. . Avaliação da aceitabilidade do fruto de pessegueiro pelo consumidor da região sudoeste do Paraná. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FABIANE, K.C. ; WAGNER JUNIOR, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; MAZARO, S.M . Metodolgias para análise da reação de flores de pessegueiro a podridão parda. 2010. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MALAGI, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; <b>SCARIOTTO, S.</b> ; WAGNER JUNIOR, A. ; REIS, L. ; SCHMENG, M. . Diâmetro do garfo influencia o pegamento de enxertos em duas espécies de jabbuticabeira. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MALAGI, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; SILVEIRA, C. A. P. ; <b>SCARIOTTO, S.</b> ; PENSO, G.A ; SACHET, M.R . Diferentes fontes de adubação na cultura da videira influenciam a atividade microbiana do solo. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; AMBRÓSIO, R. ; CHICOCKI, A. ; MALAGI, G. ; <b>SCARIOTTO, S.</b> . Evolução da maturação de uvas Melot e Sangiovese no Sudoeste do Paraná. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ASSMANN, A.P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; LOCATELLI, M.C. ; <b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0430213942065076" target="_blank">DANNER, M. A.</a> . Tolerância de frutos de pessegueiro a geadas. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> . Manejo de fruteiras de caroço. 2010. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> . Disponibilidade de nitrogênio em pomar de pessegueiro consorciado com trevo branco (Trifolio repens). 2008. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AMBROSIO, R; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a>; <b>SCARIOTTO, S.</b>; MALAGI, G.  Participação em banca de Rodrigo Ambrosio.Evolução da maturação de uvas Merlot e Sangiovese no sudoeste do Paraná.
+							2010. Trabalho de Conclusão de Curso (Graduação em Graduação em Agronomia)  - Universidade Tecnológica Federal do Paraná, Campus Pato Branco.. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII  ENFRUTE- Encontro nacional sobre fruticultura de clima temperado. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX SENAFRUT. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXI Congresso Brasileiro de Fruticultura. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII  AGROSHOW. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Fórum dos formandos de Agronomia. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO MUNICIPAL SOBRE ABASTECIMENTO DE PRODUTOS DA AGRICULTURA FAMILIAR: AS FEIRA LIVRES. 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMANA ACADÊMICA DE AGRONOMIA. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">encontro regional de manejo integrado de plantas daninhas pragas e molestias.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX ENCONTRO REGIONAL DOS ESTUDANTES. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana acadêmica de agronomia.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; LOCATELLI, M.C. ; <b>SCARIOTTO, S.</b> ; ASSMANN, A.P. . AGROSHOW 2008. 2008. (Exposição). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4503540110400432" target="_blank">CITADIN, I.</a> ; ASSMANN, A.P. ; <b>SCARIOTTO, S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0430213942065076" target="_blank">DANNER, M. A.</a> ; LOCATELLI, M.C. . II CICLO DE ATUALIZAÇÃO EM HORTICULTURA - TEMA: PESSEGUEIRO. 2007. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SCARIOTTO, S.</b> . IX ENCONTRO REGIONAL DOS ESTUDANTES DE AGRONOMIA-EREA. 2004. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:10:18</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0019130258182857" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

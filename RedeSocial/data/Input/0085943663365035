@@ -1,0 +1,1896 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Felipe Barros Macedo)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0085943663365035" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4130364Y4&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4130364Y4"><div class="infpessoa">
+<h2 class="nome">Felipe Barros Macedo</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0085943663365035</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 05/07/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui Graduação em Engenharia Agronômica pela Faculdade de Agronomia Manoel Carlos Gonçalves (2003). Mestrado e Doutorado pela FZEA/USP;
+Tem experiência na área de Engenharia Agronômica, com ênfase em Fertilidade do Solo e Nutrição de Plantas, atuando principalmente nos seguintes temas: Fertilidade de solo e nutrição de plantas, Cana-de-açúcar, Soja, Milho, Feijão e Algodão.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Felipe Barros Macedo<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MACEDO, Felipe Barros</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monsanto Company, Site Cachoeira Dourada. <br class="clear" />Rodovia DCD, 360<br class="clear" />Córrego da Escondida<br class="clear" />38370-000 - Cachoeira Dourada, MG - Brasil - Caixa-postal: 23<br class="clear" />Telefone: (34) 32629700<br class="clear" />Ramal: 9714<br class="clear" />URL da Homepage: <a target="blank" href="http://">http://</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Zootecnia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Faculdade de Zootecnia e Engenharia de Alimentos.
+		
+	<br class="clear" />Título: Eficiência de fertilizantes nitrogenados sobre composição química-bromatológica e algumas características agronômicas da cultura da cana-de-açúcar, <br class="clear" />Orientador: Pedro Henrique de Cerqueira Luz. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Zootecnia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />Faculdade de Zootecnia e Engenharia de Alimentos.
+		
+	<br class="clear" />Título: Viabilidade da utilização de aditivos na ensilagem de capim-braquiarão (Brachiaria brizantha (Hochst ex A. Rich.) Stapf cv. Marandu), manejado sob intensidades de pastejo,Ano de Obtenção: 2006.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0378798276126071'><img src='images/curriculo/logolattes.gif' /></a>Valdo Rodrigues Herling.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia Agronômica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Faculdade de Agronomia Manoel Carlos Gonçalves, FAMCG, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Faculdade de Zootecnia e Engenharia de Alimentos, FZEA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: , Carga horária: 8</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: , Carga horária: 16</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: , Carga horária: 16</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: , Carga horária: 16</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2003 - 11/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Forragicultura e Pastagem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/2002 - 12/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Forragicultura e Pastagem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2002 - 6/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Forragicultura e Pastagem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2002 - 1/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Forragicultura e Pastagem. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Instituto de Zootecnia, IZ, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: , Carga horária: 42</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/2001 - 7/2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Manejo de Pastagem. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Stoller do Brasil Ltda, STOLLER, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: , Carga horária: 8</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2000 - 12/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Núcleo de Solos e Nutrição de Plantas. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Centro Regional Universitário Espírito Santo do Pinhal, UNIPINHAL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: , Carga horária: 0</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2000 - 12/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Núcleo de solos e Nutrição de Plantas. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Agronomia / Subárea: Ciência do Solo/Especialidade: Fertilidade do Solo e Adubação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Agronomia / Subárea: Ciência do Solo/Especialidade: Manejo e Conservação do Solo. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Zootecnia / Subárea: Pastagem e Forragicultura/Especialidade: Fisiologia de Plantas Forrageiras. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Zootecnia / Subárea: Pastagem e Forragicultura/Especialidade: Avaliação, Produção e Conservação de Forragens. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende RazoavelmenteLê Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LUZ, Pedro Henrique de Cerqueira</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6478083646623085" target="_blank">FARIA, Letícia de Abreu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7831840285116499" target="_blank">RODRIGUES, Rosane Cláudia</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7031240425169411" target="_blank">VITTI, G. C.</a> ; Ferraz, Marcos Roberto ; <b>MACEDO, Felipe Barros</b> . Métodos de Extração de Cálcio e Magnésio e Atributos Quimicos de Solos, Argiloso e Arenoso, Incubados com Calcário. Revista de Agricultura (Piracicaba)<sup><img id='00347655_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00347655' /></sup>, v. 84, p. 40-50, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00347655&volume=84&issue=&paginaInicial=40&titulo=Métodos de Extração de Cálcio e Magnésio e Atributos Quimicos de Solos, Argiloso e Arenoso, Incubados com Calcário&sequencial=1&nomePeriodico=Revista de Agricultura (Piracicaba)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LUZ, PHC</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>LUZ, PHC ; FARIA, L. A. ; FARIA, L. A. ; RODRIGUES, RC ; HERLING, V.R. ; VITTI, G. C. ; FERRAZ, M. R. ; <b>MACEDO, Felipe Barros</b> . Métodos de extração de cálcio e magnésio em solo argiloso e arenoso incubados com calcários. Revista de Agricultura (Piracicaba)<sup><img id='00347655_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00347655' /></sup>, v. 84, p. 39-50, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00347655&volume=84&issue=&paginaInicial=39&titulo=Métodos de extração de cálcio e magnésio em solo argiloso e arenoso incubados com calcários&sequencial=2&nomePeriodico=Revista de Agricultura (Piracicaba)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FARIA, Letícia de Abreu</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6478083646623085" target="_blank">FARIA, Letícia de Abreu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7831840285116499" target="_blank">RODRIGUES, Rosane Cláudia</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; <b>MACEDO, Felipe Barros</b> . Efeito residual da silicatagem no solo e na produtividade do capim-Marandu sob pastejo. Revista Brasileira de Ciência do Solo<sup><img id='01000683_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01000683' /></sup>, v. 32, p. 1209-1216, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01000683&volume=32&issue=&paginaInicial=1209&titulo=Efeito residual da silicatagem no solo e na produtividade do capim-Marandu sob pastejo&sequencial=3&nomePeriodico=Revista Brasileira de Ciência do Solo" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>TEIXEIRA, Nilva Teresinha</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; VITAL, W M ; <b>MACEDO, Felipe Barros</b> ; ALMEIDA, F ; ANDRADE, R. C. . Alface cultivada em Hidroponia com efluente de granja de suinocultura de biofertilizantes. Ecossistema (FAZMCG)<sup><img id='01004107_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01004107' /></sup>, v. 29, p. 23-25, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01004107&volume=29&issue=&paginaInicial=23&titulo=Alface cultivada em Hidroponia com efluente de granja de suinocultura de biofertilizantes&sequencial=4&nomePeriodico=Ecossistema (FAZMCG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACEDO, Felipe Barros</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; LOPES, Fausto Eduardo ; TEIXEIRA, Luciano ; SHIGHIHARA, Ricardo ; OLIVEIRA, Rodrigo F . Fitorregulador, produção e conteúdos de clorofila nas folhas em feijoeiro (Phaseolus vulgaris L.) cv. Iapar-pérola. Ecossistema (FAZMCG)<sup><img id='01004107_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01004107' /></sup>, v. 27, p. 83-85, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01004107&volume=27&issue=&paginaInicial=83&titulo=Fitorregulador, produção e conteúdos de clorofila nas folhas em feijoeiro (Phaseolus vulgaris L.) cv. Iapar-pérola&sequencial=5&nomePeriodico=Ecossistema (FAZMCG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACEDO, Felipe Barros</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; LIMA, Allan de Menezes ; BERNARDES, Carlito R ; FREITAS, D`aquino José B de ; OLIVEIRA, Rodrigo F . Boro no plantio e cálcio e boro em adubação foliar na produção da soja. Ecossistema (FAZMCG)<sup><img id='01004107_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01004107' /></sup>, v. 27, p. 87-88, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01004107&volume=27&issue=&paginaInicial=87&titulo=Boro no plantio e cálcio e boro em adubação foliar na produção da soja&sequencial=6&nomePeriodico=Ecossistema (FAZMCG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACEDO, Felipe Barros</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; LIMA, Allan de Menezes ; OLIVEIRA, Rodrigo F . Fitorregulador em alface (Lactuca sativa L.) cv. Grand Rapids, cultivada em Hidroponia. Ecossistema (FAZMCG)<sup><img id='01004107_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01004107' /></sup>, v. 26, p. 197-198, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01004107&volume=26&issue=&paginaInicial=197&titulo=Fitorregulador em alface (Lactuca sativa L.) cv. Grand Rapids, cultivada em Hidroponia&sequencial=7&nomePeriodico=Ecossistema (FAZMCG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; <b>MACEDO, Felipe Barros</b> ; Neto, Alexandre de Melo Lemos . Uso do fósforo e cálcio na formaçào, reforma, recuperação e manutenção das pastagens. In: Carlos Guilherme Silveira Pedreira; José Carlos de Moura; Sila Carneiro da Silva; Vidal Pedroso de Faria. (Org.). Simpósio sobre manejo de pastagem. Piracicaba: FEALQ, 2007, v. , p. 75-130. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; ANCHÃO, Patrícia Perondi de Oliveira ; MARCHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> ; ALVES, Ana Carolina . Manejo do Pasto com Vistas a Maximizar a Produção de Ruminantes. In: Ricardo Andrade Reis; Gustavo Rezende Siqueira; Liandra M. A. Bertipaglia; Amanda Prates Oliveira; Gabriel M. P. de Melo; Thiago Fernandes Bernardes. (Org.). Volumosos na Produção de Ruminantes. Jaboticabal: Funep, 2005, v. , p. 125-158. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; ANCHÃO, Patrícia Perondi de Oliveira ; MARCHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> . Pastejo rotacionado: dimensionamento da área, determinação do números de piquetes e a taxa de lotação instantânea a ser utilizada. In: Carlos Guilherme Silveira Pedreira; José Carlos de Moura; Sila Carneiro da Silva; Vidal Pedroso de Faria. (Org.). Teoria e Prática da Produção Animal em Pastagens. Piracicaba: FEALQ, 2005, v. , p. 245-278. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> . Consultor da Alltech do Brasil visita a FZEA. Boletim FZEA, , v. XI, p. 1 - 1, 01 out.  2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COSTA, H. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; Francisco, Agostinho Domingos Miguel ; <b>MACEDO, Felipe Barros</b> . Avaliação Nutricional, Produtividade e Qualidade bromatológica de milho em sistema de plantio direto submetido a fontes de Nitrogênio. In: FertBio, 2012, Maceió. A Responsabilidade Socioambiental da Pesquisa Agrícola, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; COSTA, H. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; Francisco, Agostinho Domingos Miguel ; <b>MACEDO, Felipe Barros</b> . Avaliação das perdas de amônia por diferentes fontes de fertilizantes nitrogenados no cultivo de milho em sistema de plantio direto. In: FertBio, 2012, Maceió. A Responsabilidade Socioambiental da Pesquisa Agrícola, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6478083646623085" target="_blank">FARIA, Letícia de Abreu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; Alves, Teresa Cristina ; Francisco, Agostinho Domingos Miguel . Eficiência de Fertilizantes Nitrogenados sobre a perda de N-NH3 por volatilização e produtividade na cultura da cana-de-açúcar. In: Congresso Brasileiro de Ciência do Solo, 2009, Fortaleza-CE. Anais do XXXII Congresso Brasileiro de Ciência do Solo, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; Francisco, Agostinho Domingos Miguel ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6478083646623085" target="_blank">FARIA, Letícia de Abreu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; ALVES, Ana Carolina ; ANCHÃO, Patrícia Perondi de Oliveira . Produtividade e composição bromatológica de milho em sistema de plantio direto submetido a fontes de nitrogênio. In: Reunião Anual da Sociedade Brasileira de Zootecnia, 2008, Lavras. 45o Reunião Anual da Sociedade Brasileira de Zootecnia, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ANCHÃO, Patrícia Perondi de Oliveira ; ALVES, Ana Carolina ; Bernardi, Alberto Carlos de Campos ; Rochetti, Ramon C. ; Alves, Teresa Cristina ; <b>MACEDO, Felipe Barros</b> . Proporção de zeólita e uréia para redução da volatilização de amônia em solo fertilizado com uréia. In: Reunião Anual da Sociedade Brasileira de Zootecnia, 2008, Lavras. 45o Reunião Anual da Sociedade Brasileira de Zootecnia, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6478083646623085" target="_blank">FARIA, Letícia de Abreu</a> ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; Sanches, Antonio Batista . Reflexos da aplicação de silício em pastagem de capim-braquiarão nos atributos químicos do solo. In: Reunião Anual da Sociedade Brasileira de Zootecnia, 2007, Jaboticabal. 44o Reunião Anual da Sociedade Brasileira de Zootecnia, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6478083646623085" target="_blank">FARIA, Letícia de Abreu</a> ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; Sanches, Antonio Batista . Efeitos da aplicação de silicio na produção, qualidade e composição do capim braquiarão sob intensidades de pastejo. In: Reunião Anual da Sociedade Brasileira de Zootecnia, 2007, Jaboticabal. 44o Reunião Anual da Sociedade Brasileira de Zootecnia, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARCHESIN, Wilson Aparecido ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; ALVES, Ana Carolina ; ROCHA, César Oliveira ; Ferraz, Marcos Roberto . Efeito das alturas de corte em plantas de milho (Zea mays L.) nas perdas por gases, durante a fermentação, em silos experimentais, com e sem aditivo. In: Reunião Anual da Sociedade Brasileira de Zootecnia, 2006, João Pessoa. 43ª Reunião Anual da Sociedade Brasileira de Zootecnia, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> . Perdas por gases e efluentes durante o processo fermentativo de forragem de capim-braquiarão, colhida de pastagem sob intensidade de pastejo, e ensilada com e sem aditivo. In: 3º Prêmio de Pesquisa Alltech, 2005, Curitiba, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVES, Ana Carolina ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; OLIVEIRA, Patrícia Perondi Anchão de ; BRAGA, Gustavo José . Características morfogênicas e estruturais da Brachiaria brizantha cv. marandu sob níveis de adubação nitrogenada e alturas de cortes. In: 42 ª Reunião da Sociedade Brasileira de Zootecnia, 2005, Goiânia. A Produção Animal e o Foco no Agronegócio, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; PEDREIRA, Carlos Guilherme Silveira ; BRAGA, Gustavo José ; MARCHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> . Desempenho de novilhos Nelore submetidos a ofertas de forragem em Pastagens de capim-Marandu. In: II Simposium on Grassland and ecophysiology and grazing ecology, 2004, Curitiba. Anais do II Simposium on Grassland and ecophysiology and grazing ecology, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRAGA, Gustavo José ; MARCHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> ; PEDREIRA, Carlos Guilherme Silveira ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> . Estimativa indireta de massa de forragem em pastos de capim-braquiarão [(Brachiaria brizantha Hochst ex A. Rich.) Stapf. cv. Marandu]. In: A produção animal e a segurança alimentar - 41ª Reunião Anual da Sociedade Brasileira de Zootecnia, 2004, Campo Grande. Anais da 41ª Reunião Anual da Sociedade Brasileira de Zootecnia, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; SHIGIHARA, Ricardo . Absorção de macronutrientes pela lentilha cultivada em Espírito Santo do Pinhal/SP. In: 29º Congresso Brasileiro de Ciência do Solo, 2003, Ribeirão Preto, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; <b>MACEDO, Felipe Barros</b> ; VITAL, W M ; ALMEIDA, F . Alface cultivada em Hidroponia com efluente de granja de Suinocultura e Biofertilizante. In: XXIX Congresso Brasileiro de Ciência do Solo, 2003, Ribeirão Preto. XXIX Congresso Brasileiro de Ciência do Solo. Solo: Alicerce dos Sistemas de produção, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; LOPES, Fausto Eduardo ; TEIXEIRA, Luciano ; SIGHIHARA, Ricardo ; OLIVEIRA, Rodrigo F . Fitorregulador na produtividade e nos teores de clorofila das folhas em feijoeiro (Phaseolus vulgaris L.) cv. Iapar-pérola. In: Fertbio 2002, 2002, Rio de Janeiro, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> ; LIMA, Allan de Menezes ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; BARBOSA, Alexandre Portelinha ; FREITAS, D`aquino José Borges de ; BERNARDES, Carlito Roberto ; ROSOLIADABDAB, Ana Elisa ; CASTRO, José Roberto Pereira de . Bioestimulante, cálcio e boro na cultura da alface (Lactuca sativa L.) cv. Grand rapids. In: Fertbio 2000, 2000, Santa Maria, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> ; BATISTA, Frederico Dias ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; RAVAGNANI, Wilson . Soluções nutritivas para cultivo de tomate pêra (Lycopersicon esculentumL.) em hidroponia sistema NFT. In: Fertbio 2000, 2000, Santa Maria, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FREITAS, D`aquino José Borges de ; LIMA, Allan de Menezes ; BARBOSA, Alexandre Portelinha ; <b>MACEDO, Felipe Barros</b> ; BERNARDES, Carlito Roberto ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; OLIVEIRA, Rodrigo F . Dosagens e modo de aplicação do produto comercial Stimulate MO na cultura do milho (Zea mays L.). In: Fertbio 2000, 2000, Santa Maria, 2000. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6478083646623085" target="_blank">FARIA, Letícia de Abreu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; ALVES, Ana Carolina ; TONETTI, P. S. . Efeito da Aplicação de Torta de Filtro e Termofosfato Magnesiano na cultura da cana-de-açúcar. In: Congresso Brasileiro de Ciência do Solo, 2009, Fortaleza-CE. Anais do XXXII Congresso Brasileiro de Ciência do Solo, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6478083646623085" target="_blank">FARIA, Letícia de Abreu</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; <b>MACEDO, Felipe Barros</b> ; M, J. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; LIMA, C. G. ; Ferraz, Marcos Roberto ; TONETTI, P. S. . STYLOSANTEHES CAPITATA cv. CAMPO GRANDE Submetido a doses de selênio em diferentes solos. In: Congresso Brasileiro de Ciência do Solo, 2009, Fortaleza-CE. Anais do XXXII Congresso Brasileiro de Ciência do Solo, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINI, Gustavo Luis Ming ; SCHALCH JÚNIOR, Fernando José ; OLIVEIRA, Renan Paris de ; MARHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> . BOLO FECAL DE BOVINOS E O ACÚMULO TOTAL DE FORRAGEM EM PASTAGENS DE Brachiaria brizantha cv. Marandu SOB INTENSIDADES DE PASTEJO. In: 13º SIMPÓSIO INTERNACIONAL DE INICIAÇÃO CIENTÍFICA DA USP, 2005, Piracicaba, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, César Oliveira ; FORATTO, Diogo ; SALIN, Murilo M. ; MARCHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> . EFEITO DAS ALTURAS DE CORTE EM PLANTAS DE MILHO (Zea mays L.) NAS PERDAS POR GASES, DURANTE A FERMENTAÇÃO, EM SILOS EXPERIMENTAIS, COM E SEM ADITIVO.. In: 13º SIMPÓSIO INTERNACIONAL DE INICIAÇÃO CIENTÍFICA DA USP, 2005, Piracicaba, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6478083646623085" target="_blank">FARIA, Letícia de Abreu</a> ; ROCHA, Cesar Oliveira ; FERREIRA, Paulo Eduardo Bernardi ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7831840285116499" target="_blank">RODRIGUES, Rosane Cláudia</a> ; ALVES, Ana Carolina ; <b>MACEDO, Felipe Barros</b> . PRODUÇÃO DE MASSA SECA DO CAPIM-BRAQUIARÃO [BRACHIARIA BRIZANTHA(HOCHST EX A.RICH.) STAPF. CV. MARANDU] SUBMETIDO A DOSES DE SILÍCIO E INTENSIDADES DE PASTEJO. In: 13º SIMPÓSIO INTERNACIONAL DE INICIAÇÃO CIENTÍFICA DA USP, 2005, Piracicaba, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FORATTO, Diogo ; FERREIRA, Paulo Eduardo Bernardi ; SILVA, Eduardo Telles Marquez da ; MARCHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> . DETERMINAÇÃO DA ÁREA COBERTA POR BOLOS FECAIS DE BOVINOS DA RAÇA NELORE EM PASTAGENS DE Brachiaria brizantha cv. Marandu SOB INTENSIDADES DE PASTEJO. In: 13º SIMPÓSIO INTERNACIONAL DE INICIAÇÃO CIENTÍFICA DA USP, 2005, Piracicaba, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, Paulo Eduardo Bernardi ; SCAHLCH JR., Fernando José ; ROCHA, Cesar Oliveira ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; MARCHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> . IMPACTOS DO PASTEJO SOBRE AS PROPRIEDADES FÍSICAS DO SOLO EM PIQUETES DE CAPIM BRAQUIARÃO[BRAQUIARIA BRIZANTA (HOCHST EX A. RICH.) STAPF. CV. MARANDU] SOB DIFERENTES OFERTAS DE FORRAGEM. In: 13º SIMPÓSIO INTERNACIONAL DE INICIAÇÃO CIENTÍFICA DA USP, 2005, Piracicaba, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, Paulo Eduardo Bernardi ; SCAHLCH JR., Fernando José ; MARTINI, Gustavo Luis Ming ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; MARCHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> . IMPACTOS DO PASTEJO SOBRE AS PROPRIEDADES FÍSICAS DO SOLO NO CORREDOR DE MANEJO EM CAPIM BRAQUIARÃO[Braquiaria brizanta(HOCHSTex A.RICH.)STAPF.cv.Marandu]SOB DIFERENTES OFERTAS DE FORRAGEM. In: 13º SIMPÓSIO INTERNACIONAL DE INICIAÇÃO CIENTÍFICA DA USP, 2005, Piracicaba, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHALCH JÚNIOR, Fernando José ; FERREIRA, Paulo Eduardo Bernadi ; PEREIRA, Thiago Quadros Maluf ; MARCHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> ; SILVA, Cléber Souza . Contribuição do Digitonthophagus gazella (Fabricius.) na Fertilidade do Solo pelo Enterrio de Fezes Bovinas Frescas em Pastagens de Capim-brachiarão [Brachiaria brizantha (Stapf.) cv. Marandu] - 1. pH. In: 13º SIMPÓSIO INTERNACIONAL DE INICIAÇÃO CIENTÍFICA DA USP, 2005, Piracicaba, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PALHARES, Guilherme Giacomin ; VION JÚNIOR, Carlos Roberto ; MACHADO, André Artin ; MARCHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> . ESTUDO DA APLICAÇÃO DE TERMOFOSFATO MAGNESIANO NO SULCO DE PLANTIO E DE SULFATO DE AMÔNIO EM COBERTURA NO MILHO. 2 ALTURA DE INSERÇÃO DE ESPIGAS. In: 13ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE, 2005, Piracicaba, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, Renan Paris ; FERREIRA, Paulo Eduardo Bernardi ; SODRÉ, Luiz Roberto Queiroz de Abreu ; MARCHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> . ESTUDO DA APLICAÇÃO DE TERMOFOSFATO MAGNESIANO NO SULCO DE PLANTIO E DE SULFATO DE AMÔNIO EM COBERTURA NO MILHO. 1 PRODUÇÃO DE GRÃOS. In: 13º SIMPÓSIO INTERNACIONAL DE INICIAÇÃO CIENTÍFICA DA USP, 2005, Piracicaba, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BASTOS, Kamyro Jorge José Zaccaria ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> ; MARCHESIN, Wilson Aparecido ; ELMÔR, Lucas Domênico ; SILVA, Eduardo Telles Marques da ; NOGUEIRA FILHO, José Carlos Machado . Estudo do efeito das intensidades de pastejo sobre as perdas por gases e efluentes na silagem de capim-braquiarão (Brachiaria brizantha Stapf. cv. Marandu) submetida a diferentes tipos de aditivos. In: 12º Simpósio Internacional de Iniciação Científica da USP, 2004, Piracicaba. 12º Simpósio Internacional de Iniciação Científica da USP, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINI, Gustavo Luís Ming ; MORIMOTO, Thiago Koga ; PAULI, Marcos ; MARCHESIN, Wilson Aparecido ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0374545961689281" target="_blank">LUZ, Pedro Henrique de Cerqueira</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> . Consumo de suplemento mineral protéico-energético no inverno por novilhos da raça Nelore em pastagem de capim-braquiarão submetido à ofertas de forragem. In: 12º Simpósio Internacional de Iniciação Científica da USP, 2004, Piracicaba. 12º Simpósio Internacional de Iniciação Científica da USP, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVES, Ana Carolina ; CONTADINI, Marcela de Almeida ; CAMARGO, Wagner Augusto ; CARVALHO, Daniel Schwahofer de ; STEFANO, Matheus Rodrigues ; <b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> . Distribuição da massa seca nos estratos verticais do capim-braquiarão[Brachiaria brizantha (Hochst Ex. A. Rich.) Stapf. submetido à intensidades de pastejo. In: 11º SIMPÓSIO INTERNACIONAL DE INICIAÇÃO CIENTÍFICA DA USP, 2003, Piracicaba, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAMARGO, Wagner Augusto ; CAMARGO, André Luís Queiroz de ; <b>MACEDO, Felipe Barros</b> ; MARCHESIN, Wilson Aparecido ; PETERNELLI, Maurício ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378798276126071" target="_blank">HERLING, Valdo Rodrigues</a> . Características morfogênicas do capim-braquiarão [Brachiaria brizantha (Hochst Ex. A. Rich.) Stapf.] sob intensidades de pastejo. In: 11º SIMPÓSIO INTERNACIONAL DE INICIAÇÃO CIENTÍFICA DA USP, 2003, Piracicaba, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; SOUZA, Diego A de . Cultivo de feijão-vagem em hidroponiapor gotejamento. In: 1º Simpósio de Pesquisa, Extensão e Ensino-SIMPE/CREUPI e 14ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE/AGRO, 2002, Espírito Santo do Pinhal. 1º Simpósio de Pesquisa, Extensão e Ensino-SIMPE/CREUPI e 14ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE/AGRO, 2002. p. 53-53. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; LIMA, Allan de Menezes ; OLIVEIRA, Rodrigo F . Fitorreguladores associados à adubos em alface (Lactuca sativa L.) cultivada em hidroponia. In: 1º Simpósio de Pesquisa, Extensão e Ensino-SIMPE/CREUPI e 14ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE/AGRO, 2002, Espírito Santo do Pinhal. 1º Simpósio de Pesquisa, Extensão e Ensino-SIMPE/CREUPI e 14ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE/AGRO, 2002. p. 42-42. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> . Bioestimulante e formulado orgânico em abóbrinha italiana. In: 1º Simpósio de Pesquisa, Extensão e Ensino-SIMPE/CREUPI e 14ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE/AGRO, 2002, Espírito Santo do Pinhal. 1º Simpósio de Pesquisa, Extensão e Ensino-SIMPE/CREUPI e 14ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE/AGRO, 2002. p. 54-54. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; SOUZA, Diego A de ; PIMENTA, Eduardo C . Nitrate Balance e MultK na produtividade de cafeeiro. In: 1º Simpósio de Pesquisa, Extensão e Ensino-SIMPE/CREUPI e 14ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE/AGRO, 2002, Espírito Santo do Pinhal. 1º Simpósio de Pesquisa, Extensão e Ensino-SIMPE/CREUPI e 14ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE/AGRO, 2002. p. 54-54. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; MORAES, Cleber H de ; <b>MACEDO, Felipe Barros</b> . Aldicarbe, adubação foliar nitrogenada e bioestimulante no desenvolvimento e nos teores de nutrientes na parte aérea de mudas de cafeeiro. In: 1º Simpósio de Pesquisa, Extensão e Ensino-SIMPE/CREUPI e 14ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE/AGRO, 2002, Espírito Santo do Pinhal. 1º Simpósio de Pesquisa, Extensão e Ensino-SIMPE/CREUPI e 14ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE/AGRO, 2002. p. 43-43. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; LIMA, Allan de Menezes ; OLIVEIRA, Rodrigo F . Fitorreguladores associados à adubos em alface (Lactuca sativa L.) cultivado em hidroponia. In: 28º Congresso Brasileiro de Ciência do Solo, 2001, Londrina. Ciência do Solo: Fator de Produtividade Competitiva com Sustentabilidade, 2001. p. 139-139. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> ; BATISTA, Frederico D ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; RAGNANI, Wilson . Solução nutritiva para cultivo de tomate pera (Lycopersicon esculentum L.) em hidroponia sistema NFT. In: 13ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE, 2001, Espírito Santo do Pinhal. 13º SATRE, 2001. p. 20-20. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FREITAS, D`aquino J B de ; LIMA, Allan de Menezes ; BARBOSA, Alexandre P ; <b>MACEDO, Felipe Barros</b> ; BERNARDES, Carlito R ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; OLIVEIRA, Rodrigo F . Stimulate MO na cultura do milho (Zea mays L.). In: 13ª Semana de Apresentação de Trabalhos Realizados na Escola-SATRE, 2001, Espírito Santo do Pinhal. 13º SATRE, 2001. p. 15-15. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7549981025300692" target="_blank">TEIXEIRA, Nilva Teresinha</a> ; MORAES, Cleber H de ; <b>MACEDO, Felipe Barros</b> . Aldicarbe, adubação foliar nitrogenada e bioestimulante no desenvolvimento e nos teores nutrientes na parte aérea de mudas de cafeeiro. In: 28º Congresso Brasileiro de Ciência do Solo, 2001, Londrina. Ciência do Solo: Fator de Produtividade Competitiva com Sustentabilidade, 2001. p. 186-186. </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> . Silagem. 2005. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> . 1ª Escuela de ensilaje. 2005. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> . Botânica para Zootecnia.
+							2005. (Desenvolvimento de material didático ou instrucional - Aulas práticas/teóricas). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> . Conforto para Bovinos de Corte.
+							2004. (Desenvolvimento de material didático ou instrucional - Aulas teóricas). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b>; Ferraz,J.B.S; Pereira,A.; Luz,S..  Participação em banca de André Artin Machado.Defesa de Estagio Supervisionado.
+							2009. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Faculdade de Zootecnia e Engenharia de Alimentos. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Treinamento em Tecnologia de Aplicação de Agroquimicos e Equipamentos. 2009. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Simpósio de Volumosos na Produção de Ruminantes.II Simpósio de Volumosos na Produção de Ruminantes.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1ª Escuela de ensilaje.1ª Escuela de ensilaje.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PROCUR.PROCUR - Projeto Curral. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aula sobre o tema Interface planta animal e comportamento ingestivo de animais em pastejo.Aula sobre o tema Interface planta animal e comportamento ingestivo de animais em pastejo. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Trabalho Científico: escrever e apresentar.Trabalho Científico: escrever e apresentar. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Química Analítica Aplicada.Curso de Química Analítica Aplicada . 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1º Simpósio Brasileiro sobre Sombreamento na Bovinocultura Tropical.1º Simpósio Brasileiro sobre Sombreamento na Bovinocultura Tropical.
+							2004. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1º Dia de Campo Braquiarão x Nelore FZEA/USP.1º Dia de Campo Braquiarão x Nelore FZEA/USP. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Ciclo de Palestras - ZOOT Jr. USP.V Ciclo de Palestras - ZOOT Jr. USP. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">29º Congresso Brasileiro de Ciência do Solo. 29º Congresso Brasileiro de Ciência do Solo. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Defesa Fitossanitária, Tecnologia de Aplicação e Receituário Agronômico.Curso de Defesa Fitossanitária, Tecnologia de Aplicação e Receituário Agronômico. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Workshop de pesquisa e Pós-Graduação da FZEA: Integrar para crescer.III Workshop de pesquisa e Pós-Graduação da FZEA: Integrar para crescer. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fertbio 2002. Fertbio 2002. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio de Bovinocultura de Corte.I Simpósio de Bovinocultura de Corte.
+							2002. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Curso de Atualização daCiência do Solo de Espírito Santo do Pinhal.I Curso de Atualização da Ciência do Solo de Espírito Santo do Pinhal. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vigilância internacional em aeroportos e postos de fronteiras.Vigilância internacional em aeroportos e postos de fronteiras. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Treinamento em Milho - Instalação da lavoura.Treinamento em Milho - Instalação da lavoura. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">28º Congresso Brasileiro de Ciência do Solo. 28º Congresso Brasileiro de Ciência do Solo. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">13ª Semana de Apresentação de Trabalhos Apresentados na Escola-SATRE.13ª Semana de Apresentação de Trabalhos Apresentados na Escola-SATRE.
+							2001. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1º Ciclo de palestras sobre "Plantas Transgênicas".1º Ciclo de palestras sobre Plantas Transgênicas. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">31ª Semana Agronômica de Espírito Santo do Pinhal.31ª Semana Agronômica de Espírito Santo do Pinhal . 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Insumos Alternativos na Agricultura.Insumos Alternativos na Agricultura. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Semana Zootécnica de Espírito Santo do Pinhal - SEZESP.III Semana Zootécnica de Espírito Santo do Pinhal - SEZESP. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Os Desafios e as Perspectivas da Questão Ambiental nos dias hoje.Os Desafios e as Perspectivas da Questão Ambiental nos dias hoje. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fertbio 2000. Fertbio 2000. 2000. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Melhoramento vegetal na cultura do café.Melhoramento vegetal na cultura do café. 2000. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">24ª Festa Nacional do café.24ª Festa Nacional do café. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso orientação básica de crédito.Curso orientação básica de crédito. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Ciclo de cafeicultura orgânica de Espírito Santo do Pinhal.I Ciclo de cafeicultura orgânica de Espírito Santo do Pinhal. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Uso da Teleinformática no mercado agrícola.Uso da Teleinformática no mercado agrícola. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Semana Zootécnica de Espírito Santo do Pinhal.II Semana Zootécnica de Espírito Santo do Pinhal. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fertirrigação.Fertirrigação. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso Orgânico.Curso Orgânico. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> . 1º Dia de campo Braquiarão X Nelore FZEA/USP. 2004. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> . 1º Simpósio de Pesquisa, Extensão e Ensino - SIMPE/14º Semana de Apresentação de Trabalhos Realizados na Escola - SATRE. 2002. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> . XXXII Semana Agronômica de Espírito Santo do Pinhal. 2002. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> . XXV Congresso Paulista de Fitopatologia. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACEDO, Felipe Barros</b> . 30º Semana Agronômica de Espírito Santo do Pinhal. 2000. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 23/05/2014 &agrave;s 17:55:09</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0085943663365035" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

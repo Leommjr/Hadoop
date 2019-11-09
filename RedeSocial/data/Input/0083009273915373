@@ -1,0 +1,1021 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Ueliton Vianna)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0083009273915373" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4727160E2&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4727160E2"><div class="infpessoa">
+<h2 class="nome">Ueliton Vianna</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0083009273915373</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 18/05/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui Doutorado em Reumatologia pela Universidade Federal do Rio de Janeiro (1976). Possui graduação em Medicina pela Universidade Federal do Rio de Janeiro (1962) e doutorado em Reumatologia pela Universidade Federal do Rio de Janeiro (1976). Tem experiência na área de Medicina, com ênfase em Reumatologia<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ueliton Vianna</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">VIANNA, U.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1976</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Livre-docência. <br class="clear" />Universidade Federal do Rio de Janeiro, UFRJ, Brasil.
+		
+	<br class="clear" />Título: Estudo clínico dos níveis séricos do terceiro componenete do completmento em Lupus Eritematoso Sistêmico, Ano de obtenção: 1976.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1976 - 1976</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Reumatologia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio de Janeiro, UFRJ, Brasil.
+		
+	<br class="clear" />Título: Estudo clínico dos níveis séricos do terceiro componenete do completmento em Lupus Eritematoso Sistêmico, Ano de obtenção: 1976. <br class="clear" />Orientador: Israel Bonomo. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1957 - 1962</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Medicina<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio de Janeiro, UFRJ, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Iguaçu, UNIG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1980 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Titular, Carga horária: 40</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio de Janeiro, UFRJ, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Titular, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Medicina, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Clínica das Doenças Reumáticas<br class="clear" />Semiologia do Aparelho Locomotor<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Reumatologia, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Clínica em Doenças Reumáticas<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Medicina / Subárea: Clínica Médica/Especialidade: Reumatologia. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VIANNA, U.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span><b>VIANNA, U.</b> . Cervicobraquialgia. Cadernos de Reumatologia<sup><img id='08718342_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='08718342' /></sup>, v. 10, p. 37-46, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=08718342&volume=10&issue=&paginaInicial=37&titulo=Cervicobraquialgia&sequencial=1&nomePeriodico=Cadernos de Reumatologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>JAIME, M. A. I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1998</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6763043930288487" target="_blank">JAIME, M. A. I.</a> ; BAPTISTA, R. ; AZEVEDO, M. N. L. ; NENTZINSKY, V. ; SAUAYA, D. R. ; <b>VIANNA, U.</b> . Doença de Still do adulto: estudo de 25 casos. Revista Brasileira de Reumatologia (Impresso)<sup><img id='04825004_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='04825004' /></sup>, v. 38, p. 285-290, 1998. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=04825004&volume=38&issue=&paginaInicial=285&titulo=Doença de Still do adulto: estudo de 25 casos&sequencial=2&nomePeriodico=Revista Brasileira de Reumatologia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZERBINI, C. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9848964832569416" target="_blank">ZERBINI, C. A.</a> ; MARQUES, G. C. ; GONCALVES, H. ; LEDERMAN, R. ; SILVA, N. A. ; PERNAMBUCO, J. C. A. ; <b>VIANNA, U.</b> ; GIORGI, R. D. ; CHAHADE, W. H. . Estudo multicêntrico da eficácia e tolerabilidade do aceclofenaco no tratamento da doença (artrite) reumatóide. RBM. Revista Brasileira de Medicina (Rio de Janeiro)<sup><img id='00347264_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00347264' /></sup>, v. 54, p. 1-7, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00347264&volume=54&issue=&paginaInicial=1&titulo=Estudo multicêntrico da eficácia e tolerabilidade do aceclofenaco no tratamento da doença (artrite) reumatóide&sequencial=3&nomePeriodico=RBM. Revista Brasileira de Medicina (Rio de Janeiro)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AZEVEDO, M. N. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span>AZEVEDO, M. N. L. ; ALENCAR, R. ; BAPTISTA, R. ; PASQUALETTE, H. A. ; CARNEIRO, R. A. ; <b>VIANNA, U.</b> . Densidade mineral óssea antes da menopausa. Revista Brasileira de Reumatologia (Impresso)<sup><img id='04825004_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='04825004' /></sup>, v. 37, p. 201-204, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=04825004&volume=37&issue=&paginaInicial=201&titulo=Densidade mineral óssea antes da menopausa&sequencial=4&nomePeriodico=Revista Brasileira de Reumatologia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARNEIRO, S. C. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2806814483036209" target="_blank">CARNEIRO, S. C. S.</a> ; OLIVEIRA, M. L. W. ; <b>VIANNA, U.</b> ; AZULAY, D. . Psoriatic arthropathy subgroups. A new point of view. Folha Médica<sup><img id='00155454_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00155454' /></sup>, v. 109, p. 203-207, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00155454&volume=109&issue=&paginaInicial=203&titulo=Psoriatic arthropathy subgroups. A new point of view&sequencial=5&nomePeriodico=Folha Médica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARNEIRO, S. C. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2806814483036209" target="_blank">CARNEIRO, S. C. S.</a> ; OLIVEIRA, M. L. W. ; <b>VIANNA, U.</b> ; MIRANDA, M. J. S. ; AZULAY, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3704840149086851" target="_blank">CARNEIRO, C. S.</a> . Psoariasis: a study of osteoarticular involvement in 104 patients. Folha Médica<sup><img id='00155454_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00155454' /></sup>, v. 109, p. 121-125, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00155454&volume=109&issue=&paginaInicial=121&titulo=Psoariasis: a study of osteoarticular involvement in 104 patients&sequencial=6&nomePeriodico=Folha Médica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AZEVEDO, M. N. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span>AZEVEDO, M. N. L. ; ROIMICHER, L. ; FISZMAN, P. ; SAUAYA, D. R. ; KYK, A. A. ; CUNHA, J. L. M. ; TUMA, F. ; <b>VIANNA, U.</b> . Avaliaçao das doenças reumáticas ambulatoriais: Hospital Universitário/Universidade Federal do Rio de Janeiro. Revista Brasileira de Reumatologia (Impresso)<sup><img id='04825004_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='04825004' /></sup>, v. 34, p. 23-26, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=04825004&volume=34&issue=&paginaInicial=23&titulo=Avaliaçao das doenças reumáticas ambulatoriais: Hospital Universitário/Universidade Federal do Rio de Janeiro&sequencial=7&nomePeriodico=Revista Brasileira de Reumatologia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BONFANTE, H. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span>BONFANTE, H. L. ; SENA, M. A. ; BAPTISTA, R. ; SALES FILHO, R. ; RAMALHO, A. ; INSIGNARES, M. ; PINHEIRO, G. C. ; TUMA, F. ; <b>VIANNA, U.</b> . Dermatomiosite e carcinoma escamoso de língua. RBM. Revista Brasileira de Medicina (Rio de Janeiro)<sup><img id='00347264_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00347264' /></sup>, v. 34, p. 44-47, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00347264&volume=34&issue=&paginaInicial=44&titulo=Dermatomiosite e carcinoma escamoso de língua&sequencial=8&nomePeriodico=RBM. Revista Brasileira de Medicina (Rio de Janeiro)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARNEIRO, S. C. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2806814483036209" target="_blank">CARNEIRO, S. C. S.</a> ; OLIVEIRA, M. L. W. ; <b>VIANNA, U.</b> ; AZULAY, D. . Psoriatic arthropathy subgroups. A new point of view. Folha Médica<sup><img id='00155454_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00155454' /></sup>, v. 109, p. 203-207, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00155454&volume=109&issue=&paginaInicial=203&titulo=Psoriatic arthropathy subgroups. A new point of view&sequencial=9&nomePeriodico=Folha Médica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BONFANTE, H. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span>BONFANTE, H. L. ; MACHADO, H. L. ; PINHEIRO, G. C. ; GIESTA, M. ; BAPTISTA, R. ; TUMA, F. ; <b>VIANNA, U.</b> . Artropatia de hemocromatose. Revista Brasileira de Reumatologia (Impresso)<sup><img id='04825004_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='04825004' /></sup>, v. 33, p. 151-154, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=04825004&volume=33&issue=&paginaInicial=151&titulo=Artropatia de hemocromatose&sequencial=10&nomePeriodico=Revista Brasileira de Reumatologia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SAUAYA, D. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span>SAUAYA, D. R. ; TUMA, F. ; AZEVEDO, M. N. L. ; KYK, A. A. ; FISZMAN, P. ; CARVALHO, H. M. ; NENTZINSKY, V. ; PAPI, J. A. ; <b>VIANNA, U.</b> . Angiíte de Churg-Strauss: relato de três casos. Revista Brasileira de Reumatologia (Impresso)<sup><img id='04825004_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='04825004' /></sup>, v. 33, p. 248-250, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=04825004&volume=33&issue=&paginaInicial=248&titulo=Angiíte de Churg-Strauss: relato de três casos&sequencial=11&nomePeriodico=Revista Brasileira de Reumatologia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MERLO, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span>MERLO, P. ; <b>VIANNA, U.</b> . Compromiso clínico-radiológico de las articulaciones sacroiliacas en pacientes con artritis reumatóidea. Íconos (Quito)<sup><img id='13901249_12' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='13901249' /></sup>, v. s n, p. 1-4, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=13901249&volume=s n&issue=&paginaInicial=1&titulo=Compromiso clínico-radiológico de las articulaciones sacroiliacas en pacientes con artritis reumatóidea&sequencial=12&nomePeriodico=Íconos (Quito)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BONOMO, I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1981</span>BONOMO, I. ; <b>VIANNA, U.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2806814483036209" target="_blank">CARNEIRO, S. C. S.</a> ; TUMA, W. G. S. ; GUERRA, A. M. P. . eficácia e tolerabilidade do piroxicam no tratamento da artite reumatóide. Revista Brasileira de Clínica e Terapêutica<sup><img id='01003232_13' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01003232' /></sup>, v. 10, p. 1-4, 1981. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01003232&volume=10&issue=&paginaInicial=1&titulo=eficácia e tolerabilidade do piroxicam no tratamento da artite reumatóide&sequencial=13&nomePeriodico=Revista Brasileira de Clínica e Terapêutica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BONOMO, I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1981</span>BONOMO, I. ; <b>VIANNA, U.</b> ; LEDERMAN, R. ; FILHO, A. C. ; ATRA, E. . Conduta diagnóstica diante de uma artrite. Jornal Brasileiro de Medicina<sup><img id='00472077_14' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00472077' /></sup>, v. 40, p. 24-56, 1981. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00472077&volume=40&issue=&paginaInicial=24&titulo=Conduta diagnóstica diante de uma artrite&sequencial=14&nomePeriodico=Jornal Brasileiro de Medicina" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BONOMO, I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1980</span>BONOMO, I. ; <b>VIANNA, U.</b> . A glafenina em osteoartose. Folha Médica<sup><img id='00155454_15' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00155454' /></sup>, v. 80, p. 1-4, 1980. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00155454&volume=80&issue=&paginaInicial=1&titulo=A glafenina em osteoartose&sequencial=15&nomePeriodico=Folha Médica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BONOMO, I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1976</span>BONOMO, I. ; <b>VIANNA, U.</b> ; VIEIRA, W. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1232455026264198" target="_blank">MENEZES, M. F.</a> ; AGUIAR, P. T. G. ; FOCHESATO, J. A. . Ensaio clínico com cetoprofeno em 103 pacientes reumáticos. RBM. Revista Brasileira de Medicina (Rio de Janeiro)<sup><img id='00347264_16' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00347264' /></sup>, v. 33, p. 1-6, 1976. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00347264&volume=33&issue=&paginaInicial=1&titulo=Ensaio clínico com cetoprofeno em 103 pacientes reumáticos&sequencial=16&nomePeriodico=RBM. Revista Brasileira de Medicina (Rio de Janeiro)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, F. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1973</span>OLIVEIRA, F. G. ; MOTA, A. C. C. ; COELHO, S. R. ; <b>VIANNA, U.</b> ; BONOMO, I. . Estudo populacional do fator antinuclear no Estado da Guanabara. RBM. Revista Brasileira de Medicina (Rio de Janeiro)<sup><img id='00347264_17' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00347264' /></sup>, v. 30, p. 125-127, 1973. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00347264&volume=30&issue=&paginaInicial=125&titulo=Estudo populacional do fator antinuclear no Estado da Guanabara&sequencial=17&nomePeriodico=RBM. Revista Brasileira de Medicina (Rio de Janeiro)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VIANNA, U.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1973</span><b>VIANNA, U.</b> . Osteoporose pós-menopausa e senil: considerações clínicas e etiopatogênicas. Atualidades Médicas<sup><img id='00011800_18' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00011800' /></sup>, v. 9, p. 109-109, 1973. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00011800&volume=9&issue=&paginaInicial=109&titulo=Osteoporose pós-menopausa e senil: considerações clínicas e etiopatogênicas&sequencial=18&nomePeriodico=Atualidades Médicas" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, F. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1972</span>OLIVEIRA, F. G. ; MOTA, A. C. C. ; <b>VIANNA, U.</b> ; BAPTISTA, R. ; FISZMAN, P. ; BONOMO, I. . Pesquisa do fator antinuclear por imunofluorescencia. Jornal Brasileiro de Medicina<sup><img id='00472077_19' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00472077' /></sup>, v. 20, p. 21-36, 1972. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00472077&volume=20&issue=&paginaInicial=21&titulo=Pesquisa do fator antinuclear por imunofluorescencia&sequencial=19&nomePeriodico=Jornal Brasileiro de Medicina" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BONOMO, I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1971</span>BONOMO, I. ; <b>VIANNA, U.</b> ; BAPTISTA, R. . Valor do laboratório nas doses reumáticas. Atualidades Médicas<sup><img id='00011800_20' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00011800' /></sup>, v. 7, p. 17-32, 1971. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00011800&volume=7&issue=&paginaInicial=17&titulo=Valor do laboratório nas doses reumáticas&sequencial=20&nomePeriodico=Atualidades Médicas" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VIANNA, U.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1970</span><b>VIANNA, U.</b> . Semiologia reumatológica. Jornal Brasileiro de Medicina<sup><img id='00472077_21' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00472077' /></sup>, v. 18, p. 155-162, 1970. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00472077&volume=18&issue=&paginaInicial=155&titulo=Semiologia reumatológica&sequencial=21&nomePeriodico=Jornal Brasileiro de Medicina" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BONOMO, I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1969</span>BONOMO, I. ; <b>VIANNA, U.</b> . Aspectos práticos em diagnóstico e tratamento da gota. Folha Médica<sup><img id='00155454_22' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00155454' /></sup>, v. 58, p. 873-896, 1969. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00155454&volume=58&issue=&paginaInicial=873&titulo=Aspectos práticos em diagnóstico e tratamento da gota&sequencial=22&nomePeriodico=Folha Médica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BONOMO, I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1964</span>BONOMO, I. ; SCHNEIDER, M. ; <b>VIANNA, U.</b> . Clinical trial of a cartilage and bone extract in the treatment of degenerative joint diseases. Revista Médica de Chile (Impresa)<sup><img id='00349887_23' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00349887' /></sup>, v. 92, p. 1-4, 1964. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00349887&volume=92&issue=&paginaInicial=1&titulo=Clinical trial of a cartilage and bone extract in the treatment of degenerative joint diseases&sequencial=23&nomePeriodico=Revista Médica de Chile (Impresa)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LEMLE, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1962</span>LEMLE, A. ; ROCCO, R. ; <b>VIANNA, U.</b> ; MORAIS, D. J. . Calcificação em aurícula direita (apresentação de um caso). Arquivos Brasileiros de Medicina<sup><img id='03650723_24' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03650723' /></sup>, v. 52, p. 1-6, 1962. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03650723&volume=52&issue=&paginaInicial=1&titulo=Calcificação em aurícula direita (apresentação de um caso)&sequencial=24&nomePeriodico=Arquivos Brasileiros de Medicina" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VIANNA, U.</b> . Manual de Reumatologia, 1982. (Tradução/Livro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VIANNA, U.</b>.  Participação em banca de Marilena Leal Mesquita Silvestre Fernandes. Importância diagnóstica da ultra-sonografia das glândulas salivares para avaliação da síndrome seca em pacientes com artrite reumatóide. 2006. Dissertação (Mestrado em Clínica Médica) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VIANNA, U.</b>.  Participação em banca de Washington Alves Bianchi. Fatores de risco de doença cardíaca em paciente com artite reumatóide. 2006. Dissertação (Mestrado em Clínica Médica) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VIANNA, U.</b>.  Participação em banca de Adriana Danowski. Síndrome do anticorpo antifosfolipídeo: análise dos fatores de risco e comorbidades no desenvolvimento de eventos trombóticos e perdas fetais. 2005. Dissertação (Mestrado em Clínica Médica) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VIANNA, U.</b>.  Participação em banca de Ana Lisa Gallagher. Frequência das manifestações reumatológicas em pacientes infectados pelo vírus da imunodeficiência humana, virgens de tratamento anti-retroviral. 2004. Dissertação (Mestrado em Clínica Médica) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VIANNA, U.</b>.  Participação em banca de patrícia Nunes Teixeira. Estudo da perfusão renal através do eco-Doppler em cores em pacientes com esclerose Sistêmica Progressiva sem manifestações clínicas de lesão renal. 2003. Dissertação (Mestrado em Clínica Médica) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VIANNA, U.</b>.  Participação em banca de Christianne Costa Diniz. avaliação da audição em crianças portadoras de artrite idiopática juvenil sem sintomas auditivos. 2003. Dissertação (Mestrado em Clínica Médica) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VIANNA, U.</b>.  Participação em banca de Luiz Eduardo da Costa Oliveira. Avaliação da indução de remissão da nefrite lúpica pela ciclofosfamida. 2003. Dissertação (Mestrado em Clínica Médica) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VIANNA, U.</b>.  Participação em banca de Marcos Ottoni Siqueira. Níveis de homocisteína no soro em pacientes com Lupus Eritematoso Sistêmico relacionados a: hipertensão arterial, índice de danos, complicações cardiovasculares e síndrome antifosfolipídios. 2000. Dissertação (Mestrado em Clínica Médica) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VIANNA, U.</b>.  Participação em banca de Ana Alice Amaral Ibiapina Parente. Disfunção pulmonar no Lupus Eritematoso Sistêmico. 1999. Dissertação (Mestrado em Pediatria) - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VIANNA, U.</b>.  Participação em banca de Maria Lucia Pimentel. Análise fenotípica quantitativa das subpopulações de linfócitos T intestinais em pacientes com Lupus Eritematoso Sistémico. 1999. Tese (Doutorado em Clínica Médica)  - Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 23/05/2014 &agrave;s 17:53:29</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0083009273915373" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

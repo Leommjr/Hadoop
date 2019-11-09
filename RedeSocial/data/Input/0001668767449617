@@ -1,0 +1,4354 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Norma Utinguass&uacute; Escosteguy)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0001668767449617" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#MembroCorpoEditorial">Membro de corpo editorial</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4773764A3&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4773764A3"><div class="infpessoa">
+<h2 class="nome">Norma Utinguass&uacute; Escosteguy</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0001668767449617</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 07/03/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">É graduada em Medicina pela Universidade Federal do Rio Grande do Sul (1965), especialista em Psiquiatria Infantil pela Universidade Paris XIII (1980). Atualmente é professora aposentada da Pontifícia Universidade Católica do Rio Grande do Sul, ex-coordenadora do Grupo de Interconsulta em Psiquiatria Infantil do H.São Lucas, supervisora do Centro de Estudos Pesquisa e Atendimento da Infância e Adolescência (CEAPIA) e professora convidada da Universidade Federal do Rio Grande do Sul. Tem experiência na área de Medicina, com ênfase em Psiquiatria, atuando principalmente nos seguintes temas: interconsulta em psiquiatria infantil em hospital geral, psicopatologia da infância e da adolescência, desenvolvimento da personalidade, observação de bebês, gemelitude e processos de luto.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Norma Utinguassú Escosteguy</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pontifícia Universidade Católica do Rio Grande do Sul, Faculdade de Medicina, Departamento de Psiquiatria e Medicina Legal. <br class="clear" />Av. Ipiranga, 6690<br class="clear" />Jardim Botânico<br class="clear" />90610-000 - Porto Alegre, RS - Brasil<br class="clear" />Telefone: (51) 33203015<br class="clear" />Fax: (51) 33203040<br class="clear" />URL da Homepage: <a target="blank" href="http://www.pucrs.br/medicina">http://www.pucrs.br/medicina</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1970 - 1972</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização - Residência médica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	Residência médica em: Psiquiatria<br class="clear" />Número do registro: . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1979 - 1980</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Psiquiatria Infantil e do Adolescente<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Université Paris 13 (Paris-Nord), PARIS 13, França.
+		
+	<br class="clear" />Título: Sur une thérapeutique institutionnelle en psychiatrie infantile: L'Unité des Soins Intensifs du Soir (Especialização em Psiquiatria Infantil e do Adolescente). <br class="clear" />Orientador: René Diatkine e Serge Lebovici. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1977 - 1980</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aperfeiçoamento em Psiquiatria Infantil<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Centre Alfred Binet.
+		
+	Ano de finalização: 1980. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1961 - 1965</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Medicina<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Curta Duração. <br class="clear" />PUCRS.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação docente na PUCRS.  (Carga horária: 9h). <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas Isoladas do Programa de PG em Medicina.  (Carga horária: 30h). <br class="clear" />PUCRS.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor aposentado, Carga horária: 6</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Medicina, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Internato<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1992 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Hospital São Lucas, Serviço de Psiquiatria. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenadora da Equipe de Consultoria em Psiquiatria Infantil.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1986 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Psiquiatria, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Desenvolvimento de Personalidade I e II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2005 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Medicina, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" /> Mente e Cérebro II<br class="clear" />Aproximação à Prática Médica II - APM II<br class="clear" />Saúde da Criança e do Adolescente<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2007 - 10/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Faculdade de Medicina - FAMED, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Participação em Comissão de Sindicância.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1986 - 06/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Medicina, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Psiquiatria II<br class="clear" />Psiquiatria III<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2004 - 12/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, CENESPI - Centro de Estudos de Psiquiatria Integrada, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Vice - Presidente.
+				
+				</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Centro de Estudos Pesquisa e Atendimento da Infância e Adolescência, CEAPIA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1980 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Supervisora, Carga horária: 0</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2003 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, CEAPIA, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Conselho Consultivo.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1980 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Pós Graduação em Psicoterapia Infantil, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Psicopatologia I (Diagnóstico)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1980 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Psiquiatria, Psicoterapia Infantil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Supervisora em Psicoterapia Infantil.
+				
+				</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1995 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Psiquiatria, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Psiquiatria Infantil<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Observa&ccedil;&atilde;o da Rela&ccedil;&atilde;o M&atilde;e-Gemelares no Primeiro Ano de Vida'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Observação da Relação Mãe-Gemelares no Primeiro Ano de Vida<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Observação longitudinal, com entrevistas e filmagens, das interações responsáveis pelo desenvolvimento psiconeurológico de 9 pares de gêmeos e seus cuidadores, participantes do Projeto Gêmeos do Hospital São Lucas-PUCRS, com início no final da gestação e término ao completar o 1º ano de vida.. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" /><br class="clear" />Integrantes: Norma Utinguassú Escosteguy - Coordenador / Marta Knijnik Lucion - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="MembroCorpoEditorial">
+<h1>Membro de corpo editorial</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista Brasileira de Psicoterapia</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Publicação CEAPIA</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista de Psiquiatria do Rio Grande do Sul</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Medicina / Subárea: Clínica Médica/Especialidade: Psiquiatria. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Medicina / Subárea: Psiquiatria/Especialidade: Psiquiatria Infantil e do Adolescente. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Medicina / Subárea: Desenvolvimento da Personalidade. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Medicina / Subárea: Desenvolvimento da Personalidade/Especialidade: Psicopatologia. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Medicina / Subárea: Desenvolvimento da Personalidade/Especialidade: Relação mãe-bebê. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Prêmio Participação da APRS, APRS - Associação de Psiquiatria do Rio Grande do Sul. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Homenagem de gratidão-30 anos do CEAPIA, CEAPIA-Centro de Estudos,Atendimento e Pesquisa da Infância e da Adolescência. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sócia Jubilada, Sociedade de Psiquiatria do Rio Grande do Sul. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sócia Jubilada, CELG - Centro de Estudos Luis Guedes. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . A Formação de Psicoterapeutas da Infância e da Adolescência. Publicação CEAPIA<sup><img id='14130165_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. Vol.21, p. 70-84, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=Vol.21&issue=&paginaInicial=70&titulo=A Formação de Psicoterapeutas da Infância e da Adolescência&sequencial=1&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Observação de bebês curricular no CEAPIA - Método Esther Bick modificado. Publicação CEAPIA<sup><img id='14130165_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. V.21, p. 85-94, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=V.21&issue=&paginaInicial=85&titulo=Observação de bebês curricular no CEAPIA - Método Esther Bick modificado&sequencial=2&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . D.W.Winnicott (1896-1971) e M.Mahler (1897-1985). Publicação CEAPIA<sup><img id='14130165_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. V.21, p. 95-103, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=V.21&issue=&paginaInicial=95&titulo=D.W.Winnicott (1896-1971) e M.Mahler (1897-1985)&sequencial=3&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . O Filho de Substituição: elaboração traumática transgeracional. Publicação CEAPIA<sup><img id='14130165_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. V.21, p. 104-110, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=V.21&issue=&paginaInicial=104&titulo=O Filho de Substituição: elaboração traumática transgeracional&sequencial=4&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Novas configurações familiares e mudança psíquica. Publicação CEAPIA<sup><img id='14130165_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. V.21, p. 111-118, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=V.21&issue=&paginaInicial=111&titulo=Novas configurações familiares e mudança psíquica&sequencial=5&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Crianças e adolescentes: as mudanças dos modelos de identificação ao longo dos tempos. Publicação CEAPIA<sup><img id='14130165_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. V.21, p. 119-126, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=V.21&issue=&paginaInicial=119&titulo=Crianças e adolescentes: as mudanças dos modelos de identificação ao longo dos tempos&sequencial=6&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Narcisismo patológico e violência na contemporaneidade. Publicações IPSI<sup><img id='19833067_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19833067' /></sup>, v. Vol.4, p. 09-12, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19833067&volume=Vol.4&issue=&paginaInicial=09&titulo=Narcisismo patológico e violência na contemporaneidade&sequencial=7&nomePeriodico=Publicações IPSI" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Marta Knijnik Lucion</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>Marta Knijnik Lucion ; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Relação Mãe/Cuidadores-Gemelares no Primeiro Ano Após o Nascimento. Revista Brasileira de Crescimento e Desenvolvimento Humano (Impresso)<sup><img id='01041282_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01041282' /></sup>, v. 21, p. 307-318, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01041282&volume=21&issue=&paginaInicial=307&titulo=Relação Mãe/Cuidadores-Gemelares no Primeiro Ano Após o Nascimento&sequencial=8&nomePeriodico=Revista Brasileira de Crescimento e Desenvolvimento Humano (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Hilgert, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>Hilgert, C. ; Rocha, G.P. ; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . QUALIDADE DE VIDA DOS PAIS, DOADORES OU NÃO DE RIM E ASPECTOS BIOPSICOSSOCIAIS DO TRANSPLANTE PEDIÁTRICO. JBT. Jornal Brasileiro de Transplantes<sup><img id='16783387_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16783387' /></sup>, v. 12, p. 1065-1069, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16783387&volume=12&issue=&paginaInicial=1065&titulo=QUALIDADE DE VIDA DOS PAIS, DOADORES OU NÃO DE RIM E ASPECTOS BIOPSICOSSOCIAIS DO TRANSPLANTE PEDIÁTRICO&sequencial=9&nomePeriodico=JBT. Jornal Brasileiro de Transplantes" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LUZ, V. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>LUZ, V. C. ; TORRES, Guilherme Astor ; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Avaliação da qualidade do relacionamento pais-bebê durante a consulta pediátrica. Acta Médica (Porto Alegre)<sup><img id='01035037_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01035037' /></sup>, v. 31, p. 569-578, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01035037&volume=31&issue=&paginaInicial=569&titulo=Avaliação da qualidade do relacionamento pais-bebê durante a consulta pediátrica&sequencial=10&nomePeriodico=Acta Médica (Porto Alegre)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Kevin, do bebê ao adolescente: abordagem atual de uma psicopatologia narcísica extrema. Revista de Psicanálise da Sociedade Psicanalítica de Porto Alegre<sup><img id='14134438_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134438' /></sup>, v. XVI, p. 363-392, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134438&volume=XVI&issue=&paginaInicial=363&titulo=Kevin, do bebê ao adolescente: abordagem atual de uma psicopatologia narcísica extrema&sequencial=11&nomePeriodico=Revista de Psicanálise da Sociedade Psicanalítica de Porto Alegre" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . O interesse clínico do conceito de temperamento na avaliação e planejamento da psicoterapia infantil. Revista Brasileira de Psicoterapia<sup><img id='15168530_12' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15168530' /></sup>, v. 7, p. 183-194, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15168530&volume=7&issue=&paginaInicial=183&titulo=O interesse clínico do conceito de temperamento na avaliação e planejamento da psicoterapia infantil&sequencial=12&nomePeriodico=Revista Brasileira de Psicoterapia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Mudança na teoria e na técnica psicanalítica e suas reprecussões na prática psicoterápica.. Revista Brasileira de Psicoterapia<sup><img id='15168530_13' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15168530' /></sup>, v. 7, p. 2-3, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15168530&volume=7&issue=&paginaInicial=2&titulo=Mudança na teoria e na técnica psicanalítica e suas reprecussões na prática psicoterápica.&sequencial=13&nomePeriodico=Revista Brasileira de Psicoterapia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>XAVIER, Flavio M F</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span>XAVIER, Flavio M F ; FERRAZ, Marcos P T ; MARC, Norton ; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; MORIGUCHI, Emilio H . Elderly people´s definition of quality of life. Revista Brasileira de Psiquiatria (São Paulo)<sup><img id='15164446_14' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15164446' /></sup>, Brasil, v. 25, n.número 1, p. 31-39, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15164446&volume=25&issue=&paginaInicial=31&titulo=Elderly people´s definition of quality of life&sequencial=14&nomePeriodico=Revista Brasileira de Psiquiatria (São Paulo)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GIL, Alexei</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7270890947697397" target="_blank">GIL, Alexei</a> ; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0365022340847460" target="_blank">PICON, Patricia</a> ; ZANEL, Ana Paula ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5474735462425677" target="_blank">LUZ, Clarice</a> ; LITVIN, Ester ; GIL, Tatiane ; LAVINSKY, Fábio . A resposta adrenocortical em crianças submetidas a uma situação de estresse (relacionada à observação de comportamento e da interação com os cuidadores, considerando as variáveis temperamento e apego). Revista de Psiquiatria do Rio Grande do Sul<sup><img id='01018108_15' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01018108' /></sup>, P. Alegre, v. 24, n.2, p. 135-142, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01018108&volume=24&issue=&paginaInicial=135&titulo=A resposta adrenocortical em crianças submetidas a uma situação de estresse (relacionada à observação de comportamento e da interação com os cuidadores, considerando as variáveis temperamento e apego)&sequencial=15&nomePeriodico=Revista de Psiquiatria do Rio Grande do Sul" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; NASCIMENTO, Fernanda S de Puga . A questão do tratamento simultâneo pais-criança pela mesma terapeuta (resenha). Publicação CEAPIA<sup><img id='14130165_16' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. 13, p. 1-196, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=13&issue=&paginaInicial=1&titulo=A questão do tratamento simultâneo pais-criança pela mesma terapeuta (resenha)&sequencial=16&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LITVIN, Ester</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span>LITVIN, Ester ; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Especial: Homenagem a Serge Lebovici. Publicação CEAPIA<sup><img id='14130165_17' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. 13, p. 1-196, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=13&issue=&paginaInicial=1&titulo=Especial: Homenagem a Serge Lebovici&sequencial=17&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; DEAKIN, Elisabeth Kuhn . Trabalho com pais (Resenha). Publicação CEAPIA<sup><img id='14130165_18' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. 13, p. 1-196, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=13&issue=&paginaInicial=1&titulo=Trabalho com pais (Resenha)&sequencial=18&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; WEISSHEIMER, Ana Maria ; NASCIMENTO, Fernanda S de Puga ; HACK, Soraya Mª P Koch ; MATTES, Vera Luiza . Winnicott: pensando pais.. Publicação CEAPIA<sup><img id='14130165_19' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. 13, p. 1-196, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=13&issue=&paginaInicial=1&titulo=Winnicott: pensando pais.&sequencial=19&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Pesquisa Clínica no CEAPIA. Publicação CEAPIA<sup><img id='14130165_20' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. 12, p. 45-58, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=12&issue=&paginaInicial=45&titulo=Pesquisa Clínica no CEAPIA&sequencial=20&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; RECKZIEGEL, L. . Consultoria Psiquiátrica Infantil na HSL - PUCRS: Perfil dos Pacientes. Revista de Medicina da PUCRS<sup><img id='01032690_21' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01032690' /></sup>, v. 9, p. 4-10, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01032690&volume=9&issue=&paginaInicial=4&titulo=Consultoria Psiquiátrica Infantil na HSL - PUCRS: Perfil dos Pacientes&sequencial=21&nomePeriodico=Revista de Medicina da PUCRS" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1998</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Ensaio para uma integração: desenvolvimento e Psicanálise.. Publicação CEAPIA<sup><img id='14130165_22' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. 11, p. 13-27, 1998. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=11&issue=&paginaInicial=13&titulo=Ensaio para uma integração: desenvolvimento e Psicanálise.&sequencial=22&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; CÉLIA, R. . A neutralidade (im)possível na relação terapêutica e na observação de bebês.. Revista de Psiquiatria do Rio Grande do Sul<sup><img id='01018108_23' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01018108' /></sup>, v. 19, p. 61-70, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01018108&volume=19&issue=&paginaInicial=61&titulo=A neutralidade (im)possível na relação terapêutica e na observação de bebês.&sequencial=23&nomePeriodico=Revista de Psiquiatria do Rio Grande do Sul" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Transgeracionalidade. Publicação CEAPIA<sup><img id='14130165_24' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14130165' /></sup>, v. 10, p. 49-59, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14130165&volume=10&issue=&paginaInicial=49&titulo=Transgeracionalidade&sequencial=24&nomePeriodico=Publicação CEAPIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; MARGIS, R. ; MAJOLA, R. R. . Uma introdução à Psiquiatria do Bebê.. Acta Médica (Porto Alegre)<sup><img id='01035037_25' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01035037' /></sup>, v. 1, p. 534-543, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01035037&volume=1&issue=&paginaInicial=534&titulo=Uma introdução à Psiquiatria do Bebê.&sequencial=25&nomePeriodico=Acta Médica (Porto Alegre)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZIMMERMANN, Paulo Roberto</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span>ZIMMERMANN, Paulo Roberto ; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; FERREIRA, Pedro Eugenio . Etiologia: conceitos atuais. Revista de Psiquiatria do Rio Grande do Sul<sup><img id='01018108_26' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01018108' /></sup>, P. Alegre, v. 14, n.1, p. 39-43, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01018108&volume=14&issue=&paginaInicial=39&titulo=Etiologia: conceitos atuais&sequencial=26&nomePeriodico=Revista de Psiquiatria do Rio Grande do Sul" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Educação de Filhos. In: Zéca Camargo. (Org.). Novos Olhares. 1ed.São Paulo: Editora Globo, 2007, v. 1, p. 90-97. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . A importância das relações precoces mãe-bebê para o desenvolvimento neuro-psicológico da criança. In: Ivone Maria Candido Coelho de Souza. (Org.). Direito de Família, diversidade e multidisciplinaridade. Porto Alegre: Instituto Brasileiro de Direito da Familia (IBDFAM), 2007, v. , p. 65-74. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FURST, M. C. G. ; SCHROEDER, A. T. ; VALLE, V. H. ; GOLBERT, M. B. ; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Depressão pós-parto e suas repercussões na interação precoce mãe-bebê. In: Associação da Turma de Doutorandos Faculdade de Medicina. (Org.). Acta Médica 2007. 1ªed.P.Alegre: EDIPUCRS, 2007, v. I, p. 1-578. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; CELIA, Salvador . Primeiro ano de vida. In: Alfredo Cataldo Neto; Gabriel José Chittó Gauer; Nina Rosa Furtado. (Org.). Psiquiatria para Estudantes de Medicina. 1ªed.P. Alegre: EDIPUCRS, 2003, v. I, p. 205-211. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; SILVEIRA, Maria Lucia Porto da . O escolar. In: Alfredo CataldoNeto; Gabriel José Chittó Gauer; Nina Rosa Furtado. (Org.). Psiquiatria para Estudantes de medicina. 1ªed.P. Alegre: EDIPUCRS, 2003, v. I, p. 223-226. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; FURTADO, Nina Rosa . A Morte e o Morrer. In: Alfredo Cataldo Neto; Gabriel José Chittó Gauer; Nina Rosa Furtado. (Org.). Psiquiatria para Estudantes de Medicina. 1ªed.P. Alegre: EDIPUCRS, 2003, v. I, p. 258-262. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Psicose puerperal. In: Alfredo Cataldo Neto; Gabriel José Chittó Gauer; Nina Rosa Furtado. (Org.). Psiquiatria para Estudantes de Medicina. 1ªed.P. Alegre: EDIPUCRS, 2003, v. I, p. 627-630. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		ZAVASCHI, Maria Lucrécia Scherer ; PALMA, Regina Beatriz ; RECONDO, Rogéria ; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Interconsulta na infância e na adolescência. In: Alfredo Cataldo Neto; Gabriel José Chittó Gauer; Nina Rosa Furtado. (Org.). Psiquiatria para Estudantes de Medicina. 1ªed.P. Alegre: EDIPUCRS, 2003, v. I, p. 841-846. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; PORTELLA, Ieda . Transtornos de conduta. In: Alfredo Cataldo Neto; Gabriel José Chittó Gauer; Nina Rosa Furtado. (Org.). Psiquiatria para Estudantes de Medicina. 1ªed.P. Alegre: EDIPUCRS, 2003, v. I, p. 1-944. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GAUER, Gabriel José Chittó ; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; MACHADO, Débora da Silva . Psicodinâmica nas Relações de Casais: afeto e complexidade. In: Gabriel José Chittó Gauer; Débora Silva Machado. (Org.). Filhos & Vítimas do Tempo da Violência - a família, a criança e o adolescente. 1ªed.Curitiba: Juruá Editora, 2003, v. 1, p. 1-200. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Precisamos falar sobre Kevin. Boletim do CEAPIA, p. aLEGRE, p. 12 - 12, 03 set.  2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Cisne Negro: o desafio, o drama e a realidade. Jornal da APRS, Porto Alegre, p. 20 - 21, 31 jul.  2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Salvador Célia: Luto na Psiquiatria Infantil. Jornal da APRS - Assoc. de Psiquiatria do Rio Grande do Sul, Porto Alegre, p. 28 - 28, 31 dez.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; Pereira, A. . JUNO, A ADOÇÃO  PRONTA  E O SUPERIOR INTERESSE DA CRIANÇA. Boletim do CEAPIA, P.Alegre, p. 3 - 3, 31 ago.  2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Perspectiva Histórica do CEAPIA. Boletim do CEAPIA - Centro de Estudos, Atendimento e Pesquisa da Infância e da Adolescência, Porto Alegre, p. 12 - 12, 01 out.  2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Ato Médico: Uma Paisagem Fora de Foco. Jornal da Sociedade de Psiquiatria do Rio Grande do Sul, Porto Alegre, p. 7 - 7, 01 jun.  2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Longe do Paraíso ou À mercê do(s) Preconceito(s). Jornal da Soc. de Psiquiatria do Rio Grande do Sul, P. Alegre, , v. nº 50, 31 jul.  2003. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . D.H.Winnicott e M. Mahler. In: XIII Encontro Latino-Americano sobre o Pensamento de Winnicott, 2004, Porto Alegre. Anais. Porto Alegre: XIII Encontro Latino-Americano sobre o Pensamento de Winnicott, 2004. v. I. p. 94-102. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Observação de Bebês Curricular. In: XVII Congresso Brasileiro da ABENEPI, 2003, Vitória - ES, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Interconsulta em Psiquiatria Infantil em Hospital Geral: Integração e Ensino. In: XXI Congresso Brasileiro de Psiquiatria, 2003, Goiânia - GO, 2003. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Vulnerabilidade e Resiliência na Evolução Precoce. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Passado/futuro na construção do tempo-presente. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Como entender o aluno com problemas de comportamento. 2013. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Funções Terapêuticas na Psicoterapia de Crianças. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Discussão sobre a clínica do autismo. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Problemas de saúde mental durante o desenvolvimento. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Comentários sobre o documentário: 'Em Busca de um Novo Caminho - Desmistificando o Autismo. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Psiquiatria infantil, Psicologia, Psicopedagogia e Escola: trabalhando em Equipe. 2009. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Diagnóstico Precoce: Resposta adreno-cortical em crianças submetidas a estresse. 2009. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . A presença dos avós no mundo atual. 2009. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; LITVIN, Ester ; RECONDO, Rogéria . Do Bebê ao Adolescente: Pontes atuais entre a Clínica e as Neuro-Ciências. 2009. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; AZAMBUJA, M. R. F. ; SANTANA, J. C. . Questões de multi, inter ou transdiciplinaridade relativas à aplicação do ECA (Estatuto da Criança e do Adolescente). 2006. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Fórum Trabalho Infantil: repecussões sobre a saúde da criança.. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Projeto Catavento - Tch~e Gurizada. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Psicanálise e Desenvolvimento. 2004. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Transtornos de comportamento na Criança e no Adolescente. 2003. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . O adolescente borderline. 2003. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Psicoterapia Hoje. 2003. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . O après coup na Adolescência. 2003. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . A Morte e a Criança. 2002. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Diagnóstico Diferencial do Adolescente Borderline. 2002. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Ensaio para integração de conceitos psicanalíticos de desenvolvimento. 2001. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Ensaio para integração de conceitos psicanalíticos de desenvolvimento. 2001. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Apresentação das Idéias de Haydée Faimberg. 2001. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . As idéias francesas na psiquiatria do bebê. 2001. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Discussão preparatória sobre as idéias de Anne Alvarez. 2001. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . A Morte e a Criança. 2001. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Textos de Jurandir Freire Costa. 2001. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Hiperatividade e Conduta Anti-Social. 2001. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Pôster: Setor de Consultoria em Psquiatria Infantil do Hospital São Lucas da PUCRS. 2001. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Mesa Redonda: Violência, Identidade e Adolescência. 2001. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . O Adolescente Bordeline. 2001. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . A Criança Bordeline. 2001. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Ensaio para Integração de Conceitos Psicanalíticos de Desenvolvimento. 2000. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . As idéias francesas na psiquiatria do bebê. 2000. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . A Psicanálise Infantil e a Pedagogia. 2000. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Mesa Redonda: Efeito da Separação dos Pais nas Crianças. 2000. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Apresentação e Pôster do Setor de Consultoria Infantil do Hospital São Lucas da PUCRS. 2000. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . A Psicanálise Infantil e a Pedagogia. 2000. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Problemas Psiquiátricos na Gestante (Estresse - Psicopatologia na Gravidez e Puerpério). 2000. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Hiperatividade e Conduta Anti-social. 2000. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Mesa Redonda: Trabalho com Pais na Infância. 2000. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Tema livre: Winnicott: Pensando Pais. 2000. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Comentarista em Painel: Como tratar os pais na Psicoterapia de Crianças?. 2000. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Painel: A influência do mundo externo na relação mãe-bebê. 2000. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . A Criança Borderline. 2000. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . O Psiquismo Fetal. 2000. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Apresentação do Livro: A relação pais-bebê: da observação à Clínica. Nara Amália Caron (org). 2000. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Membro da Comissão Científica: Novas Tendências na Prática Clínica. 1999. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Mesa Redonda: Eros e Solidão na Pós-Modernidade. 1999. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Um Olhar sobre a Psicanálise Francesa. 1999. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . As Idéias Francesas na Psiquiatria do Bebê. 1999. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Hiperatividade e Conduta Anti-Social. 1999. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Ensaio para Integração de Conceitos Psicanalíticos de Desenvolvimento. 1999. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Mesa Redonda: Um Olhar Clínico sobre o Ciclo da Vida. 1999. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>56. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Luto peri-natal. 1999. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>57. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . A Criança Borderline. 1999. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>58. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . A Criança de Alto Risco para o Desenvolvimento de Psicopatologias. 1999. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>59. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Queixas Comuns no Ambulatório - Meu filho é agitado. 1999. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>60. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Tema livre: Transtornos mentais associados ao puerpério. 1998. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>61. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Tema livre: A neutralidade (im)possível na observação de bebês. 1997. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>62. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Tema livre: Adaptações ao Método Esther Bick Curricular. 1997. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>63. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Mesa Redonda de Tema Específico: Transgeracionalidade. 1997. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>64. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Coordenadora do Tema: Supervisão Coletiva. 1997. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>65. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Mesa Redonda: Tratamento Psicoterápico dos Transtornos de Ansiedade. 1997. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>66. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . A resposta adrenocortical em crianças submetidas a uma situação de estresse-padrão relacionada à observação do comportamento e interação com as mães. 1997. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; Murad, Fátima . Adolescência e Psicopatologia. Porto Alegre: ARTMED EDITORA, 2007. (Tradução/Livro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Encontro com Bertrand Cramer, 2002. (Tradução/Outra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; ALIATTI, I. ; Canto, M. . Alô pai e mãe. 2009. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; ALIATTI, I. ; Canto, M. . Alô pai e mãe!. 2008. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Fantástico. 2007. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Comportamento - Tânia Carvalho. 2005. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; CARRION, Carlos Eduardo ; TABAJASKI, Betina ; KOZEN, Afonso ; MARTINS, Lazier . Discussão sobre IRUAN - Criança em Taiwan. 2004. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Departamento de Psiquiatria da Infância e da Adolescência. 2005. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Curso de Psicoterapia da Infância e da Adolescência. 2005. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Grupo de Estudos sobre a Obra de DW Winnicott. 2005. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Psicoterapia do Adolescente. 2002. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; LITVIN, Ester . Oficinas de Sensibilização e Treinamento para Cuidadores de Bebês. 2002. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Psiquiatria infantil, Psicologia, Psicopedagogia e escola: trabalhando em Equipe. 2009 (Docente) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Hilgert, C. ; Rocha, G.P. ; VERCOSA, A. M. T. ; VIGUERAS, E. ; RIOS, L. F. ; TOFFOLO, L. ; COUTINHO, M. A. ; KOPITTKE, M. C. ; MAYER, M. ; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Qualidade de Vida de Doadores e Não-doadores de Rim e Aspectos Biopsicossociais envolvidos no transplante pediátrico. 2009 (Apresentação de Pôster) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; LITVIN, Ester ; RECONDO, Rogéria . DO BEBÊ AO ADOLESCENTE:PONTES ATUAIS ENTRE A CLÍNICA E AS NEUROCIÊNCIAS. 2009 (Apresentação de Pôster) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Integração entre Desenvolvimento e Psicanálise. 2008 (Docente) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> ; Ruggero Levy . Discussão de caso Clínico. 2008 (Docente) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Homenagem a Serge Lebovici. 2003 (Debatedora) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Observação de Bebês Curricular. 2003 (Debatedora) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Psicoterapeutas e as Novas Formas de Família. 2003 (Debatedora) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Interconsulta em Psiquiatria Infantil em Hospital Geral: Integração e Ensino. 2003 (Apresentação de Pôster) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Criança Abusada: Repercussões na Vida Adulta. 2003 (Coordenadora) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Criatividade na Infância e na Adolescência. 2003 (Debatedora) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . III Colóquio sobre Interface entre Saúde Mental e Judiciário: Medidas Judiciais relativas a Internações Hospitalares e Tratamento Psiquiátrico. 2003 (Debatedora) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Filme: O Fio da Inocência. 2002 (Debatedora) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Sexualidade na Infância. 2001 (Entrevista/Debate) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Discussão de Tese (Dr. Marcelo Schmidt) no Departamento de Psiquiatria da Infância e da Adolescência. 2001 (Docente) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Winnicott: Pensando Parentalidade(s). 2001 (Apresentação de Pôster) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Winnicott: Pensando Parentalidade(s). 2001 (Apresentação de Pôster) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Setor de Consultoria em Psiquiatria Infantil. 2001 (Apresentação de Pôster) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . I Encontro de Psiquiatria Psicodinâmica do Mercosul. 1999 (Debatedora) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Conferência proferida por Jan Avram: A sobrevivência do Objeto em Winnnicott. 1999 (Debatedora) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Painel: Ideologia, Moral e Ética: Fundamentos e Perspectivas. 1999 (Coordenadora) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Souza, C.G.S.; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b>.  Participação em banca de Cristina Gerhardt Soeiro de Souza. Quando um ato vale mais do que mil palavras: atendimento psicoterápico de adolescentes. 2009. Monografia (Aperfeiçoamento/Especialização em Curso de Especialização em Psicoterapia da Infânci)  - Centro de Estudos Pesquisa e Atendimento da Infância e Adolescência. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Morgana Bortolini; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b>.  Participação em banca de Paloma Stein. Buscando a Compatibilidade entre Falso Self e Resiliência. 2008. Monografia (Aperfeiçoamento/Especialização em Curso de Especialização em Psicoterapia da Infânci)  - Centro de Estudos Pesquisa e Atendimento da Infância e Adolescência. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucio Boechat; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b>.  Participação em banca de Renata Hesseler Keutz. Reflexões Acerca de uma Experiência Clínica. 2008. Monografia (Aperfeiçoamento/Especialização em Curso de Especialização em Psicoterapia da Infânci)  - Centro de Estudos Pesquisa e Atendimento da Infância e Adolescência. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STEIN, Renato Tetelbom; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b>. Consultor ad hoc na revisão de Projetos de Pesquisa da Comissão Científica da Faculdade de Medicina.
+							2002.
+							Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Inter-Regional de Crianças e Adolescentes - Soc. Brasileira de Psicanálise de P.Alegre.Discussão sobre "Terapia Institucional para Adolescentes-limites na França". 2013. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro CEAPIA com a Comunidade.Como entender o aluno com problema de comportamento.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Núcleo de Infância e Adolescência da SPPA.Françoise Dolto, médica da educação.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Simpósio de Educação Precoce - A Importância dos Cuidados na Primeira Infância.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Encontro sobre Adolescência - APRS.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vínculos - promoção da Lipsam-Ufcspa.Manejo e intervenção em questões de apego na infância.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXIV Jornada Anual do CEAPIA.Diante de tanta violência, há esperança?. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Jornada de Psiquiatria da APRS.Pesquisas atuais sobre irritabilidade. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Curso de Atualização em Psiquiatria da Infância e da Adolescência.Desenvolvimento Normal da Infância e da Adolescência. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI Jornada Sul-Riograndense de Psiquiatria Dinâmica. "A saúde mental na escola". 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Discussão de Caso de Psicoterapia Infantil.Comentários: etiopatogenia, prognóstico e tratamento num caso clínico infantil.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pré-Encontro Winnicott com dr. Saul Peña - 29 anos Cínica Winnicott.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Precisamos falar sobre Kevin - Sessão comentada.Discussão sobre o filme "Precisamos falar sobre Kevin".
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cine Psi - Precisamos falar sobre Kevin.Debate sobre o filme "Precisamos falar sobre Kevin".
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">25º Ciclo de Avanços em Clínica Psiquiátrica. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Atualização Temas de Psiquiatria/2012.20 anos de Interconsulta em Psiquiatria Infantil no HSão Lucas-PUCRS. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Atualização Temas de Psiquiatria/2012.Pesquisas qualitativas com gêmeos adultos/clínica. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7ºCongresso Brasileiro de Cérebro Comportamento e Emoções. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">15th World Congress of Psychiatry. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">40 Anos de Psiquiatria/70 Anos de vida.40 Anos de Psiquiatria/70 Anos de vida.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III ENCONTRO DAS LIGAS DE PEDIATRIA E PSIQUIATRIA DA PUCRS.Autismo  e  Transtornos globais do desenvolvimento.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">24º Ciclo de Avanços em Clínica Psiquiátrica. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ciranda Cultural do CEAPIA.O Encanto de Harry Potter. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Jornada Gaúcha de Psiquiatria.Estresse neonatal e suas implicações psicológicas e comportamentais. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Colóquio Winnicott de Porto Alegre. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXIII Jornada Anual do CEAPIA.Supervisão de Caso Clínico. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ABENEPI - CEAPIA: Atualização nos Transtornos do Espectro Autista.Transtorno Multisistêmico do Desenvolvimento. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">6º Congresso Brasileiro de Cérebro Comportamento e Emoções. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">10 anos do Instituto de Psicologia - IPSI.Kevin: do bebê ao adolescente - uma patologia adolescente atual grave.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">19º Encontro Estadual de Psicopedagogia.INTERLOCUÇÕES COM A PSICOPEDAGOGIA E A PSICANÁLISE.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PENSANDO SOBRE A ADOÇÃO.CEAPIA - ENCONTROS COM A COMUNIDADE: PENSANDO SOBRE ADOÇÃO.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V ENCONTRO BRASILEIRO SOBRE O PENSAMENTO DE D.W.WINNICOTT.ABANDONO E ADOÇÃO.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">23º Ciclo de Avanços em Clínica Psiquiátrica.Working-Memory: sobrecarga de informação e TDA-like;inteligência e efeito Flyn;atenção livremente flutuante. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Reunião do Núcleo de Neuro-Ciências da SPRS.Debate: Cicatrizes cerebrais e emocionais (pesquisas do Prof. Aldo Lucion). 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII JORNADA DO INSTITUTO CYRO MARTINS.UNIVERSO DO CONTEMPORÂNEO - O MAL NA SALA DE ESTAR DA CIVILIZAÇÃO. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXI JORNADA ANUAL DO CEAPIA. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Congresso Brasileiro de Terapias Cognitivas. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVII Congresso Brasileiro de Psiquiatria. Diagnóstico Precoce: Simpósio do Depto. de Psiquiatria da Infância e da Adolescência. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">5º Congresso Brasileiro de Cérebro, Comportamento e Emoções. Do Bebê ao Adolescente:Pontes atuais entre a Clínica e as Neuro-ciências. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII Simpósio Interno de Psicoterapia de Orientação Analítica- E a Psicoterapia de Apoio, por onde anda?.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Simpósio de Atualização em Saúde Mental e Psiquiatria Geriátrica na PUCRS.A presença dos avós no mundo atual.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Encontro Estadual de Psicopedagogos.Psiquiatria Infantil, Psicopedagogia, Psicologia: Trabalhando em Equipe.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CEAPIA: Encontro com Kancyper: conversando sobre o adolescente e seus pais.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Atividade Conjunta CEAPIA- Sociedade Brasileira de Psicanálise de P.Alegre.Discussão sobre o trabalho de Vincenzo Bonaminio.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Jornada Gaúcha de Psiquiatria-Sofrimento Psíquico e Doença Mental:Fronteiras da Normalidade.Angústia. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXX Jornada Anual do CEAPIA - "Sobre o bicho-papão:tecendo a ética do cuidado". 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Colóquio Winnicott de Porto Alegre - A Ética do Cuidado. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Congresso Brasileiro de Cérebro Comportamento e Emoções. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI Congresso Brasileiro de Psiquiatria. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIV Jornada Sul-Riograndense de Psiquiatria Dinâmica - CELG.Novas Configurações Familiares e Mudança Psíquica.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oficina Moodle - 19ª Edição - EAD. 2008. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Encontro Nacional sobre o Bebê - PUCRJ.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Agir sem Pensar - Questões Clínicas na Infancia e na Adolescência - APRS - AMRIGS.Agir sem Pensar - Questões Clínicas.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Temas de Psiquiatria e Saúde Mental e Psiquiatria Geriátrica - PUCRS.A(s) Despedida(s): diante da morte.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro da Associação Brasileira de Transtorno Bipolar.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>56. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso Intensivo de Terapia Familiar Sistêmica - Prof. Charles Fishman. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>57. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tornar-se Pai/Mãe e ser Cuidador no Pré-Natal: Questões Clínicas, Preventivas e Éticas. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>58. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Construção de uma Rede de Cuidados e Atenção ao Bebê-Questões Clínicas e Institucionais. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>59. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vínculo Analítico Criativo na Clínica e na Formação. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>60. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Desafios da Clínica Psicanalítica com Adolescentes Estados-Limite. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>61. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Jornada Gaúcha de História da Medicina. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>62. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Colóquio Winnicott de Porto Alegre. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>63. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Atualização em Psiquiatria da Infância e da Adolescência.Desenvolvimento Infantil: aspectos cognitivos e afetivos    . 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>64. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXV Congresso Brasileiro de Psiquiatria. Adolescente vítima de abuso sexual: aspectos clínicos, jurídicos e possibilidade de proteção. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>65. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">20º Ciclo de Avanços em Clínica Psiquiátrica - Sociedade de Psiquiatria do Rio Grande do Sul.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>66. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Temas em Psiquiatria/2007.Defict de Atenção e Hiperatividade.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>67. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Neutralidade em Psicoterapia: atualidade e perspectivas futuras.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>68. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bóris Cyrulnik em Porto Alegre - Encontro Estadual de Prevenção da Violência - Processo de Resiliência e Estratégias de Ação..
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>69. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3º Congresso Brasileiro de Cérebro Comportamento e Emoções - 2º Simpósio Brasileiro de Doenças Neurodegenerativas..
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>70. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pré-Congresso de Psicoterapia.Formação em Psicoterapia da Infância e da Adolescência.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>71. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Jornada Gaúcha de Psiquiatria.Adolescente vítima de abuso sexual: aspectos clínicos, jurídicos e possibilidades de proteção.. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>72. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIX JORNADA ANUAL DO CEAPIA - Puberdade: suas transformações e aspectos clínicos. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>73. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Supervisão de Psicoterapia Psicanalítica com Imre Szecsody. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>74. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jornada da Sociedade Brasileira de Psicanálise - P.Alegre (René Roussillon). 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>75. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jornada Interna do CEAPIA.Comentário do Trabalho Final de Alunas. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>76. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio do Centro de Estudos Luis Guedes sobre infância e adolescência contemporâneas - XXIII Jornada Sul-riograndense de Psiquiatria Dinâmica. O desenvolvimento do ser humano dos 0 aos 3 anos e o futuro das próximas gerações.. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>77. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Atualização em transtorno do humor bipolar na infância e adolescência.Impacto do transtorno do humor bipolar no curso da vida.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>78. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Temas em Psiquiatria - 2006.Temas em Psiquiatria.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>79. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Neurocências e Psicanálise: Freud hoje - 150 Anos do seu nascimento - Cap. Sulbrasileiro da Sociedade Internacional de Neuropsicanálise.Neurociências e Psicanálise: pontes em construção.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>80. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Capacitação docente da PUCRS - A Educação como construção da pessoa..
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>81. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVIII JORNADA ANUAL DO CEAPIA - Processo Adolescente: Implicações teórico-clínicas na Atualidade.Supervisão Coletiva com dr. Rodolfo Urribarri. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>82. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Congresso da Associação Brasileira de Neurologia e Psiquiatria Infantil (ABENEPI) - XV Congresso da Federação Latinoamericana de Psiquiatria Infantil e da Adolescência (FLAPIA). O atendimento a criança em processo de luto.. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>83. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso Sulbrasileiro e I Congresso Gaúcho de Medicina de Família e Comunidade.. Erotização Inadequada.. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>84. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Jornada Gaúcha de Psiquiatria - Pré-Congresso Brasileiro de Psiquiatria.Contribuições a relação terapêutica: DW. WNNICOTT..
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>85. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV Simpósio interno do CELG: sobre psicoterapia de orientação analítica..Mudanças na teoria e na técnica psicanalítica e suas repercusões na prática psicoterápica.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>86. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Internacional de Diagnóstico Precoce do Autismo: Desafios para  Educação e Saúde..
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>87. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Escola Infantil PATO - Atividade para pais.Funções parentais.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>88. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Colégio Americano - Atividade para pais e professores.Vínculos afetivos..
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>89. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Jornada Gaúcha de Psiquiatria do RS.Debate sobre a peça Teatral: ADOLESCER. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>90. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Videoconferência com Jean Laplanche (PARIS). 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>91. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Ciclo de Avanços em Clínica Psiquiátrica. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>92. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVII Jornada Anual do CEAPIA - Psicopatologias na Infância e na Adolescência. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>93. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Congresso Latino-americano de Psicoterapia. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>94. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">4ème Congrès AEPEA. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>95. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII Ciclo de Avanços em Clínica Psiquiátrica.Temperamento: revisão e interêsse clínico. 2004. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>96. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII Encontro Latino-Americano sobre o Pensamento de Donald Winnicott.Winnicott e outros autores: D.H.Winnicott e M. Mahler.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>97. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Colloque International de Perinatalité: Émotions du Bébé. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>98. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Jornada Sul-Rio-Grandense de Psiquiatria Dinâmica e II Ibero-Americano Encontro de Qualidade de Vida. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>99. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI Jornada Anual do CEAPIA.O Bebê, a Criança e o Adolescente: Intervenções Terapêuticas Atuais. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>100. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXI Congresso Brasileiro de Psiquiatria. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>101. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII Congresso Brasileiro da ABENEPI. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>102. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Encontro de Psiquiatria do Hosp. São Lucas - PUCRS - Encontro  de Psiquiatria.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>103. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Psiquiatria Transcultural - Encontro com Marie Rose Moro.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>104. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">O Desenvolvimento Infantil na Escola - Encontro com Hubert Montagner.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>105. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pesquisa em Psiquiatria - Encontro com Jair Mari.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>106. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Jornada de psiquiatria da Região Sul e VI Jornada Gaúcha de Psiquiatria. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>107. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Violência e suas Repercussões: da Infância à Vida Adulta. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>108. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXI Jornada Sulriograndense de Psiquiatria Dinâmica. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>109. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">La Salud Mental del Niño y su Familia. 2002. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>110. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIV Jornada Anual do CEAPIA. 2002. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>111. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro com Bertrand Cramer - Balanço de 10 anos de experiência em psicoterapia Mãe-bebê.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>112. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro com Bernard Golse - A depressão materna puerperal.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>113. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Encontro do Serviço de Psiquiatria do H. São Lucas - PUCRS - A morte e o morrer.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>114. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Encontro de Psiquiatria - PUCRS.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>115. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3º Congresso Europeu de Psicopatologia da Criança e do Adolescente. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>116. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Integracion en la Diversidad. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>117. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro com o Prof. Antoine Guedeney (Paris/França).
+							2001. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>118. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jornada da Sociedade de Psicologia: Convidada Especial Haydée Faimberg (Paris/França). 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>119. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Problemas na Psicoterapia de Pacientes com Transtornos de Personalidade Anti-Social. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>120. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Abordagem Psicodinâmica das Depressões. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>121. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vídeo-conferência com Juan David Nazio (Paris/França). 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>122. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Adolescência na Era das Sensações. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>123. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fórum sobre Direitos da Criança e do Adolescente. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>124. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WAIMH - World Association for Infant Mental Health. 2000. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>125. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso Latino-Americano de Pesquisa em Psicanálise e Psicoterapia. 2000. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>126. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro com o Prof. Hubert Montagner.
+							2000. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>127. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII Ciclo de Avanços em Clínica Psiquiátrica.
+							2000. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>128. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro com o Prof. Bernard Golse.
+							2000. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>129. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro com Silvia Bleichmar.
+							2000. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>130. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro com Monique Bydlowski.
+							2000. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>131. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Jornada Anual do CEAPIA. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>132. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Jornada sobre Desenvolvimento do Instituto Zero a Três. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>133. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Instituto de Família - Metaconceitos em Terapia Familiar. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>134. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XX Jornada Sul-riograndense de Psiquiatria Dinâmica. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>135. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso com o Dr. Glenn Gabbard. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>136. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso com o Dr. Mark Reinecke. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>137. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pre-Congresso de Investigacion en Psicoterapia y Psicanalisis. 1999. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>138. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Internacional de Fobia Social.
+							1999. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>139. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro do Ensino Médico.
+							1999. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>140. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII Ciclo de Avanços em Clínica Psiquiátrica. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>141. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso: Maria Julia Kovácz - Terapeutas e Pacientes: Vida, Desenvolvimento e Morte. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>142. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Jornada Gaúcha de Psiquiatria. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>143. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Jornada Gaúcha de Psiquiatria - Curso: Christopher Bollas - Repensando a Histeria. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>144. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Jornada Gaúcha de Psiquiatria - Curso: Donald Cohen - Transtornos Psicopatológicos na Infância e na Adolescência. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>145. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Coloquio Europeu de Psicopatologia Infantil. 1998. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEGAL, J. ; <b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . X JORNADA GAÚCHA DE PSIQUIATRIA. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . XXV Jornada Sulriograndense de Psiquiatria Dinâmica. 2010. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . HOMENAGEM A NILO FICHTNER. 2010. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . 19º Congresso da Associação Brasileira de neurologia, Psiquiatria Infantil e profissões Afins. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Elisa Fasolin Mello. Gemelaridade: não existem dois iguais - avaliação da diferença de personalidade de gêmeos monozigóticos. Início: 2010. Monografia (Aperfeiçoamento/Especialização em Especialização em Psiquiatria da PUCRS)  - PUCRS. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliana T. Azevedo.
+							ANÁLISE DA INTERAÇÃO MÃE-BEBÊ EM PRÉ-TERMOS DE BAIXO PESO EM UTI-NEONATAL.
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em Psiquiatria da PUCRS)  - PUCRS. Orientador: Norma Utinguassú Escosteguy.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marta Knijnik Lucion.
+							Relação mãe/cuidadores-gemelares no 1º ano após o nascimento.
+							2010.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização em Psiquiatria da PUCRS)  - PUCRS. Orientador: Norma Utinguassú Escosteguy.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mariana Hermann Pötter.
+							SOBRE O ESPECTRO DO NARCISISMO: DEFESAS, FALHAS OU ESTRUTURA?.
+							2010.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização em Psicoterapia da Infânci)  - Centro de Estudos Pesquisa e Atendimento da Infância e Adolescência. Orientador: Norma Utinguassú Escosteguy.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leticia Garcia Orengo.
+							Desafios no processo psicoterápico com adolescente: acting-out ou ação comunicativa?.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização em Psicoterapia da Infânci)  - Centro de Estudos Pesquisa e Atendimento da Infância e Adolescência. Orientador: Norma Utinguassú Escosteguy.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mariana Fernandes Lima Leitão.
+							Encoprese como sintoma sobredeterminado:do segredo familiar ao filho de substituição.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização em Psicoterapia da Infânci)  - Centro de Estudos Pesquisa e Atendimento da Infância e Adolescência. Orientador: Norma Utinguassú Escosteguy.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruna Detoni.
+							Processo de psicoterapia e suas limitações: a escrita como uma forma de aprender e lidar com as frustrações como psicoterapeutas.
+							2008.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização em Psicoterapia da Infânci)  - Centro de Estudos Pesquisa e Atendimento da Infância e Adolescência. Orientador: Norma Utinguassú Escosteguy.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CRISTINA GERHARDT SOEIRO DE SOUZA.
+							REPERCUSSÕES DA DIFERENÇA  DE INVESTIMENTOS  PARENTAIS  SOBRE  O DESENVOLVIMENTO  DE  GÊMEOS.
+							2008.
+							Orientação de outra natureza - Centro de Estudos Pesquisa e Atendimento da Infância e Adolescência. Orientador: Norma Utinguassú Escosteguy.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="TextosJornaisEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESCOSTEGUY, N. U. ou ESCOSTEGUY,N.</b> . Precisamos falar sobre Kevin. Boletim do CEAPIA, p. aLEGRE, p. 12 - 12, 03 set.  2012. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Recentemente, é coordenadora do Setor de Adoção do CEAPIA, cujo objetivo é o estudo, atendimento e pesquisa dos pais em processo de adoção (preparo e seguimento, individual ou em grupo)</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 23/05/2014 &agrave;s 17:01:43</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0001668767449617" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

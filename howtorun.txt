@@ -1,0 +1,5 @@
+export HADOOP_CLASSPATH=$(hadoop classpath)
+Criar diretório no dfs
+javac -classpath ${HADDOP_CLASSPATH} -d (Classes) (Arquivo java)
+jar -cvf (nome do jar) -C (classes)
+hadoop jar (arquivo jar) (nome da classe) (hdfs input) (hdfs output)

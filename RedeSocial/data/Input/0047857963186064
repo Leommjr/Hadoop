@@ -1,0 +1,3233 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Sof&iacute;a In&eacute;s Niveiros)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0047857963186064" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#MembroCorpoEditorial">Membro de corpo editorial</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4742601Z5&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4742601Z5"><div class="infpessoa">
+<h2 class="nome">Sof&iacute;a In&eacute;s Niveiros</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0047857963186064</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 30/10/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Ciências Contábeis pela Universidade Federal de Santa Catarina (1993), mestrado em Engenharia de Produção pela Universidade Federal de Santa Catarina (1998), doutorado em Engenharia de Produção pela Universidade Federal de Santa Catarina (2004) e pós-doutorado em Engenharia e Gestão do Conhecimento pela Universidade Federal de Santa Catarina (2010). Atualmente é professor titular da Universidade Federal de Mato Grosso. Tem experiência na área de Administração, com ênfase em Ciências Contábeis, atuando principalmente nos seguintes temas: jogos de empresas, contabilidade, comportamento, microempresas e balanço social.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sofía Inés Niveiros</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">NIVEIROS, S. I.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal de Mato Grosso, Departamento de Ciências Contábeis. <br class="clear" />Rodovia Rondonopolis Km 06<br class="clear" />Guiratinga<br class="clear" />78735-001 - Rondonopolis, MT - Brasil<br class="clear" />Telefone: (66) 34104000<br class="clear" />URL da Homepage: <a target="blank" href="http://www.ufmt.br">www.ufmt.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Grande área: Outros / Área: Divulgação Científica / Subárea: Engenharia e GEstão do Conhecimento. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Engenharia de Produção<span class="ajaxCAPES" data-param="&codigoCurso=41001010051P3&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Título: AS POSSIBILIDADES DA TECNOLOGIA NO AUXILIO DA APRENDIZAGEM ATRAVÉS DOS JOGOS EDUCACIONAIS: DESENVOLVIMENTO DE UM CBT DE ANÁLISE TRANSACIONAL., Ano de obtenção: 2004. <br class="clear" />Orientador: Francisco Antônio Pereira Fialho, Dr.. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Grande área: Engenharias / Área: Engenharia de Produção. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Engenharia de Produção<span class="ajaxCAPES" data-param="&codigoCurso=41001010051P3&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Título: ESTUDO E APERFEIÇOAMENTO DO MODELO DAS MATURIDADES DOS FUNCIONÁRIOS NO JOGO DE EMPRESAS LÍDER,Ano de Obtenção: 1998.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4671992002507536'><img src='images/curriculo/logolattes.gif' /></a>BRUNO HARTMUT KOPITTKE, Dr..<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. <br class="clear" />Grande área: Engenharias / Área: Engenharia de Produção / Subárea: Avaliação e Inovação Tecnologica. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1989 - 1993</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Ciências Contábeis<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Título: Sem monografia. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Jornada de estudos sobre educação: aprendizagens s.  (Carga horária: 8h). <br class="clear" />Universidade Federal de Mato Grosso, UFMT, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação da Aprendizagem: o papel do educador nes.  (Carga horária: 16h). <br class="clear" />Universidade Federal de Mato Grosso, UFMT, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Engenharia Economica.  (Carga horária: 20h). <br class="clear" />Universidade Federal de Mato Grosso, UFMT, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Matematica Financeira.  (Carga horária: 20h). <br class="clear" />Universidade Federal de Mato Grosso, UFMT, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso Prático de Comunicação Verbal.  (Carga horária: 16h). <br class="clear" />Instituto Carlos Conce.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Imersão na Administração Universitária Moderna par.  (Carga horária: 44h). <br class="clear" />Lobo & Associados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A prática docente na UNISUL.  (Carga horária: 22h). <br class="clear" />Universidade do Sul de Santa Catarina, UNISUL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Orientação de Monografias.  (Carga horária: 20h). <br class="clear" />Universidade do Sul de Santa Catarina, UNISUL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamento para formação de multiplicadores do Pr.  (Carga horária: 40h). <br class="clear" />Escola de Novos Empreendedores da UFSC.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Windows95/Word7/Excel7/Powerpoint7.  (Carga horária: 40h). <br class="clear" />Fundação do Ensino da Engenharia em Santa Catarina.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Introdução à Informatica.  (Carga horária: 15h). <br class="clear" />Fundação do Ensino da Engenharia em Santa Catarina.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tomada de Decisão.  (Carga horária: 9h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">II Ciclo de Palestras de Contabilidade.  (Carga horária: 10h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1993</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">I Ciclo de Palestras de Contabilidade.  (Carga horária: 16h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Como Planejar seu Negócio.  (Carga horária: 15h). <br class="clear" />Serviço de Apoio à Pequenas e Médias Empresas.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidad Nacional de Rosario, UNR, Argentina.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor vistante, Enquadramento Funcional: Profesor</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Seminario de Investigación y Tesis Metodologia de la Investigación</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Mato Grosso, UFMT, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor titular, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Contábeis, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Coordenadora de Atividades Complementares<br class="clear" />Projetos de Monografia<br class="clear" />Praticas de Capacitação Profissional<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Instituto de Estudos Superiores da Amazônia, IESAM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2002 - 10/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenadora do Curso de Bacharelado em Ciências Contábeis.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2002 - 10/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Contábeis, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Contabilidade Básica<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Instituto Catarinense de Pósgraduação, ICPG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Professor, Carga horária: 10</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2002 - 06/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Administração da Produção, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Integração e Relações Interpessoais<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Centro Integrado de Ensino Superior do Amazonas, CIESA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Professor, Carga horária: 25</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12/2001 - 12/2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados , Pós-graduação MBA-Recursos Humanos, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados<br class="clear" />Disciplina: Jogo de Empresa - Gestão de Pessoas<br></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade do Sul de Santa Catarina, UNISUL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor titular, Carga horária: 60</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2002 - 07/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Administração, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Jogos de Empresas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/1999 - 07/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Administração com Hab. em Comercio Exterior, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Contabilidade Empresarial<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/1999 - 07/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Administração, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Contabilidade Empresarial<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/1999 - 07/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Relações Internacionais, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Contabilidade Empresarial<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/1999 - 10/1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Gestâo Empresarial, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Gestão Financeira<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Sistema Barddal de Ensino, BARDDAL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor titular, Carga horária: 60</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/1999 - 06/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Contábeis, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Contabilidade Geral I<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Serviço Nacional de Aprendizagem Comercial, SENAC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor, Carga horária: 68</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/1999 - 12/1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Espanhol Básico para o Comércio, Nível: Aperfeiçoamento</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Espanhol Básico para o Comércio<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Escola de Novos Empreendedores da UFSC, ENE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Professor, Carga horária: 20</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Professor, Carga horária: 45</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aulas Presenciais e aulas por videoconferêcia.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/1997 - 06/2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Produção, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Motivação e Produtividade<br class="clear" />Liderança e Motivação para a Aprendizagem<br class="clear" />Liderança e Motivação para a Qualidade<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Auditoria Ambiental: uma an&aacute;lise bibliom&eacute;trica das publica&ccedil;&otilde;es no per&iacute;odo de 2000 a 2007 no Brasil.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Auditoria Ambiental: uma análise bibliométrica das publicações no período de 2000 a 2007 no Brasil.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto visa identificar e análisar publicações recentes nos principais congressos, revistas naccionais de contabilidade e livros da area, com o objetivo de apresentar os principais tópicos e assuntos de Auditoria Ambiental, os métodos de pesquisa adotados e os autores que masi contribuem na área.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Sofía Inés Niveiros - Coordenador / aLOÍSIO rODRIGUES DA sILVA - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 3 / Número de orientações: 2</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="MembroCorpoEditorial">
+<h1>Membro de corpo editorial</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista do IESAM</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Sociais Aplicadas / Área: Administração / Subárea: Ciências Contábeis. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LOPES, M. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/1046878112471509" target="_blank"></a>LOPES, M. C. ; FIALHO, F. A. P. ; CUNHA, C. J. C. A. ; <b>NIVEIROS, S. I.</b> . Business Games for Leadership Development: A Systematic Review. Simulation & Gaming<sup><img id='10468781_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10468781' /></sup>, v. 1, p. 1-21, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/1046878112471509&issn=10468781&volume=1&issue=&paginaInicial=1&titulo=Business Games for Leadership Development: A Systematic Review&sequencial=1&nomePeriodico=Simulation & Gaming" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Oliveira, J. R. de</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>Oliveira, J. R. de ; <b>NIVEIROS, S. I.</b> ; RECH, I. J. ; Queiroz, P. F. . Utilização do Custeio Baseado em Atividades (ABC) para o plantio de soja em uma própriedade localizada na região de Rondonópolis/MT. Custos e @gronegócio Online<sup><img id='18082882_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18082882' /></sup>, v. 9, p. 23-51, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18082882&volume=9&issue=&paginaInicial=23&titulo=Utilização do Custeio Baseado em Atividades (ABC) para o plantio de soja em uma própriedade localizada na região de Rondonópolis/MT&sequencial=2&nomePeriodico=Custos e @gronegócio Online" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Oliveira, J. R. de</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>Oliveira, J. R. de ; RECH, I. J. ; JUNIOR, J. B. A. C. ; <b>NIVEIROS, S. I.</b> . Custo ambiental na cultura do algodão: um estudo de caso na região sul de Mato Grosso.. Custos e @gronegócio Online<sup><img id='18082882_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18082882' /></sup>, v. 8, p. 46-69, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18082882&volume=8&issue=&paginaInicial=46&titulo=Custo ambiental na cultura do algodão: um estudo de caso na região sul de Mato Grosso.&sequencial=3&nomePeriodico=Custos e @gronegócio Online" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Freitas, M S</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>Freitas, M S ; Gonçalves, C. S. ; <b>NIVEIROS, S. I.</b> . PLANEJAMENTO DE PRODUÇÃO, QUALIFICANDO A MATÉRIA PRIMA DE ACORDO COM O PADRÃO HISTÓRICO DE CADA FORNECEDOR: ESTUDO DE CASO EM UM FRIGORÍFICO COM SEDE EM PEDRA PRETA-MT.. Revista del Instituto Internacional de Costos<sup><img id='16466896_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16466896' /></sup>, v. 9, p. 41-69, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16466896&volume=9&issue=&paginaInicial=41&titulo=PLANEJAMENTO DE PRODUÇÃO, QUALIFICANDO A MATÉRIA PRIMA DE ACORDO COM O PADRÃO HISTÓRICO DE CADA FORNECEDOR: ESTUDO DE CASO EM UM FRIGORÍFICO COM SEDE EM PEDRA PRETA-MT.&sequencial=4&nomePeriodico=Revista del Instituto Internacional de Costos" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SOARES, C. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>SOARES, C. R. ; SILVA, A. R. ; <b>NIVEIROS, S. I.</b> . Auditoria Ambiental como fator de identificação de danos ao meio ambiente e quantificação de possiveis contingencias.. Revista de Ciências Contábeis - RCiC<sup><img id='21789045_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='21789045' /></sup>, v. JAN/JUN, p. 8-29, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21789045&volume=JAN/JUN&issue=&paginaInicial=8&titulo=Auditoria Ambiental como fator de identificação de danos ao meio ambiente e quantificação de possiveis contingencias.&sequencial=5&nomePeriodico=Revista de Ciências Contábeis - RCiC" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NIVEIROS, S. I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span><b>NIVEIROS, S. I.</b> ; Maurício Lopes Capobianco ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4671992002507536" target="_blank">Bruno Hartmut Kopittke</a> . AVALIAÇÃO COMPORTAMENTAL DOS PARTICIPANTES DOS JOGOS DE EMPRESAS EM RELAÇÃO AOS SEUS GRUPOS DE TRABALHO.. Revista de Negócios<sup><img id='14133849_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14133849' /></sup>, Blumenau, v. 4, n.1, p. 31-37, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14133849&volume=4&issue=&paginaInicial=31&titulo=AVALIAÇÃO COMPORTAMENTAL DOS PARTICIPANTES DOS JOGOS DE EMPRESAS EM RELAÇÃO AOS SEUS GRUPOS DE TRABALHO.&sequencial=6&nomePeriodico=Revista de Negócios" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		LOPES, M. C. ; <b>NIVEIROS, S. I.</b> ; FIALHO, F. A. P. . Jogos de empresas na educação: um método inovador de ensino aprendizagem.. In: Youssef A. Youssef; Alejandro Ramirez. (Org.). Social Software in Higher Education: Pedagogical Models and Universities Strategies.. Palhoça: Unisul, 2011, v. 1, p. 239-294. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> ; Stoffel, Tânia . Alunos e Professores de Ciências Contábeis apresentam artigos em congresso (2).. A Tribuna, Rondonópolis, 12 nov.  2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> ; Stoffel, Tânia . Alunos e Professores de Ciências Contábeis apresentam artigos em Congresso (1). A tribuna, Rondonópolis, 11 nov.  2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> ; Stoffel, Tânia . Uma Viagem para ficar na História. A tribuna, Rondonópolis, p. 2 - 2, 31 jul.  2008. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pereira, L. A. ; Aoyama, D P de M ; <b>NIVEIROS, S. I.</b> . Contratos de financiamento habitacional: uma análise dos sistemas de amortização Sacre, SAC e Price como a melhor alternativa para os mutuários.. In: XIII Congresso Internacional de Custos, 2013, Potugal. Resumos das comunicações ao XIII Congresso Internacional de Custos. Portugal: Ordem dos Técnicos Oficiais de Contas, 2013. p. 56-56. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Freitas, M S ; Gonçalves, C. S. ; <b>NIVEIROS, S. I.</b> . Planejamento de Produção, qualificando a Materia Prima de acordo com o Padrão Histórico de cada fornecedor: Estudo de Caso em um Frigorifico com sede em Pedra Preta-MT.. In: VI Congresso de Costos del Mercosul, 2012, Montevideo. Guía del Congresso, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> ; Arenhardt, R. L. ; SANTANA, J. V. ; Oliveira, J. R. de . RESPONSABILIDADE CIVIL: CONHECIMENTO DOS EMPRESÁRIOS CONTÁBEIS DE RONDONÓPOLIS/MT SOBRE RESPONSABILIDADE SOLIDÁRIA.. In: 19  Congresso Brasileiro de Contabilidade, 2012, Belém. Anais dos Resumos dos Trabalhos Científicos e Técnicos. Brasilia: Conselho Federal de Contabilidade, 2012. v. 1. p. 153-154. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. R. ; MENEZES, P. j. ; <b>NIVEIROS, S. I.</b> . AUDITORIA AMBIENTAL: UM ESTUDO INVESTIGATIVO DE INVESTIMENTOS DESTINADOS AO REPARO DE DANOS AMBIENTAIS CAUSADOS PELA CULTURA DE ALGODÃO DE RONDONÓPOLIS - MT. In: Encontro Nacional sobre Gestão Empresarial e Meio Ambiente, 2012, São Paulo. XIV ENGEMA - Gestão Empresarial Sustentável: uma perspectiva internacional pós-Rio+20 - 2012, 2012. p. 7. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, K C ; SILVA, A. R. ; <b>NIVEIROS, S. I.</b> . Auditoria Ambiental: uma nálise investigativa do impacto que os agrotóxicos usados na lavoura de algodão provocam ao meio ambiente e os cuidados com os vasilhames nas empresas Rondonopolitanas.. In: XXII ENBRA - Encontro Brasileiro de Administração e VIII Congresso Mundial de Administração, 2012, Rio de Janeiro. FALTA, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> ; SILVA, S. P. ; Oliveira, J. R. de ; Arenhardt, R. L. . Análise do conhecimento dos docentes da UFMT Campus Rondonópolis sobre o IRPF.. In: I Scont - Seminário de Contabilidade da FACE-UFG, 2012, Goiania. Anais I Seminário de Contabilidade da UFG/Ciências Contábeis. Goiania: UFG, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> ; GONCALVES, N. C. R. ; Oliveira, J. R. de ; Arenhardt, R. L. . Adequabilidade dos conteúdos de contabilidade pública nas IES de Rondonópolis em relação ao exame de suficiência.. In: I Scont - Seminário de Contabilidade da FACE-UFG, 2012, Goiania. Anais - I Seminário de COntabilidade da UFG/Ciências Contábeis. Goinania: UFG, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de ; JUNIOR, J. B. A. C. ; RECH, I. J. ; <b>NIVEIROS, S. I.</b> . Custo Ambiental na Cultura do Algodão - Um estudo de Caso na Região Sul de Mato Grosso. In: XVIII Congresso Brasileiro de Custos, 2011, Rio de Janeiro. Congresso Brasileiro de Custos. São Leopoldo: Associação Brasileira de Custos, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIANA FILHO, J. R. ; Guimarães, A. V. S. ; Gomes, K. L. S. ; <b>NIVEIROS, S. I.</b> . Custo da Rotatividade de Pessoal: um estudo de caso em uma empresa da construção civil na cidade de Rondonópolis-MT. In: XVIII Congresso Brasileiro de Custos, 2011, Rio de Janeiro. Congresso Brasileiro de Custos. São Leopoldo: Associação Brasileira de Custos, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de ; Queiroz, P. F. ; <b>NIVEIROS, S. I.</b> . Custeamento Baseado nas Atividades aplicado no preparo do solo para plantio de soja na região sul de Mato Grosso. In: XVIII Congresso Brasileiro de Custos, 2011, Rio de Janeiro. Congresso Brasileiro de Custos. São Leopoldo: Associação Brasileira de Custos, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> ; FERREIRA, L. do N. ; Arenhardt, R. L. . Educação Continuada como instrumento de atualização permanente do Profissional Contábil em Rondonópolis/MT. In: Congresso UFSC de Controladoria e Finanças, 2009, Florianópolis. 3  Congresso UFSC. Florianópolis: UFSC, 2009. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Stoffel, Tânia ; ACUNA, B. C. M. ; <b>NIVEIROS, S. I.</b> . Capital de Giro: um estudo aplicado a uma micro empresa de confecções no sul de Mato Grosso.. In: II Congresso UFSC Controladoria e Finanças & Iniciação Científica em Contabilidade, 2008, Florianópolis. Congresso UFSC de Controladoria e Finanças. Florianópolis: UFSC, 2008. v. 1. p. 58-58. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> ; Almeida, E. M. de ; Arenhardt, R. L. . Investigação e Analise do Perfil Empreendedor dos Alunos do Curso de Ciências Contábeis da UFMT - Universidade Federal de Mato Grosso. In: II Congresso UFSC Controladoria e Finanças & Iniciação Científica em Contabilidade, 2008, Florianópolis. II Congresso UFSC Controladoria e Finanças. Florianópolis: UFSC, 2008. v. 1. p. 62-62. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		Maurício Lopes Capobianco ; Costa, M. V. da ; <b>NIVEIROS, S. I.</b> . O Simulador de Empresas Líder Baseado em Agentes. In: IX SEMINCO - Seminário de Computação, 2000, Blumenau. Seminário de Computação. Blumenau: FURB, 2000. v. 1. p. 23-36. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>NIVEIROS, S. I.</b> ; Maurício Lopes Capobianco ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4671992002507536" target="_blank">Bruno Hartmut Kopittke</a> . LIDERANÇA E MOTIVAÇÃO PARA A QUALIDADE UTILIZANDO O JOGO DE EMPRESAS LÍDER. In: COBENGE99, 1999, Natal. XXVII  Congresso Brasileiro de Ensino de Engenharia. Natal - RN: COBENGE99, 1999. v. T6. p. 1149-1155. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>NIVEIROS, S. I.</b> ; Armando Dettmer ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4671992002507536" target="_blank">Bruno Hartmut Kopittke</a> . UTILIZAÇÃO DE JOGOS DE EMPRESA EM TREINAMENTO GERENCIAL À DISTÂNCIA VIA INTERNET.. In: XXVII - CONGRESSO BRASILEIRO DE ENSINO DE ENGENHARIA, 1999, Natal. COBENGE99. Natal - RN: XXVII - CONGRESSO BRASILEIRO DE ENSINO DE ENGENHARIA, 1999. v. S11. p. 487-493. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>NIVEIROS, S. I.</b> ; Maurício Lopes Capobianco ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4671992002507536" target="_blank">Bruno Hartmut Kopittke</a> . AVALIAÇÃO COMPORTAMENTAL DOS PARTICIPANTES DOS JOGOS DE EMPRESAS EM RELAÇÃO AOS SEUS GRUPOS DE TRABALHO.. In: XXVII - CONGRESSO BRASILEIRO DE ENSINO DE ENGENHARIA., 1999, Natal. COBENGE99. nATAL - rn: XXVII - CONGRESSO BRASILEIRO DE ENSINO DE ENGENHARIA., 1999. v. T6. p. 1156-1162. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> ; Regina Cleide Teixeira . SISTEMA DE INFORMAÇÃO: UM INSTRUMENTO DE APOIO À TOMADA DE DECISÃO NA INDÚSTRIA DE ESPONJAS Q-KOISA LTDA.. In: II Congresso Brasileiro de Gestão Estratégica de Custos, 1996, Curitiba. II Congresso Brasileiro de Gestão Estratégica de Custos, 1996. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Freitas, M S ; Gonçalves, C S ; <b>NIVEIROS, S. I.</b> . Planejamento de Produção, qualificando a Materia Prima de acordo com o Padrão Histórico de cada fornecedor: Estudo de Caso em um Frigorifico com sede em Pedra Preta-MT.. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> . CBT- Análise Transacional. 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> . Comissão avaliadora 13  Congresso USP Controladoria e Contabilidade. 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> . Comissão avaliadora 12  Congresso USP Controladoria e Contabilidade. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> . Comissão Avaliadora 8  Congresso USP Iniciação Científica em Contabilidade. 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> . Comissão avaliadora 7  Congresso USP Iniciação Científica em Contabilidade. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> . Parecerista Ad-hoc na condição dos Projetos de Pesquisa. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> . Comissão Avaliadora 9  Congresso USP. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> . Comissão Avaliadora I Congresso UFSC. 2007. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>.  Participação em banca de Luiz Antônio Silvio Pereira. Análise da Eficiência Técnica da Produção Leitera dos Agricultores Familiares nos Núcleos Rurais de Rondonópolis-MT. 2011. Dissertação (Mestrado em Agronegócios e Desenvolvimento Regional) - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>.  Participação em banca de Danilo Pereira. Desenvolvimento de um CBT para Aprendizagem e Aperfeiçoamento dos conhecimentos sobre Liderança Situacional. 2000. Dissertação (Mestrado em Engenharia de Produção) - Universidade Federal de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>.  Participação em banca de Ednaldo de Souza Vilela. Modelo de Avaliação e Medição do Desempenho das Atividades dos Hotéis. 2000. Dissertação (Mestrado em Engenharia de Produção) - Universidade Federal de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; Kimura, E. S.; MILETI, M..  Participação em banca de Benedito Albuquerque da Silva. Modelo de costos de las actividades de Porcinocultura: Cría, Recría y Engorde.. 2012. Tese (Doutorado em Doctorado en Contabilidad)  - Universidad Nacional de Rosario. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; MILETI, M.; DIAZ, T..  Participação em banca de JOAO WANDERLEY VILELA GARCIA. Medición del Activo intangible de instituciones de ducación superior considerando la evaluación de las condiciones de enseñanza. 2007. Tese (Doutorado em Doctorado en Contabilidad)  - Universidad Nacional de Rosario. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; MILETI, M.; Castagna, A. I..  Participação em banca de NILSON DAUZACKER. Impacto Ambiental. 2007. Tese (Doutorado em Doctorado en Contabilidad)  - Universidad Nacional de Rosario. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; MARTIN, W. L. B.; GOUVEIA, V. V.; MAGALHAES, C. M. C.; BAPTISTA, M. Q. G..  Participação em banca de Rosa de Fátima Pereira de Carvalho. Valores Organizacionais de empresários e as prioridades axiológicas desejáveis em candidatos a emprego.. 2007. Tese (Doutorado em Psicologia (Teoria e Pesquisa do Comportamento))  - Universidade Federal do Pará. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JUNIOR, J. B. A. C.; <b>NIVEIROS, S. I.</b>; Oliveira, J. R. de.  Participação em banca de Cariston Feltrin Martins. Análise de investimentos: um estudo aplicado na recuperação de pastagens degradadas através da integração lavoura-pecuária.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; JUNIOR, J. B. A. C..  Participação em banca de Diego Campos Pereira. Aplicação do TARGET COST para a elaboração do preço de venda em uma empresa de materiais para construção em Jaciara Mato Grosso.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; JUNIOR, J. B. A. C.; Oliveira, J. R. de.  Participação em banca de Adivair Gabriel da Silva. Aplicação da DVA - Demonstração do Valor Adicionado em uma empresa comercial do ramo de revenda de tintas imobiliárias, automotivas e industriais da cidade de Rondonópolis.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; JUNIOR, J. B. A. C..  Participação em banca de Renato Augusto de Jesus. Implantação da Contabilidade Gerencial para tomada de decisão em uma microempresa de eletrônica e informática de Jaciara Mato Grosso.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; JUNIOR, J. B. A. C..  Participação em banca de Mickely da Silva Caravalho. Analise dos controles financeiros em uma empresa WEB SITES localizada em Rondonópolis/MT.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; JUNIOR, J. B. A. C..  Participação em banca de Fernando Cardoso da Silva. Conhecimento dos contadores da cidade de Sonora acerca da utilização dos sistemas integrados ERP na gestão da empresa.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; JUNIOR, J. B. A. C..  Participação em banca de Fernanda Cristina dos Santos Almeida. Analise do orçamento empresarial em uma transportadora localizada em Rondonópolis/MT. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; JUNIOR, J. B. A. C..  Participação em banca de Adfrances Oliveira Flauzino. A importância dos dados do fluxo de caixa e gerenciamento de uma empresa para investimento: estudo de caso.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; JUNIOR, J. B. A. C..  Participação em banca de Daiana Lazzarotto. Analise da percepção dos contadores de Sonora/MS sobre o SPED - Sistema Público de Escrituração Digital: O impacto na rotina das organizações contábeis.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; JUNIOR, J. B. A. C..  Participação em banca de Ailton Tavares. Produtores Rurais, os beneficios da utilização do modelo da pessoa jurídica na atividade.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JUNIOR, J. B. A. C.; <b>NIVEIROS, S. I.</b>; Oliveira, J. R. de.  Participação em banca de Sara Lucia Carletto. EBITDA: um estudo de caso aplicado a uma empresa de transportes.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JUNIOR, J. B. A. C.; <b>NIVEIROS, S. I.</b>; Oliveira, J. R. de.  Participação em banca de Régio Barcelos. O nível de risco de uma empresa que atua na comercialização de milho em grãos de Rondonópolis/MT, a partir da análise dinâmica do capital de giro.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JUNIOR, J. B. A. C.; <b>NIVEIROS, S. I.</b>; Oliveira, J. R. de.  Participação em banca de Katieli Furlan de Oliveira. O orçamento financeiro como instrumento qualificador do processo decisório.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JUNIOR, J. B. A. C.; <b>NIVEIROS, S. I.</b>; Oliveira, J. R. de.  Participação em banca de Jeandro Ferreira Melo. As ferramentas de divulgação utilizadas pelos profissionais de contabilidade na cidade de Rondonópolis/MT.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JUNIOR, J. B. A. C.; <b>NIVEIROS, S. I.</b>; Oliveira, J. R. de.  Participação em banca de Gisele Soaine Soares de Santana. Avaliação de empresas em uma cooperativa de saúde da cidade de Rondonópolis.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JUNIOR, J. B. A. C.; <b>NIVEIROS, S. I.</b>; Oliveira, J. R. de.  Participação em banca de Geany Vilela Barbosa. Avaliação dos impactos dos juros sobre a lucratividade de uma micro empresa do município de Rondonópolis.. 2013. Monografia (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; JUNIOR, J. B. A. C..  Participação em banca de Cícera Alves Bezerra Lira.Análise entre opção pelo lucro real anual e trimestral como forma de planejamento tributário em uma transportadora localizada na região sul de Mato Grosso..
+							2013. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; JUNIOR, J. B. A. C..  Participação em banca de Tuane Cristielle Siqueira Silva.Internacionalização da contabilidade nas pequenas empresas: análise da aplicação do processo pelos contadores doq uadrilatero central de Rondonópolis-MT..
+							2013. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, A. R.; TOMAZ, M. S.; <b>NIVEIROS, S. I.</b>.  Participação em banca de Rafaela de Melo Freitas.A aplicação do princípio contábil da entidade na atividade agropecuária em Paraíso do Leste-Poxoréu/MT..
+							2013. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, A. R.; <b>NIVEIROS, S. I.</b>; TOMAZ, M. S..  Participação em banca de Luciano R Rezende das Neves.A apicultura e sua viabilidade econômica no município de Rondonópolis/MT..
+							2013. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, A. R.; <b>NIVEIROS, S. I.</b>; TOMAZ, M. S..  Participação em banca de Osmar Sangalli Alves.A contabilidade como auxílio no processo de sucessão familiar para pequenos produtores rurais, um estudo de caso em uma pequena propriedade rural..
+							2013. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; JUNIOR, J. B. A. C..  Participação em banca de Isdaiane Marciel Bezerra.Metodos de precificação utilizando o MARK-UP: um estudo de caso em um restaurante em Rondonópolis-MT..
+							2013. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, A. R.; <b>NIVEIROS, S. I.</b>; TOMAZ, M. S..  Participação em banca de Enio Martins de Novais.Contabilidade Gerencial para pequeno porte, médio e grande produtor rural..
+							2013. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Arenhardt, R. L.; <b>NIVEIROS, S. I.</b>; Oliveira, J. R. de.  Participação em banca de Walison Paniago Nogueira.O papel da contabilidade frente à responsabilidade socail das empresas na atualidade..
+							2013. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Arenhardt, R. L.; <b>NIVEIROS, S. I.</b>; Oliveira, J. R. de.  Participação em banca de Leticia T B Pereira Rosa.Licitação Pública: modalidade convite tipo menor preço e suas desvantagens - uma abordagem teórica..
+							2013. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; Oliveira, J. R. de; Santos, E. M..  Participação em banca de Jhonathan Vieira Santana.Responsabilidade Civil:Conhecimento do Profissional Contábil de Rondonópolis sobre Responsabilidade Solidária..
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; Santos, E. M..  Participação em banca de Talita Cândida Silva.A utilização do teste de recuperabilidade do Ativo em uma sociedade Ltda localizada na cidade de Rondonópolis-MT.
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; Santos, E. M..  Participação em banca de Cássia Daiana Moura Lima.Funcionamento do Subsistema Social com enfoque na Controladoria: um estudo de caso em uma empresa distribuidora de peças localizada em ROndonópolis-MT.
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; Santos, E. M..  Participação em banca de Jefferson de Andrade Nates.Análise do reconhecimento dos Impactos Tempo-Conjunturais nas informações contábeis de uma empresa comercializadora de maquinas e ferramentas da região de Rondonópolis-MT.
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Santos, E. M.; Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>.  Participação em banca de Amarildo de Oliveira Gonçalves.Análise do conhecimento dos empregados da atividade agrícola do setor operacional na zona rural no municipio de Pedra Preta-MT com o IRPF retido e não obrigado a declarar..
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; Santos, E. M..  Participação em banca de Raycka Leana N. dos Santos.Planejamento Estratégico aplicado em uma microempresa sob a ótica da controladoria na cidade de Pedra Preta..
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, J. R. de; <b>NIVEIROS, S. I.</b>; Santos, E. M..  Participação em banca de Jailson José de Andrade.Análise do Impacto da Internacionalização da Contabilidade Brasiliera nas Rotinas de Geração das Informações das Empresas obrigadas à publicação das Demonstrações Contábeis de Rondonópolis-MT..
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pereira, L. A.; <b>NIVEIROS, S. I.</b>; VIANA FILHO, J. R..  Participação em banca de Adriana Marchi.Um estudo das etapas dos processos de aeronaves agrícolas utilizadas no combate a incendio: com enfoque ao processo contábil e desembaraço aduaneiro..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIANA FILHO, J. R.; <b>NIVEIROS, S. I.</b>; Pereira, L. A..  Participação em banca de Alex Ferreira dos Santos.A utilização da Contabilidade de custos nas micro e pequenas empresas na CIdade de Campo Verde-MT..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pereira, L. A.; <b>NIVEIROS, S. I.</b>; VIANA FILHO, J. R..  Participação em banca de Cezar Gomes Dantas.Contabilidade do Ativo e do PL: suas influencias sobre as ações de empresas listadas na BOVESPA..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pereira, L. A.; <b>NIVEIROS, S. I.</b>; VIANA FILHO, J. R..  Participação em banca de Gustavo de Lima DÁvila.Os procedimentos éticos na elaboração dos laudos periciais contábeis..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIANA FILHO, J. R.; <b>NIVEIROS, S. I.</b>; Pereira, L. A..  Participação em banca de Jairo Aires de Santana.O Balanço Social como forma de evidenciação da responsabilidade social nas cooperativas de produtores de algodão de Campo Verde-MT..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pereira, L. A.; <b>NIVEIROS, S. I.</b>; VIANA FILHO, J. R..  Participação em banca de Luiz Fernando Bade Sassi.Uma análise do software gerencial direcionado para o controle financeiro de uma micro empresa de prestação de serviços de carga e descarga de frangos..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; Pereira, L. A.; VIANA FILHO, J. R..  Participação em banca de Marcio Fabiano Fin.Cenário Atual e perspectivas da implantação de uma incubadora de empresas no município de Camo Verde-MT..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; Pereira, L. A.; VIANA FILHO, J. R..  Participação em banca de Rejani Paula Pezzini.A importância da Gestão Contábil para sobrevivência das micro e pequenas empresas de Campo Verde-MT..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; Pereira, L. A.; VIANA FILHO, J. R..  Participação em banca de Suzana Rodrigues Godoi.Educação Continuada na área contábil: excelência no desempenho dos escritórios de contabilidade no Município de Campo Verde-MT..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; CAMPOS, A. N. S.; GOMES, A. R..  Participação em banca de Taiana Franciele Maraschin Broch.Uma análise comparativa do Perfil empreendedor entre alunos do curso de Ciências Contábeis de Rondonópolis..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; GOMES, A. R.; SILVA, F. P..  Participação em banca de Leonaldo Ferreira do Nascimento.Educação COntinuada como instrumento de atualização permanente do profissional contábil em Rondonópolis-MT..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Almeida, K. E. P. C.; <b>NIVEIROS, S. I.</b>; SILVA, F. P..  Participação em banca de José Nilson Cardoso de Souza.A postura ética dos egressos do curso de Ciências Contábeis ao inserir no mercado de trabalho..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; Oliveira, J. R. de; JUNIOR, J. B. A. C..  Participação em banca de José Luiz dos Santos.Auditoria: um estudo Bibliometrico no Congresso USP de Controladoria e Contabilidade de 2004 a 2008..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. R.; <b>NIVEIROS, S. I.</b>; SILVA, F. P..  Participação em banca de Josiane Lenalda Rodrigues.Gestão de Estoques de combustíveis nos estabelecimentos varejistas no município de Rondonópolis-MT: um enfoque as medidas de controle interno..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, F. P.; <b>NIVEIROS, S. I.</b>; SILVA, A. R..  Participação em banca de Ana Paula do Nascimento Pereira.O processo de agregar pessoas: uma visão anal´piticca por meio do recrutamento e seleção de pessoas nas usinas de açúcar e álcool no município de Jaciara-MT..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ACUNA, B. C. M.; <b>NIVEIROS, S. I.</b>; CAMPOS, A. N. S..  Participação em banca de Mauro Gomes de Campos.Controladoria de Gestão na empresa Linda Moveis em Rondonópolis-MT..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; Gonçalves, C. S.; Oliveira, J. R. de.  Participação em banca de Manoel Frederico Coelho.A importância do Capital de Giro na vida de pequenas empresas comerciais..
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>.  Participação em banca de LUCIELLE MORAES DE MELO.Ética e transparência na responsabilidade social corporativa.
+							2007. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; VIANA FILHO, J. R.; CAMPOS, A. N. S..  Participação em banca de PAULO EDUARDO DA COSTA.A Contabilidade na construção civil.
+							2007. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SENISE, F. G.; <b>NIVEIROS, S. I.</b>; GOMES, A. R..  Participação em banca de Ronaldo César Félix de Oliveira.O planejamento tributário como ferramenta de gestão em uma empresa de agronegócio com sede em Rondonópolis-MT.
+							2007. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SENISE, F. G.; <b>NIVEIROS, S. I.</b>; GOMES, A. R..  Participação em banca de Adelson Ferreira da Silva.Produção e comercialização da soja no Estado do Mato Grosso.
+							2007. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ACUNA, B. C. M.; <b>NIVEIROS, S. I.</b>; PAZZINI, C..  Participação em banca de THIAGO ZUFFO.Formação de Preços de honorários de Serviços Contábeis através do Custeio por absorção.
+							2007. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ACUNA, B. C. M.; <b>NIVEIROS, S. I.</b>; PAZZINI, C..  Participação em banca de Rafaele Moura Lima.Análise de Resultados da aplicação da metodologia de precificação MARK-UP em uma perfumaria de Rondonópolis-MT.
+							2007. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ACUNA, B. C. M.; <b>NIVEIROS, S. I.</b>; PAZZINI, C..  Participação em banca de Graziane Xavier Pinto.A determinação da necessidade do capital de Giro numa pequena empresa comercializadora de confecções de Pedra Preta/MT.
+							2007. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PAZZINI, C.; <b>NIVEIROS, S. I.</b>.  Participação em banca de ALESSANDRA ALINE BLANK ANGELI.Conceitos e Implicações para a elaboração do Orçamento Social.
+							2007. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIANA FILHO, J. R.; <b>NIVEIROS, S. I.</b>; Arenhardt, R. L..  Participação em banca de Carla Cintra.A Utilização do SIstema de Custeio em microempresas e empresas de pequeno porte do municipio de Rondonopolis como instrumento de Controle Gerencial.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, A. R.; <b>NIVEIROS, S. I.</b>; PEREIRA, I. I..  Participação em banca de Débora Vivianny Silveira Campos.A Necessidade dos Empresários aceitarem as mudanças tecnologicas e adotar novos sistemas de gestão e de custos para a sobrevivencia das micro e pequenas empresas.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. R.; <b>NIVEIROS, S. I.</b>; TOMAZ, M. S..  Participação em banca de Daniely Aparecida da Silva.Gestão e Controle de Estoques: Uma análise das discrepâncias entre o controle físico e o processo de inventário de um estabelecimento supermercadista de Rondonópolis-MT.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, A. R.; <b>NIVEIROS, S. I.</b>; SENISE, F. G..  Participação em banca de Renato Avanci Dias.O Controle Contábil como forma de desenvolvimento na Pecuaria bovina de corte.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. R.; <b>NIVEIROS, S. I.</b>; TOMAZ, M. S..  Participação em banca de Josilene Rodrigues dos Santos.Balanço Social: Papel e Importância frente à responsabilidade social das empresas de transporte rodoviario de cargas com sede no município de Rondonópolis-MT.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. R.; <b>NIVEIROS, S. I.</b>; ACUNA, B. C. M..  Participação em banca de Thelma Paiva da Silveira.Planejamento Estratégico - Um estudo investigativo nas microempresas comerciais no município de Poxoréu: um estudo de casos.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; SILVA, A. R.; PEREIRA, I. I..  Participação em banca de Camila Lima de Abreu.Análise das dificuldades encontradas pelos egressos do Curso de Ciências Contábeis frente ao Mercado de Trabalho.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; SENISE, F. G.; Arenhardt, R. L..  Participação em banca de Eliane Marques de Almeida.Investigação e Analise do Perfil empreendedor dos alunos do curso de Ciências Contábeis da UFMT - Universidade Federal de Mato Grosso - Campus de Rondonópolis.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NASCIMENTO, I. S.; <b>NIVEIROS, S. I.</b>; MOREIRA, G. G..  Participação em banca de Suely Figueiredo de Oliveira Aquino.Balanço Social como instrumento de Evidenciação de Responsabilidade Social em algumas empresas de Rondonópolis.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. R.; <b>NIVEIROS, S. I.</b>; TOMAZ, M. S..  Participação em banca de Dario Rosa.Planejamento Operacional com enfoque à gestão de pessoas de microempresas comerciais estabeleciads em Rondonópolis: um estudo de casos.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, A. R.; <b>NIVEIROS, S. I.</b>; PEREIRA, I. I..  Participação em banca de Mozart Caetano Nunes.Mensuração e Divulgação de Ativos Biologicos, Conforme as Normas Internacionais de Contabilidade - IAS 41.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIANA FILHO, J. R.; <b>NIVEIROS, S. I.</b>; NASCIMENTO, I. S..  Participação em banca de André Luiz Souza Aquino.O Controle dos Custos na Pecuária de Corte em Rondonópolis - MT.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, A. R.; <b>NIVEIROS, S. I.</b>; SENISE, F. G..  Participação em banca de Marco Coelho Sena.O Perfil da Relação Profissional do Produtor Rural com o Profissional Contábil no Município de Rondonópolis - MT.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Professor titular</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; SILVA, A. R.; ROCHA, S. A.. Comissão Examinadora do Concurso Público de Provas e Títulos para provimento de Cargo de Docente - Contab. Privada.. 2008. Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; SILVA, A. R.; ROCHA, S. A.. Comissão Examinadora do Concurso Publico de Provas e Titulos para Cargo Docente. 2006. Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, F. P.; Garske, L. M. N.; <b>NIVEIROS, S. I.</b>. Teste seletivo para contratação de professor temporário ADM.
+							2012. Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; SILVA, A. R.; ACUNA, B. C. M.. Teste seletivo para contratação professor substituto.
+							2007. Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; SILVA, M. F. S.; ROCHA, S. A.. Comissão Examinadora do Concurso Publico de Provas e Titulos para Cargo Docente.
+							2007. Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b>; JUSTINO, A. R.; RAUBER, A. L.. Teste de seleção para professor substituto Lingua espanhola.
+							2006. Universidade Federal de Mato Grosso. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Congresso de Costos del Mercosul. Planejamento de produção, qualificando a matéria prima de acordo com o padrão histórico de cada fornecedor: estudo de caso em um frigorífico com sede em Pedra Preta-MT.. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Congresso UFSC de Controladoria e Finanças. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Congresso Brasileiro de Custos. Custo Ambiental na Cultura do Algodão - Um estudo de Caso na Região Sul de Mato Grosso. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Seminário de Pesquisa e Extensão - SEPEX. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Evento Comemorativo aos 40  aniversário do Curso de Ciências Contábeis/FAeCC/UFMT.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXV ENECIC Encontro Nacional dos Estudantes de Ciências Contábeis.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Convenção de Contabilidade do Estado do Pará.Os diferenciais competitivos na formação do profissional. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Convenção de Contabilidade do Estado do Pará. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Semana da Contabilidade. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">9  Congresso USP Controladoria e COntabilidade e 6  Congresso USP de Iniciação Cinetífica em Contabilidade. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso UFSC de Controladoria e Finanças. Educação Continuada como instrumento de atualização permanente do Profissional Contábil em Rondonópolis/MT. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8  Congresso USP de Controladoria e Contabilidade e 5  Congresso USP de Iniciação Científica em Contabilidade. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso UFSC Controladoria e Finanças & Iniciação Científica em Contabilidade. Capital de Giro: um estudo aplicado a uma micro empresa de confecções no sul de Mato Grosso.. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Seminário de Ciências Contábeis da Região Sul de Mato Grosso. 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro Nacional de Coordenadores do Curso de Ciências Contábeis.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso UFSC de Controladoria e Finanças e I Congresso UFSC de Iniciação Científica em Contabilidade.Moderadora e Coordenadora dos trabalhos científicos apresentados.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Nacional de Coordenadores do Curso de Ciências Contábeis.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Encontro Nacional da Mulher Contabilista.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">17  Congresso Brasileiro de Contabilidade. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Nacional dos Professores de Ciências Contábeis.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro Regional do Fórum Brasil de Educação.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1  Fórum Nacional das Instituições de Ensino Superior de Ciênicas Contábeis. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Nacional de Comércio Exterio.
+							2001. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Nacional de Comércio Exterior.
+							2000. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Convenção Estadual dos Contabilistas do Estado de Santa Catarina e I Encontro Estadual dos Peritos Contábeis do Estado de Santa Catarina.
+							1995. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV Semana da Economia. 1994. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Nacional de Estudantes de Administração.
+							1994. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Brasileiro de Contabilidade. 1992. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>NIVEIROS, S. I.</b> . II Convenção dos Contabilistas do Estado do Pará, Gestão Contábil, Responsabilidade Social e Ambiental ,  IX Encontro dos Contabilistas das Regiões Norte e Centro-Oeste ,  II Encontro dos Professores do Curso de C. Contábeis  e  III Encontro dos Estudantes do Curso de Ciências Contábeis". 2003. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Valdimir Dewes. EVIDENCIAÇÃO DOS ATIVOS E PASSIVOS AMBIENTAIS NAS DEMONSTRAÇÕES FINANCEIRAS..
+						Início: 2012. Tese (Doutorado em Doctorado en Contabilidad)  - Universidad Nacional de Rosario. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IVALDIR DA SILVA NASCIMENTO. PADRONIZAÇÃO DAS TÉCNICAS DE EVIDENCIAÇÃO APLICADAS ÀS EMPRESAS DO TERCEIRO SETOR DA ECONOMIA: UMA CONTRIBUIÇÃO À MELHORIA DA QUALIDADE DOS RELATÓRIOS DE PRESTAÇÃO DE CONTAS DOS ROTARYS..
+						Início: 2012. Tese (Doutorado em Doctorado en Contabilidad)  - Universidad Nacional de Rosario. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliana Ribeiro Paro. A SATISFAÇÃO DOS DISCENTES DO ENSINO SUPERIOR: UM ESTUDO DE CASO APLICADO AO CURSO DE CIÊNCIAS CONTÁBEIS DAS IES DE RONDONÓPOLIS - MT..
+						Início: 2012. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GLEICIANE FAGUNDES DA CRUZ. Não definido.
+						Início: 2012. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARIA RIBAMAR FARIAS VIANA. Não definido.
+						Início: 2012. Trabalho de Conclusão de Curso (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6802765669050156'><img src='images/curriculo/logolattes.gif' /></a>Aguinaldo Rocha Gomes.
+						Introducción del costo de la mano de obra familiar en las actividades agropecuarias.
+							2007. Tese
+					 (Doutorado em Doctorado en Contabilidad)  - Universidad Nacional de Rosario, . Orientador: Sofía Inés Niveiros. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Adivair Gabriel da Silva.
+							Aplicação da DVA - Demonstração do Valor Adicionado em uma empresa comercial do ramo de revendas de tintas imobiliárias, automotivas e industriais da cidade de Rondonópolis..
+							2013.
+							Monografia. (Aperfeiçoamento/Especialização em MBA Planejamento Econômico e Financeiro)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RAMON LUIZ ARENHARDT.
+							Auditoria Interna.
+							2006.
+							Monografia. (Aperfeiçoamento/Especialização em Contabilidade Gerencial, Controladoria e Auditoria)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NAYRE CHARMYLLA RIBEIRO GONÇALVES.
+							A ADEQUABILIDADE DOS CONTEÚDOS DE CONTABILIDADE PÚBLICA NAS IES DE RONDONÓPOLIS EM RELAÇÃO AO EXAME DE SUFICIÊNCIA DO CFC..
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCIENE NOVAIS DOS SANTOS.
+							PRESTAÇÃO DE CONTAS ESCOLAR: UM ESTUDO DE CASO DA VERBA PDE NAS ESCOLAS ESTADUAIS DO DISTRITO DE VILA OPERÁRIA..
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JHONATHAN VIEIRA SANTANA.
+							RESPONSABILIDADE CIVIL: CONHECIMENTO DO PROFISSIONAL CONTÁBIL DE RONDONÓPOLIS SOBRE RESPONSABILIDADE SOLIDÁRIA..
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JEANDRO FERREIRA MELO.
+							O PERFIL ÉTICO DOS ACADEMICOS DE CONTABILIDADE DAS PRINCIPAIS INSTITUIÇÕES DE ENSINO SUPERIOR DA CIDADE RONDONOPÓLIS/MT.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LEYDIÂNGELA DE OLIVEIRA SANTOS.
+							HISTÓRIA DO CURSO DE CIÊNCIAS CONTÁBEIS DA UNIVERSIDADE FEDERAL DE MATO GROSSO CAMPUS DE RONDONÓPOLIS.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Solayne Polinati Silva.
+							Análise do Conhecimento dos Professores da UFMT/Campus Rondonópolis sobre o IRPF.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cosmeilson Rodrigues Soares.
+							Auditoria Ambiental: Análise Bibliométrica dos Artigos Publicados pela Revista Brasileira de Contabilidade e Revista Finanças e Contabilidade, no período de 2000 a 2008..
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Taiana Franciele Maraschin Broch.
+							Análise Comparativa do Perfil Empreendedor entre alunos do Curso de Ciências Contábeis de Rondonópolis..
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Manoel Frederico Coelho.
+							A importância do Capital de Giro na Vida de Pequenas Empresas Comerciais..
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jose Luiz dos Santos.
+							Auditoria: um estudo Bibliometrico no Congresso USP de Controladoria e Contabilidade de 2004 a 2008..
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonaldo Ferreira do Nascimento.
+							Educação Continuada como instrumento de atualização permanente do profissional contábil em Rondonópolis-MT..
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rejani Paula Pezzini.
+							A importância da Gestão Contábil para sobrevivencia das micro e pequenas empresas de Campo Verde-MT..
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcio Fabiano Fin.
+							Cenário Atual e perspectiva da implantação de uma incubadora de empresas no município de Campo Verde-MT..
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Suzana Fernandes de Lima.
+							Educação Continuada na área contábil: excelência no desempenho dos escritórios de contabilidade no município de Campo Verde-MT..
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Paulo Eduardo da Costa.
+							A Contabilidade na Construção Civil.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ELIANE MARQUES DE ALMEIDA.
+							INVESTIGAÇÃO E ANÁLISE DO PERFIL EMPREENDEDOR DOS ALUNOS DO CURSO DE CIENCIAS CONTABEIS DA UFMT   UNIVERSIDADE FEDERAL DE MATO GROSSO.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAMILA LIMA DE ABREU.
+							ANÁLISE DAS DIFICULDADES ENCONTRADAS PELOS EGRESSOS DO CURSO DE CIÊNCIAS CONTÁBEIS FRENTE AO MERCADO DE TRABALHO.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências Contábeis)  - Universidade Federal de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cosmeilson Rodrigues Soares.
+							Uma análise das publicações realizadas na RBC - Revista Brasileira de Contabilidade sobre Auditoria Ambiental no período de 2000 a 2007..
+							2008.
+							Iniciação Científica. (Graduando em Ciências Contábeis)  - Universidade Federal de Mato Grosso,
+							Fundação de Amparo à Pesquisa do Estado de Mato Grosso. Orientador: Sofía Inés Niveiros.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 23/05/2014 &agrave;s 17:32:52</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0047857963186064" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

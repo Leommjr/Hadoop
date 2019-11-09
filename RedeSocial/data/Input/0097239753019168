@@ -1,0 +1,2448 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (&Iacute;sis Meri Medri)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0097239753019168" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4761623U3&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4761623U3"><div class="infpessoa">
+<h2 class="nome">&Iacute;sis Meri Medri</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0097239753019168</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 08/10/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Ciências Biológicas pela Universidade Estadual de Londrina (1999), mestrado em Ecologia e Conservação pela Universidade Federal de Mato Grosso do Sul (2002) e doutorado em Ecologia pela Universidade de Brasília (2008). Tem experiência na área de Ecologia de Mamíferos e desenvolveu estudos principalmente com tamanduá-bandeira (Myrmecophaga tridactyla) e tatu-peba (Euphractus sexcinctus), no Pantanal. É membro do grupo de especialistas em tamanduás, preguiças e tatus da IUCN - International Union for Conservation of Nature.  
+<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ísis Meri Medri</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MEDRI, Ísis Meri</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Ecologia<span class="ajaxCAPES" data-param="&codigoCurso=53001010008P4&nivelCurso=D"></span>. <br class="clear" />Universidade de Brasília, UNB, Brasil.
+		
+	<br class="clear" />Título: Ecologia e História Natural do Tatu-peba, Euphractus sexcinctus (Linnaeus, 1758), no Pantanal da Nhecolândia, Mato Grosso do Sul, Ano de obtenção: 2008. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2995820468418963'><img src='images/curriculo/logolattes.gif' /></a>Dr Jader Soares Marinho Filho. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. <br class="clear" />Palavras-chave: Euphractus sexcinctus; Pantanal; área de vida; dieta; uso de hábitat; atividade. <br class="clear" />Grande área: Ciências Biológicas / Área: Ecologia / Subárea: Ecologia de Populações / Especialidade: Ecologia de Mamíferos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ecologia e Conservação<span class="ajaxCAPES" data-param="&codigoCurso=51001012005P6&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Mato Grosso do Sul, UFMS, Brasil.
+		
+	<br class="clear" />Título: Área de vida e uso de hábitat de tamanduá-bandeira - Myrmecophaga tridactyla Linnaeus, 1758 - nas Fazendas Nhumirim e Porto Alegre, Pantanal da Nhecolândia, MS,Ano de Obtenção: 2002.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/1427331432730150'><img src='images/curriculo/logolattes.gif' /></a>Dr Guilherme de Miranda Mourão.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: área de vida; Myrmecophaga tridactyla; tamanduá-bandeira; uso de hábitat; Pantanal; radio-telemetria. <br class="clear" />Grande área: Ciências Biológicas / Área: Ecologia / Subárea: Ecologia de Populações / Especialidade: Ecologia de Mamíferos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Ciências Biológicas<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual de Londrina, UEL, Brasil.
+		
+	<br class="clear" />Título: Fauna de besouros, com ênfase na família Scarabaeidae, do Parque Estadual Mata dos Godoy e de pastagem adjacente, no Norte do Paraná, Brasil. <br class="clear" />Orientador: Dr José Lopes. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ABC do Câncer.  (Carga horária: 30h). <br class="clear" />Instituto Nacional de Câncer.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Área de vida e monitoramento em mamíferos.  (Carga horária: 5h). <br class="clear" />Pontifícia Universidade Católica de Minas Gerais.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Introdução ao uso de pacotes estatísticos.  (Carga horária: 12h). <br class="clear" />Empresa Brasileira de Pesquisa Agropecuária.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Introdução ao estudo da arqueofauna.  (Carga horária: 20h). <br class="clear" />Universidade Federal de Mato Grosso do Sul, UFMS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Primatas do Pantanal.  (Carga horária: 12h). <br class="clear" />Universidade Federal de Mato Grosso do Sul, UFMS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Planejamento e manejo bio regional.  (Carga horária: 6h). <br class="clear" />II Congresso Brasileiro de Unidades de Conservação.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Curso básico de apicultura.  (Carga horária: 20h). <br class="clear" />Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Animais peçonhentos identificação e tratamento.  (Carga horária: 8h). <br class="clear" />Universidade Estadual de Maringá.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Primeiros socorros.  (Carga horária: 6h). <br class="clear" />Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fotografia aplicada à zoologia.  (Carga horária: 5h). <br class="clear" />Universidade Federal de Pernambuco.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tópicos de interpretação ambiental.  (Carga horária: 5h). <br class="clear" />Faculdade de Ciências Agrárias do Pará.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Biologia e conservação de mamíferos aquáticos.  (Carga horária: 15h). <br class="clear" />Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Técnicas de campo em geologia e paleontologia.  (Carga horária: 24h). <br class="clear" />Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Bacteriologia de peixes. <br class="clear" />Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Registro de Câncer de Base Populacional de Campinas, RCBP-CAMPINAS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Digitadora de notificações oncológicas, Carga horária: 30, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Registro de Câncer de Base Populacional de Campinas RCBP-Campinas, Coordenador: Prof. Dr. Djalma de Carvalho Moreira Filho, Coordenadora Executiva: Dra. Nazira Mahayri, Laboratório de Pesquisa Aplicada em Epidemiologia do Câncer, Departamento de Medicina Preventiva e Social, Faculdade de Ciências Médicas, Universidade Estadual de Campinas UNICAMP, http://www.campinascanceregistry.com.br/site/</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade de Brasília, UNB, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Livre, Enquadramento Funcional: Aluna de Doutorado em Ecologia, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2004 - 04/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Programa de Pós-Graduação em Ecologia, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Biologia de Mamíferos'>Biologia de Mamíferos</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Empresa Brasileira de Pesquisa Agropecuária, EMBRAPA PANTANAL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Participação em Projeto, Enquadramento Funcional: Estagiária do Laboratório de Fauna, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estagiária do Laboratório de Fauna, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estagiária do Laboratório de Fauna, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2007 - 03/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , EMBRAPA PANTANAL, Laboratório de Fauna. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Ecologia e Conservação de Animais Silvestres do Pantanal'>Ecologia e Conservação de Animais Silvestres do Pantanal</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2006 - 12/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , EMBRAPA PANTANAL, Laboratório de Fauna. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Fauna Silvestre. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2001 - 09/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , EMBRAPA PANTANAL, Laboratório de Fauna. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Manejo de Fauna Silvestre. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Fundação de Apoio à Pesquisa e ao Desenvolvimento Sustentável do Pantanal, FADSPANTANAL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Analista de Biodiversidade, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Mato Grosso do Sul, UFMS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Livre, Enquadramento Funcional: Aluna de Mestrado em Ecologia e Conservação, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Aluna de Graduação em Ciências Biológicas, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsa do Programa Institucional de Iniciação Científica do CNPq/UEL, edital CPG-016/97, 029/97 e 032/98</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Livre, Enquadramento Funcional: Aluna do Curso de Ciências Biológicas, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Aluna de Graduação em Ciências Biológicas, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsa de Iniciação Científica da Universidade Estadual de Londrina, edital CPG-032/96</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Ecologia e Conserva&ccedil;&atilde;o de Animais Silvestres do Pantanal'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ecologia e Conservação de Animais Silvestres do Pantanal</div>
+</div><a name='LP_Biologia de Mam&iacute;feros'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Biologia de Mamíferos</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Ecologia e Hist&oacute;ria Natural do Tatu-peba, Euphractus sexcinctus (Linnaeus, 1758), no Pantanal da Nhecol&acirc;ndia, Mato Grosso do Sul'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ecologia e História Natural do Tatu-peba, Euphractus sexcinctus (Linnaeus, 1758), no Pantanal da Nhecolândia, Mato Grosso do Sul<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este estudo pretende abordar aspectos sobre a área de vida, uso de hábitat, atividade, dieta e comportamento do tatu-peba, Euphractus sexcinctus, no Pantanal da Nhecolândia, MS. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Ísis Meri Medri - Integrante / Guilherme Mourão - Integrante / Jader Marinho-Filho - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Idea Wild - Outra / Empresa Brasileira de Pesquisa Agropecuária - Cooperação.</div>
+</div><a name='PP_Mapeamento e Conserva&ccedil;&atilde;o da Fauna do Pantanal'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mapeamento e Conservação da Fauna do Pantanal<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Pesquisa sobre populações de mamíferos e organização de dados técnicos sobre a fauna do Pantanal. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Ísis Meri Medri - Integrante / Guilherme Mourão - Coordenador.<br class="clear" />Financiador(es): Conservação Internacional do Brasil - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_&Aacute;rea de vida e uso de h&aacute;bitat de tamandu&aacute;-bandeira - Myrmecophaga tridactyla Linnaeus, 1758 - nas Fazendas Nhumirim e Porto Alegre, Pantanal da Nhecol&acirc;ndia, MS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Área de vida e uso de hábitat de tamanduá-bandeira - Myrmecophaga tridactyla Linnaeus, 1758 - nas Fazendas Nhumirim e Porto Alegre, Pantanal da Nhecolândia, MS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Neste projeto foi desenvolvido um novo método de monitoramento intensivo de tamanduá-bandeira, chamado de GPS modificado, através do uso de um GPS acoplado em um rádio-transmissor VHF. O equipamento apresentou um custo acessível e possibilitou a obtenção de dados biológicos da espécie, em curtos períodos de tempo. A unidade confeccionada pode ser utilizada também em outros vertebrados, de peso igual ou maior que 22 kg. Com o uso de ambas as técnicas, tanto de rádio-telemetria convencional (VHF) como do GPS modificado, obtivemos dados sobre área de vida, uso de hábitat, atividade, dieta e comportamento de tamanduás-bandeiras, monitorados no Pantanal da Nhecolândia, MS. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Ísis Meri Medri - Integrante / Guilherme Mourão - Coordenador.<br class="clear" />Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa / Conservação Internacional do Brasil - Outra / Empresa Brasileira de Pesquisa Agropecuária - Cooperação.<br class="clear" />Número de produções C, T & A: 20</div>
+</div><a name='PP_Besouros do Parque Estadual Mata dos Godoy e de pastagem adjacente, Londrina - PR'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Besouros do Parque Estadual Mata dos Godoy e de pastagem adjacente, Londrina - PR<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Com o objetivo de comparar a diversidade da coleopterofauna entre uma floresta primária, Parque Estadual Mata dos Godoy, e uma área de pastagem adjacente, foram instaladas, nestes ambientes, armadilhas de solo (pitfall traps) iscadas com carne. Os besouros coletados foram identificados até o nível de família, e todos aqueles pertencentes à família Scarabaeidae foram identificados até o nível de espécie.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Ísis Meri Medri - Integrante / José Lopes - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.<br class="clear" />Número de produções C, T & A: 7</div>
+</div><a name='PP_Estudo ecol&oacute;gico de culicineos e anofelineos (Diptera: Culicidae) e da culicideofauna associada, em &aacute;rea urbana no sul do Brasil'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo ecológico de culicineos e anofelineos (Diptera: Culicidae) e da culicideofauna associada, em área urbana no sul do Brasil<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este trabalho teve como objetivo identificar as espécies de culicineos e anofelineos que ocorrem em alguns lagos, rios e e em suas margens, na área urbana do norte do Paraná, bem como seus horários de maior atividade, e suas densidades e variações populacionais sob a influência de fatores físicos como a temperatura ambiente, a umidade relativa do ar e a precipitação pluviométrica. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Ísis Meri Medri - Integrante / Eduardo Rogério Barbosa - Integrante / Eliana Tiemi Ito - Integrante / João Antônio Cyrino Zequi - Integrante / José Lopes - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.<br class="clear" />Número de produções C, T & A: 6</div>
+</div><a name='PP_Estudo ecol&oacute;gico de Aedes aegypti e Aedes albopictus (Diptera: Culicidae) e a culicideofauna associada, em uma mata localizada em &aacute;rea urbana, no sul do Brasil'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo ecológico de Aedes aegypti e Aedes albopictus (Diptera: Culicidae) e a culicideofauna associada, em uma mata localizada em área urbana, no sul do Brasil<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo desta pesquisa foi detectar a presença de Aedes aegypti e Aedes albopictus, importantes vetoras de patógenos, além de outros culicídeos, em uma pequena reserva de mata da cidade de Londrina, PR. Dentro da mata foram instalados pneus e internós de bambu para verificar a colonização destes recipientes pelas espécies de mosquitos. As coletas foram quinzenais e algumas larvas foram mantidas vivas no laboratório até a obtenção dos adultos para a confirmação da identificação de cada espécie. Além disso, foram coletadas taquaras na mata, para verificar a colonização de culicidae em criadouros naturais. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Ísis Meri Medri - Integrante / Eduardo Rogério Barbosa - Integrante / Eliana Tiemi Ito - Integrante / João Antônio Cyrino Zequi - Integrante / José Lopes - Coordenador.<br class="clear" />Financiador(es): Universidade Estadual de Londrina - Bolsa.<br class="clear" />Número de produções C, T & A: 5</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Ecologia / Subárea: Ecologia de Populações/Especialidade: Ecologia de Mamíferos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Zoologia / Subárea: Entomologia. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Título de Especialista em Zoologia, Conselho Regional de Biologia - CRBio-01. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Primeira colocada entre os 55 formandos da turma do curso de graduação em Ciências Biológicas - habilitações licenciatura e bacharelado, Universidade Estadual de Londrina - UEL. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MEDRI, Ísis Meri</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2673268264970741" target="_blank">MARTINS, João Ricardo</a> ; DOYLE, Rovaina Laureano ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2995820468418963" target="_blank">MARINHO-FILHO, Jader</a> . Ticks (Acari: Ixodidae) from Yellow Armadillo, Euphractus sexcinctus (Cingulata: Dasypodidae), in Brazil s Pantanal Wetlands. Neotropical Entomology (Impresso)<sup><img id='1519566X_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1519566X' /></sup>, v. 39, p. 823-825, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1519566X&volume=39&issue=&paginaInicial=823&titulo=Ticks (Acari: Ixodidae) from Yellow Armadillo, Euphractus sexcinctus (Cingulata: Dasypodidae), in Brazil s Pantanal Wetlands&sequencial=1&nomePeriodico=Neotropical Entomology (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PEDRINI, Sílvia Cristina Barboza</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S1413-86702010000100010" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3376284869863254" target="_blank">PEDRINI, Sílvia Cristina Barboza</a> ; ROSA, Patrícia Sammarco ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3320327570429539" target="_blank">BAGAGLI, Eduardo</a> ; LOPES, Carlos Alberto de Magalhães . Search for Mycobacterium leprae in wild mammals. The Brazilian Journal of Infectious Diseases (Impresso)<sup><img id='14138670_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14138670' /></sup>, v. 14, p. 47-53, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S1413-86702010000100010&issn=14138670&volume=14&issue=&paginaInicial=47&titulo=Search for Mycobacterium leprae in wild mammals&sequencial=2&nomePeriodico=The Brazilian Journal of Infectious Diseases (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DESBIEZ, Arnaud Léonard Jean</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>DESBIEZ, Arnaud Léonard Jean ; <b>MEDRI, Ísis Meri</b> . Density and Habitat Use by Giant Anteaters (Myrmecophaga tridactyla) and Southern Tamanduas (Tamandua tetradactyla) in the Pantanal Wetland, Brazil. Edentata (Belo Horizonte)<sup><img id='14134411_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134411' /></sup>, v. 11, p. 4-10, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134411&volume=11&issue=&paginaInicial=4&titulo=Density and Habitat Use by Giant Anteaters (Myrmecophaga tridactyla) and Southern Tamanduas (Tamandua tetradactyla) in the Pantanal Wetland, Brazil&sequencial=3&nomePeriodico=Edentata (Belo Horizonte)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MEDRI, Ísis Meri</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> . Matigodryas bifossatus (Swamp Racer): Predation and Ectoparasites. Herpetological Review<sup><img id='0018084X_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0018084X' /></sup>, v. 43, p. 367-367, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0018084X&volume=43&issue=&paginaInicial=367&titulo=Matigodryas bifossatus (Swamp Racer): Predation and Ectoparasites&sequencial=4&nomePeriodico=Herpetological Review" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>TOMAS, Walfrido Moraes</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3252734239915836" target="_blank">TOMAS, Walfrido Moraes</a> ; CAMILO, André Restel ; CAMPOS, Zilca ; CHIARAVALOTTI, Rafael Morais ; LACERDA, A. C. R. ; LIMA BORGES, Paulo André ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5266869626287467" target="_blank">NUNES, Alessandro Pacheco</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1485842192309240" target="_blank">TOMAS, Marcelle Aiza</a> ; GOULART, Charla Santos ; BORGHEZAN, Hugo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3455005336403614" target="_blank">LOPES, Vinicius Andrade</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9194357390613404" target="_blank">ARAGONA, Mônica</a> . Ocorrência de tatu-de-rabo-mole, Cabassous unicinctus (Cingulata, Dasypodidae) no Pantanal, Brasil. Boletim de Pesquisa e Desenvolvimento. Embrapa Pantanal<sup><img id='19817215_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19817215' /></sup>, v. 87, p. 1-19, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19817215&volume=87&issue=&paginaInicial=1&titulo=Ocorrência de tatu-de-rabo-mole, Cabassous unicinctus (Cingulata, Dasypodidae) no Pantanal, Brasil&sequencial=5&nomePeriodico=Boletim de Pesquisa e Desenvolvimento. Embrapa Pantanal" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MEDRI, Ísis Meri</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2995820468418963" target="_blank">MARINHO-FILHO, Jader</a> . Morfometria de tatu-peba, Euphractus sexcinctus (Linnaeus, 1758), no Pantanal da Nhecolândia, MS. Edentata (Belo Horizonte)<sup><img id='14134411_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134411' /></sup>, v. 8-10, p. 35-40, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134411&volume=8-10&issue=&paginaInicial=35&titulo=Morfometria de tatu-peba, Euphractus sexcinctus (Linnaeus, 1758), no Pantanal da Nhecolândia, MS&sequencial=6&nomePeriodico=Edentata (Belo Horizonte)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PINHEIRO, Carlos Eduardo Guimarães</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2561574310974189" target="_blank">PINHEIRO, Carlos Eduardo Guimarães</a> ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7322950407838226" target="_blank">SALCEDO, Ana Karina Moreyra</a> . Why do the ithomiines (Lepidoptera, Nymphalidae) aggregate? Notes on a butterfly pocket in central Brazil. Revista Brasileira de Entomologia<sup><img id='00855626_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00855626' /></sup>, v. 52, p. 610-614, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00855626&volume=52&issue=&paginaInicial=610&titulo=Why do the ithomiines (Lepidoptera, Nymphalidae) aggregate? Notes on a butterfly pocket in central Brazil&sequencial=7&nomePeriodico=Revista Brasileira de Entomologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOURÃO, Guilherme</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.1469-7998.2006.00198.x" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> ; <b>MEDRI, Ísis Meri</b> . Activity of a specialized insectivorous mammal (Myrmecophaga tridactyla) in the Pantanal of Brazil. Journal of Zoology<sup><img id='00225460_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00225460' /></sup>, London, v. 271, p. 187-192, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.1469-7998.2006.00198.x&issn=00225460&volume=271&issue=&paginaInicial=187&titulo=Activity of a specialized insectivorous mammal (Myrmecophaga tridactyla) in the Pantanal of Brazil&sequencial=8&nomePeriodico=Journal of Zoology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DESBIEZ, Arnaud Léonard Jean</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span>DESBIEZ, Arnaud Léonard Jean ; LIMA BORGES, Paulo André ; <b>MEDRI, Ísis Meri</b> . Chasing Behavior in Yellow Armadillos, Euphractus sexcinctus, in the Brazilian Pantanal. Edentata (Belo Horizonte)<sup><img id='14134411_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134411' /></sup>, Washington, v. 7, p. 51-53, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134411&volume=7&issue=&paginaInicial=51&titulo=Chasing Behavior in Yellow Armadillos, Euphractus sexcinctus, in the Brazilian Pantanal&sequencial=9&nomePeriodico=Edentata (Belo Horizonte)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LOPES, José</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7297492655965439" target="_blank">SANTOS, Fernando Pereira dos</a> ; <b>MEDRI, Ísis Meri</b> . Araneofauna capturada no interior da mata e área de pastagem adjacente, no norte do Paraná, Brasil. Semina. Ciências Biológicas e da Saúde<sup><img id='16790367_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16790367' /></sup>, v. 27, p. 133-138, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16790367&volume=27&issue=&paginaInicial=133&titulo=Araneofauna capturada no interior da mata e área de pastagem adjacente, no norte do Paraná, Brasil&sequencial=10&nomePeriodico=Semina. Ciências Biológicas e da Saúde" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MEDRI, Ísis Meri</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1017/s0952836905007004" target="_blank"></a><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> . Home range of giant anteaters (Myrmecophaga tridactyla) in the Pantanal wetland, Brazil. Journal of Zoology<sup><img id='00225460_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00225460' /></sup>, London, v. 266, n.4, p. 365-375, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1017/s0952836905007004&issn=00225460&volume=266&issue=&paginaInicial=365&titulo=Home range of giant anteaters (Myrmecophaga tridactyla) in the Pantanal wetland, Brazil&sequencial=11&nomePeriodico=Journal of Zoology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZEQUI, João Antônio Cyrino</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7409155095644588" target="_blank">ZEQUI, João Antônio Cyrino</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> ; <b>MEDRI, Ísis Meri</b> . Imaturos de Culicidae (Diptera) encontrados em recipientes instalados em mata residual no município de Londrina, Paraná, Brasil. Revista Brasileira de Zoologia<sup><img id='01018175_12' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01018175' /></sup>, Curitiba, v. 22, n.3, p. 656-661, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01018175&volume=22&issue=&paginaInicial=656&titulo=Imaturos de Culicidae (Diptera) encontrados em recipientes instalados em mata residual no município de Londrina, Paraná, Brasil&sequencial=12&nomePeriodico=Revista Brasileira de Zoologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MEDRI, Ísis Meri</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/s0101-81752005000400061" target="_blank"></a><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> . A brief note on the sleeping habits of the giant anteater - Myrmecophaga tridactyla Linnaeus (Xenarthra, Myrmecophagidae). Revista Brasileira de Zoologia<sup><img id='01018175_13' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01018175' /></sup>, Curitiba, v. 22, n.4, p. 1213-1215, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/s0101-81752005000400061&issn=01018175&volume=22&issue=&paginaInicial=1213&titulo=A brief note on the sleeping habits of the giant anteater - Myrmecophaga tridactyla Linnaeus (Xenarthra, Myrmecophagidae)&sequencial=13&nomePeriodico=Revista Brasileira de Zoologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MARTINS, João Ricardo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2673268264970741" target="_blank">MARTINS, João Ricardo</a> ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7628543008057205" target="_blank">OLIVEIRA, Carlos Marcos B.</a> ; GUGLIELMONE, Alberto A . Ocorrência de carrapatos em tamanduá-bandeira (Myrmecophaga tridactyla) e tamanduá-mirim (Tamandua tetradactyla) na região do Pantanal Sul-Matogrossense. Ciência Rural<sup><img id='01038478_14' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01038478' /></sup>, Santa Maria - RS, v. 34, n.1, p. 293-295, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01038478&volume=34&issue=&paginaInicial=293&titulo=Ocorrência de carrapatos em tamanduá-bandeira (Myrmecophaga tridactyla) e tamanduá-mirim (Tamandua tetradactyla) na região do Pantanal Sul-Matogrossense&sequencial=14&nomePeriodico=Ciência Rural" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MEDRI, Ísis Meri</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme de Miranda</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4410204692155098" target="_blank">HARADA, Ana Yoshi</a> . Dieta de Tamanduá-Bandeira (Myrmecophaga tridactyla) no Pantanal da Nhecolândia, Brasil. Edentata (Belo Horizonte)<sup><img id='14134411_15' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134411' /></sup>, Washington, v. 5, p. 29-34, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134411&volume=5&issue=&paginaInicial=29&titulo=Dieta de Tamanduá-Bandeira (Myrmecophaga tridactyla) no Pantanal da Nhecolândia, Brasil&sequencial=15&nomePeriodico=Edentata (Belo Horizonte)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RODRIGUES, Flávio Henrique Guimarães</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7838917349389458" target="_blank">RODRIGUES, Flávio Henrique Guimarães</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5215475207708816" target="_blank">MIRANDA, Guilherme Henrique Braga de</a> ; <b>MEDRI, Ísis Meri</b> ; SANTOS, Fernanda Vinci dos ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme de Miranda</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0297359174698952" target="_blank">HASS, Adriani</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2648951626258383" target="_blank">AMARAL, Pablo Sebastian Tavares</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7631893529228290" target="_blank">ROCHA, Fabiana Lopes</a> . Fitting Radio Transmitters to Giant Anteaters (Myrmecophaga tridactyla). Edentata (Belo Horizonte)<sup><img id='14134411_16' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134411' /></sup>, Washington, v. 5, p. 37-40, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134411&volume=5&issue=&paginaInicial=37&titulo=Fitting Radio Transmitters to Giant Anteaters (Myrmecophaga tridactyla)&sequencial=16&nomePeriodico=Edentata (Belo Horizonte)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MIRANDA, Guilherme Henrique Braga de</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5215475207708816" target="_blank">MIRANDA, Guilherme Henrique Braga de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7838917349389458" target="_blank">RODRIGUES, Flávio Henrique Guimarães</a> ; <b>MEDRI, Ísis Meri</b> ; SANTOS, Fernanda Vinci dos . Giant Anteater (Myrmecophaga tridactyla) Beehive Foraging at Emas National Park, Brazil. Edentata (Belo Horizonte)<sup><img id='14134411_17' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14134411' /></sup>, Washington, v. 5, p. 55, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14134411&volume=5&issue=&paginaInicial=55&titulo=Giant Anteater (Myrmecophaga tridactyla) Beehive Foraging at Emas National Park, Brazil&sequencial=17&nomePeriodico=Edentata (Belo Horizonte)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOURÃO, Guilherme</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> ; <b>MEDRI, Ísis Meri</b> . A new way of using inexpensive large-scale assembled GPS to monitor giant anteaters in short time intervals. Wildlife Society Bulletin<sup><img id='00917648_18' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00917648' /></sup>, Bethesda, v. 30, n.4, p. 1029-1032, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00917648&volume=30&issue=&paginaInicial=1029&titulo=A new way of using inexpensive large-scale assembled GPS to monitor giant anteaters in short time intervals&sequencial=18&nomePeriodico=Wildlife Society Bulletin" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RODRIGUES, Flávio Henrique Guimarães</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7838917349389458" target="_blank">RODRIGUES, Flávio Henrique Guimarães</a> ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3252734239915836" target="_blank">TOMAS, Walfrido Moraes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme de Miranda</a> . Revisão do conhecimento sobre ocorrência e distribuição de mamíferos do Pantanal. Documentos. Embrapa Pantanal<sup><img id='15171973_19' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15171973' /></sup>, Corumbá - MS, v. 38, p. 1-41, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15171973&volume=38&issue=&paginaInicial=1&titulo=Revisão do conhecimento sobre ocorrência e distribuição de mamíferos do Pantanal&sequencial=19&nomePeriodico=Documentos. Embrapa Pantanal" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MEDRI, Ísis Meri</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> . Coleopterofauna em floresta e pastagem no norte do Paraná, Brasil, coletada com armadilha de solo. Revista Brasileira de Zoologia<sup><img id='01018175_20' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01018175' /></sup>, Curitiba - PR, v. 18, p. 125-133, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01018175&volume=18&issue=&paginaInicial=125&titulo=Coleopterofauna em floresta e pastagem no norte do Paraná, Brasil, coletada com armadilha de solo&sequencial=20&nomePeriodico=Revista Brasileira de Zoologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MEDRI, Ísis Meri</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> . Scarabaeidae (Coleoptera) do Parque Estadual Mata dos Godoy e de área de pastagem, no norte do Paraná, Brasil. Revista Brasileira de Zoologia<sup><img id='01018175_21' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01018175' /></sup>, Curitiba - PR, v. 18, p. 135-141, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01018175&volume=18&issue=&paginaInicial=135&titulo=Scarabaeidae (Coleoptera) do Parque Estadual Mata dos Godoy e de área de pastagem, no norte do Paraná, Brasil&sequencial=21&nomePeriodico=Revista Brasileira de Zoologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme de Miranda</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7838917349389458" target="_blank">RODRIGUES, Flávio Henrique Guimarães</a> . Ordem Cingulata. In: Nelio R. dos Reis; Adriano L. Peracchi; Wagner A. Pedro; Isaac P. de Lima. (Org.). Mamíferos do Brasil. 2ed.Londrina: Edição do Autor, 2011, v. , p. 75-90. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme de Miranda</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7838917349389458" target="_blank">RODRIGUES, Flávio Henrique Guimarães</a> . Ordem Pilosa. In: Nelio R. dos Reis; Adriano L. Peracchi; Wagner A. Pedro; Isaac P. de Lima. (Org.). Mamíferos do Brasil. 2ed.Londrina: Edição do Autor, 2011, v. , p. 91-106. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; SAMPAIO, Maurício Bonesso ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3252734239915836" target="_blank">TOMAS, Walfrido Moraes</a> ; LIMA BORGES, Paulo André . Ordem Cingulata. In: Nelio Roberto dos Reis; Adriano Lúcio Peracchi; Maíra Nunes Fregonezi; Bruna Karla Rossaneis. (Org.). Mamíferos do Brasil - Guia de Identificação. Rio de Janeiro: Technical Books, 2010, v. , p. 79-90. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; SAMPAIO, Maurício Bonesso ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3252734239915836" target="_blank">TOMAS, Walfrido Moraes</a> ; LIMA BORGES, Paulo André . Ordem Pilosa. In: Nelio Roberto dos Reis; Adriano Lúcio Peracchi; Maíra Nunes Fregonezi; Bruna Karla Rossaneis. (Org.). Mamíferos do Brasil: Guia de Identificação. Rio de Janeiro: Technical Books, 2010, v. , p. 91-99. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Ordem Cingulata. In: Nelio Roberto dos Reis; Adriano Lúcio Peracchi; Maíra Nunes Fregonezi; Bruna Karla Rossaneis. (Org.). Guia Ilustrado Mamíferos do Paraná - Brasil. Pelotas: USEB, 2009, v. 1, p. 49-56. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Ordem Pilosa. In: Nelio Roberto dos Reis; Adriano Lúcio Peracchi; Maíra Nunes Fregonezi; Bruna Karla Rossaneis. (Org.). Guia Ilustrado Mamíferos do Paraná - Brasil. Pelotas: USEB, 2009, v. 1, p. 57-62. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7838917349389458" target="_blank">RODRIGUES, Flávio Henrique Guimarães</a> ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5215475207708816" target="_blank">MIRANDA, Guilherme Henrique Braga de</a> ; CAMILO-ALVES, Constança ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> . Anteater behavior and ecology. In: Sergio F. Vizcaíno; W. J. Loughry. (Org.). The Biology of the Xenarthra. Gainesville, FL: University Press of Florida, 2008, v. 1, p. 257-268. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> . Myrmecophaga tridactyla Linnaeus, 1758. In: Angelo Barbosa Monteiro Machado; Gláucia Moreira Drummond; Adriano Pereira Paglia. (Org.). Livro Vermelho da Fauna Brasileira Ameaçada de Extinção. 1ed.Brasília-DF: Ministério do Meio Ambiente; Fundação Biodiversitas, 2008, v. II, p. 711-713. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARINHO FILHO, Jader ; <b>MEDRI, Ísis Meri</b> . Priodontes maximus (Kerr, 1792). In: Angelo Barbosa Monteiro Machado; Gláucia Moreira Drummond; Adriano Pereira Paglia. (Org.). Livro Vermelho da Fauna Brasileira Ameaçada de Extinção. 1ed.Brasília-DF: Ministério do Meio Ambiente; Fundação Biodiversitas, 2008, v. II, p. 707-709. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7838917349389458" target="_blank">RODRIGUES, Flávio Henrique Guimarães</a> . Ordem Xenarthra. In: Nelio R. dos Reis; Adriano L. Peracchi; Wagner A. Pedro; Isaac P. de Lima. (Org.). Mamíferos do Brasil. 1ªed.Londrina - PR: Midiograf, 2006, v. 1, p. 71-99. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> . A Fauna do Pantanal. In: Alexandre Dinnys Roese; Fernando Fleury Curado. (Org.). Contribuições para a Educação Ambiental no Pantanal. 1ªed.Corumbá - MS: Embrapa Pantanal, 2005, v. 1, p. 46-50. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> . Bandeira nas ondas do rádio. Ciência Hoje das Crianças, Rio de Janeiro, , v. 160, p. 6 - 9, 10 ago.  2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> . A Fauna do Pantanal. Revista Ação Ambiental, Universidade Federal de Viçosa, , v. 26, p. 14 - 17, 01 fev.  2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MAHAYRI, Nazira ; SAMPAIO, Maurício Bonesso ; <b>MEDRI, Ísis Meri</b> ; MOREIRA-FILHO, Djalma de Carvalho . Utilização de dados dos Registros de Câncer de Base Populacional do Brasil em trabalhos científicos, no período de 1980 a 2013. In: II Congresso Brasileiro de Ligas de Cancerologia, 2013, Campinas - SP. Resumos do II Congresso Brasileiro de Ligas de Cancerologia, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOLIAS, Halison Correia ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> ; <b>MEDRI, Ísis Meri</b> . Staphylinidae (Coleoptera) coletados com armadilha pitfall no município Londrina, Brasil. In: XXIX Congresso Brasileiro de Zoologia, 2012, Salvador - BA. XXIX Congresso Brasileiro de Zoologia - Biodiversidade e Memória. Salvador, 2012. p. 1401. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2673268264970741" target="_blank">MARTINS, João Ricardo</a> ; DOYLE, Rovaina Laureano ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2995820468418963" target="_blank">MARINHO-FILHO, Jader</a> . Ticks (Acari: Ixodidae) from yellow armadillos, Euphractus sexcinctus (Linnaeus, 1758) (Cingulata: Dasypodidae), in the Pantanal, Brazil. In: XV Congresso Brasileiro de Parasitologia Veterniária / II Seminário de Parasitologia Veterinária dos Países do Mercosul, 2008, Curitiba - PR. Programa & Resumos do XV Congresso Brasileiro de Parasitologia Veterinária / II Seminário de Parasitologia Veterinária dos Países do Mercosul. Curitiba, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme de Miranda</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4410204692155098" target="_blank">HARADA, Ana Yoshi</a> . Dieta de tamanduá-bandeira Myrmecophaga tridactyla no Pantanal da Nhecolândia, Brasil. In: XXV Congresso Brasileiro de Zoologia, 2004, Brasília - DF. Resumos - XXV Congresso Brasileiro de Zoologia, 2004. p. 270. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme de Miranda</a> . Área de vida e uso de hábitat de tamanduá-bandeira (Myrmecophaga tridactyla) no Pantanal da Nhecolândia MS, Brasil. In: II Congresso Brasileiro de Mastozoologia, 2003, Belo Horizonte - MG. II Congresso Brasileiro de Mastozoologia Resumos, 2003. p. 152. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5215475207708816" target="_blank">MIRANDA, Guilherme Henrique Braga de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7838917349389458" target="_blank">RODRIGUES, Flávio Henrique Guimarães</a> ; <b>MEDRI, Ísis Meri</b> ; SANTOS, Fernanda Vinci dos . Forrageamento de tamanduá-bandeira (Myrmecophaga tridactyla) em colméia no Parque Nacional de Emas. In: II Congresso Brasileiro de Mastozoologia, 2003, Belo Horizonte - MG. II Congresso Brasileiro de Mastozoologia Resumos, 2003. p. 168. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> ; <b>MEDRI, Ísis Meri</b> ; ZINATTO, Márcio ; PEREIRA, Paulo Antônio Cypriano . Estudo comparativo da aranaeofauna (Arthropoda: Arachnida) de floresta primária e área de pastagem adjacente. In: XXIV Congresso Brasileiro de Zoologia, 2002, Itajaí - SC. Resumos do XXIV Congresso Brasileiro de Zoologia, 2002. v. 1. p. 129-130. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme de Miranda</a> . Área de vida de tamanduá-bandeira no Pantanal da Nhecolândia - MS. In: Simpósio de Ecologia e Biodiversidade do Cerrado, 2002, Brasília - DF. Simpósio Ecologia e Biodiversidade do Cerrado - Programa e Resumos, 2002. v. 1. p. 33. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme de Miranda</a> ; <b>MEDRI, Ísis Meri</b> . Uma nova maneira de usar GPS para monitorar tamanduá-bandeira em curto intervalo de tempo. In: Simpósio de Ecologia e Biodiversidade do Cerrado, 2002, Brasilia - DF. Simpósio Ecologia e Biodiversidade do Cerrado - Programa e Resumos, 2002. v. 1. p. 45-46. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2673268264970741" target="_blank">MARTINS, João Ricardo</a> ; <b>MEDRI, Ísis Meri</b> ; OLIVEIRA, Carlos Marcos ; GUGLIELMONE, Alberto . Ocorrência de carrapatos em tamanduá-bandeira (Myrmecophaga tridactyla) e tamanduá-mirim (Tamandua tetradactyla) na região do Pantanal Mato-Grossense. In: XII Congresso Brasileiro de Parasitologia Veterinária, 2002, Rio de Janeiro. CD Rom dos resumos apresentados no XII Congresso Brasileiro de Parasitologia Veterinária, 2002. v. 1. p. 35. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORRÊA, Michele Martins ; ALMEIDA, Marília Teresinha de ; <b>MEDRI, Ísis Meri</b> ; SILVEIRA, André Batista da ; UETANABARO, Masao . Dieta de duas espécies de Pseudidae (Anura) na Fazenda Rio Negro, Pantanal da Nhecolândia, Mato Grosso do Sul. In: 12º Encontro de Biólogos do CRBio-1 e 3º Encontro Nacional de Biólogos do CFBio, 2001, Campo Grande - MS. Programa e Resumos do 12º Encontro de Biólogos do CRBio-1 e 3º Encontro Nacional de Biólogos do CFBio, 2001. p. 85-86. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVEIRA, André Batista da ; ALMEIDA, Marília Teresinha de ; <b>MEDRI, Ísis Meri</b> ; CORRÊA, Michele Martins ; FERREIRA, Vanda Lúcia . Diversidade da fauna de invertebrados de serapilheira na Fazenda Rio Negro, Pantanal da Nhecolândia, Mato Grosso do Sul. In: 12º Encontro de Biólogos do CRBio-1 e 3º Encontro Nacional de Biólogos do CFBio, 2001, Campo Grande - MS. Programa e Resumos do 12º Encontro de Biólogos do CRBio-1 e 3º Encontro Nacional de Biólogos do CFBio, 2001. p. 86. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUES, Domingos de Jesus ; FERNANDES, Fabiana Maria ; RAIZER, Patricia Araujo de Abreu Cara ; <b>MEDRI, Ísis Meri</b> . Fenologia e produção de frutos em Cecropia pachystachya (Cecropiaceae) em cordilheiras, Pantanal da Nhecolândia, Mato Grosso do Sul. In: 12º Encontro de Biólogos do CRBio-1 e 3º Encontro Nacional de Biólogos do CFBio, 2001, Campo Grande - MS. Programa e Resumos do 12º Encontro de Biólogos do CRBio-1 e 3º Encontro Nacional de Biólogos do CFBio, 2001. p. 61. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVEIRA, André Batista da ; <b>MEDRI, Ísis Meri</b> ; CORRÊA, Michele Martins ; ALMEIDA, Marília Teresinha de ; HOPKINS, Michael John Gilbert . Riqueza de plantas lenhosas em capões na Fazenda Rio Negro, Pantanal da Nhecolândia, Mato Grosso do Sul. In: 12º Encontro de Biólogos do CRBio-1 e 3º Encontro Nacional de Biólogos do CFBio, 2001, Campo Grande - MS. Programa e Resumos do 12º Encontro de Biólogos do CRBio-1 e 3º Encontro Nacional de Biólogos do CFBio, 2001. p. 66. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORRÊA, Michele Martins ; SILVEIRA, André Batista da ; ALMEIDA, Marília Teresinha de ; <b>MEDRI, Ísis Meri</b> ; SANTOS, Flávio Antonio Mäes dos . Ritmos de crescimento de cinco espécies arbóreas da Fazenda Rio Negro, Pantanal da Nhecolândia, Mato Grosso do Sul. In: 12º Encontro de Biólogos do CRBio-1 e 3º Encontro Nacional de Biólogos do CFBio, 2001, Campo Grande. Programa e Resumos do 12º Encontro de Biólogos do CRBio-1 e 3º Encontro Nacional de Biólogos do CFBio, 2001. p. 66. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> . Besouros necrófagos (Coleoptera: Scarabaeidae) do Parque Estadual Mata dos Godoy e de área de pastagem, no Norte do Paraná, Brasil. In: XXIII Congresso Brasileiro de Zoologia, 2000, Cuiabá - MT. Resumos do XXIII Congresso Brasileiro de Zoologia, 2000. p. 173-174. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> . Coleopterofauna de floresta primária e de área de pastagem, no Norte do Paraná, Brasil. In: XXIII Congresso Brasileiro de Zoologia, 2000, Cuiabá - MT. Resumos do XXIII Congresso Brasileiro de Zoologia, 2000. p. 177. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> . Coleopterofauna de floresta primária e de área de pastagem, no Norte do Paraná, Brasil. In: Análise Integrada do Projeto "Aspectos da Fauna e Flora da Bacia do Rio Tibagi", 2000, Londrina - PR. Resumos da Análise Integrada do Projeto "Aspectos da Fauna e Flora da Bacia do Rio Tibagi", 2000. p. 33-34. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> ; MARTINS, Emerson Augusto Castilho ; ORICOLLI, Maria Carolina Gomiero ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7409155095644588" target="_blank">ZEQUI, João Antônio Cyrino</a> ; OLIVEIRA NETO, Bertulino P. de ; NUNES, Valdecir . Culicideofauna imatura coletada nas margens do Rio Tibagi, Norte do Estado do Paraná, Brasil. In: Análise Integrada do Projeto "Aspectos da Fauna e Flora da Bacia do Rio Tibagi", 2000, Londrina - PR. Resumos da Análise Integrada do Projeto "Aspectos da Fauna e Flora da Bacia do Rio Tibagi", 2000. p. 35-36. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7409155095644588" target="_blank">ZEQUI, João Antônio Cyrino</a> ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> ; OLIVEIRA, Osmar de ; OLIVEIRA NETO, Bertulino P. de ; NUNES, Valdecir ; RODRIGUES, Valter . Entomofauna de Culicidae (Diptera) imaturos coletados no Lago Igapó, perímetro urbano de Londrina, Paraná, Brasil. In: Análise Integrada do Projeto "Aspectos da Fauna e Flora da Bacia do Rio Tibagi", 2000, Londrina - PR. Resumos da Análise Integrada do Projeto "Aspectos da Fauna e Flora da Bacia do Rio Tibagi", 2000. p. 37. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> ; MARTINS, Emerson Augusto Castilho ; ORICOLLI, Maria Carolina Gomiero ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7409155095644588" target="_blank">ZEQUI, João Antônio Cyrino</a> ; OLIVEIRA, Osmar de ; OLIVEIRA NETO, Bertulino P. de ; NUNES, Valdecir ; RODRIGUES, Valter . Levantamento específico e populacional de Culicidae em uma mata primária no Norte do Estado do Paraná. In: Análise Integrada do Projeto "Aspectos da Fauna e Flora da Bacia do Rio Tibagi", 2000, Londrina - PR. Resumos da Análise Integrada do Projeto "Aspectos da Fauna e Flora da Bacia do Rio Tibagi", 2000. p. 50-51. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> . Scarabaeidae (Coleoptera) do Parque Estadual Mata dos Godoy e de área de pastagem, no Norte do Estado do Paraná, Brasil. In: Análise Integrada do Projeto "Aspectos da Fauna e Flora da Bacia do Rio Tibagi", 2000, Londrina - PR. Resumos da Análise Integrada do Projeto "Aspectos da Fauna e Flora da Bacia do Rio Tibagi", 2000. p. 57-58. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; BARBOSA, Eduardo Rogério ; ITO, Eliana Tiemi ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7409155095644588" target="_blank">ZEQUI, João Antônio Cyrino</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> . Culicideofauna coletada em pneus e intenós de bambu, instalados em um fragmento de mata na cidade de Londrina - Paraná, Brasil. In: VIII Seminário Anual de Iniciação Científica, 1999, Cascavel - PR. Resumos do VIII Seminário Anual de Iniciação Científica, 1999. p. 282-283. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7409155095644588" target="_blank">ZEQUI, João Antônio Cyrino</a> ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> . Culicideofauna (Diptera) encontrada em taquara de uma pequena mata na área urbana de Londrina - Paraná, Brasil. In: VIII Seminário Anual de Iniciação Científica, 1999, Cascavel - PR. Resumos do VIII Seminário Anual de Iniciação Científica, 1999. p. 285. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7409155095644588" target="_blank">ZEQUI, João Antônio Cyrino</a> ; BARBOSA, Eduardo Rogério ; OLIVEIRA, Osmar de ; OLIVEIRA NETO, Bertulino P. de ; NUNES, Valdecir ; RODRIGUES, Valter . Levantamento específico e populacional de Culicidae em uma mata primária no norte do Estado do Paraná. In: XXII Congresso Brasileiro de Zoologia, 1998, Recife - PE. Resumos do XXII Congresso Brasileiro de Zoologia, 1998. p. 149. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, Osmar de ; OLIVEIRA NETO, Bertulino P. de ; NUNES, Valdecir ; RODRIGUES, Valter ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7409155095644588" target="_blank">ZEQUI, João Antônio Cyrino</a> ; BARBOSA, Eduardo Rogério ; <b>MEDRI, Ísis Meri</b> . Entomofauna de Culicidae (Diptera) imaturos coletados no Lago Igapó, perímetro urbano de Londrina, Paraná, Brasil. In: XXII Congresso Brasileiro de Zoologia, 1998, Recife - PE. Resumos do XXII Congresso Brasileiro de Zoologia, 1998. p. 150. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7409155095644588" target="_blank">ZEQUI, João Antônio Cyrino</a> . Culicideofauna imatura coletada nas margens do Rio Tibagi, norte do estado do Paraná, Brasil. In: 4º Congresso de Ecologia do Brasil, 1998, Belém - PA. Resumos do 4º Congresso de Ecologia do Brasil, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; BARBOSA, Eduardo Rogério ; ITO, Eliana Tiemi ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7409155095644588" target="_blank">ZEQUI, João Antônio Cyrino</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> . Coleta e identificação de larvas de Culicidae, em pneus com água alocados em mata localizada em área urbana, no sul do Brasil. In: 16º Congresso Brasileiro de Entomologia e VII Encontro nacional de Fitossanitaristas, 1997, Salvador - BA. Resumos do 16º Congresso Brasileiro de Entomologia, 1997. p. 263-264. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ITO, Eliana Tiemi ; BARBOSA, Eduardo Rogério ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7409155095644588" target="_blank">ZEQUI, João Antônio Cyrino</a> ; <b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> . Incidência de larvas de Culicidae (Diptera) em internós de bambu alocados em uma pequena mata na área urbana de Londrina - PR. In: 16º Congresso Brasileiro de Entomologia e VII Encontro Nacional de Fitossanitaristas, 1997, Salvador - BA. Resumos do 16º Congresso Brasileiro de Entomologia, 1997. p. 264. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7409155095644588" target="_blank">ZEQUI, João Antônio Cyrino</a> ; BARBOSA, Eduardo Rogério ; <b>MEDRI, Ísis Meri</b> ; ITO, Eliana Tiemi ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6443072347607221" target="_blank">LOPES, José</a> . Larvas de Culicidae (Diptera) coletadas em taquara de uma pequena mata na área urbana de Londrina - PR. In: 16º Congresso Brasileiro de Entomologia e VII Encontro Nacional de Fitossanitaristas, 1997, Salvador - BA. Resumos do 16º Congresso Brasileiro de Entomologia, 1997. p. 263. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Biologia de tamanduá-bandeira (Myrmecophaga tridactyla). Palestra ministrada para alunos do curso de Ciências Biológicas da FIPLAC, Luziânia - GO, durante a II Semana Acadêmica do Curso de Ciências Biológicas - Semana da Diversidade. 2006. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> . Mamíferos Selvagens do Pantanal. Palestra ministrada para 15 militares do G. O. P. do Corpo de Fuzileiros Navais do Sexto Distrito Naval de Ladário - MS, durante o 2º Seminário sobre o Manejo de Recursos Naturais do Pantanal. 2003. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Mamíferos Selvagens do Pantanal. Palestra ministrada para 100 alunos de 2º grau da Escola Estadual Dom Bosco, Corumbá - MS, durante o 1º Seminário sobre Conservação Ambiental. 2003. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Trabalhos realizados no Laboratório de Fauna da Embrapa Pantanal. Apresentação oral para adolescentes com o objetivo de mostrar as pesquisas desenvolvidas no Laboratório de Fauna da Embrapa Pantanal, durante o III Seminário sobre a Pesquisa no Pantanal para Adolescentes. 2003. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Área de vida e uso de hábitat de tamanduá-bandeira. Palestra ministrada para alunos do curso de Ciências Biológicas da UFMS, Corumbá - MS, durante a IV Semana da Biologia: Estudos Ambientais no Pantanal. 2002. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Área de vida e uso de hábitat de tamanduá-bandeira, no Pantanal da Nhecolândia, MS. Palestra ministrada para 19 participantes no Laboratório de Fauna da Embrapa Pantanal. 2002. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Ecologia e História Natural do Tatu-peba, Euphractus sexcinctus (Linnaeus, 1758), no Pantanal da Nhecolândia, Mato Grosso do Sul.
+							Brasília:
+									Universidade de Brasília,  2008 (Tese de Doutorado). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Área de vida e uso de hábitat de tamanduá-bandeira - Myrmecophaga tridactyla Linnaeus, 1758 - nas Fazendas Nhumirim e Porto Alegre, Pantanal da Nhecolândia, MS.
+							Campo Grande:
+									Universidade Federal de Mato Grosso do Sul,  2002 (Dissertação de Mestrado). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Fauna de besouros, com ênfase na família Scarabaeidae, do Parque Estadual Mata dos Godoy e de pastagem adjacente, no Norte do Paraná, Brasil 1999 (Monografia de Graduação). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ProcessosTecnicas"></a>Processos ou técnicas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> ; <b>MEDRI, Ísis Meri</b> . Uso de GPS de baixo custo para confecção de um sistema para monitoramento de animais silvestres (MOURÃO, Guilherme ; MEDRI, Ísis Meri . A new way of using inexpensive large-scale assembled GPS to monitor giant anteaters in short time intervals. Wildlife Society Bulletin, 2002, 30(4): 1029-1032). 2002. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Programa Novos Heróis: Salvando Animais em Extinção. Produzido por Giros Produções e exibido no canal Animal Planet. 2001. 
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> ; <b>MEDRI, Ísis Meri</b> .  Nossos Bichos  - Mamíferos do Pantanal.
+							2007. (Desenvolvimento de material didático ou instrucional - CD-ROM Interativo). </div>
+</div>
+<br class="clear">
+<a name="ProducaoArtisticaCultural"></a><br class="clear" /><div class="inst_back">
+<b>Produção artística/cultural</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ArtesVisuais"></a>Artes Visuais</b>
+</div>
+<a name="artesVisuais"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Participação em exposição de fotografias - 'Bio em Foco II'. Premiação: 3º lugar. 2004. Fotografia. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b>.  Participação em banca de Alessandra Bertassoni da Silva. Avaliação da relação entre área de vida, distância média diária percorrida e disponibilidade de energia de tamanduás-bandeira (Myrmecophaga tridactyla) em savanas neotropicais. 2010. Dissertação (Mestrado em Ecologia e Conservação) - Universidade Federal de Mato Grosso do Sul. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso Brasileiro de Ligas de Cancerologia. Painel: Utilização de dados dos Registros de Câncer de Base Populacional do Brasil em trabalhos científicos, no período de 1980 a 2013. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio Iberoamericano de Investigação em Câncer.
+							2013. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI Congresso Brasileiro de Zoologia. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio de Radiotelemetria do Brasil.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Recuperação de Áreas Degradadas e Controle/Erradicação de Espécies Exóticas Invasoras no Parque Nacional de Brasília. 2005. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Fórum de Educação e Saúde da Região Centro-Oeste e Distrito Federal. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso Brasileiro de Mastozoologia. Painéis: 1) Área de vida e uso de hábitat de tamanduá-bandeira (Myrmecophaga tridactyla) no Pantanal da Nhecolândia MS, Brasil; 2) Forrageamento de tamanduá-bandeira (Myrmecophaga tridactyla) em colméia no Parque Nacional de Emas. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Workshop do Projeto Taquari-Pantanal. 2003. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2º Encontro Internacional de Integração Técnico-Científica para o Desenvolvimento Sustentável do Cerrado e do Pantanal.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso Brasileiro de Unidades de Conservação. 2000. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Análise Integrada do Projeto "Aspectos da Fauna e Flora da Bacia do Rio Tibagi".Painéis: 1) Coleopterofauna de floresta primária e de área de pastagem...; 2) Culicideofauna imatura...; 3) Entomofauna de Culicidae...; 4) Levantamento específico e populacional de Culicidae...; 5) Scarabaeidae do Parque Estadual Mata dos Godoy.... 2000. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Seminário Anual de Iniciação Científica.Painéis: 1) Culicideofauna coletada em pneus e intenós de bambu, instalados em um fragmento de mata na cidade de Londrina - Paraná, Brasil; 2) Culicideofauna (Diptera) encontrada em taquara de uma pequena mata na área urbana de Londrina - Paraná, Brasil. 1999. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Encontro Maringaense de Biologia - XIV Semana da Biologia.
+							1999. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Congresso Brasileiro de Zoologia. Painéis: 1)  Entomofauna de Culicidae (Diptera) imaturos coletados no Lago Igapó, perímetro urbano de Londrina, Paraná, Brasil; 2) Levantamento específico e populacional de Culicidae em uma mata primária no norte do Estado do Paraná. 1998. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">4º Congresso de Ecologia do Brasil. Painel: Culicideofauna imatura coletada nas margens do Rio Tibagi, norte do estado do Paraná, Brasil. 1998. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Encontro Paranaense de Genética.
+							1998. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Encontro Anual de Iniciação Científica.
+							1998. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">16º Congresso Brasileiro de Entomologia e VII Encontro Nacional de Fitossanitaristas. Painéis: 1) Coleta e identificação de larvas de Culicidae...; 2) Incidência de larvas de Culicidae (Diptera) em internós de bambu...; 3) Larvas de Culicidae (Diptera) coletadas em taquara de uma pequena mata na área urbana de Londrina - PR. 1997. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Encontro Anual de Iniciação Científica CNPq - UEPG - UEL - UEM - UNIOESTE.
+							1997. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário de Apresentação das Monografias dos Alunos do Curso de Ciências Biológicas. 1996. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Projeto Conheça a UEL. 1999. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Projeto Conheça a UEL. 1997. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="TextosJornaisEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> . A Fauna do Pantanal. Revista Ação Ambiental, Universidade Federal de Viçosa, , v. 26, p. 14 - 17, 01 fev.  2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> . Bandeira nas ondas do rádio. Ciência Hoje das Crianças, Rio de Janeiro, , v. 160, p. 6 - 9, 10 ago.  2005. </div>
+</div>
+<br class="clear">
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> . Mamíferos Selvagens do Pantanal. Palestra ministrada para 15 militares do G. O. P. do Corpo de Fuzileiros Navais do Sexto Distrito Naval de Ladário - MS, durante o 2º Seminário sobre o Manejo de Recursos Naturais do Pantanal. 2003. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Mamíferos Selvagens do Pantanal. Palestra ministrada para 100 alunos de 2º grau da Escola Estadual Dom Bosco, Corumbá - MS, durante o 1º Seminário sobre Conservação Ambiental. 2003. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Trabalhos realizados no Laboratório de Fauna da Embrapa Pantanal. Apresentação oral para adolescentes com o objetivo de mostrar as pesquisas desenvolvidas no Laboratório de Fauna da Embrapa Pantanal, durante o III Seminário sobre a Pesquisa no Pantanal para Adolescentes. 2003. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<a name="MaterialDidaticoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Desenvolvimento de material didático ou instrucional</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1427331432730150" target="_blank">MOURÃO, Guilherme</a> ; <b>MEDRI, Ísis Meri</b> .  Nossos Bichos  - Mamíferos do Pantanal.
+							2007. (Desenvolvimento de material didático ou instrucional - CD-ROM Interativo). </div>
+</div>
+<br class="clear">
+<a name="EntrevistasEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Entrevistas, mesas redondas, programas e comentários na mídia </b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Programa Novos Heróis: Salvando Animais em Extinção. Produzido por Giros Produções e exibido no canal Animal Planet. 2001. 
+						</div>
+</div>
+<br class="clear">
+<a name="OrganizacaoEventosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras </b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Projeto Conheça a UEL. 1999. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEDRI, Ísis Meri</b> . Projeto Conheça a UEL. 1997. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 13:21:18</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0097239753019168" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

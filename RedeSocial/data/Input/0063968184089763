@@ -1,0 +1,1516 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Mariana Michelato)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0063968184089763" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4130048Z4&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4130048Z4"><div class="infpessoa">
+<h2 class="nome">Mariana Michelato<br>
+<br>
+<span align="center" style="font-weight: bold" class="texto">Bolsista de P&oacute;s-doutorado J&uacute;nior do CNPq</span>
+</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0063968184089763</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 29/01/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Curso de Graduação Em Zootecnia pela Universidade Estadual de Maringá (2007), Mestrado (2009) e Doutorado (2013) pelo Programa de Pós-Graduação em Zootecnia-UEM pela Universidade Estadual de Maringá.
+Tem experiência na área de Recursos Pesqueiros e Engenharia de Pesca, com ênfase em Aqüicultura<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mariana Michelato</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MICHELATO, Mariana;MICHELATO, MARIANA</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Programa de Pós-Graduaçao em Zootencia-UEM<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear" />Título: EXIGÊNCIA DE LISINA E RELAÇÃO TREONINA:LISINA EM DIETAS PARA TILÁPIAS DO NILO NA TERMINAÇÃO, Ano de obtenção: 2013. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5043541966109135'><img src='images/curriculo/logolattes.gif' /></a>Dr. Wilson Massamitu Furuya. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Programa de Pós-Graduação em Zootecnia-UEM<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear" />Título: Exigência de Metionina+Cistina para a tilápia do Nilo de 550 a 700 g, em tanques-rede, com base no conceito de proteína ideal,Ano de Obtenção: 2010.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5043541966109135'><img src='images/curriculo/logolattes.gif' /></a>Dr. Wilson Massamitu Furuya.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Grande área: Ciências Agrárias / Área: Zootecnia. <br class="clear" />Grande Área: Ciências Agrárias / Área: Zootecnia / Subárea: Nutrição e Alimentação Animal. <br class="clear" />Setores de atividade: Pesca, Aqüicultura e Atividades dos Serviços Relacionados Com Estas Atividades. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Curso de Graduação Em Zootecnia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual de Maringá, UEM, Brasil.
+		
+	<br class="clear" />Título: Fitase em juvenis de Pacu, Piaractus mesopotamicus. <br class="clear" />Orientador: Dr. Wilson Massamitu Furuya. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Estadual de Ponta Grossa, UEPG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Servidor Público, Carga horária: 40</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Recursos Pesqueiros e Engenharia de Pesca / Subárea: Aqüicultura. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Recursos Pesqueiros e Engenharia de Pesca / Subárea: Aqüicultura/Especialidade: Piscicultura. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MICHELATO, Mariana;MICHELATO, MARIANA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S1516-35982013000100002" target="_blank"></a><b>MICHELATO, Mariana</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; VIDAL, L. V. O. ; XAVIER, T.O ; Moura, L.B. . Digestible methionine + cystine requirement for Nile tilapiafrom 550 to 700 g based on the ideal protein concep. Revista Brasileira de Zootecnia / Brazilian Journal of Animal Science<sup><img id='15163598_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15163598' /></sup>, v. 42, p. 7-12, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S1516-35982013000100002&issn=15163598&volume=42&issue=&paginaInicial=7&titulo=Digestible methionine + cystine requirement for Nile tilapiafrom 550 to 700 g based on the ideal protein concep&sequencial=1&nomePeriodico=Revista Brasileira de Zootecnia / Brazilian Journal of Animal Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FURUYA, WILSON MASSAMTITU</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5433/1679-0359.2013v34n4p1945" target="_blank"></a>FURUYA, WILSON MASSAMTITU ; <b>MICHELATO, MARIANA</b> ; GRACIANO, THEMIS SAKAGUTI ; VIDAL, LUIZ VITOR OLIVEIRA ; XAVIER, TADEU ORLANDI ; FURUYA, VALÉRIA ROSSETTO BARRIVIERA ; MOURA, LORENA BATISTA DE . Exigência de lisina digestível para a tilápia-do-Nilo de 87 a 226 g alimentada com dietas balanceadas para a relação arginina: lisina. Semina. Ciências Agrárias (Online)<sup><img id='16790359_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16790359' /></sup>, v. 34, p. 1945-1954, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.5433/1679-0359.2013v34n4p1945&issn=16790359&volume=34&issue=&paginaInicial=1945&titulo=Exigência de lisina digestível para a tilápia-do-Nilo de 87 a 226 g alimentada com dietas balanceadas para a relação arginina: lisina&sequencial=2&nomePeriodico=Semina. Ciências Agrárias (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FURUYA, VALÉRIA ROSSETTO BARRIVIERA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>FURUYA, VALÉRIA ROSSETTO BARRIVIERA ; FURUYA, WILSON MASSAMITU ; <b>MICHELATO, MARIANA</b> ; SALARO, A. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7957479278599581" target="_blank">MATSUSHITA, Makoto</a> ; BATISTON, W. P. . Composição proximal e perfil de ácidos graxos do lambari-do-rabo-vermelho (Astyanax fasciatus) de diferentes classes de peso. Revista Brasileira de Saúde e Produção Animal<sup><img id='15199940_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15199940' /></sup>, v. 14, p. 820-830, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15199940&volume=14&issue=&paginaInicial=820&titulo=Composição proximal e perfil de ácidos graxos do lambari-do-rabo-vermelho (Astyanax fasciatus) de diferentes classes de peso&sequencial=3&nomePeriodico=Revista Brasileira de Saúde e Produção Animal" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VIDAL, LUIZ VÍTOR OLIVEIRA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.4025/actascianimsci.v34i3.13304" target="_blank"></a>VIDAL, LUIZ VÍTOR OLIVEIRA ; XAVIER, TADEU ORLANDI ; <b>MICHELATO, Mariana</b> ; MARTINS, ELIAS NUNES ; FURUYA, WILSON MASSAMITU ; GRACIANO, THÊMIS SAKAGUTI . Mathematical modeling for digestible energy in animal feeds for tilapia. Acta Scientiarum. Zootechny<sup><img id='18062636_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18062636' /></sup>, v. 34, p. 313-319, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.4025/actascianimsci.v34i3.13304&issn=18062636&volume=34&issue=&paginaInicial=313&titulo=Mathematical modeling for digestible energy in animal feeds for tilapia&sequencial=4&nomePeriodico=Acta Scientiarum. Zootechny" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VIDAL, LUIZ VÍTOR OLIVEIRA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/s1516-35982012000600005" target="_blank"></a>VIDAL, LUIZ VÍTOR OLIVEIRA ; MARTINS, ELIAS NUNES ; FURUYA, WILSON MASSAMITU ; GRACIANO, THEMIS SAKAGUTI ; <b>MICHELATO, MARIANA</b> ; XAVIER, TADEU ORLANDI . Mathematical modeling for digestible protein in animal feeds for tilapia. Revista Brasileira de Zootecnia (Online)<sup><img id='18069290_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18069290' /></sup>, v. 41, p. 1346-1352, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/s1516-35982012000600005&issn=18069290&volume=41&issue=&paginaInicial=1346&titulo=Mathematical modeling for digestible protein in animal feeds for tilapia&sequencial=5&nomePeriodico=Revista Brasileira de Zootecnia (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Furuya, W. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; Furuya, V.R.B. ; NAGAE, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; <b>MICHELATO, Mariana</b> ; XAVIER, T.O ; VIDAL, L. V. O. . Nutrição de tilápias no Brasil. Scientia Agrária Paranaensis (UNIOESTE. Impresso)<sup><img id='16774310_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16774310' /></sup>, v. 11, p. 19-34, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16774310&volume=11&issue=&paginaInicial=19&titulo=Nutrição de tilápias no Brasil&sequencial=6&nomePeriodico=Scientia Agrária Paranaensis (UNIOESTE. Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RIGHETTI, Jose Sergio</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		RIGHETTI, Jose Sergio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; CONEJERO, C. I ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; VIDAL, L. V. O. ; <b>MICHELATO, Mariana</b> . Redução da proteína em dietas para tilápias-do-nilo por meio da suplementação de aminoácidos com base no conceito de proteína ideal.. Revista brasileira de zootecnia (Online)<sup><img id='18069290_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18069290' /></sup>, v. 40, p. 469-476, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18069290&volume=40&issue=&paginaInicial=469&titulo=Redução da proteína em dietas para tilápias-do-nilo por meio da suplementação de aminoácidos com base no conceito de proteína ideal.&sequencial=7&nomePeriodico=Revista brasileira de zootecnia (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Schwarz, Kátia Kalko</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5826818769951915" target="_blank">Schwarz, Kátia Kalko</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5721178588513838" target="_blank">NATALI, Maria Raquel Marçal</a> ; <b>MICHELATO, Mariana</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2149124142027335" target="_blank">GUALDEZI, M. C.</a> . Mananoligossacarídeo em dietas para juvenis de tilápias do Nilo. Acta Scientiarum. Animal Sciences<sup><img id='18078672_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18078672' /></sup>, v. 32, p. 197-203, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18078672&volume=32&issue=&paginaInicial=197&titulo=Mananoligossacarídeo em dietas para juvenis de tilápias do Nilo&sequencial=8&nomePeriodico=Acta Scientiarum. Animal Sciences" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GRACIANO, T. S</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5721178588513838" target="_blank">NATALI, Maria Raquel Marçal</a> ; VIDAL, L. V. O. ; <b>MICHELATO, Mariana</b> ; RIGHETTI, Jose Sergio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> . Desempenho e morfologia hepática de juvenis de tilápia-do-nilo alimentados com dietas suplementadas com metionina e colina.. Pesquisa Agropecuária Brasileira (Online)<sup><img id='16783921_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16783921' /></sup>, v. 45, p. 737-743, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16783921&volume=45&issue=&paginaInicial=737&titulo=Desempenho e morfologia hepática de juvenis de tilápia-do-nilo alimentados com dietas suplementadas com metionina e colina.&sequencial=9&nomePeriodico=Pesquisa Agropecuária Brasileira (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Santos, Lilian Dena dos</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4810329377754284" target="_blank">Santos, Lilian Dena dos</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; SIlva, Tarcila Souza de Castro ; <b>MICHELATO, Mariana</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7957479278599581" target="_blank">MATSUSHITA, Makoto</a> . Ácido linoléico conjugado em dietas para o pacu:tempo de deposição, desempenho e perfil de ácidos graxos.. Revista brasileira de zootecnia (Online)<sup><img id='18069290_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18069290' /></sup>, v. 38, p. 980-988, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18069290&volume=38&issue=&paginaInicial=980&titulo=Ácido linoléico conjugado em dietas para o pacu:tempo de deposição, desempenho e perfil de ácidos graxos.&sequencial=10&nomePeriodico=Revista brasileira de zootecnia (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Furuya, W. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <b>MICHELATO, Mariana</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4810329377754284" target="_blank">Santos, Lilian Dena dos</a> ; SIlva, Tarcila Souza de Castro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3122323191221170" target="_blank">Schamber, Christiano Rodrigues</a> . Fitase em rações para juvenis de pacu (Piaractus mesopotamicus). Boletim do Instituto de Pesca (Online)<sup><img id='16782305_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16782305' /></sup>, v. 34, p. 489-496, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16782305&volume=34&issue=&paginaInicial=489&titulo=Fitase em rações para juvenis de pacu (Piaractus mesopotamicus)&sequencial=11&nomePeriodico=Boletim do Instituto de Pesca (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Furuya, W. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; FUJII, Keila Michele ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4810329377754284" target="_blank">Santos, Lilian Dena dos</a> ; SIlva, Tarcila Souza de Castro ; Silva, Lilian Carolina Rosa da ; <b>MICHELATO, Mariana</b> . Exigência de fósforo disponível para tilápia-do-nilo (35 a 100 g). Revista Brasileira de Zootecnia / Brazilian Journal of Animal Science<sup><img id='15163598_12' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15163598' /></sup>, v. 37, p. 961-966, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15163598&volume=37&issue=&paginaInicial=961&titulo=Exigência de fósforo disponível para tilápia-do-nilo (35 a 100 g)&sequencial=12&nomePeriodico=Revista Brasileira de Zootecnia / Brazilian Journal of Animal Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SIlva, Tarcila Souza de Castro</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>SIlva, Tarcila Souza de Castro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; Santos, Vivian Gomes dos ; FUJII, Keila Michele ; <b>MICHELATO, Mariana</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8919540105612616" target="_blank">IWAMOTO, Bruno Shigueo</a> . Fitase liquida em dieta extrusada para juvenis de tilápia do Nilo (Oreochromis niloticus).. Acta Scientiarum. Animal Sciences<sup><img id='18078672_13' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18078672' /></sup>, v. 29, p. 449-455, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18078672&volume=29&issue=&paginaInicial=449&titulo=Fitase liquida em dieta extrusada para juvenis de tilápia do Nilo (Oreochromis niloticus).&sequencial=13&nomePeriodico=Acta Scientiarum. Animal Sciences" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; VIDAL, LUIZ VÍTOR OLIVEIRA ; <b>MICHELATO, Mariana</b> ; Furuya, V.R.B. . Brazilian Research Examines Amino Acids in Nile Tilapia Diets. The Global Aquaculture Advocate, p. 34 - 35, 10 jul.  2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <b>MICHELATO, Mariana</b> ; Furuya, V.R.B. . Dietary Threonine Factor in Tilapia Fillet Yield. The Global Aquaculture Advocate, p. 80 - 81, 04 jul.  2013. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Furuya, V.R.B. ; FURUYA, WILSON MASSAMITU ; <b>MICHELATO, Mariana</b> ; VIDAL, L. V. O. ; CRUZ, T. P. . Equação de predição do peso e rendimento de filé de tilápias do Nilo GIFT. In: XXII Congresso Brasileiro de Zootecnia, 2013, Foz do Iguaçu. XXIII Congresso Brasileiro de Zootecnia - ZOOTEC 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, E. N. ; VIDAL, L. V. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; XAVIER, T.O ; <b>MICHELATO, Mariana</b> ; GRACIANO, THEMIS SAKAGUTI . Atendimento das exigências nutricionais em aminoácidos digestíveis e classificação do milho, soja, trigo e respectivos subprodutos, como ingredientes em dietas para a tilápia do Nilo (Oreochromis niloticus). In: 49ª Reunião Anual da SBZ, 2012, Brasília. Anais da 49ª Reunião Anual da SBZ, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b> ; CRUZ, T. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; LORENO, D. L. ; MELO, A. C. ; Furuya, V.R.B. ; VIDAL, L. V. O. ; XAVIER, T.O . Composição corporal de aminoácidos essenciais da tilápia-do-Nilo com base no conceito de proteína ideal. In: 49ª Reunião Anual da SBZ, 2012, Brasília. Anais da 49ª Reunião Anual da SBZ, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Furuya, V.R.B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <b>MICHELATO, Mariana</b> ; MONGRUEL, B. N. ; MARCOWICZ, J. M. ; OLIVEIRA, R. J. . Relação peso:comprimento e composição corporal do lambari-do-rabo-vermelho (Astyanax fasciatus) criado na região dos Campos Gerais. In: 48ª Reunião Anual da Sociedade Brasileira de Zootecnia, 2011, Belém. Anais da 48ª Reunião Anual da Sociedade Brasileira de Zootecnia, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIDAL, L. V. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <b>MICHELATO, Mariana</b> ; XAVIER, T.O ; LEME, M.V.A ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> . Digestibilidade aparente de proteína e energia de farinhas de carne e ossos de diferentes níveis de proteicos para a tilápia do Nilo. In: 47 Reunião da Sociedade Brasileira de Zootecnia, 2010, Salvador. Empreendedorismo e Progresso Científicos na Zootecnia Brasileira de Vanguarda., 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <b>MICHELATO, Mariana</b> ; VIDAL, L. V. O. ; XAVIER, T.O ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; GONGORA, L.D. . Exigência de metionina + cistina para a tilápia do Nilo de 550 a 700 g, em tanques-rede, com base no conceito de proteína ideal. In: 47ª Reunião Anual da Sociedade Brasileira de Zootecnia, 2010, Salvador. Anais 47ª Reunião Anual da Sociedade Brasileira de Zootecnia, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; Furuya, V.R.B. ; VIDAL, L. V. O. ; <b>MICHELATO, Mariana</b> ; Bittencourt, Marilize . Exigência de lisina digestível para juvenis de tilápia do Nilo em dietas corrigidas para relação arginina:lisina. In: 47ªReunião Anual da Sociedade Brasileira de Zootecnia, 2010, Salvador. Anais da  47ªReunião Anual da Sociedade Brasileira de Zootecnia, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; Furuya, V.R.B. ; VIDAL, L. V. O. ; <b>MICHELATO, Mariana</b> ; GONGORA, L.D. . Exigência de lisina digestível para a tilápia do Nilo de 87 a 226 g em dietas balanceadas para relação arginina:lisina. In: 47ªReunião Anual da Sociedade Brasileira de Zootecnia, 2010, Salvador. Anais da 47ªReunião Anual da Sociedade Brasileira de Zootecnia, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIDAL, L. V. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <b>MICHELATO, Mariana</b> ; BARRIVIERA, Valléria Rossetto ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; GONGORA, L.D. . Modelo lineares para estimar os valores de proteína digestível de alimentos proteicos para tilapia utilizando metanálise. In: III Simpósio Internacional de Nutrição e Saúde de Peixes, 2009, Botucatu. III Simpósio Internacional de Nutrição e Saúde de Peixes, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; VIDAL, L. V. O. ; BARRIVIERA, Valléria Rossetto ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; GONGORA, L.D. . Equação de predição da energia bruta corporal da tilápia do Nilo por meio da composição química.. In: III Simpósio Internacional de Nutrição e Saúde de Peixes, 2009, Botucatu. III Simpósio Internacional de Nutrição e Saúde de Peixes, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; SILVA, T. S. C. E. ; BARRIVIERA, Valléria Rossetto ; Martins, E. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; VIDAL, L. V. O. ; <b>MICHELATO, Mariana</b> . Equação de predição da exigencia de proteía bruta para a tilápia do Nilo de 30 a 567g, em gaiolas. In: III Simpósio Internacional de Nutrição e Saúde de Peixes, 2009, Botucatu. III Simpósio Internacional de Nutrição e Saúde de Peixes, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIGHETTI, Jose Sergio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; CONEJERO, C. I ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; VIDAL, L. V. O. ; <b>MICHELATO, Mariana</b> . Redução da proteína em dietas para a tilápiado-nilo pela suplementação de aminoácidos sintéticos com base no conceito de proteína ideal. In: 46ª Reunião Anual da Sociedade Brasileira de Zootecnia, 2009, Maringá. Anais da 46ª Reunião Anual da Sociedade Brasileira de Zootecnia, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; FUJII, Keila Michele ; Silva, Lilian Carolina Rosa da ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4810329377754284" target="_blank">Santos, Lilian Dena dos</a> ; SIlva, Tarcila Souza de Castro ; <b>MICHELATO, Mariana</b> ; BARRIVIERA, Valléria Rossetto . Exigência de fósforo disponível para a tilápia do Nilo (35 a 100 g). In: Reunião da Sociedade Brasileira de Zootecnia, 2006, João Pessoa. Reunião Anual da Sociedade Brasileira de Zootecnia., 2006. v. 1. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <b>MICHELATO, Mariana</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; VIDAL, L. V. O. ; XAVIER, T.O ; Moura, L.B. ; Furuya, V.R.B. . MODELING OF DAILY PROTEIN DEPOSITION AND PROTEIN EFFICIENCY RATIO OF LARGE NILE TILAPIA FED DIETS CONTAINING INCREASING LEVELS OF THREONINE. In: Aquaculture America 2012, 2012, Las Vegas. Aquaculture America 2012, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; <b>MICHELATO, Mariana</b> ; XAVIER, T.O ; VIDAL, L. V. O. ; Moura, L.B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> . Desempenho produtivo e composição corporal de Tilápias do Nilo suplementadas com AminoGut na fase de reversão sexual. In: Aquaciência, 2012, Palmas - TO. Anais do Aquaciência 2012, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XAVIER, T.O ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; VIDAL, L. V. O. ; <b>MICHELATO, Mariana</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; GONGORA, L.D. ; Pereira, A. S. . MATHEMATICAL MODELING FOR DIGESTIBLE AMINOACIDS VALUE S OF MEAT AND BONE MEAL FOR NILE TILAPIA Oreochromis niloticus. In: World Aquaculture, 2011, Natal. Aquaculture 2011 Abstracts, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5721178588513838" target="_blank">NATALI, Maria Raquel Marçal</a> ; VIDAL, L. V. O. ; <b>MICHELATO, Mariana</b> ; XAVIER, T.O ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> . GLUTAMATE AND GLUTAMINE IN DIETS FOR JUVE NILE NILE TILAPIA ON JUVENILE NILE TILAPIA ON PERFORMANCE AND INTESTINAL MORPHOLOGY. In: World Aquaculture 2011, 2011, Natal. World Aquaculture 2011 Abstracts, 2011. v. 1. p. 988-988. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIDAL, L. V. O. ; XAVIER, T.O ; <b>MICHELATO, Mariana</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; Martins, E. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> . MATHEMATICAL MODELING FOR DIGESTIBLE PROTEIN VALUES OF VEGETAL FEEDS FOR TILAPIA. In: World Aquaculture 2011, 2011, Natal. World Aquaculture 2011 Abstracts, 2011, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; VIDAL, L. V. O. ; XAVIER, T.O ; Moura, L.B. . DIGESTIBLE THREONINE REQUIREMENT FOR NILE TILAPIA FROM 563 TO 700 g. In: World Aquaculture 2011, 2011, Natal. World Aquaculture 2011 Abstracts, 2011. v. 1. p. 750-750. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; VIDAL, L. V. O. ; XAVIER, T.O ; Moura, L.B. . DIGESTIBLE LYSINE REQUIREMENT FOR NILE TILAPIA FROM 277 TO 522 g. In: World Aquaculture 2011, 2011, Natal. World Aquaculture 2011 Abstracts, 2011. v. 1. p. 749-749. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XAVIER, T.O ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; VIDAL, L. V. O. ; <b>MICHELATO, Mariana</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; GONGORA, L.D. ; Pereira, A. S. . Aminoácidos totais e digestíveis em farinha de carne e ossos com diferetentes níveis de proteína para tilápia-do-Nilo. In: Aquaciência, 2010, Recife. Anais do Aquaciência 2010, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; Furuya, V.R.B. ; Quibao, A.C. ; VIDAL, L. V. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> ; <b>MICHELATO, Mariana</b> . Equação de predição da exigência de proteína bruta para a tilápia-do-Nilo de 30 a 567 g, em gaiolas. In: Aquaciência 2010, 2010, Recife. Anais do Aquaciência 2010, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIDAL, L. V. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; XAVIER, T.O ; <b>MICHELATO, Mariana</b> ; LEME, M.V.A ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5431750491453106" target="_blank">GRACIANO, T. S</a> . Equações de predição para valores de proteína e energia digestiveis em alimentos de origem animal para tilápias. In: Aquaciência 2010, 2010, Recife. Anais do Aquaciência, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4810329377754284" target="_blank">Santos, Lilian Dena dos</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7957479278599581" target="_blank">MATSUSHITA, Makoto</a> ; FUJII, Keila Michele ; SIlva, Tarcila Souza de Castro ; <b>MICHELATO, Mariana</b> . Conjugated linoleic acid (CLA) deposition in tissue muscle of pacu, Piaractus mesopotamicus. In: VIII INTERNATIONAL SYMPOSIUM ON FISH NUTRITION, 2006, Mazatlan. VIII INTERNATIONAL SYMPOSIUM ON AQUATIC NUTRITION, 2006. v. 1. p. 44-44. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5826818769951915" target="_blank">Schwarz, Kátia Kalko</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; SIlva, Tarcila Souza de Castro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4810329377754284" target="_blank">Santos, Lilian Dena dos</a> ; <b>MICHELATO, Mariana</b> . Mannaoligosaccharides in juvenile Nile tilapia, Oreochromis niloticus, diets. In: VIII INTERNATIONAL SYMPOSIUM ON FISH NUTRITION, 2006, Mazatlan. VIII INTERNATIONAL SYMPOSIUM ON AQUATIC NUTRITION, 2006. v. 1. p. 42-42. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5043541966109135" target="_blank">Furuya, W. M.</a> ; FUJII, Keila Michele ; SILVA, T. S. C. E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4810329377754284" target="_blank">Santos, Lilian Dena dos</a> ; Furuya, V.R.B. ; <b>MICHELATO, Mariana</b> . Bone parameters of Nile tilapia (Oreochromis niloticus L.) fed diets with graded levels of avaliable phsphorus. In: VIII INTERNATIONAL SYMPOSIUM ON AQUATIC NUTRITION, 2006, Mazatlan. VIII INTERNATIONAL SYMPOSIUM ON AQUATIC NUTRITION, 2006. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de André Luiz Kuhn Rohr.Bovinos de Corte Confinados e à Pasto.
+							2013. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Bruna Manri Naoe.Ciclo Produtivo do Camarão Marinho Litopenaus vannamei no Laboratório de Camarões Marinhos da Universidade Federal de Santa Catarina.
+							2013. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Caroline Thomaz.Manejo e Produção na Suinocultura.
+							2013. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Jacqueline Lima de Araujo.Canil Educacão: Adestramento, Hospedagem e venda de Filhotes.
+							2013. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Rafael Degraf.Bovinocultura de Corte - Fazendas Bergamini.
+							2013. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Adalberto Zampier.Estágio Supervisionado em Suinocultura - Granja Peru de Suínos.
+							2012. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Bianca Leticia Barbosa.Relatório de Estágio Supervisionado Realizado na Indústria de Comércio e Produtos de Leite Bombadelli - Lactobom. Controle de Qualidade na Produção Leiteira: Análises Físico-Químicas e Microbiológicas.
+							2012. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Felipe Hass Ferreira.Produção e Qualidade de Rações para Consumo Animal - Cooperativa Agrária.
+							2012. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Jean Michel Marcowicz.Manejo em piscicultura na recria e engorda de Tambaqui e Tambatinga.
+							2012. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Liliane Heuert.Sistema de Produção de Novilhas e Qualidade do Leite no Laticínio Lacto Bom.
+							2012. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Rodrigo Fernandes Rossetim.Estágio Supervisionado na Área de Ovinocultura Realizado na Central Álamos Genética.
+							2012. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Ronaldo Costa Guerreiro.Produção e controle de qualidade de queijo mussarela - Laticínio Champion.
+							2012. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Sergio Hoeldtke Junior.Estágio Supervisionado em Bovinocultura de Leite - Fazenda Frísia.
+							2012. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Rafael Degraf.Desempenho produtivo e composição corporal de Tilápias do Nilo,durante a reversão sexual, alimentados com dietas suplementadas com AminoGut.
+							2012. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Laisa Sincero Rabelo de Oliveira.Relação peso:comprimento de alevinos de tilápias do Nilo alimentados com dietas sem e com AminoGut, durante a reversão sexual.
+							2012. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Jessica Mara Speka.Relação peso:comprimento de machos e fêmeas do lambari-do-rabo-amarelo (Astyanax altiparanae) com tamanho comercial para abate.
+							2012. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Ana Paula Ferreira de Lara.Desempenho e curva de crescimento do lambari-do-rabo-amarelo (Astyanax altiparanae) em tanques de terra da região dos Campos Gerais.
+							2012. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Bruno Natucci Mongruel.Perfil de aminoácidos corporal com base no conceito de proteína ideal para estimativa das exigências de aminoácidos do lambari-do-rabo-vermelho (Astyanax fasciatus).
+							2011. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Jean Michel Marcowicz.Relação peso:comprimento, desempenho e rendimento de caraça do tambiú (Astyanax altiparanae).
+							2011. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Ivan Ricardo dos Reis.Relação peso: comprimento do lambari-do-rabo-vermelho (Astyanax fasciatus), em tanques de terra.
+							2011. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Rosirene de Jesus de Oliveira.Composição bromatplógica e perfil de ácidos graxos do lambari-do-rabo-vermelho, Astyanax fasciatus, de diferentes classes de peso.
+							2011. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Felipe Tramontim Mainardes.Influência do jejum sobre a atividade microbiana ruminal em bovinos fistulados.
+							2011. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Vinicius Martins Santos.Rendimento de carcaça de frangos de corte alimentados com diferentes níveis de inclusão de semente de abóbora.
+							2011. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Ronaldo Costa Guerreiro.Influência do peso de ovos férteis provenientes de duas linhagens de matrizes coloniais sobre o peso médio de frangos coloniais adultos.
+							2011. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Gelson Eduardo de Cezaro.Influência do comprimento do teto e do formato do úbere de vacas holandesas sobre a contagem de células somáticas em rebanhos da bacia leiteira de Witmarsum-Paraná-Brasil.
+							2011. Trabalho de Conclusão de Curso (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Marcos Vinicius Cafundó Rosera.Estágio Supervisionado - Fabricação de Rações de Aves - Sadia. S.A..
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciência e Tecnologia de Alimentos)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Luiz Vinicius Proença de Souza.Estágio Supervisionado em Suinocultura - Fábrica de Rações - Sadia S.A..
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciência e Tecnologia de Alimentos)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Fernanda Manosso de Castro.Estágio Supervisionado em Avicultura - Matrizes de Corte - C. Vale Cooperativa Agroindustrial.
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciência e Tecnologia de Alimentos)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Bruna de Oliveira Fittkau.Estágio Supervisionado - Unidade de desenvolvimento genético (UDG) de suínos na Cooperativa Castrolanda.
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciência e Tecnologia de Alimentos)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MICHELATO, Mariana</b>.  Participação em banca de Rafaela Döll.Estágio Supervisionado na área de Avicultura - Granja Econômica Ltda Pintos Geal.
+							2011. Trabalho de Conclusão de Curso (Graduação em Ciência e Tecnologia de Alimentos)  - Universidade Estadual de Ponta Grossa. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aquaciência 2012. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XX Encontro Anual de Iniciação Científica, X Encontro de Pesquisa da UEPG e I Encontro Anual de Iniciação e Desenvolvimento Tecnológico e Inovação. Coordenador de Sessão. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Renan Zappia Barcik.
+							Equação de predição do peso e rendimento de filé de tilápias do Nilo da linhagem GIFT.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Zootecnia)  - Universidade Estadual de Ponta Grossa. Orientador: Mariana Michelato.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vinicius Martins Santos.
+							Relatório de Estágio Supervisionado do Curso de Zootecnia em Suinocultura: Sistema Produtor de Leitões.
+							2012.
+							Orientação de outra natureza. (Zootecnia)  - Universidade Estadual de Ponta Grossa. Orientador: Mariana Michelato.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tabata Saionara Cecilio.
+							Relatório de Estágio de Conclusão de Curso realizado na Fazenda Portão Vermelho-Castrolanda-PR.
+							2012.
+							Orientação de outra natureza. (Zootecnia)  - Universidade Estadual de Ponta Grossa. Orientador: Mariana Michelato.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gustavo de Almeida Reis.
+							Acompanhamento da Pecuária de Corte e Suplementação mineral nas Fazendas da Tortuga Companhia Zootécnica Agrária.
+							2012.
+							Orientação de outra natureza. (Zootecnia)  - Universidade Estadual de Ponta Grossa. Orientador: Mariana Michelato.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diego Schackeler Martins.
+							Acompanhamento das Atividades na Área de Suinocultura na Chácara Geralda Gertrudes.
+							2012.
+							Orientação de outra natureza. (Zootecnia)  - Universidade Estadual de Ponta Grossa. Orientador: Mariana Michelato.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Barbara Haline Buss Baiak.
+							Acompanhamento das Atividades nos Setores de Pecuária de Leite na Fazenda Frísia.
+							2012.
+							Orientação de outra natureza. (Zootecnia)  - Universidade Estadual de Ponta Grossa. Orientador: Mariana Michelato.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:45:14</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0063968184089763" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

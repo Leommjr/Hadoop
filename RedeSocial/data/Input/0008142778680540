@@ -1,0 +1,1235 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (C&eacute;cile Quantin)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0008142778680540" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4265012T6&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4265012T6"><div class="infpessoa">
+<h2 class="nome">C&eacute;cile Quantin</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0008142778680540</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 09/10/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">possui mestrado em DEA National de Science du Sol - Universite de Nancy I (1997) e doutorado em Sciences du Sol - Universite de Nancy I (2001). Atualmente é professora - Universite de Paris XI (Paris-Sud). Tem experiência na área de Geociências, com ênfase em biogeoquimica dos solos.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cécile Quantin</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">QUANTIN, CECILE;QUANTIN, CÉCILE;QUANTIN, C.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Université Paris-Sud 11, UMR IDES. <br class="clear" />Bat. 504<br class="clear" />91405 - Orsay Cedex,  - França<br class="clear" />Telefone: (33) 169154940<br class="clear" />URL da Homepage: <a target="blank" href="http://ides.geol.u-psud.fr/">http://ides.geol.u-psud.fr/</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />GSF-Forschungszentrum für Umwelt und Gesundheit GmbH.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Sciences du Sol<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Université de Lorraine, UL (Nancy-Univ), França.
+		
+	<br class="clear" />Título: Incidence of organic matter biodegradation on the fate of metals and organic contaminants in a nickeliferous soil and in a river sediment., Ano de obtenção: 2001. <br class="clear" />Orientador: Jacques Berthelin. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em DEA National de Science du Sol<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />Université de Lorraine, UL (Nancy-Univ), França.
+		
+	<br class="clear" />Título: x,Ano de Obtenção: 1997.<br class="clear" />Orientador: François Toutain.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Université Paris-Sud 11, PARIS-SUD 11, França.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Funcionario, Enquadramento Funcional: Professora, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , UMR IDES, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_biogeochemistry of metals in ultramafic soils'>biogeochemistry of metals in ultramafic soils</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , UMR IDES, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Experimental taphonomy'>Experimental taphonomy</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , UMR IDES, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Fe and Mn dynamics and gas emission in salt-affected paddy fields'>Fe and Mn dynamics and gas emission in salt-affected paddy fields</a><br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_biogeochemistry of metals in ultramafic soils'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">biogeochemistry of metals in ultramafic soils</div>
+</div><a name='LP_Fe and Mn dynamics and gas emission in salt-affected paddy fields'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fe and Mn dynamics and gas emission in salt-affected paddy fields</div>
+</div><a name='LP_Experimental taphonomy'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Experimental taphonomy</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Nickel Dynamics in impacted ultramaFIC Soils - NIDYFICS (318123 - 7th PCRD - IRSES)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Nickel Dynamics in impacted ultramaFIC Soils - NIDYFICS (318123 - 7th PCRD - IRSES)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: This joint research and exchange project financed by 7th PCRD will lead to the acquisition of basic results about Ni dynamics in ultramafic impacted areas, localized in the biome Cerrado (i.e. the Brazilian savannah), and to the proposition of valuation strategies for the pyrometallurgical wastes in Goiás. It will also provide the opportunities for young researchers to be trained together with  young  senior scientists (the major part of involved researchers are less than 40 years old) recognized in their scientific area in combining new developing technics (isotopic geochemistry, spectroscopies, ...).
+. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1)  / Mestrado profissionalizante: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Cécile Quantin - Coordenador / GUIMARAES, E.M. - Integrante / ETTLER, V. - Integrante / GARNIER, JÉRÉMIE - Integrante / SIVRY, Y. - Integrante / GÉLABERT, A. - Integrante / JOUVIN, D. - Integrante / BENEDETTI, M.F. - Integrante / MONVOISIN, GAEL - Integrante / Lucieth Cruz Vieira - Integrante.<br class="clear" /></div>
+</div><a name='PP_LA COMPOSITION ISOTOPIQUE DU NICKEL : UN NOUVEAU DISCRIMINANT POUR L'ETUDE DE LA MOBILITE DU NICKEL NATUREL ET ANTHROPIQUE'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">LA COMPOSITION ISOTOPIQUE DU NICKEL : UN NOUVEAU DISCRIMINANT POUR L'ETUDE DE LA MOBILITE DU NICKEL NATUREL ET ANTHROPIQUE<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: This project aims to use the isotopic composition of nickel to understand its mobility in natural and impacted ecosystems. This, associated to speciation determination by synchrotron (XAS experiments) and bioavailability measurements, will allow us to quantify the nickel cycling in ecosystems impacted by anthropogenic activity like pyrometallurgy.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. </div>
+</div><a name='PP_DINACROMO'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DINACROMO<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Especiação, dinâmica e biodisponibilidade do cromo em solos sobre rochas ultrabásicas de Goiás. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Cécile Quantin - Integrante / Thierry Becquer - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Biogeochemistry of metals (Fe, Ni, Cr, Mn, Co) in the soil-water-microorganism-plant system in lateritic ecosystems of New Caledonia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Biogeochemistry of metals (Fe, Ni, Cr, Mn, Co) in the soil-water-microorganism-plant system in lateritic ecosystems of New Caledonia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Cécile Quantin - Integrante / J.P. Ambrosi - Coordenador.<br class="clear" />Número de orientações: 1</div>
+</div><a name='PP_Evaluation of the role of environmental parameters and microbial activities on the Fe and Mn dynamics in the rhizosphere: application to the paddy soils'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Evaluation of the role of environmental parameters and microbial activities on the Fe and Mn dynamics in the rhizosphere: application to the paddy soils<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Cécile Quantin - Integrante / Jacques Berthelin - Coordenador / O. Grunberger - Integrante / N. Suvannang - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Geociências. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Alemão</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GARNIER, JÉRÉMIE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.geoderma.2012.08.031" target="_blank"></a>GARNIER, JÉRÉMIE ; <b>QUANTIN, CECILE</b> ; GUIMARÃES, EDI MENDES ; VANTELON, DELPHINE ; MONTARGÈS-PELLETIER, EMMANUELLE ; BECQUER, THIERRY . Cr(VI) genesis and dynamics in Ferralsols developed from ultramafic rocks: The case of Niquelândia, Brazil. Geoderma (Amsterdam)<sup><img id='00167061_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00167061' /></sup>, v. 193-194, p. 256-264, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.geoderma.2012.08.031&issn=00167061&volume=193-194&issue=&paginaInicial=256&titulo=Cr(VI) genesis and dynamics in Ferralsols developed from ultramafic rocks: The case of Niquelândia, Brazil&sequencial=1&nomePeriodico=Geoderma (Amsterdam)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZELANO, I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.colsurfa.2013.02.051" target="_blank"></a>ZELANO, I. ; SIVRY, Y. ; <b>QUANTIN, C.</b> ; GÉLABERT, A. ; THARAUD, M. ; JOUVIN, D. ; MONTARGES-PELLETIER, E. ; GARNIER, J. ; PICHON, R. ; NOWAK, S. ; MISKA, S. ; ABOLLINO, O. ; BENEDETTI, M.F. . Colloids and suspended particulate matters influence on Ni availability in surface waters of impacted ultramafic systems in Brazil. Colloids and Surfaces. A, Physicochemical and Engineering Aspects (Print)<sup><img id='09277757_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09277757' /></sup>, v. 435, p. 36-47, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.colsurfa.2013.02.051&issn=09277757&volume=435&issue=&paginaInicial=36&titulo=Colloids and suspended particulate matters influence on Ni availability in surface waters of impacted ultramafic systems in Brazil&sequencial=2&nomePeriodico=Colloids and Surfaces. A, Physicochemical and Engineering Aspects (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LE PAPE, PIERRE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.chemgeo.2013.02.018" target="_blank"></a>LE PAPE, PIERRE ; AYRAULT, SOPHIE ; MICHELOT, JEAN-LUC ; MONVOISIN, GAEL ; NORET, AURÉLIE ; <b>QUANTIN, CÉCILE</b> . Building an isotopic hydrogeochemical indicator of anthropogenic pressure on urban rivers. Chemical Geology<sup><img id='00092541_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00092541' /></sup>, v. 344, p. 63-72, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.chemgeo.2013.02.018&issn=00092541&volume=344&issue=&paginaInicial=63&titulo=Building an isotopic hydrogeochemical indicator of anthropogenic pressure on urban rivers&sequencial=3&nomePeriodico=Chemical Geology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DAUPHIN, Y.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.1475-4754.2012.00679.x" target="_blank"></a>DAUPHIN, Y. ; MASSARD, P. ; <b>QUANTIN, C.</b> ; MONTUELLE, S. . EXPERIMENTAL DISSOLUTION OF THE DENTINE OF TEETH OF (MAMMALIA, SUIDAE): CHEMISTRY AND MICROSTRUCTURAL ALTERATIONS*. Archaeometry (Oxford)<sup><img id='0003813X_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0003813X' /></sup>, v. 55, p. 134-147, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.1475-4754.2012.00679.x&issn=0003813X&volume=55&issue=&paginaInicial=134&titulo=EXPERIMENTAL DISSOLUTION OF THE DENTINE OF TEETH OF (MAMMALIA, SUIDAE): CHEMISTRY AND MICROSTRUCTURAL ALTERATIONS*&sequencial=4&nomePeriodico=Archaeometry (Oxford)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VENDRAME, P. R. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1071/sr12214" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6740385922056773" target="_blank">VENDRAME, P. R. S.</a> ; BRITO, O. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8160265101709215" target="_blank">MARTINS, E. S.</a> ; <b>QUANTIN, C.</b> ; GUIMAR'ES, M. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> . Acidity control in Latosols under long-term pastures in the Cerrado region, Brazil. SOIL RES<sup><img id='1838675X_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1838675X' /></sup>, v. 51, p. 253-261, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1071/sr12214&issn=1838675X&volume=51&issue=&paginaInicial=253&titulo=Acidity control in Latosols under long-term pastures in the Cerrado region, Brazil&sequencial=5&nomePeriodico=SOIL RES" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LE PAPE, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		LE PAPE, P. ; AYRAULT, S. ; <b>QUANTIN, CECILE</b> . Trace metal solid-dissolved partition versus urbanization gradient in an urban river (Orge River, France).. Journal of Hydrology (Amsterdam)<sup><img id='00221694_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00221694' /></sup>, v. 472-47, p. 99-110, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00221694&volume=472-47&issue=&paginaInicial=99&titulo=Trace metal solid-dissolved partition versus urbanization gradient in an urban river (Orge River, France).&sequencial=6&nomePeriodico=Journal of Hydrology (Amsterdam)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VENDRAME, P. R. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6740385922056773" target="_blank">VENDRAME, P. R. S.</a> ; Eberhardt D.N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1233650490647488" target="_blank">O. R. Brito</a> ; Marchão, R.L. ; <b>QUANTIN, CECILE</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> . Formas de ferro e alumínio e suas relações com textura, mineralogia e carbono orgânico em Latossolos do Cerrado. Semina. Ciências Agrárias (Impresso)<sup><img id='1676546X_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1676546X' /></sup>, v. 32, p. 1657-1666, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1676546X&volume=32&issue=&paginaInicial=1657&titulo=Formas de ferro e alumínio e suas relações com textura, mineralogia e carbono orgânico em Latossolos do Cerrado&sequencial=7&nomePeriodico=Semina. Ciências Agrárias (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BECQUER, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> ; <b>QUANTIN, CECILE</b> ; BOUDOT, J.P. . Toxic levels of metals in Ferralsols under natural vegetation and crops in New Caledonia. European Journal of Soil Science (Print)<sup><img id='13510754_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='13510754' /></sup>, v. 61, p. 994-1004, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=13510754&volume=61&issue=&paginaInicial=994&titulo=Toxic levels of metals in Ferralsols under natural vegetation and crops in New Caledonia&sequencial=8&nomePeriodico=European Journal of Soil Science (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SUPPARATTANAPAN, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>SUPPARATTANAPAN, S. ; SEJAN, P. ; <b>QUANTIN, CECILE</b> ; MAEGHT, J. ; GRUNBERGER, O. . Salinity and organic amendment effects on methane production of a rain-fed saline paddy field. Soil Science and Plant Nutrition (Tokyo)<sup><img id='00380768_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00380768' /></sup>, v. 55, p. 142-149, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00380768&volume=55&issue=&paginaInicial=142&titulo=Salinity and organic amendment effects on methane production of a rain-fed saline paddy field&sequencial=9&nomePeriodico=Soil Science and Plant Nutrition (Tokyo)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LI, Y.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		LI, Y. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> ; DAI, J. ; <b>QUANTIN, CECILE</b> ; BENEDETTI, M. . Ion activity and speciation of heavy metals and their adsorption to hydrous oxides in acid mine drainage polluted subtropical soils. Environmental Pollution (1987)<sup><img id='02697491_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02697491' /></sup>, v. 157, p. 1249-1257, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02697491&volume=157&issue=&paginaInicial=1249&titulo=Ion activity and speciation of heavy metals and their adsorption to hydrous oxides in acid mine drainage polluted subtropical soils&sequencial=10&nomePeriodico=Environmental Pollution (1987)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GARNIER, J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		GARNIER, J. ; <b>QUANTIN, CECILE</b> ; ECHEVARRIA, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> . Assessment of chromate availability in tropical ultramafic soils. Journal of Soils and Sediments<sup><img id='14390108_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14390108' /></sup>, v. 9, p. 468-475, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14390108&volume=9&issue=&paginaInicial=468&titulo=Assessment of chromate availability in tropical ultramafic soils&sequencial=11&nomePeriodico=Journal of Soils and Sediments" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GARNIER, J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		GARNIER, J. ; <b>QUANTIN, CECILE</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7977703126433975" target="_blank">GUIMARAES, E.M.</a> ; GARG, V.K ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8160265101709215" target="_blank">MARTINS, E. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> . Understanding the genesis of ultramafic soils and catena dynamics in Niquelândia, Brazil. Geoderma (Amsterdam)<sup><img id='00167061_12' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00167061' /></sup>, v. 151, p. 204-214, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00167061&volume=151&issue=&paginaInicial=204&titulo=Understanding the genesis of ultramafic soils and catena dynamics in Niquelândia, Brazil&sequencial=12&nomePeriodico=Geoderma (Amsterdam)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DAUPHIN, Y.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>DAUPHIN, Y. ; MASSARD, P. ; <b>QUANTIN, CECILE</b> . In vitro diagenesis of teeth of Sus scrofa (Mammalia, Suidae): micro- and nanostructural alterations and experimental dissolution. Palaeogeography, Palaeoclimatology, Palaeoecology<sup><img id='00310182_13' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00310182' /></sup>, v. 266, p. 134-141, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00310182&volume=266&issue=&paginaInicial=134&titulo=In vitro diagenesis of teeth of Sus scrofa (Mammalia, Suidae): micro- and nanostructural alterations and experimental dissolution&sequencial=13&nomePeriodico=Palaeogeography, Palaeoclimatology, Palaeoecology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>QUANTIN, CECILE;QUANTIN, CÉCILE;QUANTIN, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><b>QUANTIN, CECILE</b> ; GRUNBERGER, O. ; SUVANNANG, N. ; Bourdon, E . Land Management Effects on the Biogeochemical Functioning of Salt-Affected Paddy Soils. Pedosphere<sup><img id='10020160_14' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10020160' /></sup>, v. 18, p. 183-194, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10020160&volume=18&issue=&paginaInicial=183&titulo=Land Management Effects on the Biogeochemical Functioning of Salt-Affected Paddy Soils&sequencial=14&nomePeriodico=Pedosphere" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GARNIER, J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>GARNIER, J. ; <b>QUANTIN, CECILE</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7977703126433975" target="_blank">GUIMARAES, E.M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> . Can chromite weathering be a source of Cr in soils?. Mineralogical Magazine (Print)<sup><img id='0026461X_15' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0026461X' /></sup>, v. 72, p. 49-53, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0026461X&volume=72&issue=&paginaInicial=49&titulo=Can chromite weathering be a source of Cr in soils?&sequencial=15&nomePeriodico=Mineralogical Magazine (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>QUANTIN, CECILE;QUANTIN, CÉCILE;QUANTIN, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><b>QUANTIN, CECILE</b> ; ETTLER, V. ; GARNIER, J. ; SEBEK, O. . Sources and extractibility of chromium and nickel in soil profiles developed on Czech serpentinites. Comptes Rendus. Géoscience<sup><img id='16310713_16' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16310713' /></sup>, v. 340, p. 872-882, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16310713&volume=340&issue=&paginaInicial=872&titulo=Sources and extractibility of chromium and nickel in soil profiles developed on Czech serpentinites&sequencial=16&nomePeriodico=Comptes Rendus. Géoscience" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VENDRAME, P. R. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6740385922056773" target="_blank">VENDRAME, P. R. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1233650490647488" target="_blank">O. R. Brito</a> ; <b>QUANTIN, CECILE</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> . Disponibilidade de cobre, ferro, manganês e zinco em solos sob pastagens na Região do Cerrado. Pesquisa Agropecuária Brasileira<sup><img id='0100204X_17' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100204X' /></sup>, v. 42, p. 859-864, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0100204X&volume=42&issue=&paginaInicial=859&titulo=Disponibilidade de cobre, ferro, manganês e zinco em solos sob pastagens na Região do Cerrado&sequencial=17&nomePeriodico=Pesquisa Agropecuária Brasileira" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DAUPHIN, Y.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>DAUPHIN, Y. ; MONTUELLE, S. ; <b>QUANTIN, CECILE</b> ; MASSARD, P. . Estimating of the preservation of tooth structures : toward a new scale of observation. Journal of Taphonomy (Print)<sup><img id='16960815_18' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16960815' /></sup>, v. 5, p. 43-56, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16960815&volume=5&issue=&paginaInicial=43&titulo=Estimating of the preservation of tooth structures : toward a new scale of observation&sequencial=18&nomePeriodico=Journal of Taphonomy (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GARNIER, J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span>GARNIER, J. ; <b>QUANTIN, CECILE</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8160265101709215" target="_blank">MARTINS, E. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> . Solid speciation and availability of chromium in ultramafic soils from Niquelândia, Brazil.. Journal of Geochemical Exploration<sup><img id='03756742_19' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03756742' /></sup>, v. 88, p. 206-209, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03756742&volume=88&issue=&paginaInicial=206&titulo=Solid speciation and availability of chromium in ultramafic soils from Niquelândia, Brazil.&sequencial=19&nomePeriodico=Journal of Geochemical Exploration" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BECQUER, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> ; <b>QUANTIN, CECILE</b> ; ROTTE-CAPET, S. ; GHANBAJA, J. ; MUSTIN, C. ; HERBILLON, A.J. . Sources of trace metals in Ferralsols in New Caledonia.. European Journal of Soil Science<sup><img id='13510754_20' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='13510754' /></sup>, v. 57, n.2, p. 200-213, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=13510754&volume=57&issue=&paginaInicial=200&titulo=Sources of trace metals in Ferralsols in New Caledonia.&sequencial=20&nomePeriodico=European Journal of Soil Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BERTHELIN, J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span>BERTHELIN, J. ; ONA-NGUEMA, G. ; STEMMLER, S. ; <b>QUANTIN, CECILE</b> ; ABDELMOULA, M. ; JORAND, F. . Bioreduction of ferric species and biogenesis of green rusts in soils. Comptes Rendus. Géoscience<sup><img id='16310713_21' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16310713' /></sup>, v. 338, p. 447-451, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16310713&volume=338&issue=&paginaInicial=447&titulo=Bioreduction of ferric species and biogenesis of green rusts in soils&sequencial=21&nomePeriodico=Comptes Rendus. Géoscience" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LI, Y.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span>LI, Y. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> ; <b>QUANTIN, CECILE</b> ; BENEDETTI, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5850683517396587" target="_blank">LAVELLE, P.</a> ; DAI, J. . Microbial activity indices: sensitive soil quality indicators for trace metal stress.. Pedosphere, v. 15, n.4, p. 409-416, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=15&issue=&paginaInicial=409&titulo=Microbial activity indices: sensitive soil quality indicators for trace metal stress.&sequencial=22&nomePeriodico=Pedosphere" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>QUANTIN, CECILE;QUANTIN, CÉCILE;QUANTIN, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><b>QUANTIN, CECILE</b> ; JONER, E. ; PORTAL, J.M. ; BERTHELIN, J. . PAH dissipation in a contaminated river sediment under oxic and anoxic conditions.. Environmental Pollution (1987)<sup><img id='02697491_23' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02697491' /></sup>, v. 134, p. 315-322, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02697491&volume=134&issue=&paginaInicial=315&titulo=PAH dissipation in a contaminated river sediment under oxic and anoxic conditions.&sequencial=23&nomePeriodico=Environmental Pollution (1987)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BECQUER, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> ; DAI, J. ; <b>QUANTIN, CECILE</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5850683517396587" target="_blank">LAVELLE, P.</a> . Sources of bioavailable heavy metals for earthworms from a Zn-, Pb- and Cd-contaminated soil.. Soil Biology & Biochemistry<sup><img id='00380717_24' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00380717' /></sup>, v. 37, p. 1564-1568, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00380717&volume=37&issue=&paginaInicial=1564&titulo=Sources of bioavailable heavy metals for earthworms from a Zn-, Pb- and Cd-contaminated soil.&sequencial=24&nomePeriodico=Soil Biology & Biochemistry" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BECQUER, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> ; <b>QUANTIN, CECILE</b> ; SICOT, M. ; BOUDOT, J.P. . Chromium availability in ultramafic soils from New-Caledonia.. The Science of Total Environment, v. 301, p. 251-261, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=301&issue=&paginaInicial=251&titulo=Chromium availability in ultramafic soils from New-Caledonia.&sequencial=25&nomePeriodico=The Science of Total Environment" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>QUANTIN, CECILE;QUANTIN, CÉCILE;QUANTIN, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b>QUANTIN, CECILE</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> ; ROUILLER, J.H. ; BERTHELIN, J. . Redistribution of metals in a New Caledonia Ferralsol after microbial weathering.. Soil Science Society of America Journal<sup><img id='03615995_26' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03615995' /></sup>, v. 66, p. 1794-1804, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03615995&volume=66&issue=&paginaInicial=1794&titulo=Redistribution of metals in a New Caledonia Ferralsol after microbial weathering.&sequencial=26&nomePeriodico=Soil Science Society of America Journal" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>QUANTIN, CECILE;QUANTIN, CÉCILE;QUANTIN, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b>QUANTIN, CECILE</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> ; BERTHELIN, J. . Mn-oxide: a major source of easily mobilisable Co and Ni under reducing conditions in New Caledonia Ferralsols.. Comptes Rendus de L'Academie des Sciences Serie II Fascicule A-Sciences de la Terre et des Planetes<sup><img id='12518050_27' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='12518050' /></sup>, v. 334, p. 273-278, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=12518050&volume=334&issue=&paginaInicial=273&titulo=Mn-oxide: a major source of easily mobilisable Co and Ni under reducing conditions in New Caledonia Ferralsols.&sequencial=27&nomePeriodico=Comptes Rendus de L'Academie des Sciences Serie II Fascicule A-Sciences de la Terre et des Planetes" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>QUANTIN, CECILE;QUANTIN, CÉCILE;QUANTIN, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><b>QUANTIN, CECILE</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8947070176244513" target="_blank">BECQUER, T.</a> ; ROUILLER, J.H. ; BERTHELIN, J. . Oxide weathering and trace metal release by bacterial reduction in a New Caledonia Ferralsol.. Biogeochemistry (Dordrecht)<sup><img id='01682563_28' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01682563' /></sup>, v. 53, p. 323-340, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01682563&volume=53&issue=&paginaInicial=323&titulo=Oxide weathering and trace metal release by bacterial reduction in a New Caledonia Ferralsol.&sequencial=28&nomePeriodico=Biogeochemistry (Dordrecht)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>QUANTIN, CECILE;QUANTIN, CÉCILE;QUANTIN, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><b>QUANTIN, CECILE</b> ; LARTIGES, S.B. ; MUNIER-LAMY, C. ; BERTHELIN, J. . Microbial solubilisation of Cd from apatite during aerobic cellulose biodegradation.. Agronomie, v. 20, p. 557-566, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=20&issue=&paginaInicial=557&titulo=Microbial solubilisation of Cd from apatite during aerobic cellulose biodegradation.&sequencial=29&nomePeriodico=Agronomie" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="ArtigosAceitos"></a>Artigos  aceitos para publicação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AYRAULT, SOPHIE ; LE PAPE, PIERRE ; EVRARD, O. ; PRIADI, C. R. ; <b>QUANTIN, C.</b> ; BONTE, P. ; ROY-BARMAN, M. . Remanence of Lead Pollution in an Urban River System: A multi-scale temporal and spatial study in the Seine River basin, France. Environmental Science and Pollution Research International<sup><img id='09441344_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09441344' /></sup>, 2013. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jérémie Garnier. Biogeochemical functioning of ultramafic soils : impact on chromium (and Mn, Co, Ni) availability in the soil-plant-water continuum..
+						Início: 2005. Tese (Doutorado em Science de la Terre et de l'Univers)  - Université Paris-Sud 11. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Caroline Dumez. Determination of geochemical background and functioning of a temporarily waterlogged luvissol.
+							2007.
+						
+					Dissertação  (Mestrado em Science de la Terre et de l'Univers)  - Université Paris-Sud 11, . Orientador: Cécile Quantin. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marion Bourdais-Massenet. Concentrations and bioavailability of metals in the Koniambo massif soils (New Caledonia).
+							2006.
+						
+					Dissertação  (Mestrado em Science de la Terre et de l'Univers)  - Université Paris-Sud 11, . Orientador: Cécile Quantin. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/8747815723290955'><img src='images/curriculo/logolattes.gif' /></a>Jérémie Garnier. Solid speciation of chromium in Niquelândia soils, Brasil.
+							2005.
+						
+					Dissertação  (Mestrado em Science de la Terre et de l'Univers)  - Université Paris-Sud 11, . Orientador: Cécile Quantin. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/8747815723290955'><img src='images/curriculo/logolattes.gif' /></a>Jérémie Garnier.
+						Sources et dynamique du chrome dans les sols ultramafiques de Niquelândia, Brésil.
+							2008. Tese
+					 (Doutorado em Science de la Terre et de l'Univers)  - Université Paris-Sud 11, . Orientador: Cécile Quantin. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:02:10</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0008142778680540" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

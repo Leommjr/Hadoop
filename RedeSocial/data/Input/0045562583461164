@@ -1,0 +1,3456 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Luiz Depine de Castro)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0045562583461164" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#MembroCorpoEditorial">Membro de corpo editorial</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("patentes-registros");</script>
+		
+		
+		<a id="ancora-menu-patentes-registros" href="#PatentesRegistros" class="acessibilidade separador"><span></span>Patentes e Registros</a>
+		
+	
+		
+		
+		<div id="menu-patentes-registros" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Patente">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputador">Programa de computador</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegida">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistrada">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrial">Desenho industrial</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistrada">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegrado">Topografia de circuito integrado</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador"><span></span>Inovação</a>
+		
+	
+		
+		
+		<div id="menu-potencialInovacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#PatentePI">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4781435D7&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4781435D7"><div class="infpessoa">
+<h2 class="nome">Luiz Depine de Castro</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0045562583461164</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 08/01/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui gradua&ccedil;&atilde;o  em Engenharia Qu&iacute;mica pelo Instituto Militar de Engenharia(1977), mestrado em Engenharia Qu&iacute;mica pela Universidade Federal do Rio de Janeiro(1983) e doutorado em Materials Science pela University of Bath(1991). Atualmente &eacute; Consultor do Centro Tecnol&oacute;gico do Ex&eacute;rcito, Presidente do Associa&ccedil;&atilde;o Brasileira de Carbono, Revisor de peri&oacute;dico da Energies, Revisor de peri&oacute;dico da International Journal of Chemical Reactor Engineering, Revisor de peri&oacute;dico da Journal of Analytical and Applied Pyrolysis (Print), Revisor de peri&oacute;dico da Fuel (Guildford) e Revisor de peri&oacute;dico da Carbon (New York). Tem experi&ecirc;ncia na &aacute;rea de Engenharia Qu&iacute;mica, com &ecirc;nfase em Carbono Grafite. Atuando principalmente nos seguintes temas:carbono, fibras de carbono, grafite, inibi&ccedil;&atilde;o da oxida&ccedil;&atilde;o, sol-gel. <span style="font-weight: bold" class="texto"> (Texto gerado automaticamente pela aplica&ccedil;&atilde;o CVLattes)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Luiz Depine de Castro</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DEPINE DE CASTRO, L.;De CASTRO, L. D.;CASTRO, L. D. de;Luiz Castro</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Centro Tecnológico do Exército, Instituto de Pesquisa e Desenvolvimento. <br class="clear" />Av. das Américas, 28705<br class="clear" />Guaratiba<br class="clear" />23020-470 - Rio de Janeiro, RJ - Brasil<br class="clear" />Telefone: (21) 24106320<br class="clear" />Fax: (21) 24106320</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1988 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Materials Science<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />University of Bath.
+		
+	<br class="clear" />Título: Inhibition of Oxidation of Carbon Materials, Ano de obtenção: 1991. <br class="clear" />Orientador: Brian McEnaney. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. <br class="clear" />Palavras-chave: carbono; fibras de carbono; grafite; inibição da oxidação; sol-gel.<br class="clear" />Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Materiais Não-Metálicos / Especialidade: Materiais Conjugados Não-Metálicos. <br class="clear" />Grande Área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Materiais Não-Metálicos / Especialidade: Materiais de carbono e grafite. <br class="clear" />Grande Área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Materiais Cerâmicos. <br class="clear" />Setores de atividade: Fabricação de Produtos Cerâmicos; Fabricação de Fibras, Fios, Cabos e Filamentos Contínuos, Artificiais e Sintéticos; Fabricação de Produtos de Outros Materiais Não-Metálicos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1979 - 1983</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Engenharia Química<span class="ajaxCAPES" data-param="&codigoCurso=31001017036P2&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio de Janeiro, UFRJ, Brasil.
+		
+	<br class="clear" />Título: Modelagem de Reator Catalítico Anular com Reação Reversível e Exotérmica,Ano de Obtenção: 1983.<br class="clear" />Orientador: Martin Schmal e Antonio Santos Vargas.<br class="clear" />Palavras-chave: B splines; modelagem matemática; reator anular; reação exotérmica; reação reversível.<br class="clear" />Grande área: Engenharias / Área: Engenharia Química / Subárea: Operações Industriais e Equipamentos para Engenharia Química / Especialidade: Reatores Químicos. <br class="clear" />Grande Área: Engenharias / Área: Engenharia Química / Subárea: Fenômenos de Transporte. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada. <br class="clear" />Setores de atividade: Fabricação de Produtos Químicos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1975 - 1977</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia Química<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Instituto Militar de Engenharia, IME, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Associação Brasileira de Carbono, ABCARB, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Presidente, Enquadramento Funcional: Presidente</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>University of Bath, BATH UNIVERSITY, Inglaterra.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1988 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: aluno de doutoramento, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/1988 - 11/1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Materials Science, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Inibição da oxidação do carbono - sol/gel'>Inibição da oxidação do carbono - sol/gel</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Centro Tecnológico do Exército, CTEX, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Consultor, Enquadramento Funcional: Consultor, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Após a passagem para a reserva (aposentadoria) em dezembro de 1993, atuando como consultor na área de carbono/grafite, piches anisotrópicos e fibras de carbono.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1992</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: oficial do Quadro de Engenheiros Militares, Carga horária: 44, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Na reserva (aposentado) em dezembro de 1993.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1988</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: oficial do Quadro de Engenheiros Militares, Carga horária: 44, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2004 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro Tecnológico do Exército, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Fibra de carbono'>Fibra de carbono</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2004 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro Tecnológico do Exército, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Materiais especiais de carbono'>Materiais especiais de carbono</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2002 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro Tecnológico do Exército, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Piches de petróleo'>Piches de petróleo</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2002 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Instituto de Pesquisa e Desenvolvimento, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Consultor.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/1986 - 09/1988</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Instituto de Projetos Especiais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Chefe do grupo de pesquisa carbono/grafite.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/1986 - 09/1988</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Instituto de Projetos Especiais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Grafites especiais e grafites nucleares'>Grafites especiais e grafites nucleares</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Instituto Militar de Engenharia, IME, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1979 - 1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor (como todos os militares), Carga horária: 44, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Não havia distinção ou diferente qualificação para os militares exercendo a função de professor, no Instituto Militar de Engenharia.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1979 - 12/1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Reatores Químicos Heterogêneos<br class="clear" />Fenômenos de Transporte<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/1982 - 07/1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Grupo de Projetos Especiais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Chefe de grupo de pesquisa.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/1982 - 07/1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Secao de Quimica, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Grafites especiais e nucleares'>Grafites especiais e nucleares</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1980 - 09/1982</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Secao de Quimica, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador de Curso.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1981 - 12/1981</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Construções e Fortificações, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fenômenos de Transporte<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1981 - 12/1981</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Geodésia e Cartografia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fenômenos de Transporte<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1980 - 12/1980</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências dos Materiais, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fenômenos de Transporte<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Parque Central de Motomecanização, PQCMM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1978 - 1979</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: capitão chefe do laboratório, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1978 - 12/1979</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Laboratório Químico de Controle de Qualidade, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Controle de qualidade de óleos, graxas e tintas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/1978 - 12/1978</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Chefe.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Grafites especiais e nucleares'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grafites especiais e nucleares</div>
+</div><a name='LP_Grafites especiais e grafites nucleares'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grafites especiais e grafites nucleares</div>
+</div><a name='LP_Piches de petr&oacute;leo'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Piches de petróleo</div>
+</div><a name='LP_Fibra de carbono'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fibra de carbono</div>
+</div><a name='LP_Materiais especiais de carbono'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Materiais especiais de carbono</div>
+</div><a name='LP_Inibi&ccedil;&atilde;o da oxida&ccedil;&atilde;o do carbono - sol/gel'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inibição da oxidação do carbono - sol/gel</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Desenvolvimento de fibras de carbono e materiais especiais, a partir de res&iacute;duos arom&aacute;ticos de petr&oacute;leos pesados'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de fibras de carbono e materiais especiais, a partir de resíduos aromáticos de petróleos pesados<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Luiz Depine de Castro - Integrante / Alexandre Taschetto de Castro - Integrante / Carlos Henrique Monteiro de Castro Dutra - Coordenador / Fábio Franceschi Pereira - Integrante / Maria Helena Gonçalves Pereira - Integrante / Fabiana Rodrigues Vieira - Integrante / Priscila Rubim - Integrante / Marcio Coutinho - Integrante.<br class="clear" />Financiador(es): Financiadora de Estudos e Projetos - Auxílio
+										financeiro / PETROBRAS - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 34 / Número de orientações: 5</div>
+</div><a name='PP_Desenvolvimento da tecnologia de fabrica&ccedil;&atilde;o de grafites especiais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1988</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento da tecnologia de fabricação de grafites especiais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto visava o desenvolvmento da produção de grafites de alta densidade, no Brasi,l utilizando equipamentos nacionais e a maior quantidade possível de matérias-primas nacionais (coque, piche ligante e piche impregnante).. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Luiz Depine de Castro - Coordenador / Carlos H. M. C. Dutra - Integrante / Roberto Werneck do Carmo - Integrante / Denise Medina - Integrante.<br class="clear" />Financiador(es): Conselho de Segurança Nacional - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 12 / Número de orientações: 1</div>
+</div><a name='PP_Desenvolvimento da tecnologia de fabrica&ccedil;&atilde;o de grafites nucleares'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1988</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento da tecnologia de fabricação de grafites nucleares<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto teve por objetivo desenvolver a tecnologai de fabricação de grafites de alta pureza e alta isotropicidade que pudessem ser utilizadas como moderadores em reatores nucleares.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Luiz Depine de Castro - Coordenador / Carlos Henrique Monteiro de Castro Dutra - Integrante / Roberto Werneck do Carmo - Integrante / Denise Medina - Integrante.<br class="clear" />Financiador(es): Conselho de Segurança Nacional - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 7</div>
+</div><a name='PP_Desenvolvimento da certifica&ccedil;&atilde;o de qualidade de grafites nucleares'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1982 - 1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento da certificação de qualidade de grafites nucleares<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto teve por  objetivo desenvolver técnicas de análise química, físico-química, térmicas, dentre outras que permitissem a caracterização de grafites nucleares para emprego como moderador em reatores nucleares.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Luiz Depine de Castro - Coordenador / Luiz Clóvis de Freitas - Integrante / Glória de Azevedo Botelho - Integrante.<br class="clear" />Financiador(es): Conselho de Segurança Nacional - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Desenvolvimento da certifica&ccedil;&atilde;o da qualidade de grafites nucleares'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1988</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento da certificação da qualidade de grafites nucleares<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto teve por objetivo desenvolver técnicas de análise química, físico-química, térmicas, entre outras que permitissem a caracterização de grafites como nucleares de modo a que pudessem ser utilizadas como moderadores em reatores.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" /><br class="clear" />Integrantes: Luiz Depine de Castro - Coordenador / Carlos H. M. C. Dutra - Integrante / Luiz Clóvis de Freitas - Integrante / Glória de Azevedo Botelho - Integrante.<br class="clear" />Financiador(es): Conselho de Segurança Nacional - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 2</div>
+</div><a name='PP_Desenvolvimento da tecnologia de produ&ccedil;&atilde;o de grafites especiais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1982 - 1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento da tecnologia de produção de grafites especiais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto visava o desenvolvmento da produção de grafites de alta densidade, no Brasi,l utilizando equipamentos nacionais e a maior quantidade possível de matérias-primas nacionais (coque, piche ligante e piche impregnante).. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" /><br class="clear" />Integrantes: Luiz Depine de Castro - Coordenador / Carlos Henrique Monteiro de Castro Dutra - Integrante / Roberto Werneck do Carmo - Integrante / Denise Medina - Integrante.<br class="clear" />Financiador(es): Conselho de Segurança Nacional - Auxílio
+										financeiro.</div>
+</div><a name='PP_Desenvolvimento da tecnologia de produ&ccedil;&atilde;o de grafites nucleares'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1982 - 1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento da tecnologia de produção de grafites nucleares<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto teve por objetivo desenvolver a tecnologai de fabricação de grafites de alta pureza e alta isotropicidade que pudessem ser utilizadas como moderadores em reatores nucleares.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" /><br class="clear" />Integrantes: Luiz Depine de Castro - Coordenador / Carlos Henrique Monteiro de Castro Dutra - Integrante / Roberto Werneck do Carmo - Integrante / Denise Medina - Integrante.<br class="clear" />Financiador(es): Conselho de Segurança Nacional - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Desenvolvimento de piches a partir de &oacute;leo decantado de petr&oacute;leo para aplica&ccedil;&otilde;es em eletrodos, comp&oacute;sitos e como material precursor da fibra de carbono'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de piches a partir de óleo decantado de petróleo para aplicações em eletrodos, compósitos e como material precursor da fibra de carbono<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Desativado; Natureza: Outra. <br class="clear" /><br class="clear" />Integrantes: Luiz Depine de Castro - Coordenador.<br class="clear" />Financiador(es): PETROBRAS - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="MembroCorpoEditorial">
+<h1>Membro de corpo editorial</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of the Brazilian Chemical Society</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of the Brazilian Chemical Society</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Energies</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: International Journal of Chemical Reactor Engineering</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of Analytical and Applied Pyrolysis (Print)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Fuel (Guildford)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Carbon (New York)</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Química / Subárea: Carbono Grafite/Especialidade: Piche Coque. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Materiais Cerâmicos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Carbono/Grafite/Especialidade: Fibra de Carbono. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Química / Subárea: Sol/Gel. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Carbono/Grafite/Especialidade: Grafite Sintético. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Carbono/Grafite/Especialidade: Carbono. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Chinês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Premio Inventor Petrobras - CARACTERIZAÇÃO DE PICHES PRECURSORES DE FIBRAS DE CARBONO OBTIDOS A PARTIR DE ÓLEO PESADO DE PETRÓLEO, Petrobras. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Premio Inventor 2009 - Processo de destilação de óleos decantados para a produção de piches de petróleo, Petrobras. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Premio Inventor 2009 - Nanomateriais de carbono obtidos a partir de frações pesadas de petróleo e processo de obtenção dos mesmos, Petrobras. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Presidente, Associação Brasileira de Carbono. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Medalha do Pacificador, Ministério do Exército. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">SCOPUS</div><div class="trab">Total de trabalhos:1</div><div class="cita">Total de citações:1</div><div class="detalhes">Castro, L. D.&nbsp;&nbsp;Data:&nbsp;05/03/2009</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PEREIRA, M. H. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>PEREIRA, M. H. G. ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . Investigating Molecular Masses Formed During the Heat Treatment of Petroleum Pitches by Mass Spectrometry. Nas Gorod Plus<sup><img id='19964196_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19964196' /></sup>, v. 7, p. 131-140, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19964196&volume=7&issue=&paginaInicial=131&titulo=Investigating Molecular Masses Formed During the Heat Treatment of Petroleum Pitches by Mass Spectrometry&sequencial=1&nomePeriodico=Nas Gorod Plus" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Vieira, Fabiana Rodrigues</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.fuel.2010.09.036" target="_blank"></a>Vieira, Fabiana Rodrigues ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; <b>DEPINE DE CASTRO, L.</b> . Determining the anisotropic content in a petroleum pitch   Comparison of centrifugation and optical microscopy techniques. Fuel (Guildford)<sup><img id='00162361_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00162361' /></sup>, v. 90, p. 908-911, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.fuel.2010.09.036&issn=00162361&volume=90&issue=&paginaInicial=908&titulo=Determining the anisotropic content in a petroleum pitch   Comparison of centrifugation and optical microscopy techniques&sequencial=2&nomePeriodico=Fuel (Guildford)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PEREIRA, Fábio Franceschi</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>PEREIRA, Fábio Franceschi ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . THE INFLUENCE OF SAMPLE PREPARATION ON THE STRENGTH RESULTS OF A PAN-BASED CARBON FIBER. Chemistry & Chemical Technology<sup><img id='19964196_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19964196' /></sup>, v. 4, p. 329, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19964196&volume=4&issue=&paginaInicial=329&titulo=THE INFLUENCE OF SAMPLE PREPARATION ON THE STRENGTH RESULTS OF A PAN-BASED CARBON FIBER&sequencial=3&nomePeriodico=Chemistry & Chemical Technology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BRAGA, Carolina Possato</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.fuel.2008.10.029" target="_blank"></a>BRAGA, Carolina Possato ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . Influence of heat and pressure treatment on the rheological behavior of petroleum pitches. Fuel (Guildford)<sup><img id='00162361_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00162361' /></sup>, v. 88, p. 853, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.fuel.2008.10.029&issn=00162361&volume=88&issue=&paginaInicial=853&titulo=Influence of heat and pressure treatment on the rheological behavior of petroleum pitches&sequencial=4&nomePeriodico=Fuel (Guildford)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CASTRO, Alexandre Taschetto de</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . EMPREGO DE SUBPRODUTOS DA PRODUçãO DE PICHES DE PETRóLEO NA SíNTESE DE NANOESFERAS DE CARBONO. Polímeros (São Carlos. Impresso)<sup><img id='01041428_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01041428' /></sup>, v. 19, p. 344-346, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01041428&volume=19&issue=&paginaInicial=344&titulo=EMPREGO DE SUBPRODUTOS DA PRODUçãO DE PICHES DE PETRóLEO NA SíNTESE DE NANOESFERAS DE CARBONO&sequencial=5&nomePeriodico=Polímeros (São Carlos. Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FREITAS, Luiz Clóvis de</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.fuel.2008.01.015" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6942138037090509" target="_blank">FREITAS, Luiz Clóvis de</a> ; <b>DEPINE DE CASTRO, L.</b> . Correlations between quinoline and 1 methyl 2 pyrrolidinone insolubles in petroleum pitches. Fuel (Guildford)<sup><img id='00162361_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00162361' /></sup>, v. 87, p. 2842-2845, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.fuel.2008.01.015&issn=00162361&volume=87&issue=&paginaInicial=2842&titulo=Correlations between quinoline and 1 methyl 2 pyrrolidinone insolubles in petroleum pitches&sequencial=6&nomePeriodico=Fuel (Guildford)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUTRA, Carlos H. M. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . Obtenção de piches mesofásicos em dois estágios a partir de piche de piche de petróleo. Polímeros<sup><img id='01041428_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01041428' /></sup>, v. 18, p. 307-311, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01041428&volume=18&issue=&paginaInicial=307&titulo=Obtenção de piches mesofásicos em dois estágios a partir de piche de piche de petróleo&sequencial=7&nomePeriodico=Polímeros" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DEPINE DE CASTRO, L.;De CASTRO, L. D.;CASTRO, L. D. de;Luiz Castro</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>DEPINE DE CASTRO, L.</b> . Anisotropy and Mesophase Formation Towards Carbon Fibre Production from Coal Tar Pitches and Petroleum Pitches - A Review. Journal of the Brazilian Chemical Society<sup><img id='01035053_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01035053' /></sup>, Brasil, v. 17, n.6, p. 1096-1106, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01035053&volume=17&issue=&paginaInicial=1096&titulo=Anisotropy and Mesophase Formation Towards Carbon Fibre Production from Coal Tar Pitches and Petroleum Pitches - A Review&sequencial=8&nomePeriodico=Journal of the Brazilian Chemical Society" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DEPINE DE CASTRO, L.;De CASTRO, L. D.;CASTRO, L. D. de;Luiz Castro</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . The Control of High Temperature Corrosion of Engineering Carbons and Graphites. Corrosion Science<sup><img id='0010938X_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0010938X' /></sup>, v. 33, n.4, p. 527-543, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0010938X&volume=33&issue=&paginaInicial=527&titulo=The Control of High Temperature Corrosion of Engineering Carbons and Graphites&sequencial=9&nomePeriodico=Corrosion Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alcindo Gonçalves ; Alessandro André Leme ; Alexandre de Sá Avelar ; Sydenham Lourenço Neto ; Cristina Soreanu Pecequilo ; Igor Fuser ; Joaquim Francisco de Carvalho ; José Alexandre Altahyde Hage ; <b>DEPINE DE CASTRO, L.</b> ; Luiz Pinguelli Rosa ; Cassio Luiz de França ; Paulo César Manduca ; Raul Sturart ; Sergio Xavier Ferolla ; Sinclair Mallet-Guy Guerra ; Marcelo Micke Dotl . Energia. In: José Alexandre Hage. (Org.). A Energia, a política internacional e o Brasil. 1ed.Curitiba: Instituto Memória Editora e Projetos Culturais, 2008, v. , p. 196-235. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Os desafios da nanotecnologia para o Brasil. Gazeta Mercantil, Edição Nacional, p. C2 - C3, 17 fev.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Uma indústria em cima da mesa. Jornal do Brasil, Rio de Janeiro, p. A22 - A23, 16 fev.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Os riscos da falta de tecnologia de carbono. Gazeta Mercantil, Edição Nacional, p. C8 - C9, 16 fev.  2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Os riscos da falta de tecnologia no Brasil. Jornal do Brasil, Rio de Janeiro, p. E4 - E5, 15 fev.  2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6942138037090509" target="_blank">FREITAS, Luiz Clóvis de</a> ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . Efeito de diferentes atmosferas na produção de piches de petróleo. In: IV Congresso Brasileiro de Carbono - CARBONO 2007, 2007, Gramado. CARBONO 2007, 2007. v. 1. p. 24-27. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, M. H. G. ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . Caracterização de óleos pesados de petróleo por extrografia e cromatografia gasosa acoplada a espectrometeria de massas. In: IV Congresso Brasileiro de Carbono - CARBONO 2007, 2007, Gramado. CARBONO 2007, 2007. v. 1. p. 113-118. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . Preparação de piches mesofásicos a partir de piche de petróleo em dois estágios. In: IV Congresso Brasileiro de Carbono - CARBONO 2007, 2007, Gramado. CARBONO 2007, 2007. v. 1. p. 144-149. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRAGA, Carolina Possato ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . Estudo reológico de piches de petróleo durante a pirólise. In: IV Congresso Brasileiro de Carbono - CARBONO 2007, 2007, Gramado. CARBONO 2007, 2007. v. 1. p. 150-156. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Anisotropy and mesophase towards pitch carbon fibre production. In: III Congresso Brasileiro de Carbono - CARBONO 2005, 2005, Rio de Janeiro. Anais do III Congresso Brasileiro de Carbono, 2005. v. 1. p. 168-175. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6942138037090509" target="_blank">FREITAS, Luiz Clóvis de</a> ; <b>DEPINE DE CASTRO, L.</b> . Correlação entre os insolúveis em quinoleína e n-metil pirrolidinona para acompanhamento das características dos piches de petróleo. In: III Congresso Brasileiro de Carbono - CARBONO 2005, 2005, Rio de Janeiro. Anais do III Congresso Brasileiro de Carbono, 2005. v. 1. p. 108-112. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUTRA, Carlos Henrique Monteiro de Castro ; <b>DEPINE DE CASTRO, L.</b> . A influência dos parâmetros de destilação sobre as propriedades de piches produzidos a partir de resíduos aromáticos de petróleo. In: III Congresso Brasileiro de Carbono - CARBONO 2005, 2005, Rio de Janeiro. Anais do III Congresso Brasileiro de Carbono, 2005. v. 1. p. 12-15. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . O Emprego Estratégico dos Manufaturados do Carbono. In: I Encontro Técnico-Científico Carbono/Grafite, 1992, Rio de Janeiro. I Encontro Técnico-Científico Carbono/Grafite, 1992. v. I. p. 91-94. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . Produção de uma cobertura múltipla de SiC/SiO2-TiO2 pela técnica do sol-gel para inibir a oxidação da grafite e dos compostos carbono-carbono. In: I Encontro Técnico-Científico Carbono/Grafite, 1992, Rio de Janeiro. I Encontro Técnico-Científico Carbono/Grafite, 1992. v. I. p. 60-63. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . Produção de uma cobertura de SiC pela técnica do Sol-Gel para inibir a oxidação dos materiais de carbono. In: I Encontro Técnico-Científico Carbono/Grafite, 1992, Rio de Janeiro. I Encontro Técnico-Científico Carbono/Grafite, 1992. v. I. p. 42-44. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . A inibição da oxidação do carbono - o estado da arte. In: I Encontro Técnico-Científico Carbono/Grafite, 1992, Rio de Janeiro. I Encontro Técnico-Científico Carbono/Grafite, 1992. v. I. p. 10-12. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . Surface Modification of Carbon Materials to Inhibit Oxidation - A Review. In: International Symposium on Carbon, 1990, Tsukuba. In Proceedings of an International Symposium on Carbon. Tsukuba: The Carbon Society of Japan, 1990. v. 1. p. 366-369. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; VARGAS, A. S. ; SCHMAL, M. . Simulação Numérica do Comportamento de um reator catalítico anular adiabático. In: 6º Congresso Nacional de Matemática Aplicada e Computacional, 1983, São José dos Campos. 6º Congresso Nacional de Matemática Aplicada e Computacional, 1983. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; VARGAS, A. S. ; SCHMAL, M. . The effect of Reynold's number on the heat and mass transfer in a catalytic annular reactor. In: I Congresso Latino Americano de Transferencia de Calor e Massa, 1982, La Plata. I Congresso Latino Americano de Transferencia de Calor e Massa, 1982. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, Fábio Franceschi ; PEREIRA, M. H. G. ; PAIXAO, L. N. ; <b>DEPINE DE CASTRO, L.</b> . Evaluation of iso-anisotropic portions of petroleum pitches by XRD, OM and Maldi-Tof. In: The Annual World Conference on Carbon, 2013, Rio de Janeiro. Carbon 2013, 2013. v. 1. p. 1-5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">M. Coutinho ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; W.F. SOUZA ; <b>DEPINE DE CASTRO, L.</b> . Influence of Quinoline-Insoluble Content, Anisotropy and Porosity on Mechanical Resistance of Amorphous Carbon Produced from Different Pitch Binders. In: The Annual World Conference on Carbon, 2013, Rio de Janeiro. Carbon 2013, 2013. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; <b>DEPINE DE CASTRO, L.</b> . Influence of producion parameters on structural properties of carbon nanospheres produced from complex hydrocarbon residues. In: The Annual World Conference on Carbon, 2013, Rio de Janeiro. Carbon 2013, 2013. v. 1. p. 1-2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vieira, F. R. ; DUTRA, Carlos Henrique Monteiro de Castro ; Paulo Mendes ; <b>DEPINE DE CASTRO, L.</b> . Rheological characterisation of petroleum pitches. In: The Annual World Conference on Carbon, 2013, Rio de Janeiro. Carbon 2013, 2013. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fernanda Albuquerque ; <b>DEPINE DE CASTRO, L.</b> . Elemental Analysis of different heavy oils. In: The Annual World Conference on Carbon, 2013, Rio de Janeiro. Carbon 2013, 2013. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, M. H. G. ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . Investigation of Molecular Masses Formed during the Heat Treatment of Petroleum Pitches. In: The Annual World Conference on Carbon, 2012, Cracovia. CARBON 2012, 2012. v. 1. p. 51-51. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; <b>DEPINE DE CASTRO, L.</b> ; W.F. SOUZA . The production of Pitches from the Decanted Oil Derived from Catalytic Cracking of Petroleum. In: The Annual World Conference on Carbon, 2012, Cracovia. CARBON 2012, 2012. v. 1. p. 118-118. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; <b>De CASTRO, L. D.</b> . Detailed NMr Characterization of a Petroleum Binder Pitch and its Precursor. In: The Annual World Conference on Carbon, 2012, Cracovia. CARBON 2012, 2012. v. 1. p. 119-119. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">G. F. Altoé ; L. B. Canto ; <b>DEPINE DE CASTRO, L.</b> . Effects of stabilization conditions on microestructure and chemical composition of carbon fibers obtained from petroleum pitch. Part I. Temperature and Residence Time.. In: V Congresso Brasileiro de Carbono, 2011, Rio de Janeiro. Anais do V Congresso Brasileiro de Carbono, 2011. v. I. p. 61-65. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">G. F. Altoé ; L. B. Canto ; <b>DEPINE DE CASTRO, L.</b> . Effects of stabilization conditions on microestructure and chemical composition of carbon fibers obtained from petroleum pitch. Part II. Heating rate. In: V Congresso Brasileiro de Carbono, 2011, Rio de Janeiro. Anais do V Congresso Brasileiro de Carbono, 2011. v. I. p. 124-128. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, Fábio Franceschi ; <b>DEPINE DE CASTRO, L.</b> . Ballistic Protection Performance of Carbon Materials. In: V Congresso Brasileiro de Carbono, 2011, Rio de Janeiro. Anais do V Congresso Brasileiro de Carbono, 2011. v. I. p. 129-133. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEDINA, Denise ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; <b>DEPINE DE CASTRO, L.</b> . Petroleum pitch as an alternative of coal tar pitch in graphite production. In: V Congresso Brasileiro de Carbono, 2011, Rio de Janeiro. Anais do V Congresso Brasileiro de Carbono, 2011. v. I. p. 185-189. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vieira, F. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; <b>DEPINE DE CASTRO, L.</b> . Determining the anisotropic content in a petroleum pitch - comparison of centrifugation and optical microscopy techniques.. In: V Congresso Brasileiro de Carbono, 2011, Rio de Janeiro. Anais do V Congresso Brasileiro de Carbono, 2011. v. I. p. 190-194. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; <b>DEPINE DE CASTRO, L.</b> . Application fo liquid-phase NMR to the study of petroleum binder. In: V Congresso Brasileiro de Carbono, 2011, Rio de Janeiro. Anais do V Congresso Brasileiro de Carbono, 2011. v. I. p. 257-261. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lima, E. ; PEREIRA, M. H. G. ; <b>DEPINE DE CASTRO, L.</b> . Investigation of aromatic compounds in heavy petroleum oils and pitches. In: V Congresso Brasileiro de Carbono, 2011, Rio de Janeiro. Anais do V Congresso Brasileiro de Carbono, 2011. v. I. p. 349-353. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, M. H. G. ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . Mass spectrometry of petroleum pitches for the characterization of molecular masses. In: International Carbon Conference, 2011, Shang Hai. CARBON 2011, 2011. p. 495. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . Synthesis of carbon nanospheres from petroleum residues. In: International Carbon Conference, 2010, Clemson. CARBON 2010, 2010. p. 392. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, Fábio Franceschi ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . Evaluation of different conditions in the melt-spinning process of petroleum pitches. In: International Carbon Conference, 2010, Clemson. CARBON 2010, 2010. p. 24. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . Synthesis of carbon nanospheres from petroleum residues. In: 11th International Conference on Advanced Materials, 2009, Rio de Janeiro. 11th International Conference on Advanced Materials - ICAM 2009, 2009. p. C508. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, M. H. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . Characterization of Brazilian decant oils by extrography and gas chromatography coupled with mass spectrometry. In: International Conference on Carbon, 2008, Nagano. Carbon 2008, 2008. p. PO259. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; BRAGA, Carolina Possato ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . The rheological behavior of petroleum pitches during pyrolysis. In: International Conference on Carbon, 2008, Nagano. Carbon 2008, 2008. p. PO146. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">A. M. dos Santos ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> . Elasticity in petroleum pitches. In: VI Brazilian Conference on Rheology, 2008, Rio de Janeiro. VI Brazilian Conference on Rheology, 2008. v. 1. p. 13-14. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRAGA, Carolina Possato ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . Correlation Between Viscosity and Softening Point of Petroleum Pitches. In: III Brazilian Conference on Rheology, 2006, Rio de Janeiro. III Brazilian Conference on Rheology, 2006. p. 21-22. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> . Novo método para a determinação do teor de insolúveis em quinolina em piches. In: II Encontro Técnico-Científico Carbono/Grafite, 1999, São José dos Campos. II Encontro Técnico-Científico Carbono/Grafite, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . Sol-Gel Routes for Producing Multi-Layer SiC/SiO2-TiO2 Coatings on Carbon Materials. In: 5. International Carbon Conference, 1992, Essen. In Proceedings of International Carbon Conference Carbon 92, 1992. v. 1. p. 738-740. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . SIC Coating Produced Using Sol-Gel Technique to Inhibit the Oxidation of Carbon Materials. In: 20th Biennial Carbon Conference, 1991, Santa Barbara. In Extended Abstracts 20th American Carbon Conference, 1991. v. 1. p. 420-421. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">G. F. Altoé ; <b>DEPINE DE CASTRO, L.</b> ; L. B. Canto . Effects of stabilization time on microstructure of mesophase pitch-based carbon fibers with different diameters. In: 11th International Conference on Advanced Materials - ICAM 2009, 2009, Rio de Janeiro. 11th International Conference on Advanced Materials - ICAM 2009, 2009. v. O. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, M. H. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . Investigation of Heavy Petroleum Oils from different refineries by Group-Class Characterization. In: The 9th International Conference on Petroleum Phase Behavior and Fouling, 2008, Victoria. Petrophase 2008, 2008. p. 111-111. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6942138037090509" target="_blank">FREITAS, Luiz Clóvis de</a> ; <b>DEPINE DE CASTRO, L.</b> . Correlação entre a densidade e o ponto de amolecimento de piches de petróleo com o objetivo da rápida confirmação de resultados. In: 29 Reunião Anual da SBQ, 2006, Lindóia, 2006. v. FQ-095. p. 95-95. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRAGA, Carolina Possato ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> . Estudo reológico de Resíduos Aromáticos de Petróleo (RARO) utilizados na produção de piches de petróleo. In: 29 Reunião Anual da SBQ, 2006, Lindóia, 2006. v. QM 027. p. 29-29. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . A influência do tempo da destilação de resíduo aromático de petróleo sobre as propriedades de piches anisotrópicos. In: 29 Reunião Anual da SBQ, 2006, Lindóia, 2006. v. TC 027. p. 68-68. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Piche - Matéria-Prima para o Século XXI. In: II Congresso Brasileiro de Carbono, 2004, Vitória. Carbono 2004, 2004. v. 1. p. 13-13. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, Fábio Franceschi ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . Evaluation of Differente Conditions in Melt-Spinning Process fo Petroleum Pitches. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . Synthesis of Nanocarbons from Petroleum Residues. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, Fábio Franceschi ; PAIXAO, L. N. ; <b>DEPINE DE CASTRO, L.</b> . The influence of melt-spinning configuration on the microtexture of petroleum pitch-based carbon fibers. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">A. M. dos Santos ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> . RHEOLOGICAL BEHAVIOR OF MESOPHASE PETROLEUM PITCHES. 2010. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . The research and developments of pitch-derived carbons in Brazil. 2009. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Materiais de carbono a partir de resíduo pesado de petróleo no Núcleo de Competência para o Desenvolvimento de Tecnologia de Carbono. 2008. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Desenvolvimento de Tecnologia para Produção de Fibra de Carbono a partir de Piche de Petróleo. 2008. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6942138037090509" target="_blank">FREITAS, Luiz Clóvis de</a> ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . Efeito de diferentes atmosferas na produção de piches de petróleo. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, M. H. G. ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . Caracterização de óleos pesados de petróleo por extrografia e cromatografia gasosa acoplada a espectrometria de massa. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . Preparação de piches mesofásicos a partir do piche de petróleo em dois estágios. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRAGA, Carolina Possato ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; <b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a> . Estudo reológico de piches de petróleo durante a pirólise. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Aplicações Estratégicas do Carbono - Energia Nuclear. 2006. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Nanotecnologia. 2006. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Carbono - Aplicações Estratégicas. 2006. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Anisotropy and mesophase towards carbon fibre production. 2005. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Fibra de Carbono - O aço do futuro - Tipos, mercado, aplicações e tecnologia. 2005. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . O carbono - aplicações estratégicas. 2005. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Fibra de Carbono. 2005. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Fibra de Carbono de Piche Mesofásico - Mercado, Aplicações e Inovações. 2002. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . O Carbono e seus produtos. 1997. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . Sol-Gel Routes for Producing Multi-Layer SiC/SiO2-TiO2 Coatings on Carbon Materials. 1992. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . O Emprego Estratégico dos Manufaturados do Carbono. 1992. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . Produção de uma cobertura múltipla de SiC/SiO1-TiO2 pela técnica do Sol-Gel para inibir a oxidação da grafite e dos compostos carbono-carbono. 1992. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . Produção de uma cobertura de SiC pela técnica do Sol-Gel para inibir a oxidação dos materiais de carbono. 1992. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . A Inibição da oxidação do carbono - O Estado da Arte. 1992. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . A inibição da oxidação do carbono através da técnica do sol-gel. 1992. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; McENANEY, B. . SiC Coating Produced Using Sol-Gel Technique to Inhibit the Oxidation of Carbon Materials. 1991. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="AssessoriaConsultoria"></a>Assessoria e consultoria</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Grafite - Mercado, Aplicações e Valor Estratégico. 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . Fibra de Carbono a partir de Piche Mesofásico - O Mercado, as Aplicações e as Inovações. 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>DEPINE DE CASTRO, L.</b> . Manual de Produção de Grafites. 1998. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ProcessosTecnicas"></a>Processos ou técnicas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; DUTRA, Carlos Henrique Monteiro de Castro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6942138037090509" target="_blank">FREITAS, Luiz Clóvis de</a> . Processo de destilação de óleos decantados para produção de piches de petróleo PI 0804234-9. 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; <b>DEPINE DE CASTRO, L.</b> . NANOMATERIAIS DE CARBONO OBTIDOS A PARTIR DE FRAÇÕES PESADAS DE PETRÓLEO  E PROCESSO DE OBTENÇÃO DOS MESMOS. 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>DEPINE DE CASTRO, L.</b> . Sol-Gel Method of making silicon carbide and of protecting a substrate. 1991. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; LOH, Watson . Jounal of the Brazilian Chemical Society - número especial . 2006. (Editoração/Periódico). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . I Encontro Científico-Tecnológico Carbono/Grafite. 1992. (Editoração/Anais). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PatentesRegistros">
+<h1>Patentes e registros</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Patente"></a><br class="clear" /><div class="inst_back">
+<b>Patente</b>
+</div><br/><div class='status-patente'>A Confirmação do status de um pedido de patentes poderá ser solicitada à Diretoria de Patentes (DIRPA) por meio de uma Certidão de atos relativos aos processos</div><div style='clear:both'></div><a name="patente"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=5,256,448&idCNPq=0045562583461164&sequencial=150">&nbsp;</span><b>DEPINE DE CASTRO, L.</b> .  Sol-gel method of making silicon carbide and of protecting a substrate . 
+						1991, 
+						Grã-Bretanha. <br>
+                Patente:
+                Privilégio de Inovação.
+            Número do registro: 5,256,448, data de depósito: 
+                    11/10/1991, título: " Sol-gel method of making silicon carbide and of protecting a substrate " , Instituição de registro:United States Patent and Trademark Office.          
+        </div>
+</div>
+<br class="clear">
+<a name="patente"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=PI0804234-9&idCNPq=0045562583461164&sequencial=138">&nbsp;</span><b>DEPINE DE CASTRO, L.</b> ; DUTRA, Carlos Henrique Monteiro de Castro ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6942138037090509" target="_blank">FREITAS, Luiz Clóvis de</a> . Processo de destilação de óleos decantados para produção de piches de petróleo PI 0804234-9. 
+						2008, 
+						Brasil. <br>
+                Patente:
+                Privilégio de Inovação.
+            Número do registro: PI0804234-9, data de depósito: 
+                    01/10/2008, título: "Processo de destilação de óleos decantados para produção de piches de petróleo PI 0804234-9" .          
+        Instituição(ões) financiadora(s): Petrobras.
+					</div>
+</div>
+<br class="clear">
+<a name="patente"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=020080131666&idCNPq=0045562583461164&sequencial=139">&nbsp;</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; <b>DEPINE DE CASTRO, L.</b> . NANOMATERIAIS DE CARBONO OBTIDOS A PARTIR DE FRAÇÕES PESADAS DE PETRÓLEO  E PROCESSO DE OBTENÇÃO DOS MESMOS. 
+						2008, 
+						Brasil. <br>
+                Patente:
+                Privilégio de Inovação.
+            Número do registro: 020080131666, data de depósito: 
+                    30/10/2008, título: "NANOMATERIAIS DE CARBONO OBTIDOS A PARTIR DE FRAÇÕES PESADAS DE PETRÓLEO  E PROCESSO DE OBTENÇÃO DOS MESMOS" .          
+        Instituição(ões) financiadora(s): Petrobras.
+					</div>
+</div>
+<br class="clear">
+<a name="patente"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=PCT/BR2011/00015&idCNPq=0045562583461164&sequencial=149">&nbsp;</span><b>CASTRO, L. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; W.F. SOUZA . Processo de produção de piche de petróleo. 
+						2012, 
+						Brasil. <br>
+                Patente:
+                Privilégio de Inovação.
+            Número do registro: PCT/BR2011/00015, data de depósito: 
+                    27/05/2012, título: "Processo de produção de piche de petróleo" , Instituição de registro:United States Patent and Trademark Office.          
+        </div>
+</div>
+<br class="clear">
+<a name="DesenhoIndustrial"></a><br class="clear" /><div class="inst_back">
+<b>Desenho industrial</b>
+</div>
+<a name="desenhoIndustrial"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=5256448 US&idCNPq=0045562583461164&sequencial=137">&nbsp;</span><b>DEPINE DE CASTRO, L.</b> . Sol-Gel Method of making silicon carbide and of protecting a substrate. 
+						1991, 
+						Grã-Bretanha. <br>
+                Patente:
+                Desenho Industrial.
+            Número do registro: 5256448 US, data de registro: 
+                    11/10/1991, título: "Sol-Gel Method of making silicon carbide and of protecting a substrate" .          
+        Instituição(ões) financiadora(s): Ministério do Exército e CNPq.
+					</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b>; J. C. C. Freitas; A. G. Cunha; F.G. Emmerich.  Participação em banca de Gilceia Libera Sarnaglia Vassem. Pirólise de pireno sob pressão até 500C em atmosfera de nitrogênio. 2008. Dissertação (Mestrado em Física) - Universidade Federal do Espírito Santo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b>; THIM, G. P.; PARDINI, L. C.; RESENDE, M. C.; ALMEIDA, S. F. M.; OTANI, C..  Participação em banca de Evandro Luís Nohara. Estabelecimento de Parâmetros de Processamento de Compósitos CRFC Aplicados na Área de Elementos de Fricção. 1998. Dissertação (Mestrado em Física) - Instituto Tecnológico de Aeronáutica. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9323158689549288" target="_blank">ANDRADE, Cristina Tristão de</a>; MENDES, L. C.; MEI, L. H. I.; <b>DEPINE DE CASTRO, L.</b>; ROJAS, E. G. A..  Participação em banca de Rachel Oliveira Nasser. Síntese e caracterização de polímeros superabsorventes derivados de amido de milho e ácido acrílico. 2008. Tese (Doutorado em Ciência e Tecnologia de Polímeros)  - Instituto de Macromoléculas Universidade Federal do Rio de Janeiro. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The Annual World Conference on Carbon. Evaluation of iso-anisotropic portions of petroleum pitches by XRD, OM and Maldi-Tof. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The Annual World Conference on Carbon. Influence of Quinoline-Insoluble Content, Anisotropy and Porosity on Mechanical Resistance of Amorphous Carbon Produced from Different Pitch Binders. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The Annual World Conference on Carbon. Influence of producion parameters on structural properties of carbon nanospheres produced from complex hydrocarbon residues. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The Annual World Conference on Carbon. Rheological characterisation of petroleum pitches. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The Annual World Conference on Carbon. Elemental Analysis of different heavy oils. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The Annual World Conference on Carbon - CARBON 2012. Investigation of Molecular Masses Formed during the Heat Treatment of Petroleum Pitches. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The Annual World Conference on Carbon - CARBON 2012. The production of Pitches from the Decanted Oil Derived from Catalytic Cracking of Petroleum. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The Annual World Conference on Carbon - CARBON 2012. Detailed NMr Characterization of a Petroleum Binder Pitch and its Precursor. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The Annual World Conference on Carbon. Mass Spectrometry of Petroleum Pitches for the Characterization of Molecular Masses. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The Annual World Conference on Carbon - CARBON 2010. Evaluation of Differente Conditions in Melt-Spinning Process fo Petroleum Pitches. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The Annual World Conference on Carbon - CARBON 2010. Synthesis of Nanocarbons from Petroleum Residues. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">65o Congresso Internacional ABM. The influence of melt-spinning configuration on the microtexture of petroleum pitch-based carbon fibers. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The annual word conference on carbon - CARBON 2009. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1st French-Brazilian Carbon Meeting.The research and developments of pitch-derived carbons in Brazil.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Congresso Brasileiro de Carbono - CARBONO 2007. Efeito de diferentes atmosferas na produção de piches de petróleo. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Congresso Brasileiro de Carbono - CARBONO 2007. Caracterização de óleos pesados de petróleo por extrografia e cromatografia gasosa acoplada a espectrometria de massas. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Congresso Brasileiro de Carbono - CARBONO 2007. Preparação de piches mesofásicos a partir do piche de petróleo em dois estágios. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Congresso Brasileiro de Carbono - CARBONO 2007. Estudo reológico de piches de petróleo durante a pirólise. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1st International Carbon Composites Conference. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Brazilian Conference on Rheology. Correlation Between Viscosity and Softening Point of Petroleum Pitches. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2 Workshop de Nanotecnologia Aeroespacial. 2006. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso Brasileiro de Carbono - CARBONO 2005. IAnisotropy and mesophase towards pitch carbon fibre production. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso Brasileiro de Carbono. Membro da Comissão Científica. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso Brasileiro de Carbono. Piche - Matéria-Prima para o Século XXI. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso Brasileiro de Carbono. Membro da Comissão Científica. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">5. International Carbon Conference. Sol-Gel Routes for Producing Multi-Layer SiC/SiO2-TiO2 Coatings on Carbon Materials. 1992. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Encontro Técnico-Científico Carbono/Grafite.A inibição da oxidação do carbono - o estado da arte.
+							1992. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">20th Biennial Carbon Conference. SIC Coating Produced Using Sol-Gel Technique to Inhibit the Oxidation of Carbon Materials. 1991. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carbon 90. 1990. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">19th Biennial Conference on Carbon. 1989. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">18th Biennial Conference on Carbon. 1987. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pitch - The Science of a future material.
+							1987. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">17th Biennial Conference on Carbon. 1985. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carbon 84. 1984. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sciences Related to Pitch and Coke usage in Carbon Manufacture - Pore Structure and Gas Flow in Graphite.
+							1984. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">16th Biennial Conference on Carbon. 1983. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso Brasileiro de Ensino de Engenharia e VII Assembléia Geral Ordinária da ABENGE. 1981. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Internacional de Corrosão Metálica. 1978. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário sobre Equipamentos de Controle de Poluição. 1978. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3881813210889062" target="_blank">CASTRO, Alexandre Taschetto de</a> ; DUTRA, Carlos Henrique Monteiro de Castro ; PEREIRA, Fábio Franceschi ; PEREIRA, M. H. G. ; Vieira, F. R. ; F.G. Emmerich ; W.F. SOUZA . The Annual World Conference on Carbon. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> ; G. L. Vignoles . II Franco-Brazilian Meeting on Carbon. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . V Congresso Brasileiro de Carbono - CARBONO 2011. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">G. L. Vignoles ; <b>DEPINE DE CASTRO, L.</b> . 1st French-Brazilian Carbon Meeting. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . IV Congresso Brasileiro de Carbono - CARBONO 2007. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . III Congresso Brasileiro de Carbono - CARBONO 2005. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DEPINE DE CASTRO, L.</b> . I Encontro Técnico-Científico Carbono/Grafite. 1992. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Helena Gonçalves Pereira. Identificação química de resíduos pesados de petróleo.
+						Início: 2008. Tese (Doutorado em Ciência e Tecnologia de Polímeros)  - Instituto de Macromoléculas Universidade Federal do Rio de Janeiro. (Co-orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Giseli Fidelis Altoé. EFEITOS DAS CONDIÇÕES DE ESTABILIZAÇÃO NA MICROESTRUTURA E NA COMPOSIÇÃO QUÍMICA DE FIBRAS DE CARBONO OBTIDAS A PARTIR DE PICHE DE PETRÓLEO.
+							2010.
+						
+					Dissertação  (Mestrado em Ciência e Tecnologia de Polímeros)  - Instituto de Macromoléculas Universidade Federal do Rio de Janeiro, . Co-Orientador: Luiz Depine de Castro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Helena Gonçales Pereira. Análise Cromatográfica de Óleos Pesados de Petróleo.
+							2008.
+						
+					Dissertação  (Mestrado em Ciência e Tecnologia de Polímeros)  - Instituto de Macromoléculas Universidade Federal do Rio de Janeiro, . Co-Orientador: Luiz Depine de Castro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carolina Possato Braga. Estudo reológico de piches de petróleo.
+							2007. 0 f.
+						
+					Dissertação  (Mestrado em Ciência e Tecnologia de Polímeros)  - Instituto de Macromoléculas Universidade Federal do Rio de Janeiro, . Co-Orientador: Luiz Depine de Castro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiz Clóvis de Freitas. Obtenção de materiais vítreos através da técnica do sol-gel visando a inibição da oxidação do carbono.
+							1998.
+						
+					Dissertação  (Mestrado em Ciência e Tecnologia de Polímeros)  - Universidade Federal do Rio de Janeiro, . Co-Orientador: Luiz Depine de Castro. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Helena Gonçalves Pereira.
+						CARACTERIZAÇÃO DE PICHES PRECURSORES DE FIBRAS DE CARBONO OBTIDOS A PARTIR DE ÓLEO PESADO DE PETRÓLEO.
+							2013. Tese
+					 (Doutorado em Ciência e Tecnologia de Polímeros)  - Instituto de Macromoléculas Universidade Federal do Rio de Janeiro, . Co-Orientador: Luiz Depine de Castro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fábio Franceschi Pereira.
+						FIAÇÃO DE FIBRAS DE CARBONO A PARTIR DE PICHES DE PETRÓLEO ANISOTRÓPICOS.
+							2010. Tese
+					 (Doutorado em Ciência e Tecnologia de Polímeros)  - Instituto de Macromoléculas Universidade Federal do Rio de Janeiro, . Co-Orientador: Luiz Depine de Castro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Henrique Monteiro de Castro Dutra.
+						Pirólise de resíduos pesados de petróleo e a produção de piches precursores de novos materiais.
+							2009. Tese
+					 (Doutorado em Ciência e Tecnologia de Polímeros)  - Instituto de Macromoléculas Universidade Federal do Rio de Janeiro, . Co-Orientador: Luiz Depine de Castro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alexandre Taschetto de Castro.
+						Síntese de nanoesferas de carbono a partir de resíduos de petróleo.
+							2009. 0 f. Tese
+					 (Doutorado em Ciência e Tecnologia de Polímeros)  - Instituto de Macromoléculas Universidade Federal do Rio de Janeiro, . Co-Orientador: Luiz Depine de Castro. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PotencialInovacao">
+<h1>Inova&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="PatentePI"></a><br class="clear" /><div class="inst_back">
+<b>Patente</b>
+</div>
+<a name="patente"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=PCT/BR2011/00015&idCNPq=0045562583461164&sequencial=149">&nbsp;</span><b>CASTRO, L. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8010587430556350" target="_blank">DUTRA, Carlos H. M. C.</a> ; W.F. SOUZA . Processo de produção de piche de petróleo. 
+						2012, 
+						Brasil. <br>
+                Patente:
+                Privilégio de Inovação.
+            Número do registro: PCT/BR2011/00015, data de depósito: 
+                    27/05/2012, título: "Processo de produção de piche de petróleo" , Instituição de registro:United States Patent and Trademark Office.          
+        </div>
+</div>
+<br class="clear">
+<a name="patente"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=5,256,448&idCNPq=0045562583461164&sequencial=150">&nbsp;</span><b>DEPINE DE CASTRO, L.</b> .  Sol-gel method of making silicon carbide and of protecting a substrate . 
+						1991, 
+						Grã-Bretanha. <br>
+                Patente:
+                Privilégio de Inovação.
+            Número do registro: 5,256,448, data de depósito: 
+                    11/10/1991, título: " Sol-gel method of making silicon carbide and of protecting a substrate " , Instituição de registro:United States Patent and Trademark Office.          
+        </div>
+</div>
+<br class="clear">
+<a name="ProjetosPesquisaPI"></a><br class="clear" /><div class="inst_back">
+<b>Projetos de pesquisa</b>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ArtigosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Artigos</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PEREIRA, M. H. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>PEREIRA, M. H. G. ; <b>DEPINE DE CASTRO, L.</b> ; MICHEL, R. C. . Investigating Molecular Masses Formed During the Heat Treatment of Petroleum Pitches by Mass Spectrometry. Nas Gorod Plus<sup><img id='19964196_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19964196' /></sup>, v. 7, p. 131-140, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19964196&volume=7&issue=&paginaInicial=131&titulo=Investigating Molecular Masses Formed During the Heat Treatment of Petroleum Pitches by Mass Spectrometry&sequencial=1&nomePeriodico=Nas Gorod Plus" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 23/05/2014 &agrave;s 17:31:22</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0045562583461164" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

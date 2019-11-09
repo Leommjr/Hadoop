@@ -1,0 +1,1824 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Rafael Raul Papst)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0084804778326049" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4777038Z0&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4777038Z0"><div class="infpessoa">
+<h2 class="nome">Rafael Raul Papst</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0084804778326049</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 25/05/2012</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Educação Física pela Universidade Estadual de Londrina (2002) e mestrado em Educação Física pela Universidade Estadual de Londrina (2010). Atualmente é professor da academia de musculação da AREL - Associação Recreativa Esportiva Londrinense. Tem experiência na área de Educação Física, atuando principalmente nos seguintes temas: treinamento com pesos, aptidão física, medidas e avaliação.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Rafael Raul Papst</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PAPST, R. R.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Associação Recreativa Esportiva Londrinense. <br class="clear" />Rua Henrique Dias, 567<br class="clear" />Jd. Petrópolis<br class="clear" />86015-820 - Londrina, PR - Brasil<br class="clear" />Telefone: (43) 33153400<br class="clear" />Ramal: 3429<br class="clear" />URL da Homepage: <a target="blank" href="http://www.arel.com.br">http://www.arel.com.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Educação Física - Uel - Uem<span class="ajaxCAPES" data-param="&codigoCurso=40002012029P8&nivelCurso=M"></span>. <br class="clear" />Universidade Estadual de Londrina, UEL, Brasil.
+		
+	<br class="clear" />Título: IMPACTO DA ORDEM DE EXECUÇÃO DOS EXERCÍCIOS EM UM PROGRAMA DE TREINAMENTO COM PESOS SOBRE A RESISTENCIA DE FORÇA E A MASSA MUSCULAR DE HOMENS ADULTOS JOVENS,Ano de Obtenção: 2010.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2218631591820466'><img src='images/curriculo/logolattes.gif' /></a>Edilson Serpeloni Cyrino.<br class="clear" />Grande área: Ciências da Saúde / Área: Educação Física. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Educação Física<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual de Londrina, UEL, Brasil.
+		
+	<br class="clear" />Título: Predição da potência aeróbia estimada por dois testes de campo. <br class="clear" />Orientador: Hélio Serassuelo Júnior. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Musculação: Pressupostos Teóricos e Aplicações.  (Carga horária: 16h). <br class="clear" />Grupo de Estudo e Pesquisa Em Metabolismo Nutrição e Exercício.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fisiologia do Exercício Prescrição e Acompanhament.  (Carga horária: 16h). <br class="clear" />Grupo de Estudo e Pesquisa Em Metabolismo Nutrição e Exercício.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Musculação do Nutriente Ao Medicamento Prós Contra.  (Carga horária: 10h). <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Controle do Peso Corporal Atividade Física e Nutri.  (Carga horária: 20h). <br class="clear" />Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prescrição e Orientação de Exercícios de Sobrecarg.  (Carga horária: 20h). <br class="clear" />Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação e Prescrição do Exercício Físico.  (Carga horária: 20h). <br class="clear" />Korppus.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitoria Acadêmica em Aptidão Física.  (Carga horária: 34h). <br class="clear" />Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Personal Training.  (Carga horária: 20h). <br class="clear" />Korppus.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Nutrição e Atividade Física.  (Carga horária: 3h). <br class="clear" />Centro de Estudos do Laboratório de Aptidão Física de São Caetano do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Pratique Musculação Melhore Sua Aptidão Física e S.  (Carga horária: 404h). <br class="clear" />Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Estadual de Londrina, UEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: colaborador</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Associação Recreativa Esportiva Londrinense, AREL - CLUBE ALE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor de musculação, Enquadramento Funcional: Professor/Coordenador, Carga horária: 34</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5/2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Musculação<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Impacto de 24 semanas de treinamento contra-resist&ecirc;ncia com sobrecarga no comportamento de indicadores morfol&oacute;gicos, hemodin&acirc;micos e neuromusculares.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Impacto de 24 semanas de treinamento contra-resistência com sobrecarga no comportamento de indicadores morfológicos, hemodinâmicos e neuromusculares.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Rafael Raul Papst - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Educação Física. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Educação Física / Subárea: Treinamento com pesos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Educação Física / Subárea: Medidas e Avaliação. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CYRINO, E.S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S1517-86922009000700009" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, E.S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9636323397072101" target="_blank">MACHADO, D.R.L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2197007220505581" target="_blank">REICHERT, F.F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6550959666011238" target="_blank">GOBBO, L.A.</a> ; <b>PAPST, R. R.</b> ; SILVA, C.C. . Comparação entre a adiposidade subcutânea dos hemicorpos direito e esquerdo. Revista Brasileira de Medicina do Esporte<sup><img id='15178692_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15178692' /></sup>, v. 15, p. 446-449, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S1517-86922009000700009&issn=15178692&volume=15&issue=&paginaInicial=446&titulo=Comparação entre a adiposidade subcutânea dos hemicorpos direito e esquerdo&sequencial=1&nomePeriodico=Revista Brasileira de Medicina do Esporte" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CYRINO, E.S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, E.S.</a> ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, L.R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, A.H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0940116628104330" target="_blank">SOARES-CALDEIRA, L.F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6550959666011238" target="_blank">GOBBO, L.A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6467663420798938" target="_blank">ROMANZINI, M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4234360237099660" target="_blank">SERASSUELO JUNIOR, H.</a> . Comparação entre a potência aeróbia estimada por dois testes de campo. Revista da Educação Física<sup><img id='01033948_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01033948' /></sup>, Maringá, v. 16, n.2, p. 171-177, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01033948&volume=16&issue=&paginaInicial=171&titulo=Comparação entre a potência aeróbia estimada por dois testes de campo&sequencial=2&nomePeriodico=Revista da Educação Física" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RITTI-DIAS, R.M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S1517-86922005000100004" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7585097807348027" target="_blank">RITTI-DIAS, R.M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, E.S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0497305955489088" target="_blank">SALVADOR, E.P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0940116628104330" target="_blank">SOARES-CALDEIRA, L.F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6741068029044612" target="_blank">NAKAMURA, F.Y.</a> ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4738452097825181" target="_blank">BRUNA, N.</a> ; GURJÃO, A.L.D. . Influência do processo de familiarização para avaliação da força muscular em testes de 1-RM. Revista Brasileira de Medicina do Esporte<sup><img id='15178692_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15178692' /></sup>, Niterói, v. 11, n.1, p. 34-38, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S1517-86922005000100004&issn=15178692&volume=11&issue=&paginaInicial=34&titulo=Influência do processo de familiarização para avaliação da força muscular em testes de 1-RM&sequencial=3&nomePeriodico=Revista Brasileira de Medicina do Esporte" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOBBO, L.A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6550959666011238" target="_blank">GOBBO, L.A.</a> ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5337489652965190" target="_blank">CARVALHO, F.O.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4791693786520379" target="_blank">SOUZA, C.F.</a> ; CUATTRIN, S.A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, E.S.</a> . Perfil antropométrico da seleção brasileira de canoagem. Revista Brasileira de Ciência e Movimento<sup><img id='01031716_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01031716' /></sup>, Brasília, v. 10, n.1, p. 7-12, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01031716&volume=10&issue=&paginaInicial=7&titulo=Perfil antropométrico da seleção brasileira de canoagem&sequencial=4&nomePeriodico=Revista Brasileira de Ciência e Movimento" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEDINA, Josiane ; CAÇOLA, Priscila Martins ; LOPES, Renata F ; OKAZAKI, Vitor Hugo A ; KELLER, Birgit ; OLIVEIRA, Suzane ; LADEWIG, Iverson ; <b>PAPST, R. R.</b> . O uso de estratégias cognitivas de aprendizagem nos execícios da musculação. In: Fórum Internacional de qualidade de vida e saúde, 2005. Revista Científica JOPEF / Fórum Internacional de qualidade de vida e saúde. Curitiba: Korppus, 2005. p. 29-32. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> ; Avelar, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Impacto da ordem de execução dos exercícios em um programa de treinamento com pesos sobre a resistencia de força de homens adultos jovens. In: III CONBRAMENE, 2010, LONDRINA. III CONGRESSO BRASILEIRO DE METABOLISMO, NUTRIÇÃO E EXERCÍCIO, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Avelar, A. ; <b>PAPST, R. R.</b> ; Bottaro, M. ; Polito, Marcos ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . INFLUÊNCIA DA ORDEM DE EXECUÇÃO DOS EXERCÍCIOS DURANTE O TREINAMENTO COM PESOS SOBRE A HIPERTROFIA MUSCULAR. In: III CONBRAMENE, 2010, LONDRINA. III CONGRESSO BRASILEIRO DE METABOLISMO, NUTRIÇÃO E EXERCÍCIO, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEDROSO, J.A.B. ; DODERO, S. R. ; <b>PAPST, R. R.</b> ; BARBOSA, D.S. ; TIRAPEGUI, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . EFEITO DA SUPLEMENTAÇÃO DE ACIDO LINOLEICO CONJUGADO ASSOCIADA À PRÁTICA DE UM PROGRAMA DE TREINAMENTO AERÓBICO SOBRE O COMPORTAMENTO MORFOLÓGICO DE MULHERES EM SOBREPESO. In: III CONBRAMENE, 2010, LONDRINA. III CONGRESSO BRASILEIRO DE METABOLISMO NUTRIÇÃO E EXERCÍCIO, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEDROSO, J.A.B. ; DODERO, S. R. ; <b>PAPST, R. R.</b> ; BARBOSA, D.S. ; TIRAPEGUI, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . EFEITO DA SUPLEMENTAÇÃO DE ÁCIDO LINOLÉICO CONJUGADO ASSOCIADO À PRÁTICA DE UM PROGRAMA DE TREINAMNETO AERÓBICO SOBRE PARAMETROS BIOQUIMICOS DE MULHERES COM SOBREPESO. In: II CONGRESSO PAULISTA DE NUTRIÇÃO ESPORTIVA, 2010, SÃO PAULO. II CONGRESSO PAULISTA DE NUTRIÇÃO ESPORTIVA, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> ; Braz, I.A. ; Avelar, A. ; CYRINO, Edison Serpeloni . IMPACTO DE DIFERENTES SISTEMAS DE TREINAMENTO COM PESOS SOBRE A FORÇA MUSCULAR. In: 32 Simpósio Internacional de Ciências do Esporte, 2009, São Paulo. 35 anos construindo saúde pala atividade física e o esporte, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Avelar, A. ; <b>PAPST, R. R.</b> ; Bottaro, M. ; CYRINO, Edison Serpeloni . REPRODUTIBILIDADE INTRA-AVALIADOR DA MEDIDA DE ESPESSURA MUSCULAR DO BÍCEPS E DO QUADRÍCEPS POR MEIO DE ULTRASONOGRAFIA. In: 32 Simposio Internacional de Ciencias do Esporte, 2009, São Paulo. 35 anos construindo saúde pela atividade física e o esporte, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ramos, I.S. ; Avelar, A. ; TRINDADE, M. C. C. ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . GASTO ENERGÉTICO DIÁRIO POR AUTO-RECORDATÓRIO: IMPLICAÇÕES DOS HÁBITOS DO FINAL DE SEMANA. In: 32 Simpósio Internacional de Ciências do Esporte, 2009, São Paulo. 35 anos construindo saúde pela atividade física e o esporte, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigues Pereira da Silva ; DODERO, S. R. ; Gerage, A. M. ; <b>PAPST, R. R.</b> ; Conceição, J. N. ; CYRINO, Edison Serpeloni . EFEITO DE OITO SEMANAS DE TREINAMENTO AERÓBICO ASSOCIADO À SUPLEMENTAÇÃO DE ÁCIDO LINOLEICO CONJUGADO SOBRE A PRESSÃO ARTERIAL EM MULHERES COM SOBREPESO. In: XIII Simpósio de Educação Física e Esporte - I Congresso Internacional de Educação Física, Esporte e Lazer, 2008, Presidente Prudente. XIII Simpósio de Educação Física e Esporte, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> ; OLIVEIRA, A. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Correlação entre indicadores antropométricos e a força muscular. In: Conbramene, 2008, londrina. II Congresso Brasileiro de Metabolismo, Nutrição e Exercício, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> ; CYRINO, Edison Serpeloni . Influência de indicadores antropométricos sobre o desempenho e o consumo máximo de oxigênio de jovens adultos predito por um teste de medida indireta. In: I Congresso Brasileiro de Metabolismo, Nutrição e Exercício, 2006, LONDRINA. I Congresso Brasileiro de Metabolismo, Nutrição e Exercício, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> ; MEDINA, Josiane ; CAVALLI, S. C. ; PIANCA, H. J. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4234360237099660" target="_blank">SERASSUELO JUNIOR, Hélio</a> . Associação entre indicadores antropométricos e o consumo máximo de oxigênio predito pelo teste de corrida shuttle run de 20 metros. In: Simpósio Internacional de Ciências do Esporte, 2003, São Paulo. Anais do XXVI Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 2003. p. 163. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEDINA, Josiane ; <b>PAPST, R. R.</b> ; RONQUE, E. R. V. ; GOBBO, L. A. ; GONÇALVES, Ezequiel Moreira ; CARVALHO, F. O. ; SOUZA, Caciane Delamolle Carvalho de ; ARRUDA, Miguel de ; GALDI, Enori Helena Gemente . Associação entre variáveis antropométricas e o desempenho motor no teste de corrida/caminhada de 12 minutos. In: Simpósio Internacional de Ciências do Esporte, 2003, São Paulo. Anais do XXVI Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 2003. p. 222. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PIANCA, H. J. C. ; TASSI, Gustavo Neri ; LEITE, J. C. ; <b>PAPST, R. R.</b> ; SALVADOR, Emanuel Péricles ; GURJÃO, André Luiz Demantova ; SANTOS, E. F. ; SANTOS, Vinicius de Araujo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7585097807348027" target="_blank">DIAS, Raphael Mendes Ritti</a> ; CRESTAN, T. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Impacto de 8 semanas de treinamento com pesos na força muscular e na composição corporal de mulheres. In: Simpósio Internacional de Ciências do Esporte, 2003, São Paulo. Anais XXVI Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 2003. p. 252. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHIAVONI, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> ; ROMANZINI, Marcelo ; DINIZ, Andréa ; TRINDADE, M. C. C. ; <b>PAPST, R. R.</b> ; GOBBO, L. A. ; SANTOS, E. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; GURJÃO, André Luiz Demantova ; CAVALLI, S. C. . Impacto da suplementação de creatina e do treinamento com pesos sobre o comportamento da pressão arterial. In: Simpósio Internacional de Ciências do Esporte, 2003, São Paulo. Anais XXVI Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS. p. 58. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TRINDADE, M. C. C. ; SOUZA, C. F. ; LEITE, J. C. ; SANTOS, E. F. ; GURJÃO, André Luiz Demantova ; ROMANZINI, Marcelo ; <b>PAPST, R. R.</b> ; SALVADOR, Emanuel Péricles ; SOUZA, Caciane Delamolle Carvalho de ; DINIZ, Andréa ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Efeito da suplementação de creatina sobre indicadores da composição corporal em indivíduos treinados. In: Simpósio Internacional de Ciências do Esporte, 2003, São Paulo. Anais XXVI Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 2003. p. 58. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARVALHO, F. O. ; GOBBO, L. A. ; <b>PAPST, R. R.</b> ; SOUZA, C. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Caracterização dos atletas da seleção brasileira masculina de canoagem por meio da análise do somatótipo. In: CONGRESSO INTERNACIONAL DE EDUCAÇÃO FÍSICA, DESPORTO E RECREAÇÃO, 2002, Foz do Iguaçu. ANAIS DO XVII CONGRESSO INTERNACIONAL DE EDUCAÇÃO FÍSICA, DESPORTO E RECREAÇÃO. Foz do Iguaçu: FIEP, 2002. p. 288. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROMANZINI, Marcelo ; GOBBO, L. A. ; <b>PAPST, R. R.</b> ; MELO, J. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7585097807348027" target="_blank">DIAS, Raphael Mendes Ritti</a> ; OLIVEIRA, G. M. G. . Análise da reprodutibilidade das medidas produzidas pela técnica de impedância bioelétrica. . In: CONGRESSO DE EDUCAÇÃO FÍSICA E CIÊNCIAS DO DESPORTO DOS PAÍSES DE LÍNGUA PORTUGUESA., 2002, São Luis.. Livro de Resumos do IX Congresso de Educação Física e Ciências do Desporto dos Países de Língua Portuguesa.. São Luis: UFMA, 2002. p. 221. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, M. A. ; BRUNA, Nelson ; <b>PAPST, R. R.</b> ; MEDINA, Josiane ; FÉLIX, G. ; QUIROGA, F. L. ; PIANCA, H. J. C. ; VENANCIO, O. P. ; SANTOS, C. F. ; OLIVEIRA, A. R. . Associação entre indicadores de força muscular e medidas antropométricas de perímetros. . In: CONGRESSO DE EDUCAÇÃO FÍSICA E CIÊNCIAS DO DESPORTO DOS PAÍSES DE LÍNGUA PORTUGUESA., 2002, São Luis. Livro de Resumos do IX Congresso de Educação Física e Ciências do Desporto dos Países de Língua Portuguesa.. São Luis: UFMA, 2002. p. 225. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARVALHO, F. O. ; <b>PAPST, R. R.</b> ; GOBBO, L. A. ; MEDINA, Josiane ; SOUZA, C. F. ; OLIVEIRA, A. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4234360237099660" target="_blank">SERASSUELO JUNIOR, Hélio</a> . Comparação entre a adiposidade subcutânea dos hemicorpos direito e esquerdo de adultos jovens . In: Encontro Anual de Iniciação Científica CNPq-UEL-UEM-UEPG-UNIOESTE, 2002, Maringa. Livro de Resumos do XI Encontro Anual de Iniciação Científica CNPq-UEL-UEM-UEPG-UNIOESTE. Maringa, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TREVISAN, M. C. ; COELHO, C. F. ; DODERO, S. R. ; MENDES, K. A. ; <b>PAPST, R. R.</b> ; TRINDADE, M. C. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Determinação da ingestão calórica mediante a aplicação de registro alimentar de três dias pode ser comprometida pelos dias a serem adotados para a análise.. In: VI Congresso Nacional da Sociedade Brasileira de Alimentação e Nutrição, 2001, Florianópolis. Livro de Resumos do VI Congresso Nacional da Sociedade Brasileira de Alimentação e Nutrição. Florianópolis: Alternativa, 2001. p. 193. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TREVISAN, M. C. ; COELHO, C. F. ; DODERO, S. R. ; MENDES, K. A. ; <b>PAPST, R. R.</b> ; TRINDADE, M. C. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação entre diferentes instrumentos para a avaliação do hábito alimentar.. In: VI Congresso Nacional da Sociedade Brasileira de Alimentação e Nutrição, 2001, Florianópolis. Livro de Resumos do VI Congresso Nacional da Sociedade Brasileira de Alimentação e Nutrição. Florianópolis: Alternativa, 2001. p. 182. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		SOUZA, C. F. ; GOBBO, L. A. ; CARVALHO, F. O. ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Características antropométricas de atletas da seleção brasileira masculina de canoagem.. In: Congresso Brasileiro de Atividade Física e Saúde, 2001, Florianópolis. Anais do III Congresso Brasileiro de Atividade Física e Saúde. Florianópolis: UFSC, 2001. p. 42. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEDINA, Josiane ; <b>PAPST, R. R.</b> ; PAULINO, J. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Relação entre o índice de conicidade e indicadores antropométricos da adiposidade corporal.. In: Congresso Brasileiro de Atividade Física e Saúde, 2001, Florianópolis.. Anais do III Congresso Brasileiro de Atividade Física e Saúde. Florianópolis.: UFSC, 2001. p. 48.. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>PAPST, R. R.</b> ; MEDINA, Josiane ; SCHIAVONI, D. ; LEITE, J. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; GASSI, E. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Estimativa da potência aeróbia mediante a aplicação de dois testes de campo.. In: Congresso Brasileiro de Atividade Física e Saúde, 2001, Florianópolis. Anais do III Congresso Brasileiro de Atividade Física e Saúde. Florianópolis: UFSC, 2001. p. 97. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHIAVONI, D. ; SILVA, K. E. S. ; <b>PAPST, R. R.</b> ; SANTOS, E. F. ; SANTOS, C. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comportamento da pressão arterial e da freqüência cardíaca de indivíduos normotensos após uma sessão de treinamento com pesos.. In: Congresso Brasileiro de Atividade Física e Saúde, 2001, Florianópolis. Anais do III Congresso Brasileiro de Atividade Física e Saúde. Florianópolis: UFSC, 2001. p. 106. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LEITE, J. C. ; ALCOVER NETO, M. ; GASSI, E. R. ; SANTOS, E. F. ; ALMEIDA, P. B. L. ; SANTOS, C. F. ; MAKOSKI, A. ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Treinamento com pesos pode modificar a flexibilidade?. In: Congresso Brasileiro de Atividade Física e Saúde, 2001, Florianópolis. Anais do III Congresso Brasileiro de Atividade Física e Saúde. Florianópolis: UFSC, 2001. p. 158. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROMANZINI, Marcelo ; <b>PAPST, R. R.</b> ; MEDINA, Josiane ; PORTO, D. B. ; SILVA, C. C. ; SANTOS, C. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Influência do tipo de compasso sobre a estimativa do percentual de gordura por diferentes equações.. In: Simpósio Internacional de Ciências do Esporte, 2000, São Paulo. Anais do XXIII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 2000. p. 85. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEDINA, Josiane ; <b>PAPST, R. R.</b> ; PAULINO, J. R. ; ROMANZINI, Marcelo ; PORTO, D. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Relação entre dois diferentes índices topográficos utilizados para a análise da distribuição da gordura em adultos.. In: Simpósio Internacional de Ciências do Esporte, 2000, São Paulo.. Anais do XXIII Simpósio Internacional de Ciências do Esporte. São Paulo.: CELAFISCS, 2000. p. 87.. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, K. E. S. ; SCHIAVONI, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; GASSI, E. R. ; COELHO, C. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; <b>PAPST, R. R.</b> ; DODERO, S. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Correlação entre o teste de corrida e caminhada de 12 min e o teste de shuttle run de 20 m.. In: Simpósio Internacional de Ciências do Esporte, 2000, São Paulo. Anais do XXIII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 2000. p. 92. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> ; MEDINA, Josiane ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; ROMANZINI, Marcelo ; SANTOS, C. F. ; GASSI, E. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação entre a potência aeróbia estimada por dois testes de campo.. In: Simpósio Internacional de Ciências do Esporte, 2000, São Paulo. Anais do XXIII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 2000. p. 93. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PORTO, D. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; ROMANZINI, Marcelo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; SANTOS, C. F. ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Relação entre a fadiga localizada e a fadiga generalizada em exercícios de força.. In: Simpósio Internacional de Ciências do Esporte, 2000, São Paulo. Anais do XXIII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 2000. p. 93. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, P. B. L. ; ALCOVER NETO, M. ; SANTOS, E. F. ; ROMANZINI, Marcelo ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Influência de variáveis morfológicas sobre o desempenho motor de adultos jovens do sexo masculino.. In: Simpósio Internacional de Ciências do Esporte, 2000, São Paulo. Anais do XXIII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 2000. p. 99. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALCOVER NETO, M. ; ALMEIDA, P. B. L. ; SANTOS, E. F. ; <b>PAPST, R. R.</b> ; PAULINO, J. R. ; SEGANTIN, A. Q. ; MATTANÓ, R. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Predição da flexibilidade no teste de sentar-e-alcançar a partir de variáveis morfológicas e neuromotoras.. In: Simpósio Internacional de Ciências do Esporte, 2000, São Paulo. Anais do XXIII Simpósio Internacional de Ciências do Esporte. Sào Paulo: CELAFISCS, 2000. p. 100. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PAULINO, J. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; SILVA, C. C. ; ROMANZINI, Marcelo ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Influência de variáveis morfológicas sobre o desempenho motor no teste de corrida de 50 metros.. In: Anais do XXIII Simpósio Internacional de Ciências do Esporte, 2000, São Paulo. Anais do XXIII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 2000. p. 101. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHIAVONI, D. ; SILVA, K. E. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Resposta aguda da pressão arterial e da freqüência cardíaca durante treinamento com peso.. In: Simpósio Internacional de Ciências do Esporte, 2000, São Paulo. Anais do XXIII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 2000. p. 107. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TREVISAN, M. C. ; COELHO, C. F. ; DODERO, S. R. ; ROMANZINI, Marcelo ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Perfil nutricional e gasto energético de adultos do sexo masculino.. In: Simpósio Internacional de Ciências do Esporte, 2000, São Paulo. Anais do XXIII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 2000. p. 121. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEDINA, Josiane ; FÁVARO, P. E. ; <b>PAPST, R. R.</b> ; ROMANZINI, Marcelo ; CAMPOS, G. J. . Força aplicada a ginástica olímpica feminina.. In: I encontro de ginástica olímpica de Colorado, 2000, Colorado. Anais do I encontro de ginástica olímpica de Colorado. Londrina: UEL, 2000. p. 23. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> ; MEDINA, Josiane ; FREITAS, L. A. G. . Os processos de aprendizagem em ginástica olímpica. In: I encontro de ginástica olímpica de Colorado, 2000, Colorado. Anais do I encontro de ginástica olímpica de Colorado. Londrina: UEL, 2000. p. 43. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROMANZINI, Marcelo ; <b>PAPST, R. R.</b> ; CARDOSO, L. M. ; FÁVARO, P. E. ; MEDINA, Josiane ; FREITAS, L. A. G. . Somatótipo e características antropométricas de ginastas - um estudo de revisão.. In: I encontro de ginástica olímpica de Colorado, 2000, Colorado. Anais do I encontro de ginástica olímpica de Colorado. Londrina: UEL, 2000. p. 52. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, E. F. ; SANTOS, C. F. ; LEITE, J. C. ; ROMANZINI, Marcelo ; <b>PAPST, R. R.</b> ; FONSECA, S. A. . Comportamento do desempenho motor de alunos de uma escolinha de futsal em diferentes categorias.. In: FÓRUM BRASIL ESPORTE, 2000, Londrina. Anais do FÓRUM BRASIL ESPORTE - LONDRINA-PR. Londrina, 2000. p. 55. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, C. F. ; ROMANZINI, Marcelo ; SANTOS, E. F. ; <b>PAPST, R. R.</b> ; LEITE, J. C. ; FONSECA, S. A. . Indicadores da composição corporal em praticantes de futsal em diferentes categorias.. In: FÓRUM BRASIL ESPORTE, 2000, Londrina. Anais do FÓRUM BRASIL ESPORTE - LONDRINA-PR. Londrina, 2000. p. 54. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LEITE, J. C. ; SANTOS, C. F. ; ROMANZINI, Marcelo ; <b>PAPST, R. R.</b> ; SANTOS, E. F. . Comparação da capacidade cardiorrespiratória em praticantes de futsal em diferentes categorias.. In: FÓRUM BRASIL ESPORTE, 2000, Londrina. Anais do FÓRUM BRASIL ESPORTE - LONDRINA-PR. Londrina, 2000. p. 58. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CÂNDIDO, R. B. ; FONSECA, S. A. ; SANTOS, C. F. ; SILVA, C. C. ; ALMEIDA, P. B. L. ; ROMANZINI, Marcelo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; PAULINO, J. R. ; LIMA, E. ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação do padrão de distribuição da gordura corporal subcutânea em meninas de 7 a 17 anos de diferentes grupos raciais.. In: CONGRESSO INTERNACIONAL DE EDUCAÇÃO FÍSICA, 1999, Foz do Iguaçu. Anais do XIV Congresso Internacional de Educação Física. Foz do Iguaçu.: FIEP, 1999. p. 119. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, C. F. ; CÂNDIDO, R. B. ; SILVA, C. C. ; ALMEIDA, P. B. L. ; ROMANZINI, Marcelo ; FONSECA, S. A. ; OKANO, R. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; PAULINO, J. R. ; LIMA, E. ; <b>PAPST, R. R.</b> ; CRESTAN, T. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Aplicação de índices topográficos para a avaliação do padrão de distribuição da gordura corporal em negras de 7 a 17 anos.. In: CONGRESSO INTERNACIONAL DE EDUCAÇÃO FÍSICA, 1999, Foz do Iguaçu. Anais do XIV Congresso Internacional de Educação Física. Foz do Iguaçu: FIEP, 1999. p. 120. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> ; CÂNDIDO, R. B. ; SILVA, C. C. ; ALMEIDA, P. B. L. ; ROMANZINI, Marcelo ; FONSECA, S. A. ; OKANO, R. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; PAULINO, J. R. ; LIMA, E. ; CRESTAN, T. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Aplicação de índices topográficos para a avaliação do padrão da distribuição da gordura corporal em brancas de 7 a 17 anos.. In: CONGRESSO INTERNACIONAL DE EDUCAÇÃO FÍSICA, 1999, Foz do Iguaçu. Anais do XIV Congresso Internacional de Educação Física. Foz do Iguaçu: FIEP, 1999. p. 121. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROMANZINI, Marcelo ; SILVA, C. C. ; SANTOS, C. F. ; CÂNDIDO, R. B. ; ALMEIDA, P. B. L. ; FONSECA, S. A. ; OKANO, R. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; LIMA, E. ; PAULINO, J. R. ; <b>PAPST, R. R.</b> ; CRESTAN, T. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação entre a quantidade de gordura corporal relativa em brancas e negras de 7 a 17 anos.. In: CONGRESSO INTERNACIONAL DE EDUCAÇÃO FÍSICA, 1999, Foz do Iguaçu. Anais do XIV Congresso Internacional de Educação Física. Foz do Iguaçu: FIEP, 1999. p. 122. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; SILVA, C. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Influência do treinamento sobre variáveis antropométricas e a composição corporal de atletas de natação. In: Congresso de Educação Física e Ciências do Esporte dos Países de Língua Portuguesa, 1999, Florianópolis. Livro de Resumos do VII Congresso de Educação Física e Ciências do Esporte dos Países de Língua Portuguesa. Florianópolis: UFSC - UDESC, 1999. p. 285. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, E. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; ROMANZINI, Marcelo ; <b>PAPST, R. R.</b> ; COELHO, C. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Relação entre o consumo máximo de oxigênio e a potência anaeróbia em jogadores de beisebol da categoria junior. . In: Congresso de Educação Física e Ciências do Esporte dos Países de Língua Portuguesa, 1999, Florianópolis. Livro de Resumos do VII Congresso de Educação Física e Ciências do Esporte dos Países de Língua Portuguesa. Florianópolis: UFSC - UDESC, 1999. p. 362. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROMANZINI, Marcelo ; RONQUE, E. R. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; PAULINO, J. R. ; <b>PAPST, R. R.</b> ; TREVISAN, M. C. ; SILVA, C. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Desempenho motor de escolares do sexo feminino das redes pública e privada do município de Londrina-PR na perspectiva da promoção da saúde. . In: Simpósio Internacional de Ciências do Esporte, 1999, São Paulo. Anais do XXII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 1999. p. 112. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LIMA, E. ; RONQUE, E. R. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; SANTOS, C. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; ROMANZINI, Marcelo ; PAULINO, J. R. ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação do desenvolvimento no teste de corrida ou caminhada de 9/12 minutos em escolares do sexo feminino de diferentes níveis sócio-econômicos.. In: Simpósio Internacional de Ciências do Esporte, 1999, São Paulo. Anais do XXII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 1999. p. 112. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PAULINO, J. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; ROMANZINI, Marcelo ; <b>PAPST, R. R.</b> ; TREVISAN, M. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação dos níveis de força de membros inferiores em diferentes modalidades esportivas. . In: Simpósio Internacional de Ciências do Esporte, 1999, São Paulo. Anais do XXII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 1999. p. 131. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> ; RONQUE, E. R. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; PAULINO, J. R. ; ROMANZINI, Marcelo ; TREVISAN, M. C. ; SILVA, C. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação entre as características morfológicas de escolares do alto nível sócio-econômico do sexo masculino e feminino do município de Londrina-PR. . In: Simpósio Internacional de Ciências do Esporte, 1999, São Paulo. Anais do XXII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 1999. p. 144. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; KRUGE, G. J. ; COELHO, C. F. ; <b>PAPST, R. R.</b> ; ROMANZINI, Marcelo ; SILVA, K. E. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Características de crescimento em escolares de ambos os sexos da rede pública e privada de ensino do município de Blumenau-SC.. In: Simpósio Internacional de Ciências do Esporte, 1999, São Paulo. Anais do XXII Simpósio Internacional de Ciências do Esporte. São Paulo: CELAFISCS, 1999. p. 145. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TREVISAN, M. C. ; KRUGE, G. J. ; PAULINO, J. R. ; <b>PAPST, R. R.</b> ; ROMANZINI, Marcelo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Estimativa do gasto energético e sua correlação com a composição corporal em escolares de ambos os sexos das redes pública e privada de ensino do município de Blumenau-SC.. In: Simpósio Internacional de Ciências do Esporte, 1999, São Paulo. Anais do XXII Simpósio Internacional de Ciências do Esporte. São Paulo: Celafiscs, 1999. p. 154. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, C. C. ; <b>PAPST, R. R.</b> ; ROMANZINI, Marcelo ; LIMA, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; KRUGE, G. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação da composição corporal em escolares da rede de ensino pública e privada do município de Blumenau-SC.. In: Simpósio Internacional de Ciências do Esporte, 1999, São Paulo. Anais do XXII Simpósio Internacional de Ciências do Esporte. São Paulo: Celafiscs, 1999. p. 157. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>56. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, P. B. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; SILVA, K. E. S. ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação da composição corporal entre escolares do sexo feminino dos municípios de Londrina-PR e Blumenau-SC.. In: Congresso Brasileiro de Atividade Física e Saúde, 1999, Florianópolis. Anais do II Congresso Brasileiro de Atividade Física e Saúde. Florianópolis: UFSC, 1999. p. 93. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>57. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KRUGE, G. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; COELHO, C. F. ; <b>PAPST, R. R.</b> ; OKANO, R. O. ; ALMEIDA, P. B. L. ; SILVA, K. E. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . A influência da renda familiar sobre o peso corporal e a gordura relativa em escolares de ambos os sexos do município de Blumenau-SC.. In: Congresso Brasileiro de Atividade Física e Saúde, 1999, Florianópolis. Anais do II Congresso Brasileiro de Atividade Física e Saúde. Florianópolis: UFSC, 1999. p. 85. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>58. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, C. C. ; FONSECA, S. A. ; SANTOS, C. F. ; CÂNDIDO, R. B. ; ALMEIDA, P. B. L. ; LIMA, E. ; ROMANZINI, Marcelo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; PAULINO, J. R. ; <b>PAPST, R. R.</b> ; CRESTAN, T. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação do padrão de distribuição da gordura corporal subcutânea em meninos de 7 a 12 anos de diferentes niveis sócio-econômicos. In: CONGRESSO INTERNACIONAL DE EDUCAÇÃO FÍSICA, 1999, Foz do Iguaçu. Anais do XIV Congresso Internacional de Educação Física. Foz do Iguaçu: FIEP, 1999. p. 124. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>59. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, S. A. ; SANTOS, C. F. ; SILVA, C. C. ; CÂNDIDO, R. B. ; ALMEIDA, P. B. L. ; ROMANZINI, Marcelo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; OKANO, R. O. ; PAULINO, J. R. ; LIMA, E. ; <b>PAPST, R. R.</b> ; CRESTAN, T. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Estudo comparativo da quantidade de gordura corporal relativa em pré-púberes de diferentes classes sociais.. In: CONGRESSO INTERNACIONAL DE EDUCAÇÃO FÍSICA, 1999, Foz do Iguaçu. Anais do XIV Congresso Internacional de Educação Física. Foz do Iguaçu: FIEP, 1999. p. 126. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>60. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, P. B. L. ; FONSECA, S. A. ; SANTOS, C. F. ; CÂNDIDO, R. B. ; SILVA, C. C. ; ROMANZINI, Marcelo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; PAULINO, J. R. ; LIMA, E. ; <b>PAPST, R. R.</b> ; CRESTAN, T. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação entre a quantidade de gordura corporal relativa em brancos e negros pré-púberes.. In: CONGRESSO INTERNACIONAL DE EDUCAÇÃO FÍSICA, 1999, Foz do Iguaçu. Anais do XIV Congresso Internacional de Educação Física. Foz  do Iguaçu: FIEP, 1999. p. 127. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>61. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, C. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; ROMANZINI, Marcelo ; SANTOS, C. F. ; FONSECA, S. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; CÂNDIDO, R. B. ; ALMEIDA, P. B. L. ; PAULINO, J. R. ; LIMA, E. ; <b>PAPST, R. R.</b> ; CRESTAN, T. A. ; OKANO, R. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação do padrão de distribuição da gordura corporal subcutânea em meninos de 7 a 12 anos de diferentes níveis sócio-econômicos.. In: Congresso de Iniciação Científica da EEFE/USP e Simpósio de Pós-graduação da EEFE/USP, 1998, São Paulo. Anais do V Congresso de Iniciação Científica da EEFE/USP e III Simpósio de Pós-graduação da EEFE/USP. São Paulo, 1998. p. 88. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>62. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, S. A. ; SILVA, C. C. ; ROMANZINI, Marcelo ; SANTOS, C. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; OKANO, R. O. ; CÂNDIDO, R. B. ; ALMEIDA, P. B. L. ; PAULINO, J. R. ; CRESTAN, T. A. ; LIMA, E. ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Estudo comparativo da quantidade de gordura corporal relativa em pré-púberes de diferentes classes sociais. In: Congresso de Iniciação Científica da EEFE/USP e Simpósio de Pós-graduação da EEFE/USP, 1998, São Paulo. Anais do V Congresso de Iniciação Científica da EEFE/USP e III Simpósio de Pós-graduação da EEFE/USP. São Paulo, 1998. p. 89. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>63. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, P. B. L. ; SANTOS, C. F. ; CÂNDIDO, R. B. ; SILVA, C. C. ; ROMANZINI, Marcelo ; FONSECA, S. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; PAULINO, J. R. ; LIMA, E. ; <b>PAPST, R. R.</b> ; CRESTAN, T. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação entre a quantidade de gordura corporal relativa em brancos e negros.. In: Congresso de Iniciação Científica da EEFE/USP e Simpósio de Pós-graduação da EEFE/USP, 1998, São Paulo. Anais do V Congresso de Iniciação Científica da EEFE/USP e III Simpósio de Pós-graduação da EEFE/USP. São Paulo, 1998. p. 91. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Resumos publicados em anais de congressos (artigos)</b>
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PAPST, R. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b>PAPST, R. R.</b> ; MEDINA, Josiane ; SANTOS, C. F. ; ROMANZINI, Marcelo ; SCHIAVONI, D. ; GOBBO, L. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4234360237099660" target="_blank">SERASSUELO JUNIOR, Hélio</a> ; OLIVEIRA, A. R. . Comparação entre a adiposidade subcutânea dos hemicorpos direito e esquerdo. . Revista Brasileira de Ciencia e Movimento<sup><img id='01031716_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01031716' /></sup>, Brasília, v. 10, n.4, p. 226, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01031716&volume=10&issue=&paginaInicial=226&titulo=Comparação entre a adiposidade subcutânea dos hemicorpos direito e esquerdo. &sequencial=1&nomePeriodico=Revista Brasileira de Ciencia e Movimento" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROMANZINI, Marcelo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span>ROMANZINI, Marcelo ; PORTO, D. B. ; GOBBO, L. A. ; MEDINA, Josiane ; <b>PAPST, R. R.</b> ; CAVALLI, S. C. ; SCHIAVONI, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Capacidade discriminatória do método de espessura de dobras cutâneas para identificar modificações nos componentes da composição corporal após treinamento com pesos. . Revista Brasileira de Ciência e Movimento<sup><img id='01031716_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01031716' /></sup>, Brasilia, v. 10, n.4, p. 227, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01031716&volume=10&issue=&paginaInicial=227&titulo=Capacidade discriminatória do método de espessura de dobras cutâneas para identificar modificações nos componentes da composição corporal após treinamento com pesos. &sequencial=2&nomePeriodico=Revista Brasileira de Ciência e Movimento" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, C. F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span>SANTOS, C. F. ; MEDINA, Josiane ; <b>PAPST, R. R.</b> ; ROMANZINI, Marcelo ; CARVALHO, F. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; MORAES, A. C. ; BANKOFF, A. D. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Modificações no conteúdo mineral ósseo após 16 semanas de treinamento com pesos. . Revista Brasileira de Ciencia e Movimento<sup><img id='01031716_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01031716' /></sup>, Brasilia, v. 10, n.4, p. 88, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01031716&volume=10&issue=&paginaInicial=88&titulo=Modificações no conteúdo mineral ósseo após 16 semanas de treinamento com pesos. &sequencial=3&nomePeriodico=Revista Brasileira de Ciencia e Movimento" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MEDINA, Josiane</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span>MEDINA, Josiane ; CARVALHO, F. O. ; <b>PAPST, R. R.</b> ; SCHIAVONI, D. ; RONQUE, E. R. V. ; OLIVEIRA, A. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4234360237099660" target="_blank">SERASSUELO JUNIOR, Hélio</a> . Estudo comparativo entre variáveis antropométricas e desempenho motor de meninos de alto nível sócio-econômico.. Revista Brasileira de Ciencia e Movimento<sup><img id='01031716_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01031716' /></sup>, Brasilia, v. 10, n.4, p. 220, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01031716&volume=10&issue=&paginaInicial=220&titulo=Estudo comparativo entre variáveis antropométricas e desempenho motor de meninos de alto nível sócio-econômico.&sequencial=4&nomePeriodico=Revista Brasileira de Ciencia e Movimento" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RONQUE, E. R. V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span>RONQUE, E. R. V. ; SANTOS, C. F. ; CARVALHO, F. O. ; MEDINA, Josiane ; DELAMOLLE, C. ; PIANCA, H. J. C. ; SOUZA, C. F. ; <b>PAPST, R. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7585097807348027" target="_blank">DIAS, Raphael Mendes Ritti</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4234360237099660" target="_blank">SERASSUELO JUNIOR, Hélio</a> . Estudo comparativo entre o crescimento e desempenho motor de escolares de ambos os sexos da rede privada de ensino do município de Londrina - PR. Revista Brasileira de Ciencia e Movimento<sup><img id='01031716_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01031716' /></sup>, Brasilia, v. 10, n.4, p. 92, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01031716&volume=10&issue=&paginaInicial=92&titulo=Estudo comparativo entre o crescimento e desempenho motor de escolares de ambos os sexos da rede privada de ensino do município de Londrina - PR&sequencial=5&nomePeriodico=Revista Brasileira de Ciencia e Movimento" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROMANZINI, Marcelo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		ROMANZINI, Marcelo ; <b>PAPST, R. R.</b> ; PORTO, D. B. ; ZUCAS, S. M. ; BURINI, R. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Efeito do treinamento com pesos e do controle nutricional sobre indicadores da composição corporal.. Motriz<sup><img id='14159805_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14159805' /></sup>, Rio Claro, v. 7, n.1, p. S122, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14159805&volume=7&issue=&paginaInicial=S122&titulo=Efeito do treinamento com pesos e do controle nutricional sobre indicadores da composição corporal.&sequencial=6&nomePeriodico=Motriz" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OKANO, Alexandre Hideki</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9586370984131426" target="_blank">OKANO, Alexandre Hideki</a> ; GASSI, E. R. ; DODERO, S. R. ; COELHO, C. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7986038717117704" target="_blank">ALTIMARI, Leandro Ricardo</a> ; ALMEIDA, P. B. L. ; <b>PAPST, R. R.</b> ; ROMANZINI, Marcelo ; SAIKI, E. B. ; SILVA, K. E. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2218631591820466" target="_blank">CYRINO, Edilson Serpeloni</a> . Comparação entre diferentes cargas para o teste de Wingate de membros inferiores em levantadores de peso recreativo.. Motriz (UNESP)<sup><img id='14159805_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14159805' /></sup>, Rio Claro, v. 7, n.1, p. S142, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14159805&volume=7&issue=&paginaInicial=S142&titulo=Comparação entre diferentes cargas para o teste de Wingate de membros inferiores em levantadores de peso recreativo.&sequencial=7&nomePeriodico=Motriz (UNESP)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV CONBRAMENE. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III COMBRAMENE. IMPACTO DA ORDEM DE EXECUÇÃO DOS EXERCÍCIOS EM UM PROGRAMA DE TREINAMENTO COM PESOS SOBRE A RESISTÊNCIA DE FORÇA DE HOMENS ADULTOS JOVENS. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">32 Simposio Internacional de Ciências de Esporte.IMPACTO DE DIFERENTES SISTEMAS DE TREINAMENTO COM PESOS SOBRE A FORÇA MUSCULAR.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II CONBRAMENE. CORRELAÇÃO ENTRE INDICADORES ANTROPOMÉTRICOS E A FORÇA MUSCULAR. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CONBRAMENE. I Congresso Brasileiro de Metabolismo, Nutrição e Exercício. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI Simpósio Internacional de Ciências do Esporte.XXVI Simpósio Internacional de Ciências do Esporte.
+							2003. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXV Simpósio Internacional de Ciências do Esporte.XXV Simpósio Internacional de Ciências do Esporte.
+							2002. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II  Congresso Internacional de Educação Física e Motricidade Humana. II Congresso Internacional de Educação Física e Motricidade Humana. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3  Congresso Brasileiro de Atividade Física e Saúde. 3  Congresso Brasileiro de Atividade Física e Saúde. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Simpósio Paulista de Educação Física.VIII Simpósio Paulista de Educação Física.
+							2001. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIII Simpósio Internacional de Ciências do Esporte.XXIII Simpósio Internacional de Ciências do Esporte.
+							2000. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro de Medicina e Nutrição do Esporte.Encontro de Medicina e Nutrição do Esporte.
+							2000. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">14  Congresso Internacional de Educação Física, Desporto e Recreação - FIEP/99. 14  Congresso Internacional de Educação Física, Desporto e Recreação - FIEP/99. 1999. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso Paranaense de Educação Física, Recreação, Esporte e Dança. II Congresso Paranaense de Educação Física, Recreação, Esporte e Dança. 1999. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7  Congresso de Educação Física e Ciências do Esporte dos Países de Língua Portuguesa. 7  Congresso de Educação Física e Ciências do Esporte dos Países de Língua Portuguesa. 1999. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Simpósio Internacional de Ciências do Esporte.XXII Simpósio Internacional de Ciências do Esporte.
+							1999. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso Paranaense de Educação Física, Recreação, Esporte e Dança. I Congresso Paranaense de Educação Física, Recreação, Esporte e Dança. 1998. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Congresso de Iniciação Científica (V CICEEFE). V Congresso de Iniciação Científica (V CICEEFE). 1998. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Simpósio de Pós Graduação da Escola de Educação Física e Esporte da USP (III SPGEEFE).III Simpósio de Pós Graduação da Escola de Educação Física e Esporte da USP (III SPGEEFE).
+							1998. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXI Simpósio Internacional de Ciências do Esporte.XXI Simpósio Internacional de Ciências do Esporte.
+							1998. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> . IV Congresso Brasileiro de Metabolismo, Nutrição e Exercício. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> . III Congresso Brasileiro de Metabolismo, Nutrição e Exercício. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> . II Congresso Brasileiro de Metabolismo, Nutrição e Exercício. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> . I Congresso Brasileiro de Metabolismo, Nutrição e Exercício. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> . Prescrição e Orientação de Exercícios de Sobrecarga (Musculação). 1999. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PAPST, R. R.</b> . Controle do Peso Corporal: Atividade Física e Nutrição. 1999. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Grupo de Estudo e Pesquisa em Metabolismo, Nutrição e Exercício
+Função: Pesquisador
+Duração: março/1997 a atualidade
+Instituição: Universidade Estadual de Londrina
+Coordenador: Prof. Dr. Edilson Serpeloni Cyrino
+</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:59:22</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0084804778326049" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

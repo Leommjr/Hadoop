@@ -1,0 +1,869 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Camila Marinho Mano)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0050912081432821" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4267065A9&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4267065A9"><div class="infpessoa">
+<h2 class="nome">Camila Marinho Mano</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0050912081432821</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 07/05/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Ciências Biológicas pela Universidade Cruzeiro do Sul (2005) e mestrado em Ciências Biológicas (Bioquímica) pela Universidade de São Paulo (2008), com experiência em análise de capacidade antioxidante e alterações espectroscópicas de hemeproteína causadas por espécies reativas. Atualmente é estudante de doutorado do Instituto de Química da Universidade de São Paulo, onde trabalha com reatividade de carbonilas tripletes e oxigênio singlete sobre biomoléculas, com ênfase em análise por espectrometria de massas, fluorescência e luminescência (photon counting). Realizou estágio de seis meses na faculdade de medicina da universidade de Yale, onde trabalhou com danos fotoquímicos em melanócitos.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Camila Marinho Mano<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MANO, C. M.;Mano, Camila M.;MARINHO MANO, CAMILA;MANO, CAMILA MARINHO</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade de São Paulo, Instituto de Química, Departamento de Bioquímica. <br class="clear" />Av. Professor Lineu Prestes, 748 bloco 10 superior sala 1065<br class="clear" />Butantã<br class="clear" />05508-900 - Sao Paulo, SP - Brasil - Caixa-postal: 26077<br class="clear" />Telefone: (11) 30913869<br class="clear" />Ramal: 256</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Bioquímica<span class="ajaxCAPES" data-param="&codigoCurso=33002029002P8&nivelCurso=D"></span>. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />com <b>período </b><b>sanduíche </b> em Yale University (Orientador: Douglas Brash). <br class="clear" />Título: Biological quenchers of enzimatic generated triplet ketones and adducts detection, Ano de obtenção: 2013. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7069264281185562'><img src='images/curriculo/logolattes.gif' /></a>Etelvino José Henriques Bechara. <br class="clear" />Grande área: Ciências Biológicas / Área: Bioquímica. <br class="clear" />Grande Área: Ciências Biológicas / Área: Bioquímica / Subárea: Química de Macromoléculas. <br class="clear" />Grande Área: Ciências Biológicas / Área: Bioquímica / Subárea: Metabolismo e Bioenergética. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciências Biológicas (Bioquímica)<span class="ajaxCAPES" data-param="&codigoCurso=33002010017P0&nivelCurso=M"></span>. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />Título: Proteção antioxidante promovida por astaxantina sobre citocromo c, incorporado em vesículas e desafiado com SIN-1,Ano de Obtenção: 2008.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7069264281185562'><img src='images/curriculo/logolattes.gif' /></a>Etelvino José Henriques Bechara.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. <br class="clear" />Palavras-chave: Lipossomo; citocromo c; peroxinitrito; espécies reativas de oxigênio/nitrogênio; antioxidante; fosfolipídio. <br class="clear" />Grande área: Ciências Biológicas / Área: Bioquímica. <br class="clear" />Grande Área: Ciências Biológicas / Área: Bioquímica / Subárea: Química de Macromoléculas. <br class="clear" />Grande Área: Ciências Biológicas / Área: Bioquímica / Subárea: Metabolismo e Bioenergética. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Ciências Biológicas<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Cruzeiro do Sul, UNICSUL, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade de São Paulo, USP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estudante de Pós-graduação, Enquadramento Funcional: Estudante de Pós-graduação, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Bioquímica / Subárea: Metabolismo e Bioenergética. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Bioquímica / Subárea: Química de Macromoléculas. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Alemão</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">"SBBq Award" for Best Poster, XLI Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SARTORI, ADRIANO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1371/journal.pone.0057790" target="_blank"></a>SARTORI, ADRIANO ; <b>Mano, Camila M.</b> ; MANTOVANI, MARIANA C. ; Dyszy, Fábio H. ; MASSARI, JÚLIO ; TOKIKAWA, RITA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9572410339084315" target="_blank">Nascimento, Otaciro R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9295156379317498" target="_blank">Nantes, Iseli L.</a> ; BECHARA, ETELVINO J. H. . Ferricytochrome c Directly Oxidizes Aminoacetone to Methylglyoxal, a Catabolite Accumulated in Carbonyl Stress. Plos One<sup><img id='19326203_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19326203' /></sup>, v. 8, p. e57790, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1371/journal.pone.0057790&issn=19326203&volume=8&issue=&paginaInicial=e57790&titulo=Ferricytochrome c Directly Oxidizes Aminoacetone to Methylglyoxal, a Catabolite Accumulated in Carbonyl Stress&sequencial=1&nomePeriodico=Plos One" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>POOL, HECTOR</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1155/2012/145380" target="_blank"></a>POOL, HECTOR ; QUINTANAR, DAVID ; FIGUEROA, JUAN DE DIOS ; <b>MARINHO MANO, CAMILA</b> ; BECHARA, J. ETELVINO H. ; GODÍNEZ, LUIS A. ; MENDOZA, SANDRA . Antioxidant Effects of Quercetin and Catechin Encapsulated into PLGA Nanoparticles. Journal of Nanomaterials (Print)<sup><img id='16874110_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16874110' /></sup>, v. 2012, p. 1-12, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1155/2012/145380&issn=16874110&volume=2012&issue=&paginaInicial=1&titulo=Antioxidant Effects of Quercetin and Catechin Encapsulated into PLGA Nanoparticles&sequencial=2&nomePeriodico=Journal of Nanomaterials (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OMENA, CRISTHIANE MARIA BAZÍLIO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.foodres.2012.07.010" target="_blank"></a>OMENA, CRISTHIANE MARIA BAZÍLIO ; VALENTIM, IARA BARROS ; GUEDES, GLAUCEVANE DA S. ; RABELO, LUIZA A. ; <b>MANO, CAMILA MARINHO</b> ; BECHARA, ETELVINO JOSÉ HENRIQUES ; SAWAYA, ALEXANDRA C.H.F. ; TREVISAN, MARIA TERESA SALLES ; DA COSTA, JOÃO GOMES ; FERREIRA, ROBERTA COSTA SILVA ; SANT'ANA, ANTÔNIO EUZÉBIO GOULART ; GOULART, MARÍLIA OLIVEIRA FONSECA . Antioxidant, anti-acetylcholinesterase and cytotoxic activities of ethanol extracts of peel, pulp and seeds of exotic Brazilian fruits. Food Research International<sup><img id='09639969_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09639969' /></sup>, v. 49, p. 334-344, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.foodres.2012.07.010&issn=09639969&volume=49&issue=&paginaInicial=334&titulo=Antioxidant, anti-acetylcholinesterase and cytotoxic activities of ethanol extracts of peel, pulp and seeds of exotic Brazilian fruits&sequencial=3&nomePeriodico=Food Research International" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, A.C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.foodchem.2008.12.045" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8096421126141225" target="_blank">OLIVEIRA, A.C.</a> ; <b>MANO, C. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6201376855872253" target="_blank">VALENTIM, I.B.</a> ; SILVA, C. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7069264281185562" target="_blank">BECHARA, E. J. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2058347369890530" target="_blank">BARROS, M.P.</a> ; GOULART, M. O. F. . Total phenolic content and free radical scavenging activities of methanolic extract powders of tropical fruit residues. Food Chemistry<sup><img id='03088146_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03088146' /></sup>, v. 115, p. 469-475, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.foodchem.2008.12.045&issn=03088146&volume=115&issue=&paginaInicial=469&titulo=Total phenolic content and free radical scavenging activities of methanolic extract powders of tropical fruit residues&sequencial=4&nomePeriodico=Food Chemistry" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MANO, C. M.;Mano, Camila M.;MARINHO MANO, CAMILA;MANO, CAMILA MARINHO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.freeradbiomed.2009.06.028" target="_blank"></a><b>MANO, C. M.</b> ; Barros, Marcelo P. ; Faria, Priscila A. ; Prieto, Tatiana ; Dyszy, Fábio H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9572410339084315" target="_blank">Nascimento, Otaciro R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9295156379317498" target="_blank">Nantes, Iseli L.</a> ; Bechara, Etelvino J.H. . Superoxide radical protects liposome-contained cytochrome c against oxidative damage promoted by peroxynitrite and free radicals. Free Radical Biology & Medicine<sup><img id='08915849_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='08915849' /></sup>, v. 47, p. 841-849, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.freeradbiomed.2009.06.028&issn=08915849&volume=47&issue=&paginaInicial=841&titulo=Superoxide radical protects liposome-contained cytochrome c against oxidative damage promoted by peroxynitrite and free radicals&sequencial=5&nomePeriodico=Free Radical Biology & Medicine" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VELOSA, A. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1021/tx700074n" target="_blank"></a>VELOSA, A. C. ; <b>MANO, C. M.</b> ; BAADER, W. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9931178094449488" target="_blank">STEVANI, C. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7069264281185562" target="_blank">BECHARA, E. J. H.</a> . 1,3-Diene Probes for Detection of Triplet Carbonyls in Biological Systems. Chemical Research in Toxicology<sup><img id='0893228X_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0893228X' /></sup>, v. 20, p. 1162-1169, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1021/tx700074n&issn=0893228X&volume=20&issue=&paginaInicial=1162&titulo=1,3-Diene Probes for Detection of Triplet Carbonyls in Biological Systems&sequencial=6&nomePeriodico=Chemical Research in Toxicology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MANO, C. M.</b> ; MASSARI, J. ; PRADO, F. M. ; MASCIO, P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7069264281185562" target="_blank">BECHARA, E. J. H.</a> . L-Trp as a Target of Radical Species Generated from Triplet Acetone. In: XLI Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology, 2012, Foz do Iguaçu. XLI Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MANO, C. M.</b> ; MASSARI, J. ; MASCIO, P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7069264281185562" target="_blank">BECHARA, E. J. H.</a> . Isobutanal/HRP-generated triplet acetone can induce L-Trp and L-Cystine adducts formation. In: SFRR - Europe 2011 Meeting, 2011, Istambul. SFRR-Europe 2011 Meeting, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OMENA, C. M. B. ; VALENTIM, I. B. ; <b>MANO, C. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7069264281185562" target="_blank">BECHARA, E. J. H.</a> ; GOULART, M. O. F. ; SANT'ANA A. E. G. . Estudo da proteção à peroxidação lipídica dos extratos etanólicos do Genipapo (Genipa americana L.) e Seringuela (Spondias purpurea). In: 33ª Reunião da Sociedade Brasileira de Química, 2010, Águas de Lindóia. A Química Construindo um Futuro Melhor, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SARTORI, A. ; <b>MANO, C. M.</b> ; NARCIMENTO, O. R. ; DYSZY, F. ; NANTES, I. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7069264281185562" target="_blank">BECHARA, E. J. H.</a> . Oxidative Damage to Cytochrome c Induced by Aminoacetone. In: 17th Annual Meeting SFRBM, 2010, Orlando. 17th Annual Meeting SFRBM Searchable Abstracts, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MANO, C. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2058347369890530" target="_blank">BARROS, M.P.</a> ; NARCIMENTO, O. R. ; NANTES, I. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7069264281185562" target="_blank">BECHARA, E. J. H.</a> . Modifications in Cytochrome c Challenged with tert-butyl Hydroperoxide and SIN-1 in the Presence of Phosphatidylcholine (PC) and Phosphatidylglycerol (PG) Vesicles. In: XXXVI Annual Meeting of the Brasilian Society for Biochemistry and Molecular Biology (SBBq), 2007, Salvador. XXXVI Annual Meeting of the Brasilian Society for Biochemistry and Molecular Biology (SBBq) - CD of Abstracts, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MANO, C. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2058347369890530" target="_blank">BARROS, M.P.</a> ; NARCIMENTO, O. R. ; NANTES, I. L. ; DYSZY, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7069264281185562" target="_blank">BECHARA, E. J. H.</a> . CD and EPR Structural Studies of Liposome-contained Cytochrome c Challenged with Peroxides. In: V Meeting of Society for Free Radical Biology and Medicine - South American Group, 2007, Montevidéu. V Meeting of Society for Free Radical Biology and Medicine - South American Group - Book of Abstracts, 2007. p. 31-31. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SARTORI, A. ; <b>MANO, C. M.</b> ; MALPARTIDA, H. M. G. ; SOGAYAR, M. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7069264281185562" target="_blank">BECHARA, E. J. H.</a> . Effects of Aminoacetone, a Threonine Metabolite, on Insulin-Producing Cells. In: V Meeting of Society for Free Radical Biology and Medicine - South American Group, 2007, Montevideu. V Meeting of Society for Free Radical Biology and Medicine - South American Group - Book of Abstracts, 2007. p. 60-60. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2058347369890530" target="_blank">BARROS, M.P.</a> ; <b>MANO, C. M.</b> ; GUARATINI, T. ; CARDOZO, K.H.M. ; COLEPICOLO, P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7069264281185562" target="_blank">BECHARA, E. J. H.</a> . Astaxanthin Exerts pH-Dependent Inhibition of Lipoperoxidation in Zwitterionic an Anionic Liposomes Oxidized by Peroxynitrite-Modified Cytochrome c. In: V Meeting of Society for Free Radical Biology and Medicine - South American Group, 2007, Montevideu. V Meeting of Society for Free Radical Biology and Medicine - South American Group - Book of Abstracts, 2007. p. 108-108. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MANO, C. M.</b> ; COLEPICOLO, P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2058347369890530" target="_blank">BARROS, M.P.</a> . pH-Dependent Antioxidant Activity of the Carotenoid Astaxanthin in Zwitterionic and Anionic Liposomes Challenged With Peroxynitrite/Cytochrome c.. In: XXXV Reunião Anual da Sociedade Brasileira de Bioquímica e Biologia Molecular, 2006, Águas de Lindóia-São Paulo. XXXV Reunião Anual da Sociedade Brasileira de Bioquímica e Biologia Molecular, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2058347369890530" target="_blank">BARROS, M.P.</a> ; <b>MANO, C. M.</b> ; CARDOZO, K.H.M. ; GUARATINI, T. ; COLEPICOLO, P. . Antioxidant efficiency of Astaxanthin in phosphatidylcoline liposomes as a pH-dependent event.. In: International Conference on Antioxidants & Free Radicals in Health-Nutrition & Radio-Protectors, 2005, Banglore-India. International Conference on Antioxidants & Free Radicals in Health-Nutrition & Radio-Protectors, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MANO, C. M.</b> ; CARDOZO, K.H.M. ; GUARATINI, T. ; COLEPICOLO, P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2058347369890530" target="_blank">BARROS, M.P.</a> . pH-Dependent Antioxidant Efficiency of Astaxanthin in Phosphatidylcholine Liposomes.. In: XXXIV Reunião Anual da Sociedade Brasileira de Bioquímica e Biologia Molecular, 2005, Águas de Lindóia-São Paulo. XXXIV Reunião Anual da Sociedade Brasileira de Bioquímica e Biologia Molecular, 2005. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XLI Reunião Anual da Sociedade Brasileira de Bioquímica e Biologia Molecular. L-Trp as a Target of Radical Species Generated from Triplet Acetone. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SFRR-Europe 2011 Meeting. Isobutanal/HRP-generated triplet acetone can nduce L-Trp and L-Cystine adducts formation. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Meeting of Society for Free Radical Biology and Medicine - South American Group.CD and EPR Structural Studies of Liposome-contained Cytochrome c Challenged with Peroxides.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXV Reunião Anual da Sociedade Brasileira de Bioquímica e Biologia Molecular. pH-Dependent Antioxidant Activity of the Carotenoid Astaxanthin in Zwitterionic and Anionic Liposomes Challenged With Peroxynitrite/Cytochrome c.. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXIV Reunião Anual da Sociedade Brasileira de Bioquímica e Biologia Molecular. pH-Dependent Antioxidant Efficiency of Astaxanthin in Phosphatidylcholine Liposomes.. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:36:49</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0050912081432821" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

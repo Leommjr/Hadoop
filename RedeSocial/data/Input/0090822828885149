@@ -1,0 +1,1762 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Onaur Ruano)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0090822828885149" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4787149Z7&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4787149Z7"><div class="infpessoa">
+<h2 class="nome">Onaur Ruano</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0090822828885149</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 28/04/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Onaur Ruano é graduado em Agronomia pela Uiversidade Estadual Paulista Júlio de Mesquita Filho - UNESP - Campus de Botucatu (1975) e mestrado em Fitopatologia pela Universidade Federal de Viçosa (1984). Pesquisador Científico no Instituto Agronômico do Paraná - IAPAR de 1978 à 2008, tendo sido seu Diretor-Presidente entre 2003 e 2005. Foi Secretário Municipal de Agricultura e Abastecimento no Município de Londrina-PR e Secretário Nacional de Segurança Alimentar e Nutricional no Ministério do Desenvolvimento Social e Combate à Fome no Governo Federal. Exerceu atividades de consultoria para a Food and Agriculture Organization of the United Nations no Projeto FAO - UTF/BRA/064/BRA entre agosto de 2009 e fevereiro de 2010. Secretário-Executivo Adjunto do Ministério do Desenvolvimento Social e Combate à Fome do Governo Federal, de maio de 2010 à janeiro de 2011. Secretário-Executivo da Câmara Interministerial de Segurança Alimentar e Nutricional - CAISAN, do Governo Federal, de fevereiro de 2011 à janeiro de 2012. Atualmente é Chefe de Gabinete da Secretaria da Agricultura Familiar - SAF no Ministério do Desenvolvimento Agrário - MDA do Governo Federal.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Onaur Ruano<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">RUANO, O.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1982 - 1984</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Agronomia (Fitopatologia)<span class="ajaxCAPES" data-param="&codigoCurso=32002017002P0&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Viçosa, UFV, Brasil.
+		
+	<br class="clear" />Título: Resistência do algodoeiro (Gossypium spp.) à Meloidogyne incognita (Kofoid & White) Chitwood, Fusarium oxysporum Schlecht f. sp. vasinfectum (Atk) Snyder & Hansen e a associação desses organismos.,Ano de Obtenção: 1984.<br class="clear" />Orientador: Geraldo Martins Chaves.<br class="clear" />Bolsista do(a): Empresa Brasileira de Pesquisa Agropecuária. <br class="clear" />Palavras-chave: Algodão; Resistência Múltipla; Meloidogyne incognita; Fusarium oxysporum f sp vasinfectum; Nematóides; Murcha. <br class="clear" />Grande área: Ciências Agrárias / Área: Agronomia / Subárea: Fitossanidade / Especialidade: Fitopatologia. <br class="clear" />Grande Área: Ciências Agrárias / Área: Agronomia / Subárea: Fitossanidade / Especialidade: Parasitologia Agrícola. <br class="clear" />Grande Área: Ciências Agrárias / Área: Agronomia / Subárea: Fitotecnia / Especialidade: Melhoramento Vegetal. <br class="clear" />Setores de atividade: Produção Vegetal. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 1992</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Elisa Immunoassay Methodology For Pesticide Residu<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 400h). <br class="clear" />University of California System, UC System, Estados Unidos.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1979 - 1979</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em 8th International Course On Plant Protection<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 480h). <br class="clear" />International Agricultural Centre.
+		
+	<br class="clear" />Bolsista do(a): International Agricultural Centre. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1972 - 1975</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Agronomia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Ministério do Desenvolvimento Social e Combate à Fome, MDS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Secretário-Executivo, Enquadramento Funcional: Direção de Assessoramento Superior - DAS, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Secretário-Executivo da Câmara Interministerial de Segurança Alimentar e Nutricional - CAISAN</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Secretário-Executivo Adjunto, Enquadramento Funcional: Direção de Assessoramento Superior - DAS, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Secretário-Executivo Adjunto do Ministério do Desenvolvimento Social e Combate à Fome - MDS</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Secretário Nacional, Enquadramento Funcional: Direção e Assessoramento Superior - DAS, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Secretário Nacional de Segurança Alimentar e Nutricional</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Instituto Agronômico do Paraná, IAPAR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1978 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Pesquisador Científico, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disponibilizado para a Prefeitura Municipal de Londrina, como secretário de governo, de 01/01/1993 a 31/12/1996. Disponibilizado para o Governo Federal, como Secretário Nacional de Segurança Alimentar e Nutricional, de 06/06/2005 a 31/12/2008.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/1978 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Programa Algodão, Área de Proteção de Plantas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Fitopatologia'>Fitopatologia</a><br class="clear" /><a href='#LP_Parasitologia Agrícola'>Parasitologia Agrícola</a><br class="clear" /><a href='#LP_Melhoramento Vegetal'>Melhoramento Vegetal</a><br class="clear" /><a href='#LP_Resistência Múltipla'>Resistência Múltipla</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/1987 - 3/1988</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Coordenação de Pesquisa, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador Adjunto de Pesquisa.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1985 - 4/1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Programa Culturas Agroindustriais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Líder do Programa Culturas Agroindustriais.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/1984 - 6/1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Laboratório de Fitopatologia, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Responsável Técnico do Laboratório de Fitopatologia.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1985 - 10/1985</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Comitê Editorial, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador do Comitê Editorial.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/1980 - 2/1982</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Área de Nematologia, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador da Área de Nematologia.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1980 - 5/1981</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Programa Algodão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Líder do Programa Algodão.</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Food and Agriculture Organization of the United Nations, FAO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Consultor, Enquadramento Funcional: Consultor Nacional</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto FAO/BRA/064/BRA</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Fundação Faculdade de Agronomia Luiz Meneghel, FFALM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1976 - 1978</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor Assistente, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1976 - 5/1978</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Agronomia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fitopatologia Geral<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Fitopatologia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fitopatologia</div>
+</div><a name='LP_Parasitologia Agr&iacute;cola'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Parasitologia Agrícola</div>
+</div><a name='LP_Melhoramento Vegetal'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhoramento Vegetal</div>
+</div><a name='LP_Resist&ecirc;ncia M&uacute;ltipla'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Resistência Múltipla</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Ciência e Tecnologia de Alimentos / Subárea: Segurança Alimentar e Nutricional. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Agronomia / Subárea: Fitossanidade/Especialidade: Fitopatologia. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Agronomia / Subárea: Fitossanidade/Especialidade: Parasitologia Agrícola. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Agronomia / Subárea: Fitotecnia/Especialidade: Melhoramento Vegetal. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Honra ao Mérito, Congresso Brasileiro de Algodão, 2. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Destaque Agronômico, Associação dos Engenheiros Agrônomos de Londrina. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CIA, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5613464002525146" target="_blank">CIA, E.</a> ; FUZATTO, M. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7052700273682720" target="_blank">ALMEIDA, W. P.</a> ; <b>RUANO, O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7125588807520237" target="_blank">KONDO, J. I.</a> ; PIZZINATTO, M. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0746617391615222" target="_blank">CARVALHO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5276354621668931" target="_blank">ROSSETTO, R.</a> ; KASAI, F. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5374661593263219" target="_blank">FOLTRAN, D.</a> . Resistência genética a doenças e nematóides em genótipos de algodoeiro.. Summa Phytopathologica<sup><img id='01005405_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01005405' /></sup>, v. 31, p. 323-326, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01005405&volume=31&issue=&paginaInicial=323&titulo=Resistência genética a doenças e nematóides em genótipos de algodoeiro.&sequencial=1&nomePeriodico=Summa Phytopathologica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MARUR, C. J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3866946707242420" target="_blank">MARUR, C. J.</a> ; <b>RUANO, O.</b> . A reference system for determination of cotton plant development.. Revista de Oleaginosas e Fibrosas<sup><img id='14156784_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14156784' /></sup>, Campina Grande, PB, v. 5, n.2, p. 313-317, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14156784&volume=5&issue=&paginaInicial=313&titulo=A reference system for determination of cotton plant development.&sequencial=2&nomePeriodico=Revista de Oleaginosas e Fibrosas" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LEITE, R. M. V. B. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1491237215617609" target="_blank">LEITE, R. M. V. B. C.</a> ; <b>RUANO, O.</b> ; KOMORI, N. . Caracterização de Xanthomonas campestris pv. campestris isolada de canola.. Summa Phytopathologica<sup><img id='01005405_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01005405' /></sup>, Piracicaba, SP, v. 20, n.1, p. 35-38, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01005405&volume=20&issue=&paginaInicial=35&titulo=Caracterização de Xanthomonas campestris pv. campestris isolada de canola.&sequencial=3&nomePeriodico=Summa Phytopathologica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RUANO, O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span><b>RUANO, O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6674354483894542" target="_blank">CARNEIRO, R. G.</a> ; BRITO, J. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0413278677157307" target="_blank">SILVA, J. F. V.</a> . Nematóides na cultura do algodoeiro.. Informe Agropecuário (Belo Horizonte)<sup><img id='01003364_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01003364' /></sup>, Belo Horizonte, MG, v. 16, n.172, p. 48-57, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01003364&volume=16&issue=&paginaInicial=48&titulo=Nematóides na cultura do algodoeiro.&sequencial=4&nomePeriodico=Informe Agropecuário (Belo Horizonte)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RUANO, O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1988</span><b>RUANO, O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7052700273682720" target="_blank">ALMEIDA, W. P.</a> ; FOLLIN, J. C. ; GIRARDOT, B. . Identificação de fontes de resistência às raças 18 e 20 de Xanthomonas campestris pv. malvacearum em genótipos de algodoeiro.. Fitopatologia Brasileira<sup><img id='01004158_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01004158' /></sup>, Brasília, DF, v. 13, n.4, p. 328-333, 1988. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01004158&volume=13&issue=&paginaInicial=328&titulo=Identificação de fontes de resistência às raças 18 e 20 de Xanthomonas campestris pv. malvacearum em genótipos de algodoeiro.&sequencial=5&nomePeriodico=Fitopatologia Brasileira" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, M. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1987</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1845939778782097" target="_blank">SANTOS, M. A.</a> ; <b>RUANO, O.</b> . Reação de plantas usadas como adubos verdes à Meloidogyne incognita - Raça 3 e M. javanica.. Nematologia Brasileira<sup><img id='01022997_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01022997' /></sup>, Piracicaba, SP, v. 11, p. 184-197, 1987. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01022997&volume=11&issue=&paginaInicial=184&titulo=Reação de plantas usadas como adubos verdes à Meloidogyne incognita - Raça 3 e M. javanica.&sequencial=6&nomePeriodico=Nematologia Brasileira" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RUANO, O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1985</span><b>RUANO, O.</b> ; CHAVES, G. M. ; FERRAZ, S. ; ZAMBOLIM, L. . Distribuição de raças de Meloidogyne incognita em áreas algodoeiras do Estado do Paraná e Goiás.. Fitopatologia Brasileira<sup><img id='01004158_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01004158' /></sup>, Brasília, DF, v. 10, n.3, p. 667-670, 1985. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01004158&volume=10&issue=&paginaInicial=667&titulo=Distribuição de raças de Meloidogyne incognita em áreas algodoeiras do Estado do Paraná e Goiás.&sequencial=7&nomePeriodico=Fitopatologia Brasileira" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PIRES, J. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1984</span>PIRES, J. R. ; SCOTTI, C. A. ; <b>RUANO, O.</b> ; YAMAOKA, R. S. ; TURKIEWICZ, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3654203576683394" target="_blank">COSTA, A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7052700273682720" target="_blank">ALMEIDA, W. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3866946707242420" target="_blank">MARUR, C. J.</a> ; SANTOS, W. J. . Criação da variedade de Algodoeiro IAPAR 4 - Paraná 1.. Pesquisa Agropecuária Brasileira<sup><img id='0100204X_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100204X' /></sup>, Brasília, DF, v. 19, n.7, p. 867-872, 1984. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0100204X&volume=19&issue=&paginaInicial=867&titulo=Criação da variedade de Algodoeiro IAPAR 4 - Paraná 1.&sequencial=8&nomePeriodico=Pesquisa Agropecuária Brasileira" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RUANO, O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1982</span><b>RUANO, O.</b> ; MOHAN, S. K. . Nova raça de Xanthomonas campestris pv. malvacearum (SMITH) Dye no Estado do Paraná.. Fitopatologia Brasileira<sup><img id='01004158_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01004158' /></sup>, Brasília, DF, v. 7, n.2, p. 439-442, 1982. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01004158&volume=7&issue=&paginaInicial=439&titulo=Nova raça de Xanthomonas campestris pv. malvacearum (SMITH) Dye no Estado do Paraná.&sequencial=9&nomePeriodico=Fitopatologia Brasileira" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>EIRA, A. F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1981</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8296108906591019" target="_blank">EIRA, A. F.</a> ; CARVALHO, P. C. T. ; <b>RUANO, O.</b> . Acumulações limosas na indústria de chapas de fibra de madeira. III. Alternativas de controle.. Revista de Microbiologia<sup><img id='00013714_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00013714' /></sup>, São Paulo, SP, v. 12, n.3, p. 110-115, 1981. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00013714&volume=12&issue=&paginaInicial=110&titulo=Acumulações limosas na indústria de chapas de fibra de madeira. III. Alternativas de controle.&sequencial=10&nomePeriodico=Revista de Microbiologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>EIRA, A. F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1977</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8296108906591019" target="_blank">EIRA, A. F.</a> ; CARVALHO, P. C. T. ; <b>RUANO, O.</b> . Acumulações limosas na indústria de chapas de fibra de madeira. II. Caracterização e reprodução in vitro das acumulações limosa.. Revista de Microbiologia<sup><img id='00013714_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00013714' /></sup>, São Paulo, SP, v. 8, n.3, p. 64-73, 1977. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00013714&volume=8&issue=&paginaInicial=64&titulo=Acumulações limosas na indústria de chapas de fibra de madeira. II. Caracterização e reprodução in vitro das acumulações limosa.&sequencial=11&nomePeriodico=Revista de Microbiologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>RUANO, O.</b> ; BAPTISTA, N. Q. . Acesso à Água como fator de Segurança Alimentar e Nutricional no Semiárido Brasileiro. In: Adriana Veiga Aranha. (Org.). Fome Zero: Uma História Brasileira. 1ed.Brasília, DF: Ministério do Desenvolvimento Social e Combate à Fome, 2010, v. 2, p. 117-134. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JULIATTI, F. C. ; <b>RUANO, O.</b> . Algodão (Gossypium hirsutum L.) - Controle de Doenças: Doenças causadas por fungos e bactérias.. In: Francisco Xavier Ribeiro do Vale; Laércio Zambolim. (Org.). Controle de doenças de plantas - Grandes Culturas.. 1ed.Viçosa, MG: Universidade Federal de Viçosa, 1997, v. 2, p. 555-570. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6674354483894542" target="_blank">CARNEIRO, R. G.</a> ; BRITO, J. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0413278677157307" target="_blank">SILVA, J. F. V.</a> ; JULIATTI, F. C. . Algodão (Gossypium hirsutum L.) - Controle de doenças: Doenças causadas por nematóides.. In: Francisco Xavier Ribeiro do Vale; Laércio Zambolim. (Org.). Controle de doenças de plantas.. 1ed.Viçosa, MG: Universidade Federal de Viçosa, 1997, v. 2, p. 583-609. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> . Bruzone ideológica.. Folha de Londrina - Folha Rural, Londrina, PR, p. 14, 08 ago.  1987. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7052700273682720" target="_blank">ALMEIDA, W. P.</a> ; MURAMOTO, S. P. . Reação de novos genótipos de algodoeiro a nematóides e patógenos foliares em casa-de-vegetação.. In: Congresso Brasileiro de Algodão, 3, 2001, Campo Grande. Anais. Dourados: Embrapa Agropecuária Oeste, 2001. v. 2. p. 880-883. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7052700273682720" target="_blank">ALMEIDA, W. P.</a> ; PIRES, J. R. ; <b>RUANO, O.</b> ; TURKIEWICZ, L. ; SANTOS, W. J. ; YAMAOKA, R. S. . IPR 94, IPR 95 e IPR 96: Novas Cultivares Paranaenses de Algodoeiro.. In: Congresso Brasileiro de Algodão, 3, 2001, Campo Grande, MS. Anais. Dourados, MS: Embrapa Agropecuária do Oeste, 2001. v. 2. p. 849-852. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7052700273682720" target="_blank">ALMEIDA, W. P.</a> . Sistema para Avaliação de Resistência Múltipla em Genótipos de Algodoeiro a Nematóides e Doenças Foliares em casa-de-vegetação.. In: Congresso Brasileiro de Algodão, 2, 1999, Ribeirão Preto, SP. Anais. Campina Grande, PB: Embrapa - CNPA, 1999. p. 488-491. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7052700273682720" target="_blank">ALMEIDA, W. P.</a> ; PIRES, J. R. ; <b>RUANO, O.</b> ; TURKIEWICZ, L. . Comportamento de Cultivares e Linhagens de Algodoeiro no Estado do Paraná.. In: Congresso Brasileiro de Algodão, 2, 1999, Ribeirão Preto, SP. Anais. Campina Grande, PB: Embrapa - CNPA, 1999. p. 569-571. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NASCIMENTO, J. F. ; ROMEIRO, R. S. ; SPONHOLZ, C. ; <b>RUANO, O.</b> ; PIZZINATTO, M. A. . Microbiolização de sementes de algodoeiro com rizobactérias, promoção de crescimento e indução de resistência a Xanthomonas axonopodis pv. malvacearum.. In: Congresso Brasileiro de Fitopatologia, 32, 1999, Curitiba, PR. Fitopatologia Brasileira. Brasília, DF: Sociedade Brasileira de Fitopatologia, 1999. v. 24. p. 252. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7052700273682720" target="_blank">ALMEIDA, W. P.</a> ; PIRES, J. R. ; <b>RUANO, O.</b> ; TURKIEWICZ, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3654203576683394" target="_blank">COSTA, A.</a> ; YAMAOKA, R. S. . Resultados do Ensaio Regional Paranaense de Variedades de Algodoeiro conduzido no Estado do Paraná em 90/91, 91/92 e 92/93.. In: Reunião Nacional do Algodão, 1, 1993, Cuiabá, MT. Resumos. Campina Grande, PB: Embrapa - CNPA, 1993. p. 36. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOAVE, J. ; PINTO, H. M. A. ; BARRETO, M. ; BRUNO, R. A. ; LEÃO, M. F. ; MENTEN, J. O. M. ; PIZZINATTO, M. A. ; <b>RUANO, O.</b> ; TANAKA, M. A. S. ; URBEN, A. F. . Comparative cotton seed health testing for Fusarium spp. performed in 1984/85 in Brazil.. In: International Plant Protection Congress, 12, 1991, Rio de Janeiro, RJ. Proceedings, 1991. p. 34. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6674354483894542" target="_blank">CARNEIRO, R. G.</a> ; <b>RUANO, O.</b> ; BRITO, J. A. . Identificação de Rotylenchulus reniformis em algodoeiro no Estado do Paraná.. In: Congresso Brasileiro de Nematologia, 14, 1990, Londrina, PR. Nematologia Brasileira. Piracicaba, SP: Sociedade Brasileira de Nematologia, 1990. v. 14. p. 5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; BRITO, J. A. . Utilização de Floculantes de argila no método do Funil de Baermann.. In: Congresso Brasileiro de Nematologia, 14, 1990, Londrina, PR. Nematologia Brasileira. Piracicaba, SP: Sociedade Brasileira de Nematologia, 1990. v. 14. p. 12-13. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; YAMAOKA, R. S. . Eliminação de nematóides em rizomas de rami por tratamento com água quente.. In: Congresso Brasileiro de Nematologia, 14, 1990, Londrina, PR. Nematologia Brasileira. Piracicaba, SP: Sociedade Brasileira de Nematologia, 1990. v. 14. p. 13-14. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7052700273682720" target="_blank">ALMEIDA, W. P.</a> ; PIRES, J. R. . Acompanhamento da ocorrência e distribuição de raças de Xanthomonas campestris pv. malvacearum no Estado do Paraná.. In: Reunião Nacional do Algodão, 5, 1988, Campina Grande, PB. Resumos. Campina Grande, PB: Embrapa - CNPA, 1988. p. 115. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1845939778782097" target="_blank">SANTOS, M. A.</a> ; <b>RUANO, O.</b> . Efeito de adubos verdes no controle de Meloidogyne incognita e Meloidogyne javanica.. In: Congresso Brasileiro de Nematologia, 11, 1987, Viçosa, MG. Resumos. Piracicaba, SP: Sociedade Brasileira de Nematologia, 1987. p. 2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7052700273682720" target="_blank">ALMEIDA, W. P.</a> ; PIRES, J. R. ; YAMAOKA, R. S. ; <b>RUANO, O.</b> ; TURKIEWICZ, L. . Comportamento de variedades e linhagens de algodoeiro na presença de nematóides no Estado do Paraná.. In: Reunião Nacional do Algodão, 4, 1986, Belém, PA. Resumos. Campina Grande, PB: Embrapa - CNPA, 1986. p. 21. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7052700273682720" target="_blank">ALMEIDA, W. P.</a> . Fontes de resistência em germoplasma de algodoeiro à Meloidogyne incognita - Raça 3.. In: Reunião Nacional do Algodão, 4, 1986, Belém, PA. Resumos. Campina Grande, PB: Embrapa - CNPA, 1986. p. 22. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7052700273682720" target="_blank">ALMEIDA, W. P.</a> . Fontes de resistência completa em germoplasma de algodoeiro à Xanthomonas campestris pv. malvacearum - Raça 18.. In: Reunião Nacional do Algodão, 4, 1986, Belém, PA. Resumos. Campina Grande, PB: Embrapa - CNPA, 1986. p. 23. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DOMICIANO, N. L. ; SANTOS, W. J. ; <b>RUANO, O.</b> ; NOEDI, B. ; ALMEIDA, F. L. S. . Status e consequências do uso de agroquímicos e o controle integrado de pragas, doenças e matos.. In: Seminário sobre o impacto do desenvolvimento tecnológico na agricultura de São Paulo e Paraná., 1985, Brasília, DF. Anais. Brasília, DF: IPEA - CNRH, 1985. p. 21. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; CHAVES, G. M. ; FERRAZ, S. ; ZAMBOLIM, L. . Reação de algodoeiros (Gossypium spp.) à Meloidogyne incognita (KOFOID & WHITE) CHITWOOD, Fusarium oxysporum SCHLECT. f. sp. vasinfectum (Atk) SNYDER & HANSEN e a ambos os organismos associados.. In: Congresso Brasileiro de Fitopatologia, 17, 1984, São Paulo, SP. Fitopatologia Brasileira. São Paulo, SP: Sociedade Brasileira de Fitopatologia, 1984. v. 9. p. 421. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; ANDROCIOLI FILHO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6674354483894542" target="_blank">CARNEIRO, R. G.</a> . Comportamento de algodoeiros em solos de cultivo de cafeeiro infestados com Meloidogyne incognita.. In: Reunião Nacional do Algodão, 3, 1984, Recife, PE. Resumos. Campina Grande, PB: Embrapa - CNPA, 1984. p. 169. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> . Reação de algodoeiros à Meloidogyne incognita, Fusarium oxysporum f. sp. vasinfectum e à associação desses organismos.. In: Reunião Nacional do Algodão, 3, 1984, Recife, PE. Resumos. Campina Grande, PB: Embrapa - CNPA, 1984. p. 66. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; MOHAN, S. K. . Proposal for designation of race 19 of Xanthomonas campestris pv. malvacearum.. In: Beltwide Cotton Production Research Conference, 1983, Atlanta, EUA. Proceedings of the Cotton Disease Council. Atlanta, EUA: Beltwide Cotton Production Research Conference, 1983. v. 43. p. 6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; SCOTTI, C. A. . Melhoramento do algodoeiro para resistência a Meloidogyne incognita no Paraná.. In: Reunião Brasileira de Nematologia, 5, 1981, Londrina, PR. Resumos. Piracicaba, SP: Sociedade Brasileira de Nematologia, 1981. p. 31. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; SCOTTI, C. A. . Avaliação da reação de novas linhagens de algodoeiro à Xanthomonas malvacearum (E. F. Smith) Dowson.. In: Reunião Nacional do Algodão, 1, 1980, Londrina, PR. Resumos. Campina Grande, PB: Embrapa - CNPA, 1980. p. 41. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; SCOTTI, C. A. . Avaliação da reação de novas linhagens de algodoeiro a Colletotrichum gossypii var. cephalosporioides A. S. Costa.. In: Reunião Nacional do Algodão, 1, 1980, Londrina, PR. Resumos. Campina Grande, PB: Embrapa - CNPA, 1980. p. 42. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> ; SCOTTI, C. A. . Avaliação da reação de novas linhagens de algodoeiro à Verticillium sp.. In: Reunião Nacional do Algodão, 1, 1980, Londrina, PR. Resumos. Campina Grande, PB: Embrapa - CNPA, 1980. p. 43. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>RUANO, O.</b> . Comparação de métodos para detecção de fungos associados a sementes de algodoeiro.. In: Reunião Nacional do Algodão, 1, 1980, Londrina, PR. Resumos. Campina Grande, PB: Embrapa - CNPA, 1980. p. 120. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCOTTI, C. A. ; PIRES, J. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3654203576683394" target="_blank">COSTA, A.</a> ; <b>RUANO, O.</b> ; YAMAOKA, R. S. . Ensaio de Variedades de Algodoeiro no Paraná - Dados da safra 1979/80.. In: Reunião Nacional do Algodão, 1, 1980, Londrina. Resumos. Campina Grande, PB: Embrapa - CNPA, 1980. p. 48. </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOTTER, A. A. ; COLOZZI FILHO, A. ; SOARES JÚNIOR, D. ; FILIPPSEN, L. F. ; CROCHEMORE, M. L. ; <b>RUANO, O.</b> ; SENDIN, P. V. ; YAMAOKA, R. S. . Certificação de Propriedades Rurais do Estado do Paraná.. 2000. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIMPÓSIO INTERNACIONAL SOBRE DESENVOLVIMENTO SOCIAL - Políticas Sociais para o Desenvolvimento: Superar a Pobreza e Promover a Inclusão.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I ENCONTRO DE VISAs E AGRICULTURA DO EXTREMO OESTE DO PARANÁ.SEGURANÇA ALIMENTAR E O PAPEL DO PROGRAMA DE AQUISIÇÃO DE ALIMENTOS - PAA.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Nacional de Segurança Alimentar e Nutricional - III Conferência +2.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO TALLER BINACIONAL POLÍTICÁS PÚBLICAS, REDUCCIÓN DE LA POBREZA Y PROGRAMAS SOCIALES EN UN CONTEXTO DE DESCENTRALIZACIÓN.APRESENTAÇÃO DO PROGRAMA DE AQUISIÇÃO DE ALIMENTOS/MDS. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Expo Zaragoza - Evento Especial do Brasil na Tribuna da Água.Captação de Água de chuva: soluções que unem Governo e Sociedade para a Convivência com o Semi-Árido.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2º SIMPÓSIO DE SEGURANÇA ALIMENTAR-Painel: Qualidade Ambiental: Tecnologia e Saúde.Programa para Segurança Alimentar e Nutricional.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CONFERÊNCIA REGIONAL-Promover um espaço de reflexão para compartilhar conhecimentos, experiências e lições aprendidas e facilitar a cooperação Sul-Sul no âmbito da iniciativa regional.UMA APROXIMAÇÃO INTEGRAL DOS ESFORÇOS POR ERRADICAR A DESNUTRIÇÃO INFANTIL. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I FÓRUM DE DEBATES SOBRE A DEPENDÊNCIA ECONÔMICA DOS AGRICULTORES FAMILIARES DA CULTURA DO FUMO."SOBERANIA ALIMENTAR: O papel estratégico da agricultura familiar. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V FERIA Y II CONGRESSO INTERNACIONAL DE SEGURIDAD ALIMENTARIA Y NUTRICIONAL. AVANCES DE LOS OBJETIVOS DEL NUEVO MILENIO EN BRASIL. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1º SEMINÁRIO TÉCNICO DO PROGRAMA DE BANCO DE ALIMENTOS.A CONSTRUÇÃO DA POLÍTICA NACIONAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL. 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO.OS AVANÇOS E DESAFIOS DA REGULAMENTAÇÃO DA LOSAN. 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO "A INSERÇÃO DE PRODUÇÃO DE ORGÂNICOS NA MERENDA ESCOLAR E A SEGURANÇA ALIMENTAR E NUTRICIONAL.POLÍTICAS PÚBLICAS DE SEGURANÇA ALIMENTAR E NUTRICIONAL E PROGRAMAS DE APOIO A INSERÇÃO DE PRODUTOS ORGÂNICOS NA ALIMENTAÇÃO ESCOLAR: DESAFIOS E OPORTUNIDADES. 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ENCONTRO: PERSPECTIVAS PARA A AÇÃO TERRITORIAL INTEGRADA DO VALE DO RIBEIRA.PERSPECTIVAS PARA A AÇÃO TERRITORIAL INTEGRADA DO VALE DA RIBEIRA.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CONFERÊNCIA ESTADUAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL DE MATO GROSSO.ESTRATÉGIA DE DESENVOLVIMENTO E A POLÍTICA E O SISTEMA DE SEGURANÇA ALIMENTAR E NUTRICIONAL. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II CONFERÊNCIA ESTADUAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL DO PARÁ.SEGURANÇA ALIMENTAR E NUTRICIONAL NAS ESTRATÉGIAS NACIONAIS E ESTADUAIS DO DESENVOLVIMENTO. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II CONFERÊNCIA ESTADUAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL DO PIAUÍ.DIREITO HUMANO A ALIMENTAÇÃO ADEQUADA. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO IBEROAMERICANO DA SEGURANÇA ALIMENTAR E NUTRICIONAL EM GRANDES CIDADES.LA INSTITUCIONALIDAD Y LA SEGURIDAD ALIMENTARIA Y NUTRICIONAL. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO DE PARTICIPAÇÃO E CONTROLE SOCIAL DO PROGRAMA DO LEITE.DESAFIOS E AVANÇOS NA IMPLANTAÇÃO E CONSOLIDAÇÃO DO PROGRAMA DO LEITE. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO DE SEGURANÇA ALIMENTAR E HORTAS COMUNITÁRIAS-COMISSÃO DE SEGURIDADE SOCIAL E FAMÍLIA.PROGRAMA DE AGRICULTURA URBANA E HORTAS COMUNITÁRIAS: BALANÇO E PERSPECTIVAS DE EXPANSÃO. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO DA UFRN: CONTROLE SOCIAL NAS POLÍTICAS SOCIAIS.POLÍTICA DE SEGURANÇA ALIMENTAR E NUTRICIONAL - PARA ALÉM DO FOME ZERO E LOSAN. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO DE POLÍTICA NACIONAL DE ASSISTÊNCIA SOCIAL: REGULAMENTAÇÃO, CONTROLE SOCIAL E EFETIVIDADE DOS PROGRAMAS SOCIAIS."A LEI ORGÂNICA DE SEGURANÇA ALIMENTAR E NUTRICIONAL: UMA POLÍTICA DE COMBATE À FOME. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO TEMÁTICO BRASIL: DIREITO HUMANO À ALIMENTAÇÃO.DIREITO HUMANO À ALIMENTAÇÃO:INSTRUMENTOS PARA A EFETIVAÇÃO DESSE DIREITO. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II SEMINÁRIO SOBRE SEGURANÇA ALIMENTAR E NUTRICIONAL SUSTENTÁVEL DA CÃMARA MUNICIPAL DE SÃO PAULO.PROJETO DE LEI ORGÂNICA DE SEGURANÇA ALIMENTAR E NUTRICIONAL - LOSAN. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO "INVESTIR NA AGRICULTURA PARA ALCANÇAR À SEGURANÇA ALIMENTAR E NUTRICIONAL SUSTENTÁVEL.POLÍTICA DE APOIO AO FORTALECIMENTO DA AGRICULTURA-PROGRAMA DE AQUISIÇÃO DE ALIMENTOS DA AGRICULTURA FAMILIAR. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEMINÁRIO NACIONAL DA REDE KÔDYA"CONSTRUINDO A POLÍTICA NACIONAL DE SAN E DESENVOLVIMENTO SUSTENTÁVEL DE POVOS E COMUNIDADES TRADICIONAIS.POLÍTICAS PÚBLICAS E A POPULAÇÃO NEGRA - ÂMBITO ESTADUAL. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ENCONTRO REGIONAL "A GESTÃO DE ÁGUAS DO SEMI-ÁRIDO".PROJETO CONSTRUÇÃO DE CISTERNAS E CAPACITAÇÃO PARA A CONVIVÊNCIA PARA O SEMI-ÁRIDO.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REUNIÃO DO CONSELHO MUNICIPAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL.POLÍTICAS PÚBLICAS DO GOVERNO FEDERAL EM SEGURANÇA ALIMENTAR E NUTRICIONAL.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">32ª SESSÃO DO COMITÊ DE SEGURANÇA ALIMENTAR DA ORGANIZAÇÃO DAS NAÇÕES UNIDAS PARA ALIMENTAÇÃO E A AGRICULTURA(FAO).Segurança Alimentar.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DEBATE: EFEITOS DO PROGRAMA DE AQUISIÇÃO DE ALIMENTOS NAS REGIÕES NORDESTE E SUL DO PAÍS.O ALCANCE DAS POLÍTICAS PÚBLICAS DE SEGURANÇA ALIMENTAR. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">29ª CONFERÊNCIA REGIONAL PARA AMÉRICA LATINA E O CARIBE (FAO).SEGURANÇA ALIMENTAR. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3º PLENÁRIO DO INSTITUTO SOCIAL BRASILEIRO-ARGENTINO-ISBA.Abertura.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>RUANO, O.</b> . III CONFERÊNCIA NACIONAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL. 2007. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Secretário Municipal de Agricultura e Abastecimento do Município de Londrina, de julho de 1993 à março de 1995.
+
+Presidente do Conselho Municipal de Desenvolvimento Rural de Londrina, 1994   1995.
+
+Diretor-Presidente do Instituto Agronômico do Paraná   IAPAR, de 07 de fevereiro de 2003 a 06 de maio de 2005.
+
+Vice-Presidente do Conselho Nacional dos Sistemas Estaduais de Pesquisa Agropecuária   CONSEPA, de março de 2003 a março de 2005.
+
+Secretário Nacional de Segurança Alimentar e Nutricional do Ministério do Desenvolvimento Social e Combate à Fome - MDS, de junho de 2005 a dezembro de 2008.
+
+Atualmente atua como consultor da Organização das Nações Unidas para Agricultura e Alimentação - FAO Projeto FAO - UTF/BRA/064/BRA.</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 13:04:03</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0090822828885149" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

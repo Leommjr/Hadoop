@@ -1,0 +1,28 @@
+Aluno: Leonardo Marinho de Melo Junior
+UserIDs:
+    É o número referente a um usuário que avaliou os filmes - é o mesmo em    todas as tabelas.
+MovieIDs: 
+    Representa um filme com pelo menos uma avaliação ou tag - é o mesmo em todas as tabelas.
+
+ratings.csv:
+    Todas as avaliações estão contidas no arquivo "ratings.csv". Cada linha depois do cabeçalho representa uma avaliação, feita por um usuário, para um filme e possui o seguinte formato:
+    userId,movieId,rating,timestamp
+As avaliações são feitas numa escala de 5 estrelas, com o incremento de meia estrela. (0.5,1.0,...,5.0)
+
+Timestamps representa os segundos desde 01/01/1970.
+
+tags.csv:
+    Todas as tags estão contidas em tags.csv. Cada linha depois do cabeçalho representa uma tag, feita por um usuário, para um filme e possui o seguinte formato:
+    userId,movieId,tag,timestamp
+Tags são metadados gerados por usuários. Costumas ser constituídas de uma palavra ou pequenas frases. 
+
+Timestamps representa os segundos desde 01/01/1970.
+
+movies.csv:
+    As informações sobre filmes estão contidas nesse arquivo. Cada linha depois do cabeçalho representa um filme e possui o seguinte formato:
+    movieId,title,genres
+
+links.csv:
+    Identificadores que podem ser linkados com outras fontes de filmes estão contidos nesse arquivo. Cada linha depois do cabeçalho representa um filme e possui o seguinte formato:
+    movieId,imdbId,tmdbId
+

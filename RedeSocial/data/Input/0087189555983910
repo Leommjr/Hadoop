@@ -1,0 +1,987 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Juliano Silva de Andrade)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0087189555983910" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4282205Z9&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4282205Z9"><div class="infpessoa">
+<h2 class="nome">Juliano Silva de Andrade</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0087189555983910</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 15/06/2010</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui gradua&ccedil;&atilde;o  em Engenharia Agronomica pela Universidade Estadual do Sudoeste da Bahia(2007) e mestrado em Agronomia (Fitotecnia) pela Universidade Estadual do Sudoeste da Bahia(2010). Atuando principalmente nos seguintes temas:Produtividade de Ra&iacute;zes, Manihot esculenta Crantz, Produtividade de parte a&eacute;rea. <span style="font-weight: bold" class="texto"> (Texto gerado automaticamente pela aplica&ccedil;&atilde;o CVLattes)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Juliano Silva de Andrade</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ANDRADE, J. S.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Agronomia (Fitotecnia)<span class="ajaxCAPES" data-param="&codigoCurso=28006011001P7&nivelCurso=M"></span>. <br class="clear" />Universidade Estadual do Sudoeste da Bahia, UESB, Brasil.
+		
+	<br class="clear" />Título: ÉPOCAS DE PODA EM MANDIOCA,Ano de Obtenção: 2010.<br class="clear" />Orientador: Anselmo Eloy Silveira Viana.<br class="clear" />Palavras-chave: Produtividade de Raízes; Manihot esculenta Crantz; Produtividade de parte aérea.<br class="clear" />Grande área: Ciências Agrárias / Área: Agronomia / Subárea: Fitotecnia. <br class="clear" />Grande Área: Ciências Agrárias / Área: Agronomia / Subárea: Fitotecnia / Especialidade: Manejo e Tratos Culturais. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia Agronomica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual do Sudoeste da Bahia, UESB, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ANDRADE, J. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>ANDRADE, J. S.</b> ; VIANA, A. E. S. ; Cardoso Júnior, N. S ; COSTA, H. A. ; SOUZA, M. J. L. ; PEREIRA, G. L. ; Moreira, E.  S. . EFEITO DA IRRIGAÇÃO E DO REGULADOR DE CRESCIMENTO SOBRE PRODUTIVIDADE E TEOR DE MATÉRIA SECA NA MANDIOCA (Manihot esculenta Crantz) In: XII CONGRESSO BRASILEIRO DA MANDIOCA, 2007, Paranavaí - PR. REVISTA RAÍZES E AMIDOS TROPICAIS. BOTUCATU - SP: UNESP - FCA, 2007. v.3.. Revista Raízes e Amidos Tropicais<sup><img id='1808981X_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1808981X' /></sup>, v. 3, p. 69, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1808981X&volume=3&issue=&paginaInicial=69&titulo=EFEITO DA IRRIGAÇÃO E DO REGULADOR DE CRESCIMENTO SOBRE PRODUTIVIDADE E TEOR DE MATÉRIA SECA NA MANDIOCA (Manihot esculenta Crantz) In: XII CONGRESSO BRASILEIRO DA MANDIOCA, 2007, Paranavaí - PR. REVISTA RAÍZES E AMIDOS TROPICAIS. BOTUCATU - SP: UNESP - FCA, 2007. v.3.&sequencial=1&nomePeriodico=Revista Raízes e Amidos Tropicais" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ANDRADE, J. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><b>ANDRADE, J. S.</b> ; VIANA, A. E. S. ; SOUZA, M. J. L. ; MATSUMOTO, S. N. ; Cardoso Júnior, N. S ; COSTA, H. A. ; PEREIRA, G. L. ; MUNIZ, W. F. . EFEITO DA IRRIGAÇÃO E DO REGULADOR VEGETAL SOBRE CRESCIMENTO DA PLANTA DE MANDIOCA. In: XII CONGRESSO BRASILEIRO DA MANDIOCA, 2007, Paranavaí - PR. REVISTA RAÍZES E AMIDOS TROPICAIS, BOTUCATU - SP: UNESP - FCA, 2007, v.3.. Revista Raízes e Amidos Tropicais<sup><img id='1808981X_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1808981X' /></sup>, v. 3, p. 70, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1808981X&volume=3&issue=&paginaInicial=70&titulo=EFEITO DA IRRIGAÇÃO E DO REGULADOR VEGETAL SOBRE CRESCIMENTO DA PLANTA DE MANDIOCA. In: XII CONGRESSO BRASILEIRO DA MANDIOCA, 2007, Paranavaí - PR. REVISTA RAÍZES E AMIDOS TROPICAIS, BOTUCATU - SP: UNESP - FCA, 2007, v.3.&sequencial=2&nomePeriodico=Revista Raízes e Amidos Tropicais" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ANDRADE, J. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>ANDRADE, J. S.</b> ; VIANA, A. E. S. ; Cardoso Júnior, N. S ; OLIVEIRA, S. P. ; SOUZA, M. J. L. ; MUNIZ, W. F. ; PEREIRA, G. L. ; Moreira, E.  S. . EFEITO DA PODA NA DETERIORAÇÃO PÓS-COLHEITA E CARACTERÍSTICAS CULINÁRIAS EM MANDIOCA. Revista Raízes e Amidos Tropicais<sup><img id='1808981X_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1808981X' /></sup>, v. III, p. 71, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1808981X&volume=III&issue=&paginaInicial=71&titulo=EFEITO DA PODA NA DETERIORAÇÃO PÓS-COLHEITA E CARACTERÍSTICAS CULINÁRIAS EM MANDIOCA&sequencial=3&nomePeriodico=Revista Raízes e Amidos Tropicais" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ANDRADE, J. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><b>ANDRADE, J. S.</b> ; VIANA, A. E. S. ; Cardoso Júnior, N. S ; MATSUMOTO, S. N. ; COSTA, H. A. ; SOUZA, M. J. L. ; PEREIRA, G. L. ; Moreira, E.  S. ; MUNIZ, W. F. . EFEITO DA IRRIGAÇÃO E REGULADOR DE CRESCIMENTO SOBRE O POTENCIAL HÍDRICO DE PLANTAS DE MANDIOCA (Manihot esculenta Crantz). Revista Raízes e Amidos Tropicais<sup><img id='1808981X_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1808981X' /></sup>, v. III, p. 72, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1808981X&volume=III&issue=&paginaInicial=72&titulo=EFEITO DA IRRIGAÇÃO E REGULADOR DE CRESCIMENTO SOBRE O POTENCIAL HÍDRICO DE PLANTAS DE MANDIOCA (Manihot esculenta Crantz)&sequencial=4&nomePeriodico=Revista Raízes e Amidos Tropicais" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ANDRADE, J. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><b>ANDRADE, J. S.</b> ; Cardoso Júnior, N. S ; VIANA, A. E. S. ; MATSUMOTO, S. N. ; Moreira, E.  S. ; OLIVEIRA, S. P. ; SOUZA, M. J. L. ; PEREIRA, G. L. ; MUNIZ, W. F. . EFEITO DA PODA SOBRE CARACTERISTÍCAS AGRONÔMICAS DA MANDIOCA. Revista Raízes e Amidos Tropicais<sup><img id='1808981X_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1808981X' /></sup>, v. III, p. 73, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1808981X&volume=III&issue=&paginaInicial=73&titulo=EFEITO DA PODA SOBRE CARACTERISTÍCAS AGRONÔMICAS DA MANDIOCA&sequencial=5&nomePeriodico=Revista Raízes e Amidos Tropicais" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MUNIZ, W. F. ; Cardoso Júnior, N. S ; VIANA, A. E. S. ; <b>ANDRADE, J. S.</b> ; Moreira, E.  S. ; PEREIRA, G. L. . Produção de Forragem de Genótipos de Aveia no Sudoeste da Bahia. In: X CONPEX - Congresso de Pesquisa e Extensão / XI Seminário de Iniciação Científica da UESB, Vitória da Conquista - BA, 2007. In: X CONPEX - Congresso de Pesquisa e Extensão / XI Seminário de Iniciação Científica da UESB, 2007, Vitória da Conquista - BA. X CONPEX - Congresso de Pesquisa e Extensão / XI Seminário de Iniciação Científica da UESB, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Moreira, E.  S. ; Cardoso Júnior, N. S ; OLIVEIRA, S. P. ; SOUZA, M. J. L. ; PEREIRA, G. L. ; <b>ANDRADE, J. S.</b> ; MUNIZ, W. F. . EFEITO PODA E ÉPOCAS DE COLHEITA SOBRE PRODUTIVIDADE E TEOR DE AMIDO DE RAÍZES TUBEROSAS DE MANDIOCA.. In: X CONPEX - Congresso de Pesquisa e Extensão / XI Seminário de Iniciação Científica da UESB, 2007, Vitória da Conquista - BA. X CONPEX - Congresso de Pesquisa e Extensão / XI Seminário de Iniciação Científica da UESB. Vitória da Conquista - BA: UESB, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, G. L. ; VIANA, A. E. S. ; Cardoso Júnior, N. S ; COSTA, H. A. ; SOUZA, M. J. L. ; Moreira, E.  S. ; <b>ANDRADE, J. S.</b> ; MUNIZ, W. F. . EFEITO DA IRRIGAÇÃO E ÉPOCAS DE COLHEITA SOBRE CARACTERÍSTICAS CULINÁRIAS DA MANDIOCA.. In: X CONPEX - Congresso de Pesquisa e Extensão / XI Seminário de Iniciação Científica da UESB., 2007, Vitória da Conquista - BA. X CONPEX - Congresso de Pesquisa e Extensão / XI Seminário de Iniciação Científica da UESB.. Vitória da Conquista - BA: UESB, 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		Cardoso Júnior, N. S ; VIANA, A. E. S. ; Oliveira, José C. de ; <b>ANDRADE, J. S.</b> ; Moreira, E.  S. ; MUNIZ, W. F. ; PEREIRA, G. L. . Avaliação da Produção de Aveia Forrageira no Estado da Bahia. In: COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. Reunião (27.: 2007: Passo Fundo, RS).. In: XXVII REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2007, Passo Fundo - RS. COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA. Reunião (27.: 2007: Passo Fundo, RS).. Passo Fundo: Universidade de Passo Fundo, 2007. p. 126-127. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cardoso Júnior, N. S ; VIANA, A. E. S. ; Oliveira, José C. de ; <b>ANDRADE, J. S.</b> ; Moreira, E.  S. ; MUNIZ, W. F. ; PEREIRA, G. L. . Produção de Forragem de Aveia no Sudoeste da Bahia. In: COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA Reunião (27.: 2007: Passo Fundo, RS).. In: XXVII REUNIÃO DA COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA, 2007, Passo Fundo. COMISSÃO BRASILEIRA DE PESQUISA DE AVEIA Reunião (27.: 2007: Passo Fundo, RS).. Passo Fundo: Universidade de Passo Fundo, 2007. p. 128-129. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Moreira, E.  S. ; VIANA, A. E. S. ; PEREIRA, G. L. ; SOUZA, M. J. L. ; <b>ANDRADE, J. S.</b> ; MUNIZ, W. F. ; Guimarães B. V. C. . Efeito da irrigação e épocas de colheita sobre tempo de cozimento e teor de matéria seca de raízes de mandioca. In: 47º Congresso Brasileiro de Olericultura e IV Simpósio Brasileiro sobre Cucurbitáceas, Porto Seguro - BA, 2007.. In: 47º Congresso Brasileiro de Olericultura e IV Simpósio Brasileiro sobre Cucurbitáceas, 2007, Porto Seguro - BA. 47º Congresso Brasileiro de Olericultura e IV Simpósio Brasileiro sobre Cucurbitáceas, 2007. v. 25. p. 44-44. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIANA, A. E. S. ; LOPES, S. C. ; PONTE, C. M. A. ; <b>ANDRADE, J. S.</b> ; Moreira, E.  S. ; MUNIZ, W. F. ; MAGALHAES, G. C. . CARACTERIZAÇÃO MORFOLÓGICA DA VARIEDADE DE MANDIOCA SERGIPE, EM VITÓRIA DA CONQUISTA, BA.. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MAGALHAES, G. C. ; VIANA, A. E. S. ; Cardoso Júnior, N. S ; PONTE, C. M. A. ; <b>ANDRADE, J. S.</b> ; Moreira, E.  S. ; PEREIRA, G. L. ; MUNIZ, W. F. . AVALIAÇÃO DO TEMPO DE COZIMENTO E PADRÃO DE MASSA COZIDA DE RAÍZES DE MANDIOCA DA CULTIVAR CACAU AMARELA.. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MATSUMOTO, S. N. ; Carvalho, F. M ; Carvalho, J. M ; <b>ANDRADE, J. S.</b> ; Guimarães, M. M. C . Doses de fósforo e suas relações com o desenvolvimento de plântulas de café cultivadas em solução nutritiva.. 2005. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		Matta, L. B ; VIANA, A. E. S. ; MATSUMOTO, S. N. ; Santos, P. R. P ; COSTA, H. A. ; SOUZA, M. J. L. ; <b>ANDRADE, J. S.</b> . Determinação da densidade de plantio de grevílea (Grevillea robusta) em associação com cafeeiros (Coffea arabica L.) no Planalto de Conquista - BA.. 2005. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Santos, J. H. Q ; Lopes, A. C ; VIANA, A. E. S. ; Cardoso Júnior, N. S ; COSTA, H. A. ; Teixeira, R. M ; SOUZA, M. J. L. ; <b>ANDRADE, J. S.</b> ; Matta, L. B . Efeito da irrigação e de épocas de colheita sobre a cultura da mandioca (Manihot esculenta crantz).. 2005. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		Matta, L. B ; VIANA, A. E. S. ; LOPES, S. C. ; SANTOS, PAULO R. P. ; TAVARES, BIANCA S. ; SALES JÚNIOR, SÁLVIO G. ; SOUZA, ALAN C. ; Santos, J. H. Q ; <b>ANDRADE, J. S.</b> . Avaliação de genótipos de Café (Coffea arábica L.) de porte alto no Planalto de Conquista, Estado da Bahia.. 2005. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ANDRADE, J. S.</b> ; Tapia D.M.T. ; Porto, Ana Paula Ferreira ; Araújo, Germano da Silva ; Lins Júnior, Juracy Caldeira ; Santos, J. H. Q . Produção Integrada de Frutas 2006 (Material Didático). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ANDRADE, J. S.</b> ; Tapia D.M.T. ; Ramos, Romilson Coutinho . Boas Práticas de Manipulação de Alimentos 2006 (Material Didático). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ANDRADE, J. S.</b> ; Tapia D.M.T. ; Porto, Ana Paula Ferreira ; Lins Júnior, Juracy Caldeira ; Araújo, Germano da Silva ; Santos, J. H. Q . ANONÁCEAS 2006 (Material Didático). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário de Gestão Pública do Sudoeste da Bahia. 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gestão Pública do Sudoeste da Bahia. 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Conservação, Valorização e Comercialização dos Produtos da Agricultura Familiar. 2007. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MANEJO BIOENERGETICO PARA PRODUÇÃO DE ALIMENTOS: FIBRAS E ENERGIAS. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">  Impactos dos Agrotóxicos no Meio Ambiente, Legislação dos Agrotóxicos e Transgênicos. Responsabilidade Técnica e Sistema CONFEA / CREA. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Manejo e Produção de Anonáceas. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop do Programa de Pós-Graduação em Agronomia. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso Baiano de Apicultura e de Meliponicultura e III Feira Estadual. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Workshop Agronegócio Florestal e do II Simpósio sobre Reflorestamento na Região Sudoeste da Bahia.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Desenvolvimento Sustentável e Solidário da Cadeia da Mandioca no Sudoeste da Bahia. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Conferência Regional do Meio Ambiente. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">O Setor Mineral no Desenvolvimento Regional do Sudoeste da Bahia. 2004. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">52º DEFTARA - Curso de Defesa Fitossanitária, Tecnologia de Aplicação e Receituário Agronômico. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Brasileiro sobre Desenvolvimento Regional e Erradicação da Pobreza. 2003. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Jornada de Lideranças. 1997. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Assembléia Distrital de Interact Clubs do Distrito 4730. 1997. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Jornada de Lideranças. 1996. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IIIª CODIC - Conferência Distrital de Interact Clubs. 1996. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Assembléia Distrital de Interact Clubs do Distrito. 1996. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1ª Semana Pró - Juventude. 1996. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7º Encontro Distrital de Interact Clubs.
+							1995. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Assembléia Distrital de Interact Clubs. 1995. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Conferência do Distrito 4730 de Rotary International. 1995. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 02/06/2014 &agrave;s 11:33:44</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0087189555983910" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

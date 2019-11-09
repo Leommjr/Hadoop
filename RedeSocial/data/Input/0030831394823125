@@ -1,0 +1,2667 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Eduardo Guedes-Pinto)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0030831394823125" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4779236U4&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4779236U4"><div class="infpessoa">
+<h2 class="nome">Eduardo Guedes-Pinto</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0030831394823125</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 04/05/2011</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Odontologia pela Universidade Camilo Castelo Branco (1991), mestrado em Ortodontia [Piracicaba] pela Universidade Estadual de Campinas (1997) e doutorado em Ciências Odontológicas pela Universidade de São Paulo (2002). Atualmente é professor titular da Universidade Cruzeiro do Sul em Ortodontia,cordenador dos cursos de Pós graduação em Ortodontia da Universidade Cruzeiro do Sul  e professor do mestrado em Odontologia da Universidade Ibirapuera. Tem experiência na área de Odontologia, com ênfase em Ortodontia, atuando principalmente nos seguintes temas: oclusão, Ortopedia Funcional dos Maxilares, Ortodontia Bioprogrssiva, Reabilitação  crescimento e desenvolvimento crânio facial, desenvolvimento das oclusão e proporção divina.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Eduardo Guedes-Pinto</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GUEDES-PINTO, E.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Cruzeiro do Sul, Odontologia - Campus São Miguel. <br class="clear" />Av. Dr. Ussiel Cirilo, 225<br class="clear" />São Miguel<br class="clear" />08070-060 - Sao Paulo, SP - Brasil<br class="clear" />Telefone: (11) 20375700<br class="clear" />URL da Homepage: <a target="blank" href="http://www.cruzeirodosul.edu.br">http://www.cruzeirodosul.edu.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Ciências Odontológicas<span class="ajaxCAPES" data-param="&codigoCurso=33002010077P2&nivelCurso=D"></span>. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />Título: Comparação anatômica de condilos de pacientes infantis com dentadura decidua e dentição mista, Ano de obtenção: 2002. <br class="clear" />Orientador: Adolpho Chelotti. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Palavras-chave: condilo; deciduos; dentição mista; Radiografia panoramica.<br class="clear" />Grande área: Ciências da Saúde / Área: Odontologia / Subárea: Odontopediatria / Especialidade: Odontopediatria. <br class="clear" />Setores de atividade: Cuidado À Saúde das Pessoas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ortodontia [Piracicaba]<span class="ajaxCAPES" data-param="&codigoCurso=33003033002P0&nivelCurso=M"></span>. <br class="clear" />Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	<br class="clear" />Título: Resistência ao cisalhamento de Brackts fixados com resinas compostas ativadas por diversos meios,Ano de Obtenção: 1997.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4126396908824295'><img src='images/curriculo/logolattes.gif' /></a>Smonides Consani.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Palavras-chave: Braquete; Resina composta; Cisalhamento.<br class="clear" />Grande área: Ciências da Saúde / Área: Odontologia / Subárea: Ortodontia / Especialidade: Ortodontia. <br class="clear" />Setores de atividade: Cuidado À Saúde das Pessoas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1988 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Odontologia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Camilo Castelo Branco, UNICASTELO, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Trat. da disf. na musc. facial e mast. Sist. Train.  (Carga horária: 6h). <br class="clear" />Ortho Source do Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3o Curso Inter. de Reabilitação Neuro-Oclusal.  (Carga horária: 24h). <br class="clear" />Associação Brasileira Pedro Planas de Reabilitação Neuro-Oclusal.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Seminário: Gestão e Excelência Acadêmica.  (Carga horária: 4h). <br class="clear" />Universidade Cruzeiro do Sul, UNICSUL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A bioestética para a Ortodontia do século 21.  (Carga horária: 8h). <br class="clear" />Sociedade Paulista de Ortodontia.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio PAE  - Disciplina de Odontopediatria.  (Carga horária: 120h). <br class="clear" />Faculdade de Odontologia da USP.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 1993</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Ortodontia.  (Carga horária: 64h). <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1982 - 1984</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Ingles.  (Carga horária: 240h). <br class="clear" />Sociedade Brasileira de Cultura Inglesa.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Ibirapuera, UNIB, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: professor, Enquadramento Funcional: professor de pós graduação, Carga horária: 40</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Cruzeiro do Sul, UNICSUL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Professor titular, Carga horária: 4</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2000 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Odontologia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Orotodontia e Ortopedia Facial<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista da EAP/APCD</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista Paulista de Odontologia</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Odontologia / Subárea: Ortodontia/Especialidade: Ortodontia. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">2o Lugar na categoria trabalhos de divulgação, pelo painel científico: DEFORMAÇÃO DO ELÁSTICO EM CORRENTE DAS DIFERENTES MARCAS FRENTE UMA FORÇA CONSTANTE E EQUIVALENTE, Sociedade Paulista de Ortodontia - ORTO2006-SPO. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3o Lugar na categoria trabalhos de divulgação, pelo painel científico: A UTILIZAÇÃO DA ELETROMICROGRAFIA NA VERIFICAÇÃO DOS EFEITOS CAUSADOS AO ESMALTE DENTÁRIO, PELO USO DE BRAQUETES METÁLICOS, Sociedade Paulista de Ortodontia - ORTO2006-SPO. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3o lugar na categoria painel, como orientador do tema: Estágios de desenvolvimento do 34/35 e 44/45 de acordo com a classificação de Nolla em relação à idade cronolõgica, durante o ORTO2004-SPO, Sociedade Paulista de Ortodontia. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GUEDES-PINTO, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><b>GUEDES-PINTO, E.</b> ; GARBIN, Artemio José Isper ; GRIECO, Francisco Antonio Delgado . Utilização dos arcos seccionados para o tratamento da má oclusão de Classe II, divisão 2. Revista Dental Press de Ortodontia e Ortopedia Facial (Impresso)<sup><img id='14155419_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14155419' /></sup>, v. 9, p. 92-106, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14155419&volume=9&issue=&paginaInicial=92&titulo=Utilização dos arcos seccionados para o tratamento da má oclusão de Classe II, divisão 2&sequencial=1&nomePeriodico=Revista Dental Press de Ortodontia e Ortopedia Facial (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GUEDES-PINTO, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><b>GUEDES-PINTO, E.</b> ; GARBIN, A. J. I. ; GRIECO, Francisco Antonio Delgado . Rev. clín. ortodon. Dental Press. Revista Clínica de Ortodontia Dental Press<sup><img id='16766849_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16766849' /></sup>, v. 8, p. 82-89, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16766849&volume=8&issue=&paginaInicial=82&titulo=Rev. clín. ortodon. Dental Press&sequencial=2&nomePeriodico=Revista Clínica de Ortodontia Dental Press" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Sahad M G</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		Sahad M G ; NAHÁS, Ana Carla Raphaelli ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7795643043390105" target="_blank">SCAVONE-JUNIOR, Helio</a> ; JABUR, Luciana Badra ; <b>GUEDES-PINTO, E.</b> . Vertical Interincisal trespass assessment in children with speech disorders. Brazilian Oral Research (Impresso)<sup><img id='18068324_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18068324' /></sup>, v. 22, p. 247-251, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18068324&volume=22&issue=&paginaInicial=247&titulo=Vertical Interincisal trespass assessment in children with speech disorders&sequencial=3&nomePeriodico=Brazilian Oral Research (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GRIECO, Francisco Antonio Delgado</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span>GRIECO, Francisco Antonio Delgado ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6002364191773946" target="_blank">CARVALHO, Paulo Eduardo Guedes</a> ; <b>GUEDES-PINTO, E.</b> ; GARIB, Daniela Gamba ; VALLE-CORROTTI, Karyna Martins do . Prevalência de agenesia dentária em pacientes ortodônticos da cidade de São Paulo. RPG. Revista de Pós-Graduação (USP)<sup><img id='01045695_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01045695' /></sup>, v. 13, p. 307-312, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01045695&volume=13&issue=&paginaInicial=307&titulo=Prevalência de agenesia dentária em pacientes ortodônticos da cidade de São Paulo&sequencial=4&nomePeriodico=RPG. Revista de Pós-Graduação (USP)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BARCELOS, Débora Pereira</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span>BARCELOS, Débora Pereira ; MARKARIAN, Roberto Adrian ; <b>GUEDES-PINTO, E.</b> ; CHELOTTI, Adolpho ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5132173662388670" target="_blank">HADDAD, Ana Estela</a> . Avaliação da aplicabilidade da análise de carrea na dentadura decídua. JBP. Jornal Brasileiro de Odontopediatria & Odontologia do Bebê<sup><img id='14154846_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14154846' /></sup>, v. 8, p. 62-66, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14154846&volume=8&issue=&paginaInicial=62&titulo=Avaliação da aplicabilidade da análise de carrea na dentadura decídua&sequencial=5&nomePeriodico=JBP. Jornal Brasileiro de Odontopediatria & Odontologia do Bebê" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>TASHIMA, Adriana Yuri</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8546937840880789" target="_blank">TASHIMA, Adriana Yuri</a> ; VERRASTRO, Anna Paula ; FERREIRA, Sylvia Lavínia Martini ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2124457233432079" target="_blank">WANDERLEY, Márcia Turolla</a> ; <b>GUEDES-PINTO, E.</b> . Tratamento ortodôntico precoce da mordida cruzada anterior e posterior: relato de caso clínico. JBP. Jornal Brasileiro de Odontopediatria & Odontologia do Bebê<sup><img id='14154846_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14154846' /></sup>, v. 6, p. 24-31, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14154846&volume=6&issue=&paginaInicial=24&titulo=Tratamento ortodôntico precoce da mordida cruzada anterior e posterior: relato de caso clínico&sequencial=6&nomePeriodico=JBP. Jornal Brasileiro de Odontopediatria & Odontologia do Bebê" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GARBIN, Artemio José Isper ; <b>GUEDES-PINTO, E.</b> ; GRIECO, Francisco Antonio Delgado . Bioprogressiva & Reabilitação Neuro-Oclusal. Araçatuba/SP: Gráfica Editora Somos, 2009. v. 1. 512p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		ROSSI, Leandro Bielli ; <b>GUEDES-PINTO, E.</b> ; GARBIN, Artemio José Isper ; GRIECO, Francisco Antonio Delgado . Prática em Mecânica Bioprogressiva. , 2008. v. 1. 31p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> ; GUEDES-PINTO, Antonio Carlos ; Verrasto A. P. . Desenvolvimento da Dentição Deccidua. In: Antonio Carlos Guedes Pinto. (Org.). Odontopediatria. 8ed.São Paulo: Livraria Editora Santos Ltda., 2010, v. G9580, p. 63-78. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> ; GUEDES-PINTO, Antonio Carlos ; Bonini G. A. de V. C. . Características e Anaálise da Dentadura Decidua. In: Antonio Carlos Guedes Pinto. (Org.). Odontopediatria. 8ed.São Paulo: Livraria Santos Editora Ltda., 2010, v. , p. 79-90. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUEDES-PINTO, Antonio Carlos ; <b>GUEDES-PINTO, E.</b> ; Braga M. M. . Desenvolvimento da Dentição Mista. In: Antonio Carlos Guedes Pinto. (Org.). Odontopediatria. 8ed.São Paulo: Livraria Santos Editora Ltda., 2010, v. , p. 91-101. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> ; GUEDES-PINTO, Antonio Carlos ; Braga M. M. . Característics da Dentadura Mista. In: Antonio Carlos Guedes Pinto. (Org.). Odontopediatria. 8ed.São Paulo: Livraria Santos Editora Ltda., 2010, v. , p. 105-114. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUEDES-PINTO, Antonio Carlos ; <b>GUEDES-PINTO, E.</b> ; Oliveira L. B. . Implicações Clínicas no Desenvolvimento das Dentições Decídua e Mista. In: Antonio Carlos Guedes Pinto. (Org.). Odontopediatria. 8ed.São Paulo: Livraria Santos Editora Ltda., 2010, v. , p. 115-133. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUEDES-PINTO, Antonio Carlos ; <b>GUEDES-PINTO, E.</b> ; Abrão J. . Tecnica Ortodôntica. In: Antonio Carlos Guedes Pinto. (Org.). Odontopediatria. 8ed.São Paulo: Livraria Santos Editora Ltda., 2010, v. , p. 871-896. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>GUEDES-PINTO, E.</b> . entrevistas com professores da área. Orotodontia, São Paulo, p. 8 - 9, 15 nov.  2001. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TIERI, Fabio ; BOTTA, Sérgio Brossi ; STEAGALL-JUNIOR, Washington ; PAULA-JUNIOR, Elio Rodrigues de ; GRIECO, Francisco Antonio Delgado ; <b>GUEDES-PINTO, E.</b> . Resistência in vitro ao cisalhamento após colagem e recolagem de bráquetes nacionais em pré-molares humanos. In: 24a Reunião Anual da Sociedade Brasileira de Pesquisas Odontológicas, 2007, Águas de Lindóia. Brazilian Oral Research, 2007. v. 21. p. 63-63. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARSOTTINI, Masuyo Ikejiri ; <b>GUEDES-PINTO, E.</b> ; GARBIN, Artemio José Isper . Estudo comparativo de variação de força na ativação do arco utilidade de Ricketts confeccionado com variadas marcas de fios. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUÇO, Luciane da Silva ; TIERI, Fabio ; <b>GUEDES-PINTO, E.</b> . Prevalência de distúrbios fonoaudiológicos na clínica de Ortodontia e Ortopedia Facial da UNICSUL. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUENO, Kelly Fabretti e ; <b>GUEDES-PINTO, E.</b> ; GARBIN, Artemio José Isper . Análise das alterações faciais provocadas por mastigação unilateral utilizando fotografias frontais. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIGONI, Juliana ; GRIECO, Francisco Antonio Delgado ; <b>GUEDES-PINTO, E.</b> . Mensuração da posição da mandíbula e da maxila no sentido horizontal em relação a base do crânio, através da análise cefalométrica de Ricketts em pacientes com má-oclusão Classe II de Angle. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE, Jônatas Vieira ; GRIECO, Francisco Antonio Delgado ; <b>GUEDES-PINTO, E.</b> . Estudo comparativo da idade esquelética de crianças baseada nos estágios de mineralização dos dentes permanentes em radiograficas panorâmicas pelo método de estágios de maturação das vértebras cervicais em telerradiografias em norma lateral. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TIERI, Fabio ; STEFANI, Fabiane M. ; <b>GUEDES-PINTO, E.</b> . Avaliação da prevalência de distúrbios fonoaudiológicos em pacientes da clínica de Odontopediatria da Faculdade de Odontologia da Universidade de São Paulo (FOUSP). In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, Edmilson Rodrigues dos ; GRIECO, Francisco Antonio Delgado ; <b>GUEDES-PINTO, E.</b> . Prevalência de anadontia em pacientes de 9 a 16 anos de idade analisados em radiografia panorâmica dos pacientes do curso de Pós-Graduação em Ortodontia da Universidade Cruzeiro do Sul. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MORAES, David Leandro ; GARBIN, Artemio José Isper ; <b>GUEDES-PINTO, E.</b> . Estudo comparativo entre as forças de intrusão exercidas nos incisivos inferiores com arco utilidade de Ricketts e arco de Nitinol com curva reversa de Spee. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Andreia Cristine Neves ; <b>GUEDES-PINTO, E.</b> ; ROCHA, Giuliano Bareia Liberato da . Estudo comparativo das alterações das tensões dos elásticos em cadeia em diferentes períodos de tempo. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AGUILAR, Wilfred George Budeus ; <b>GUEDES-PINTO, E.</b> ; GARBIN, Artemio José Isper . A comparação da alteração das deformações e forças de alças Las Vegas na técnica Bioprogressiva confeccionadas com diferentes tipos de fios. In: 15o Congresso Brasileiro de Ortodontia, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANCO, Vanessa Ormeni ; <b>GUEDES-PINTO, E.</b> ; TIERI, Fabio . Comparação do comprimento da mandíbula entre pacientes Classe I e III através da análise cefalométrica de Ricketts. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GIL, Rosana Lopes ; <b>GUEDES-PINTO, E.</b> ; GARBIN, Artemio José Isper . Estudo comparativo entre a variação de forças exercidas pelas alças de retração de caninos superiores na técnica bioprogressiva, confeccionada com variados tipos de fios. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POLLIS, Rogério ; GRIECO, Francisco Antonio Delgado ; <b>GUEDES-PINTO, E.</b> . Estudo comparativo da variação de forças do aparelho Quadri-helice de encaixe, variando a espessura, tamanho e liga de fios ortodônticos. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COLUCCI, Mariana Vecchiatti ; GARBIN, Artemio José Isper ; <b>GUEDES-PINTO, E.</b> . Deformação dos elásticos intermaxilares frente a uma distensão uniforme em variados períodos de tempo. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ISSA, Tânia Mandina Ayres ; GARBIN, Artemio José Isper ; <b>GUEDES-PINTO, E.</b> . A utilização da eletromicrografia na verificação dos efeitos causados ao esmalte dentário, pelo uso de bráquetes metálicos. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, Giuliano Bareia Liberato da ; SILVA, Andreia Cristine Neves ; <b>GUEDES-PINTO, E.</b> . Deformação do elástico em corrente das diferentes marcas frente uma força constante e equivalente. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORDEIRO, Joseli Maria ; <b>GUEDES-PINTO, E.</b> ; FRIGO, Lúcio . A influência da laserterapia de baixa intensidade na movimentação ortodôntica em ratos. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FLAIBAN, Everton ; <b>GUEDES-PINTO, E.</b> . Avaliação da preferência do lado mastigatório em pacientes com mordida cruzada unilateral. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PAULA-JUNIOR, Elio Rodrigues de ; GRIECO, Francisco Antonio Delgado ; <b>GUEDES-PINTO, E.</b> . Resistência ao cisalhamento de diferentes marcas de bráquetes nacionais fixados e refixados a pré-molares humanos in vitro. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Éden Fernando da ; GARBIN, Artemio José Isper ; <b>GUEDES-PINTO, E.</b> . Verificação da existência da proporção áurea entre ENA-PM e XI-PM, em mesofaiciais, dolicofaciais e braquifaciais. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IKEJIRI, Sílvio Jin-Ichi ; <b>GUEDES-PINTO, E.</b> ; GRIECO, Francisco Antonio Delgado . Levantamento radiográfico da prevalência de agenesia dentária em pacientes de 14 anos ou mais. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARRUDA, Sandra Maria de Oliveira ; <b>GUEDES-PINTO, E.</b> ; GRIECO, Francisco Antonio Delgado . Levantamento radiográfico da prevalência de agenesia de incisivos e pré-molares de 6 a 12 anos. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OKUHARA, Monica Reiko ; GARBIN, Artemio José Isper ; <b>GUEDES-PINTO, E.</b> . Estudo comparativo da eficiência mastigatória em pacientes infantis com dentaduras decíduas e mistas calculado antes e após o ajuste oclusal. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIDIGAL, Daniela Peçanha Tamassia Coutinho ; <b>GUEDES-PINTO, E.</b> ; GARBIN, Artemio José Isper . Verificação da existência da proporção divina nas medidas verticais em modelos fotográficos. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AZEVEDO, Tatiana Rocha ; LANFREDI, Fabíola Bernardeli ; <b>GUEDES-PINTO, E.</b> . Má-oclusão Classe II de Angle tratada com aparelho ortopédico Planas II conjugado. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COLUCCI, Mariana Vecchiatti ; VIDIGAL, Daniela Peçanha Tamassia Coutinho ; <b>GUEDES-PINTO, E.</b> . Tratamento de má-oclusão Classe II de Angle com aparelho ortopédico Klammt. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COLUCCI, Mariana Vecchiatti ; VIDIGAL, Daniela Peçanha Tamassia Coutinho ; <b>GUEDES-PINTO, E.</b> . Correção da extrusão do 2o molar inferior com o uso das Pistas Indiretas Planas Simples associado ao tubo de látex (garrote). In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		KNOLL, Maria José Reale ; MARTINEZ, João Alberto ; <b>GUEDES-PINTO, E.</b> . Alteração da posição da cabeça em pacientes de Classe II divisão 1a de Angle após instalação de A.O.F. de Bimler A. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LAUAND, Maria Helena Saran ; SEINO, Priscila Yumi ; <b>GUEDES-PINTO, E.</b> . Correção de má-oclusão Classe II de Angle com aparelho ortopédico Planas II conjugado. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIDIGAL, Daniela Peçanha Tamassia Coutinho ; COLUCCI, Mariana Vecchiatti ; <b>GUEDES-PINTO, E.</b> . Correção de mordida aberta anterior com aparelho ortopédico SN3. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIDIGAL, Daniela Peçanha Tamassia Coutinho ; COLUCCI, Mariana Vecchiatti ; <b>GUEDES-PINTO, E.</b> . Correção de mordida cruzada anterior com os aparelhos ortopédicos Bimler C e Pistas Indiretas Planas Simples com Arco de Eschler. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NEGRETE, Daniel ; <b>GUEDES-PINTO, E.</b> . Caso clínico - Paciente Classe II tratado com placas planas. In: 15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO, 2006, São Paulo. Anais do ORTO2006-SPO, 2006. v. online. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> ; THOMÉ, P. V. ; CAZELATO, E. ; SUGA, S. S. . Como ganhar espaço na arcada dentária. In: JOP, 2001, Piracicaba. Anais do JOP, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VASCONCELOS, Paulo T. e ; CAZELATO, Edmur ; <b>GUEDES-PINTO, E.</b> ; SANO, Selma . Quatro maneiras de aumentar o comprimento do arco com a terapia bioprogressiva. In: 12º Congresso Brasileiro de Ortodontia - Orto 2000-SPO, 2000, São Paulo. Nova Visão em Ortodontia Ortopedia Facial. São Paulo: Livraria Santos Editora Com. Imp. Ltda., 2000. v. 01. p. 637-638. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: O princípio de ação do Equiplan. 2008. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ROCHA, Giuliano Bareia Liberato da ; SILVA, Andreia Cristine Neves ; <b>GUEDES-PINTO, E.</b> . Painel: Deformação do elástico em corrente das diferentes marcas frente uma força constante e equivalente. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIGONI, Juliana ; GRIECO, Francisco Antonio Delgado ; <b>GUEDES-PINTO, E.</b> . Painel: Mensuração da posição da mandíbula e da maxila no sentido horizontal em relação a base do crânio, através da análise cefalométrica de Ricketts em pacientes com má-oclusão Classe II de Angle. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, Edmilson Rodrigues dos ; GRIECO, Francisco Antonio Delgado ; <b>GUEDES-PINTO, E.</b> . Painel: Prevalência de anadontia em pacientes de 9 a 16 anos de idade analisados em radiografia panorâmica dos pacientes do curso de pós-graduação em ortodontia da Universidade Cruzeiro do Sul. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COLUCCI, Mariana Vecchiatti ; GARBIN, Artemio José Isper ; <b>GUEDES-PINTO, E.</b> . Painel: Deformação dos elásticos intermaxilares frente a uma distensão uniforme em variados períodos de tempo. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARSOTTINI, Masuyo Ikejiri ; <b>GUEDES-PINTO, E.</b> ; GARBIN, Artemio José Isper . Painel: Estudo Comparativo de variação de força na ativação do arco utilidade de Ricketts confeccionado com variadas marcas de fios. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUÇO, Luciane da Silva ; TIERI, Fabio ; <b>GUEDES-PINTO, E.</b> . Painel: Prevalência de distúrbios fonoaudiológicos na Clínica de Ortodontia e Ortopedia Facial da UNICSUL. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE, Jônatas Vieira ; GRIECO, Francisco Antonio Delgado ; <b>GUEDES-PINTO, E.</b> . Painel: Estudo comparativo da idade esquelética de crianças baseada nos estágios de mineralização dos dentes permanentes em radiografias panorâmicas e o método de estágios de maturação das vértebras cervicais em telerradiografias em norma lateral. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TIERI, Fabio ; STEFANI, Fabiane M. ; <b>GUEDES-PINTO, E.</b> . Painel: Avaliação da prevalência de distúrbios fonoaudiológicos em pacientes da Clínica de Odontopediatria da Faculdade de Odontologia da Universidade de São Paulo (FOUSP). 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MORAES, David Leandro ; GARBIN, Artemio José Isper ; <b>GUEDES-PINTO, E.</b> . Painel: Estudo comparativo entre as forças de intrusão exercidas nos incisivos inferiores com arco utilidade de Ricketts e arco Nitinol com curva reversa de Spee. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		POLLIS, Rogério ; GRIECO, Francisco Antonio Delgado ; <b>GUEDES-PINTO, E.</b> . Painel: Estudo comparativo da variação de forças do aparelho Quadri-helice de encaixe, variando a espessura, tamanho e liga de fios ortodônticos. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ISSA, Tânia Mandina Ayres ; GARBIN, Artemio José Isper ; <b>GUEDES-PINTO, E.</b> . Painel: A utilização da eletromicrografia na verificação dos efeitos causados ao esmalte dentáriom pelo uso de bráquetes metálicos. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FLAIBAN, Everton ; <b>GUEDES-PINTO, E.</b> . Painel: Avaliação da preferência do lado mastigatório em pacientes com mordida cruzada unilateral. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Éden Fernando da ; GARBIN, Artemio José Isper ; <b>GUEDES-PINTO, E.</b> . Painel: Verificação da existência da porporção áurea entre ENA-PM e XI-PM, em mesofaciais, dolicofaciais e braquifaciais. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OKUHARA, Monica Reiko ; GARBIN, Artemio José Isper ; <b>GUEDES-PINTO, E.</b> . Painel: Estudo comparativo da eficiência mastigatória em pacientes infantis com dentaduras decíduas e mistas calculado antes e após o ajuste oclusal. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COLUCCI, Mariana Vecchiatti ; VIDIGAL, Daniela Peçanha Tamassia Coutinho ; <b>GUEDES-PINTO, E.</b> . Painel: Tratamento de má-oclusão Classe II de Angle com aparelho ortopédico de Klammt. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COLUCCI, Mariana Vecchiatti ; VIDIGAL, Daniela Peçanha Tamassia Coutinho ; <b>GUEDES-PINTO, E.</b> . Painel: Correção da extrusão do 2o molar inferior com o uso de Pistas Indiretas Planas Simples associado ao tubo de látex (garrote). 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LAUAND, Maria Helena Saran ; SEINO, Priscila Yumi ; <b>GUEDES-PINTO, E.</b> . Painel: Correção de má-oclusão Classe II de Angle com aparelho ortopédico Planas II conjugado. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIDIGAL, Daniela Peçanha Tamassia Coutinho ; COLUCCI, Mariana Vecchiatti ; <b>GUEDES-PINTO, E.</b> . Painel: Correção de mordida aberta anterior com aparelho ortopédico SN3. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIDIGAL, Daniela Peçanha Tamassia Coutinho ; COLUCCI, Mariana Vecchiatti ; <b>GUEDES-PINTO, E.</b> . Painel: Correção de mordida cruzadsa anterior com os aparelhos ortopédicos Bimler C e Pistas Indiretas Planas Simples com Arco de Eschler. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NEGRETE, Daniel ; <b>GUEDES-PINTO, E.</b> . Painel: Caso clínico- Paciente Classe II tratado com placa plana. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIDIGAL, Daniela Peçanha Tamassia Coutinho ; <b>GUEDES-PINTO, E.</b> ; GARBIN, Artemio José Isper . Painel: Verificação da existência da proporção divina nas medidas verticais em modelos fotográficos. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Andreia Cristine Neves ; <b>GUEDES-PINTO, E.</b> ; ROCHA, Giuliano Bareia Liberato da . Painel: Estudo comparativo das alterações das tensões dos elásticos em cadeia em diferentes período de tempo. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORDEIRO, Joseli Maria ; <b>GUEDES-PINTO, E.</b> ; FRIGO, Lúcio . Painel: A influência da laserterapia de baixa intensidade na movimentação ortodôntica em ratos. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AGUILAR, Wilfred George Budeus ; <b>GUEDES-PINTO, E.</b> ; GARBIN, Artemio José Isper . A comparação da alteração das deformações e forças de alças Las Vegas da técnica bioprogressiva confeccionadas com diferentes tipos de fios. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANCO, Vanessa Ormeni ; <b>GUEDES-PINTO, E.</b> ; TIERI, Fabio . Painel: Comparação do comprimento da mandíbula entre pacientes Classe I e III através da análise cefalométrica de Ricketts. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GIL, Rosana Lopes ; <b>GUEDES-PINTO, E.</b> ; GARBIN, Artemio José Isper . Painel: Estudo comparativo entre a variação de forças exercidas pelas alças de retração de caninos superiores na técnica bioprogressiva, confeccionada com variados tipos de fios. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IKEJIRI, Sílvio Jin-Ichi ; <b>GUEDES-PINTO, E.</b> ; GRIECO, Francisco Antonio Delgado . Painel: Levantamento radiográfico da prevalência de agenesia dentária em pacientes de 14 anos ou mais. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARRUDA, Sandra Maria de Oliveira ; <b>GUEDES-PINTO, E.</b> ; GRIECO, Francisco Antonio Delgado . Painel: Levantamento radiográfico da prevalência de agenesia de incisivos e pré-molares de 6 a 12 anos. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BUENO, Kelly Fabretti e ; <b>GUEDES-PINTO, E.</b> ; GARBIN, Artemio José Isper . Painel: Análise das alterações faciais provocadas por mastigação unilateral utilizando fotografias fontais. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Avaliação de fatores desencadeantes da respiração predominantemente bucal. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Avaliação da inclinação do plano oclusal em pacientes portadores de Classe II de Angle tratados com aparelho fixo e AEB. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Estudo comparativo da eficiência das escovas ortodônticas e convencionais em pacientes com aparelho fixo. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Análise comparativa entre as medidas verticais e horizontais em telleradiografia frontal, verificando a existência de proporção divina entre elas. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Análise comparativa entre dois métodos para determinação do ponto XI. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Estudo comparativo com medidas lineares em radiografias panorâmicas entre pacientes Classe I e Classe II de Angle. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Alterações do plano oclusal após correção da Classe II, divisão 1a, com placa Planas de Classe II. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Estudo comparativo com medidas lineares em radiografias panorâmicas entre pacientes dolicofacial, mesofacial e braquifacial. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Diferenças de posicionamento do osso hióide nos tres tipos faciais. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Estudo comparativo entre a avaliação do perímetro do arco dentário com a variação das distâncias intermolares e intercaninos em pacientes tratados com o aparelho quadrihélice. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Teste de resistência ao cisalhamento da força de adesão de bráquetes fixados ao esmalte condicionado com diferentes sistemas. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Avaliação da resistência ao cisalhamento de bráquetes metálicos reciclados com jateamento de óxido de alumínio. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Estudo da influência de fatores intrínsecos e extrínsecos determinantes de más oclusões nos arcos decíduos tipo II de Baume. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Tratamento de classe III em pacientes infantis com máscara facial. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Colagem e recolagem de bráquetes "in vitro" para testar a força de resistência ao cisalhamento na recolagem de bráquetes novos e bráquetes limpos por jato de alumínio. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Comparação "in vitro" da resistência ao cisalhamento de bráquetes metálicos ficados com diferentes tipos de resinas-adesivos. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Proporções divinas entre grandezas horizontais e verticais. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Estudo das proporções áureas em radiografias frontais em pacientes com respiração bucal ou mista. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Painel: Avaliação da proporção divina em pacientes com mordida cruzada por meio de telerradiografias em norma frontal. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BETTI, Beatriz Fernanda ; SHIBAYAMA, A.H. ; <b>GUEDES-PINTO, E.</b> . Painel: Avaliação da resistência ao cisalhamento de braquetes fixados com diferentes compósitos na dentição decídua após diferentes períodos de tempo. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAVALCANTI, Marcos Fernando Xisto Braga ; <b>GUEDES-PINTO, E.</b> . Painel: Comparação das proporções divinas existentes no perfil em pacientes dos três tipos faciais. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">EJZENBAUM, Claudio ; <b>GUEDES-PINTO, E.</b> . Painel: Análise de proporções áureas em modelos de estudo de crianças com dentição mista durante a fase intertransicional. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, Dênis Clay Lopes dos ; <b>GUEDES-PINTO, E.</b> ; SANTOS, D.C.L. . Painel: Biossegurança em ortodontia. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FLAIBAN, Everton ; <b>GUEDES-PINTO, E.</b> ; CORDEIRO, Joseli Maria . Painel: Resistência ao cisalhamento de braquetes fixados com resinas compostas fotoativadas e quimicamente ativadas. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FLAIBAN, Everton ; <b>GUEDES-PINTO, E.</b> . Painel: Estudo comparativo de medidas lineares na mandíbula de crianças com dentaruras decíduas e dentições mista em radiografias panorâmicas. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>56. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CERSÓSIMO. Paulo César ; FLAIBAN, Everton ; <b>GUEDES-PINTO, E.</b> . Painel: Estudo comparativo da proporção áurea em pacientes com mordida cruzada posterior unilateral, bilateral e sem mordida cruzada na dentição mista. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>57. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NEGRETE, Daniel ; FLAIBAN, Everton ; <b>GUEDES-PINTO, E.</b> . Painel: Estudo comparativo da proporção áurea em pacientes com idade entre 5 e 7 anos, Classe I e Classe II de Angle, a partir de telerradiografias laterais. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>58. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LAUAND, Maria Helena Saran ; <b>GUEDES-PINTO, E.</b> ; FLAIBAN, Everton . Painel: Esterilização e desinfecção dos alicates na prática ortodôntica. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>59. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PIRES, Ana Flavia Fernandes ; <b>GUEDES-PINTO, E.</b> ; FLAIBAN, Everton . Painel: Análise comparativa da proporção áurea em pacientes dólicofaciais, mesofaciais e braquifaciais na dentição mista. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>60. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> ; BARCELOS, D.P. ; MARKARIAN, R.A. . Painel: Avaliação da aplicabilidade da análise de Carrea na dentadura decídua. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>61. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">EJZENBAUM, Claudio ; <b>GUEDES-PINTO, E.</b> . Painel: Moldagem de estudo com hidrocolóides irreversíveis em pacientes de odontopediatria na posição de trendelenburg. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUEDES-PINTO, Antonio Carlos ; ISSAO, Myaki ; <b>GUEDES-PINTO, E.</b> . Manual de Odontopediatria.
+							São Paulo:
+									Livraria Editora Santos,  2006 (Colaboração em Livro). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Programa Saúde Feminina. 2003. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Bioprogressiva associada ao Straight Wire uma evolução da Ortodontia. 2010. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Responsável pelo estágio do GREOC - Grupo de Estudo no Crescimento e Desenvolvimento Crânio Facial e Desenvolvimento da Oclusão. 2009.
+							(Coordenação de Estágios).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Conferência: A bioprogressiva facilitando Straight Wire. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Conferência: Ajuste oclusal e pistas diretas nas dentaduras decíduas e mistas. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Ajuste oclusal na dentadura mista e na decídua. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Responsável pelo estágio do GREOC - Grupo de Estudo no Crescimento e Desenvolvimento Crânio Facial e Desenvolvimento da Oclusão. 2008.
+							(Coordenação de Estágios).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Coordenador do Curso Nacional: Ortopedia Funcional dos Maxilares. 2008.
+							(Coordenação de Curso).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Aula: Mecânica bioprogressiva. 2007. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Aulas de Ortodontia. 2007. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> ; GUEDES-PINTO, Antonio Carlos . Odontología Pediatrica, Ortopedia y Ortodoncia. 2007. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Tratamento ortopédico-ortodôntico e ajuste oclusal na dentadura decídua. 2007. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Responsável pelo estágio do GREOC - Grupo de Estudo no Crescimento e Desenvolvimento Crânio Facial e Desenvolvimento da Oclusão. 2007.
+							(Coordenação de Estágios).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Responsável pelo estágio do GREOC - Grupo de Estudo no Crescimento e Desenvolvimento Crânio Facial e Desenvolvimento da Oclusão. 2006.
+							(Coordenação de Estágios).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Responsável pelo estágio do GREOC - Grupo de Estudo no Crescimento e Desenvolvimento Crânio Facial e Desenvolvimento da Oclusão. 2005.
+							(Coordenação de Estágios).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Conferência: Tratamento ortodôntico e ortopédico facial de pacientes adolescentes. 2004. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Responsável pelo estágio do GREOC - Grupo de Estudo no Crescimento e Desenvolvimento Crânio Facial e Desenvolvimento da Oclusão. 2004.
+							(Coordenação de Estágios).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Recursos protéticos e ortodônticos na reabilitação do arco posterior decíduo. 2003. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Reabilitação protética e ortodôntica em dentes decíduos posteriores. 2003. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Responsável pelo estágio do GREOC - Grupo de Estudo no Crescimento e Desenvolvimento Crânio Facial e Desenvolvimento da Oclusão. 2003.
+							(Coordenação de Estágios).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Responsável pelo estágio do GREOC - Grupo de Estudo no Crescimento e Desenvolvimento Crânio Facial e Desenvolvimento da Oclusão. 2002.
+							(Coordenação de Estágios).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Moldagem em Odontopediatria. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Crescimento e Desenvolvimento Crânio Facial I. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Características e Desenvolvimento da Dentadura e Dentição Mista. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Diagnóstico e Planejamento Ortodôntico Preventivo. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Hábitos nocivos ao desenvolvimento da oclusão. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Aparelhos Ortopédicos Faciais II. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Crescimento e Desenvolvimento Crânio Facial II. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Aparelhos Ortopédicos Faciais I. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Reações Teciduais frente ao movimento Ortodôntico. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Resistência ao Cisalhamento de Braquetes Fixados com Resinas Compostas Ativadas por Diversas Formas. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Aula: Características e desenvolvimento da dentadura e dentição mista. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Aula: Diagnóstico e planejamento ortodôntico preventivo. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Aula: Crescimento e desenvolvimento crânio facial. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Aula: Moldagem em odontopediatria. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Tema: Resistência ao cisalhamento de braquetes fixados com resinas compostas ativadas por diversas formas. 2001. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Responsável pelo estágio do GREOC - Grupo de Estudo no Crescimento e Desenvolvimento Crânio Facial e Desenvolvimento da Oclusão. 2001.
+							(Coordenação de Estágios).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Coordenador do Seminário: Hábitos nocivos ao desenvolvimento da oclusão. 2001.
+							(Coordenação de Seminário).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Coordenador do Seminário: Reações teciduais frente ao movimento ortodôntico. 2001.
+							(Coordenação de Seminário).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Coordenador do Seminário: Aparelhos ortopédicos faciais. 2001.
+							(Coordenação de Seminário).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Coordenador do Seminário: Crescimento e desenvolvimento crânio facial. 2001.
+							(Coordenação de Seminário).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Coordenador do seminário: Aparelhos ortopédicos faciais. 2001.
+							(Coordenação de Seminário).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Responsável pelo estágio do GREOC - Grupo de Estudo no Crescimento e Desenvolvimento Crânio Facial e Desenvolvimento da Oclusão. 2000.
+							(Coordenação de Estágios).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Coordenador da Conferência especial: Sistema ortodôntico transparente Invisible Touch - Tratamento da Apnéia com o Apnout. 2000.
+							(Coordenação de Conferência).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Coordenador de Conferência especial: Cefalometria tridimensional computadorizada. 2000.
+							(Coordenação de Conferência).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . Responsável pelo estágio do GREOC - Grupo de Estudo no Crescimento e Desenvolvimento Crânio Facial e Desenvolvimento da Oclusão. 1999.
+							(Coordenação de Estágios).
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SUMIDA, Doris Hissako; SALIBA,; <b>GUEDES-PINTO, E.</b>.  Participação em banca de DANIELA COELHO DE LIMA. Comparação entre os métodos químico-mecânicos, CarisolvTM Papacárie, com método manual na remoção de dentina cariada. 2006. Dissertação (Mestrado em Odontologia Preventiva e Social) - Universidade Estadual Paulista Julio de Mesquita Filho - Campus de Araçarub. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARCIERI, Renato Moreira; SUMIDA, Doris Hissako; DARUGE JUNIOR, Eduardo; <b>GUEDES-PINTO, E.</b>; ZORZETTO, Daniel Luiz Gaertner.  Participação em banca de MARCOS TADEU ADAS SALIBA. Reclamaçõe éticas contra cirurgiões dentistas que deram entrada no CRO-SP durante o ano de 2007. 2009. Tese (Doutorado em Odontologia Preventiva e Social)  - Universidade Estadual Paulista Julio de Mesquita Filho - Campus de Araçarub. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUEDES-PINTO, Antonio Carlos; CIAMPONI, Ana Lídia; <b>GUEDES-PINTO, E.</b>; FERREIRA, Flávio Augusto Cotrim; LONG, Sucena Matuk.  Participação em banca de SELMA SANO SUGA. Avaliação do posicionamento de caninos superiores permanentes na fase da dentadura mista em relação à largura do arco dentário e ao espaço na região anterior. 2008. Tese (Doutorado em Ciências Odontológicas - Odontopediatria)  - Faculdade de Odontologia da USP. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b>; GARBIN, Artemio José Isper; ZUIM, Paulo Renato Junqueira; DARUGE JUNIOR, Eduardo; GARCIA, Alício Rosalino.  Participação em banca de RONALD JEFFERSON MARTINS. Discunção temporomandibular. Relação com a classe econômica, qualidade do sono e estresse. 2006. Tese (Doutorado em Odontologia Preventiva e Social)  - Universidade Estadual Paulista Julio de Mesquita Filho - Campus de Araçarub. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARCIERI, Renato Moreira; <b>GUEDES-PINTO, E.</b>; CROSATO, Edgard; BERTOZ, Francisco Antonio; GARBIN, Artemio José Isper.  Participação em banca de Paulo Cesar Pereira Perin. Prevalência de má oclusão e necessidade de tratamento ortodôntico, comparando a classificação de Angle e o Índice de Estética Dentária. 2002. Tese (Doutorado em Odontologia Preventiva e Social)  - Universidade Estadual Paulista Julio de Mesquita Filho - Campus de Araçarub. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINEZ, João Alberto; D'AVILA, Nilde Burocchi Ribas; <b>GUEDES-PINTO, E.</b>.  Participação em banca de MARIA JOSÉ REALE KNOLL. Alteração da posição da cabeça em pacientes Classe II, divisão 1a após a instalação do aparelho ortopédico funcional de Bimler A. 2007. Monografia (Aperfeiçoamento/Especialização em Especialização em Ortodontia)  - Universidade de Santo Amaro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINEZ, João Alberto; VILLA, Nelson; <b>GUEDES-PINTO, E.</b>.  Participação em banca de ELOÍSA DA CONCEIÇÃO PINTO DI MIGUELI. Comparação da eficiência de quatro diferentes agentes químicos em diferentes concentrações na dsinfecção de aparehos ortopédicos de resina acrílica. 2007. Monografia (Aperfeiçoamento/Especialização em Especialização em Ortodontia)  - Universidade de Santo Amaro. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARCIEI, Renato Moreira; DARUGE JUNIOR, Eduardo; <b>GUEDES-PINTO, E.</b>. Concurso Público para Professor Assistente junto ao Departamento de Odontologia Infantil e Social, Disciplinas de Orientação Profissional I e II.
+							2006. Universidade Estadual Paulista Júlio de Mesquita Filho. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIGORITO, Julio Wilson; GUEDES-PINTO, Antonio Carlos; PEREIRA, Marlene Fenyo Soeiro de Matos; FERREIRA, Sylvia Lavínia Martini; <b>GUEDES-PINTO, E.</b>. Concurso Público para Professor Doutor, junto ao Departamento de Ortodontia e Odontopediatria, com base na Disciplina de Odontopediatria.
+							2005. Faculdade de Odontologia da USP. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIGORITO, Julio Wilson; GUEDES-PINTO, Antonio Carlos; PEREIRA, Marlene Fenyo Soeiro de Matos; FERREIRA, Sylvia Lavínia Martini; <b>GUEDES-PINTO, E.</b>. Concurso Público para Professor Doutor, junto ao Departamento de Ortodontia e Odontopediatria, com base na Disciplina de Ortodontia.
+							2005. Faculdade de Odontologia da USP. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b>. Banca Avaliadora do Prêmio Jovens Talentos - ORTO2008-SPO.
+							2008.
+							Sociedade Paulista de Ortodontia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b>; CAVALCANTI, Bruno das Neves; MATSON, Mauricio Rufaiel. Exame de Qualificação Mestrado - Juarez Araújo da Silva.
+							2006.
+							Universidade Ibirapuera. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b>. Planejamento Cirúrgico em Cirurgia Ortognática.
+							2003.
+							Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b>. Banca Examinadora de Exame de Qualificação Final do término de Residência em Cirurgia e Traumatologia Bucomaxilofaciais.
+							2003.
+							Hospital Universitário da USP. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">16o Congresso Brasileiro de Ortodontia - ORTO2008-SPO. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">26o Congresso Internacional de Odontologia de São Paulo. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ivisalign Day. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">25o Congresso Internacional de Odontologia de São Paulo. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Internacional de Ortodontia da ABO/MT.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">15o Congresso Brasileiro de Ortodontia - ORTO2006-SPO. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">24o Congresso Internacional de Odontologia de São Paulo. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1o CIODONTO - Congresso Internacional de Odontologia da ABO. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">14º Congresso Brasileiro de Ortodontia. 14º Congresso Brasileiro de Ortodontia - Orto 2004-SPO. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">21º Congresso Internacional de Odontologia de São Paulo. 21º Congresso Internacional de Odontologia de São Paulo. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIX Congresso Brasileiro de Odontopediatria. XIX Congresso Brasileiro de Odontopediatria. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">13º Congresso Brasileiro de Ortodontia - Orto 2002-SPO. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">12º Congresso Brasileiro de Ortodontia - Orto 2000-SPO. 2000. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">17º Congresso Brasileiro de Odontopediatria. Participação na qualidade de Membro da Comissão Científica. 2000. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . 12º Congresso Brasileiro de Ortodontia  - ORTO 2000 - SPO. 2000. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GUEDES-PINTO, E.</b> . 12º Congresso Brasileiro de Ortodontia - ORTO 2000 - SPO. 2000. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:19:10</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0030831394823125" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

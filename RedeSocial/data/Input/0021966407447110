@@ -1,0 +1,2364 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Felipe Kellermann Hurtado)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0021966407447110" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4508386Y8&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4508386Y8"><div class="infpessoa">
+<h2 class="nome">Felipe Kellermann Hurtado</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0021966407447110</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 30/04/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Doutorado em Ciências Farmacêuticas pela Universidade Federal do Rio Grande do Sul (2014). Doutorado sanduíche na University of Florida, USA (2012) na área de farmacometria e modelagem farmacocinética populacional. Mestre em Ciências Farmacêuticas pela Universidade Federal de Santa Maria (UFSM, 2009). Graduado em Farmácia pela UFSM (2007). Tem experiência na área de Farmácia Industrial, com ênfase na quantificação de fármacos em matrizes biológicas por HPLC e em estudos de farmacocinética em humanos e animais de experimentação. Participou de colaborações científicas com mais de 40 colaboradores em diferentes instituições de pesquisa nacionais (LAFEPE, UCS, UFRGS, UFSM, LANAGRO/RS), incluindo colaboração com pesquisadores no exterior (Dept. of Pharmaceutics, Univ. of Florida). Atua principalmente nos seguintes temas: farmacocinética pré-clínica, farmacodinâmica de antimicrobianos, modelagem farmacocinética (WinNonlin, Phoenix, Scientist, Kinetica, Monolix, NONMEM 7.2), modelagem PK/PD, microdiálise in vivo, métodos bioanalíticos (HPLC, eletroforese capilar), dissolução de fármacos, análise estatística (SAS 9.3, STATISTICA 7). É revisor ad hoc de periódicos científicos da área.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Felipe Kellermann Hurtado<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">HURTADO, F. K.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande do Sul, Faculdade de Farmácia. <br class="clear" />Av. Ipiranga, 2752<br class="clear" />Santana<br class="clear" />90610-000 - Porto Alegre, RS - Brasil<br class="clear" />Telefone: (51) 33085215<br class="clear" />URL da Homepage: <a target="blank" href="http://www.ufrgs.br/ppgcf/">http://www.ufrgs.br/ppgcf/</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Ciências Farmacêuticas<span class="ajaxCAPES" data-param="&codigoCurso=42001013023P9&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />com <b>período </b><b>sanduíche </b> em University of Florida (Orientador: Hartmut Derendorf). <br class="clear" />Título: Modelagem Farmacocinética/Farmacodinâmica das Fluoroquinolonas Levofloxacino e Moxifloxacino Visando o Tratamento da Prostatite, Ano de obtenção: 2014. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3345924324711668'><img src='images/curriculo/logolattes.gif' /></a>Teresa Cristina Tavares Dalla Costa. <br class="clear" />Co-orientador: Hartmut Derendorf. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Palavras-chave: Farmacocinética; Farmacodinâmica; Fluoroquinolonas; Modelagem PK/PD.<br class="clear" />Grande área: Ciências Biológicas / Área: Farmacologia / Subárea: Farmacocinética. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciências Farmacêuticas<span class="ajaxCAPES" data-param="&codigoCurso=42002010029P7&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Título: Desenvolvimento e Validação de Metodologia para Análise de Rimonabanto e Estudo da sua Dissolução a partir de Formas Farmacêuticas,Ano de Obtenção: 2009.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2270654658839508'><img src='images/curriculo/logolattes.gif' /></a>Clarice Madalena Bueno Rolim.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Rimonabanto; Cromatografia líquida; Validação; Formulações farmacêuticas; Dissolução.<br class="clear" />Grande área: Ciências da Saúde / Área: Farmácia / Subárea: Análise e Controle de Medicamentos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Farmácia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Título: Desenvolvimento e Validação de Método Microbiológico e por HPLC para Avaliação de Fluconazol em Solução Injetável. <br class="clear" />Orientador: Clarice Madalena Bueno Rolim. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Uppsala Pharmacometric Summer School.  (Carga horária: 80h). <br class="clear" />Uppsala University.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Advanced Pharmacokinetics and Pharmacodynamics.  (Carga horária: 60h). <br class="clear" />University of Florida.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Basic Principles of Dose Optimization.  (Carga horária: 24h). <br class="clear" />University of Florida.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Introduction to Clinical & Translational Research.  (Carga horária: 33h). <br class="clear" />University of Florida.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">English for Academic Admission.  (Carga horária: 32h). <br class="clear" />Instituto Cultural Brasileiro Norte-Americano.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Français Basique.  (Carga horária: 162h). <br class="clear" />Alliance Française.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Escola de Altos Estudos em Toxicologia.  (Carga horária: 70h). <br class="clear" />Universidade de São Paulo.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Eletroforese Capilar.  (Carga horária: 45h). <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio Final em Indústria Farmacêutica.  (Carga horária: 616h). <br class="clear" />Laboratório Farmacêutico do Estado de Pernambuco.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Aluno de Pós-Graduação, Enquadramento Funcional: Pesquisador, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Bolsista, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Analista do Laboratório de Controle Microbiológico de Medicamentos do Centro de Desenvolvimento de Testes e Ensaios Farmacêuticos (CTEFAR). Análises de rotina realizadas: contagem de microorganismos viáveis pelo método de semeadura em placa, pesquisa e identificação de patógenos, doseamento microbiológico 3x3 pelo método da difusão em ágar, identificação bioquímica pelo sistema Bactray, teste de esterilidade em produtos farmacêuticos pelo método direto e por filtração em membrana sistema fechado, doseamento de antimicrobianos em formulações farmacêuticas por HPLC.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Laboratório Farmacêutico do Estado de Pernambuco, LAFEPE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: Estagiário, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio curricular realizado no Laboratório Farmacêutico do Estado de Pernambuco (LAFEPE), nos setores de Pesquisa e Desenvolvimento, Boas Práticas de Fabricação, Produção e Controle de Qualidade. Elaboração de monografia no Laboratório de Controle Físico-Químico. Elaboração de procedimentos operacionais padrão no Laboratório de Controle Físico-Químico. Elaboração e apresentação de seminário de treinamento entitulado "Cromatografia líquida de alta eficiência (HPLC)" aos técnicos do Laboratório de Controle Físico-Químico do LAFEPE.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Centro de Desenvolvimento de Testes e Ensaios Farmacêuticos, CTEFAR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Bolsista, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsista do Laboratório de Controle Microbiológico de Medicamentos do CTEFAR.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>LABIMED-ANÁLISES CLÍNICAS, LABIMED, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: Estagiário, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado nos setores de coleta, gasometria, bioquímica, microbiologia e hematologia.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12/2004 - 05/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Particular, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Setores de Microbiologia, Hematologia, Coleta e Bioquímica. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Hospital Universitário de Santa Maria, HUSM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estagiário, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio no Serviço de Farmácia, Dispensação de Medicamentos.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2003 - 04/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Farmácia Hospitalar, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Farmácia Hospitalar, Setor de Dispensação de Medicamentos. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_MODELAGEM PK/PD DE FLUOROQUINOLONAS VISANDO O TRATAMENTO DA PROSTATITE'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MODELAGEM PK/PD DE FLUOROQUINOLONAS VISANDO O TRATAMENTO DA PROSTATITE<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Chronic bacterial prostatitis is the most frequent cause of recurrent urinary tract infection in young and middle-aged men. Prostatitis exists when inflammation of prostatic gland results from infection or allergy. The pathogens associated with chronic bacterial prostatitis are essentially the common uropathogens, in particular Escherichia coli. Treatment of bacterial prostatitis is still difficult due to two main problems: on one hand, the biological status of the pathogens which often produce biofilm and, on the other hand, the penetration barrier for many agents, since only a few commonly used antibiotics are able to penetrate sufficiently well the plasma-prostate barrier and reach the prostatic fluid. Because of the broad antibacterial spectrum of fluoroquinolones, their favorable tissue penetration and their high urinary excretion as unchanged drug, this class of antimicrobials are the drugs of choice in chronic bacterial prostatitis. The investigation of drug penetration into the prostate is generally performed using tissue homogenates. However, biopsy data may clearly overestimate target site concentrations for drugs that accumulate in the intracellular space, like quinolones. Microdialysis, a semi-invasive sampling technique that selectively measures the unbound interstitial levels of drugs, can produce a more realistic insight into antimicrobial tissue penetration. The effectiveness of tissue antimicrobial concentrations to establish an optimized drug dosing regimen can be achieved by using pharmacokinetic/pharmacodynamic modeling (PK/PD modeling) where fluctuating free tissue levels resulted from different regimens (PK) are simulated against bacteria in a controlled in vitro infection model and bacterial time-kill curves (PD) are determined.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Felipe Kellermann Hurtado - Integrante / Teresa Cristina Tavares Dalla Costa - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div><a name='PP_SITAGLIPTINA: DESENVOLVIMENTO E VALIDA&Ccedil;&Atilde;O DE METODOLOGIAS PARA AVALIA&Ccedil;&Atilde;O'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SITAGLIPTINA: DESENVOLVIMENTO E VALIDAÇÃO DE METODOLOGIAS PARA AVALIAÇÃO<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A diabetes mellitus é uma doença em crescimento, que atinge cada vez mais pessoas em todo o mundo e em idades mais jovens, sendo por isso considerada um grande problema de saúde pública. A Sitagliptina é um anti-hiperglicêmico oral inibidor da DPP-4, responsável pelo aumento dos níveis dos hormônios incretina (GLP-1 e GIP) intactos. A validação de métodos analíticos, parte integrante das boas práticas de laboratório surge como uma peça chave para assegurar a confiabilidade dos resultados obtidos e assim garantir qualidade aos produtos e serviços. O presente trabalho tem como objetivo desenvolver uma metodologia padrão para a validação do método analítico de controle de qualidade do antidiabético em produtos farmacêuticos e para quantificação do fármaco em matrizes biológicas. Os procedimentos pospostos incluirão métodos por cromatografia líquida de alta eficiência (HPLC) em fase reversa com detecção ultravioleta (UV) e espectrofotometria no UV. O método cromatográfico será aplicado para avaliação do teor, uniformidade de conteúdo e dissolução de comprimidos contendo Sitagliptina .. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Felipe Kellermann Hurtado - Integrante / Clarice Madalena Bueno Rolim - Coordenador / Fernada Cramer Flores - Integrante / Aline Ravanello - Integrante / Ana Isa Pedroso Marcolino - Integrante / Bruna Gaelzer Silva Torres - Integrante / Gabriele Dadalt Souto - Integrante / Leonardo Trevisan Secretti - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_RIMONABANT: DESENVOLVIMENTO DE METODOLOGIAS DE AN&Aacute;LISE EM PRODUTOS FARMAC&Ecirc;UTICOS E MATRIZES BIOL&Oacute;GICAS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">RIMONABANT: DESENVOLVIMENTO DE METODOLOGIAS DE ANÁLISE EM PRODUTOS FARMACÊUTICOS E MATRIZES BIOLÓGICAS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O rimonabant é um fármaco utilizado para o tratamento da obesidade sendo o primeiro membro de uma nova classe terapêutica, os antagonistas dos receptores canabinóides tipo 1 (CB1). O medicamento é indicado para o tratamento adjuvante à dieta e aos exercícios físicos em pacientes obesos ou com sobrepeso e com fatores de risco associados, como diabetes tipo 2 ou dislipidemia. Os antagonistas dos receptores canabinóides CB1 representam um avanço importante no desenvolvimento de novos fármacos para a terapia farmacológica da obesidade. O desenvolvimento e a validação de metodologias que possam aprimorar o controle de qualidade é fundamental para garantir a segurança e eficácia terapêutica desse medicamento. Até o momento, não há relatos na literatura para a determinação de rimonabant em produtos farmacêuticos, bem como não há monografia descrita em farmacopéias oficiais Por esta razão, o rimonabant foi selecionado para possibilitar a obtenção de novos dados científicos em relação à análise qualitativa e quantitativa desse fármaco. Nesse contexto, o projeto pretende desenvolver e aprimorar procedimentos para avaliação da identidade, pureza, teor e qualidade de produtos farmacêuticos contendo rimonabant, bem como desenvolver e validar metodologias para determinação do fármaco em matrizes biológicas.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Felipe Kellermann Hurtado - Integrante / Clarice Madalena Bueno Rolim - Coordenador / Fernada Cramer Flores - Integrante / Aline Ravanello - Integrante / Ana Isa Pedroso Marcolino - Integrante / Bruna Gaelzer Silva Torres - Integrante / Gabriele Dadalt Souto - Integrante.<br class="clear" />Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 4</div>
+</div><a name='PP_AVALIA&Ccedil;&Atilde;O DE PAR&Acirc;METROS FARMACOCIN&Eacute;TICOS DE BEZAFIBRATO EM VOLUNT&Aacute;RIOS HUMANOS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AVALIAÇÃO DE PARÂMETROS FARMACOCINÉTICOS DE BEZAFIBRATO EM VOLUNTÁRIOS HUMANOS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento e validação de metodologia analítica por HPLC para determinação de bezefibrato em plasma humano. Extração do fármaco e padrão interno (ezetimibe) utilizando extração líquido-líquido com terc-butil metil éter. O método analítico foi posteriormente aplicado em um estudo farmacocinético em humanos após dose única oral de Cedur  comprimidos de liberação imediata. Os principais parâmetros farmacocinéticos do medicamento (AUC, Cpmax, tmax, ke, t1/2) foram então determinados no grupo de voluntários.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Felipe Kellermann Hurtado - Integrante / Daniele Carvalho de Oliveira - Integrante / Clarice Madalena Bueno Rolim - Coordenador / Estevan Sonego Zimmermann - Integrante / Janine de Melo - Integrante / Fábia Silveira Poitevin - Integrante / Fernada Cramer Flores - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul - Bolsa.<br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_DESENVOLVIMENTO E VALIDA&Ccedil;&Atilde;O DE METODOLOGIAS PARA AVALIA&Ccedil;&Atilde;O DE FLUCONAZOL'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DESENVOLVIMENTO E VALIDAÇÃO DE METODOLOGIAS PARA AVALIAÇÃO DE FLUCONAZOL<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este trabalho apresenta o desenvolvimento e a validação de dois métodos analíticos aplicados ao controle de qualidade de produtos farmacêuticos contendo fluconazol. As metodologias empregadas foram a cromatografia líquida de alta eficiência (CLAE) e o ensaio microbiológico por difusão em ágar. O fluconazol é um fármaco antifúngico pertencente à classe dos agentes antifúngicos azólicos. É responsável pela inibição do crescimento de fungos ao comprometer a biossíntese do ergosterol na membrana citoplasmática. O medicamento tem uma larga faixa de aplicações no tratamento tanto de infecções fúngicas superficiais quanto sistêmicas. Um controle de qualidade adequado deve ser realizado para garantir a segurança e eficácia deste medicamento. Para tanto, metodologias e procedimentos necessitam ser desenvolvidos, validados e aprimorados para tal finalidade, sendo esta a proposta de trabalho compreendida neste projeto. Os objetivos do projeto consistem em desenvolver procedimentos para avaliação da identidade, pureza, teor e qualidade de soluções injetáveis de fluconazol. Desenvolver e validar método através de Cromatografia líquida de alta eficiência (HPLC) em fase reversa com detector UV para determinação de fluconazol em soluções injetáveis; Desenvolver e validar ensaio microbiológico pelo método de difusão em ágar para determinação de fluconazol em soluções injetáveis; Fazer a comparação entre os resultados dos métodos através de análise estatística.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Felipe Kellermann Hurtado - Integrante / Clarice Madalena Bueno Rolim - Coordenador.<br class="clear" /><br class="clear" />Número de produções C, T & A: 2</div>
+</div><a name='PP_DESENVOLVIMENTO E VALIDA&Ccedil;&Atilde;O DE METODOLOGIAS PARA AVALIA&Ccedil;&Atilde;O DE BEZAFIBRATO'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DESENVOLVIMENTO E VALIDAÇÃO DE METODOLOGIAS PARA AVALIAÇÃO DE BEZAFIBRATO<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O bezafibrato é um medicamento hipocolesterolêmico responsável pela redução dos lipídios sangüíneos elevados (triglicerídios e colesterol). Os níveis de VLDL e LDL sangüíneos são reduzidos enquanto que o nível de HDL colesterol é aumentado, realizando-se assim a atividade antilipêmica característica do fármaco. Devido ao crescente destaque, importância clínica e econômica que medicamentos hipocolesterolêmicos vêm conquistando, o desenvolvimento de metodologias que possam aprimorar o controle de qualidade é fundamental para garantir sua segurança e eficácia terapêutica. Considerando que existem algumas dificuldades nas atuais metodologias empregadas pelo controle de qualidade, como equipamentos e reagentes de alto custo, torna-se necessário o desenvolvimento e validação de métodos alternativos com diferentes equipamentos e reagentes, sendo elaborada a relação custo-benefício para cada procedimento. Neste contexto, o projeto pretende desenvolver e aprimorar procedimentos para avaliação da identidade, pureza, teor e qualidade de comprimidos de bezafibrato, bem como desenvolver e validar metodologias para determinação da quantidade de fármaco dissolvida em meio de dissolução específico e quantidade absorvida presente em matriz biológica.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Felipe Kellermann Hurtado - Integrante / Clarice Madalena Bueno Rolim - Coordenador / Marinês Jost e Souza - Integrante / Fernanda Bortolini - Integrante / Janine de Melo - Integrante / Sérgio Luiz Dalmora - Integrante / Fábia Silveira Poitevin - Integrante / Fernada Cramer Flores - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul - Bolsa.<br class="clear" />Número de produções C, T & A: 4</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_CONTROLE DA QUALIDADE DE PRODUTOS FARMAC&Ecirc;UTICOS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CONTROLE DA QUALIDADE DE PRODUTOS FARMACÊUTICOS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Felipe Kellermann Hurtado - Integrante / Clarice Madalena Bueno Rolim - Integrante / Sérgio Luiz Dalmora - Coordenador.<br class="clear" /><br class="clear" />Número de produções C, T & A: 3</div>
+</div><a name='PP_CONTROLE DE F&Aacute;RMACOS E MEDICAMENTOS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CONTROLE DE FÁRMACOS E MEDICAMENTOS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Realização dos seguintes testes e ensaios: contagem de microorganismos viáveis pelo método da semeadura em placa, pesquisa de patógenos, doseamento microbiológico de antibióticos pelo método da difusão em ágar, teste de esterilidade por filtração em membrana sistema fechado, identificação bioquímica de microorganismos pelo sistema Bactray.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Felipe Kellermann Hurtado - Integrante / Clarice Madalena Bueno Rolim - Integrante / Sérgio Luiz Dalmora - Coordenador.<br class="clear" /></div>
+</div><a name='PP_ESTUDO DE EQUIVAL&Ecirc;NCIA FARMAC&Ecirc;UTICA DE MEDICAMENTOS GEN&Eacute;RICOS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ESTUDO DE EQUIVALÊNCIA FARMACÊUTICA DE MEDICAMENTOS GENÉRICOS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Realização de estudos de equivalência farmacêuticas em medicamentos candidatos a genéricos e similares. Estudos realizados no EQFAR 008, pertencente à REBLAS (Rede Brasileira de Laboratórios Analíticos em Saúde ).. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Felipe Kellermann Hurtado - Integrante / Clarice Madalena Bueno Rolim - Integrante / Sérgio Luiz Dalmora - Coordenador / Marcela Zart Arend - Integrante.<br class="clear" />Financiador(es): Fundação de Apoio à Tecnologia e Ciência - Bolsa.<br class="clear" />Número de produções C, T & A: 2</div>
+</div><a name='PP_ESTUDOS E AN&Aacute;LISES DE CONTROLE DE PRODUTOS FARMAC&Ecirc;UTICOS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ESTUDOS E ANÁLISES DE CONTROLE DE PRODUTOS FARMACÊUTICOS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Realização de estudos de equivalência farmacêutica e controle de qualidade de medicamentos.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Felipe Kellermann Hurtado - Integrante / Clarice Madalena Bueno Rolim - Integrante / Sérgio Luiz Dalmora - Coordenador.<br class="clear" /><br class="clear" />Número de produções C, T & A: 3</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of AOAC International</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Drug Testing and Analysis</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: International Journal of Industrial Chemistry</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Scientia Pharmaceutica</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Current Pharmaceutical Analysis</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Talanta (Oxford)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: International Research Journal of Pharmacy and Pharmacology</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: International Journal of Biochemistry and Biotechnology</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Universal Journal of Biotechnology & Bioinformatics</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of Research in Environmental Science and Toxicology</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of Chromatography & Separation Techniques</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Farmácia / Subárea: Análise e Controle de Medicamentos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Farmácia / Subárea: Farmacocinética. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Pouco, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tese de doutorado aprovada com voto de louvor pela banca examinadora, Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Awarded the Novartis travelling grant for the Uppsala Pharmacometric Summer School (UPSS 2013), Uppsala universitet, Sweden. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">Web of Science</div><div class="trab">Total de trabalhos:12</div><div class="cita">Total de citações:29</div><div class="fator">Fator H:4</div><div class="detalhes">Hurtado, FK&nbsp;&nbsp;Data:&nbsp;23/04/2014</div></div></div></div></div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">SCOPUS</div><div class="trab">Total de trabalhos:12</div><div class="cita">Total de citações:37</div><div class="detalhes">Hurtado, F.K.&nbsp;&nbsp;Data:&nbsp;23/04/2014</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HURTADO, F. K.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1128/AAC.01884-13" target="_blank"></a><b>HURTADO, F. K.</b> ; WEBER, B. ; DERENDORF, H. ; HOCHHAUS, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3345924324711668" target="_blank">DALLA COSTA, T.</a> . Population Pharmacokinetic Modeling of the Unbound Levofloxacin Concentrations in Rat Plasma and Prostate Tissue Measured by Microdialysis. Antimicrobial Agents and Chemotherapy (Online)<sup><img id='10986596_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10986596' /></sup>, v. 58, p. 678-686, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1128/AAC.01884-13&issn=10986596&volume=58&issue=&paginaInicial=678&titulo=Population Pharmacokinetic Modeling of the Unbound Levofloxacin Concentrations in Rat Plasma and Prostate Tissue Measured by Microdialysis&sequencial=1&nomePeriodico=Antimicrobial Agents and Chemotherapy (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANGOI, M. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1556/AChrom.25.2013.4.9" target="_blank"></a>SANGOI, M. S. ; WRASSE-SANGOI, M. ; <b>HURTADO, F. K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Stress degradation studies on aliskiren and the development of a sensitive stability-indicating MEKC method. Acta Chromatographica<sup><img id='12332356_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='12332356' /></sup>, v. 25, p. 711-724, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1556/AChrom.25.2013.4.9&issn=12332356&volume=25&issue=&paginaInicial=711&titulo=Stress degradation studies on aliskiren and the development of a sensitive stability-indicating MEKC method&sequencial=2&nomePeriodico=Acta Chromatographica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GRUNSPAN, L. D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10337-012-2187-7" target="_blank"></a>GRUNSPAN, L. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3651580390201403" target="_blank">KAISER, M.</a> ; <b>HURTADO, F. K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3345924324711668" target="_blank">DALLA COSTA, T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3734980531896635" target="_blank">TASSO, L.</a> . HPLC Determination of Gemifloxacin in Different Tissues of Rats under Normobaric and Hyperbaric Exposure. Chromatographia (Wiesbaden)<sup><img id='00095893_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00095893' /></sup>, v. 75, p. 253-262, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10337-012-2187-7&issn=00095893&volume=75&issue=&paginaInicial=253&titulo=HPLC Determination of Gemifloxacin in Different Tissues of Rats under Normobaric and Hyperbaric Exposure&sequencial=3&nomePeriodico=Chromatographia (Wiesbaden)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HURTADO, F. K.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>HURTADO, F. K.</b> ; RAVANELLO, A. ; TORRES, B. G. S. ; SOUTO, G. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5548361916821654" target="_blank">BECK, R. C. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Development of a Discriminating In Vitro Dissolution Method for the Poorly Soluble Drug Rimonabant: Effect of Formulation Variables on Dosage Form Release Profiles. Dissolution Technologies<sup><img id='1521298X_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1521298X' /></sup>, v. 19, p. 30-36, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1521298X&volume=19&issue=&paginaInicial=30&titulo=Development of a Discriminating In Vitro Dissolution Method for the Poorly Soluble Drug Rimonabant: Effect of Formulation Variables on Dosage Form Release Profiles&sequencial=4&nomePeriodico=Dissolution Technologies" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RAVANELLO, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>RAVANELLO, A. ; SOUTO, G. D. ; TORRES, B. G. S. ; <b>HURTADO, F. K.</b> ; MARCOLINO, A. I. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Development and Validation of an UV-spectrophotometric Method for the Dissolution Studies of Sitagliptin Tablets. Acta Farmaceutica Bonaerense<sup><img id='03262383_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03262383' /></sup>, v. 29, p. 962-967, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03262383&volume=29&issue=&paginaInicial=962&titulo=Development and Validation of an UV-spectrophotometric Method for the Dissolution Studies of Sitagliptin Tablets&sequencial=5&nomePeriodico=Acta Farmaceutica Bonaerense" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FONTANA, M. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S0100-40422010000100035" target="_blank"></a>FONTANA, M. C. ; <b>HURTADO, F. K.</b> ; WRASSE, M. ; BOLIGON, A. A. ; VENTURINI, T. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5548361916821654" target="_blank">BECK, R. C. R.</a> . Development and Validation of RP-LC and UV Spectrophotometric Methods to Assay Bromopride in Oral and Injectable Solutions. Química Nova (Impresso)<sup><img id='01004042_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01004042' /></sup>, v. 33, p. 208-211, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S0100-40422010000100035&issn=01004042&volume=33&issue=&paginaInicial=208&titulo=Development and Validation of RP-LC and UV Spectrophotometric Methods to Assay Bromopride in Oral and Injectable Solutions&sequencial=6&nomePeriodico=Química Nova (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HURTADO, F. K.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>HURTADO, F. K.</b> ; RAVANELLO, A. ; AREND, M. Z. ; WRASSE, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4505166045049607" target="_blank">DALMORA, S. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Validated Stability-Indicating RP-HPLC Method for the Determination of Rimonabant in a Pharmaceutical Dosage Form. Journal of AOAC International<sup><img id='10603271_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10603271' /></sup>, v. 93, p. 869-875, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=10603271&volume=93&issue=&paginaInicial=869&titulo=Validated Stability-Indicating RP-HPLC Method for the Determination of Rimonabant in a Pharmaceutical Dosage Form&sequencial=7&nomePeriodico=Journal of AOAC International" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DE MELO, J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1093/chromsci/48.5.362" target="_blank"></a>DE MELO, J. ; <b>HURTADO, F. K.</b> ; POITEVIN, F. S. ; FLORES, F. C. ; ZIMMERMANN, E. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4505166045049607" target="_blank">DALMORA, S. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . HPLC Determination of Bezafibrate in Human Plasma and its Application to Pharmacokinetics Studies. Journal of Chromatographic Science<sup><img id='00219665_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00219665' /></sup>, v. 48, p. 362-366, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1093/chromsci/48.5.362&issn=00219665&volume=48&issue=&paginaInicial=362&titulo=HPLC Determination of Bezafibrate in Human Plasma and its Application to Pharmacokinetics Studies&sequencial=8&nomePeriodico=Journal of Chromatographic Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AREND, M. Z.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1365/s10337-009-0992-4" target="_blank"></a>AREND, M. Z. ; CARDOSO, S. G. ; <b>HURTADO, F. K.</b> ; RAVANELLO, A. ; LANZANOVA, F. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Development and Validation of a Stability-Indicating LC Method for Determination of Ebastine in Tablet and Syrup. Chromatographia (Wiesbaden)<sup><img id='00095893_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00095893' /></sup>, v. 69, p. 195-199, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1365/s10337-009-0992-4&issn=00095893&volume=69&issue=&paginaInicial=195&titulo=Development and Validation of a Stability-Indicating LC Method for Determination of Ebastine in Tablet and Syrup&sequencial=9&nomePeriodico=Chromatographia (Wiesbaden)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MELO, J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1080/10826070701739108" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; <b>HURTADO, F. K.</b> ; SOUZA, M. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Validation of HPLC and UV Spectrophotometric Methods for the Determination of Bezafibrate in Pharmaceutical Formulations. Journal of Liquid Chromatography & Related Technologies<sup><img id='10826076_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10826076' /></sup>, v. 31, p. 269-280, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1080/10826070701739108&issn=10826076&volume=31&issue=&paginaInicial=269&titulo=Validation of HPLC and UV Spectrophotometric Methods for the Determination of Bezafibrate in Pharmaceutical Formulations&sequencial=10&nomePeriodico=Journal of Liquid Chromatography & Related Technologies" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HURTADO, F. K.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><b>HURTADO, F. K.</b> ; SOUZA, M. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Microbiological Assay and HPLC Method for the Determination of Fluconazole in Pharmaceutical Injectable Formulations. Acta Farmaceutica Bonaerense<sup><img id='03262383_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03262383' /></sup>, v. 27, p. 224-228, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03262383&volume=27&issue=&paginaInicial=224&titulo=Microbiological Assay and HPLC Method for the Determination of Fluconazole in Pharmaceutical Injectable Formulations&sequencial=11&nomePeriodico=Acta Farmaceutica Bonaerense" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HURTADO, F. K.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1080/10826070701386629" target="_blank"></a><b>HURTADO, F. K.</b> ; NOGUEIRA, D. R. ; BORTOLINI, F. ; SILVA, L. M. ; ZIMMERMANN, E. S. ; SOUZA, M. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Determination of Levofloxacin in a Pharmaceutical Injectable Formulation by Using HPLC and UV Spectrophotometric Methods. Journal of Liquid Chromatography & Related Technologies (Print)<sup><img id='10826076_12' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10826076' /></sup>, v. 30, p. 1981-1989, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1080/10826070701386629&issn=10826076&volume=30&issue=&paginaInicial=1981&titulo=Determination of Levofloxacin in a Pharmaceutical Injectable Formulation by Using HPLC and UV Spectrophotometric Methods&sequencial=12&nomePeriodico=Journal of Liquid Chromatography & Related Technologies (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>HURTADO, F. K.</b> ; ZIMMERMANN, E. S. ; WEBER, B. ; DERENDORF, H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3345924324711668" target="_blank">DALLA COSTA, T.</a> . Free levofloxacin concentrations in prostate and lung modeled by a population pharmacokinetic approach. In: 7th International Symposium on Microdialysis, 2013, Poitiers, France. May 23-24, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; WEBER, B. ; DERENDORF, H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3345924324711668" target="_blank">DALLA COSTA, T.</a> . An integrated PKPD model for the bactericidal activity of levofloxacin and moxifloxacin against Escherichia coli. In: Uppsala Pharmacometric Summer School, 2013, Uppsala, Sweden. August 5-16, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; LAUREANO, J. V. ; DERENDORF, H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3345924324711668" target="_blank">DALLA COSTA, T.</a> . Population Pharmacokinetic Model for Moxifloxacin Distribution into Rat Prostate Determined by Microdialysis. In: 5th Meeting of the Pharmaceutical Sciences Graduate Program, 2013, Porto Alegre, RS. November 27-29, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; WEBER, B. ; DERENDORF, H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3345924324711668" target="_blank">DALLA COSTA, T.</a> . Population pharmacokinetic modeling of the unbound levofloxacin concentrations in plasma and prostate tissue measured by microdialysis in rats. In: IV Encontro do PPGCF/UFRGS, 2012, Porto Alegre, RS. November 22-23, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMMERMANN, E. S. ; <b>HURTADO, F. K.</b> ; LAUREANO, J. V. ; CASTRO, W. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3345924324711668" target="_blank">DALLA COSTA, T.</a> . Free prostate and lung levels of levofloxacin determined by microdialysis in Wistar rats. In: IV Encontro do PPGCF/UFRGS, 2012, Porto Alegre, RS. November 22-23, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; ZIMMERMANN, E. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0358973254229968" target="_blank">ARAUJO, B. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3345924324711668" target="_blank">DALLA COSTA, T.</a> . Free prostatic levels of levofloxacin in rats measured by microdialysis. In: III Encontro do PPGCF/UFRGS, 2011, Porto Alegre, RS. November 24-25, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3345924324711668" target="_blank">DALLA COSTA, T.</a> . PK/PD modeling of fluoroquinolones aiming the treatment of prostatitis. In: II Encontro Anual do PPGCF da UFRGS, 2010, Porto Alegre, RS. Caderno de Farmácia, 2010. v. 26. p. 195-195. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; TORRES, B. G. S. ; SOUTO, G. D. ; ARGENTA, J. S. ; SILVEIRA, F. ; ALVES, S. H. ; SANTURIO, J. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Liquid-liquid extraction followed by HPLC for the simultaneous analysis of itraconazole and terbinafine in rabbit plasma. In: CIFARP 2009: 7th International Congress of Pharmaceutical Sciences, 2009, Ribeirão Preto, SP. Abstracts, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WRASSE, M. ; SECRETTI, L. T. ; SANGOI, M. S. ; BERNARDI, P. M. ; <b>HURTADO, F. K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Determination of aliskiren in tablet dosage form by validated reversed-phase liquid chromatographic method. In: CIFARP 2009: 7th International Congress of Pharmaceutical Sciences, 2009, Ribeirão Preto, SP. Abstracts, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUTO, G. D. ; TORRES, B. G. S. ; <b>HURTADO, F. K.</b> ; WRASSE, M. ; FONTANA, M. C. ; BOLIGON, A. A. ; VENTURINI, T. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5548361916821654" target="_blank">BECK, R. C. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Development and validation of reversed phase liquid chromatographic and UV spectrophotometric methods for determination of bromopride in pharmaceutical formulations. In: 14º FARMAPOLIS, 2009, Florianópolis, SC. Abstracts, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BERNARDI, P. M. ; <b>HURTADO, F. K.</b> ; DIEFENBACH, I. C. F. ; FONTANA, M. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5548361916821654" target="_blank">BECK, R. C. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Desenvolvimento e validação de método por espectrofotometria no ultravioleta para determinação de bromoprida em produtos farmacêuticos. In: 24ª Jornada Acadêmica Integrada da UFSM, 2009, Santa Maria, RS. Resumos, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARCOLINO, A. I. P. ; RAVANELLO, A. ; TORRES, B. G. S. ; <b>HURTADO, F. K.</b> ; SOUTO, G. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Determinação quantitativa de sitagliptina em comprimidos por espectrofotometria no ultravioleta. In: 24ª Jornada Acadêmica Integrada da UFSM, 2009, Santa Maria, RS. Resumos, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; FLORES, F. C. ; MARCOLINO, A. I. P. ; RAVANELLO, A. ; SOUTO, G. D. ; TORRES, B. G. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Application of a RP-LC method to in vitro release study of poorly water soluble drug rimonabant. In: COLACRO XII: Congresso Latino-Americano de Cromatografia e Técnicas Relacionadas, 2008, Florianópolis, SC. Livro de Resumos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; FLORES, F. C. ; MARCOLINO, A. I. P. ; RAVANELLO, A. ; SOUTO, G. D. ; TORRES, B. G. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Determination of anti-obesity drug rimonabant in pharmaceutical dosage forms by reversed phase liquid chromatography with diode array detection. In: COLACRO XII: Congresso Latino-Americano de Cromatografia e Técnicas Relacionadas, 2008, Florianópolis, SC. Livro de Resumos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RAVANELLO, A. ; MARCOLINO, A. I. P. ; SOUTO, G. D. ; TORRES, B. G. S. ; <b>HURTADO, F. K.</b> ; FLORES, F. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Development and validation of a reversed phase liquid chromatographic method for determination of sitagliptin phosphate. In: COLACRO XII: Congresso Latino-Americano de Cromatografia e Técnicas Relacionadas, 2008, Florianópolis, SC. Livro de Resumos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; FLORES, F. C. ; <b>HURTADO, F. K.</b> ; POITEVIN, F. S. ; ZIMMERMANN, E. S. ; MARCOLINO, A. I. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> ; FERREIRA, J. . Validation of HPLC method with diode-array detection for determination of bezafibrate in human plasma and its application to a pharmacokinetic study. In: XXIII Reunião Anual da FeSBE: Federação de Sociedades de Biologia Experimental, 2008, Águas de Lindóia, SP. Resumos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TORRES, B. G. S. ; MARCOLINO, A. I. P. ; FLORES, F. C. ; SOUTO, G. D. ; <b>HURTADO, F. K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Comparação dos perfis de dissolução do rimonabanto a partir de diferentes formas farmacêuticas disponíveis comercialmente. In: 23ª Jornada Acadêmica Integrada, 2008, Santa Maria, RS. 23ª JAI, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FLORES, F. C. ; MARCOLINO, A. I. P. ; TORRES, B. G. S. ; SOUTO, G. D. ; <b>HURTADO, F. K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Desenvolvimento e validação de método por cromatografia líquida em fase reversa para determinação de rimonabanto em produtos farmacêuticos. In: 23ª Jornada Acadêmica Integrada, 2008, Santa Maria, RS. 23ª JAI, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; FLORES, F. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; SOUZA, M. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Liquid chromatographic and microbiological determination of fluconazole in injectable preparations. In: XXXVI Annual Meeting of the Brazilian Society of Biochemistry and Molecular Biology (SBBq) and 10th Conference of the International Union of Biochemistry and Molecular Biology (IUBMB), 2007, Salvador, BA. Resumos, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; <b>HURTADO, F. K.</b> ; POITEVIN, F. S. ; FLORES, F. C. ; ZIMMERMANN, E. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Validation and comparison of HPLC and UV Spectrophotometric methods for the quantitative determination of bezafibrate in tablets and compounded capsules. In: 6th CIFARP: 6th International Congress of Pharmaceutical Sciences, 2007, Ribeirão Preto, SP. Abstracts, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; POITEVIN, F. S. ; ZIMMERMANN, E. S. ; FLORES, F. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Comparison of liquid chromatography, UV spectrophotometry and microbiological assay for the quantitative determination of levofloxacin injection. In: 6th CIFARP: 6th International Congress of Pharmaceutical Sciences, 2007, Ribeirão Preto, SP. Abstracts, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, D. C. ; BARTH, T. ; <b>HURTADO, F. K.</b> ; WEICH, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4505166045049607" target="_blank">DALMORA, S. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Comparison of capillary zone electrophoresis (CZE) and high performance liquid chromatography methods (HPLC) for quantitative determination of fexofenadine in drug formulations. In: 66th FIP Congress of Pharmacy and Pharmaceutical Sciences, 2006, Salvador, BA. Abstracts, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; NOGUEIRA, D. R. ; BORTOLINI, F. ; SILVA, L. M. ; ZIMMERMANN, E. S. ; SOUZA, M. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Determination of levofloxacin in pharmaceutical injectable formulation by using UV spectrophotometric and HPLC methodologies. In: 2º Simpósio de Cromatografia (SIMCRO), 2006, São Pedro, SP. Resumos, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; POITEVIN, F. S. ; BORTOLINI, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Determination of bezafibrate in pharmaceutical dosage forms by high-performance liquid chromatography (HPLC). In: 2º Simpósio de Cromatografia (SIMCRO), 2006, São Pedro, SP. Resumos, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, M. J. ; SILVA, L. M. ; BORTOLINI, F. ; <b>HURTADO, F. K.</b> ; ZIMMERMANN, E. S. ; NOGUEIRA, D. R. ; KULMANN, R. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Avaliação microbiológica de produtos cosméticos manipulados em Santa Maria (RS). In: I Congresso de Farmácia de Maringá, 2006, Maringá, PR. Livro AC - 01/2006, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, M. J. ; KULMANN, R. R. ; BORTOLINI, F. ; <b>HURTADO, F. K.</b> ; ZIMMERMANN, E. S. ; POITEVIN, F. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Teste de esterilidade em produtos farmacêuticos. In: I Congresso de Farmácia de Maringá, 2006, Maringa, PR. Livro AC - 01/2006, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, D. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> ; <b>HURTADO, F. K.</b> . Desenvolvimento e validação de metodologia por HPLC para a quantificação de cloridrato de fexofenadina. In: 20ª Jornada Acadêmica Integrada da UFSM, 2006, Santa Maria, RS. Resumos, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Determinação de bezafibrato em produtos farmacêuticos por espectrofotometria no ultravioleta. In: 21ª Jornada Acadêmica Integrada da UFSM, 2006, Santa Maria, RS. Resumos, 2006. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; LAUREANO, J. V. ; DERENDORF, H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3345924324711668" target="_blank">DALLA COSTA, T.</a> . Population Pharmacokinetic Model for Moxifloxacin Distribution into Rat Prostate Determined by Microdialysis. 2013. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; ZIMMERMANN, E. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0358973254229968" target="_blank">ARAUJO, B. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3345924324711668" target="_blank">DALLA COSTA, T.</a> . Free prostatic levels of levofloxacin in rats measured by microdialysis. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3345924324711668" target="_blank">DALLA COSTA, T.</a> . PK/PD modeling of fluoroquinolones aiming the treatment of prostatitis. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; TORRES, B. G. S. ; SOUTO, G. D. ; ARGENTA, J. S. ; SILVEIRA, F. ; ALVES, S. H. ; SANTURIO, J. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Liquid-liquid extraction followed by HPLC for the simultaneous analysis of itraconazole and terbinafine in rabbit plasma. 2009. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; FLORES, F. C. ; MARCOLINO, A. I. P. ; RAVANELLO, A. ; SOUTO, G. D. ; SOUZA, M. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Determination of anti-obesity drug rimonabant in pharmaceutical dosage forms by reversed phase liquid chromatography with diode array detection. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; RAVANELLO, A. ; MARCOLINO, A. I. P. ; SOUTO, G. D. ; TORRES, B. G. S. ; FLORES, F. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Application of a RP-LC method to in vitro release study of poorly water soluble drug rimonabant. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, D. C. ; <b>HURTADO, F. K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Desenvolvimento e validação de metodologia por HPLC para a quantificação de cloridrato de fexofenadina. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Determinação de bezafibrato em produtos farmacêuticos por espectrofotometria no ultravioleta. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; POITEVIN, F. S. ; BORTOLINI, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Determination of bezafibrate in pharmaceutical dosage forms by high-performance liquid chromatography (HPLC). 2006. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> ; NOGUEIRA, D. R. ; BORTOLINI, F. ; SILVA, L. M. ; ZIMMERMANN, E. S. ; SOUZA, M. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5506472762616104" target="_blank">MELO, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a> . Determination of levofloxacin in pharmaceutical injectable formulation by using UV spectrophotometric and HPLC methodologies. 2006. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artígo científico para o periódico Talanta (ISSN: 0039-9140) - Mar/2013. 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artígo científico para o periódico Journal of Chromatography & Separation Techniques (ISSN: 2157-7064) - Abr/2013. 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artígo científico para o periódico Talanta (ISSN: 0039-9140) - Fev/2012. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artígo científico para o periódico Talanta (ISSN: 0039-9140) - Abr/2012. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico Universal Journal of Biotechnology & Bioinformatics (UJBB) - Mar/2012. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artígo científico para o periódico Talanta (ISSN: 0039-9140) - Jul/2012. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico Journal of Research in Environmental Science and Toxicology (JREST) (ISSN: 2315-5698) - Jul/2012. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico International Journal of Biochemistry and Biotechnology (IJBB) (ISSN: 2169-3048) - Set/2012. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artígo científico para o periódico Scientia Pharmaceutica (ISSN: 0036-8709) - Mar/2011. 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artígo científico para o periódico Current Pharmaceutical Analysis (ISSN: 1573-4129) - Abr/2011. 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico Drug Testing and Analysis (ISSN: 1942-7603) - Fev/2011. 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico Drug Testing and Analysis (ISSN: 1942-7603) - Mai/2011. 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico International Research Journal of Pharmacy and Pharmacology (IRJPP) (ISSN: 2251-0176) - Mar/2011. 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artígo científico para o periódico International Journal of Industrial Chemistry (IJIC) - Dez/2010. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico Drug Testing and Analysis (ISSN: 1942-7603) - Set/2010. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico Drug Testing and Analysis (ISSN: 1942-7603) - Out/2010. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico Journal of AOAC International (ISSN: 1060-3271) - Fev/2009. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico Journal of AOAC International (ISSN: 1060-3271) - Set/2009. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico Journal of AOAC International (ISSN: 1060-3271) - Nov/2009. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico Journal of AOAC International (ISSN: 1060-3271) - Mai/2009. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Arbitragem de artigo científico para o periódico Journal of AOAC International (ISSN: 1060-3271) - Dez/2008. 2008. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Validação de métodos analíticos. 2008.
+							(Aula prática).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Uniformidade de doses unitárias e determinação do teor de comprimidos de paracetamol. 2008.
+							(Aula prática).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>HURTADO, F. K.</b> . Cromatografia líquida de alta eficiência (HPLC). 2007.
+							(Treinamento).
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2270654658839508" target="_blank">ROLIM, C. M. B.</a>; SILVA, C. B.; <b>HURTADO, F. K.</b>.  Participação em banca de Ana Isa Pedroso Marcolino.Ensaio Microbiológico para a Determinação de Teicoplanina em Forma Farmacêutica.
+							2010. Trabalho de Conclusão de Curso (Graduação em Farmácia)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7th International Symposium on Microdialysis.Free Levofloxacin Concentrations in Prostate and Lung Modeled by a Population Pharmacokinetic Approach.
+							2013. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fórum de Inovação CNPq & Novartis.
+							2013. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">5th Meeting of the Pharmaceutical Sciences Graduate Program.Population Pharmacokinetic Model for Moxifloxacin Distribution into Rat Prostate Determined by Microdialysis.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Uppsala Pharmacometric Summer School.An integrated PKPD model for the bactericidal activity of levofloxacin and moxifloxacin against Escherichia coli. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Encontro do Programa de Pós-Graduação em Ciências Farmacêuticas da UFRGS.Population pharmacokinetic modeling of the unbound levofloxacin concentrations in plasma and prostate tissue measured by microdialysis in rats.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop em Inovação Farmacêutica. 2011. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Encontro do PPGCF/UFRGS.Free prostatic levels of levofloxacin in rats measured by microdialysis.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso Sul-Americano de Biofarmácia e Farmacocinética. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Roadshow Alemanha - Ano Brasil-Alemanha da Ciência, Tecnologia e Inovação 2010/11.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro Anual do PPGCF da UFRGS.PK/PD modeling of fluoroquinolones aiming the treatment of prostatits.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Treinamento para utilização do EndNote Web  e base de dados Web of Science. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CIFARP 2009: 7th International Congress of Pharmaceutical Sciences. Liquid-liquid extraction followed by HPLC for the simultaneous analysis of itraconazole and terbinafine in rabbit plasma. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Escola de Altos Estudos em Toxicologia. 2009. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso: Ética na Pesquisa Envolvendo Seres Humanos. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COLACRO XII: Congresso Latino-Americano de Cromatografia e Técnicas Relacionadas. Determination of anti-obesity drug rimonabant in pharmaceutical dosage forms by reversed phase liquid chromatography with diode array detection. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Simpósio de Cromatografia (SIMCRO).Determination of bezafibrate in pharmaceutical dosage forms by high-performance liquid chromatography (HPLC).
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">20ª Jornada Acadêmica Integrada da UFSM.Desenvolvimento e validação de metodologia por HPLC para a quantificação de cloridrato de fexofenadina. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">21ª Jornada Acadêmica Integrada da UFSM.Determinação de bezafibrato em produtos farmacêuticos por espectrofotometria no ultravioleta. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Internacional de Biotecnologia. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2º Simpósio de Atualização em Análises Clínicas.
+							2004. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1º Farma em Foco.
+							2004. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Camila Neris dos Santos. Modelagem Farmacocinética/Farmacodinâmica de Fluoroquinolonas visando o Tratamento da Prostatite. Início: 2012. Iniciação científica (Graduando em Farmácia)  - Universidade Federal do Rio Grande do Sul, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jonas Pereira Mallmann.
+							Modelagem farmacocinética/farmacodinâmica de fluoroquinolonas visando o tratamento da prostatite.
+							2011.
+							Iniciação Científica. (Graduando em Farmácia)  - Universidade Federal do Rio Grande do Sul,
+							Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. Orientador: Felipe Kellermann Hurtado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruna Gaelzer Silva Torres.
+							Rimonabanto: desenvolvimento de metodologias de análise em produtos farmacêuticos e matrizes biológicas.
+							2008.
+							Iniciação Científica. (Graduando em Farmácia)  - Universidade Federal de Santa Maria,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Felipe Kellermann Hurtado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gabriele Dadalt Souto.
+							Rimonabanto: desenvolvimento de metodologias de análise em produtos farmacêuticos e matrizes biológicas.
+							2008.
+							Iniciação Científica. (Graduando em Farmácia)  - Universidade Federal de Santa Maria,
+							Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. Orientador: Felipe Kellermann Hurtado.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">- Aprovação na Prova de Procifiência em Francês - UFRGS (2011)
+- Aprovação na Prova de Proficiência em Inglês - UFRGS (2010)
+- Aprovação no Teste de Suficiência em Inglês (Conceito A) - UFSM (2008)</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 14/05/2014 &agrave;s 12:12:39</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0021966407447110" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

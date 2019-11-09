@@ -1,0 +1,2579 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Marcelo Dascal)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0090229859882237" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#MembroCorpoEditorial">Membro de corpo editorial</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4777058Y0&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4777058Y0"><div class="infpessoa">
+<h2 class="nome">Marcelo Dascal</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0090229859882237</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 17/03/2012</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Marcelo Dascal é nascido no Brasil e portador de dupla cidadania, brasileira e israelense. Desde 1965 é radicado em Isarael, onde desempenha suas atividades acdêmicas de docência e pesquisa na Universidade de Tel-Aviv, muito embora seja igualmente professor convidado e pesquisador em diversas universidades brasileiras e em todos os continentes. Para conhecimento de seu curriculum vitae e detalhada produção, com acesso internacional, vide http://www.tau.ac.il/humanities/philos/dascal<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Marcelo Dascal</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DASCAL, M.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1967 - 1973</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Filosofia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />The Hebrew University of Jerusalem.
+		
+	<br class="clear" />Título: Aspects of Leibniz's semiotics, Ano de obtenção: 1973. <br class="clear" />Orientador: Yeoshua Bar-Hillel. <br class="clear" />Palavras-chave: Semiótica; Leibniz; Linguagem; Racionalidade.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="MembroCorpoEditorial">
+<h1>Membro de corpo editorial</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1979 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Philosophical Texts</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1976 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Manuscrito - An International Journal of Philosophy</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1974 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista Latinoamericana de Filosofia</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1982 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Iyyun - Hebrew Philosophical Quarterly</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1983 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Crítica - Revista Hispanoamericana de Filosofía</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1985 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: DELTA. Documentação de Estudos em Lingüística Teórica e Aplicada</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1980 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Foundations of Semiotics</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1989 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Cuadernos Venezolanos de Filosofía</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1990 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Educação e Filosofia</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1990 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Razón Práctica</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1990 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Acciones Textuales</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Isegoría (Madrid)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Pragmatics and Cognition</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1987 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Ma? Da!</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1988 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Analogía - Revista de Filosofía, Investigación y Difusión</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1984 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Histoire, Epistémologie, Langage</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Filosofia / Subárea: Epistemologia. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Filosofia / Subárea: Ética. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Psicologia / Subárea: Psicologia Cognitiva. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Filosofia / Subárea: História da Filosofia. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Lingüística, Letras e Artes / Área: Lingüística. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Filosofia / Subárea: Lógica. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Alemão</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Italiano</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Hebraico</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">2008 Europrize Renoir, Europrize Renoir. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Laura Schwarz-Kipp Chair of Modern Philosophy, Senate of Tel Aviv University. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Argumentation Prize, International Society for Study of Argumentation. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gulbenkian Professor, Universidade de Lisboa. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Humboldt Prize, Alexander von Humboldt Foundation. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Leibniz Professor, Leipzig University, Center for Advanced Studies. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1985</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fellow, Netherlands Institute for Advanced Studies. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><b>DASCAL, M.</b> ; ROINILA, Markku . Erilaisuus ja kommunikaatio. Niin&Nain filosofinen aikakauslehti<sup><img id='12371645_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='12371645' /></sup>, v. 70, p. 94-100, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=12371645&volume=70&issue=&paginaInicial=94&titulo=Erilaisuus ja kommunikaatio&sequencial=1&nomePeriodico=Niin&Nain filosofinen aikakauslehti" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>DASCAL, M.</b> . Towards a dialectic of tolerance. L'ANALISI LINGUISTICA E LETTERARIA<sup><img id='11221917_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='11221917' /></sup>, v. 16, p. 529-541, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=11221917&volume=16&issue=&paginaInicial=529&titulo=Towards a dialectic of tolerance&sequencial=2&nomePeriodico=L'ANALISI LINGUISTICA E LETTERARIA" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><b>DASCAL, M.</b> . Controversiality without Controversy?. Erwägen, Wissen, Ethik<sup><img id='16103696_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16103696' /></sup>, v. 20, p. 263-265, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16103696&volume=20&issue=&paginaInicial=263&titulo=Controversiality without Controversy?&sequencial=3&nomePeriodico=Erwägen, Wissen, Ethik" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><b>DASCAL, M.</b> . Normative rationality against praxis in scientific debate?. Erwägen, Wissen, Ethik<sup><img id='16103696_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16103696' /></sup>, v. 17, p. 263-265, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16103696&volume=17&issue=&paginaInicial=263&titulo=Normative rationality against praxis in scientific debate?&sequencial=4&nomePeriodico=Erwägen, Wissen, Ethik" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><b>DASCAL, M.</b> . Digital culture: Pragmatic and philosophical challenges. Diogenes (English ed.)<sup><img id='03921921_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03921921' /></sup>, v. 211, p. 23-39, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03921921&volume=211&issue=&paginaInicial=23&titulo=Digital culture: Pragmatic and philosophical challenges&sequencial=5&nomePeriodico=Diogenes (English ed.)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><b>DASCAL, M.</b> . Is self-debate possible? Dissolving some of its alleged paradoxes. Manuscrito (UNICAMP)<sup><img id='01006045_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01006045' /></sup>, v. 29, p. 319-349, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01006045&volume=29&issue=&paginaInicial=319&titulo=Is self-debate possible? Dissolving some of its alleged paradoxes&sequencial=6&nomePeriodico=Manuscrito (UNICAMP)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><b>DASCAL, M.</b> . Communicating with computers: Between Turing's' Test and the 'Chinese Room'. Ah'shav Literary Review<sup><img id='05687306_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='05687306' /></sup>, v. 69/70, p. 122-129, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=05687306&volume=69/70&issue=&paginaInicial=122&titulo=Communicating with computers: Between Turing's' Test and the 'Chinese Room'&sequencial=7&nomePeriodico=Ah'shav Literary Review" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><b>DASCAL, M.</b> . Digital culture: Pragmatic and philosophical challenges. Diogène (Ed. Française)<sup><img id='04191633_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='04191633' /></sup>, v. 211, p. 26-47, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=04191633&volume=211&issue=&paginaInicial=26&titulo=Digital culture: Pragmatic and philosophical challenges&sequencial=8&nomePeriodico=Diogène (Ed. Française)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><b>DASCAL, M.</b> ; DROR, I. . The impact of cognitive technologies: Towards a pragmatic approach. Pragmatics & Cognition<sup><img id='09290907_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09290907' /></sup>, v. 13, p. 451-257, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=09290907&volume=13&issue=&paginaInicial=451&titulo=The impact of cognitive technologies: Towards a pragmatic approach&sequencial=9&nomePeriodico=Pragmatics & Cognition" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><b>DASCAL, M.</b> . Alter et etiam: Rejoinder to Schepers. The Leibniz Review<sup><img id='15241556_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15241556' /></sup>, v. 14, p. 137-151, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15241556&volume=14&issue=&paginaInicial=137&titulo=Alter et etiam: Rejoinder to Schepers&sequencial=10&nomePeriodico=The Leibniz Review" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><b>DASCAL, M.</b> . Transparency in scientific communication: From Leibniz's dream to today's reality. Studies in Communication Sciences<sup><img id='14244896_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14244896' /></sup>, v. 3, p. 1-26, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14244896&volume=3&issue=&paginaInicial=1&titulo=Transparency in scientific communication: From Leibniz's dream to today's reality&sequencial=11&nomePeriodico=Studies in Communication Sciences" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CREMASCHI, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span>CREMASCHI, S. ; <b>DASCAL, M.</b> . The Unitarian connection and Ricardo's scientific style. History of Political Economy<sup><img id='00182702_12' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00182702' /></sup>, v. 34, p. 505-508, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00182702&volume=34&issue=&paginaInicial=505&titulo=The Unitarian connection and Ricardo's scientific style&sequencial=12&nomePeriodico=History of Political Economy" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b>DASCAL, M.</b> . Language as a cognitive technology. International Journal of Cognition and Technology<sup><img id='15692167_13' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15692167' /></sup>, v. 1, p. 35-89, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15692167&volume=1&issue=&paginaInicial=35&titulo=Language as a cognitive technology&sequencial=13&nomePeriodico=International Journal of Cognition and Technology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><b>DASCAL, M.</b> . Baruch-Benedictus: From uprooted roots to root-independent ideas?. Studia Rosenthaliana<sup><img id='17817838_14' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='17817838' /></sup>, v. 35, p. 310-315, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=17817838&volume=35&issue=&paginaInicial=310&titulo=Baruch-Benedictus: From uprooted roots to root-independent ideas?&sequencial=14&nomePeriodico=Studia Rosenthaliana" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DRESNER, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span>DRESNER, E. ; <b>DASCAL, M.</b> . Semantics, pragmatics, and the digital information age. Studies in Communication Science<sup><img id='14244896_15' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14244896' /></sup>, v. 1, p. 1-22, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14244896&volume=1&issue=&paginaInicial=1&titulo=Semantics, pragmatics, and the digital information age&sequencial=15&nomePeriodico=Studies in Communication Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GROSS, A. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span>GROSS, A. G. ; <b>DASCAL, M.</b> . The unity of Aristotle's Rhetoric. Philosophy and Rhetoric<sup><img id='00318213_16' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00318213' /></sup>, v. 34, p. 275-291, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00318213&volume=34&issue=&paginaInicial=275&titulo=The unity of Aristotle's Rhetoric&sequencial=16&nomePeriodico=Philosophy and Rhetoric" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><b>DASCAL, M.</b> . How rational can a polemic across the analytic-continental 'divide' be?. International Journal of Philosophical Studies<sup><img id='09672559_17' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09672559' /></sup>, v. 9, p. 313-339, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=09672559&volume=9&issue=&paginaInicial=313&titulo=How rational can a polemic across the analytic-continental 'divide' be?&sequencial=17&nomePeriodico=International Journal of Philosophical Studies" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span><b>DASCAL, M.</b> . Some questions about misunderstanding. Journal of Pragmatics<sup><img id='03782166_18' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03782166' /></sup>, v. 31, p. 753-762, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03782166&volume=31&issue=&paginaInicial=753&titulo=Some questions about misunderstanding&sequencial=18&nomePeriodico=Journal of Pragmatics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span><b>DASCAL, M.</b> ; CREMASCHI, S. . The Malthus-Ricardo correspondence: Sequential structure, argumentative patterns, and rationality. Journal of Pragmatics<sup><img id='03782166_19' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03782166' /></sup>, v. 31, p. 1129-1172, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03782166&volume=31&issue=&paginaInicial=1129&titulo=The Malthus-Ricardo correspondence: Sequential structure, argumentative patterns, and rationality&sequencial=19&nomePeriodico=Journal of Pragmatics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span><b>DASCAL, M.</b> ; GROSS, A. G. . The marriage between pragmatics and rhetoric. Philosophy and Rhetoric<sup><img id='00318213_20' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00318213' /></sup>, v. 32, p. 107-130, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00318213&volume=32&issue=&paginaInicial=107&titulo=The marriage between pragmatics and rhetoric&sequencial=20&nomePeriodico=Philosophy and Rhetoric" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CREMASCHI, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1998</span>CREMASCHI, S. ; <b>DASCAL, M.</b> . Persuasion and argument in the Malthus-Ricardo correspondence. Research in the History of Economic Thought and Methodology<sup><img id='07434154_21' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='07434154' /></sup>, v. 16, p. 1-63, 1998. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=07434154&volume=16&issue=&paginaInicial=1&titulo=Persuasion and argument in the Malthus-Ricardo correspondence&sequencial=21&nomePeriodico=Research in the History of Economic Thought and Methodology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CREMASCHI, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1998</span>CREMASCHI, S. ; <b>DASCAL, M.</b> . Malthus and Ricardo: Two styles for economyc theory. Science in Context<sup><img id='02698897_22' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02698897' /></sup>, v. 11, p. 229-254, 1998. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02698897&volume=11&issue=&paginaInicial=229&titulo=Malthus and Ricardo: Two styles for economyc theory&sequencial=22&nomePeriodico=Science in Context" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1998</span><b>DASCAL, M.</b> . The study of controversies and the theory and the history of science. Science in Context<sup><img id='02698897_23' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02698897' /></sup>, v. 11, p. 147-154, 1998. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02698897&volume=11&issue=&paginaInicial=147&titulo=The study of controversies and the theory and the history of science&sequencial=23&nomePeriodico=Science in Context" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span><b>DASCAL, M.</b> ; SENDEROWICS, Y. . Language and reason in Kant's epistemology. Histoire, Espistémologie, Langage<sup><img id='07508069_24' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='07508069' /></sup>, v. 19, p. 135-150, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=07508069&volume=19&issue=&paginaInicial=135&titulo=Language and reason in Kant's epistemology&sequencial=24&nomePeriodico=Histoire, Espistémologie, Langage" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span><b>DASCAL, M.</b> . Critique without critics?. Science in Context<sup><img id='02698897_25' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02698897' /></sup>, v. 10, p. 39-62, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02698897&volume=10&issue=&paginaInicial=39&titulo=Critique without critics?&sequencial=25&nomePeriodico=Science in Context" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SENDEROWICS, Y.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1996</span>SENDEROWICS, Y. ; <b>DASCAL, M.</b> . The critique of pure reason: an autonomous movement?. Iyyun<sup><img id='00213306_26' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00213306' /></sup>, v. 45, p. 207-216, 1996. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00213306&volume=45&issue=&paginaInicial=207&titulo=The critique of pure reason: an autonomous movement?&sequencial=26&nomePeriodico=Iyyun" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CREMASCHI, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1996</span>CREMASCHI, S. ; <b>DASCAL, M.</b> . Malthus and Ricardo on economic method. History of Political Economy<sup><img id='00182702_27' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00182702' /></sup>, v. 3, p. 475-511, 1996. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00182702&volume=3&issue=&paginaInicial=475&titulo=Malthus and Ricardo on economic method&sequencial=27&nomePeriodico=History of Political Economy" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1995</span><b>DASCAL, M.</b> . Epistemology, controversies, and pragmatics. Isegoría (Madrid)<sup><img id='11302097_28' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='11302097' /></sup>, v. 12, p. 8-43, 1995. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=11302097&volume=12&issue=&paginaInicial=8&titulo=Epistemology, controversies, and pragmatics&sequencial=28&nomePeriodico=Isegoría (Madrid)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SENDEROWICS, Y.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span>SENDEROWICS, Y. ; <b>DASCAL, M.</b> . The pure and the impure: reply to Troim. Iyyun<sup><img id='00213306_29' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00213306' /></sup>, v. 41, p. 457-475, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00213306&volume=41&issue=&paginaInicial=457&titulo=The pure and the impure: reply to Troim&sequencial=29&nomePeriodico=Iyyun" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span><b>DASCAL, M.</b> ; SENDEROWICS, Y. . How pure is pure reason? Language, empirical concepts, and empirical laws in Kant's theory of knowledge. Histoire, Epistémologie, Langage<sup><img id='07508069_30' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='07508069' /></sup>, v. 14, p. 129-152, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=07508069&volume=14&issue=&paginaInicial=129&titulo=How pure is pure reason? Language, empirical concepts, and empirical laws in Kant's theory of knowledge&sequencial=30&nomePeriodico=Histoire, Epistémologie, Langage" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span><b>DASCAL, M.</b> . Pragmatics and foundationalism. Journal of Pragmatics<sup><img id='03782166_31' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03782166' /></sup>, v. 17, p. 455-460, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03782166&volume=17&issue=&paginaInicial=455&titulo=Pragmatics and foundationalism&sequencial=31&nomePeriodico=Journal of Pragmatics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span><b>DASCAL, M.</b> . Why does language matter to artificial intelligence?. Minds and Machines (Dordrecht)<sup><img id='09246495_32' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09246495' /></sup>, v. 2, p. 145-174, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=09246495&volume=2&issue=&paginaInicial=145&titulo=Why does language matter to artificial intelligence?&sequencial=32&nomePeriodico=Minds and Machines (Dordrecht)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span><b>DASCAL, M.</b> ; HOROWITZ, A. . Semantics and psyche. Philosophy and Phenomenological Research<sup><img id='00318205_33' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00318205' /></sup>, v. 52, p. 395-399, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00318205&volume=52&issue=&paginaInicial=395&titulo=Semantics and psyche&sequencial=33&nomePeriodico=Philosophy and Phenomenological Research" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>IDAN, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span>IDAN, A. ; <b>DASCAL, M.</b> . The basic entities of economy. Methodus<sup><img id='07182775_34' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='07182775' /></sup>, v. 4, p. 149-153, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=07182775&volume=4&issue=&paginaInicial=149&titulo=The basic entities of economy&sequencial=34&nomePeriodico=Methodus" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1991</span><b>DASCAL, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4077649476520256" target="_blank">BORGES NETO, J.</a> . What is linguistics all about, after all?. Histoire Épistémologie Langage (Imprimé)<sup><img id='07508069_35' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='07508069' /></sup>, v. 13, p. 15-50, 1991. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=07508069&volume=13&issue=&paginaInicial=15&titulo=What is linguistics all about, after all?&sequencial=35&nomePeriodico=Histoire Épistémologie Langage (Imprimé)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1991</span><b>DASCAL, M.</b> ; WROBLEWSKI, J. . The rational law-maker and the pragmatics of legal interpretation. Journal of Pragmatics<sup><img id='03782166_36' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03782166' /></sup>, v. 15, p. 421-444, 1991. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03782166&volume=15&issue=&paginaInicial=421&titulo=The rational law-maker and the pragmatics of legal interpretation&sequencial=36&nomePeriodico=Journal of Pragmatics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>WEIZMAN, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1991</span>WEIZMAN, E. ; <b>DASCAL, M.</b> . On clues and cues: strategies of text understanding. Journal of Literary Semantics<sup><img id='03417638_37' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03417638' /></sup>, v. 20, p. 18-30, 1991. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03417638&volume=20&issue=&paginaInicial=18&titulo=On clues and cues: strategies of text understanding&sequencial=37&nomePeriodico=Journal of Literary Semantics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1990</span><b>DASCAL, M.</b> ; SENDEROWICS, Y. . Language and thought in Kant's epistemology. Iyyun<sup><img id='00213306_38' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00213306' /></sup>, v. 39, p. 151-175, 1990. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00213306&volume=39&issue=&paginaInicial=151&titulo=Language and thought in Kant's epistemology&sequencial=38&nomePeriodico=Iyyun" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1990</span><b>DASCAL, M.</b> . Leibniz and Spinoza: Language and Cognition. Studia Spinozana<sup><img id='01793896_39' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01793896' /></sup>, v. 6, p. 103-145, 1990. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01793896&volume=6&issue=&paginaInicial=103&titulo=Leibniz and Spinoza: Language and Cognition&sequencial=39&nomePeriodico=Studia Spinozana" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1990</span><b>DASCAL, M.</b> ; WEIZMAN, E. . On speaker's meaning in literature. Hebrew Linguistics<sup><img id='03343472_40' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03343472' /></sup>, v. 28, p. 9-19, 1990. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03343472&volume=28&issue=&paginaInicial=9&titulo=On speaker's meaning in literature&sequencial=40&nomePeriodico=Hebrew Linguistics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1990</span><b>DASCAL, M.</b> . The arrogance of Reason. Isegoría (Madrid)<sup><img id='11302097_41' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='11302097' /></sup>, v. 2, p. 75-103, 1990. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=11302097&volume=2&issue=&paginaInicial=75&titulo=The arrogance of Reason&sequencial=41&nomePeriodico=Isegoría (Madrid)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1989</span><b>DASCAL, M.</b> . Hermeneutic interpretation and pragmatic interpretation. Philosophy and Rhetoric<sup><img id='00318213_42' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00318213' /></sup>, v. 22, p. 239-259, 1989. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00318213&volume=22&issue=&paginaInicial=239&titulo=Hermeneutic interpretation and pragmatic interpretation&sequencial=42&nomePeriodico=Philosophy and Rhetoric" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1989</span><b>DASCAL, M.</b> . On the roles of context and literal meaning in understanding. Cognitive Science<sup><img id='03640213_43' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03640213' /></sup>, v. 13, p. 253-257, 1989. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03640213&volume=13&issue=&paginaInicial=253&titulo=On the roles of context and literal meaning in understanding&sequencial=43&nomePeriodico=Cognitive Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1989</span><b>DASCAL, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4171690620207689" target="_blank">FRANCOZO, E.</a> . The pragmatic turn in psycholinguistics: problems and perspectives. Theoretical Linguistic<sup><img id='03014428_44' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03014428' /></sup>, v. 15, p. 1-23, 1989. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03014428&volume=15&issue=&paginaInicial=1&titulo=The pragmatic turn in psycholinguistics: problems and perspectives&sequencial=44&nomePeriodico=Theoretical Linguistic" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1988</span><b>DASCAL, M.</b> ; WROBLEWSKI, J. . Transparency and doubt: understanding and interpretation in pragmatics and in law. Law and Philosophy<sup><img id='01675249_45' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01675249' /></sup>, v. 7, p. 203-224, 1988. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01675249&volume=7&issue=&paginaInicial=203&titulo=Transparency and doubt: understanding and interpretation in pragmatics and in law&sequencial=45&nomePeriodico=Law and Philosophy" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1988</span><b>DASCAL, M.</b> . Reflections on the crisis of modernity. Critica: Revista Hispanoamericana de Filosofia<sup><img id='00111503_46' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00111503' /></sup>, v. 20, p. 3-42, 1988. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00111503&volume=20&issue=&paginaInicial=3&titulo=Reflections on the crisis of modernity&sequencial=46&nomePeriodico=Critica: Revista Hispanoamericana de Filosofia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1987</span><b>DASCAL, M.</b> . Defending literal meaning. Cognitive Science<sup><img id='03640213_47' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03640213' /></sup>, v. 11, p. 259-281, 1987. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03640213&volume=11&issue=&paginaInicial=259&titulo=Defending literal meaning&sequencial=47&nomePeriodico=Cognitive Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1987</span><b>DASCAL, M.</b> . Hermeneutic interpretation and pragmatic interpretation. Rivista di Filosofia Neo-Scolastica<sup><img id='00356247_48' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00356247' /></sup>, v. 79, p. 94-107, 1987. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00356247&volume=79&issue=&paginaInicial=94&titulo=Hermeneutic interpretation and pragmatic interpretation&sequencial=48&nomePeriodico=Rivista di Filosofia Neo-Scolastica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1987</span><b>DASCAL, M.</b> . Remarks on Granger's epistemological program. Manuscrito (UNICAMP)<sup><img id='01006045_49' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01006045' /></sup>, v. 10, p. 185-194, 1987. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01006045&volume=10&issue=&paginaInicial=185&titulo=Remarks on Granger's epistemological program&sequencial=49&nomePeriodico=Manuscrito (UNICAMP)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1987</span><b>DASCAL, M.</b> ; BERENSTEIN, I. . Two modes of understanding: comprehending and grasping. Language & Communication<sup><img id='02715309_50' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02715309' /></sup>, v. 7, p. 139-151, 1987. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02715309&volume=7&issue=&paginaInicial=139&titulo=Two modes of understanding: comprehending and grasping&sequencial=50&nomePeriodico=Language & Communication" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>IDAN, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1987</span>IDAN, A. ; <b>DASCAL, M.</b> . Analytical philosophy of social action. Iyyun: The Jerusalem Philosophical Quarterly<sup><img id='00213306_51' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00213306' /></sup>, v. 36, p. 35-59, 1987. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00213306&volume=36&issue=&paginaInicial=35&titulo=Analytical philosophy of social action&sequencial=51&nomePeriodico=Iyyun: The Jerusalem Philosophical Quarterly" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1986</span><b>DASCAL, M.</b> . On Leibniz and skepticism. Revista Latinoamericana de Filosofia<sup><img id='03250725_52' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03250725' /></sup>, v. 12, p. 55-60, 1986. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03250725&volume=12&issue=&paginaInicial=55&titulo=On Leibniz and skepticism&sequencial=52&nomePeriodico=Revista Latinoamericana de Filosofia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1986</span><b>DASCAL, M.</b> ; DASCAL, V. . Between illusory comprehension and therapeutic illusion. Revista Latinoamericana de Filosofia<sup><img id='03250725_53' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03250725' /></sup>, v. 12, p. 335-345, 1986. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03250725&volume=12&issue=&paginaInicial=335&titulo=Between illusory comprehension and therapeutic illusion&sequencial=53&nomePeriodico=Revista Latinoamericana de Filosofia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1985</span><b>DASCAL, M.</b> . Leibniz on the intellect and the senses: beyond rationalism and empiricism. Iyyun<sup><img id='00213306_54' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00213306' /></sup>, v. 34, p. 201-218, 1985. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00213306&volume=34&issue=&paginaInicial=201&titulo=Leibniz on the intellect and the senses: beyond rationalism and empiricism&sequencial=54&nomePeriodico=Iyyun" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1985</span><b>DASCAL, M.</b> . Language use in jokes and dreams: sociopragmatics vs. psychopragmatics. Language & Communication<sup><img id='02715309_55' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02715309' /></sup>, v. 5, p. 95-106, 1985. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02715309&volume=5&issue=&paginaInicial=95&titulo=Language use in jokes and dreams: sociopragmatics vs. psychopragmatics&sequencial=55&nomePeriodico=Language & Communication" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>56. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1985</span><b>DASCAL, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4077649476520256" target="_blank">BORGES NETO, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4171690620207689" target="_blank">FRANCOZO, E.</a> . Modeling the psycholinguistic mold. Journal of Pragmatics<sup><img id='03782166_56' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03782166' /></sup>, v. 9, p. 345-376, 1985. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03782166&volume=9&issue=&paginaInicial=345&titulo=Modeling the psycholinguistic mold&sequencial=56&nomePeriodico=Journal of Pragmatics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>57. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1985</span><b>DASCAL, M.</b> . Kaspar Hauser or the fabrication of theory. DELTA. Documentação de Estudos em Lingüística Teórica e Aplicada<sup><img id='01024450_57' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01024450' /></sup>, v. 1, p. 37-49, 1985. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01024450&volume=1&issue=&paginaInicial=37&titulo=Kaspar Hauser or the fabrication of theory&sequencial=57&nomePeriodico=DELTA. Documentação de Estudos em Lingüística Teórica e Aplicada" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>58. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>KATRIEL, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1984</span>KATRIEL, T. ; <b>DASCAL, M.</b> . What do indicating devices indicate?. Philosophy and Rhetoric<sup><img id='00318213_58' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00318213' /></sup>, v. 17, p. 1-15, 1984. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00318213&volume=17&issue=&paginaInicial=1&titulo=What do indicating devices indicate?&sequencial=58&nomePeriodico=Philosophy and Rhetoric" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>59. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DASCAL, V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1983</span>DASCAL, V. ; <b>DASCAL, M.</b> . More on understanding art. Revista Latinoamericana de Filosofia<sup><img id='03250725_59' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03250725' /></sup>, v. 9, p. 58-61, 1983. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03250725&volume=9&issue=&paginaInicial=58&titulo=More on understanding art&sequencial=59&nomePeriodico=Revista Latinoamericana de Filosofia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Gottfried Wilhelm Leibniz: The Art of Controversies. Dordrecht: Springer, 2008. 608p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) . Leibniz: What Kind of Rationalist?. Dordrecht: Springer, 2008. 552p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) ; CHANG, H. (Org.) . Traditions of Controversy - Controversies, volume IV. Amsterdã: John Benjamins, 2007. 325p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Interpretação e Compreensão. São Leopoldo: Editora Unisinos, 2006. 729p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARROTA, P. (Org.) ; <b>DASCAL, M.</b> (Org.) . Controversies and Subjectivity - Controversies, volume I. Amsterdã: John Benjamins, 2005. 411p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) ; EEMEREN, Frans H. van (Org.) ; RIGOTTI, Eddo (Org.) ; STATI, Sorin (Org.) ; ROCCI, Andrea (Org.) . Argumentation in Dialogic Interaction. , 2005. 293p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . The Gust of the Wind: Humanities in a New-Old World. Jerusalém: Carmel Publishing, 2004. 293p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Interpretation and Understanding. Amsterdã: John Benjamins, 2003. 736p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) ; GUTIERREZ ESTEVEZ, M. (Org.) ; Salas, J. de (Org.) . La Pluralidad y sus Atributos: Usos y maneras en la construcción de la Persona. Madri: Biblioteca Nueva, 2001. 285p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WEIGAND, E. (Org.) ; <b>DASCAL, M.</b> (Org.) . Negotiation and Power in Dialogic Interaction. Amsterdã: John Benjamins, 2001. 301p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZWIEP, I. E. (Org.) ; GINIO, A. M. (Org.) ; <b>DASCAL, M.</b> (Org.) . Uprooted Roots: Amsterdam and the Early Sephardic Diaspora. Amsterdã: , 2001. 203p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARRETE PARRONDO, C. (Org.) ; <b>DASCAL, M.</b> (Org.) ; MÁRQUEZ VILLANUEVA, F. (Org.) ; SÁENZ BADILLOS, A. (Org.) . Encuentros and Desencuentros: Spanish Jewish Cultural Interactions. Tel Aviv: Tel Aviv University, 2000. 678p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) . Misunderstanding. Leiden: Elsevier, 1999. 110p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) . Filosofia del Lenguaje II: Pragmática. Madri: Editorial Trotta y Consejo Superior de Investigaciones Científicas, 1999. 246p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) ; FREUDENTHAL, G. (Org.) . Controversies in Science. Tel Aviv: The Cohn Institute for the History and Philosophy of Science and Ideas, 1998. 178p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) ; YAKIRA, E. (Org.) . Leibniz and Adam. Tel Aviv: University Publishing Projects, 1993. 421p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) ; GERHARDUS, D. (Org.) ; LORENZ, K. (Org.) ; MEGGLE, G. (Org.) . Philosophy of Language - An International Handbook of Contemporary Research. Berlim / Nova Iorque: De Gruyter, 1992. v. 2. 2173p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) . Cultural Relativism and Philosophy: North and Latin American Perspectives. Cidade do México: Universidad Nacional Autónoma de México, 1992. 406p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) . Cultural Relativism and Philosophy: North and Latin America Perspectives. Leiden: Brill, 1991. 328p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) ; GRUENGARD, O. (Org.) . Knowledge and Politics: Case Studies in the Relationship Between Epistemology and Political Philosophy. Boulder: Westview Press, 1989. 382p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) . Knowledge, Language, Ideology. São Paulo: Perspectiva, 1989. 275p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COHEN, A. (Org.) ; <b>DASCAL, M.</b> (Org.) . The Institution of Philosophy: A Discipline in Crisis?. La Salle: Open Court, 1989. 349p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Leibniz - Language, Sings, and Thought. Amsterdã: John Benjamins, 1987. 214p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> (Org.) . Dialogue - An Interdisciplinary Approach. Amsterdã / Philadelphia: John Benjamins, 1985. 487p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Pragmatics and the Philosophy of Mind - Volume 1: Thought in Language. Amsterdã: John Benjamins, 1983. 219p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Leibniz's Semiotics. Paris: Aubier Montaigne, 1978. 272p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Filosofia da Ciência. São Paulo: Editora do Grêmio da Faculdade de Filosofia da Universidade de S. Paulo, 1964. 214p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Leibniz's two-pronged dialetic. In: DASCAL, M.. (Org.). Leibniz: What Kind of Rationalist?. Dordrecht: Springer, 2008, v. , p. 37-72. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Dichotomies and types of debate. In: VAN EEMEREN, F. H.; GARSSEN, B.. (Org.). Controversy and Confrontation: Relating Controversy Analysis with Argumentation Theory. Amsterdã: John Benjamins, 2008, v. , p. 27-49. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Solomon, Ibn Rushd, Leibniz - und der Israel/Palästina-Konflikt. In: MEGGLE, G.. (Org.). Deutschland, Israel, Palästina: Streitschriften. Hamburgo: Europäische Verlagsanstalt (EVA), 2007, v. , p. 233-250. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Traditions of controversy and conflict resolution: Can past approaches help to solve present conflicts?. In: DASCAL, M.. (Org.). Traditions of Controversy. Amsterdã: John Benjamins, 2007, v. , p. 281-295. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Adam Smith's theory of language. In: HAAKONSSEN, K.. (Org.). The Cambridge Companion to Adam Smith. Cambridge: Cambridge University Press, 2006, v. , p. 79-111. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Dialectics in the collective construction of scientific knowledge. In: LIEBERT, W. A.; WEITZE, M. D.. (Org.). Kontroversen als Schlüssel zur Wissenshaft? Wissenskulturen in sprachlicher Interaktion. Bielefeld: Transcript, 2006, v. , p. 19-38. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Dichotomies in debate. In: IONESCU-RUXANDOIU, L.; HOINARESCU, L.. (Org.). Cooperantion and Conflict in Ingroup and Intergroup Communication. Bucareste: Editura Universitatti dom Bucuresti, 2006, v. , p. 21-34. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . O desafio da diferença humana e a ética da comunicação. In: STEIN, S.; KUIAVA, E.. (Org.). Linguagem, Ciência e Valores: reflexões sobre as representações humanas do mundo. Caxias do Sul: Editora da Universidade de Caxias do Sul (EDUCS), 2006, v. , p. 85-95. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WEIZMAN, E. ; <b>DASCAL, M.</b> . Interpreting speaker's meanings in literary dialogue. In: BETTEN, A.; DANNEREN, M.. (Org.). Dialogue Analysis IX - Dialogue in Literature and the Media; Part I: Literature. Tübingen: Niemeyer, 2005, v. , p. 61-72. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Dialectics in the collective construction of scientific knowledge. In: REGNER, A. C. K. P.; ROHDEN, L.. (Org.). A Filosofia e a Ciência Redesenhando Horizontes. São Leopoldo: Editora Unisinos, 2005, v. , p. 15-31. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Dialectics in the collective construction of scientific knowledge. In: BONFIGLIOLI, S.; MARMO, C.. (Org.). Retorica e scienze del linguaggio: Teorie e pratiche dell'argomentazione e della persuazione. Roma: Aracne, 2005, v. , p. 119-136. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Debating with myself and debating with others. In: BARROTA, P.; DASCAL, M.. (Org.). Constroversies and Subjectivity. Amsterdã: John Benjamins, 2005, v. , p. 31-73. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . The unethical rhetoric of terror. In: MEGGLE, G.. (Org.). Ethics of Terrorism and Counter-Terrorism. Frankfurt: Ontos, 2005, v. , p. 113-120. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . The challenge of human difference and the ethics of communication. In: MENUHIN, I.; YOVEL, Y.. (Org.). Can Tolerance Prevail? Moral Education in a Diverse World. Jerusalem: The Hebrew University Magnes Press, 2005, v. , p. 94-102. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> ; DASCAL, V. . De-fixation of belief. In: GIL, P.; LIVET, P.; PINA CABRAL, J.. (Org.). The Process of Belief. Lisboa: Gradiva, 2004, v. , p. 321-353. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . On the uses of argumentative reason in religious polemics. In: HETTEMA, T. L.; VAN DER KOOIJ, A.. (Org.). Religious Polemics in Context. Assen: Koninklijke Van Gorcum, 2004, v. , p. 3-20. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Argument, war, and the role of the media in conflict management. In: PARFITT, T.; ERGOROVA, Y.. (Org.). Jews, Muslims, and the Mass Media: Mediating the 'Other'.. Londres: RoutledgeCurzon, 2004, v. , p. 228-248. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Identities in flux: Arabs and Jews in Israel. In: WEISS, G.; WODAK, R.. (Org.). Critical Discourse Analysis: Theory and Interdisciplinarity. Basignstoke: Palgrave Macmillan, 2003, v. , p. 150-166. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Diskommunikation und Pseudo-Moralität in der Aktion-Reaktion-Dialektik des Terrors. In: MEGGLE, G.. (Org.). Terror und der Krieg gegen Ihn: Öffentliche Reflexionen. Paderborn: Mentis, 2003, v. , p. 135-143. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Leibniz and cognitive technologies. In: ANDREU, A.; ECHEVERRÍA, J.; ROLDÁN, C.. (Org.). Science, Technology and the Common Good: Leibniz's Actuality. Valência: Universidad Politécnica de Valencia, 2002, v. , p. 359-388. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Can the loyalty to a community be a morally relevant criterion?. In: DASCAL, M.; ESTEVEZ, M. G.; DE SALAS, J.. (Org.). La Pluralidad y sus Atributos: Usos y maneras en la construcción de la Persona. Madri: Biblioteca Nueva, 2001, v. , p. 263-278. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Uma universidade para o próximo milênio. In: LOUREIRO, I.; DEL MASSO, M. C.. (Org.). Tempos de Greve na Universidade Pública. Marília: UNESP, 2001, v. , p. 93-101. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Reputation and refutation. In: WEINGAND, E.; DASCAL, M.. (Org.). Negotiation and Power in Dialogic Interaction. Amsterdam: John Benjamins, 2001, v. , p. 3-17. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Leibniz and Epistemological Diversity. In: A. Lamarra; R. Palaia. (Org.). Unita Molteplicita nel Pensiero Filosofico e Scientifico di Leibniz. Roma: Leo S. Olschki Editore, 2000, v. , p. 15-37. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MISHORI, D. ; <b>DASCAL, M.</b> . Language change as a rhetorical strategy. In: NARANG, H.. (Org.). Semiotics of Language, Literature and Cinema. Nova Deli: Books Plus, 2000, v. , p. 51-67. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Ethos in argumentation: A pragma-rhetorical approach. In: AMOSSY, R.. (Org.). Images de soi dans le discours: construction de l'ethos. Lausanne: Delachaux et Niestle, 1999, v. , p. 61-73. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Pragmatics and communicative intentions. In: DASCAL, M.. (Org.). Filosofía del Lenguaje II: Pragmática. Madri: Editorial Trotta and Consejo Superior de Investigaciones Científicas, 1999, v. , p. 21-51. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Three prejudices about prejudice. In: AMOSSY, R.; DELON, M.. (Org.). Critique et Légitimité du Préjugé: XVIIIe-XXe Siécles. Bruxelas: Presses de l'Université Libre de Bruxelles, 1999, v. , p. 113-118. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Artificial intelligence and philosophy: the knowledge of representation. In: BUCHOLZ, K.; RAHMAN, S.; WEBER, I.. (Org.). Wege zur Vernunft: Philosophieren zwischen Tätigkeit und Reflexion. Frankfurt / Nova Iorque: Campus Verlag, 1999, v. , p. 161-179. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Technology and learning: prospects and pitfalls. In: AVIRAM, A.; RICHARDSON-DEBERGHES, J.. (Org.). Pedagogical Technology and Educational Systems: Guiding Visions for the 21st Century. Beer-Sheva: The Center for Futurism in Education, Ben Gurion University, 1999, v. , p. 86-89. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Desafio de Hobbes. In: L. R. dos Santos; P. M. S. Alves; A. Cardoso (eds.). (Org.). Descartes, Leibniz e a Modernidade. Lisboa: Editora Colibri, 1998, v. , p. 369-398. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Controversies and Polemics. In: M. Blay; R. Halleux (eds.). (Org.). La Science Classique, XVIe-XVIIIe: Dictionnaire Critique. Paris: Flammarion, 1998, v. , p. 26-35. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Conditions for the exercise of critique. In: SARFATI, G.-E.. (Org.). Discours, Culture, Politique: Essai de Redefinition de la Fonction Critique. Tel Aviv: Institut Francais, 1998, v. , p. 37-40. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . The Beginnings of Scientific Semiotics. In: R. Posner;  K. Robering; T. A. Sebeok (eds.). (Org.). Semiotics - A Handbook on the Sign-theoretic Foundations of Nature and Culture. Berlin: De Gruyter, 1997, v. 1, p. 746-762. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DROR, I. ; <b>DASCAL, M.</b> . Can Wittgenstein help free the mind from rules?. In: JOHNSON, D. M.; ERNELING, C.. (Org.). The Future of the Cognitive Revolution. Oxford: Oxford University Press, 1997, v. , p. 217-226. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . The language of thought and the game of language. In: ASTROH, M.; GERHARDUS, D.; HEINZMA, G.. (Org.). Dialogisches Handeln: Ein Festschrift für Kuno Lorenz. Heildeberg: Spektrum Akademischer Verlag, 1997, v. , p. 183-191. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Observations on the dynamics of controversies. In: GÓMEZ, A. Velasco. (Org.). Racionalidad y Cambio Científico. Cidade do México: Paidós, 1997, v. , p. 99-121. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> ; DASCAL, V. . The limits of interpretation. In: ROZENBERG, J.. (Org.). Sense and Nonsense: Philosophical, Clinical and Ethical Perspectives. Jerusalém: The Magnes Press, 1996, v. , p. 203-223. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . La Balanza de la Razon. In: NUDLER, O.. (Org.). La racionalidad: su poder y sus limites. Buenos Aires: Paidos, 1996, v. , p. 363-381. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . The Beyond Enterprise. In: STEWART, J.. (Org.). Bayond the Symbol Model: Reflections on the Representational Nature of Language. Albany: SUNY Press, 1996, v. , p. 303-334. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . The debate on the primacy of thinking or speaking. In: DASCAL, M.; GERHARDUS, D.; LORENZ, K.; MEGGLE, G.. (Org.). Philosophy of Language - An International Handbook of Contemporary Research. Berlin / Nova Iorque: De Gruyter, 1995, v. , p. 1024-1040. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> ; HINTIKKA, J. ; LORENZ, K. . Games in language. In: DASCAL, M.; GERHARDUS, D.; LORENZ, K.; MEGGLE, G.. (Org.). Philosophy of Language - An International Handbook of Contemporary Research. Berlim / Nova Iorque: De Gruyter, 1995, v. , p. 1371-1391. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Unfolding the One: 'abstract relations' in Spinoza's theory of knowledge. In: Y. Yovel (ed.). (Org.). Spinoza on Knowledge and the Human Mind. Leiden: Brill, 1994, v. 2, p. 171-185. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Language in the Mind's House. In: Q. Racionero Carmona; C. Roldan Panadero (eds.). (Org.). G. W. Leibniz: analogia y expression. Madrid: Editorial Complutense, 1994, v. , p. 55-77. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Language and Knowledge in Modern Philosophy. Enciclopedia Iberoamericana de Filosofia. Madrid: Editorial Trotta and Consejo Superior de Investigaciones Cientificas, 1994, v. 6, p. 15-51. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Speech act theory and Gricean pragmatics. In: TSOHATZIDIS, S. L.. (Org.). Foundations of Speech Act Theory: Philosophical and Linguistic Perspectives. Londres: Routledge, 1994, v. , p. 323-334. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . On Adam and many cultures: the role of political pluralism in the best of possible worlds. In: DASCAL, M; YAKIRA, E.. (Org.). Leibniz and Adam. Tel Aviv: University Publishing Projects, 1993, v. , p. 387-409. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Cultural diversity and educational practice. In: OLIVÉ, L.. (Org.). Etica y Diversidad Cultural. Cidade do México: UNAM y Fondo de Cultura Económica, 1993, v. , p. 229-252. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Kant: language and empirical knowledge. In: M. Valdez (ed.). (Org.). Relativismo Linguístico y Epistemológico. México: Associação Filosófica de México e Instituto de Investigaciones Filosóficas, U.N.A.M., 1992, v. , p. 27-38. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . On the pragmatic structure of conversation. In: PARRET, H.; VERSCHUEREN, J.. (Org.). Searle on Conversation. Amsterdã: John Benjamins, 1992, v. , p. 35-56. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Models of Interpretation. In: STAMENOV, M.. (Org.). Current Advances in Semantic Theory. Amsterdã: John Benjamins, 1992, v. , p. 109-127. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . The ecology of cultural space. In: DASCAL, M.. (Org.). Cultural Relativism and Philosophy: North and Latin American Perspectives. Leiden: Brill, 1991, v. , p. 279-295. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Pluralism in education. In: SHAPIRA, R.; KASHER, A.. (Org.). Reshafim: Historical, Philosophical, and Sociological Aspects of Education. Tel Aviv: Tel Aviv University, 1991, v. , p. 399-412. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Leibniz on particles: linguistic form and comparatism. In: MAURO, T. de; FORMIGARI, L.. (Org.). Leibniz, Humboldt, and the Origins of Comparativism. Amsterdã / Philadelphia: John Benjamins, 1990, v. , p. 31-60. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . The Controversy about ideas and the ideas about controversy. In: Gil, F.. (Org.). Controvérsias Científicas e Filosóficas. Lisboa: Editora Fragmentos, 1990, v. , p. 61-100. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>56. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Artificial intelligence as epistemology?. In: VILLANUEVA, E.. (Org.). Information, Semantics, and Epistemology. Oxford: Blackwell, 1990, v. , p. 224-241. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>57. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Rationality and interpretative tolerance. Filosofia da Ciencia. Vigo: Grupo Aletheia/Editorial Ir Indo, 1990, v. , p. 143-164. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>58. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Pluralism in education. In: NIJHOFF, W.. (Org.). Values in Higher Education: 'Bildungsideale' in Historical and Contemporary Perspective. Enschede: University of Twente, 1990, v. , p. 125-140. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>59. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KATRIEL, T. ; <b>DASCAL, M.</b> . Speaker's commitment and involvement. In: TOBIN, Y.. (Org.). From Sign to Text: A Semiotic View of Communication. Amsterdã / Philadelphia: John Benjamins, 1989, v. , p. 275-295. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>60. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Controversies as quasi-dialogues. In: WEIGAND, E.; HUNDSNURCHER, F.. (Org.). Dialoganalyse. Tuebingen: Niemeyer, 1989, v. , p. 147-159. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>61. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Leibniz vs. Descartes: Competing Paradigms for Cognitive Science. In: HEINEKAMP, A.. (Org.). Leibniz - Tradition und Aktualität. Hannover: Leibniz Gesellschaft, 1989, v. , p. 189-196. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>62. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Tolerance and interpretation. In: ROSEN, Z.; TAUBER, Z.. (Org.). Violence and Tolerance. Tel Aviv: Papyrus, 1989, v. , p. 157-172. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>63. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Tolerance and interpretation. In: DASCAL, M.. (Org.). Conhecimento, Linguagem, Ideologia. São Paulo: Perspectiva, 1989, v. , p. 217-240. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>64. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> ; IDAN, A. . From individual to collective action. In: VANDAMME, F.; PINXTEN, R.. (Org.). The Philosophy of Leo Apostel - Descriptive and Critical Essays. Ghent: Communication and Cognition, 1989, v. , p. 133-148. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>65. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Rational-chioce explanations: The limits to grounding. In: ULLMAN-MAGALIT, E.. (Org.). Science in Reflection on the crisis of modernity. Dordrecht: Kluwer Academic Publishers, 1988, v. , p. 67-79. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>66. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Reflections on the crisis of modernity. In: COHEN, A.; DASCAL, M.. (Org.). The Institution of Philosophy: A Discipline in Crisis?. La Salle: Open Court, 1988, v. , p. 217-240. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>67. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> ; WEIZMAN, E. . Contextual exploitation of interpretation clues in text understanding: an integrated model. In: VERSCHUEREN, J.; BERTUCELLI-PAPI, M.. (Org.). The Pragmatic Perspective - Selected Papers from the 1985 International Pragmatics Conference. Amsterdã / Philadelphia: John Benjamins, 1987, v. , p. 31-46. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>68. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> ; DASCAL, V. ; LANDAU, E. . The art of moving and the art of proving. In: VAN EEMEREN ET AL, F. H.. (Org.). Argumentation: Perspectives and Approaches. Dordrecht: Foris, 1987, v. , p. 179-186. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>69. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Language and reasoning: sorting out sociopragmatic and psychopragmatic factors. In: BOUDREAUX, J. C.; HAMILL, B. W.; JERNIGAN, R.. (Org.). The Role of Language in Problem Solving 2. Amstredã: Elsevier Science Publishers B. V., 1987, v. , p. 183-197. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>70. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . The relevance of misunderstanding. In: DASCAL, M.. (Org.). Dialogue - An Interdisciplinary Approach. Amsterdã / Philadelphia: John Benjamins, 1985, v. , p. 441-460. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>71. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Philosophical analysis in Brazil. In: GRACIA, J.; RABOSSI, E.; VILLANUEVA, E.; DASCAL, M.. (Org.). Philosophical Analysis in Latin America. Dordrecht: D. Reidel, 1984, v. , p. 227-284. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>72. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Strategies of understanding. In: PARRET, H.; BOUVERESSE, J.. (Org.). Meaning and Understanding. Berlim / Nova Iorque: Walter de Gruyter, 1981, v. , p. 327-352. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>73. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Contextualism. In: PARRET, H.; SBISA, M.; VERSCHUEREN, J.. (Org.). Possibilities and Limitations of Pragmatics. Amsterdã / Philadelphia: John Benjamins, 1981, v. , p. 153-177. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>74. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> ; WACHOWITZ, K. ; ZAVARIN, V. ; SINGER, M. T. . Commitment and reference in schizophrenic discourse. In: MASEK, C. S.; HENDRICK, R. A.; MILLER, M. F.. (Org.). Papers from the Parasession on Language and Behavior. Chicago: Chicago Linguistic Society, 1981, v. , p. 57-65. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Nihil sine ratione -> Blandior ratio ('Nothing without a reason -> A softer reason'). In: VII Internationaler Leibniz-Kongress, 2001, Berlim. Nihil sine ratione. Berlim, 2001. v. I. p. 276-280. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Types of polemics and types of polemical moves. In: Dialogue Analysis VI, 1998, Praga. Dialogues Analysis VI. Tubingen: Max Niemeyer, 1998. p. 15-33. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Strategies of dispute and ethics: Du tort and La place d'autruy. In: VI Internationaler Leibniz-Kongress, 1995, Hannover. Proceedings of the VI Internationaler Leibniz-Kongress. Hannover, 1995. v. 2. p. 108-116. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Why should I ask her?. In: Ninth International Wittgenstein Symposium, 1985, Kirchberg. Philosophy of Mind - Philosophy of Psychology. Viena: Hoelder - Pichler - Tempsky, 1985. p. 571-576. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . A semiotically relevant history of semiotics. In: Second Congress of the International Association for Semiotic Studies, 1984, Viena. Semiotics Unfolding. Berlim / Nova Iorque: Mouton, 1984. p. 61-65. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DASCAL, M.</b> . Towards psychopragmatics. Investigaciones Semióticas 4. In: Second Congress of the International Association for Semiotic Studies, 1984, Viena. Semiotics Unfolding, 1979. v. 2. p. 1119-1126. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cristina Marras.
+						On the Metaphorical Network of Leibniz's Philosophy.
+							2003. Tese
+					 (Doutorado em Filosofia)  - Tel Aviv University, . Orientador: Marcelo Dascal. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daniel Mishori.
+						Arguing from Inner Experience: The Inner Sense from Locke to Reid.
+							2003. Tese
+					 (Doutorado em Filosofia)  - Tel Aviv University, . Orientador: Marcelo Dascal. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Herzl Baruch.
+						From Scientific Theories to Recommendations for Action.
+							2002. Tese
+					 (Doutorado em Filosofia)  - Tel Aviv University, . Orientador: Marcelo Dascal. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Varda Furman.
+						Belgian neo-babouvism (1830-1839): A revolutionary experience entangled in its rhetoric.
+							2002. Tese
+					 (Doutorado em Filosofia)  - Tel Aviv University, . Co-Orientador: Marcelo Dascal. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Noa Naaman Zauderer.
+						Error Without Falsity: Rationality and Error in the Philosophy of Descartes.
+							2002. Tese
+					 (Doutorado em Filosofia)  - Tel Aviv University, . Orientador: Marcelo Dascal. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ilana Arbel.
+						Critique of Ideology Without Truth and Freedom?.
+							2001. Tese
+					 (Doutorado em Filosofia)  - Tel Aviv University, . Orientador: Marcelo Dascal. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Laura Schwarz-Kipp Chair of Modern Philosophy e o Departamento de Filosofia da Tel Aviv University, realizaram no dia 21 de janeiro de 2009 um Colóquio Internacional dedicado à Leibniz, pela ocasião da publicação de dois livros de Marcelo Dascal: "G. W. Leibniz: The Art of Controversies" e "Leibniz: What Kind of Rationalist?". 
+
+Nos dias 10 e 11 de Novembro de 2011 realizou-se em Tel Aviv um Coloquio Internacional com o titulo "Dialogo Filosofico" em que os participantes apresentaram trabalhos relacionados com as obras de Marcelo Dascal, que participou da discussao e dialogo. Um livro contendo os trabalhos e os comentarios de Dascal esta em vias de publicacao.
+
+O livro "Leibniz: What Kind of Rationalist", organizado por M. Dascal foi escolhido pela 'International Leibniz Society' (Leibniz Gesellschaft)  como o presente anual para os seus membros no ano de 2009.
+
+Um "Prêmio Marcelo Dascal foi instituido em 2003 pela Associação Brasileira Internacional de Ciência Cognitiva, para premiar, a cada dois anos, a melhor monografia na área de ciência cognitiva.</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 09/05/2014 &agrave;s 14:20:16</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0090229859882237" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>
