@@ -44,7 +44,7 @@ public class LikedFilms
 	    int soma = 0;
 	    int total = 0;
 	    int max = 0;
-	    ArrayList<String> fim = new ArrayList();
+	    static ArrayList<String> fim = new ArrayList();
 
 	    public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException
 	    {
